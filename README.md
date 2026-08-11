@@ -1,17 +1,13 @@
-# ogrenme_asistani
+# Öğrenme Asistanı
 
-A new Flutter project.
+Flutter ile geliştirilen, yapay zeka destekli kişisel öğrenme asistanı Android uygulaması. Ders notlarını yapıştırıp otomatik flashcard üretebilir, konularla ilgili AI ile sohbet edip özel ders alabilir, oluşturduğun kartları quiz modunda tekrar edebilirsin.
 
-## Getting Started
+Şu ana kadar tamamlanan özellikler:
 
-This project is a starting point for a Flutter application.
+- **AI Sohbet**: Google Gemini ile sohbet ederek soru sorma / özel ders alma.
+- **Otomatik Flashcard Üretimi**: Bir ders notu/metin yapıştırıp tek tıkla soru-cevap kartı seti oluşturma.
+- **Kalıcı Kart Setleri**: Oluşturulan kart setleri cihazda saklanır, uygulama kapanıp açılsa da kaybolmaz.
+- **Quiz / Tekrar Modu**: Kartları karışık sırayla gösterip "Bildim / Bilemedim" ile kendi kendini sınama, sonunda özet skor.
+- **Profil & Tema**: Uygulama bilgisi ve açık/koyu tema arasında kalıcı geçiş.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Kullanılan teknolojiler:** Flutter, Google Gemini API, yerel depolama için SharedPreferences.
