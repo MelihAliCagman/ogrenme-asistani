@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/models/chat_message.dart';
+import 'package:ogrenme_asistani/services/chat_repository.dart';
 import 'package:ogrenme_asistani/services/gemini_service.dart';
-
-class ChatMessage {
-  ChatMessage({required this.text, required this.isUser, this.isError = false});
-
-  final String text;
-  final bool isUser;
-  final bool isError;
-}
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});
@@ -21,7 +15,25 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final GeminiService _geminiService = GeminiService();
+  final ChatRepository _chatRepository = ChatRepository();
   bool _isAiTyping = false;
+  bool _isLoadingHistory = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadHistory();
+  }
+
+  Future<void> _loadHistory() async {
+    final messages = await _chatRepository.loadAll();
+    if (!mounted) return;
+    setState(() {
+      _messages.addAll(messages);
+      _isLoadingHistory = false;
+    });
+    _scrollToBottom();
+  }
 
   Future<void> _sendMessage() async {
     final text = _controller.text.trim();
@@ -33,6 +45,7 @@ class _ChatScreenState extends State<ChatScreen> {
     });
     _controller.clear();
     _scrollToBottom();
+    await _chatRepository.saveAll(_messages);
 
     try {
       final reply = await _geminiService.sendMessage(text);
@@ -57,6 +70,7 @@ class _ChatScreenState extends State<ChatScreen> {
       });
     }
     _scrollToBottom();
+    await _chatRepository.saveAll(_messages);
   }
 
   void _scrollToBottom() {
@@ -84,7 +98,9 @@ class _ChatScreenState extends State<ChatScreen> {
       body: Column(
         children: [
           Expanded(
-            child: _messages.isEmpty && !_isAiTyping
+            child: _isLoadingHistory
+                ? const Center(child: CircularProgressIndicator())
+                : _messages.isEmpty && !_isAiTyping
                 ? const Center(
                     child: Text('Henüz mesaj yok. Bir şey yazıp gönder!'),
                   )
