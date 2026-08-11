@@ -15,7 +15,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final GeminiService _geminiService = GeminiService();
-  final ChatRepository _chatRepository = ChatRepository();
+  final ChatRepository _repository = ChatRepository();
   bool _isAiTyping = false;
   bool _isLoadingHistory = true;
 
@@ -26,7 +26,7 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   Future<void> _loadHistory() async {
-    final messages = await _chatRepository.loadAll();
+    final messages = await _repository.loadAll();
     if (!mounted) return;
     setState(() {
       _messages.addAll(messages);
@@ -45,7 +45,7 @@ class _ChatScreenState extends State<ChatScreen> {
     });
     _controller.clear();
     _scrollToBottom();
-    await _chatRepository.saveAll(_messages);
+    await _repository.saveAll(_messages);
 
     try {
       final reply = await _geminiService.sendMessage(text);
@@ -70,7 +70,7 @@ class _ChatScreenState extends State<ChatScreen> {
       });
     }
     _scrollToBottom();
-    await _chatRepository.saveAll(_messages);
+    await _repository.saveAll(_messages);
   }
 
   void _scrollToBottom() {

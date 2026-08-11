@@ -1,32 +1,15 @@
-import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:ogrenme_asistani/services/json_list_storage.dart';
 
 class CardSetRepository {
-  static const _storageKey = 'flashcard_sets';
+  final _storage = JsonListStorage<FlashcardSet>(
+    storageKey: 'flashcard_sets',
+    fromJson: FlashcardSet.fromJson,
+    toJson: (set) => set.toJson(),
+    logTag: 'CardSetRepository',
+  );
 
-  Future<List<FlashcardSet>> loadAll() async {
-    final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getString(_storageKey);
-    if (raw == null || raw.isEmpty) return [];
+  Future<List<FlashcardSet>> loadAll() => _storage.loadAll();
 
-    try {
-      final rawList = jsonDecode(raw) as List;
-      return rawList
-          .whereType<Map<String, dynamic>>()
-          .map(FlashcardSet.fromJson)
-          .toList();
-    } catch (e) {
-      debugPrint('[CardSetRepository] Kayıtlı kartlar okunamadı: $e');
-      return [];
-    }
-  }
-
-  Future<void> saveAll(List<FlashcardSet> sets) async {
-    final prefs = await SharedPreferences.getInstance();
-    final raw = jsonEncode(sets.map((s) => s.toJson()).toList());
-    await prefs.setString(_storageKey, raw);
-  }
+  Future<void> saveAll(List<FlashcardSet> sets) => _storage.saveAll(sets);
 }

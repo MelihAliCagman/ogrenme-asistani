@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
+import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({super.key, required this.cardSet});
@@ -91,73 +92,21 @@ class _QuizScreenState extends State<QuizScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(20),
-                decoration: BoxDecoration(
-                  color: colorScheme.primaryContainer,
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'SORU',
-                      style: TextStyle(
-                        color: colorScheme.onPrimaryContainer.withValues(
-                          alpha: 0.7,
-                        ),
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      card.question,
-                      style: TextStyle(
-                        color: colorScheme.onPrimaryContainer,
-                        fontSize: 18,
-                      ),
-                    ),
-                  ],
-                ),
+              LabeledInfoCard(
+                label: 'SORU',
+                text: card.question,
+                background: colorScheme.primaryContainer,
+                foreground: colorScheme.onPrimaryContainer,
+                textFontSize: 18,
               ),
               if (_showAnswer) ...[
                 const SizedBox(height: 12),
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: colorScheme.secondaryContainer,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'CEVAP',
-                        style: TextStyle(
-                          color: colorScheme.onSecondaryContainer.withValues(
-                            alpha: 0.7,
-                          ),
-                          fontSize: 12,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 0.5,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        card.answer,
-                        style: TextStyle(
-                          color: colorScheme.onSecondaryContainer,
-                          fontSize: 18,
-                        ),
-                      ),
-                    ],
-                  ),
+                LabeledInfoCard(
+                  label: 'CEVAP',
+                  text: card.answer,
+                  background: colorScheme.secondaryContainer,
+                  foreground: colorScheme.onSecondaryContainer,
+                  textFontSize: 18,
                 ),
               ],
             ],
