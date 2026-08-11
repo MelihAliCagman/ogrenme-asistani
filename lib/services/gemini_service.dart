@@ -19,8 +19,14 @@ class GeminiService {
 
   final String model;
 
-  Future<String> sendMessage(String prompt) {
-    return _generateText(prompt);
+  Future<String> sendMessage(String prompt, {String? systemInstruction}) {
+    return _generateText(prompt, systemInstruction: systemInstruction);
+  }
+
+  /// Streams the reply as it's generated. Each emitted value is an
+  /// incremental text chunk (not the full text so far).
+  Stream<String> sendMessageStream(String prompt, {String? systemInstruction}) {
+    return _generateTextStream(prompt, systemInstruction: systemInstruction);
   }
 
   Future<({String title, List<Flashcard> cards})> generateFlashcards(
@@ -86,6 +92,7 @@ class GeminiService {
   Future<String> _generateText(
     String prompt, {
     Map<String, dynamic>? generationConfig,
+    String? systemInstruction,
   }) async {
     final apiKey = dotenv.env['GEMINI_API_KEY'];
     if (apiKey == null || apiKey.isEmpty) {
@@ -112,6 +119,10 @@ class GeminiService {
                   'parts': [{'text': prompt}],
                 },
               ],
+              if (systemInstruction != null)
+                'systemInstruction': {
+                  'parts': [{'text': systemInstruction}],
+                },
               'generationConfig': ?generationConfig,
             }),
           )
@@ -155,6 +166,81 @@ class GeminiService {
       debugPrint('[GeminiService] Alınan veri: $data');
       if (e is GeminiException) rethrow;
       throw GeminiException('Yanıt beklenen formatta değil.');
+    }
+  }
+
+  Stream<String> _generateTextStream(
+    String prompt, {
+    String? systemInstruction,
+  }) async* {
+    final apiKey = dotenv.env['GEMINI_API_KEY'];
+    if (apiKey == null || apiKey.isEmpty) {
+      debugPrint('[GeminiService] GEMINI_API_KEY bulunamadı veya boş.');
+      throw GeminiException('API anahtarı bulunamadı.');
+    }
+
+    final uri = Uri.parse(
+      'https://generativelanguage.googleapis.com/v1beta/models/$model:streamGenerateContent?alt=sse',
+    );
+
+    final request = http.Request('POST', uri)
+      ..headers['Content-Type'] = 'application/json'
+      ..headers['x-goog-api-key'] = apiKey
+      ..body = jsonEncode({
+        'contents': [
+          {
+            'parts': [{'text': prompt}],
+          },
+        ],
+        if (systemInstruction != null)
+          'systemInstruction': {
+            'parts': [{'text': systemInstruction}],
+          },
+      });
+
+    http.StreamedResponse response;
+    try {
+      response = await http.Client()
+          .send(request)
+          .timeout(const Duration(seconds: 30));
+    } catch (e) {
+      debugPrint('[GeminiService] Streaming isteği gönderilemedi: $e');
+      throw GeminiException('Sunucuya bağlanılamadı.');
+    }
+
+    if (response.statusCode != 200) {
+      final body = await response.stream.bytesToString();
+      debugPrint('[GeminiService] HTTP ${response.statusCode} yanıtı: $body');
+      throw GeminiException(
+        'Sunucudan hata yanıtı alındı (${response.statusCode}).',
+      );
+    }
+
+    final lines = response.stream
+        .transform(utf8.decoder)
+        .transform(const LineSplitter());
+
+    await for (final line in lines) {
+      if (!line.startsWith('data: ')) continue;
+      final jsonStr = line.substring(6).trim();
+      if (jsonStr.isEmpty) continue;
+
+      try {
+        final data = jsonDecode(jsonStr) as Map<String, dynamic>;
+        final candidates = data['candidates'] as List?;
+        if (candidates == null || candidates.isEmpty) continue;
+        final parts =
+            (candidates[0] as Map<String, dynamic>)['content']?['parts']
+                as List?;
+        if (parts == null) continue;
+        final text = parts
+            .map((part) => (part as Map<String, dynamic>)['text'])
+            .whereType<String>()
+            .join();
+        if (text.isNotEmpty) yield text;
+      } catch (e) {
+        debugPrint('[GeminiService] Stream parçası ayrıştırılamadı: $e');
+      }
     }
   }
 }

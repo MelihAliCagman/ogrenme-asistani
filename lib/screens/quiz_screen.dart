@@ -142,9 +142,11 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget _buildSummary(BuildContext context) {
     final total = _shuffledCards.length;
 
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
         Icon(
           Icons.emoji_events_outlined,
           size: 64,
@@ -173,7 +175,8 @@ class _QuizScreenState extends State<QuizScreen> {
           icon: const Icon(Icons.style),
           label: const Text("Kartlarım'a Dön"),
         ),
-      ],
+        ],
+      ),
     );
   }
 }
