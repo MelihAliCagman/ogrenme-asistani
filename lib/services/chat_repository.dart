@@ -1,32 +1,15 @@
-import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
 import 'package:ogrenme_asistani/models/chat_message.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:ogrenme_asistani/services/json_list_storage.dart';
 
 class ChatRepository {
-  static const _storageKey = 'chat_messages';
+  final _storage = JsonListStorage<ChatMessage>(
+    storageKey: 'chat_messages',
+    fromJson: ChatMessage.fromJson,
+    toJson: (message) => message.toJson(),
+    logTag: 'ChatRepository',
+  );
 
-  Future<List<ChatMessage>> loadAll() async {
-    final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getString(_storageKey);
-    if (raw == null || raw.isEmpty) return [];
+  Future<List<ChatMessage>> loadAll() => _storage.loadAll();
 
-    try {
-      final rawList = jsonDecode(raw) as List;
-      return rawList
-          .whereType<Map<String, dynamic>>()
-          .map(ChatMessage.fromJson)
-          .toList();
-    } catch (e) {
-      debugPrint('[ChatRepository] Kayıtlı mesajlar okunamadı: $e');
-      return [];
-    }
-  }
-
-  Future<void> saveAll(List<ChatMessage> messages) async {
-    final prefs = await SharedPreferences.getInstance();
-    final raw = jsonEncode(messages.map((m) => m.toJson()).toList());
-    await prefs.setString(_storageKey, raw);
-  }
+  Future<void> saveAll(List<ChatMessage> messages) => _storage.saveAll(messages);
 }
