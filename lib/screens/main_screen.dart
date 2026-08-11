@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ogrenme_asistani/screens/chat_screen.dart';
+import 'package:ogrenme_asistani/screens/chat_list_screen.dart';
 import 'package:ogrenme_asistani/screens/cards_screen.dart';
 import 'package:ogrenme_asistani/screens/profile_screen.dart';
 
@@ -14,7 +14,7 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = const [
-    ChatScreen(),
+    ChatListScreen(),
     CardsScreen(),
     ProfileScreen(),
   ];

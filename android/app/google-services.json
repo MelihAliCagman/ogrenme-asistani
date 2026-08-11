@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "544152754809",
+    "project_id": "ogrenme-asistani",
+    "storage_bucket": "ogrenme-asistani.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544152754809:android:f0c84d52b63c3f8d3f12a8",
+        "android_client_info": {
+          "package_name": "com.example.ogrenme_asistani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544152754809-3lrkmg54d9a2ocmdvb9chraafj3uv34t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ogrenme_asistani",
+            "certificate_hash": "3c0c8a21184cc58e21b6bcbace86dfb94b6920c1"
+          }
+        },
+        {
+          "client_id": "544152754809-cg0keh39keadmenhdb82jk0dmu062reh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtabony3iJNR5RFt1WMVkQHfBqiOUf-lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544152754809-cg0keh39keadmenhdb82jk0dmu062reh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "544152754809-upstaevsr7p9vkajv8uvm3k55akf44ua.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ogrenmeAsistani"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

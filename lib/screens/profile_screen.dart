@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/screens/avatar_selection_screen.dart';
+import 'package:ogrenme_asistani/services/auth_service.dart';
+import 'package:ogrenme_asistani/services/chat_font_size.dart';
+import 'package:ogrenme_asistani/services/chat_font_size_controller.dart';
 import 'package:ogrenme_asistani/services/theme_controller.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -29,6 +33,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final user = AuthService.currentUser;
+    final accountLabel = user == null
+        ? null
+        : (user.isAnonymous ? 'Misafir kullanıcı' : (user.email ?? user.displayName ?? 'Hesap'));
 
     return Scaffold(
       appBar: AppBar(title: const Text('Profil')),
@@ -57,6 +65,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   _versionLabel ?? 'Sürüm bilgisi yükleniyor...',
                   style: Theme.of(context).textTheme.bodySmall,
                 ),
+                if (accountLabel != null) ...[
+                  const SizedBox(height: 4),
+                  Text(
+                    accountLabel,
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                ],
               ],
             ),
           ),
@@ -76,6 +91,77 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               );
             },
+          ),
+          const SizedBox(height: 16),
+          ValueListenableBuilder<ChatFontSize>(
+            valueListenable: ChatFontSizeController.fontSize,
+            builder: (context, size, _) {
+              return Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          const Icon(Icons.format_size),
+                          const SizedBox(width: 16),
+                          Text(
+                            'Sohbet Yazı Boyutu',
+                            style: Theme.of(context).textTheme.bodyLarge,
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                      SizedBox(
+                        width: double.infinity,
+                        child: SegmentedButton<ChatFontSize>(
+                          segments: ChatFontSize.values
+                              .map(
+                                (value) => ButtonSegment(
+                                  value: value,
+                                  label: Text(value.label),
+                                ),
+                              )
+                              .toList(),
+                          selected: {size},
+                          onSelectionChanged: (selected) {
+                            ChatFontSizeController.setFontSize(
+                              selected.first,
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
+          ),
+          const SizedBox(height: 16),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.auto_awesome_outlined),
+              title: const Text('Asistanı Özelleştir'),
+              subtitle: const Text('Asistanının adını ve karakterini değiştir'),
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => AvatarSelectionScreen(
+                      onSaved: (_) => Navigator.of(context).pop(),
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+          const SizedBox(height: 16),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.logout),
+              title: const Text('Çıkış Yap'),
+              onTap: () => AuthService.signOut(),
+            ),
           ),
         ],
       ),

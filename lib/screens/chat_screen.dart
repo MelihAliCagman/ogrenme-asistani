@@ -1,10 +1,23 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/models/assistant_profile.dart';
 import 'package:ogrenme_asistani/models/chat_message.dart';
+import 'package:ogrenme_asistani/services/assistant_profile_repository.dart';
+import 'package:ogrenme_asistani/services/chat_font_size.dart';
+import 'package:ogrenme_asistani/services/chat_font_size_controller.dart';
 import 'package:ogrenme_asistani/services/chat_repository.dart';
+import 'package:ogrenme_asistani/services/chat_session_repository.dart';
 import 'package:ogrenme_asistani/services/gemini_service.dart';
 
 class ChatScreen extends StatefulWidget {
-  const ChatScreen({super.key});
+  const ChatScreen({
+    super.key,
+    required this.chatId,
+    required this.initialTitle,
+  });
+
+  final String chatId;
+  final String initialTitle;
 
   @override
   State<ChatScreen> createState() => _ChatScreenState();
@@ -15,14 +28,22 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final GeminiService _geminiService = GeminiService();
-  final ChatRepository _repository = ChatRepository();
+  late final ChatRepository _repository = ChatRepository(
+    chatId: widget.chatId,
+  );
+  final ChatSessionRepository _sessionRepository = ChatSessionRepository();
+  final AssistantProfileRepository _assistantProfileRepository =
+      AssistantProfileRepository();
   bool _isAiTyping = false;
   bool _isLoadingHistory = true;
+  AssistantProfile? _assistantProfile;
+  late String _title = widget.initialTitle;
 
   @override
   void initState() {
     super.initState();
     _loadHistory();
+    _loadAssistantProfile();
   }
 
   Future<void> _loadHistory() async {
@@ -35,9 +56,30 @@ class _ChatScreenState extends State<ChatScreen> {
     _scrollToBottom();
   }
 
+  Future<void> _loadAssistantProfile() async {
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid == null) return;
+    final profile = await _assistantProfileRepository.load(uid);
+    if (!mounted) return;
+    setState(() => _assistantProfile = profile);
+  }
+
+  String? get _systemInstruction {
+    final profile = _assistantProfile;
+    if (profile == null) return null;
+    final genderWord = profile.gender == AssistantGender.male
+        ? 'erkek'
+        : 'kadın';
+    return 'Sen ${profile.name} adında, $genderWord karakterli, kullanıcıyı '
+        'motive eden dostane bir öğrenme koçusun. Öğrencilere sabırlı, '
+        'pozitif ve teşvik edici bir üslupla yardımcı ol.';
+  }
+
   Future<void> _sendMessage() async {
     final text = _controller.text.trim();
     if (text.isEmpty) return;
+
+    final isFirstMessage = _messages.isEmpty;
 
     setState(() {
       _messages.add(ChatMessage(text: text, isUser: true));
@@ -46,31 +88,67 @@ class _ChatScreenState extends State<ChatScreen> {
     _controller.clear();
     _scrollToBottom();
     await _repository.saveAll(_messages);
+    if (isFirstMessage) _deriveTitleFromFirstMessage(text);
 
+    var hasReceivedChunk = false;
     try {
-      final reply = await _geminiService.sendMessage(text);
-      if (!mounted) return;
-      setState(() {
-        _isAiTyping = false;
-        _messages.add(ChatMessage(text: reply, isUser: false));
-      });
+      final stream = _geminiService.sendMessageStream(
+        text,
+        systemInstruction: _systemInstruction,
+      );
+      await for (final chunk in stream) {
+        if (!mounted) return;
+        setState(() {
+          if (!hasReceivedChunk) {
+            hasReceivedChunk = true;
+            _isAiTyping = false;
+            _messages.add(ChatMessage(text: chunk, isUser: false));
+          } else {
+            final last = _messages.last;
+            _messages[_messages.length - 1] = ChatMessage(
+              text: last.text + chunk,
+              isUser: false,
+            );
+          }
+        });
+        _scrollToBottom();
+      }
+      if (!hasReceivedChunk) throw GeminiException('Yanıt boş döndü.');
     } catch (e) {
       debugPrint('[ChatScreen] Gemini isteği başarısız: $e');
       if (!mounted) return;
       setState(() {
         _isAiTyping = false;
-        _messages.add(
-          ChatMessage(
-            text:
-                'Üzgünüm, şu anda cevap veremiyorum. Lütfen internet bağlantını kontrol edip tekrar dener misin?',
-            isUser: false,
-            isError: true,
-          ),
-        );
+        if (!hasReceivedChunk) {
+          _messages.add(
+            ChatMessage(
+              text:
+                  'Üzgünüm, şu anda cevap veremiyorum. Lütfen internet bağlantını kontrol edip tekrar dener misin?',
+              isUser: false,
+              isError: true,
+            ),
+          );
+        }
       });
     }
     _scrollToBottom();
     await _repository.saveAll(_messages);
+    await _touchUpdatedAt();
+  }
+
+  Future<void> _deriveTitleFromFirstMessage(String text) async {
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid == null) return;
+    final title = text.length > 40 ? '${text.substring(0, 40)}...' : text;
+    await _sessionRepository.updateTitle(uid, widget.chatId, title);
+    if (!mounted) return;
+    setState(() => _title = title);
+  }
+
+  Future<void> _touchUpdatedAt() async {
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid == null) return;
+    await _sessionRepository.touchUpdatedAt(uid, widget.chatId);
   }
 
   void _scrollToBottom() {
@@ -94,7 +172,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Sohbet')),
+      appBar: AppBar(title: Text(_title)),
       body: Column(
         children: [
           Expanded(
@@ -104,15 +182,24 @@ class _ChatScreenState extends State<ChatScreen> {
                 ? const Center(
                     child: Text('Henüz mesaj yok. Bir şey yazıp gönder!'),
                   )
-                : ListView.builder(
-                    controller: _scrollController,
-                    padding: const EdgeInsets.all(12),
-                    itemCount: _messages.length + (_isAiTyping ? 1 : 0),
-                    itemBuilder: (context, index) {
-                      if (index == _messages.length) {
-                        return const _TypingBubble();
-                      }
-                      return _ChatBubble(message: _messages[index]);
+                : ValueListenableBuilder<ChatFontSize>(
+                    valueListenable: ChatFontSizeController.fontSize,
+                    builder: (context, fontSize, _) {
+                      return ListView.builder(
+                        controller: _scrollController,
+                        padding: const EdgeInsets.all(12),
+                        itemCount: _messages.length + (_isAiTyping ? 1 : 0),
+                        itemBuilder: (context, index) {
+                          if (index == _messages.length) {
+                            return const _TypingBubble();
+                          }
+                          return _ChatBubble(
+                            message: _messages[index],
+                            assistantProfile: _assistantProfile,
+                            fontSize: fontSize.fontSize,
+                          );
+                        },
+                      );
                     },
                   ),
           ),
@@ -124,9 +211,15 @@ class _ChatScreenState extends State<ChatScreen> {
 }
 
 class _ChatBubble extends StatelessWidget {
-  const _ChatBubble({required this.message});
+  const _ChatBubble({
+    required this.message,
+    this.assistantProfile,
+    this.fontSize,
+  });
 
   final ChatMessage message;
+  final AssistantProfile? assistantProfile;
+  final double? fontSize;
 
   @override
   Widget build(BuildContext context) {
@@ -147,11 +240,9 @@ class _ChatBubble extends StatelessWidget {
       textColor = colorScheme.onSurface;
     }
 
-    return Align(
-      alignment: isUser ? Alignment.centerRight : Alignment.centerLeft,
-      child: Container(
+    final bubble = Container(
         constraints: BoxConstraints(
-          maxWidth: MediaQuery.of(context).size.width * 0.75,
+          maxWidth: MediaQuery.of(context).size.width * 0.85,
         ),
         margin: const EdgeInsets.symmetric(vertical: 4),
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
@@ -166,8 +257,31 @@ class _ChatBubble extends StatelessWidget {
         ),
         child: Text(
           message.text,
-          style: TextStyle(color: textColor),
+          style: TextStyle(color: textColor, fontSize: fontSize),
         ),
+      );
+
+    if (isUser) {
+      return Align(alignment: Alignment.centerRight, child: bubble);
+    }
+
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          CircleAvatar(
+            radius: 14,
+            backgroundColor: colorScheme.primaryContainer,
+            child: Text(
+              assistantProfile?.emoji ?? '🤖',
+              style: const TextStyle(fontSize: 14),
+            ),
+          ),
+          const SizedBox(width: 6),
+          Flexible(child: bubble),
+        ],
       ),
     );
   }

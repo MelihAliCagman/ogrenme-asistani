@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ogrenme_asistani/screens/main_screen.dart';
+import 'package:ogrenme_asistani/screens/auth_gate.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -12,14 +12,14 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    _goToMainScreen();
+    _goToAuthGate();
   }
 
-  Future<void> _goToMainScreen() async {
+  Future<void> _goToAuthGate() async {
     await Future.delayed(const Duration(seconds: 2));
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (context) => const MainScreen()),
+      MaterialPageRoute(builder: (context) => const AuthGate()),
     );
   }
 
