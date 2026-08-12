@@ -1,12 +1,17 @@
-// TEMPORARY one-off tool: writes the generated Keşfet sample lesson
-// content into the public `sample_lessons` Firestore collection.
+// Admin tool: writes tool/sample_lessons_output.json into the public
+// `sample_lessons` Firestore collection. Already run once (content is
+// live); keep this around to re-seed after regenerating/editing the
+// content in the future.
 //
-// Run on a connected device with:
-//   flutter run -t lib/tool/seed_sample_lessons.dart -d <device-id>
-//
-// Not part of the shipped app — remove this file, its asset
-// (assets/seed/sample_lessons.json) and the pubspec.yaml asset entry
-// once seeding succeeds.
+// To run again:
+//   1. Copy tool/sample_lessons_output.json to assets/seed/sample_lessons.json
+//      and add that path under `flutter: assets:` in pubspec.yaml (both are
+//      gitignored/removed after use — see git history for the exact diff).
+//   2. In Firebase Console → Firestore → Rules, temporarily change the
+//      sample_lessons write rule to `allow write: if request.auth != null;`
+//      and publish.
+//   3. flutter run -t lib/tool/seed_sample_lessons.dart -d <device-id>
+//   4. Revert the write rule to `allow write: if false;` and publish again.
 
 import 'dart:convert';
 
