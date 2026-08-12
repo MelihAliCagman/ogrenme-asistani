@@ -4,6 +4,8 @@ class ChatSession {
     required this.title,
     required this.createdAt,
     required this.updatedAt,
+    this.subjectId,
+    this.titleEditedByUser = false,
   });
 
   factory ChatSession.fromJson(String id, Map<String, dynamic> json) {
@@ -16,6 +18,8 @@ class ChatSession {
       updatedAt:
           DateTime.tryParse(json['updatedAt'] as String? ?? '') ??
           DateTime.now(),
+      subjectId: json['subjectId'] as String?,
+      titleEditedByUser: json['titleEditedByUser'] as bool? ?? false,
     );
   }
 
@@ -23,6 +27,8 @@ class ChatSession {
   final String title;
   final DateTime createdAt;
   final DateTime updatedAt;
+  final String? subjectId;
+  final bool titleEditedByUser;
 
   static const defaultTitle = 'Yeni Sohbet';
 
@@ -30,5 +36,7 @@ class ChatSession {
     'title': title,
     'createdAt': createdAt.toIso8601String(),
     'updatedAt': updatedAt.toIso8601String(),
+    'subjectId': subjectId,
+    'titleEditedByUser': titleEditedByUser,
   };
 }

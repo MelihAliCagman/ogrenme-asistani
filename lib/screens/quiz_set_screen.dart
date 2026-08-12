@@ -1,0 +1,468 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/models/quiz_attempt.dart';
+import 'package:ogrenme_asistani/models/quiz_question.dart';
+import 'package:ogrenme_asistani/models/quiz_set.dart';
+import 'package:ogrenme_asistani/models/subject.dart';
+import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
+import 'package:ogrenme_asistani/services/streak_repository.dart';
+import 'package:ogrenme_asistani/widgets/quiz_attempt_tile.dart';
+
+class QuizSetScreen extends StatefulWidget {
+  const QuizSetScreen({
+    super.key,
+    required this.quizSet,
+    this.subject,
+    this.returnToSubject,
+  });
+
+  final QuizSet quizSet;
+
+  /// The quiz's own subject, if any — shown in the result note
+  /// regardless of where this screen was opened from.
+  final Subject? subject;
+
+  /// Set only when this screen was opened from that subject's detail
+  /// screen, so the summary's back button can say "Derse Dön" and pop
+  /// straight back to it instead of all the way to Kartlarım.
+  final Subject? returnToSubject;
+
+  @override
+  State<QuizSetScreen> createState() => _QuizSetScreenState();
+}
+
+class _QuizSetScreenState extends State<QuizSetScreen> {
+  final _repository = QuizSetRepository();
+  late List<int> _order;
+  int _currentIndex = 0;
+  int? _selectedOption;
+  int _correctCount = 0;
+  bool _finished = false;
+  final List<int> _wrongIndices = [];
+  final Map<int, int> _wrongSelections = {};
+  late List<QuizAttempt> _attempts;
+
+  /// For each question (keyed by its original index), a shuffled
+  /// permutation of its option indices — re-rolled every attempt so the
+  /// answer position can't be memorized.
+  late Map<int, List<int>> _optionOrder;
+
+  QuizQuestion get _currentQuestion =>
+      widget.quizSet.questions[_order[_currentIndex]];
+
+  List<int> get _currentOptionOrder => _optionOrder[_order[_currentIndex]]!;
+
+  /// The displayed position (0..3) of the correct answer for the
+  /// current question, after option shuffling.
+  int get _currentCorrectDisplayIndex =>
+      _currentOptionOrder.indexOf(_currentQuestion.correctIndex);
+
+  @override
+  void initState() {
+    super.initState();
+    _attempts = List.of(widget.quizSet.attempts);
+    _startQuiz();
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid != null) {
+      StreakRepository().recordActivityToday(
+        uid,
+        subjectId: widget.quizSet.subjectId,
+        subjectName: widget.subject?.name,
+      );
+    }
+  }
+
+  void _startQuiz() {
+    setState(() {
+      _order = List.generate(widget.quizSet.questions.length, (i) => i)
+        ..shuffle();
+      _optionOrder = {
+        for (final questionIndex in _order)
+          questionIndex:
+              List.generate(
+                  widget.quizSet.questions[questionIndex].options.length,
+                  (i) => i,
+                )
+                ..shuffle(),
+      };
+      _currentIndex = 0;
+      _selectedOption = null;
+      _correctCount = 0;
+      _finished = false;
+      _wrongIndices.clear();
+      _wrongSelections.clear();
+    });
+  }
+
+  void _selectOption(int displayIndex) {
+    if (_selectedOption != null) return;
+    setState(() {
+      _selectedOption = displayIndex;
+      if (displayIndex == _currentCorrectDisplayIndex) {
+        _correctCount++;
+      } else {
+        final questionIndex = _order[_currentIndex];
+        _wrongIndices.add(questionIndex);
+        _wrongSelections[questionIndex] = _currentOptionOrder[displayIndex];
+      }
+    });
+  }
+
+  void _next() {
+    if (_currentIndex + 1 < _order.length) {
+      setState(() {
+        _currentIndex++;
+        _selectedOption = null;
+      });
+      return;
+    }
+    setState(() => _finished = true);
+    _saveAttempt();
+  }
+
+  Future<void> _saveAttempt() async {
+    final attempt = QuizAttempt(
+      completedAt: DateTime.now(),
+      correctCount: _correctCount,
+      totalCount: _order.length,
+      wrongQuestionIndices: List.of(_wrongIndices),
+      wrongSelections: Map.of(_wrongSelections),
+    );
+    setState(() => _attempts = [..._attempts, attempt]);
+    await _repository.addAttempt(widget.quizSet.id, attempt);
+  }
+
+  void _backToOrigin() {
+    if (widget.returnToSubject != null) {
+      Navigator.of(context).pop();
+      return;
+    }
+    Navigator.of(context).popUntil((route) => route.isFirst);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.quizSet.title)),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: _finished ? _buildSummary(context) : _buildQuiz(context),
+      ),
+    );
+  }
+
+  Widget _buildQuiz(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final question = _currentQuestion;
+    final optionOrder = _currentOptionOrder;
+    const optionLabels = ['A', 'B', 'C', 'D'];
+    final isWrongSelected =
+        _selectedOption != null &&
+        _selectedOption != _currentCorrectDisplayIndex;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          '${_currentIndex + 1} / ${_order.length}',
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
+        const SizedBox(height: 16),
+        Expanded(
+          child: ListView(
+            children: [
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: colorScheme.primaryContainer,
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: SelectableText(
+                  question.question,
+                  style: TextStyle(
+                    color: colorScheme.onPrimaryContainer,
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              for (var displayIndex = 0; displayIndex < optionOrder.length; displayIndex++)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: _OptionTile(
+                    label: optionLabels[displayIndex],
+                    text: question.options[optionOrder[displayIndex]],
+                    state: _optionState(displayIndex),
+                    onTap: () => _selectOption(displayIndex),
+                  ),
+                ),
+              if (isWrongSelected && question.explanation.isNotEmpty) ...[
+                const SizedBox(height: 4),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: colorScheme.secondaryContainer,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Icon(
+                        Icons.lightbulb_outline,
+                        size: 18,
+                        color: colorScheme.onSecondaryContainer,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: SelectableText(
+                          question.explanation,
+                          style: TextStyle(
+                            color: colorScheme.onSecondaryContainer,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ],
+          ),
+        ),
+        FilledButton(
+          onPressed: _selectedOption == null ? null : _next,
+          child: Text(_currentIndex + 1 < _order.length ? 'İleri' : 'Bitir'),
+        ),
+      ],
+    );
+  }
+
+  _OptionState _optionState(int displayIndex) {
+    if (_selectedOption == null) return _OptionState.neutral;
+    if (displayIndex == _currentCorrectDisplayIndex) return _OptionState.correct;
+    if (displayIndex == _selectedOption) return _OptionState.incorrect;
+    return _OptionState.neutral;
+  }
+
+  /// Question indices that were wrong in the previous attempt (the one
+  /// right before this one) but correct this time — a simple sign of
+  /// progress.
+  List<int> get _improvedSinceLastAttempt {
+    if (_attempts.length < 2) return [];
+    final previous = _attempts[_attempts.length - 2];
+    return previous.wrongQuestionIndices
+        .where((i) => !_wrongIndices.contains(i))
+        .toList();
+  }
+
+  Widget _buildSummary(BuildContext context) {
+    final total = _order.length;
+    final percent = total == 0 ? 0 : (_correctCount / total * 100).round();
+    final improved = _improvedSinceLastAttempt;
+
+    return ListView(
+      children: [
+        const SizedBox(height: 16),
+        Icon(
+          Icons.emoji_events_outlined,
+          size: 64,
+          color: Theme.of(context).colorScheme.primary,
+        ),
+        const SizedBox(height: 16),
+        Text(
+          '$_correctCount/$total doğru',
+          style: Theme.of(context).textTheme.headlineSmall,
+          textAlign: TextAlign.center,
+        ),
+        const SizedBox(height: 4),
+        Text(
+          'Doğru oranı: %$percent',
+          style: Theme.of(context).textTheme.bodyMedium,
+          textAlign: TextAlign.center,
+        ),
+        if (_wrongIndices.isNotEmpty) ...[
+          const SizedBox(height: 4),
+          Text(
+            widget.subject != null
+                ? '${widget.subject!.name} dersinde ${_wrongIndices.length} soruda hata yaptın. Bu konuyu tekrar etmen faydalı olabilir.'
+                : '${_wrongIndices.length} soruda hata yaptın. Bu konuyu tekrar etmen faydalı olabilir.',
+            style: Theme.of(context).textTheme.bodySmall,
+            textAlign: TextAlign.center,
+          ),
+        ],
+        if (improved.isNotEmpty) ...[
+          const SizedBox(height: 8),
+          Text(
+            'Önceki denemede yanlış yaptığın ${improved.length} soruyu bu sefer doğru yaptın. İlerliyorsun!',
+            style: Theme.of(
+              context,
+            ).textTheme.bodySmall?.copyWith(color: Colors.green.shade700),
+            textAlign: TextAlign.center,
+          ),
+        ],
+        const SizedBox(height: 24),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            FilledButton.icon(
+              onPressed: _startQuiz,
+              icon: const Icon(Icons.replay),
+              label: const Text('Tekrar Başla'),
+            ),
+            const SizedBox(width: 12),
+            OutlinedButton.icon(
+              onPressed: _backToOrigin,
+              icon: Icon(
+                widget.returnToSubject != null
+                    ? Icons.menu_book_outlined
+                    : Icons.quiz_outlined,
+              ),
+              label: Text(
+                widget.returnToSubject != null
+                    ? 'Derse Dön'
+                    : "Kartlarım'a Dön",
+              ),
+            ),
+          ],
+        ),
+        if (_wrongIndices.isNotEmpty) ...[
+          const SizedBox(height: 32),
+          Text(
+            'Yanlış Yapılan Sorular',
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+          const SizedBox(height: 12),
+          for (final index in _wrongIndices)
+            _WrongQuestionCard(question: widget.quizSet.questions[index]),
+        ],
+        if (_attempts.isNotEmpty) ...[
+          const SizedBox(height: 32),
+          Text(
+            'Geçmiş Denemeler',
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+          const SizedBox(height: 12),
+          for (var i = 0; i < _attempts.length; i++)
+            QuizAttemptTile(
+              attemptNumber: i + 1,
+              attempt: _attempts[i],
+              questions: widget.quizSet.questions,
+            ),
+        ],
+      ],
+    );
+  }
+}
+
+enum _OptionState { neutral, correct, incorrect }
+
+class _WrongQuestionCard extends StatelessWidget {
+  const _WrongQuestionCard({required this.question});
+
+  final QuizQuestion question;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    return Card(
+      margin: const EdgeInsets.only(bottom: 10),
+      child: Padding(
+        padding: const EdgeInsets.all(14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SelectableText(
+              question.question,
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 6),
+            SelectableText(
+              'Doğru cevap: ${question.options[question.correctIndex]}',
+              style: TextStyle(color: colorScheme.primary),
+            ),
+            if (question.explanation.isNotEmpty) ...[
+              const SizedBox(height: 6),
+              SelectableText(question.explanation),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _OptionTile extends StatelessWidget {
+  const _OptionTile({
+    required this.label,
+    required this.text,
+    required this.state,
+    required this.onTap,
+  });
+
+  final String label;
+  final String text;
+  final _OptionState state;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    Color background;
+    Color foreground;
+    switch (state) {
+      case _OptionState.correct:
+        background = Colors.green.withValues(alpha: 0.15);
+        foreground = Colors.green.shade800;
+        break;
+      case _OptionState.incorrect:
+        background = colorScheme.errorContainer;
+        foreground = colorScheme.onErrorContainer;
+        break;
+      case _OptionState.neutral:
+        background = colorScheme.surfaceContainerHigh;
+        foreground = colorScheme.onSurface;
+        break;
+    }
+
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(12),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+        decoration: BoxDecoration(
+          color: background,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: foreground.withValues(alpha: 0.3)),
+        ),
+        child: Row(
+          children: [
+            CircleAvatar(
+              radius: 12,
+              backgroundColor: foreground.withValues(alpha: 0.15),
+              child: Text(
+                label,
+                style: TextStyle(
+                  color: foreground,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 12,
+                ),
+              ),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(text, style: TextStyle(color: foreground)),
+            ),
+            if (state == _OptionState.correct)
+              Icon(Icons.check_circle, color: foreground, size: 20),
+            if (state == _OptionState.incorrect)
+              Icon(Icons.cancel, color: foreground, size: 20),
+          ],
+        ),
+      ),
+    );
+  }
+}

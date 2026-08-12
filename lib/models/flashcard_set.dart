@@ -6,6 +6,7 @@ class FlashcardSet {
     required this.title,
     required this.createdAt,
     required this.cards,
+    this.subjectId,
   });
 
   factory FlashcardSet.fromJson(Map<String, dynamic> json) {
@@ -18,6 +19,7 @@ class FlashcardSet {
           .whereType<Map<String, dynamic>>()
           .map(Flashcard.fromJson)
           .toList(),
+      subjectId: json['subjectId'] as String?,
     );
   }
 
@@ -25,11 +27,13 @@ class FlashcardSet {
   final String title;
   final DateTime createdAt;
   final List<Flashcard> cards;
+  final String? subjectId;
 
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,
     'createdAt': createdAt.toIso8601String(),
     'cards': cards.map((c) => c.toJson()).toList(),
+    'subjectId': subjectId,
   };
 }

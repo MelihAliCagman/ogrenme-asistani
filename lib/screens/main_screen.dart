@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/screens/chat_list_screen.dart';
 import 'package:ogrenme_asistani/screens/cards_screen.dart';
+import 'package:ogrenme_asistani/screens/discover_screen.dart';
 import 'package:ogrenme_asistani/screens/profile_screen.dart';
+import 'package:ogrenme_asistani/screens/subjects_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -16,6 +18,8 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = const [
     ChatListScreen(),
     CardsScreen(),
+    SubjectsScreen(),
+    DiscoverScreen(),
     ProfileScreen(),
   ];
 
@@ -42,7 +46,17 @@ class _MainScreenState extends State<MainScreen> {
           NavigationDestination(
             icon: Icon(Icons.style_outlined),
             selectedIcon: Icon(Icons.style),
-            label: 'Kartlarım',
+            label: 'Setlerim',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.menu_book_outlined),
+            selectedIcon: Icon(Icons.menu_book),
+            label: 'Dersler',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.explore_outlined),
+            selectedIcon: Icon(Icons.explore),
+            label: 'Keşfet',
           ),
           NavigationDestination(
             icon: Icon(Icons.person_outline),

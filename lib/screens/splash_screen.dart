@@ -8,10 +8,23 @@ class SplashScreen extends StatefulWidget {
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashScreenState extends State<SplashScreen>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 900),
+  );
+  late final Animation<double> _fade = CurvedAnimation(
+    parent: _controller,
+    curve: const Interval(0, 0.7, curve: Curves.easeIn),
+  );
+  late final Animation<double> _scale = Tween<double>(begin: 0.8, end: 1.0)
+      .animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutBack));
+
   @override
   void initState() {
     super.initState();
+    _controller.forward();
     _goToAuthGate();
   }
 
@@ -24,27 +37,74 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.primary,
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.school,
-              size: 96,
-              color: Theme.of(context).colorScheme.onPrimary,
-            ),
-            const SizedBox(height: 16),
-            Text(
-              'Öğrenme Asistanı',
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                color: Theme.of(context).colorScheme.onPrimary,
-                fontWeight: FontWeight.bold,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              colorScheme.primary,
+              colorScheme.primary.withValues(alpha: 0.7),
+              colorScheme.tertiary.withValues(alpha: 0.8),
+            ],
+          ),
+        ),
+        child: SafeArea(
+          child: Center(
+            child: FadeTransition(
+              opacity: _fade,
+              child: ScaleTransition(
+                scale: _scale,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/branding/logo.png',
+                      width: 120,
+                      height: 120,
+                    ),
+                    const SizedBox(height: 20),
+                    Text(
+                      'Öğrenme Asistanı',
+                      style: Theme.of(context).textTheme.headlineSmall
+                          ?.copyWith(
+                            color: colorScheme.onPrimary,
+                            fontWeight: FontWeight.bold,
+                          ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Öğrenmenin en akıllı yolu',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: colorScheme.onPrimary.withValues(alpha: 0.85),
+                      ),
+                    ),
+                    const SizedBox(height: 48),
+                    SizedBox(
+                      width: 28,
+                      height: 28,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2.5,
+                        valueColor: AlwaysStoppedAnimation(
+                          colorScheme.onPrimary.withValues(alpha: 0.85),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
-          ],
+          ),
         ),
       ),
     );
