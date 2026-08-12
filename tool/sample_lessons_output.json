@@ -2,478 +2,2851 @@
   {
     "title": "KPSS Genel Kültür",
     "color": 4279858898,
-    "summaryText": "KPSS Genel Kültür testi; Türkiye'nin köklü tarihini, benzersiz coğrafyasını ve anayasal düzenimizin temel dinamiklerini öğrenerek adım adım zirveye ulaşacağın heyecan verici bir yolculuktur. Bu süreçte karşına çıkacak her yeni bilgi, sadece bir sınav sorusunu çözmeni sağlamakla kalmayacak, aynı zamanda yaşadığın ülkeyi ve dünyayı daha iyi anlamana kapı aralayacaktır. Düzenli ve sabırlı bir çalışmayla atacağın her küçük adım, hayalini kurduğun kamu görevine giden yolda seni hedefine biraz daha yaklaştıracaktır. Kendine inan, asla pes etme ve bu öğrenme serüveninin tadını çıkar, çünkü başarı kesinlikle senin emeklerinin karşılığı olarak gelecektir.",
-    "flashcards": [
-      {
-        "question": "Türkiye'de yüz ölçümü en büyük olan coğrafi bölge hangisidir?",
-        "answer": "İç Anadolu Bölgesi"
+    "summaryText": "KPSS Genel Kültür maratonu, Türkiye'nin zengin tarihini, benzersiz coğrafyasını ve hayatımızın temelini oluşturan anayasal düzeni keşfedeceğin heyecan verici bir yolculuktur. Bu süreçte karşına çıkan her yeni bilgi, hayallerindeki kamu görevine bir adım daha yaklaşmanı sağlayacak güçlü bir anahtardır. Düzenli çalışarak ve öğrendiklerini bol soruyla pekiştirerek bu dağın zirvesine rahatlıkla ulaşabilirsin. Kendine inan, karşına çıkan zorlukların seni durdurmasına izin verme çünkü bu sınavın üstesinden gelecek güce ve potansiyele tamamen sahipsin. Başarılar dilerim!",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "Türkiye'nin en yüksek dağı hangisidir?",
+            "answer": "Ağrı Dağı"
+          },
+          {
+            "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+            "answer": "Mustafa Kemal Atatürk"
+          },
+          {
+            "question": "Anayasa'ya göre Türkiye devletinin başkenti neresidir?",
+            "answer": "Ankara"
+          },
+          {
+            "question": "Türkiye'nin yüzölçümü bakımından en büyük ili hangisidir?",
+            "answer": "Konya"
+          },
+          {
+            "question": "Osmanlı Devleti'nin kurucusu kimdir?",
+            "answer": "Osman Bey"
+          },
+          {
+            "question": "Türkiye'nin komşuları arasında en uzun kara sınırına sahip olan devlet hangisidir?",
+            "answer": "Suriye"
+          },
+          {
+            "question": "Mevcut Anayasamıza göre yasama yetkisi hangi kurumundur?",
+            "answer": "Türkiye Büyük Millet Meclisi"
+          },
+          {
+            "question": "Türkiye'de unvan olarak 'İstiklal Şairi' unvanıyla tanınan şair kimdir?",
+            "answer": "Mehmet Akif Ersoy"
+          },
+          {
+            "question": "İç Anadolu Bölgesi'nde yer alan Tuz Gölü, hangi coğrafi özelliğe sahiptir?",
+            "answer": "Kapalı havza"
+          },
+          {
+            "question": "Türkiye'nin ilk tescilli UNESCO Dünya Mirası Listesi'nde yer alan tarihi alanı hangisidir?",
+            "answer": "Göreme Tarihi Milli Parkı"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Türkiye Cumhuriyeti'nin başkenti hangi şehirdir?",
+            "options": [
+              "İstanbul",
+              "Ankara",
+              "İzmir",
+              "Bursa"
+            ],
+            "correctIndex": 1,
+            "explanation": "Türkiye Cumhuriyeti'nin başkenti Ankara'dır."
+          },
+          {
+            "question": "Türkiye'nin en uzun akarsuyu hangisidir?",
+            "options": [
+              "Kızılırmak",
+              "Fırat",
+              "Sakarya",
+              "Yeşilırmak"
+            ],
+            "correctIndex": 0,
+            "explanation": "Kızılırmak, tamamı Türkiye sınırları içinde doğup dökülen en uzun akarsudur."
+          },
+          {
+            "question": "Osmanlı Devleti'nin kurucusu kimdir?",
+            "options": [
+              "Orhan Bey",
+              "Osman Bey",
+              "Yıldırım Bayezid",
+              "I. Murad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Osmanlı Devleti, 1299 yılında Osman Bey tarafından kurulmuştur."
+          },
+          {
+            "question": "Mevcut Anayasamıza göre Türkiye Cumhuriyeti'nin resmi dili nedir?",
+            "options": [
+              "İngilizce",
+              "Fransızca",
+              "Türkçe",
+              "Arapça"
+            ],
+            "correctIndex": 2,
+            "explanation": "Türkiye Cumhuriyeti Anayasası'na göre devletin dili Türkçe'dir."
+          },
+          {
+            "question": "Aşağıdaki illerden hangisi İç Anadolu Bölgesi'nde yer almaz?",
+            "options": [
+              "Konya",
+              "Eskişehir",
+              "Sivas",
+              "İzmir"
+            ],
+            "correctIndex": 3,
+            "explanation": "İzmir, Ege Bölgesi'nde yer alan bir sahil şehrimizdir."
+          },
+          {
+            "question": "Türkiye'nin yüz ölçümü bakımından en büyük gölü hangisidir?",
+            "options": [
+              "Van Gölü",
+              "Tuz Gölü",
+              "Beyşehir Gölü",
+              "Eğirdir Gölü"
+            ],
+            "correctIndex": 0,
+            "explanation": "Van Gölü, yüz ölçümü olarak Türkiye'nin en büyük gölüdür."
+          },
+          {
+            "question": "Mustafa Kemal Atatürk, Bandırma Vapuru ile hangi şehre çıkarak Milli Mücadele'yi başlatmıştır?",
+            "options": [
+              "Samsun",
+              "Trabzon",
+              "Sinop",
+              "Amasya"
+            ],
+            "correctIndex": 0,
+            "explanation": "Atatürk 19 Mayıs 1919'da Samsun'a çıkarak Kurtuluş Savaşı'nı fiilen başlatmıştır."
+          },
+          {
+            "question": "TBMM hangi tarihte açılmıştır?",
+            "options": [
+              "29 Ekim 1923",
+              "23 Nisan 1920",
+              "30 Ağustos 1922",
+              "19 Mayıs 1919"
+            ],
+            "correctIndex": 1,
+            "explanation": "Türkiye Büyük Millet Meclisi 23 Nisan 1920 tarihinde Ankara'da açılmıştır."
+          },
+          {
+            "question": "Türkiye'nin en yüksek dağı hangisidir?",
+            "options": [
+              "Erciyes Dağı",
+              "Uludağ",
+              "Ağrı Dağı",
+              "Süphan Dağı"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ağrı Dağı 5137 metre yüksekliği ile Türkiye'nin en yüksek zirvesidir."
+          },
+          {
+            "question": "Cumhurbaşkanı seçilebilmek için bir adayın en az kaç yaşında olması gerekir?",
+            "options": [
+              "30",
+              "35",
+              "40",
+              "45"
+            ],
+            "correctIndex": 2,
+            "explanation": "Anayasamıza göre Cumhurbaşkanı seçilmek için kırk yaşını doldurmuş olmak gereklidir."
+          }
+        ]
       },
-      {
-        "question": "Osmanlı Devleti'nde ilk kez hangi padişah döneminde sancağa çıkma usulü kaldırılmıştır?",
-        "answer": "I. Ahmet"
+      "medium": {
+        "flashcards": [
+          {
+            "question": "Anayasa Mahkemesi üyelerini seçme yetkisi hangi kurumlara aittir?",
+            "answer": "Türkiye Büyük Millet Meclisi ve Cumhurbaşkanı"
+          },
+          {
+            "question": "Osmanlı Devleti'nde ilk kez iç borçlanma hangi padişah döneminde ve hangi savaş sırasında gerçekleştirilmiştir?",
+            "answer": "Abdülmecid / Kırım Savaşı"
+          },
+          {
+            "question": "Türkiye'nin en büyük toplanma ve sulama amaçlı barajı olan Atatürk Barajı hangi akarsu üzerindedir?",
+            "answer": "Fırat Nehri"
+          },
+          {
+            "question": "1982 Anayasası'na göre, yasama dokunulmazlığının kaldırılması kararına karşı iptal istemiyle Anayasa Mahkemesine başvurabilecek makam hangisidir?",
+            "answer": "Türkiye Büyük Millet Meclisi Başkanlık Divanı veya ilgili milletvekili"
+          },
+          {
+            "question": "Mustafa Kemal Atatürk'ün 'Nutuk' adlı eserinde ele aldığı dönem hangi yılları kapsamaktadır?",
+            "answer": "1919-1927"
+          },
+          {
+            "question": "Türkiye'de kalkınmada öncelikli yöreler politikası kapsamında ilkuygulanan bölge kalkınma projesi hangisidir?",
+            "answer": "Güneydoğu Anadolu Projesi"
+          },
+          {
+            "question": "Osmanlı Devleti'nde I. Meşrutiyet'in ilan edilmesinde etkili olan ve 'Genç Osmanlılar' olarak da bilinen muhalif aydın grup hangisidir?",
+            "answer": "Jön Türkler"
+          },
+          {
+            "question": "Marmara Bölgesi'nde yıllık sıcaklık farkının İç Anadolu Bölgesi'ne göre daha az olmasının temel coğrafi sebebi nedir?",
+            "answer": "Denizsellik etkisi"
+          },
+          {
+            "question": "Türkiye'de yargı bağımsızlığı ve tarafsızlığını sağlamak amacıyla denetim yetkisini elinde bulunduran yüksek kurul hangisidir?",
+            "answer": "Hâkimler ve Savcılar Kurulu"
+          },
+          {
+            "question": "Birinci TBMM döneminde çıkarılan ve ayaklanmaları bastırmak amacıyla kurulan mahkemelerin adı nedir?",
+            "answer": "İstiklal Mahkemeleri"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Osmanli Devleti'nde Tenzimat Fermanı'nın ilan edilmesinde etkili olan dış gelişme aşağıdakilerden hangisidir?",
+            "options": [
+              "Kırım Savaşı",
+              "Mısır ve Boğazlar Sorunu",
+              "Berlin Antlaşması",
+              "93 Harbi"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mısır Valisi Mehmet Ali Paşa'nın isyanı ve Boğazlar sorunu nedeniyle Avrupalı devletlerin desteğini almak amacıyla Tanzimat Fermanı ilan edilmiştir."
+          },
+          {
+            "question": "Türkiye'nin engebeli ve dağlık yapısı göz önüne alındığında, aşağıdaki illerimizden hangisinde demiryolu ağı diğerlerine göre daha geç gelişmiştir?",
+            "options": [
+              "Eskişehir",
+              "Sivas",
+              "Hakkari",
+              "Konya"
+            ],
+            "correctIndex": 2,
+            "explanation": "Hakkari, dağlık ve engebeli yeryüzü şekillerinden dolayı günümüzde dahi demiryolu ağına sahip olmayan illerimizdendir."
+          },
+          {
+            "question": "1982 Anayasası'na göre, aşağıdakilerden hangisi TBMM'nin görev ve yetkileri arasında yer almaz?",
+            "options": [
+              "Kanun koymak, değiştirmek ve kaldırmak",
+              "Uluslararası antlaşmaların onaylanmasını uygun bulmak",
+              "Özel af ilan etmek",
+              "Cumhurbaşkanlığı kararnamesi çıkarmak"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cumhurbaşkanlığı kararnamesi çıkarma yetkisi yürütme organına (Cumhurbaşkanı) aittir, yasama organı olan TBMM'ye ait değildir."
+          },
+          {
+            "question": "Türkiye'de yaygın olarak görülen ve 'karstik arazilerde çözünme sonucu oluşan' en büyük dolinlerin birleşmesiyle meydana gelen yapı aşağıdakilerden hangisidir?",
+            "options": [
+              "Polye",
+              "Uvala",
+              "Obruk",
+              "Lapya"
+            ],
+            "correctIndex": 0,
+            "explanation": "Polyeler karstik ovalar olarak da bilinen ve en büyük karstik aşınım şekillerindendir."
+          },
+          {
+            "question": "Kurtuluş Savaşı hazırlık dönemi aşamaları dikkate alındığında, ilk defa milli sınırlardan ve ulusal egemenlikten bahsedilen gelişme sırasıyla hangi seçenekte doğru verilmiştir?",
+            "options": [
+              "Amasya Genelgesi - Erzurum Kongresi",
+              "Erzurum Kongresi - Amasya Protokolü",
+              "Sivas Kongresi - Amasya Genelgesi",
+              "Havza Genelgesi - Amasya Genelgesi"
+            ],
+            "correctIndex": 0,
+            "explanation": "Milli sınırlardan ilk kez Erzurum Kongresi'nde bahsedilmiş olsa da, bu yöndeki ilk sinyal ve ulusal egemenlik vurgusu Amasya Genelgesi'nde yer almıştır."
+          },
+          {
+            "question": "Türkiye'nin iklim özellikleri düşünüldüğünde, yıllık sıcaklık farkının en fazla olduğu coğrafi bölge aşağıdakilerden hangisidir?",
+            "options": [
+              "Karadeniz Bölgesi",
+              "Marmara Bölgesi",
+              "Doğu Anadolu Bölgesi",
+              "Akdeniz Bölgesi"
+            ],
+            "correctIndex": 2,
+            "explanation": "Doğu Anadolu Bölgesi, karasallığın şiddetli olması ve yükseltinin fazla olmasından ötürü yıllık ve günlük sıcaklık farkının en yüksek olduğu yerdir."
+          },
+          {
+            "question": "1982 Anayasası'na 2017 yılında yapılan anayasa değişiklikleriyle getirilen yenilikler arasında aşağıdakilerden hangisi yer almaz?",
+            "options": [
+              "Askeri Yargıtayın kaldırılması",
+              "Başbakanlık makamının kaldırılması",
+              "TBMM üye tam sayısının 600'e çıkarılması",
+              "Yüksek Askeri Şura'nın yapısının değiştirilmesi"
+            ],
+            "correctIndex": 3,
+            "explanation": "Yüksek Askeri Şura'nın yapısı 2017'de değil, daha önceki anayasal ve yasal düzenlemelerle değiştirilmiştir; diğer seçenekler 2017 değişikliklerindendir."
+          },
+          {
+            "question": "Milli Mücadele döneminde Batı Cephesi'nde Yunan taarruzunu durdurarak Türk ordusunun ilk savunma savaşından taarruz savaşına geçişini sağlayan muharebe hangisidir?",
+            "options": [
+              "I. İnönü Muharebesi",
+              "II. İnönü Muharebesi",
+              "Sakarya Meydan Muharebesi",
+              "İkinci İnönü ile Kütahya-Eskişehir arası"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sakarya Meydan Muharebesi, Türk ordusunun uzun süren geri çekiliş dönemini sonlandıran savunma savaşından taarruza geçtiği dönüm noktasıdır."
+          },
+          {
+            "question": "Türkiye'de demografik özellikler göz önüne alındığında, aşağıdakilerden hangisi nüfusun kıyı kesimlerinde yoğunlaşmasının nedenlerinden biri değildir?",
+            "options": [
+              "İklim koşullarının elverişli olması",
+              "Sanayi ve ticaretin gelişmiş olması",
+              "Yer şekillerinin engebeli ve dağlık olması",
+              "Ulaşım olanaklarının gelişmiş olması"
+            ],
+            "correctIndex": 2,
+            "explanation": "Yer şekillerinin dağlık ve engebeli olması nüfusun kıyılarda toplanmasını zorlaştırıcı bir unsurdur, genel olarak düzlük alanlar nüfusu çeker."
+          },
+          {
+            "question": "Atatürk İlkeleri'nden 'İnkılapçılık' ilkesinin temel amacı ve doğasıyla ilgili aşağıdakilerden hangisi söylenebilir?",
+            "options": [
+              "Mevcut kurumların çağın ihtiyaçlarına göre sürekli olarak modernize edilmesini savunur",
+              "Geçmişin tüm birikimlerinin reddedilerek sıfırdan bir toplum tasarlanmasını hedefler",
+              "Ekonomik alanda devletçilik ilkesinin tamamen ortadan kaldırılmasını öngörür",
+              "Toplumsal yapıda statükonun korunmasını esas alır"
+            ],
+            "correctIndex": 0,
+            "explanation": "İnkılapçılık ilkesi, dinamik bir yapıya sahip olup toplumsal kurumların çağın gereklerine uygun olarak sürekli yenilenmesini ve gelişmesini amaçlar."
+          }
+        ]
       },
-      {
-        "question": "1982 Anayasası'na göre olağanüstü hal (OHAL) ilan etme yetkisi hangi kuruma aittir?",
-        "answer": "Cumhurbaşkanı"
-      },
-      {
-        "question": "Kurtuluş Savaşı'nın hazırlık döneminde düzenlenen ilk ulusal kongre hangisidir?",
-        "answer": "Erzurum Kongresi"
-      },
-      {
-        "question": "Türkiye'nin en doğusunda yer alan ilimiz hangisidir?",
-        "answer": "Iğdır"
-      },
-      {
-        "question": "Osmanlı Devleti'nde esnaf ve zanaatkarların oluşturduğu mesleki teşkilatlanma yapısının adı nedir?",
-        "answer": "Lonca teşkilatı"
-      },
-      {
-        "question": "1982 Anayasası'na göre milletvekilliği düşme kararını oylayan ve denetleyen yüksek mahkeme hangisidir?",
-        "answer": "Anayasa Mahkemesi"
-      },
-      {
-        "question": "Türkiye'de UNESCO Dünya Miras Listesi'ne ilk dahil edilen kültürel varlık hangisidir?",
-        "answer": "Divriği Ulu Cami ve Darüşşifası"
-      },
-      {
-        "question": "Mustafa Kemal Atatürk'ün 'Nutuk' adlı eserinde olayları başlattığı tarih olan 1919 yılı hangi ay ile başlar?",
-        "answer": "Mayıs"
-      },
-      {
-        "question": "Türkiye'nin kıyı uzunluğu en fazla olan coğrafi bölgesi hangisidir?",
-        "answer": "Ege Bölgesi"
+      "hard": {
+        "flashcards": [
+          {
+            "question": "2017 Anayasa değişiklikleriyle cumhurbaşkanlığı kararnamesi çıkarma yetkisi verilen cumhurbaşkanının, kanunlarda açıkça düzenlenen konularda kararname çıkarma yasağı hangi ilke ile ifade edilir?",
+            "answer": "Kanunilik ilkesi"
+          },
+          {
+            "question": "Osmanlı Devleti'nde dirlik sisteminin bozulması sonucunda baş gösteren, reayanın toprağını terk etmesi olayına verilen tarihi ad nedir?",
+            "answer": "Çift bozan"
+          },
+          {
+            "question": "Türkiye'nin en batı ucunda yer alan Gökçeada'nın en batı noktasındaki burnun adı nedir?",
+            "answer": "İncir Burnu"
+          },
+          {
+            "question": "1982 Anayasası'na göre, Türkiye Büyük Millet Meclisi seçimlerinin yenilenmesine karar veren cumhurbaşkanı, bu kararını hangi makam ile paylaşmak zorundadır?",
+            "answer": "Hiçbiri"
+          },
+          {
+            "question": "İstiklal Madalyası alan ilk ve tek ilimiz olan Kurtuluş Savaşı kahramanı şehrimiz hangisidir?",
+            "answer": "Kahramanmaraş"
+          },
+          {
+            "question": "Türkiye'de Doğu Karadeniz bölümünde yer alan, buzulların aşındırmasıyla oluşmuş ve turizm açısından önem taşıyan göllere ne ad verilir?",
+            "answer": "Karagöl"
+          },
+          {
+            "question": "Türkiye Selçuklu Devleti döneminde, uluslararası ticaretin geliştirilmesi amacıyla tüccarların mallarının sigortalandığı sistemin adı nedir?",
+            "answer": "Ganimet"
+          },
+          {
+            "question": "1982 Anayasası'na göre, milli güvenlik kurulu toplantılarına cumhurbaşkanının katılamadığı durumlarda kurula kim başkanlık eder?",
+            "answer": "Cumhurbaşkanı yardımcısı"
+          },
+          {
+            "question": "Anadolu Selçuklu Devleti'nde kervansarayların güvenliğini ve ticari hayatın sürekliliğini sağlamakla görevli askeri sınıf hangisidir?",
+            "answer": "Ahiler"
+          },
+          {
+            "question": "Türkiye'de karstik arazilerin en yaygın olduğu Akdeniz Bölgesi'nde, suların eritmesiyle oluşan en büyük polye ovası hangisidir?",
+            "answer": "Muğla Ovası"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "1982 Anayasası'na göre, Türkiye Cumhuriyeti'nde milli güvenliği sağlamak ve silahlı kuvvetleri hazırlamakla doğrudan aşağıdakilerden hangisi görevlidir?",
+            "options": [
+              "Milli Güvenlik Kurulu",
+              "Türkiye Büyük Millet Meclisi",
+              "Cumhurbaşkanlığı",
+              "Milli Savunma Bakanlığı"
+            ],
+            "correctIndex": 2,
+            "explanation": "1982 Anayasası'nın 117. maddesine göre başkomutanlık Cumhurbaşkanlığı bünyesindedir ve milli güvenliğin sağlanmasından ve silahlı kuvvetlerin yurt savunmasına hazırlanmasından TBMM'ye karşı Cumhurbaşkanı sorumludur."
+          },
+          {
+            "question": "Osmanlı Devleti'nde Tanzimat Fermanı ile hedeflenen hukuki dönüşüm sürecinde, Müslüman ve gayrimüslim tebaanın kanun önünde eşitliğini ilk kez tam anlamıyla güvence altına alan belge aşağıdakilerden hangisidir?",
+            "options": [
+              "Sened-i İttifak",
+              "Tanzimat Fermanı",
+              "Islahat Fermanı",
+              "Kanun-ı Esasi"
+            ],
+            "correctIndex": 2,
+            "explanation": "1856 yılında ilan edilen Islahat Fermanı, gayrimüslimlere tanınan hakları genişleterek Osmanlı tebaasının din, dil ve ırk farkı gözetilmeksizin kanun önünde eşitliğine dair daha keskin ve detaylı hükümler içermiştir."
+          },
+          {
+            "question": "Türkiye'nin fiziki coğrafyası göz önüne alındığında, Doğu Karadeniz Dağları'nın kıyıya paralel uzanmasının doğurmadığı sonuç aşağıdakilerden hangisidir?",
+            "options": [
+              "Kıyı ile iç kesimler arasındaki ulaşımın geçitlerle sağlanması",
+              "Denize etkisinin iç kesimlere sokulamaması",
+              "Kıyı boyunca delta ovalarının geniş yer kaplaması",
+              "Feyz ve taşkın riskinin yüksek olması"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dağların kıyıya paralel uzandığı yerlerde kıta sahanlığı dar olduğu için kıyıda geniş delta ovaları oluşmaz; aksine delta ovaları daha çok Ege bölgesinde yaygındır."
+          },
+          {
+            "question": "Türkiye'de kalkınma planları ve bölgesel kalkınma projeleri dikkate alındığında, Yeşilırmak Havzası Gelişim Projesi (YHGP) kapsamında yer almayan il aşağıdakilerden hangisidir?",
+            "options": [
+              "Sivas",
+              "Tokat",
+              "Amasya",
+              "Çorum"
+            ],
+            "correctIndex": 0,
+            "explanation": "Yeşilırmak Havzası Gelişim Projesi Amasya, Çorum, Samsun ve Tokat illerini kapsar; Sivas bu projenin idari sınırları içerisinde yer almaz."
+          },
+          {
+            "question": "I. Dünya Savaşı sürecinde Osmanlı Devleti'nin imzaladığı gizli antlaşmalar arasında yer almamasına rağmen, Kurtuluş Savaşı döneminde Sovyet Rusya ile imzalanan Moskova Antlaşması'na zemin hazırlayan diplomatik gelişme hangisidir?",
+            "options": [
+              "Londra Antlaşması",
+              "Sykes-Picot Antlaşması",
+              "St. Jean de Maurienne Antlaşması",
+              "Brest-Litovsk Antlaşması"
+            ],
+            "correctIndex": 3,
+            "explanation": "Brest-Litovsk Antlaşması ile Sovyet Rusya I. Dünya Savaşı'ndan çekilmiş ve Doğu Anadolu'daki işgal ettiği topraklardan çekilerek ilerideki Türk-Sovyet yakınlaşmasının temellerini atmıştır."
+          },
+          {
+            "question": "1982 Anayasası'na göre, yasama dokunulmazlığının kaldırılmasına veya milletvekilliğinin düşmesine karar verilen bir milletvekilinin, bu kararın iptali için başvurabileceği yetkili yargı mercii aşağıdakilerden hangisidir?",
+            "options": [
+              "Danıştay",
+              "Yargıtay",
+              "Anayasa Mahkemesi",
+              "Uyuşmazlık Mahkemesi"
+            ],
+            "correctIndex": 2,
+            "explanation": "1982 Anayasası'nın 85. maddesine göre, yasama dokunulmazlığının kaldırılması veya milletvekilliğinin düşmesi kararlarına karşı, ilgili milletvekili veya başka bir milletvekili iptal istemiyle Anayasa Mahkemesi'ne başvurabilir."
+          },
+          {
+            "question": "Türkiye'nin iklim özellikleri ve rüzgarları göz önüne alındığında, Kuzey Afrika ve Arabistan üzerinden gelerek ülkemizin güney ve iç kesimlerinde sıcaklık artışına ve kuraklığa neden olan yerel rüzgar türü aşağıdakilerden hangisidir?",
+            "options": [
+              "Lodos",
+              "Kıble",
+              "Samyeli",
+              "Poyraz"
+            ],
+            "correctIndex": 2,
+            "explanation": "Samyeli (Keşişleme), Türkiye'nin güneydoğusundan ve güneyinden esen, çöl ikliminin etkilerini taşıyan sıcak ve kurucu bir yerel rüzgardır."
+          },
+          {
+            "question": "Cumhuriyet döneminin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası'nın kurucuları arasında aşağıdakilerden hangisi yer almaz?",
+            "options": [
+              "Kazım Karabekir",
+              "İsmet İnönü",
+              "Rauf Orbay",
+              "Ali Fuat Cebesoy"
+            ],
+            "correctIndex": 1,
+            "explanation": "Terakkiperver Cumhuriyet Fırkası Kazım Karabekir, Rauf Orbay, Ali Fuat Cebesoy, Refet Bele ve Adnan Adıvar tarafından kurulmuştur; İsmet İnönü bu partinin kurucuları arasında değildir."
+          },
+          {
+            "question": "Türkiye'de madencilik ve enerji kaynakları ile ilgili olarak, aşağıda verilen maden-çıkarım yeri eşleştirmelerinden hangisi yanlıştır?",
+            "options": [
+              "Boksit - Seydişehir",
+              "Krom - Guleman",
+              "Bor - Divriği",
+              "Fosfat - Mardin"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bor mineralleri Balıkesir-Bigadiç, Kütahya-Emet, Eskişehir-Kırka ve Bursa-Mustafakemalpaşa çevrelerinde çıkarılır; Divriği ise Sivas'ta yer alır ve demir yataklarıyla ünlüdür."
+          },
+          {
+            "question": "Osmanlı Devleti'nde 19. yüzyılda merkezi otoriteyi güçlendirmek ve taşradaki ayanların etkisini kırmak amacıyla, II. Mahmud döneminde kurulan ve ilk resmi gazetenin çıkarılmasına da vesile olan idari birim aşağıdakilerden hangisidir?",
+            "options": [
+              "Meclis-i Mebusan",
+              "Darüşşafaka",
+              "Takvim-i Vekayi",
+              "Dar-ı Şura-yı Babıali"
+            ],
+            "correctIndex": 3,
+            "explanation": "II. Mahmud döneminde idari yapılandırma ve reformlar çerçevesinde kurulan Dar-ı Şura-yı Babıali, devlet işlerinin görüşülmesi ve modern idari yapılanmanın temellerinin atılması için oluşturulmuştur."
+          }
+        ]
       }
-    ],
-    "quizQuestions": [
-      {
-        "question": "Türkiye'de yüzölçümü en büyük olan coğrafi bölge aşağıdakilerden hangisidir?",
-        "options": [
-          "İç Anadolu Bölgesi",
-          "Doğu Anadolu Bölgesi",
-          "Karadeniz Bölgesi",
-          "Marmara Bölgesi"
-        ],
-        "correctIndex": 1,
-        "explanation": "Doğu Anadolu Bölgesi, engebeli yapısı ve geniş yüzölçümü ile Türkiye'nin en büyük coğrafi bölgesidir."
-      },
-      {
-        "question": "Osmanlı Devleti'nde'de ilk defa ankebut (parlamenter) sisteme geçişin simgesi olan Kanun-ı Esasi hangi padişah döneminde ilan edilmiştir?",
-        "options": [
-          "II. Abdülhamid",
-          "Abdülaziz",
-          "Sultan V. Murad",
-          "III. Selim"
-        ],
-        "correctIndex": 0,
-        "explanation": "Kanun-ı Esasi, II. Abdülhamid döneminde 1876 yılında ilan edilerek Osmanlı'da ilk anayasal düzene geçilmiştir."
-      },
-      {
-        "question": "Türkiye Cumhuriyeti Anayasası'na göre, aşağıdakilerden hangisi değiştirilemeyen ve değiştirilmesi teklif dahi edilemeyen maddelerden biri değildir?",
-        "options": [
-          "Devletin şeklinin Cumhuriyet olduğu",
-          "Cumhurbaşkanının görev süresinin beş yıl olduğu",
-          "Başkentin Ankara olduğu",
-          "Milli marşın İstiklal Marşı olduğu"
-        ],
-        "correctIndex": 1,
-        "explanation": "Cumhurbaşkanının görev süresi anayasanın ilk üç maddesinde yer almaz ve değiştirilmesi teklif edilebilir bir konudur."
-      },
-      {
-        "question": "Aşağıdaki akarsulardan hangisi Türkiye'de doğup sınır dışına dökülen nehirlerimizden biri değildir?",
-        "options": [
-          "Fırat",
-          "Dicle",
-          "Kızılırmak",
-          "Aras"
-        ],
-        "correctIndex": 2,
-        "explanation": "Kızılırmak tamamen Türkiye sınırları içerisinde doğar ve yine Türkiye sınırları içinde Karadeniz'e dökülür."
-      },
-      {
-        "question": "Kurtuluş Savaşı'nda hazırlık dönemi aşamasında gerçekleştirilen Amasya Genelgesi'nin kararlarını kaleme alan ve 'Milletin istiklalini yine milletin azim ve karar kurtaracaktır' maddesini ekleyen lider kimdir?",
-        "options": [
-          "Mustafa Kemal Atatürk",
-          "Rauf Orbay",
-          "Ali Fuat Cebesoy",
-          "Kazım Karabekir"
-        ],
-        "correctIndex": 0,
-        "explanation": "Amasya Genelgesi Mustafa Kemal Atatürk, Rauf Orbay, Ali Fuat Cebesoy ve Refet Bele tarafından imzalanmış, Kurtuluş Savaşı'nın gerekçesi ve yöntemi belirlenmiştir."
-      },
-      {
-        "question": "Türkiye'nin en fazla ihracat yaptığı ülke veya ticaret ortağı uzun yıllardır aşağıdakilerden hangisidir?",
-        "options": [
-          "Almanya",
-          "Rusya",
-          "Çin",
-          "ABD"
-        ],
-        "correctIndex": 0,
-        "explanation": "Almanya, tarihsel olarak Türkiye'nin dış ticaretinde, özellikle ihracatında ilk sırada yer alan ülkedir."
-      },
-      {
-        "question": "1982 Anayasası'na göre, yasama yetkisi kime veya hangi kuruma aittir?",
-        "options": [
-          "Cumhurbaşkanlığı",
-          "Türkiye Büyük Millet Meclisi",
-          "Bakanlar Kurulu",
-          "Anayasa Mahkemesi"
-        ],
-        "correctIndex": 1,
-        "explanation": "1982 Anayasası'nın 7. maddesine göre yasama yetkisi Türk milleti adına Türkiye Büyük Millet Meclisi'neindir ve devredilemez."
-      },
-      {
-        "question": "Osmanlı Devleti'nde 'Lale Devri' hangi antlaşma ile başlayıp hangi olayla sona ermiştir?",
-        "options": [
-          "Pasarofça Antlaşması - Patrona Halil İsyanı",
-          "Karlofça Antlaşması - Kabakçı Mustafa İsyanı",
-          "Küçük Kaynarca Antlaşması - 31 Mart Vakası",
-          "Bucaş Antlaşması - Edirne Vakası"
-        ],
-        "correctIndex": 0,
-        "explanation": "Lale Devri, 1718 Pasarofça Antlaşması ile başlar ve 1730 yılında çıkan Patrona Halil İsyanı ile sona erer."
-      },
-      {
-        "question": "Akdeniz ikliminin görüldüğü bölgelerde yaygın olarak yetişen ve 'kızılçam ormanlarının tahribi sonucu' ortaya çıkan maki türü bitki örtüsünün bozulmuş şekline ne ad verilir?",
-        "options": [
-          "Garig",
-          "Bozkır",
-          "Tayga",
-          "Tundra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Maki örtüsünün tahrip edilmesiyle oluşan daha kısa boylu çalılardan oluşan bitki örtüsüne garig (veya makilerin alt türü olan pseudomaki dışındaki kısa çalılıklar) denir."
-      },
-      {
-        "question": "Cumhuriyet döneminde gerçekleştirilen harf inkılabından sonra, yeni Türk harflerini öğretmek ve halka okuma yazma kazandırmak amacıyla kurulan eğitim kurumu aşağıdakilerden hangisidir?",
-        "options": [
-          "Millet Mektepleri",
-          "Köy Enstitüleri",
-          "Enderun Mektebi",
-          "Darülfünun"
-        ],
-        "correctIndex": 0,
-        "explanation": "1928 yılında yeni harflerin kabulünden sonra halka okuma yazma öğretmek amacıyla Millet Mektepleri açılmıştır."
-      }
-    ]
+    }
   },
   {
     "title": "CompTIA A+ Donanım",
     "color": 4293880832,
-    "summaryText": "Bilgisayar donanımı dünyasına hoş geldin; anakarttan işlemciye kadar her bir parça, bu devasa dijital bulmacanın kusursuz bir şekilde çalışmasını sağlayan hayati birer dişlidir. RAM ve depolama birimleri verileri işleyip saklarken, güç kaynağı tüm sisteme hayat veren enerjiyi güvenle dağıtır. Bu bileşenlerin birbirleriyle nasıl iletişim kurduğunu ve arızaları nasıl çözeceğini öğrenmek, sadece bir sınava hazırlanmak değil, aynı zamanda teknolojinin kalbine inmektir. Gözün korkmasın, her büyük teknoloji uzmanı bu temel parçaları söküp takarak başladı ve adım adım ilerleyerek bu dağın zirvesine ulaşacaksın.",
-    "flashcards": [
-      {
-        "question": "Anakart üzerindeki merkezi işlem biriminin (CPU) takıldığı yuvanın teknik adı nedir?",
-        "answer": "Soket"
+    "summaryText": "Bilgisayar dünyasının kalbine hoş geldin! Bu yolculukta, anakarttan işlemciye, RAM'den güç kaynağına kadar her bir donanım parçasının bir yapbozun en kritik parçası olduğunu keşfedeceksin. Parçaların birbirleriyle nasıl konuştuğunu ve sistemin nasıl çalıştığını öğrendikçe, sadece bir sınavı geçmeyeceksin; aynı zamanda gerçek dünya problemlerini çözen güven dolu bir teknisyen olacaksın. Korkma, her büyük uzman bu kabloların ve devrelerin arasından başladı ve adım adım ilerleyerek sen de bu teknolojinin hâkimi olacaksın. Başaracağına inancım tam, harika bir öğrenme macerası seni bekliyor!",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "Bilgisayarın tüm temel bileşenlerini birbirine bağlayan ana devre kartının adı nedir?",
+            "answer": "Anakart"
+          },
+          {
+            "question": "Verilerin kalıcı olarak saklandığı, döner diskler içeren depolama biriminin kısaltması nedir?",
+            "answer": "HDD"
+          },
+          {
+            "question": "Bilgisayarın geçici verilerini saklayan ve elektrik kesildiğinde üzerindeki veriler silinen bellek türünün adı nedir?",
+            "answer": "RAM"
+          },
+          {
+            "question": "İşlemcinin aşırı ısınmasını önlemek için üzerine takılan soğutucu ve fan kombinasyonuna ne ad verilir?",
+            "answer": "Soğutucu fan"
+          },
+          {
+            "question": "Bilgisayara dışarıdan veri girişi yapılmasını sağlayan klavye ve fare gibi donanımlara ne ad verilir?",
+            "answer": "Çevre birimi"
+          },
+          {
+            "question": "Şebekeden gelen alternatif akımı bilgisayar bileşenleri için gerekli doğru akıma dönüştüren güç biriminin adı nedir?",
+            "answer": "Güç kaynağı"
+          },
+          {
+            "question": "Hareketli parça içermeyen, flash bellek teknolojisi kullanarak verileri çok hızlı depolayan birimin kısaltması nedir?",
+            "answer": "SSD"
+          },
+          {
+            "question": "Bilgisayarın beyin görevi gören, tüm matematiksel ve mantıksal işlemleri yürüten ana bileşenin adı nedir?",
+            "answer": "İşlemci"
+          },
+          {
+            "question": "Anakart üzerinde verilerin ve elektriğin işlemci ile diğer bileşenler arasında taşınmasını sağlayan devre yollarına ne denir?",
+            "answer": "Bus"
+          },
+          {
+            "question": "Bilgisayar ilk açıldığında donanımları kontrol eden ve işletim sistemini başlatan temel yazılımın adı nedir?",
+            "answer": "BIOS"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Bilgisayarın beyni olarak kabul edilen ve tüm komutları işleyen temel bileşen hangisidir?",
+            "options": [
+              "İşlemci (CPU)",
+              "Anakart",
+              "Sabit Disk",
+              "Güç Kaynağı"
+            ],
+            "correctIndex": 0,
+            "explanation": "İşlemci (CPU), bilgisayarın tüm matematiksel ve mantıksal işlemlerini yürüten ana işlem birimidir."
+          },
+          {
+            "question": "Bilgisayar açıkken geçici verileri saklayan ve elektrik kesildiğinde üzerindeki bilgileri kaybeden bellek türü hangisidir?",
+            "options": [
+              "Sabit Disk",
+              "RAM",
+              "ROM",
+              "Flash Bellek"
+            ],
+            "correctIndex": 1,
+            "explanation": "RAM, geçici olarak verileri tutan uçucu (volatile) bir bellek türüdür ve bilgisayar kapatıldığında sıfırlanır."
+          },
+          {
+            "question": "Tüm donanım birimlerinin üzerine takıldığı ve aralarındaki iletişimini sağlayan ana devre kartı aşağıdakilerden hangisidir?",
+            "options": [
+              "Ekran Kartı",
+              "Güç Kaynağı",
+              "Anakart",
+              "İşlemci Soğutucusu"
+            ],
+            "correctIndex": 2,
+            "explanation": "Anakart, diğer tüm bileşenlerin doğrudan ya da dolaylı olarak bağlandığı ana elektronik devre kartıdır."
+          },
+          {
+            "question": "Şebekeden gelen alternatif akımı (AC), bilgisayarın kullanabileceği doğru akıma (DC) dönüştüren donanım hangisidir?",
+            "options": [
+              "İşlemci",
+              "Güç Kaynağı (PSU)",
+              "Kasa Fanı",
+              "RAM"
+            ],
+            "correctIndex": 1,
+            "explanation": "Güç kaynağı, elektrik prizinden gelen elektriği bileşenlerin güvenle kullanabileceği voltaj seviyelerine dönüştürür."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi kalıcı veri depolama için kullanılan bir birimdir?",
+            "options": [
+              "RAM",
+              "Ön Bellek (Cache)",
+              "SSD",
+              "BIOS çipi"
+            ],
+            "correctIndex": 2,
+            "explanation": "SSD, verileri kalıcı olarak depolayan ve elektrik kesildiğinde bile bilgileri koruyan bir depolama aygıtıdır."
+          },
+          {
+            "question": "Aşağıdaki çevre birimlerinden hangisi sadece giriş (input) birimidir?",
+            "options": [
+              "Yazıcı",
+              "Klavye",
+              "Hoparlör",
+              "Monitör"
+            ],
+            "correctIndex": 1,
+            "explanation": "Klavye, bilgisayara veri ve komut göndermek için kullanılan temel bir giriş aygıtıdır."
+          },
+          {
+            "question": "Bilgisayar ilk açıldığında donanımları kontrol eden ve işletim sistemini başlatan temel yazılımın saklandığı yontmataş bellek hangisidir?",
+            "options": [
+              "RAM",
+              "Sabit Sürücü",
+              "BIOS / UEFI ROM",
+              "Ekran Kartı"
+            ],
+            "correctIndex": 2,
+            "explanation": "BIOS veya UEFI, anakart üzerinde yer alan ROM tipi bir bellekte saklanır ve açılış sürecini yönetir."
+          },
+          {
+            "question": "Görüntüleri işleyerek monitöre aktaran ve üzerinde kendi işlemcisi ile belleği bulunabilen kart hangisidir?",
+            "options": [
+              "Ses Kartı",
+              "Ağ Kartı",
+              "Ekran Kartı (GPU)",
+              "Ethernet Kartı"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ekran kartı, grafik yoğunluklu işlemleri çözmek ve ekrana görüntü sağlamak amacıyla tasarlanmış özel bir bileşendir."
+          },
+          {
+            "question": "İşlemcinin aşırı ısınmasını önlemek amacıyla üzerine monte edilen metal parça ve fan kombinasyonuna ne ad verilir?",
+            "options": [
+              "Soğutucu ve Fan (Cooler)",
+              "Güç Kablosu",
+              "Kuzey Köprüsü",
+              "Sabit Disk Yuvası"
+            ],
+            "correctIndex": 0,
+            "explanation": "Soğutucu ve fan, işlemcinin ürettiği ısıyı dağıtarak optimum sıcaklıkta çalışmasını sağlar."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi hem giriş hem de çıkış (I/O) birimi olarak kabul edilir?",
+            "options": [
+              "Fare",
+              "Dokunmatik Ekran",
+              "Mikrofon",
+              "Projektör"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dokunmatik ekran, hem parmak hareketlerini algılayarak veri girişi yapar hem de görsel sonuçları göstererek çıkış sağlar."
+          }
+        ]
       },
-      {
-        "question": "Bilgisayar kapatıldığında bile verileri kalıcı olarak saklayan ve ana önyükleme kaydını barındıran temel bellek türü hangisidir?",
-        "answer": "ROM"
+      "medium": {
+        "flashcards": [
+          {
+            "question": "LGA ve PGA terimleri hangi bilgisayar bileşeninin mimari tiplerini belirtmek için kullanılır?",
+            "answer": "İşlemci"
+          },
+          {
+            "question": "Bir anakartın üzerindeki yonga seti (chipset) temel olarak hangi iki ana köprüden oluşur?",
+            "answer": "Kuzey ve Güney köprüsü"
+          },
+          {
+            "question": "DDR4 bellek modülleri anakart üzerindeki yuvalara takılırken genellikle kaç pinli yapıya sahiptir?",
+            "answer": "288 pin"
+          },
+          {
+            "question": "Sabit disklerde (HDD) veri okuma ve yazma işlemlerini gerçekleştiren hareketli mekanik kola ne ad verilir?",
+            "answer": "Aktüatör kolu"
+          },
+          {
+            "question": "Güç kaynağının (PSU) anakarta ana güç aktarımını sağlayan standart konnektörü kaç pindir?",
+            "answer": "24 pin"
+          },
+          {
+            "question": "NVMe protokolünü kullanan M.2 SSD sürücüler anakart üzerinde hangi veri yolunu (bus) doğrudan kullanır?",
+            "answer": "PCI Express"
+          },
+          {
+            "question": "ECC tipine sahip RAM modülleri hangi tür hataları tespit edip düzeltebilir?",
+            "answer": "Tek bitlik bellek hataları"
+          },
+          {
+            "question": "İşlemci soğutucusunun altında yer alan ve ısı transferini artıran malzemenin adı nedir?",
+            "answer": "Termal macun"
+          },
+          {
+            "question": "BIOS veya UEFI ayarlarının sistem kapalıyken hafızada kalmasını sağlayan anakart bileşeni hangisidir?",
+            "answer": "CMOS pili"
+          },
+          {
+            "question": "Ekran kartlarının anakart üzerindeki hangi veri yolu slotuna takılması günümüzde standarttır?",
+            "answer": "PCIe x16"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Aşağıdaki RAM türlerinden hangisi, her saat döngüsünde hem yükselen hem de düşen kenarda veri transferi yaparak çalışır ve DDR serisinin temelini oluşturur?",
+            "options": [
+              "SDR SDRAM",
+              "DDR SDRAM",
+              "DDR2 SDRAM",
+              "DDR3 SDRAM"
+            ],
+            "correctIndex": 1,
+            "explanation": "DDR (Double Data Rate) bellekler, saat sinyalinin hem yükselen hem de düşen kenarında veri ileterek SDR bellekler ile kıyaslandığında veri transfer hızını iki katına çıkarır."
+          },
+          {
+            "question": "Anakart form faktörleri arasında en yaygın kullanılan ve genellikle 305 x 244 mm boyutlarında olup yeterli genişleme yuvası sunan standart hangisidir?",
+            "options": [
+              "Mini-ITX",
+              "Micro-ATX",
+              "ATX",
+              "E-ATX"
+            ],
+            "correctIndex": 2,
+            "explanation": "ATX form faktörü, masaüstü bilgisayarlar için endüstri standardı olup, birden fazla PCI Express yuvası ve bellek slotu barındıracak yeterli yüzey alanına sahiptir."
+          },
+          {
+            "question": "Bir güç kaynağının (PSU) anakarta ana güç iletimini sağlayan ve modern sistemlerde genellikle 24 pinli olan konektörünün adı nedir?",
+            "options": [
+              "ATX 12V konektörü",
+              "PCIe güç konektörü",
+              "SATA güç konektörü",
+              "Ana güç anakart konektörü"
+            ],
+            "correctIndex": 3,
+            "explanation": "Ana güç anakart konektörü, standart sistemlerde anakarta ve üzerindeki entegre bileşenlere ana elektrik akımını sağlayan 24 pinlik yapıdadır."
+          },
+          {
+            "question": "M.2 depolama sürücüleri için kullanılan ve hem SATA protokolünü hem de çok daha hızlı olan NVMe protokolünü destekleyebilen veri yolu teknolojisi hangisidir?",
+            "options": [
+              "PCI Express",
+              "PCI",
+              "AGP",
+              "IDE"
+            ],
+            "correctIndex": 0,
+            "explanation": "M.2 form faktörlü SSD'ler, doğrudan PCI Express veri yolunu kullanarak yüksek bant genişliği ve düşük gecikme süreleri sunar."
+          },
+          {
+            "question": "İşlemcinin (CPU) önbellek (cache) hiyerarşisinde, çekirdeklere en yakın olan, en küçük kapasiteli ancak en hızlı çalışan seviye aşağıdakilerden hangisidir?",
+            "options": [
+              "L3 Cache",
+              "L2 Cache",
+              "L1 Cache",
+              "L4 Cache"
+            ],
+            "correctIndex": 2,
+            "explanation": "L1 önbellek doğrudan işlemci çekirdeğinin içine gömülüdür; kapasitesi düşüktür fakat erişim hızı tüm önbellek seviyeleri arasında en yüksek olandır."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi, mekanik sabit disklerin (HDD) performansını doğrudan etkileyen ve diskin mil başına dakikadaki dönüş hızını belirten ifadenin kısaltmasıdır?",
+            "options": [
+              "RPM",
+              "IOPS",
+              "MTBF",
+              "SMART"
+            ],
+            "correctIndex": 0,
+            "explanation": "RPM (Revolution Per Minute), mekanik disklerin mil hızını ifade eder; örneğin 7200 RPM, 5400 RPM'e göre daha hızlı veri okuma ve yazma potansiyeli sunar."
+          },
+          {
+            "question": "ECC (Error-Correcting Code) bellek teknolojisi en çok hangi tür bilgisayar sistemlerinde veri bütünlüğünü korumak amacıyla tercih edilir?",
+            "options": [
+              "Giriş seviyesi ev bilgisayarları",
+              "Oyun dizüstü bilgisayarları",
+              "Sunucular ve iş istasyonları",
+              "Ofis tipi ince istemciler"
+            ],
+            "correctIndex": 2,
+            "explanation": "ECC RAM, bellek üzerindeki tek bitlik veri hatalarını anında tespit edip düzeltebildiği için kesintisiz çalışma gerektiren sunucu ve iş istasyonlarında kritik önem taşır."
+          },
+          {
+            "question": "Çipsetin (Chipset) kuzey köprüsünün (Northbridge) modern işlemci mimarilerinde büyük ölçüde ortadan kalkmasının temel sebebi aşağıdakilerden hangisidir?",
+            "options": [
+              "Grafik kartlarının harici olması",
+              "Bellek kontrolcüsünün doğrudan işlemci içine entegre edilmesi",
+              "Anakart boyutlarının küçülmesi",
+              "Güç tüketiminin artması"
+            ],
+            "correctIndex": 1,
+            "explanation": "Modern işlemciler dahili bellek kontrolcüsüne sahip olduğu için geleneksel kuzey köprüsünün ana işlevi işlemci bünyesine taşınmıştır."
+          },
+          {
+            "question": "Bir güç kaynağının (PSU) verimliliğini sınıflandırmak ve belirli enerji tasarrufu standartlarını karşıladığını belgelemek için kullanılan yaygın sertifika derecesi hangisidir?",
+            "options": [
+              "Energy Star Gold",
+              "80 Plus",
+              "RoHS Compliant",
+              "ATX Certified"
+            ],
+            "correctIndex": 1,
+            "explanation": "80 Plus sertifikası, güç kaynaklarının farklı yük yüzdelerinde (örneğin %20, %50, %100) enerji verimliliği oranlarını belirleyen uluslararası bir standarttır."
+          },
+          {
+            "question": "Ekran kartlarının (GPU) ana kart üzerindeki hangi veri yolu slotuna takılması günümüz standartlarında zorunludur?",
+            "options": [
+              "PCI",
+              "PCI Express x1",
+              "PCI Express x16",
+              "AGP 8x"
+            ],
+            "correctIndex": 2,
+            "explanation": "Modern harici grafik kartları, yüksek veri bant genişliği ihtiyacından dolayı doğrudan PCIe x16 slotuna takılır."
+          }
+        ]
       },
-      {
-        "question": "İşletim sisteminin ve çalışan programların geçici olarak verileri sakladığı, elektrik kesildiğinde verileri silinen uçucu bellek türü nedir?",
-        "answer": "RAM"
-      },
-      {
-        "question": "Gelen alternatif akımı (AC), bilgisayar bileşenlerinin kullanabileceği düşük voltajlı doğru akıma (DC) dönüştüren donanım birimi nedir?",
-        "answer": "Güç kaynağı"
-      },
-      {
-        "question": "Hareketli mekanik parça içermeyen, veri depolamak için flash bellek yongaları kullanan depolama aygıtının kısaltması nedir?",
-        "answer": "SSD"
-      },
-      {
-        "question": "Merkezi işlem biriminin (CPU) aşırı ısınmasını engellemek için üzerine monte edilen ısı dağıtıcı metal bileşenin adı nedir?",
-        "answer": "Soğutucu"
-      },
-      {
-        "question": "Anakart üzerinde yonga setinin ve veri akışının yönetiminden sorumlu olan, temel giriş çıkış sistemini barındıran köprü hangisidir?",
-        "answer": "Kuzey köprüsü"
-      },
-      {
-        "question": "Bilgisayar kasası içindeki hava sirkülasyonunu bozmadan veri iletimi sağlayan, esnek ve geniş şeritli eski tip veri kablosunun adı nedir?",
-        "answer": "PATA"
-      },
-      {
-        "question": "Grafik işleme birimlerinin (GPU) anakarta takılması için en yaygın kullanılan yüksek hızlı genişleme slotunun adı nedir?",
-        "answer": "PCIe"
-      },
-      {
-        "question": "Merkezi işlem biriminin (CPU) anlık ve küçük boyutlu verileri en hızlı şekilde okuyup yazdığı dahili bellek birimi nedir?",
-        "answer": "Önbellek"
+      "hard": {
+        "flashcards": [
+          {
+            "question": "DDR4 bellek modüllerinde standart çalışma gerilimi kaç volttur?",
+            "answer": "1.2V"
+          },
+          {
+            "question": "PCI Express 3.0 standardında tek bir şerit üzerinden yön başına desteklenen veri aktarım hızı kaç GT/s'dir?",
+            "answer": "8 GT/s"
+          },
+          {
+            "question": "Anakart üzerindeki kuzey köprüsünün yerini modern işlemcilerde doğrudan alan ve bellek ile PCIe hatlarını yöneten dahili birimin teknik adı nedir?",
+            "answer": "Entegre Bellek Kontrolcüsü"
+          },
+          {
+            "question": "ECC bellek mimarisinde tek bitlik hataları anında düzelten mekanizmanın temel adı nedir?",
+            "answer": "Hata Düzeltme Kodu"
+          },
+          {
+            "question": "Bir güç kaynağının 80 Plus Sertifikasyon derecelendirmesinde %50 yük altında en az yüzde kaç verimlilik sunması zorunludur?",
+            "answer": "80 yüzde"
+          },
+          {
+            "question": "NVMe protokolü kullanan M.2 SSD sürücüler anakart üzerinde hangi veri yolu arayüzünü doğrudan kullanır?",
+            "answer": "PCI Express"
+          },
+          {
+            "question": "Çok çekirdekli işlemcilerde farklı çekirdeklerin ortak erişimine sunulan en büyük kapasiteli önbellek seviyesi hangisidir?",
+            "answer": "Seviye 3"
+          },
+          {
+            "question": "RAID 5 dizilimi oluşturmak için en az kaç adet fiziksel sürücü gereklidir?",
+            "answer": "3"
+          },
+          {
+            "question": "Anakart BIOS şifresini veya CMOS ayarlarını sıfırlamak için kullanılan fiziksel pin jumper mekanizmasının standart sektörel adı nedir?",
+            "answer": "CLRTC"
+          },
+          {
+            "question": "İşlemci ile soğutucu tabanı arasındaki mikroskobik hava boşluklarını doldurarak ısı transferini artıran bileşenin adı nedir?",
+            "answer": "Termal Macun"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Bir sunucu veya yüksek performanslı iş istasyonu anakartında kullanılan ECC (Error-Correcting Code) RAM bellekler, standart Non-ECC belleklerden farklı olarak hangi mekanizma ile veri bütünlüğünü sağlar?",
+            "options": [
+              "Tek bitlik hataları anında tespit edip düzelterek ve çok bitli hataları algılayarak",
+              "Veri iletim hızını iki katına çıkarmak için her iki bellek kanalını eş zamanlı kullanarak",
+              "Bellek hücrelerindeki elektriksel sızıntıyı önlemek için voltajı dinamik olarak düşürerek",
+              "Parite bitleri yerine CRC-32 sağlama toplamı kullanarak tüm paket kaybını engellemek suretiyle"
+            ],
+            "correctIndex": 0,
+            "explanation": "ECC RAM, Hamming kodu kullanarak tek bitlik bellek hatalarını anında düzeltebilir ve çok bitli hataları tespit edebilir, bu da veri bütünlüğünün kritik olduğu sistemlerde kararlılık sağlar."
+          },
+          {
+            "question": "Modern bir ATX güç kaynağında (PSU) bulunan +12V rail (ray) hattının, özellikle üst seviye ekran kartı ve çok çekirdekli işlemci kullanımındaki kritik önemi aşağıdakilerden hangisidir?",
+            "options": [
+              "Anakart üzerindeki CMOS pilini şarj etmek ve BIOS ROM verilerini korumak",
+              "Güç tüketiminin en yoğun olduğu işlemci ve grafik işlemci gibi bileşenlere ana gücü sağlamak",
+              "Sabit disklerin mekanik mil motorlarına düşük voltajlı başlangıç akımı temin etmek",
+              "Kasa içi fan hızlarını PWM sinyalleriyle senkronize etmek için gerekli referans voltajını üretmek"
+            ],
+            "correctIndex": 1,
+            "explanation": "Modern bilgisayarlarda güç tüketen ana bileşenler olan CPU ve GPU doğrudan +12V hattından beslenir; bu nedenle +12V ray kapasitesi sistem kararlılığı için hayati önem taşır."
+          },
+          {
+            "question": "NVMe protokolünü kullanan bir M.2 SSD, geleneksel SATA tabanlı M.2 SSD'lerden mimari olarak hangi temel bus (veri yolu) ve komut seti altyapısı sayesinde ayrılır?",
+            "options": [
+              "AHCI komut seti ve PCI veri yolu",
+              "SCSI komut seti ve USB 3.2 arayüzü",
+              "NVMe komut seti ve PCIe veri yolu",
+              "IDE komut seti ve AGP veri yolu"
+            ],
+            "correctIndex": 2,
+            "explanation": "NVMe SSD'ler, doğrudan PCIe veri yolu üzerinden çalışır ve AHCI yerine NVMe komut setini kullanarak çok daha düşük gecikme ve yüksek IOPS sunar."
+          },
+          {
+            "question": "Çift kanallı (Dual-Channel) RAM mimarisinden en yüksek bant genişliği verimini alabilmek için anakart üzerindeki bellek slotlarının yerleşimi nasıl yapılmalıdır?",
+            "options": [
+              "Aynı kanala ait slotlar yan yana doldurulmalı, diğer kanal boş bırakılmalıdır",
+              "Tüm modüller sadece birinci bellek kanalına ait slotlara takılmalıdır",
+              "Bellek modülleri aynı renk koduna veya kanal eşleşmesine sahip slotlara çiftler halinde takılmalıdır",
+              "Slot doluluğunun kanal yapısına bir etkisi yoktur, rastgele yerleşim mümkündür"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dual-channel performansından yararlanmak için bellek modülleri, anakart kılavuzunda belirtilen doğru kanal eşleşmelerine (genellikle her kanaldan birer slot olacak şekilde) takılmalıdır."
+          },
+          {
+            "question": "Bir işlemcinin (CPU) önbellek (Cache) hiyerarşisinde yer alan L1, L2 ve L3 önbelleklerinin genel yapısal özellikleri göz önüne alındığında aşağıdakilerden hangisi doğrudur?",
+            "options": [
+              "L1 önbellek en yüksek kapasiteye ve en düşük hıza sahiptir",
+              "L3 önbellek çekirdeklere en uzak konumdadır ancak en büyük kapasiteyi sunar",
+              "L2 önbellek paylaşımsızdır ve sadece bellek denetleyicisi tarafından kullanılır",
+              "L1 önbellek veri ve komut olarak ayrılmaz, tek bir havuzda çalışır"
+            ],
+            "correctIndex": 1,
+            "explanation": "L3 önbellek, işlemci çekirdekleri arasında paylaşılan ve genellikle en büyük kapasiteye sahip olan ancak L1 ve L2'ye kıyasla biraz daha yüksek gecikmeli olan katmandır."
+          },
+          {
+            "question": "UEFI (Unified Extensible Firmware Interface) mimarisinin, eski tip Legacy BIOS sistemlerine kıyasla depolama ve açılış süreçlerinde sunduğu en büyük avantajlardan biri hangisidir?",
+            "options": [
+              "Maksimum 2 TB boyutundaki diskleri destekleyerek GPT bölümleme tablosunu zorunlu kılmak",
+              "2 TB'dan büyük diskleri GPT ile desteklemek, Secure Boot ile güvenlik sağlamak ve hızlı açılış sunmak",
+              "Sadece 16-bit gerçek modda çalışarak tüm donanım sürücülerini ROM içine gömmek",
+              "İşletim sistemi bağımsız olarak doğrudan disk birleştirme (defrag) işlemlerini yönetmek"
+            ],
+            "correctIndex": 1,
+            "explanation": "UEFI, 2 TB sınırını kaldıran GPT desteği, zararlı yazılımları engelleyen Secure Boot ve modüler sürücü desteğiyle geleneksel BIOS'un yerini almıştır."
+          },
+          {
+            "question": "Anakart üzerinde yer alan Kuzey Köprüsü (Northbridge) ve Güney Köprüsü (Southbridge) yonga seti mimarisinin modern işlemcilerdeki evrimi hakkında hangisi doğrudur?",
+            "options": [
+              "Güney Köprüsü tamamen ortadan kalkmış, tüm işlevleri Kuzey Köprüsü devralmıştır",
+              "Kuzey Köprüsü işlevleri işlemci içine (SoC veya entegre bellek denetleyicisi olarak) taşınmış, Güney Köprüsü ise Platform Controller Hub (PCH) olarak evrilmiştir",
+              "Her iki köprü de anakarttan kaldırılarak harici bir PCI kart üzerine yerleştirilmiştir",
+              "Kuzey Köprüsü ekran kartı iletişimini bırakıp sadece ses kartını yönetmektedir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Modern işlemciler bellek denetleyicisini ve PCIe hatlarını bünyesinde barındırdığı için geleneksel Kuzey Köprüsü kalkmıştır; eski Güney Köprüsünün yerini ise PCH almıştır."
+          },
+          {
+            "question": "Bir güç kaynağının (PSU) verimliliğini derecelendiren 80 PLUS sertifikasyon sisteminde (örneğin 80 PLUS Gold), bu verimlilik hangi yük yüzdelerinde test edilerek belirlenir?",
+            "options": [
+              "Sadece %100 tam yük altında",
+              "Sadece %50 ortalama yük altında",
+              "%20, %50 ve %100 yük seviyelerinde",
+              "%10, %30 ve %90 yük kademelerinde"
+            ],
+            "correctIndex": 2,
+            "explanation": "80 PLUS standartları, güç kaynağının farklı çalışma senaryolarını yansıtmak üzere genellikle %20, %50 ve %100 yük oranlarındaki verimlilik yüzdelerine göre ölçülür."
+          },
+          {
+            "question": "RAID 5 depolama konfigürasyonunun veri güvenliği ve performans karakteristiği göz önüne alındığında, minimum kaç adet fiziksel disk gerektirir ve hata toleransı nasıldır?",
+            "options": [
+              "En az 2 disk gerektirir, 2 disk de aynı anda bozulabilir",
+              "En az 3 disk gerektirir, aynı anda en fazla 1 diskin bozulmasına tolerans gösterir",
+              "En az 4 disk gerektirir, parite bilgisi iki diske yazılır",
+              "En az 3 disk gerektirir, hata toleransı yoktur sadece okuma hızını artırır"
+            ],
+            "correctIndex": 1,
+            "explanation": "RAID 5, verileri ve dağıtık pariteyi en az 3 disk üzerinde saklar ve herhangi bir diskin arızalanması durumunda veri kaybı yaşanmadan çalışmaya devam edebilir."
+          },
+          {
+            "question": "ECC (Error-Correcting Code) haricinde, RAM modüllerinin üzerinde bulunan SPD (Serial Presence Detect) çipinin temel işlevi nedir?",
+            "options": [
+              "Anakartın, bellek modülünün kapasite, hız, zamanlama (timings) ve voltaj gibi fabrikasyon parametrelerini okumasını sağlamak",
+              "İşletim sistemi çöktüğünde RAM içeriğini kalıcı olarak diske yedeklemek",
+              "Bellek modülünün aşırı ısınmasını önlemek için dinamik soğutma profillerini yönetmek",
+              "RAM üzerindeki veri yollarını şifreleyerek fiziksel bellek okuma saldırılarını engellemek"
+            ],
+            "correctIndex": 0,
+            "explanation": "SPD çipi, RAM modülünün teknik özelliklerini barındıran küçük bir EEPROM'dur; anakart BIOS/UEFI bu veriyi okuyarak belleği uygun hız ve zamanlamalarda çalıştırır."
+          }
+        ]
       }
-    ],
-    "quizQuestions": [
-      {
-        "question": "Anakart form faktörleri arasında en yaygın kullanılan ve genişletme yuvası sayısı ile boyut dengesini en iyi sağlayan hangisidir?",
-        "options": [
-          "Mini-ITX",
-          "Micro-ATX",
-          "ATX",
-          "E-ATX"
-        ],
-        "correctIndex": 2,
-        "explanation": "ATX form faktörü, standart masaüstü bilgisayarlarda en yaygın kullanılan anakart boyutudur ve yeterli genişletme yuvası sunar."
-      },
-      {
-        "question": "İşlemcinin (CPU) ana bellek ile iletişim kurmadan önce en hızlı şekilde veriye ulaşmasını sağlayan dahili bellek birimi aşağıdakilerden hangisidir?",
-        "options": [
-          "Ön Bellek (Cache)",
-          "Sabit Disk (HDD)",
-          "RAM",
-          "BIOS ROM"
-        ],
-        "correctIndex": 0,
-        "explanation": "CPU ön belleği (L1, L2, L3), işlemcinin en sık kullandığı verileri saklayan ve RAM'e göre çok daha hızlı olan dahili bellektir."
-      },
-      {
-        "question": "Aşağıdaki RAM türlerinden hangisi dizüstü bilgisayarlar gibi dar alanlar için tasarlanmış küçük boyutlu bellek modülüdür?",
-        "options": [
-          "DIMM",
-          "SO-DIMM",
-          "SIMM",
-          "RIMM"
-        ],
-        "correctIndex": 1,
-        "explanation": "SO-DIMM (Small Outline DIMM), dizüstü bilgisayarlar ve küçük form faktörlü sistemler için üretilmiş kompakt bellek modülüdür."
-      },
-      {
-        "question": "Mekanik sabit disklere (HDD) kıyasla hareketli parça içermeyen, veri okuma ve yazma işlemlerini flash bellek yongalarıyla yapan depolama birimi hangisidir?",
-        "options": [
-          "Disket Sürücü",
-          "CD-ROM",
-          "SSD",
-          "Manyetik Bant"
-        ],
-        "correctIndex": 2,
-        "explanation": "SSD (Solid State Drive), mekanik parçalar yerine yarı iletken flash bellek kullanarak çok daha hızlı veri erişimi sağlar."
-      },
-      {
-        "question": "Bir güç kaynağının (PSU) prizden çektiği alternatif akımı (AC), bilgisayar bileşenlerinin kullanabileceği doğru akıma (DC) dönüştürürken harcanan enerjinin boşa gitmemesi oranını ifade eden sertifika hangisidir?",
-        "options": [
-          "80 Plus",
-          "RoHS",
-          "CE",
-          "Energy Star"
-        ],
-        "correctIndex": 0,
-        "explanation": "80 Plus sertifikası, güç kaynaklarının enerji verimliliğini ve güç dönüşüm kalitesini belgeleyen uluslararası bir standarttır."
-      },
-      {
-        "question": "Anakart üzerinde bulunan ve işlemcinin doğrudan takıldığı fiziksel soket yuvasına ne ad verilir?",
-        "options": [
-          "PCIe Slotu",
-          "CPU Soketi",
-          "RAM Yuvası",
-          "SATA Portu"
-        ],
-        "correctIndex": 1,
-        "explanation": "CPU soketi, işlemcinin anakarta pinler veya temas noktaları aracılığıyla güvenli bir şekilde bağlanmasını sağlayan özel yuvadır."
-      },
-      {
-        "question": "Bilgisayar ilk açıldığında donanımı test eden (POST) ve işletim sistemini yükleme sürecini başlatan temel yazılımın saklandığı yonga aşağıdakilerden hangisidir?",
-        "options": [
-          "DDR4 RAM",
-          "BIOS veya UEFI Flash ROM",
-          "Güç Kaynağı",
-          "Güney Köprüsü"
-        ],
-        "correctIndex": 1,
-        "explanation": "BIOS veya UEFI yongası, anakart üzerinde kalıcı olarak bulunan ve sistemin açılış rutinini kontrol eden temel yazılımı barındırır."
-      },
-      {
-        "question": "Aşağıdaki ekran kartı bağlantı arayüzlerinden hangisi günümüz modern anakartlarında yüksek bant genişliği sunarak standart olarak kullanılmaktadır?",
-        "options": [
-          "PCI",
-          "PCI Express (PCIe)",
-          "AGP",
-          "ISA"
-        ],
-        "correctIndex": 1,
-        "explanation": "PCI Express (PCIe), günümüz ekran kartları ve yüksek hızlı genişletme kartları için ana veri yolu standardıdır."
-      },
-      {
-        "question": "Aşağıdaki depolama arabirimlerinden hangisi, geleneksel SATA kablolarına ihtiyaç duymadan doğrudan anakart üzerine takılan ve PCIe veri yolunu kullanan çok hızlı bir formatı ifade eder?",
-        "options": [
-          "IDE",
-          "SCSI",
-          "NVMe M.2",
-          "Floppy"
-        ],
-        "correctIndex": 2,
-        "explanation": "NVMe protokolünü kullanan M.2 SSD'ler, doğrudan anakarta monte edilir ve çok yüksek okuma/yazma hızlarına ulaşır."
-      },
-      {
-        "question": "Bir bilgisayarda işlemci fanının dönmemesi veya yetersiz soğutma yapması durumunda işlemcinin yanmasını önlemek için sistemin otomatik olarak kapanmasını sağlayan koruma mekanizması nedir?",
-        "options": [
-          "Overclock",
-          "Thermal Throttling ve Kapanma",
-          "RAID 0",
-          "Parite Kontrolü"
-        ],
-        "correctIndex": 1,
-        "explanation": "İşlemciler aşırı ısındığında donanımsal hasar görmemek için hız düşürür (thermal throttling) veya sistemi tamamen kapatır."
-      }
-    ]
+    }
   },
   {
     "title": "YDS İngilizce",
     "color": 4281896508,
-    "summaryText": "YDS yolculuğu, düzenli çalışma ve doğru stratejilerle başarıya ulaşabileceğin heyecan verici bir süreçtir. Zaman kipleri, edilgen çatı ve koşul cümleleri gibi temel dilbilgisi yapılarını sağlam bir şekilde öğrenerek işe başlamalısın. Bunun yanı sıra, orta-ileri seviye kelime dağarcığını sürekli geliştirerek okuma becerilerini güçlendirmelisin. Unutma ki sabırlı ve istikrarlı bir çalışma temposu, hedeflediğin puana ulaşmanı sağlayacak en büyük gücündür.",
-    "flashcards": [
-      {
-        "question": "YDS kelime sorularında sıkça karşılaşılan ve \"azaltmak, hafifletmek\" anlamına gelen fiil hangisidir?",
-        "answer": "Mitigate"
+    "summaryText": "YDS yolculuğuna başlarken kelime hazineni genişletmek ve temel dilbilgisi yapılarını sağlam oturtmak en büyük adımındır. Tenses, conditionals ve passive voice gibi konuların mantığını kavradıkça, karmaşık görünen cümlelerin aslında ne kadar anlaşılır olduğunu fark edeceksin. Sıkça karşılaştığın konu başlıklarını bol soru çözerek pekiştirdiğinde, bu sınavın bir bilgi testinden ziyade bir strateji sınavı olduğunu göreceksin. Düzenli ve sabırlı bir çalışma temposuyla hedefine ulaşacağına ve istediğin puanı alacağına inancım tam, yeter ki vazgeçmeden adımlarını atmaya devam et.",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "YDS İngilizce sınavında kelime soruları genellikle hangi tür kelimeleri ağırlıklı olarak sorar?",
+            "answer": "İsim, fiil, sıfat ve zarf"
+          },
+          {
+            "question": "İngilizcede geçmişte belirli bir noktada başlamış ve hâlâ devam eden eylemleri anlatmak için hangi zaman yapısı kullanılır?",
+            "answer": "Present Perfect Continuous"
+          },
+          {
+            "question": "Bir cümlede etken yapıyı edilgen (passive) yapıya dönüştürürken asıl cümlenin nesnesi yeni cümlenin neyi olur?",
+            "answer": "Özne"
+          },
+          {
+            "question": "Gerçekleşmesi imkânsız veya geçmişteki hayali durumları ifade eden 'if clause' türü hangisidir?",
+            "answer": "Type 3"
+          },
+          {
+            "question": "YDS okuma parçalarında sıkça karşılaşılan, bir eylemin amacını bildiren 'so that' bağlacından sonra genellikle ne kullanılır?",
+            "answer": "Modal"
+          },
+          {
+            "question": "İngilizcede bir ismi niteleyen ve 'who, which, that' gibi zamirlerle kurulan yan cümleçlerin genel adı nedir?",
+            "answer": "Relative clause"
+          },
+          {
+            "question": "Zıtlık bildiren bağlamlarda 'although' kelimesi ile aynı anlamda kullanılan ve ardından isim alan yaygın edat hangisidir?",
+            "answer": "Despite"
+          },
+          {
+            "question": "YDS kelime sorularında sıkça sorulan 'increase' fiilinin zıt anlamlısı olan temel fiil hangisidir?",
+            "answer": "Decrease"
+          },
+          {
+            "question": "Bir eylemin diğerinden hemen önce veya sonra olduğunu belirten 'as soon as' yapısı hangi soru türlerinde ipucu sağlar?",
+            "answer": "Tense"
+          },
+          {
+            "question": "YDS sınavında paragrafın akışını bozan cümleyi bulma sorusunda aranan temel özellik nedir?",
+            "answer": "Alakasızlık"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "YDS İngilizce sınavında başarı için en önemli adımlardan biri nedir?",
+            "options": [
+              "Sadece Türkçe çeviri yapmak",
+              "Zengin bir kelime dağarcığına sahip olmak",
+              "Gramer kurallarını tamamen ezberden kaçınarak öğrenmek",
+              "Sadece günlük konuşma kalıplarını çalışmak"
+            ],
+            "correctIndex": 1,
+            "explanation": "YDS, akademik ve ileri düzey kelime bilgisi gerektiren bir sınavdır; bu yüzden geniş bir kelime dağarcığına sahip olmak şarttır."
+          },
+          {
+            "question": "İngilizcede 'geçmişte başlayıp etkisi hâlâ devam eden eylemleri' ifade etmek için hangi tense kullanılır?",
+            "options": [
+              "Present Simple Tense",
+              "Past Simple Tense",
+              "Present Perfect Tense",
+              "Future Continuous Tense"
+            ],
+            "correctIndex": 2,
+            "explanation": "Present Perfect Tense, geçmişte meydana gelmiş ancak sonucu veya etkisi günümüzde de devam eden olayları anlatmak için kullanılır."
+          },
+          {
+            "question": "YDS'de sıkça karşılaşılan 'Although' bağlacı hangi anlamı taşır ve nasıl bir cümle yapısı ister?",
+            "options": [
+              "Ancak, fakat manasındadır ve zıtlık bildirir",
+              "Çünkü anlamında sebep bildirir",
+              "Eğer anlamında şart bildirir",
+              "Örneğin anlamında örnekleme yapar"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Although' bir zıtlık (concession) bağlacıdır ve 'rağmen, -e karşın' anlamlarına gelir."
+          },
+          {
+            "question": "Pasif (edilgen) çatı yapılırken fiil hangi formda kullanılır?",
+            "options": [
+              "Özne her zaman birinci tekil şahıs olur",
+              "Fiil daima -ing takısı alır",
+              "To be yardımcı fiili ve fiilin üçüncü hali (V3) kullanılır",
+              "Fiilin sadece birinci hali (V1) kullanılır"
+            ],
+            "correctIndex": 2,
+            "explanation": "Passive voice yapısının temel kuralı, uygun bir 'to be' formu ile birlikte fiilin past participle (V3) halinin kullanılmasıdır."
+          },
+          {
+            "question": "Type 1 Conditional (Şart cümlesi) yapısında temel cümlelik (main clause) kısımda genellikle hangi zaman kullanılır?",
+            "options": [
+              "Past Perfect Tense",
+              "Future Simple (will + V1)",
+              "Past Continuous Tense",
+              "Present Perfect Tense"
+            ],
+            "correctIndex": 1,
+            "explanation": "Type 1 koşul cümlelerinde if kısmında Present Simple, temel cümlede ise genellikle geleceğe yönelik bir anlam için 'will' kullanılır."
+          },
+          {
+            "question": "YDS'de kelime sorularında sıkça sorulan 'enhance' fiilinin Türkçe karşılığı nedir?",
+            "options": [
+              "Azaltmak",
+              "Geliştirmek, artırmak",
+              "İhmal etmek",
+              "Geciktirmek"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Enhance' kelimesi, bir şeyin kalitesini, değerini veya gücünü artırmak ve geliştirmek anlamına gelir."
+          },
+          {
+            "question": "İngilizcede 'In addition to' kalıbından sonra fiil gelirse fiil hangi eki alır?",
+            "options": [
+              "-s takısı",
+              "-ed takısı",
+              "-ing takısı",
+              "Hiçbir ek almaz"
+            ],
+            "correctIndex": 2,
+            "explanation": "'In addition to' bir edat (preposition) grubu olduğu kendisinden sonra gelen fiilin -ing almasını gerektirir."
+          },
+          {
+            "question": "YDS okuma anlama sorularında 'Anlamı bozan cümleyi bulma' sorusunda dikkat edilmesi gereken en temel unsur nedir?",
+            "options": [
+              "Paragrafın ana fikrinden ve akışından kopan cümleyi tespit etmek",
+              "En uzun olan cümleyi doğrudan elemek",
+              "Sadece ilk cümleye bakarak karar vermek",
+              "İçinde rakam geçen cümleleri bulmak"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bu soru tipinde amaç, metnin bütünsel akışına uymayan ve farklı bir konuya değinen cümleyi bulmaktır."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir zıtlık (contrast) bağlacı değildir?",
+            "options": [
+              "However",
+              "Nevertheless",
+              "Therefore",
+              "In contrast"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Therefore' bir sonuç (result) bağlacıdır ve 'bu yüzden, bu nedenle' anlamına gelir. Diğerleri ise zıtlık bildirir."
+          },
+          {
+            "question": "YDS sınavında 'Close Meaning' yani 'En yakın anlamlı cümleyi bulma' sorularında neye dikkat edilmelidir?",
+            "options": [
+              "Sadece orijinal cümledeki bazı kelimelerin aynen kopya edilmesine",
+              "Orijinal cümlenin ana fikrinin ve anahtar kelimelerinin doğru eş anlamlılarla korunmasına",
+              "Cümlenin uzunluğunun birebir aynı olmasına",
+              "Sadece öznenin değiştirilmiş olmasına"
+            ],
+            "correctIndex": 1,
+            "explanation": "En yakın anlamlı cümle sorularında, ana cümlenin özü korunarak farklı kelimelerle (genellikle eş anlamlılarla) yeniden ifade edilmiş hali aranır."
+          }
+        ]
       },
-      {
-        "question": "Cümle tamamlama sorularında zıtlık bildiren bağlaçlardan biri olan ve \"-e rağmen\" anlamına gelen zarf-fiil grubu hangisidir?",
-        "answer": "Despite"
+      "medium": {
+        "flashcards": [
+          {
+            "question": "YDS sınavında 'rağmen' anlamı veren ve ardından cümle (subject + verb) alan bağlacına örnek veriniz.",
+            "answer": "Although"
+          },
+          {
+            "question": "YDS cloze test sorularında 'artırmak' anlamında sıkça sorulan ve 'enhance' fiili ile eş anlamlı olan fiil hangisidir?",
+            "answer": "Improve"
+          },
+          {
+            "question": "Type 2 conditional yapılarında yan cümlecikte (if clause) hangi zaman ve kip kullanılır?",
+            "answer": "Past Simple"
+          },
+          {
+            "question": "Pasif yapılarda (passive voice) cümlenin ana fiili her zaman hangi formda kullanılmalıdır?",
+            "answer": "Past participle"
+          },
+          {
+            "question": "YDS'de sebep-sonuç ilişkisi bildiren ve 'due to' ifadesinden farklı olarak arkasından cümle alan bağlaç hangisidir?",
+            "answer": "Because"
+          },
+          {
+            "question": "İngilizcede 'gibi' anlamına gelen ve isimlerle kullanılan 'such as' yapısının eş anlamlısı olan tek kelimelik sıklıkla sorulan zarf nedir?",
+            "answer": "Namely"
+          },
+          {
+            "question": "YDS vocabulary sorularında 'azaltmak' anlamında kullanılan ve 'reduce' kelimesinin eş anlamlısı olan fiil nedir?",
+            "answer": "Diminish"
+          },
+          {
+            "question": "Gelecekte belirli bir noktada tamamlanmış olacak eylemleri ifade etmek için hangi tense kullanılır?",
+            "answer": "Future perfect"
+          },
+          {
+            "question": "YDS çeviri sorularında 'karşın, -e rağmen' anlamı veren ve ardından isim alan edat öbeği (prepositional phrase) hangisidir?",
+            "answer": "Despite"
+          },
+          {
+            "question": "İngilizcede 'zorunluluk' bildiren ve 'must' ile eş anlamlı olan yarı modal yapı hangisidir?",
+            "answer": "Have to"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "YDS sınavında sıklıkla karşılaşılan ve 'tahmin etmek, öngörmek' anlamına gelen fiil aşağıdakilerden hangisidir?",
+            "options": [
+              "Anticipate",
+              "Accumulate",
+              "Accommodate",
+              "Acknowledge"
+            ],
+            "correctIndex": 0,
+            "explanation": "Anticipate kelimesi gelecekteki bir durumu önceden sezinlemek veya tahmin etmek anlamında YDS'de sıkça sorulur. Diğer seçenekler sırasıyla biriktirmek, barındırmak ve kabul etmek anlamlarına gelir."
+          },
+          {
+            "question": "By the time the committee reaches a final decision next month, they _____ all the relevant reports thoroughly.",
+            "options": [
+              "will review",
+              "will have reviewed",
+              "are reviewing",
+              "have reviewed"
+            ],
+            "correctIndex": 1,
+            "explanation": "'By the time' yapısı gelecek zamanda bir noktayı (next month) işaret ettiğinde, temel cümlede 'future perfect tense' (will have V3) kullanımı gerektirir."
+          },
+          {
+            "question": "YDS'de zıtlık bildiren bağlaçlar arasında yer alan ve 'rağmen' anlamına gelen edat öbeği aşağıdakilerden hangisidir?",
+            "options": [
+              "In terms of",
+              "As a result of",
+              "In spite of",
+              "In addition to"
+            ],
+            "correctIndex": 2,
+            "explanation": "'In spite of' bir isim veya isim öbeğiyle birlikte kullanılarak zıtlık bildirir ve 'rağmen' anlamına gelir. Diğer yapılar sırasıyla bakımından, sonucunda ve ek olarak anlamlarına sahiptir."
+          },
+          {
+            "question": "Had the government implemented stricter environmental policies earlier, the current ecological crisis _____ avoided.",
+            "options": [
+              "can be",
+              "will be",
+              "would be",
+              "could have been"
+            ],
+            "correctIndex": 3,
+            "explanation": "Bu soru Tip 3 koşul (conditional) yapısının devrik (inversion) halidir. Geçmişteki bir duruma hayali bir pişmanlık belirttiği için ana cümlede 'would/could/might have V3' yapısı kullanılmalıdır."
+          },
+          {
+            "question": "YDS kelime sorularında 'azaltmak, hafifletmek' anlamında sıklıkla test edilen eş anlamlı ikili hangisidir?",
+            "options": [
+              "Mitigate / Alleviate",
+              "Aggravate / Exacerbate",
+              "Enhance / Amplify",
+              "Establish / Implement"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mitigate ve alleviate kelimeleri bir sorunu, acıyı veya etkiyi azaltmak, hafifletmek anlamlarına gelir. Diğer şıklar durumu kötüleştirmek, artırmak veya uygulamaya koymak anlamı taşır."
+          },
+          {
+            "question": "The newly discovered manuscript _____ to have been written during the early medieval period, but historians are still debating its authenticity.",
+            "options": [
+              "is believing",
+              "believes",
+              "is believed",
+              "has believed"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genel kabul gören durumlarda kullanılan 'It is believed that' yapısının özneye uyarlanmış pasif hali ('is believed to have been') bu cümle için en doğru seçenektir."
+          },
+          {
+            "question": "Cümle tamamlama sorularında sıklıkla kullanılan 'not only ... but also' yapısı ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+            "options": [
+              "Sadece sıfatları nitelemek için kullanılır.",
+              "Paralel yapı kuralına uyarak aynı türden dilbilgisel öğeleri birbirine bağlar.",
+              "Her zaman olumsuz anlam veren bir zarf olarak cümlenin başında yer alır.",
+              "Yalnızca geçmiş zaman cümlelerinde tercih edilir."
+            ],
+            "correctIndex": 1,
+            "explanation": "Not only ... but also yapısı bir correlative conjunction olup, bağladığı ögelerin (isim, fiir, sıfat vb.) dilbilgisel olarak paralel (benzer türde) olmasını gerektirir."
+          },
+          {
+            "question": "'Dramatik bir şekilde, çarpıcı biçimde' anlamını veren ve YDS okuma parçalarında sıkça geçen zarf aşağıdakilerden hangisidir?",
+            "options": [
+              "Superficially",
+              "Dramatically",
+              "Subtly",
+              "Temporarily"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dramatically kelimesi, özellikle istatistiksel artış veya azalışlarda 'çarpıcı bir şekilde, önemli ölçüde' anlamında sıkça kullanılır. Diğer şıklar yüzeysel olarak, hafifçe/ince bir şekilde ve geçici olarak demektir."
+          },
+          {
+            "question": "No sooner had the manager stepped into the boardroom _____ the presentation started.",
+            "options": [
+              "than",
+              "when",
+              "then",
+              "before"
+            ],
+            "correctIndex": 0,
+            "explanation": "'No sooner ... than' kalıbı, bir olayın hemen ardından başka bir olayın gerçekleştiğini ifade eden ve başa geldiğinde devrik yapı gerektiren bir zaman bağlacıdır."
+          },
+          {
+            "question": "YDS cloze test sorularında boşluk doldururken aşağıdakilerden hangisine özellikle dikkat etmek gerekir?",
+            "options": [
+              "Sadece cümlenin kendi içindeki kelime anlamlarına bakılmalıdır.",
+              "Paragrafın genel akışına, anlam bütünlüğüne ve cümleler arası geçiş bağlaçlarına dikkat edilmelidir.",
+              "Fiil zamanları paragraf genelinde tamamen bağımsız olmalıdır.",
+              "Edatlar sadece isimlerin önüne rastgele gelebilir."
+            ],
+            "correctIndex": 1,
+            "explanation": "Cloze test sorularında başarılı olmak için sadece hedef cümlenin grameri yetmez; paragrafın genel tonu, anlam bütünlüğü ve bağlaç uyumu da dikkate alınmalıdır."
+          }
+        ]
       },
-      {
-        "question": "Bir şeyin meydana gelmesini engellemek veya önüne geçmek anlamındaki fiil nedir?",
-        "answer": "Preclude"
-      },
-      {
-        "question": "YDS'de sebep-sonuç ilişkisi kuran, \"...den dolayı, ...e istinaden\" anlamına gelen edat öbeği hangisidir?",
-        "answer": "Due to"
-      },
-      {
-        "question": "Geçmişte yapılmış ama artık geçerliliğini yitirmiş alışkanlıkları ifade etmek için kullanılan modal yapısı hangisidir?",
-        "answer": "Used to"
-      },
-      {
-        "question": "Farazi durumlarda geçmişteki bir pişmanlığı veya gerçekleşmemiş bir durumu ifade eden Type 3 Conditional yapısının temel fiil çekimi nasıldır?",
-        "answer": "Would have done"
-      },
-      {
-        "question": "Pasif yapı oluşturulurken fiilin hangi hali kullanılmak zorundadır?",
-        "answer": "Past participle"
-      },
-      {
-        "question": "\"Belirsiz, şüpheli\" anlamına gelen ve YDS'de sıklıkla sorulan sıfat hangisidir?",
-        "answer": "Ambiguous"
-      },
-      {
-        "question": "İki zıt durumu birbirine bağlayan ve \"oysaki, halbuki\" anlamlarına gelen bağlaç hangisidir?",
-        "answer": "Whereas"
-      },
-      {
-        "question": "Bir metnin ana düşüncesini veya yazarın amacını sormak için kullanılan soru kalıplarında sıklıkla geçen \"vurgulamak\" fiili hangisidir?",
-        "answer": "Emphasize"
+      "hard": {
+        "flashcards": [
+          {
+            "question": "YDS sınavında 'rağmen' anlamı veren ancak kendisinden sonra bir isim öbeği yerine tam cümle (clause) alan 'even though' yapısının akademik metinlerdeki eş anlamlısı olan ve 'e rağmen' anlamında kullanılan üç kelimelik edat öbeği nedir?",
+            "answer": "in spite of the fact that"
+          },
+          {
+            "question": "İngilizcede geçmişte yapılmış ancak gerçekleşmemiş bir olasılığı ya da pişmanlığı ifade etmek için 'modal + have + V3' yapısı kullanılır; peki 'şiddetle tavsiye edilirdi ama yapılmadı' anlamını veren yapı hangisidir?",
+            "answer": "should have been done"
+          },
+          {
+            "question": "YDS cloze test sorularında sıklıkla test edilen, 'görünüşe göre' veya 'anlaşılan o ki' anlamlarına gelen ve 'as it ...' şeklinde başlayan zarf tümcecindeki eksik fiil hangisidir?",
+            "answer": "appears"
+          },
+          {
+            "question": "Zarf fiir (gerund) alarak anlam değiştiren fiillerden biri olan 'regret', kendisinden sonra 'to inform' fiilini aldığında hangi anlamı kazanır?",
+            "answer": "üzülerek bildirmek"
+          },
+          {
+            "question": "Type 3 bir conditional cümlesinde 'If' bağlacının düşürülmesiyle yapılan devrik (inversion) yapıda cümlenin başına hangi yardımcı fiil getirilmelidir?",
+            "answer": "Had"
+          },
+          {
+            "question": "YDS kelime sorularında 'azaltmak, şiddetini dindirmek' anlamında sıklıkla karşımıza çıkan, özellikle ağrı, sancı veya krizi hafifletmek için kullanılan fiil hangisidir?",
+            "answer": "mitigate"
+          },
+          {
+            "question": "Cümle tamamlama sorularında zıtlık bildirmek için kullanılan ve 'tersine, aksine' anlamını veren zarf bağlacı hangisidir?",
+            "answer": "conversely"
+          },
+          {
+            "question": "Pasif yapılarda etken cümledeki dolaylı nesnenin (indirect object) başa alındığı durumlar dışında, 'It is believed that ...' yapısının 'Subject + be + believed + ...' formatındaki karşılığına ne ad verilir?",
+            "answer": "passive infinitive"
+          },
+          {
+            "question": "YDS akademik okuma parçalarında 'kapsamlı, etraflıca' anlamına gelen ve 'comprehensive' kelimesinin eş anlamlısı olan sıfat hangisidir?",
+            "answer": "exhaustive"
+          },
+          {
+            "question": "Gelecekte belirli bir noktada tamamlanmış olacak eylemleri vurgulamak için kullanılan 'Future Perfect Tense' yapısının formülü nedir?",
+            "answer": "will have V3"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "YDS sinavinda siklikla karsimiza cikan 'hardly... when' yapisinin dogru kullanimini ve ardindan gelen zaman uyumunu dikkate aldigimizda, asagidaki cumlelerin hangisinde bir dilbilgisi hatasi vardir?",
+            "options": [
+              "Hardly had she entered the office when the phone started ringing.",
+              "Hardly had the meeting begun than the manager interrupted with a critical update.",
+              "Hardly had they signed the contract when a major disagreement arose.",
+              "Hardly had he closed his eyes when a loud noise woke him up."
+            ],
+            "correctIndex": 1,
+            "explanation": "Hardly yapisi 'when' baglacini alir, 'than' baglacini almak yanlistir. 'Than' baglaci 'no sooner' yapisiyla kullanilir."
+          },
+          {
+            "question": "Asagidaki cumlelerin hangisinde 'wish' klusu ile ilgili ileri duzey bir zaman uyumsuzlugu veya anlamsal hata bulunmaktadir?",
+            "options": [
+              "I wish I had accepted the job offer in London last year.",
+              "She wishes she could speak fluent French before her trip tomorrow.",
+              "I wish you wouldn't play loud music while I am trying to concentrate.",
+              "He wishes he were more experienced in international trade."
+            ],
+            "correctIndex": 1,
+            "explanation": "Gelecekteki bir yetenek veya durum icin 'could' kullanilabilir ancak 'before her trip tomorrow' gibi belirli bir zaman zarfiyla 'wishes she could speak' yapisi anlamsal olarak uygun degildir, 'would be able to' veya benzeri bir yapi tercih edilmelidir."
+          },
+          {
+            "question": "YDS 'vocabulary' bolumunde sıkça sorulan, 'bir seyin etkisini veya siddetini azaltmak, hafifletmek' anlamina gelen fiil hangisidir?",
+            "options": [
+              "Exacerbate",
+              "Mitigate",
+              "Perpetuate",
+              "Instigate"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mitigate kelimesi, bir sorunun veya acinin etkisini hafifletmek anlamina gelir. Exacerbate ise tam tersine kotulestirmek demektir."
+          },
+          {
+            "question": "Asagidaki 'future in the past' (gecmisteki gelecek) yapilarindan hangisi, gecmiste planlanmis ancak gerceklesmemis bir eylemi ve hayal kirikligini en iyi vurgular?",
+            "options": [
+              "They were to have signed the agreement yesterday, but the CEO fell ill.",
+              "They were going to sign the agreement yesterday.",
+              "They would sign the agreement yesterday if they had time.",
+              "They are to sign the agreement yesterday."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Were to have V3' yapisi, gecmiste yapilmasi planlanan ancak gerceklesmeyen durumlari ve bu yuzden olusan hayal kirikligini veya durumu ifade eder."
+          },
+          {
+            "question": "Asagidaki cumlelerin hangisinde 'inversion' (devrik yapi) kurali yanlis uygulanmistir?",
+            "options": [
+              "Not only did she finish the report on time, but she also added insightful charts.",
+              "Seldom have I encountered such a persistent and complex technical problem.",
+              "Little did he knew about the unexpected changes in company policy.",
+              "Hardly had the economy shown signs of recovery when inflation surged again."
+            ],
+            "correctIndex": 2,
+            "explanation": "Devrik yapilarda 'did' yardimci fiilinden sonra ana fiil yalin haliyle (know) gelmelidir, 'knew' seklinde ikinci haliyle kullanilamaz."
+          },
+          {
+            "question": "YDS sinavinda sifat-fiil (participle) kisaltmalarinda, etken (active) bir anlami gecmis zaman icin vermemiz gerektiginde hangi yapi kullanilir?",
+            "options": [
+              "Having been V3",
+              "Having V3",
+              "V3",
+              "Being V3"
+            ],
+            "correctIndex": 1,
+            "explanation": "Etken yapida ve temel cumleden daha once gerceklesen bir eylemi kisaltmak icin 'Having V3' (perfect participle) kullanilir."
+          },
+          {
+            "question": "Asagidaki baglaclar ve anlam iliskileri eslestirmelerinden hangisi yanlistir?",
+            "options": [
+              "Notwithstanding -> Zitsel/Zitlik (Ramen / Ragmen)",
+              "Inasmuch as -> Neden-Sonuc (Diyerek, cunku)",
+              "Albeit -> Odunc/Karsilik (Olmasina ragmen)",
+              "Provided that -> Kosul (Sartiyla, eger)"
+            ],
+            "correctIndex": 2,
+            "explanation": "Albeit zitlik bildiren bir baglactir ve 'ragmen, -e ragmen' anlamina gelir, odunc veya karsilik ile bir ilgisi yoktur."
+          },
+          {
+            "question": "Asagidaki 'modals in the past' (gecmis zaman kipleri) kullanimiyla ilgili cumlelerin hangisinde cikarim (deduction) amaciyla yanlis bir kip secilmistir?",
+            "options": [
+              "She is not answering her phone; she must have left her office already.",
+              "The streets are soaking wet; it must have rained heavily last night.",
+              "He failed the exam despite studying hard; he can have misinterpreted the questions.",
+              "They arrived hours late; they might have missed the connecting flight."
+            ],
+            "correctIndex": 2,
+            "explanation": "Gecmiste gerceklesmis olumsuz bir ihtimal icin 'can have' kullanilmaz; 'could have', 'might have' veya 'may have' kullanilmalidir."
+          },
+          {
+            "question": "Asagidaki isimlerden hangisi, YDS'de sıkça sorulan 'soyut kavramlar' kategorisinde yer alir ve 'gizli, asikar olmayan' anlamina gelen sifatla nitelendirilmeye en uygundur?",
+            "options": [
+              "Ambiguity",
+              "Infrastructure",
+              "Architecture",
+              "Manufacture"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ambiguity (belirsizlik, muallaklik) soyut bir kavramdir ve 'latent' veya 'subtle' gibi sifatlarla siklikla nitelendirilir."
+          },
+          {
+            "question": "Asagidaki cumlelerin hangisinde 'causative' (ettirgen) catinin kullanimi dilbilgisel olarak hatalidir?",
+            "options": [
+              "She had her car repaired by a professional mechanic yesterday.",
+              "I need to get my essay checked by the instructor before submission.",
+              "They made him apologizing for his inappropriate remarks during the meeting.",
+              "We should have the IT department update our security software."
+            ],
+            "correctIndex": 2,
+            "explanation": "'Make' fiili ettirgen yapida 'somebody do something' seklinde yalin fiil alir; 'to apologizing' seklinde kullanilamaz."
+          }
+        ]
       }
-    ],
-    "quizQuestions": [
-      {
-        "question": "YDS sınavında sıkça karşımıza çıkan 'to allocate' fiilinin Türkçe karşılığı aşağıdakilerden hangisidir?",
-        "options": [
-          "Ayırmak, tahsis etmek",
-          "İptal etmek",
-          "Geciktirmek",
-          "Reddetmek"
+    }
+  },
+  {
+    "title": "Temel Ekonomi",
+    "color": 4285353025,
+    "summaryText": "Ekonomi, günlük hayatımızın tam merkezinde yer alan ve etrafımızdaki dünyayı anlamamızı sağlayan büyüleyici bir bilim dalıdır. Arz ve talep dengesinden enflasyona, faiz oranlarından milli gelire kadar öğrendiğin her yeni kavram, aslında markette yaptığın alışverişten gelecekteki kariyer planlarına kadar pek çok kararına ışık tutacak. Bu yolda adımlarını atarken karmaşık formüllerden korkma; çünkü iktisat, özünde insanların sınırsız ihtiyaçları ile kısıtlı kaynaklar arasında nasıl seçim yaptığını inceleyen çok keyifli bir hikayedir. Başlangıçta yabancı gelen tüm bu terimlerin zamanla hayatın doğal bir parçası haline geldiğini ve etrafındaki ekonomik olayları ne kadar rahat okuyabildiğini fark ettiğinde sen de şaşıracaksın.",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "Bir malın veya hizmetin satın alma isteği ve bu isteği karşılayacak maddi güce ne ad verilir?",
+            "answer": "Talep"
+          },
+          {
+            "question": "Üreticilerin belirli bir fiyattan piyasaya sunmaya hazır olduğu mal veya hizmet miktarına ne denir?",
+            "answer": "Arz"
+          },
+          {
+            "question": "Genel fiyat düzeyinin sürekli ve hissedilir bir şekilde artış göstermesine ne ad verilir?",
+            "answer": "Enflasyon"
+          },
+          {
+            "question": "Paranın zaman içindeki kullanım bedeli veya maliyeti olan oran nedir?",
+            "answer": "Faiz"
+          },
+          {
+            "question": "Bir ülke sınırları içinde belirli bir yılda üretilen tüm nihai mal ve hizmetlerin piyasa değerine ne denir?",
+            "answer": "Gayri safi milli hasıla"
+          },
+          {
+            "question": "Tek bir alıcının ve çok sayıda satıcının bulunduğu piyasa türü hangisidir?",
+            "answer": "Monopson"
+          },
+          {
+            "question": "Merkez bankalarının para arzını ve faiz oranlarını değiştirerek ekonomiyi yönlendirmesine ne denir?",
+            "answer": "Para politikasi"
+          },
+          {
+            "question": "Bir malın fiyatı arttığında o mala olan talebin azalmasını ifade eden temel ekonomik kural nedir?",
+            "answer": "Talep kanunu"
+          },
+          {
+            "question": "Piyasada tek bir satıcının ve çok sayıda alıcının bulunduğu rekabet türü nedir?",
+            "answer": "Monopol"
+          },
+          {
+            "question": "Kısıtlı kaynakların sınırsız insan ihtiyaçlarını karşılamak üzere nasıl dağıtılacağını inceleyen bilim dalı nedir?",
+            "answer": "İktisat"
+          }
         ],
-        "correctIndex": 0,
-        "explanation": "Allocate kelimesi, bir kaynak veya bütçeyi belirli bir amaç için ayırmak veya tahsis etmek anlamını taşır."
+        "quizQuestions": [
+          {
+            "question": "Bir malın fiyatı arttığında o mala olan talebin azalması, fiyatı düştüğünde ise talebin artması hangi temel ekonomi kanunu ile açıklanır?",
+            "options": [
+              "Arz Kanunu",
+              "Talep Kanunu",
+              "Miktar Teorisi",
+              "Fırsat Maliyeti"
+            ],
+            "correctIndex": 1,
+            "explanation": "Talep kanunu, fiyat ile talep edilen miktar arasındaki ters yönlü ilişkiyi ifade eder. Fiyat arttıkça talep düşer, fiyat düştükçe talep artar."
+          },
+          {
+            "question": "Ülke genelinde mal ve hizmetlerin fiyatlar genel düzeyinin sürekli ve hissedilir bir şekilde artması durumuna ne ad verilir?",
+            "options": [
+              "Deflasyon",
+              "Enflasyon",
+              "Devalüasyon",
+              "Stagflasyon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Enflasyon, hayat pahalılığına yol açan ve genel fiyat seviyesinin sürekli artması durumudur. Bu süreçte paranın alım gücü düşer."
+          },
+          {
+            "question": "Paranın zamana bağlı kullanım bedeli veya ödünç alınan paranın maliyeti olarak tanımlanan kavram hangisidir?",
+            "options": [
+              "Faiz",
+              "Temettü",
+              "Kâr",
+              "Prim"
+            ],
+            "correctIndex": 0,
+            "explanation": "Faiz, borç alınan paranın veya birikimlerin belirli bir süre karşılığında ödediği ya da kazandırdığı getiri oranıdır."
+          },
+          {
+            "question": "Bir ekonomide belirli bir dönemde üretilen tüm nihai mal ve hizmetlerin para cinsinden toplam değerine ne denir?",
+            "options": [
+              "Bütçe açığı",
+              "Enflasyon oranı",
+              "Milli gelir",
+              "Döviz kuru"
+            ],
+            "correctIndex": 2,
+            "explanation": "Milli gelir, bir ülkenin sınırları içinde veya vatandaşları tarafından belirli bir sürede üretilen ekonomik değerlerin toplamıdır."
+          },
+          {
+            "question": "Piyasada tek bir satıcının ve çok sayıda alıcının bulunduğu, rekabetin olmadığı piyasa türü aşağıdakilerden hangisidir?",
+            "options": [
+              "Tam rekabet piyasası",
+              "Oligopol",
+              "Monopol",
+              "Monopolcü rekabet"
+            ],
+            "correctIndex": 2,
+            "explanation": "Monopol, piyasada tek bir üretici veya satıcının hakim olduğu, başka alternatifin bulunmadığı piyasa yapısıdır."
+          },
+          {
+            "question": "Merkez bankalarının piyasadaki para arzını, faiz oranlarını ve kredi hacmini kontrol ederek ekonomiyi yönlendirmesine ne denir?",
+            "options": [
+              "Maliye politikası",
+              "Para politikası",
+              "Vergi politikası",
+              "Dış ticaret politikası"
+            ],
+            "correctIndex": 1,
+            "explanation": "Para politikası, merkez bankası tarafından faiz ve para arzı araçları kullanılarak fiyat istikrarını sağlamak amacıyla uygulanır."
+          },
+          {
+            "question": "Bir karar alırken vazgeçmek zorunda kaldığımız en iyi alternatifin değerine iktisatta ne ad verilir?",
+            "options": [
+              "Batık maliyet",
+              "Marjinal maliyet",
+              "Sabit maliyet",
+              "Fırsat maliyeti"
+            ],
+            "correctIndex": 3,
+            "explanation": "Fırsat maliyeti, bir tercihte bulunurken vazgeçilen ikinci en iyi seçeneğin değerini ifade eder."
+          },
+          {
+            "question": "Bir malın fiyatı yükseldiğinde üreticilerin o malın üretimini artırmak istemesi hangi kavramla ifade edilir?",
+            "options": [
+              "Arz",
+              "Tüketim",
+              "İthalat",
+              "Sübvansiyon"
+            ],
+            "correctIndex": 0,
+            "explanation": "Arz, üreticilerin farklı fiyat seviyelerinde piyasaya sunmaya razı olduğu mal ve hizmet miktarıdır."
+          },
+          {
+            "question": "Devletin kamu harcamalarını finanse etmek ve gelir dağılımını düzenlemek amacıyla topladığı yasal paraya ne denir?",
+            "options": [
+              "Sübvansiyon",
+              "Vergi",
+              "İstihkak",
+              "Fon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vergi, devletin kamu hizmetlerini gerçekleştirmek için vatandaşlardan karşılıksız olarak topladığı maddi yükümlülüktür."
+          },
+          {
+            "question": "Aynı sektörde az sayıda büyük firmanın rekabet ettiği, birbirlerinin kararlarından doğrudan etkilendikleri piyasa türü hangisidir?",
+            "options": [
+              "Monopol",
+              "Oligopol",
+              "Tam rekabet",
+              "Monopson"
+            ],
+            "correctIndex": 1,
+            "explanation": "Oligopol, piyasada birkaç büyük firmanın hakim olduğu ve kararlarını birbirine göre aldıkları piyasa yapısıdır."
+          }
+        ]
       },
-      {
-        "question": "Cümle tamamlama sorularında zıtlık bildiren bağlaçlardan biri olan 'whereas' kelimesinin eş anlamlısı aşağıdakilerden hangisidir?",
-        "options": [
-          "Therefore",
-          "While",
-          "Consequently",
-          "Moreover"
+      "medium": {
+        "flashcards": [
+          {
+            "question": "Piyasada mal ve hizmet fiyatlarının genel düzeyinin sürekli ve hissedilir artış süreci hangi kavramla ifade edilir?",
+            "answer": "Enflasyon"
+          },
+          {
+            "question": "Diğer şartlar sabitken, bir malın fiyatı arttığında o mala olan talebin azalmasını ifade eden temel ekonomik yasa nedir?",
+            "answer": "Talep kanunu"
+          },
+          {
+            "question": "Paranın zamana bağlı kullanım maliyetini ve ödünç verme bedelini belirleyen temel oran nedir?",
+            "answer": "Faiz"
+          },
+          {
+            "question": "Bir ülke sınırları içinde belirli bir dönemde üretilen tüm nihai mal ve hizmetlerin piyasa değerine ne ad verilir?",
+            "answer": "Gayri safi yurt içi hasıla"
+          },
+          {
+            "question": "Tek bir alıcının ve çok sayıda satıcının bulunduğu piyasa türü hangisidir?",
+            "answer": "Monopson"
+          },
+          {
+            "question": "Merkez bankalarının para arzını ve faiz oranlarını değiştirerek ekonomiyi yönlendirmeye çalıştığı politika hangisidir?",
+            "answer": "Para politikası"
+          },
+          {
+            "question": "Arz ve talebin eşitlendiği, piyasa fiyatının ve miktarının belirlendiği denge noktasına ne denir?",
+            "answer": "Piyasa dengesi"
+          },
+          {
+            "question": "Piyasada tek bir satıcının ve çok sayıda alıcının bulunduğu rekabet türü olmayan piyasa yapısı hangisidir?",
+            "answer": "Monopol"
+          },
+          {
+            "question": "Bir malın fiyatındaki değişime karşı talebin ne kadar tepki gösterdiğini ölçen esneklik kavramı nedir?",
+            "answer": "Talep esnekliği"
+          },
+          {
+            "question": "Enflasyonla mücadele amacıyla merkez bankasının faiz oranlarını artırması hangi para politikası türüne girer?",
+            "answer": "Daraltıcı para politikası"
+          }
         ],
-        "correctIndex": 1,
-        "explanation": "Whereas ve while kelimeleri iki durum arasındaki zıtlığı veya tezatı vurgulamak için benzer şekilde kullanılır."
+        "quizQuestions": [
+          {
+            "question": "Piyasada bir malın fiyatı arttığında, diğer koşullar sabit kalmak şartıyla, üreticilerin o malı arz etme isteğindeki artış hangi temel iktisat kanunu ile açıklanır?",
+            "options": [
+              "Arz Kanunu",
+              "Talep Kanunu",
+              "Azalan Verimler Kanunu",
+              "Karşılaştırmalı Üstünlükler Teorisi"
+            ],
+            "correctIndex": 0,
+            "explanation": "Arz kanununa göre, bir malın fiyatı yükseldikçe üreticiler o maldan daha fazla üretmek ve satmak isterler; fiyat ile arz miktarı arasında doğru orantı vardır."
+          },
+          {
+            "question": "Enflasyon oranının genel olarak düşmesine rağmen fiyatlar genel seviyesinin hâlâ artmaya devam ettiği ekonomik durum aşağıdakilerden hangisiyle ifade edilir?",
+            "options": [
+              "Deflasyon",
+              "Disflasyon",
+              "Stagflasyon",
+              "Hiperenflasyon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Disflasyon, enflasyon hızının yavaşlaması anlamına gelir; yani fiyatlar artmaya devam eder ancak artış hızı önceki döneme göre azalmıştır."
+          },
+          {
+            "question": "Merkez bankalarının ekonomik durgunluğu aşmak ve piyasadaki likiditeyi artırmak amacıyla uyguladığı parasal genişleme politikası çerçevesinde aşağıdakilerden hangisini yapması beklenir?",
+            "options": [
+              "Politika faizini artırmak",
+              "Zorunlu karşılık oranlarını yükseltmek",
+              "Piyasadan devlet tahvili satmak",
+              "Politika faizini düşürmek"
+            ],
+            "correctIndex": 3,
+            "explanation": "Genişletici para politikasında merkez bankası politika faizini düşürerek borçlanmayı ucuzlatır ve piyasaya para pompalar."
+          },
+          {
+            "question": "Çok sayıda alıcı ve satıcının bulunduğu, ürünlerin homojen olduğu ve piyasaya giriş-çıkışların serbest olduğu piyasa türü aşağıdakilerden hangisidir?",
+            "options": [
+              "Tam Rekabet Piyasası",
+              "Monopol",
+              "Oligopol",
+              "Monopollü Rekabet"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tam rekabet piyasası, atomisite, homojenlik ve serbest giriş-çıkış gibi katı varsayımlara dayanan ideal bir piyasa modelidir."
+          },
+          {
+            "question": "Bir ülkenin sınırları içinde belirli bir dönemde üretilen tüm nihai mal ve hizmetlerin piyasa değeri toplamı hangi makroekonomik gösterge ile ifade edilir?",
+            "options": [
+              "Gayri Safi Millî Hasıla",
+              "Gayri Safi Yurt İçi Hasıla",
+              "Net Millî Gelir",
+              "Kişi Başına Düşen Harcanabilir Gelir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Gayri Safi Yurt İçi Hasıla (GSYİH), coğrafi sınırlara odaklanarak ülke içinde üretilen toplam katma değeri ölçer."
+          },
+          {
+            "question": "Tüketicilerin gelir düzeyindeki bir artış, normal mallar için talep eğrisini nasıl etkiler?",
+            "options": [
+              "Talep eğrisi sol alta kayar",
+              "Talep eğrisi üzerinde yukarı doğru hareket olur",
+              "Talep eğrisi sağa kayar",
+              "Talep eğrisi üzerinde aşağı doğru hareket olur"
+            ],
+            "correctIndex": 2,
+            "explanation": "Normal mallarda gelir arttıkça tüketiciler her fiyat düzeyinde daha fazla mal talep eder ve bu durum talep eğrisinin sağa kaymasına yol açar."
+          },
+          {
+            "question": "Piyasada az sayıda büyük satıcının bulunduğu ve her birinin kararlarının rakiplerin davranışlarını doğrudan etkilediği piyasa yapısı aşağıdakilerden hangisidir?",
+            "options": [
+              "Monopol",
+              "Oligopol",
+              "Tam Rekabet",
+              "Monopson"
+            ],
+            "correctIndex": 1,
+            "explanation": "Oligopol piyasalarında az sayıda firma bulunur ve karşılıklı bağımlılık esastır; bir firmanın hamlesi diğerlerini doğrudan etkiler."
+          },
+          {
+            "question": "Aynı anda hem yüksek enflasyonun hem de ekonomik durgunluğun (işsizliğin) görüldüğü ekonomik duruma ne ad verilir?",
+            "options": [
+              "Devalüasyon",
+              "Disflasyon",
+              "Stagflasyon",
+              "Reflasyon"
+            ],
+            "correctIndex": 2,
+            "explanation": "Stagflasyon, durgunluk (stagnation) ve enflasyon kelimelerinin birleşimi olup, iktisadi faaliyetin yavaşlarken fiyatların artmaya devam ettiği karmaşık bir durumdur."
+          },
+          {
+            "question": "Nominal faiz oranı %20 olan bir ekonomide gerçekleşen yıllık enflasyon oranı %12 ise, bu ekonomideki yaklaşık ya da Fisher denklemine göre gerçek (reel) faiz oranı yüzde kaç civarındadır?",
+            "options": [
+              "%8",
+              "%32",
+              "%1,6",
+              "%10"
+            ],
+            "correctIndex": 0,
+            "explanation": "Reel faiz, yaklaşık olarak nominal faiz ile enflasyon arasındaki farka eşittir (20 - 12 = 8). Bu sayede paranın satın alma gücündeki gerçek değişim ölçülür."
+          },
+          {
+            "question": "Günlük hayatta iktisadi kararlar alırken karşılaşılan, bir seçimi yaparken vazgeçmek zorunda kalınan en iyi alternatifin değerine ne denir?",
+            "options": [
+              "Batık Maliyet",
+              "Marjinal Maliyet",
+              "Fırsat Maliyeti",
+              "Sabit Maliyet"
+            ],
+            "correctIndex": 2,
+            "explanation": "Fırsat maliyeti (alternatif maliyet), kaynakların kıtlığı nedeniyle bir tercihte bulunurken vazgeçilen diğer en değerli seçeneğin maliyetidir."
+          }
+        ]
       },
-      {
-        "question": "'Despite the heavy rain, the match continued.' cümle yapısında 'despite' edatının yerine aşağıdakilerden hangisi getirilemez?",
-        "options": [
-          "In spite of",
-          "Regardless of",
-          "Although",
-          "Despite the fact that"
+      "hard": {
+        "flashcards": [
+          {
+            "question": "Eş anlı olarak hem enflasyonun hem de işsizliğin yüksek seyrettiği ekonomik durumun teknik adı nedir?",
+            "answer": "Stagflasyon"
+          },
+          {
+            "question": "Maliye politikasının gevşetilmesi ve para politikasının sıkılaştırılması aynı anda uygulanırsa, bu karma politika karmasının IS-LM modelinde faiz oranları üzerindeki net etkisi teorik olarak nasıldır?",
+            "answer": "Belirsiz"
+          },
+          {
+            "question": "Tam rekabet piyasasında faaliyet gösteren bir firmanın uzun dönemde ekonomik kâr elde etmesi neden mümkün değildir?",
+            "answer": "Sifir"
+          },
+          {
+            "question": "Nominal faiz oranından enflasyon oranının çıkarılmasıyla elde edilen ve borçlunun ödediği gerçek faiz maliyetini gösteren denklemin adı nedir?",
+            "answer": "Fisher denklemi"
+          },
+          {
+            "question": "Merkez bankasının piyasaya döviz vererek veya piyasadan döviz çekerek para arzını etkilemesi ancak bu işlemin iç para arzı üzerindeki daraltıcı veya genişletici etkisini başka bir işlemle nötrlemesi sürecine ne denir?",
+            "answer": "Sterilizasyon"
+          },
+          {
+            "question": "Bir ekonomide kamu harcamalarının artırılmasının milli gelir üzerindeki nihaî artış etkisini belirleyen çarpanın büyüklüğü neye bağlıdır?",
+            "answer": "Marjinal tuketim egilimi"
+          },
+          {
+            "question": "Eksik rekabet piyasalarından biri olan ve piyasada tek bir alıcının bulunduğu piyasa türünün adı nedir?",
+            "answer": "Monopson"
+          },
+          {
+            "question": "Miktarsal para teorisinin Fisher değişmezine göre, para arzındaki belirli bir yüzde artış uzun vadede neyi doğrudan aynı oranda artırır?",
+            "answer": "Fiyat seviyesi"
+          },
+          {
+            "question": "Girişimcinin üretim faktörlerini organize ederken üstlendiği risk ve belirsizlik nedeniyle elde ettiği normal kâr üzeri artı kazanca ne ad verilir?",
+            "answer": "Ekonomik kar"
+          },
+          {
+            "question": "Gayri safi yurt içi hasıla hesaplanırken harcamalar yaklaşımında tüketim, yatırımlar, kamu harcamaları ve hangi kalemin toplamı esas alınır?",
+            "answer": "Net ihracat"
+          }
         ],
-        "correctIndex": 2,
-        "explanation": "Although bir bağlaçtır ve kendisinden sonra özne ve yüklem alarak bir yan cümlecik kurar, bu yüzden 'despite' edatının yerine doğrudan tek başına yazılamaz."
-      },
-      {
-        "question": "YDS kelime sorularında 'to deteriorate' fiili genellikle hangi durumlar için kullanılır?",
-        "options": [
-          "Durumun veya sağlığın kötüleşmesi",
-          "Fiyatların hızla artması",
-          "Bir bilginin gizli tutulması",
-          "Yeni bir projenin başlatılması"
-        ],
-        "correctIndex": 0,
-        "explanation": "Deteriorate fiili, bir şeyin kalitesinin, durumunun veya sağlığın daha kötü bir hale gelmesini ifade eder."
-      },
-      {
-        "question": "Eğer geçmişte farklı bir karar almış olsaydık, şimdi bambaşka bir yerde olurduk anlamını veren karışık (mixed) tip conditional cümlesi hangisidir?",
-        "options": [
-          "If we had taken a different decision, we would be in a completely different place now.",
-          "If we take a different decision, we will be in a completely different place now.",
-          "If we took a different decision, we would have been in a completely different place now.",
-          "If we have taken a different decision, we are in a completely different place now."
-        ],
-        "correctIndex": 0,
-        "explanation": "Geçmişteki bir eylemin bugünkü sonucunu belirten mixed conditional yapısında 'if + past perfect', temel cümlecikte ise 'would + verb1' kullanılır."
-      },
-      {
-        "question": "YDS'de eş anlamlı sorulan 'to decline' fiili aşağıdakilerden hangisiyle aynı anlamda kullanılabilir?",
-        "options": [
-          "To expand",
-          "To decrease",
-          "To accelerate",
-          "To improve"
-        ],
-        "correctIndex": 1,
-        "explanation": "Decline fiili miktar veya seviye olarak azalmak, düşmek anlamına gelir; bu yönüyle decrease ile eş anlamlıdır."
-      },
-      {
-        "question": "Edilgen çatı (passive voice) yapısına uygun olarak 'The historical bridge ---- by the municipality next year.' cümlesindeki boşluğa hangi yapı gelmelidir?",
-        "options": [
-          "will be restored",
-          "is restoring",
-          "has restored",
-          "restored"
-        ],
-        "correctIndex": 0,
-        "explanation": "Cümledeki 'next year' ifadesi geleceğe işaret eder ve köprü öznesi nesne konumunda olduğu için passive gelecek zaman yapısı (will be restored) gereklidir."
-      },
-      {
-        "question": "'Comprehensive' sıfatı YDS metinlerinde sıklıkla geçer ve Türkçe karşılığı nedir?",
-        "options": [
-          "Yüzeysel",
-          "Kapsamlı",
-          "Karmaşık",
-          "Gereksiz"
-        ],
-        "correctIndex": 1,
-        "explanation": "Comprehensive kelimesi, bir konuyu veya alanı tüm detaylarıyla içine alan kapsamlı anlamına gelmektedir."
-      },
-      {
-        "question": "'By the time' bağlacı geçmiş zamana ait bir olayda kullanıldığında temel cümlecikte genellikle hangi tense tercih edilir?",
-        "options": [
-          "Simple past tense",
-          "Past continuous tense",
-          "Past perfect tense",
-          "Present perfect tense"
-        ],
-        "correctIndex": 2,
-        "explanation": "By the time bağlacı yan cümlecikte simple past aldığında, temel cümlecikte daha önce gerçekleşmiş bir eylemi vurgulamak için past perfect tense (had V3) kullanılır."
-      },
-      {
-        "question": "YDS okuma parçalarında sıkça rastlanan 'significant' sözcüğünün eş anlamlısı aşağıdakilerden hangisidir?",
-        "options": [
-          "Trivial",
-          "Insignificant",
-          "Substantial",
-          "Ambiguous"
-        ],
-        "correctIndex": 2,
-        "explanation": "Significant önemli, dikkate değer demektir; substantial kelimesi de benzer şekilde önemli ve kayda değer anlamı taşır."
+        "quizQuestions": [
+          {
+            "question": "Merkez bankasının politika faizini artırmasının, IS-LM-BP modelinde açık ekonomi ve esnek kur rejimi varsayımı altında, sermaye hareketleri ve döviz kuru üzerindeki net etkisi aşağıdakilerden hangisidir?",
+            "options": [
+              "Sermaye çıkışı hızlanır ve ulusal para değer kaybeder.",
+              "Sermaye girişi artar ve ulusal para değer kazanır.",
+              "Piyasa faizleri düştüğü için döviz kuru sabit kalır.",
+              "Milli gelir artarken cari açık azalır."
+            ],
+            "correctIndex": 1,
+            "explanation": "Politika faizinin artması ülkeye yabancı sermaye girişini (sıcak para) tetikler, bu da ulusal paraya olan talebi artırarak ulusal paranın değer kazanmasına yol açar."
+          },
+          {
+            "question": "Maliyet itişli (cost-push) enflasyon sürecinde, arz yönlü şoklar (örneğin petrol fiyatlarında ani artış) neticesinde aggregate supply (toplam arz) eğrisi sola kayarken stagflasyon olgusu ortaya çıkar. Bu durumda merkez bankasının fiyat istikrarını sağlamak amacıyla parasal sıkılaştırma yapması kısa vadede hangi makroekonomik değişken üzerinde en olumsuz baskıyı yaratır?",
+            "options": [
+              "İşsizlik oranında artış ve milli gelirde daralma",
+              "Cari dengede fazlalık ve bütçe dengesinde iyileşme",
+              "Tüketici harcamalarında patlama ve yatırım artışı",
+              "Nominal ücretlerde otomatik artış ve verimlilik artışı"
+            ],
+            "correctIndex": 0,
+            "explanation": "Arz şokuna karşı uygulanan sıkı para politikası enflasyonu düşürmeye çalışırken, zaten daralan toplam arzı daha da baskılayarak işsizliği artırır ve üretimi düşürür."
+          },
+          {
+            "question": "Tam rekabet piyasasındaki bir firmanın kısa dönem kriz ve kapanma (shut-down) noktası analiz edildiğinde, firmanın üretimi durdurma kararı almasının matematiksel koşulu aşağıdakilerden hangisidir?",
+            "options": [
+              "Toplam gelir, sabit maliyetlere eşittir.",
+              "Marjinal maliyet, ortalama toplam maliyetin üzerindedir.",
+              "Toplam gelir, toplam değişken maliyetlerden küçüktür.",
+              "Fiyat, marjinal gelirden büyüktür."
+            ],
+            "correctIndex": 2,
+            "explanation": "Kısa dönemde firma, elde ettiği toplam gelir toplam değişken maliyetlerini (TVC) dahi karşılayamıyorsa üretimini durdurmalıdır çünkü üretime devam etmek zararı artırır."
+          },
+          {
+            "question": "Gini katsayısı ve Lorenz eğrisi analizi çerçevesinde, tam gelir eşitsizliği durumunda Gini katsayısının teorik değeri ile Lorenz eğrisinin geometrik konumu hangi seçenekte doğru verilmiştir?",
+            "options": [
+              "Gini sıfırdır, Lorenz eğrisi 45 derece doğrusu üzerindedir.",
+              "Gini birdir, Lorenz eğrisi eksenleri birleştiren dik üçgenin kenarlarını izler.",
+              "Gini 0.5 tir, Lorenz eğrisi simetrik bir parabol çizer.",
+              "Gini eksi birdir, Lorenz eğrisi negatif eğimlidir."
+            ],
+            "correctIndex": 1,
+            "explanation": "Tam gelir eşitsizliğinde toplumun tüm geliri tek bir kişide toplanır, bu durumda Gini katsayısı maksimum değer olan 1 e ulaşır ve Lorenz eğrisi eksenler boyunca köşeli bir hat izler."
+          },
+          {
+            "question": "Miktar teorisinin Fisher yaklaşımı (M.V = P.T) ve Cambridge yaklaşımı (M = k.P.Y) karşılaştırıldığında, k parametresi ekonomik birimler açısından neyi ifade eder?",
+            "options": [
+              "Paranın dolaşım hızının türevidir ve bankacılık sisteminin rezerv oranını gösterir.",
+              "Gelirin nakit olarak elde tutulmak istenen oranını yani para talebinin gelire duyarlılığını ifade eder.",
+              "Merkez bankasının bastığı toplam banknot miktarının döviz rezervlerine oranını belirtir.",
+              "Tüketicilerin enflasyon beklentilerini yansıtan psikolojik bir katsayıdır."
+            ],
+            "correctIndex": 1,
+            "explanation": "Cambridge yaklaşımındaki k katsayısı, bireylerin nominal gelirlerinin ne kadarlık kısmını likit (nakit) olarak elinde tutmak istediğini gösterir ve dolaşım hızının (V) tersine eşittir."
+          },
+          {
+            "question": "Likidite tuzağı (liquidity trap) durumunda para politikasının etkinliği hakkında aşağıdakilerden hangisi doğrudur?",
+            "options": [
+              "Nominal faizler sıfıra yakın veya sıfırdır ve para arzı artışı faizleri daha fazla düşüremez, bu nedenle para politikası etkisizleşir.",
+              "Faiz oranları çok yüksek olduğu için tahvil fiyatları maksimum düzeydedir.",
+              "Merkez bankası açık piyasa işlemleriyle piyasadan para çekerek enflasyonu kontrol altına alabilir.",
+              "Yatırım harcamaları faiz oranlarına karşı sonsuz duyarlılık gösterir."
+            ],
+            "correctIndex": 0,
+            "explanation": "Likidite tuzağında faizler minimum düzeydedir ve bireyler tahvil yerine nakit tutmayı tercih eder; para arzının artırılması faizleri düşürmediği için parasal genişleme sonuç vermez."
+          },
+          {
+            "question": "Oligopol piyasa modellerinden biri olan Cournot modelinde, firmaların stratejik değişkeni nedir ve denge noktasına nasıl ulaşılır?",
+            "options": [
+              "Firmalar fiyatı belirler ve rakiplerinin fiyatlarını sabit varsayar.",
+              "Firmalar üretim miktarını (çıktıyı) eş anlı olarak belirler ve rakibinin miktarını veri kabul ederek reaksiyon fonksiyonuna göre hareket eder.",
+              "Piyasada sadece bir lider firma vardır ve diğerleri onu takip eder.",
+              "Ürünler tamamen farklılaştırılmıştır ve pazarlama maliyetleri rekabeti belirler."
+            ],
+            "correctIndex": 1,
+            "explanation": "Cournot modelinde firmalar miktar rekabeti içindedir ve her firma rakibinin üretim miktarını sabit kabul ederek kendi karını maksimize eden çıktı düzeyini seçer."
+          },
+          {
+            "question": "Fisher etkisi (Fisher Hypothesis) hipotezine göre, enflasyon oranında meydana gelen kalıcı bir artış nominal ve reel faiz oranlarını nasıl etkiler?",
+            "options": [
+              "Nominal faiz aynı kalır, reel faiz artar.",
+              "Nominal faiz enflasyon oranındaki artış kadar yükselir, reel faiz teorik olarak değişmez.",
+              "Reel faiz enflasyonla aynı oranda artarken nominal faiz düşer.",
+              "Her iki faiz türü de sıfıra yaklaşır."
+            ],
+            "correctIndex": 1,
+            "explanation": "Fisher etkisine göre nominal faiz, reel faiz ile beklenen enflasyonun toplamına eşittir; dolayısıyla enflasyondaki artış nominal faize tam olarak yansır ve reel faiz sabit kalır."
+          },
+          {
+            "question": "Gayri Safi Yurtiçi Hasıla (GSYH) hesaplanmasında harcamalar yöntemi kullanılırken, stoklardaki değişimler (envanter yatırımları) hesaba dahil edilirken nasıl ele alınır?",
+            "options": [
+              "Üretilen ancak satılamayan mallar olduğu için yatırım harcamaları kalemi altında toplama dahil edilir.",
+              "Tüketim harcamalarından düşülür çünkü piyasada henüz realizasyon olmamıştır.",
+              "Milli gelir hesaplamalarında tamamen kapsam dışı bırakılır.",
+              "Sadece ithalat kaleminden düşülerek net ihracata eklenir."
+            ],
+            "correctIndex": 0,
+            "explanation": "Stoklardaki artışlar o yıl üretilen ve fakat satılmamış nihai malları temsil ettiği için gayri safi özel yatırımlar içinde envanter yatırımı olarak GSYH ye pozitif olarak eklenir."
+          },
+          {
+            "question": "Otomatik istikrar sağlayıcılar (automatic stabilizers) bütçe dengesi ve ekonomik dalgalanmalar üzerinde nasıl bir işleve sahiptir?",
+            "options": [
+              "Devletin discretionary (isteğe bağlı) maliye politikası kararlarını tamamen gereksiz kılar.",
+              "Ekonomik daralma dönemlerinde vergi gelirlerini artırarak bütçe fazlası yaratır.",
+              "Ekonomik genişleme dönemlerinde otomatik olarak artan vergi gelirleri ve düşen transfer harcamaları ile aşırı ısınmayı (enflasyonu) sınırlar.",
+              "Sadece para piyasalarındaki likiditeyi düzenlemek için merkez bankasınca işletilir."
+            ],
+            "correctIndex": 2,
+            "explanation": "Otomatik istikrar sağlayıcılar (artan oranlı vergiler ve işsizlik sigortası gibi), krizde harcamaları desteklerken büyüme dönemlerinde otomatik vergi artışıyla ekonomiyi soğutur."
+          }
+        ]
       }
-    ]
+    }
+  },
+  {
+    "title": "İlk Yardım Bilgisi",
+    "color": 4291176488,
+    "summaryText": "İlk yardım dünyasına hoş geldin; öğrendiğin bu hayat kurtarıcı bilgiler sayesinde doğru zamanda atacağın küçük bir adım, birinin yaşamını doğrudan değiştirebilir. Kanama kontrolünden kalp masajına, kırık müdahalesinden triyaj önceliklerine kadar her acil durum, sakin kalarak ve mantıklı adımlar atarak yönetebileceğin çözülebilir bir bulmacadır. Hiç endişelenme, çünkü pratik yaptıkça bu temel becerilerin refleks haline geldiğini ve kendini ne kadar yetenekli hissettiğini fark edeceksin. Bilgiyle donanmış bu yolda, en zor anlarda bile çevrene güven verecek kahraman olmaya bugünden başla.",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "Yarada kanama varsa ilk yapılması gereken müdahale nedir?",
+            "answer": "Temiz bir bez ile doğrudan baskı uygulamak."
+          },
+          {
+            "question": "Yetişkinlerde kalp masajı (CPR) sırasında göğüs kemiği ne kadar çökertilmelidir?",
+            "answer": "5 santimetre."
+          },
+          {
+            "question": "Yetişkin bir hastaya uygulanan kalp masajı ve suni solunum oranı nedir?",
+            "answer": "30 kalp masajı ve 2 suni solunum."
+          },
+          {
+            "question": "Kırık, çıkık veya burkulma durumunda bölgeye ne yapılmalıdır?",
+            "answer": "Sabitlenmeli ve hareket ettirilmemelidir."
+          },
+          {
+            "question": "Yanan bir bölgeye ilk anda hangi malzeme kesinlikle sürülmemelidir?",
+            "answer": "Diş macunu ve salça gibi maddeler."
+          },
+          {
+            "question": "Soluk borusu yabancı bir cisimle tıkanan kişiye hangi mankura uygulanır?",
+            "answer": "Heimlich manevrası."
+          },
+          {
+            "question": "Bilinç kaybı olan ancak nefes alan bir kazazedeye hangi pozisyon verilmelidir?",
+            "answer": "Koma pozisyonu."
+          },
+          {
+            "question": "Acil yardım çağrılırken ilk olarak hangi numara aranmalıdır?",
+            "answer": "112"
+          },
+          {
+            "question": "Kimyasal yanıklarda ilk yapılması gereken işlem nedir?",
+            "answer": "Bol su ile yıkamak."
+          },
+          {
+            "question": "Kırık şüphesi olan uzuv hangi pozisyonda tutulmalıdır?",
+            "answer": "Bulunduğu gibi."
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Aşağıdakilerden hangisi dış kanamalarda yapılan doğru bir ilk yardım uygulamasıdır?",
+            "options": [
+              "Kanamalı bölgeye doğrudan baskı uygulamak",
+              "Yarayı sabunlu suyla yıkamak",
+              "Turnikeyi her kanamada ilk seçenek olarak kullanmak",
+              "Kanamayı durdurmak için yara üzerine tütün basmak"
+            ],
+            "correctIndex": 0,
+            "explanation": "Kanayan bölgeye temiz bir bezle doğrudan baskı yapmak kanamayı durdurmanın en temel ve etkili yoludur."
+          },
+          {
+            "question": "Kırık, çıkık veya burkulmalarda ilk yardımın temel kuralı aşağıdakilerden hangisidir?",
+            "options": [
+              "Yaralı bölgeyi eski haline getirmek için çekmek",
+              "Yaralı bölgeyi hareket ettirmeden olduğu gibi sabitlemek",
+              "Bölgeye sıcak su torbası uygulamak",
+              "Masaj yaparak rahatlatmaya çalışmak"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kırık ve çıkıklarda sakatlığı önlemek için yaralı bölge kesinlikle hareket ettirilmemeli ve bulunduğu şekilde tespit edilmelidir."
+          },
+          {
+            "question": "Yetişkin bir kişiye uygulanan kalp masajı (CPR) sırasında göğüs kemiği ne kadar aşağı bastırılmalıdır?",
+            "options": [
+              "1-2 santim",
+              "5-6 santim",
+              "10-12 santim",
+              "Yararlının boyuna göre değişir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Yetişkinlerde kalp masajı yapılırken göğüs kemiğinin 5 ila 6 santim aşağı çökmesi sağlanmalıdır."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi havayolu tıkanıklığı yaşayan (boğulan) bir kişiye uygulanan Heimlich manevrasının amacını açıklar?",
+            "options": [
+              "Kalp atışını hızlandırmak",
+              "Nefes borusundaki yabancı cismi dışarı atmak",
+              "Kişiyi sakinleştirmek ve su içirmek",
+              "Mideyi rahatlatmak"
+            ],
+            "correctIndex": 1,
+            "explanation": "Heimlich manevrası, diyaframı yukarı doğru iterek soluk borusundaki tıkanıklığı basınç yardımıyla dışarı atmayı sağlar."
+          },
+          {
+            "question": "Kimyasal yanıklarda ilk yardım olarak ilk yapılması gereken işlem nedir?",
+            "options": [
+              "Yanan bölgeye diş macunu sürmek",
+              "Kimyasal maddeyi bol su ile en az 15-20 dakika yıkamak",
+              "Yarayı sıkıca sarmak",
+              "Buz uygulamak"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kimyasal maddelerin deriden uzaklaştırılması için bol su ile uzun süre yıkanması ilk ve en önemli adımdır."
+          },
+          {
+            "question": "Bilinç kaybı olan ve solunumu devam eden bir kazazedeye hangi pozisyon verilmelidir?",
+            "options": [
+              "Sırtüstü yatış pozisyonu",
+              "Yüzüstü yatış pozisyonu",
+              "Koma (yarı yüzüstü yan) pozisyonu",
+              "Oturur pozisyon"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bilinç kapalıyken dilin geriye kaymasını ve kusmuğun solunum yolunu tıkamasını önlemek için koma pozisyonu verilir."
+          },
+          {
+            "question": "Acil yardımda 'Triyaj' kelimesi ne anlama gelmektedir?",
+            "options": [
+              "Yaralıları hastaneye taşıma yöntemi",
+              "Yaralıların durumunun ağırlığına göre öncelik sırasının belirlenmesi",
+              "Olay yerinin güvenliğini sağlama",
+              "112'yi arama prosedürü"
+            ],
+            "correctIndex": 1,
+            "explanation": "Triyaj, çok sayıda yaralının olduğu durumlarda tedavi ve taşıma önceliğini belirleme sürecidir."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi yanık durumunda kesinlikle yapılmamalıdır?",
+            "options": [
+              "Su toplamış yerleri (büyük kabarcıkları) patlatmak",
+              "Yanan bölgeyi soğuk su altında tutmak",
+              "Takı ve saat gibi eşyaları şişmeden önce çıkarmak",
+              "Yara üzerine temiz bir örtü örtmek"
+            ],
+            "correctIndex": 0,
+            "explanation": "Su toplamış yanık kabarcıkları enfeksiyon riskini artırdığı için kesinlikle patlatılmamalıdır."
+          },
+          {
+            "question": "Acil bir durumda olay yerinde ilk yardımcının öncelikli olarak yapması gereken ilk iş nedir?",
+            "options": [
+              "Hemen yaralıyı taşımaya başlamak",
+              "Olay yerinin güvenliğini sağlamak",
+              "Yaralının yakınlarına haber vermek",
+              "Yaralının kimliğini öğrenmek"
+            ],
+            "correctIndex": 1,
+            "explanation": "İlk yardımcının kendi can güvenliği ve yeni kazaların önlenmesi için ilk adım olay yeri güvenliğidir."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi temel yaşam desteği (CPR) sırasında suni solunum ile kalp masajının doğru oranını gösterir?",
+            "options": [
+              "1 solunum, 5 kalp masajı",
+              "2 solunum, 15 kalp masajı",
+              "2 solunum, 30 kalp masajı",
+              "5 solunum, 30 kalp masajı"
+            ],
+            "correctIndex": 2,
+            "explanation": "Yetişkinlerde temel yaşam desteğinde her 30 kalp masajından sonra 2 suni solunum uygulanır."
+          }
+        ]
+      },
+      "medium": {
+        "flashcards": [
+          {
+            "question": "Aşırı kanama durumlarında kanayan bölgeye uygulanan ilk ve en etkili basınç yöntemi nedir?",
+            "answer": "Doğrudan basınç"
+          },
+          {
+            "question": "Kırık, çıkık veya burkulmalarda şişliği ve ağrıyı azaltmak amacıyla etkilenen bölgeye ne uygulanır?",
+            "answer": "Soğuk uygulama"
+          },
+          {
+            "question": "Yetişkin bir kişiye uygulanan temel yaşam desteğinde göğüs kemiğinin kaç santimetre aşağı çökecek şekilde bası uygulanmalıdır?",
+            "answer": "5 santimetre"
+          },
+          {
+            "question": "Yetişkinlerde kalp masajı ile suni solunum oranı (bası/nefes) kaç olmalıdır?",
+            "answer": "30'a 2"
+          },
+          {
+            "question": "Bebeklerde soluk borusunu tıkılayan yabancı cismi çıkarmak için sırtın ortasına kaç kez süpürme tarzı vuruş yapılır?",
+            "answer": "5 vuruş"
+          },
+          {
+            "question": "Kimyasal yanıklarda ilk yapılması gereken en önemli müdahale nedir?",
+            "answer": "Bol su ile yıkamak"
+          },
+          {
+            "question": "Kişinin solunum yolunun tıkanmasına sebep olan dilin geriye kayması durumunda hangi pozisyon verilmelidir?",
+            "answer": "Baş-çene pozisyonu"
+          },
+          {
+            "question": "Solunumu ve kalbi durmuş bir kazazedeye yapılan dış kalp masajının dakikadaki frekansı ne olmalıdır?",
+            "answer": "100 ile 120 arası"
+          },
+          {
+            "question": "Çok sayıda yaralının bulunduğu kazalarda durumu en ağır olanlara öncelik verme sisteminin adı nedir?",
+            "answer": "Triyaj"
+          },
+          {
+            "question": "Koma durumundaki, yani bilinci kapalı ancak solunumu ve nabzı olan kazazedeye hangi pozisyon verilmelidir?",
+            "answer": "Kompozisyonu"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Yetişkin bir kazazedede temel yaşam desteği (CPR) uygulanırken göğüs kemiğinin (sternum) alt ve üst ucunun orta noktası dakikada kaç kez ve ne kadar derinlikte bası uygulanacak şekilde sıkıştırılmalıdır?",
+            "options": [
+              "Dakikada 80-100 bası, 3-4 cm derinlik",
+              "Dakikada 100-120 bası, 5-6 cm derinlık",
+              "Dakikada 120-140 bası, 4-5 cm derinlik",
+              "Dakikada 60-80 bası, 6-7 cm derinlik"
+            ],
+            "correctIndex": 1,
+            "explanation": "Yetişkinlerde etkili bir göğüs basısı için hız dakikada 100-120 olmalı ve göğüs kafesi 5-6 cm çöktürülmelidir."
+          },
+          {
+            "question": "Kırık, çıkık ve burkulmalarda ilk yardım müdahalesi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "options": [
+              "Çıkıklar ve kırıklar yerine oturtulmaya çalışılmalıdır",
+              "Tespit işlemi yapılırken yaralı bölge hareket ettirilmelidir",
+              "Yaralı bölge, bulunduğu şekilde tespit (atel) edilmelidir",
+              "Sadece kırık olan bölgeye sıcak uygulama yapılmalıdır"
+            ],
+            "correctIndex": 2,
+            "explanation": "Kırık, çıkık ve burkulmalarda asla düzeltme veya yerine oturtma yapılmaz; yaralı bölge hangi pozisyonda kaldıysa o şekilde tespit edilir."
+          },
+          {
+            "question": "Kanamalarda yapılacak ilk yardım uygulamaları arasında yer alan basınçlı sargı (turnike) hangi durumda kesinlikle uygulanmalıdır?",
+            "options": [
+              "Küçük kılcal damar kanamalarında",
+              "Basınçla durdurulamayan büyük arter kanamalarında veya uzuv kopmalarında",
+              "Burun kanamalarında",
+              "Tüm hafif kanama vakalarında öncelikli olarak"
+            ],
+            "correctIndex": 1,
+            "explanation": "Turnike, diğer yöntemlerle durdurulamayan şiddetli kanamalarda veya birden fazla yaralının olduğu acil durumlarda (uzuv kopması) son çare olarak uygulanır."
+          },
+          {
+            "question": "Kimyasal madde yanıklarında doğru ilk yardım uygulaması aşağıdakilerden hangisidir?",
+            "options": [
+              "Yanık üzerine derhal yoğurt veya diş macunu sürülmelidir",
+              "Kimyasal madde deriyle temas eder etmez hemen bol suyla en az 15-20 dakika yıkanmalıdır",
+              "Yanık bölge ovularak temizlenmelidir",
+              "Yaraya kesinlikle su değdirilmemelidir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kimyasal yanıklarda en önemli adım, kimyasalın deriden uzaklaştırılması için bölgenin bol suyla uzun süre yıkanmasıdır."
+          },
+          {
+            "question": "Kısmi tıkanma yaşayan (öksürebilen, konuşabilen) bir kişiye ilk yardımcı nasıl müdahale etmelidir?",
+            "options": [
+              "Derhal Heimlich mankası uygulanmalıdır",
+              "Kişi öksürmeye teşvik edilmeli, sırtına vurulmamalıdır",
+              "Su içirilerek nesne aşağı itilmelidir",
+              "Sırta sertçe vurularak nesnenin çıkması sağlanmalıdır"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kısmi tıkanmada hava yolu kısmen açıktır, bu yüzden kişi öksürmeye teşvik edilir; sırta vurmak yabancı cismin tam tıkanmaya yol açmasına neden olabilir."
+          },
+          {
+            "question": "Olay yerinde çok sayıda yaralının bulunduğu durumlarda yapılan triyaj (acil durum önceliklendirmesi) uygulamasında birinci öncelikli (kırmızı kod) yaralılar kimlerdir?",
+            "options": [
+              "Hayati tehlikesi bulunmayan, hafif yaralılar",
+              "Genel durumu iyi olan ve yürüyebilen hastalar",
+              "Yaşam belirtisi göstermeyen, ölmüş olan kişiler",
+              "Hayati tehlikesi olan ve acil müdahale gerektiren ağır yaralılar"
+            ],
+            "correctIndex": 3,
+            "explanation": "Kırmızı kod, yaşam şansı yüksek olan ancak acil müdahale edilmezse kaybedilecek durumdaki kritik hastaları ifade eder."
+          },
+          {
+            "question": "Bilinç kaybı olan ve solunumu ile nabzı yerinde olan bir kazazedeye hangi pozisyon verilmelidir?",
+            "options": [
+              "Yüz üstü yatış pozisyonu",
+              "Sırt üstü yatarak bacakların yukarı kaldırılması",
+              "Koma (iyileşme) pozisyonu (yan yatar pozisyon)",
+              "Oturur pozisyon"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bilinç kapalı ancak solunumu olan kişilerde dilin geriye kaçmasını ve kusmuğun soluk borusuna kaçmasını önlemek için koma pozisyonu verilir."
+          },
+          {
+            "question": "Birinci ve ikinci derece yanıklarda doğru ilk yardım uygulaması aşağıdakilerden hangisidir?",
+            "options": [
+              "Yanan bölge en az 15-20 dakika tazyiksiz soğuk su altında tutulmalıdır",
+              "Oluşan su toplamış kabarcıklar (bül) patlatılmalıdır",
+              "Yanık üzerine salça veya kolonya sürülmelidir",
+              "Bölge sıkıca sarılarak hava alması engellenmelidir"
+            ],
+            "correctIndex": 0,
+            "explanation": "Yanıkta ısıyı uzaklaştırmak için bol soğuk suyla yıkamak en etkili ilk adımdır; kabarcıklar kesinlikle patlatılmamalıdır."
+          },
+          {
+            "question": "Bebeklerde (0-1 yaş) havayolu tam tıkanması durumunda uygulanacak manevra sırası aşağıdakilerden hangisidir?",
+            "options": [
+              "Önce 5 kez karından baskı (Heimlich), sonra 5 kez sırt vuruşu",
+              "Önce 5 kez sırt vuruşu, sonra 5 kez göğüs basısı (CPR bası bölgesi)",
+              "Sadece doğrudan ağız içi temizliği",
+              "Önce kalp masajı, sonra suni solunum"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bebeklerde tam tıkanmada bebek ilk yardımcının ön koluna yüzüstü yatırılır, 5 sırt vuruşu ve ardından sırtüstü çevrilerek 5 göğüs basısı uygulanır."
+          },
+          {
+            "question": "Sıcak çarpması geçiren bir kişide görülen belirtiler ve yapılması gereken ilk yardım ile ilgili hangisi yanlıştır?",
+            "options": [
+              "Vücut ısısı çok yüksektir ve deri kuru, sıcak ve kırmızıdır",
+              "Kişi serin ve gölge bir alana alınmalıdır",
+              "Derhal bol miktarda sıcak içecekler içirilmelidir",
+              "Giysileri gevşetilerek soğuk uygulama yapılmalıdır"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sıcak çarpmasında vücut ısısını daha da artıracak sıcak içecekler verilmez; aksine serinletici önlemler alınır."
+          }
+        ]
+      },
+      "hard": {
+        "flashcards": [
+          {
+            "question": "Yetişkin bir kazazedede temel yaşam desteği sırasında uygulanan göğüs basısı derinliği en az kaç santimetre olmalıdır?",
+            "answer": "Beş"
+          },
+          {
+            "question": "Turnike uygulaması, uzuv kopmalarında veya diğer yöntemlerle durdurulamayan şiddetli kanamalarda hangi bölgeye uygulanmalıdır?",
+            "answer": "Tek kemikli bölge"
+          },
+          {
+            "question": "Bilinç kaybı olan ve solunumu bulunan bir kazazedeye hangi pozisyon verilmelidir?",
+            "answer": "Koma pozisyonu"
+          },
+          {
+            "question": "Kimyasal madde yanıklarında ilk yapılması gereken acil müdahale nedir?",
+            "answer": "Bol su ile yıkamak"
+          },
+          {
+            "question": "Tam tıkanıklık (boğulma) yaşayan bilinçli bir yetişkine uygulanması gereken ilk manevra hangisidir?",
+            "answer": "Heimlich manevrası"
+          },
+          {
+            "question": "Kırık, çıkık ve burkulmalarda tespit (atelleme) yapılırken hangi eklemler mutlaka kapsama alınmalıdır?",
+            "answer": "Bir üst ve bir alt eklem"
+          },
+          {
+            "question": "Afet ve acil durumlarda çok sayıda yaralı olduğunda durumu en ağır olan ancak kurtulma şansı yüksek olanlara öncelik verilen triyaj kodu rengi hangisidir?",
+            "answer": "Kırmızı"
+          },
+          {
+            "question": "Kalp masajı ile suni solunumun dakikadaki oran ve frekansı yetişkinlerde nasıldır?",
+            "answer": "Otuz göğüs basısına iki suni solunum"
+          },
+          {
+            "question": "Büyük arter kanamalarında geçici kanama kontrolü için kanayan yerin üzerine veya atardamar bası noktalarına ne uygulanır?",
+            "answer": "Bası"
+          },
+          {
+            "question": "Elektrik çarpmalarında kurtarıcının ilk alması gereken hayati güvenlik önlemi nedir?",
+            "answer": "Elektrik akımını kesmek"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Aşağıdaki ileri yaşam desteği ve KPR (Kardiyopulmoner Resüsitasyon) uygulamalarından hangisi, erişkin bir hastada göğüs kompresyonlarının kalitesi için fizyolojik olarak en doğru ve güncel kılavuz standartlarını yansıtır?",
+            "options": [
+              "Kompresyon hızı dakikada 100-120 atım olacak ve göğüs kemiği en az 5 cm (maksimum 6 cm) çökecek şekilde, her kompresyon sonrası tam göğüs duvarı geri tepmesine izin verilerek uygulanmalıdır.",
+              "Kompresyon hızı dakikada 80-100 atım olmalı ve sternum derinliği 4 cm'yi geçmeyecek şekilde yavaş ve derin basılarla sürdürülmelidir.",
+              "Solunum durması şüphesiz olan olgularda kompresyon hızı dakikada 130-140 olmalı, geri tepme beklenmeden kesintisiz bası yapılmalıdır.",
+              "Göğüs basısı derinliği hastanın kilosundan bağımsız olarak sabit 7 cm olmalı ve dakikada 90 bası frekansı hedeflenmelidir."
+            ],
+            "correctIndex": 0,
+            "explanation": "Güncel Resüsitasyon kılavuzlarına göre etkili KPR için kompresyon hızı 100-120/dk, derinlik 5-6 cm olmalı ve tam geri tepme sağlanmalıdır."
+          },
+          {
+            "question": "Travmatik bir amputasyon (uzuv kopması) vakasında, turnike uygulaması ile ilgili aşağıdaki klinik yaklaşımlardan hangisi kesinlikle doğrudur ve doğru bir ilk yardım prosedürüdür?",
+            "options": [
+              "Turnike sadece cilde doğrudan temas edecek şekilde dar bir ipten yapılmalı ve her 15 dakikada bir mutlaka tamamen gevşetilmelidir.",
+              "Turnike, kanamanın durdurulamadığı hayatı tehdit eden uzuv kanamalarında, yaranın hemen proksimaline (kalbe yakın kısmına), deriyi korumak amacıyla kıyafet üzerine veya geniş bir materyalle uygulanmalı ve asla gevşetilmemelidir.",
+              "Turnike uygulaması sadece sağlık personeli tarafından yapılabilir; ilk yardımcının turnike yetkisi hiçbir koşulda yoktur.",
+              "Turnike, kopan uzvun distal ucuna venöz dönüşü engellemek için sıkıca bağlanmalı ve üzerine soğuk uygulama yapılmalıdır."
+            ],
+            "correctIndex": 1,
+            "explanation": "Turnike hayatı tehdit eden kanamalarda proksimale uygulanır, gevşetilmez ve doku hasarını azaltmak için geniş materyal tercih edilir."
+          },
+          {
+            "question": "Afet ve acil durumlarda toplu yaralanma durumlarında uygulanan START triyaj sistemine göre, solunum yolu açıldıktan sonra solunum hızı dakikada 30'un üzerinde olan ve kapiller geri dolum süresi 2 saniyeden uzun (veya radial nabzı alınamayan) bir yaralı hangi triyaj koduna ve önceliğine alınmalıdır?",
+            "options": [
+              "Sarı kod (Geciktirilebilir / İkinci öncelikli)",
+              "Yeşil kod (Hafif yaralı / Ayakta tedavi)",
+              "Kırmızı kod (Acil / Birinci öncelikli)",
+              "Siyah kod (Ex / Ölü veya umutsuz)"
+            ],
+            "correctIndex": 2,
+            "explanation": "START triyajında solunum sayısı >30 olan veya perfüzyon bozukluğu (kapiller dolum >2 sn / nabız yok) gösteren hastalar Kırmızı kod (Acil) olarak sınıflandırılır."
+          },
+          {
+            "question": "Tam tıkanıklık (nefes alamama, konuşamama, elleri boyuna götürme) yaşayan bilinci açık erişkin bir kazazedede Heimlich manevrası uygulanırken izlenmesi gereken doğru basamak sırası aşağıdakilerden hangisidir?",
+            "options": [
+              "Önce 5 kez sırt vuruşu (back blow), ardından 5 kez karın basısı (Heimlich manevrası) ardışık olarak yabancı cisim çıkana veya bilinç kapanana kadar uygulanmalıdır.",
+              "Doğrudan hastanın arkasına geçilip sadece göğüs basısı yapılır.",
+              "Hastaya su içirilir ve öksürmesi için arkasından sırtına sertçe vurulur.",
+              "Önce 5 kez karın basısı, sonra sırt vuruşu yapılır ve hasta yüz üstü yatırılır."
+            ],
+            "correctIndex": 0,
+            "explanation": "Güncel kılavuzlar tam tıkanıklıkta 5 sırt vuruşu ve 5 karın basısının (Heimlich) ardışık olarak etkin bir şekilde uygulanmasını önermektedir."
+          },
+          {
+            "question": "Kimyasal bir madde (örneğin bazik bir sıvı) nedeniyle oluşmuş ciddi bir göz yanığında ilk yardımcının yapması gereken ilk ve en kritik müdahale nedir?",
+            "options": [
+              "Gözü hemen nötralize edici asidik bir solüsyonla yıkayarak kimyasal reaksiyon başlatmak.",
+              "Gözü sıkıca kapatıp en yakın sağlık kuruluşuna sevk etmek.",
+              "Gözü bol ve temiz suyla, en az 15-20 dakika boyunca kesintisiz olarak içten dışa doğru yıkamak.",
+              "Göz içerisindeki kimyasal kalıntıyı kuru steril bir gazlı bezle kazıyarak çıkarmak."
+            ],
+            "correctIndex": 2,
+            "explanation": "Kimyasal göz yanıklarında en önemli adım, maddeyi uzaklaştırmak için gözün derhal bol su ile kesintisiz yıkanmasıdır."
+          },
+          {
+            "question": "Açık bir kırık olgusunda karşılaşılan komplikasyonlar göz önüne alındığında, ilk yardımcının aşağıdaki müdahalelerden hangisini yapması kesinlikle hatalıdır?",
+            "options": [
+              "Kırık uçlarının dışarı çıkmış olduğu durumlarda, dışarı çıkan kemik uçlarını içeriye doğru itmeye çalışmak.",
+              "Yarayı temiz bir bezle kapatıp kanamayı durdurmaya çalışmak.",
+              "Kırık şüphesi olan bölgeyi hareket ettirmeden mevcut pozisyonda sabitlemek (atıplamak).",
+              "Yaralının şok bulgularını gözlemleyerek ayaklarını 30 cm kadar yukarı kaldırmak."
+            ],
+            "correctIndex": 0,
+            "explanation": "Dışarı çıkan kemik uçları kesinlikle içeri itilmemelidir; bu durum enfeksiyona ve ek doku hasarına yol açar."
+          },
+          {
+            "question": "İleri düzey bir hipotermi ve donma vakasında, etkilenen uzuvlar (örneğin ayaklar) için uygulanacak doğru ilk yardım prensibi aşağıdakilerden hangisidir?",
+            "options": [
+              "Uzuvlar hızla sıcak su banyosuna daldırılmalı ve masaj yapılmalıdır.",
+              "Etkilenen dokular ovuşturulmalı ve kara sürtülerek kan akışı hızlandırılmalıdır.",
+              "Donmuş dokular hızla çözdürülmemeli, donmuş uzvun yeniden donma riski varsa çözdürme işlemi ertelenmeli, ılık su banyosu kontrollü şekilde uygulanmalı ve asla ovuşturulmamalıdır.",
+              "Hasta sıcak bir ortama alınarak alkol verilmelidir."
+            ],
+            "correctIndex": 2,
+            "explanation": "Donmalarda doku ovuşturulmamalı ve kar sürülmemelidir; bu durum hücre ölümünü artırır. Kontrollü ılık su ile ısıtma tercih edilir."
+          },
+          {
+            "question": "Elektrik çarpması geçiren bir kazazedeye müdahale ederken ilk yardımcının öncelikli olarak alması gereken güvenlik önlemi ve yaklaşım ne olmalıdır?",
+            "options": [
+              "Hemen kazazedenin elinden tutarak onu akımdan kurtarmak.",
+              "Önce elektrik akımını ana şalterden kesmek veya yalıtkan kuru bir cisimle (tahta sopa vb.) mağduru akımdan uzaklaştırmak, ardından hava yolu-solunum-dolaşım değerlendirmesi yapmak.",
+              "Kazazedeye doğrudan su dökerek soğutma yapmak.",
+              "Kardiyak arrest ihtimali düşük olduğu için sadece bilincini kontrol edip beklemek."
+            ],
+            "correctIndex": 1,
+            "explanation": "Elektrik çarpmalarında ilk kural kendi güvenliğidir; akım kesilmeli ya da yalıtkan nesneyle müdahale edilmelidir."
+          },
+          {
+            "question": "Koma pozisyonu (iyileşme / derlenme pozisyonu) hangi klinik durumdaki kazazedelere kesinlikle uygulanmalıdır ve bu pozisyonun temel amacı nedir?",
+            "options": [
+              "Solunumu olmayan ve kalbi durmuş hastalara KPR etkinliğini artırmak için uygulanır.",
+              "Şiddetli omurga travması şüphesi olan bilinci kapalı hastalara omurgayı düzleştirmek için uygulanır.",
+              "Bilinci kapalı ancak solunumu ve dolaşımı yerinde olan hastalarda, dilin geriye kaçmasını ve kusmuk/salgıların solunum yolunu tıkamasını önlemek için uygulanır.",
+              "Genel bayılma geçiren ve tansiyonu düşük olan bireylere başı aşağıda kalacak şekilde uygulanır."
+            ],
+            "correctIndex": 2,
+            "explanation": "Koma pozisyonu, bilinci kapalı ama solunumu olan hastaların solunum yolunu açık tutmak (aspirasyonu önlemek) için verilir."
+          },
+          {
+            "question": "Ciltte tam kat (üçüncü derece) yanık oluşturan bir kazazedede doğru ilk yardım uygulamasıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "options": [
+              "Yanan bölgeye hemen diş macunu, yoğurt veya salça gibi evsel maddeler sürülmelidir.",
+              "Oluşan büller (su toplayan kabarcıklar) patlatılmalı ve yara açık bırakılmalıdır.",
+              "Yanık yüzeyi temiz, kuru ve steril bir bezle örtülmeli, yapışan giysiler zorla çıkarılmamalı ve kimyasal yanıklar hariç bol su ile soğutulmalıdır.",
+              "Hastaya oral yoldan bolca tuzlu su verilerek elektrolit kaybı önlenmelidir."
+            ],
+            "correctIndex": 3,
+            "explanation": "C seçeneği doğrudur: Yanık alanı steril örtülür, büller patlatılmaz ve yapışan kıyafetler koparılmaz."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Programlama Temelleri",
+    "color": 4278223759,
+    "summaryText": "Programlama dünyasına adım atmak korkutucu görünse de aslında günlük hayatımızdaki mantık yürütme biçimleriyle birebir aynıdır. Bilgileri saklamak için değişkenleri, tekrarlanan işler için döngüleri ve karar vermek için koşullu ifadeleri kullanarak harika projeler üretebilirin. Zamanla fonksiyonlar ve veri yapıları ile kodunu düzenlemeyi, nesne yönelimli programlama ile de büyük sistemleri kolayca yönetmeyi öğreneceksin. Her küçük hata senin için yeni bir öğrenme fırsatıdır, bu yüzden asla pes etme ve kod yazmanın tadını çıkar.",
+    "levels": {
+      "easy": {
+        "flashcards": [
+          {
+            "question": "Programlamada verileri saklamak ve çağırmak için kullanılan isimlendirilmiş hafıza kutularına ne ad verilir?",
+            "answer": "Değişken"
+          },
+          {
+            "question": "Belirli bir koşul doğru olduğu sürece aynı kod bloğunu tekrar tekrar çalıştırmaya yarayan yapıya ne denir?",
+            "answer": "Döngü"
+          },
+          {
+            "question": "Programın akışında belirli şartlara göre farklı kod bloklarının çalıştırılmasını sağlayan ifade türü nedir?",
+            "answer": "Koşullu ifade"
+          },
+          {
+            "question": "Belirli bir görevi yerine getirmek için tasarlanan ve tekrar kullanılabilen kod bloklarına ne ad verilir?",
+            "answer": "Fonksiyon"
+          },
+          {
+            "question": "Birden fazla veriyi sıralı bir şekilde tutmak için kullanılan temel veri yapısının adı nedir?",
+            "answer": "Dizi"
+          },
+          {
+            "question": "Nesne yönelimli programlamada, nesnelerin özelliklerini ve davranışlarını tanımlayan şablona ne denir?",
+            "answer": "Sınıf"
+          },
+          {
+            "question": "Bir sınıfın kalıbından üretilen somut örneklerin her birine ne ad verilir?",
+            "answer": "Nesne"
+          },
+          {
+            "question": "Koşullu ifadelerde 'eğer' anlamına gelen temel anahtar kelime nedir?",
+            "answer": "If"
+          },
+          {
+            "question": "Döngülerde sayma ve yineleme işlemlerini yapmak için en sık kullanılan döngü türlerinden biri hangisidir?",
+            "answer": "For"
+          },
+          {
+            "question": "Verileri anahtar ve değer ikilileri şeklinde saklayan veri yapısının adı nedir?",
+            "answer": "Sözlük"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Programlamada verileri saklamak ve daha sonra kullanmak için ayrılan bellek gözlerine ne ad verilir?",
+            "options": [
+              "Fonksiyon",
+              "Değişken",
+              "Döngü",
+              "Dizi"
+            ],
+            "correctIndex": 1,
+            "explanation": "Değişkenler, program boyunca verileri hafızada tutmak ve gerektiğinde değiştirmek için kullanılan temel yapılardır."
+          },
+          {
+            "question": "Belirli bir koşul doğru olduğu sürece aynı kod bloğunu tekrar tekrar çalıştırmaya yarayan yapıya ne denir?",
+            "options": [
+              "Koşullu ifade",
+              "Döngü",
+              "Değişken",
+              "Sınıf"
+            ],
+            "correctIndex": 1,
+            "explanation": "Döngüler, aynı kodun tekrar tekrar yazılmasını önleyerek otomasyon sağlar."
+          },
+          {
+            "question": "Program içinde belirli bir duruma göre farklı kod bloklarının çalışmasını sağlayan yapı hangisidir?",
+            "options": [
+              "If-else",
+              "For döngüsü",
+              "Dizi",
+              "Fonksiyon"
+            ],
+            "correctIndex": 0,
+            "explanation": "Koşullu ifadeler (if-else), mantıksal kontroller yaparak programın akışını yönlendirir."
+          },
+          {
+            "question": "Tekrar kullanılabilir kod blokları oluşturarak karmaşıklığı azaltan yapı hangisidir?",
+            "options": [
+              "Değişken",
+              "Fonksiyon",
+              "Liste",
+              "Koşul"
+            ],
+            "correctIndex": 1,
+            "explanation": "Fonksiyonlar, belirli bir görevi yerine getiren ve ihtiyaç duyulduğunda çağrılan alt programlardır."
+          },
+          {
+            "question": "Birden fazla veriyi tek bir isim altında sırasıyla saklamamıza yarayan veri yapısı hangisidir?",
+            "options": [
+              "Değişken",
+              "Dizi",
+              "Mantıksal tip",
+              "Koşul"
+            ],
+            "correctIndex": 1,
+            "explanation": "Diziler (veya listeler), aynı türden birden fazla veriyi düzenli bir şekilde tutmayı sağlar."
+          },
+          {
+            "question": "Nesne yönelimli programlamada, nesnelerin sahip olduğu özellikleri belirten şablon veya taslağa ne denir?",
+            "options": [
+              "Sınıf",
+              "Fonksiyon",
+              "Döngü",
+              "Değişken"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sınıf (Class), nesne yönelimli programlamanın temelini oluşturur ve nesnelerin özelliklerini tanımlar."
+          },
+          {
+            "question": "Bir sınıftan türetilen somut örneklere ne ad verilir?",
+            "options": [
+              "Metot",
+              "Dizi",
+              "Nesne",
+              "Koşul"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nesne (Object), bir sınıfın hafızada yer kaplayan somut bir örneğidir."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir veri tipi (tipi) değildir?",
+            "options": [
+              "Tam sayı (Integer)",
+              "Metin (String)",
+              "Döngü (Loop)",
+              "Ondalıklı sayı (Float)"
+            ],
+            "correctIndex": 2,
+            "explanation": "Döngü bir veri tipi değil, kontrol akış mekanizmasıdır."
+          },
+          {
+            "question": "Programlama dillerinde mantıksal (Boolean) veri türü hangi iki değeri alabilir?",
+            "options": [
+              "Evet ve Hayır",
+              "Doğru ve Yanlış (True ve False)",
+              "Açık ve Kapalı",
+              "Sıfır ve Bir milyon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Boolean veri tipi sadece doğru (True) veya yanlış (False) değerlerini saklar."
+          },
+          {
+            "question": "Bir listedeki veya dizideki elemanların sayısına ulaşmak için genellikle hangi kavram kullanılır?",
+            "options": [
+              "Boyut veya Uzunluk (Length)",
+              "Değişken",
+              "Döngü",
+              "Sınıf"
+            ],
+            "correctIndex": 0,
+            "explanation": "Uzunluk (Length), bir veri yapısı içinde kaç tane eleman olduğunu gösteren temel bir özelliktir."
+          }
+        ]
+      },
+      "medium": {
+        "flashcards": [
+          {
+            "question": "Programlamada, verileri bellekte saklamak ve üzerinde işlem yapmak için kullanılan isimlendirilmiş alanlara ne ad verilir?",
+            "answer": "Değişken"
+          },
+          {
+            "question": "Belirli bir koşul doğru olduğu sürece aynı kod bloğunu tekrar tekrar çalıştırmayı sağlayan yapıların genel adı nedir?",
+            "answer": "Döngü"
+          },
+          {
+            "question": "Program akışını belirli şartlara göre yönlendirmek için kullanılan if ve else yapıları hangi kavramın temelini oluşturur?",
+            "answer": "Koşullu ifade"
+          },
+          {
+            "question": "Kodun tekrarını önlemek ve belirli bir görevi yerine getirmek için tanımlanan, çağrılabilir alt programlara ne denir?",
+            "answer": "Fonksiyon"
+          },
+          {
+            "question": "Aynı türden birden fazla veriyi tek bir değişkende saklamayı sağlayan temel veri yapısı hangisidir?",
+            "answer": "Dizi"
+          },
+          {
+            "question": "Boyutu dinamik olarak değiştirilebilen ve farklı veri tiplerini barındırabilen doğrusal veri yapısı hangisidir?",
+            "answer": "Liste"
+          },
+          {
+            "question": "Nesne yönelimli programlamada, nesnelerin özelliklerini ve davranışlarını tanımlayan şablona ne denir?",
+            "answer": "Sınıf"
+          },
+          {
+            "question": "Nesne yönelimli programlamada, bir sınıfın başka bir sınıfın özelliklerini ve metodlarını devralması mekanizmasına ne ad verilir?",
+            "answer": "Kalıtım"
+          },
+          {
+            "question": "Nesne yönelimli programlamada, iç verilerin dış dünyadan gizlenmesi ve korunması prensibine ne denir?",
+            "answer": "Kapsülleme"
+          },
+          {
+            "question": "Aynı isimli metodun farklı parametrelerle farklı işlemler yapabilmesini sağlayan nesne yönelimli programlama kavramı nedir?",
+            "answer": "Çok biçimlilik"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Bir programlama dilinde değişken (variable) tanımlanırken aşağıdakilerden hangisine dikkat etmek gerekmez?",
+            "options": [
+              "Değişken adının bir sayıyla başlayamaması",
+              "Değişken adında boşluk karakteri kullanılabilmesi",
+              "Değişkenin türüne uygun bir değer alması",
+              "Rezerve edilmiş anahtar kelimelerin değişken adı olarak kullanılmaması"
+            ],
+            "correctIndex": 1,
+            "explanation": "Değişken adlarında boşluk karakteri kullanılamaz; bunun yerine genellikle alt çizgi veya camelCase tercih edilir."
+          },
+          {
+            "question": "Koşullu ifadelerde (if-else yapısı) birden fazla alternatif durumu kontrol etmek için hangi anahtar kelime kullanılır?",
+            "options": [
+              "switch",
+              "else if",
+              "loop",
+              "break"
+            ],
+            "correctIndex": 1,
+            "explanation": "İlk if koşulu tutmadığında diğer alternatif durumları sırayla kontrol etmek için else if (veya elif) bloğu kullanılır."
+          },
+          {
+            "question": "Belirli bir koşul sağlandığı sürece tekrar eden kod bloklarını çalıştırmak için hangi döngü yapısı tercih edilir?",
+            "options": [
+              "for döngüsü",
+              "if-else yapısı",
+              "while döngüsü",
+              "switch-case yapısı"
+            ],
+            "correctIndex": 2,
+            "explanation": "While döngüsü, verilen mantıksal koşul doğru (true) olduğu sürece içerisindeki kod bloğunu çalıştırmaya devam eder."
+          },
+          {
+            "question": "Fonksiyonlar (metotlar) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "options": [
+              "Kod tekrarını önleyerek modülerliği artırırlar.",
+              "Parametre alabilirler ancak dışarıya hiçbir zaman değer döndüremezler.",
+              "Görevi tamamlandığında çağrıldığı yere sonuç dönebilirler.",
+              "İçlerinde başka fonksiyonlar çağrılabilir."
+            ],
+            "correctIndex": 1,
+            "explanation": "Fonksiyonlar return anahtar kelimesi yardımıyla dışarıya değer veya sonuç döndürebilirler."
+          },
+          {
+            "question": "Programlamada verileri saklamak için kullanılan diziler (arrays) hakkında aşağıdakilerden hangisi doğrudur?",
+            "options": [
+              "Dizilerin boyutları tanımlandıktan sonra hiçbir zaman değiştirilemez.",
+              "Diziler yalnızca metinsel verileri saklayabilir.",
+              "Dizi elemanlarına erişirken indeks numaraları genellikle 1'den başlar.",
+              "Farklı veri tiplerindeki elemanlar aynı dizide karışık olarak tutulabilir."
+            ],
+            "correctIndex": 0,
+            "explanation": "Geleneksel diziler sabit boyutludur ve oluşturulduktan sonra kapasiteleri değiştirilemez; listeler ise dinamiktir."
+          },
+          {
+            "question": "Nesne Yönelimli Programlamada (OOP) bir sınıfın (class) özelliklerini ve davranışlarını başka bir sınıfa aktarmasına ne ad verilir?",
+            "options": [
+              "Polymorphism",
+              "Encapsulation",
+              "Inheritance",
+              "Abstraction"
+            ],
+            "correctIndex": 2,
+            "explanation": "Kalıtım (Inheritance), alt sınıfların üst sınıfların özelliklerini ve metotlarını miras almasını sağlayan temel bir OOP prensibidir."
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir döngüyü tamamen sonlandırmak veya döngüden erken çıkmak için kullanılır?",
+            "options": [
+              "continue",
+              "break",
+              "return",
+              "pass"
+            ],
+            "correctIndex": 1,
+            "explanation": "Break komutu, içinde bulunduğu döngüyü derhal sonlandırarak programın döngü sonrasındaki satırdan devam etmesini sağlar."
+          },
+          {
+            "question": "Dinamik listeler (lists) ile geleneksel diziler (arrays) arasındaki temel fark nedir?",
+            "options": [
+              "Listelerin boyutu çalışma zamanında dinamik olarak artıp azalabilir.",
+              "Diziler bellekte listeden daha fazla yer kaplar.",
+              "Listeler sadece sayılarla çalışabilirken diziler metin saklar.",
+              "Dizilerde indeksleme yoktur, listelerde vardır."
+            ],
+            "correctIndex": 0,
+            "explanation": "Dinamik listeler eleman eklendikçe veya çıkarıldıkça otomatik olarak boyut değiştirebilir, diziler ise sabit boyutludur."
+          },
+          {
+            "question": "Nesne Yönelimli Programlamada iç verileri dış dünyadan gizlemek ve korumak için hangi kavram kullanılır?",
+            "options": [
+              "Kalıtım",
+              "Kapsülleme",
+              "Çok biçimlilik",
+              "Soyutlama"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kapsülleme (Encapsulation), sınıf verilerinin doğrudan dışarıdan erişilmesini engelleyerek getter ve setter metotları ile güvenli hale getirilmesidir."
+          },
+          {
+            "question": "Aşağıdaki döngü çeşitlerinden hangisi, döngü bloğunun en az bir kez çalışmasını garanti eder?",
+            "options": [
+              "for döngüsü",
+              "while döngüsü",
+              "do-while döngüsü",
+              "foreach döngüsü"
+            ],
+            "correctIndex": 2,
+            "explanation": "Do-while döngüsünde koşul sonda kontrol edildiği için, koşul yanlış olsa bile döngü gövdesi en az bir kere çalıştırılır."
+          }
+        ]
+      },
+      "hard": {
+        "flashcards": [
+          {
+            "question": "Bellekte saklanan bir verinin türünü, ömrünü ve erişim kapsamını belirleyen, derleme aşamasında tip güvenliği sağlayan temel yapı taşının adı nedir?",
+            "answer": "Degisken"
+          },
+          {
+            "question": "Belirli bir koşul sağlandığı sürece kod bloğunu tekrar eden ve döngü sayısı önceden bilinmediğinde tercih edilen kontrol yapısı hangisidir?",
+            "answer": "While"
+          },
+          {
+            "question": "İkili dallanma senaryolarında, birden fazla ardışık koşul kontrolü yerine belirli bir ifadenin alacağı değerlere göre yönlendirme yapan koşullu ifade yapısı nedir?",
+            "answer": "Switch"
+          },
+          {
+            "question": "Parametre olarak aldığı değerler üzerinde işlem yaparak tek bir sonuç döndüren ve yan etki barındırmayan fonksiyonlara ne ad verilir?",
+            "answer": "Saf fonksiyon"
+          },
+          {
+            "question": "Bellekte ardışık adreslerde saklanan ve sabit boyutlu olan veri yapısının adı nedir?",
+            "answer": "Dizi"
+          },
+          {
+            "question": "Boyutu dinamik olarak değişebilen ve farklı veri tiplerini barındırabilen doğrusal veri yapısı hangisidir?",
+            "answer": "Liste"
+          },
+          {
+            "question": "Nesne yönelimli programlamada, içsel verilerin dış dünyadan gizlenmesi ve sadece belirlenen arayüzler üzerinden erişilmesini sağlayan ilke nedir?",
+            "answer": "Kapsulleme"
+          },
+          {
+            "question": "Mevcut bir sınıfın özelliklerini ve metodlarını devralarak yeni bir sınıf oluşturma mekanizmasına ne denir?",
+            "answer": "Kalıtım"
+          },
+          {
+            "question": "Aynı isimli metodun farklı parametre imzalarıyla farklı davranışlar sergilemesi nesne yönelimli programlamanın hangi özelliğidir?",
+            "answer": "Çok biçimlilik"
+          },
+          {
+            "question": "Sınıftan türetilen somut varlıkları temsil eden ve bellek üzerinde yer kaplayan örneğin adı nedir?",
+            "answer": "Nesne"
+          }
+        ],
+        "quizQuestions": [
+          {
+            "question": "Asenkron mimaride çalışan bir dilde, dinamik olarak tip değiştirebilen bir değişkenin bellek yönetimi sırasında kapsam (scope) ve çöp toplayıcı (garbage collection) etkileşimi göz önüne alındığında, iç içe tanımlanan kapanışlarda (closures) referans sızıntılarını (memory leak) önlemek için en etkili temel yaklaşım nedir?",
+            "options": [
+              "Kapanış içerisindeki değişkenleri global nesnelere atamak",
+              "Kapsam dışına çıkıldığında referansları bilinçli olarak null veya undefined yapmak",
+              "Değişken türünü statik hale getirip veri yapısını sabitlemek",
+              "Çöp toplayıcının döngüsel referansları otomatik algılamasını beklemek"
+            ],
+            "correctIndex": 1,
+            "explanation": "İç içe fonksiyonlarda referans sızıntılarını önlemek için kullanılmayan değişkenlerin kapsam dışı bırakılması veya sıfırlanması kritik önem taşır."
+          },
+          {
+            "question": "Statik tipli olmayan dinamik bir dilde, iç içe üç katlı bir döngü yapısı içinde koşan bir koşullu ifadenin (if-else) performans maliyetini optimize etmek amacıyla, en dıştaki döngünün iterasyon sayısını azaltmak için hangi mantıksal dönüşüm uygulanmalıdır?",
+            "options": [
+              "Koşul ifadelerini döngü dışına çıkarıp memoization tekniği kullanmak",
+              "Döngülerin sırasını tersine çevirerek en az maliyetli olanı dışarı almak",
+              "Tüm döngüleri tek bir recursive fonksiyon çağrısına indirgemek",
+              "Koşullu ifadeleri switch-case bloklarına dönüştürerek branch prediction optimizasyonu yapmak"
+            ],
+            "correctIndex": 0,
+            "explanation": "Maliyetli koşul ifadelerini döngü dışına çıkarmak ve sonuçları önbelleğe almak (memoization) iterasyon maliyetlerini dramatik ölçüde düşürür."
+          },
+          {
+            "question": "Nesne yönelimli programlamada (OOP) kalıtım (inheritance) yerine kompozisyon (composition) tercih edilmesinin en temel mimari sebebi aşağıdakilerden hangisidir?",
+            "options": [
+              "Kompozisyonun bellek tüketimini sıfıra indirmesi",
+              "Kalıtımın çoklu sınıf hiyerarşisinde yarattığı sıkı kuplajı (tight coupling) ve kırılgan taban sınıf problemini çözmesi",
+              "Kompozisyonun polimorfizm desteğini zorunlu kılmasası",
+              "Kalıtımın sadece ilkel veri tipleri ile çalışabilmesi"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kompozisyon, nesneler arası gevşek kuplaj (loose coupling) sağlayarak kalıtımın getirdiği kod tekrarı ve hiyerarşi karmaşasını engeller."
+          },
+          {
+            "question": "Fonksiyonel programlama prensiplerini benimseyen bir yapıda, yan etkisiz (pure function) bir fonksiyonun içerisinden dış dünyadaki mutable bir veri yapısını (liste veya dizi) güncellemek istendiğinde, en güvenli bellek modeli hangisidir?",
+            "options": [
+              "Orijinal diziyi yerinde (in-place) değiştiren özel bir metot çağırmak",
+              "Veri yapısının derin kopyasını (deep copy) oluşturarak yeni kopya üzerinde işlem yapmak",
+              "Global değişken kilidi (mutex) kullanarak thread güvenliğini sağlamak",
+              "Diziyi akış (stream) nesnesine dönüştürüp senkronize etmek"
+            ],
+            "correctIndex": 1,
+            "explanation": "Saf fonksiyonlar yan etki üretmemelidir; bu nedenle dış veri yapıları değiştirilemez (immutable) yaklaşım ile kopyalanarak işlenir."
+          },
+          {
+            "question": "Dinamik boyutlu listelerin bellekte ardışık (contiguous) tutulmadığı bağlı liste (linked list) veri yapılarında, eleman arama (search) işleminin zaman karmaşıklığının O(N) olmasının mimari sebebi nedir?",
+            "options": [
+              "Bellek adreslerinin rastgele dağılması ve önbellek yerelliği (cache locality) avantajının olmaması",
+              "Her düğümün yalnızca bir sonraki düğümün adresini tutması nedeniyle rastgele erişime (random access) izin verilmemesi",
+              "Dizi boyutunun derleme zamanında belirlenememesi",
+              "İşlemcinin aritmetik mantık biriminin bu veri yapısını desteklememesi"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bağlı listelerde indis ile doğrudan erişim (random access) imkanı yoktur, bu yüzden baştan itibaren sırasıyla traversal yapılması gerekir."
+          },
+          {
+            "question": "Polimorfizm (çok biçimlilik) kavramının çalışma zamanı (runtime) maliyetini en aza indirmek için modern derleyiciler hangi mekanizmayı kullanır?",
+            "options": [
+              "Sanal tablo (vtable) yönlendirmesi ve devirtualization optimizasyonu",
+              "Statik tip denetimi ve tip silme (type erasure) teknikleri",
+              "Koşullu ifadelerin inline expansion ile genişletilmesi",
+              "Veri yapı اینکهlerinin sabit bellek havuzlarına atanması"
+            ],
+            "correctIndex": 0,
+            "explanation": "Derleyiciler, çalışma zamanında vtable maliyetini ortadan kaldırmak için devirtualization optimizasyonları uygular."
+          },
+          {
+            "question": "Kapsamlı bir algoritma tasarımında, özyinelemeli (recursive) bir fonksiyonun bellek yığınında (stack overflow) patlamasını önlemek için hangi temel programlama tekniği uygulanmalıdır?",
+            "options": [
+              "Fonksiyonu asenkron bir kuyruğa (event loop) devretmek",
+              "Kuyruk özyinelemesi (tail recursion) optimizasyonu veya iteratif dönüşüm",
+              "Veri yapısını dizi yerine bağlı listeye çevirmek",
+              "Koşullu ifadeleri tamamen ortadan kaldırmak"
+            ],
+            "correctIndex": 1,
+            "explanation": "Tail recursion, derleyicinin yığın çerçevesi (stack frame) oluşturmadan aynı alanı yeniden kullanmasını sağlayarak taşmaları önler."
+          },
+          {
+            "question": "Nesne yönelimli programlamada kapsülleme (encapsulation) prensibinin ihlal edilmesi durumunda, yazılımın sürdürülebilirliği açısından karşılaşılan en büyük risk nedir?",
+            "options": [
+              "Bellek sızıntılarının (memory leak) katlanarak artması",
+              "İç durumun dışarıdan doğrudan değiştirilmesiyle veri bütünlüğünün (data integrity) bozulması ve kuplajın artması",
+              "Fonksiyonların geri dönüş tiplerinin geçersiz hale gelmesi",
+              "Döngülerin sonsuz döngüye girmesi riskinin artması"
+            ],
+            "correctIndex": 1,
+            "explanation": "Kapsülleme eksikliği, nesne iç verilerine dışarıdan müdahaleye yol açarak veri tutarsızlığına ve yüksek bağımlılığa neden olur."
+          },
+          {
+            "question": "Karmaşık bir veri yapısı olan sözlük (hash map) mimarisinde çakışma (collision) yönetimi için kullanılan zincirleme (chaining) yönteminin en kötü durum (worst-case) zaman karmaşıklığı nedir?",
+            "options": [
+              "O(1)",
+              "O(log N)",
+              "O(N)",
+              "O(N log N)"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tüm anahtarlar aynı hash değerine denk gelirse, zincirleme yönteminde arama maliyeti doğrusal olarak O(N)'e çıkar."
+          },
+          {
+            "question": "Koşullu ifadelerin (if-else zincirleri) performans açısından kritik yerlerde optimize edilmesi amacıyla kullanılan 'short-circuit evaluation' (kısa devre değerlendirmesi) mekanizması nasıl çalışır?",
+            "options": [
+              "Mantıksal operatörlerin (veya/ve) sonucun kesinleştiği anda diğer koşulların değerlendirilmesini durdurması",
+              "Tüm koşulların paralel olarak aynı anda işleme alınması",
+              "Koşulların derleme aşamasında tamamen silinmesi",
+              "Veri tiplerinin otomatik olarak boolean değerine cast edilmesi"
+            ],
+            "correctIndex": 0,
+            "explanation": "Kısa devre değerlendirmesi, mantıksal ifadelerde sonuç baştan belli olduğunda geri kalan maliyetli kontrollerin yapılmasını engeller."
+          }
+        ]
+      }
+    }
   }
 ]

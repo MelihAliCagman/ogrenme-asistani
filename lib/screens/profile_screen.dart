@@ -1,10 +1,14 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/profile_stats.dart';
+import 'package:ogrenme_asistani/models/streak_data.dart';
 import 'package:ogrenme_asistani/models/user_profile.dart';
 import 'package:ogrenme_asistani/screens/avatar_selection_screen.dart';
 import 'package:ogrenme_asistani/screens/settings_screen.dart';
 import 'package:ogrenme_asistani/services/auth_service.dart';
 import 'package:ogrenme_asistani/services/profile_stats_repository.dart';
+import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/services/user_profile_repository.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -17,8 +21,10 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   final _repository = UserProfileRepository();
   final _statsRepository = ProfileStatsRepository();
+  final _streakRepository = StreakRepository();
   UserProfile? _profile;
   ProfileStats? _stats;
+  StreamSubscription<StreakData>? _streakSubscription;
   bool _isLoading = true;
 
   @override
@@ -26,6 +32,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
     super.initState();
     _loadProfile();
     _loadStats();
+    _watchStreak();
+  }
+
+  @override
+  void dispose() {
+    _streakSubscription?.cancel();
+    super.dispose();
   }
 
   Future<void> _loadStats() async {
@@ -34,6 +47,30 @@ class _ProfileScreenState extends State<ProfileScreen> {
     final stats = await _statsRepository.load(uid);
     if (!mounted) return;
     setState(() => _stats = stats);
+  }
+
+  /// Keeps just the streak numbers fresh in real time (the rest of
+  /// [_stats] only needs to be as fresh as the last full [_loadStats]).
+  void _watchStreak() {
+    final uid = AuthService.currentUser?.uid;
+    if (uid == null) return;
+    _streakSubscription = _streakRepository.watch(uid).listen((streak) {
+      if (!mounted) return;
+      final current = _stats;
+      if (current == null) return;
+      setState(() {
+        _stats = ProfileStats(
+          totalChats: current.totalChats,
+          totalCardSets: current.totalCardSets,
+          totalQuizSets: current.totalQuizSets,
+          totalCards: current.totalCards,
+          totalQuizAttempts: current.totalQuizAttempts,
+          averageQuizScorePercent: current.averageQuizScorePercent,
+          currentStreak: streak.currentStreak,
+          longestStreak: streak.longestStreak,
+        );
+      });
+    });
   }
 
   Future<void> _loadProfile() async {

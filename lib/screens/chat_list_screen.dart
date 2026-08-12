@@ -27,6 +27,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
   List<Subject> _subjects = [];
   StreakData? _streak;
   StreamSubscription<List<Subject>>? _subjectsSubscription;
+  StreamSubscription<StreakData>? _streakSubscription;
   bool _isLoading = true;
 
   @override
@@ -34,20 +35,22 @@ class _ChatListScreenState extends State<ChatListScreen> {
     super.initState();
     _loadSessions();
     _watchSubjects();
-    _loadStreak();
+    _watchStreak();
   }
 
-  Future<void> _loadStreak() async {
+  void _watchStreak() {
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) return;
-    final streak = await _streakRepository.load(uid);
-    if (!mounted) return;
-    setState(() => _streak = streak);
+    _streakSubscription = _streakRepository.watch(uid).listen((streak) {
+      if (!mounted) return;
+      setState(() => _streak = streak);
+    });
   }
 
   @override
   void dispose() {
     _subjectsSubscription?.cancel();
+    _streakSubscription?.cancel();
     super.dispose();
   }
 

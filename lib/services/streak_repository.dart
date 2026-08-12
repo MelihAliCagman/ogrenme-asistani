@@ -17,6 +17,17 @@ class StreakRepository {
     return StreakData.fromJson(raw);
   }
 
+  /// Live updates of the streak, so any screen watching this (e.g. the
+  /// "Bugün Ne Çalışayım?" hint or the profile stats) reflects an
+  /// interaction that just happened elsewhere without needing to be
+  /// reopened.
+  Stream<StreakData> watch(String uid) {
+    return _doc(uid).snapshots().map((snapshot) {
+      final raw = snapshot.data()?['streak'] as Map<String, dynamic>?;
+      return raw == null ? StreakData.empty() : StreakData.fromJson(raw);
+    });
+  }
+
   /// Call whenever the user meaningfully interacts with a chat, card
   /// set, or quiz. The streak counters only change on the first call
   /// each day, but [subjectId]/[subjectName] (the subject that activity
@@ -57,5 +68,11 @@ class StreakRepository {
     await _doc(uid).set({'streak': updated.toJson()}, SetOptions(merge: true));
   }
 
-  DateTime _dateOnly(DateTime date) => DateTime(date.year, date.month, date.day);
+  /// The local calendar day (year/month/day), represented in UTC so day
+  /// differences are exact 24h multiples even in DST-observing regions —
+  /// `DateTime(y, m, d).difference(...)` on a *local* midnight can be off
+  /// by an hour on a DST transition day, which would corrupt the
+  /// consecutive-day check below.
+  DateTime _dateOnly(DateTime date) =>
+      DateTime.utc(date.year, date.month, date.day);
 }
