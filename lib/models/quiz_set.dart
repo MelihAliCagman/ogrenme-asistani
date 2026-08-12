@@ -46,6 +46,15 @@ class QuizSet {
     attempts: attempts,
   );
 
+  QuizSet withTitle(String title) => QuizSet(
+    id: id,
+    title: title,
+    createdAt: createdAt,
+    questions: questions,
+    subjectId: subjectId,
+    attempts: attempts,
+  );
+
   QuizSet withAttempts(List<QuizAttempt> attempts) => QuizSet(
     id: id,
     title: title,

@@ -1,9 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
 import 'package:ogrenme_asistani/models/quiz_question.dart';
 import 'package:ogrenme_asistani/models/quiz_set.dart';
 import 'package:ogrenme_asistani/models/sample_lesson.dart';
+import 'package:ogrenme_asistani/screens/sample_quiz_screen.dart';
 import 'package:ogrenme_asistani/services/card_set_repository.dart';
 import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
 import 'package:ogrenme_asistani/services/subject_repository.dart';
@@ -24,7 +26,10 @@ class _DiscoverLessonDetailScreenState
   bool _isAdding = false;
   bool _added = false;
   String? _errorMessage;
+  SampleDifficulty _difficulty = SampleDifficulty.medium;
 
+  /// Adds all three difficulty levels (each its own flashcard set + quiz
+  /// set) under one new subject, so the user gets the full range.
   Future<void> _addToMyLessons() async {
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) return;
@@ -43,25 +48,31 @@ class _DiscoverLessonDetailScreenState
 
       final cardSetRepository = CardSetRepository();
       final cardSets = await cardSetRepository.loadAll();
-      final newCardSet = FlashcardSet(
-        id: 'sample-${DateTime.now().microsecondsSinceEpoch}-cards',
-        title: widget.lesson.title,
-        createdAt: DateTime.now(),
-        cards: widget.lesson.flashcards,
-        subjectId: subject.id,
-      );
-      await cardSetRepository.saveAll([newCardSet, ...cardSets]);
+      final newCardSets = [
+        for (final entry in widget.lesson.levels.entries)
+          FlashcardSet(
+            id: 'sample-${DateTime.now().microsecondsSinceEpoch}-${entry.key.key}-cards',
+            title: '${widget.lesson.title} (${entry.key.label})',
+            createdAt: DateTime.now(),
+            cards: entry.value.flashcards,
+            subjectId: subject.id,
+          ),
+      ];
+      await cardSetRepository.saveAll([...newCardSets, ...cardSets]);
 
       final quizSetRepository = QuizSetRepository();
       final quizSets = await quizSetRepository.loadAll();
-      final newQuizSet = QuizSet(
-        id: 'sample-${DateTime.now().microsecondsSinceEpoch}-quiz',
-        title: widget.lesson.title,
-        createdAt: DateTime.now(),
-        questions: widget.lesson.quizQuestions,
-        subjectId: subject.id,
-      );
-      await quizSetRepository.saveAll([newQuizSet, ...quizSets]);
+      final newQuizSets = [
+        for (final entry in widget.lesson.levels.entries)
+          QuizSet(
+            id: 'sample-${DateTime.now().microsecondsSinceEpoch}-${entry.key.key}-quiz',
+            title: '${widget.lesson.title} (${entry.key.label})',
+            createdAt: DateTime.now(),
+            questions: entry.value.quizQuestions,
+            subjectId: subject.id,
+          ),
+      ];
+      await quizSetRepository.saveAll([...newQuizSets, ...quizSets]);
 
       if (!mounted) return;
       setState(() {
@@ -79,143 +90,171 @@ class _DiscoverLessonDetailScreenState
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
     final lesson = widget.lesson;
 
-    return Scaffold(
-      appBar: AppBar(title: Text(lesson.title)),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          FilledButton.icon(
-            onPressed: _isAdding || _added ? null : _addToMyLessons,
-            icon: _isAdding
-                ? const SizedBox(
-                    width: 18,
-                    height: 18,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  )
-                : Icon(_added ? Icons.check : Icons.add),
-            label: Text(
-              _added
-                  ? 'Eklendi ✓'
-                  : _isAdding
-                  ? 'Ekleniyor...'
-                  : 'Kendi Derslerime Ekle',
-            ),
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(lesson.title),
+          bottom: const TabBar(
+            tabs: [
+              Tab(text: 'Ders Notu'),
+              Tab(text: 'Kartlar'),
+              Tab(text: 'Test'),
+            ],
           ),
-          if (_errorMessage != null) ...[
-            const SizedBox(height: 8),
-            Text(
-              _errorMessage!,
-              style: TextStyle(color: colorScheme.error),
+        ),
+        body: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+              child: FilledButton.icon(
+                onPressed: _isAdding || _added ? null : _addToMyLessons,
+                icon: _isAdding
+                    ? const SizedBox(
+                        width: 18,
+                        height: 18,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      )
+                    : Icon(_added ? Icons.check : Icons.add),
+                label: Text(
+                  _added
+                      ? 'Eklendi ✓ (3 seviye)'
+                      : _isAdding
+                      ? 'Ekleniyor...'
+                      : 'Kendi Derslerime Ekle (3 seviye)',
+                ),
+              ),
+            ),
+            if (_errorMessage != null)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+                child: Text(
+                  _errorMessage!,
+                  style: TextStyle(color: Theme.of(context).colorScheme.error),
+                ),
+              ),
+            Expanded(
+              child: TabBarView(
+                children: [
+                  _buildSummaryTab(context),
+                  _buildLevelAwareTab(context, isTest: false),
+                  _buildLevelAwareTab(context, isTest: true),
+                ],
+              ),
             ),
           ],
-          const SizedBox(height: 20),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: lesson.color.withValues(alpha: 0.12),
-              borderRadius: BorderRadius.circular(16),
-              border: Border.all(color: lesson.color.withValues(alpha: 0.4)),
-            ),
-            child: SelectableText(
-              lesson.summaryText,
-              style: TextStyle(color: colorScheme.onSurface, height: 1.4),
-            ),
-          ),
-          const SizedBox(height: 24),
-          Text(
-            'Hafıza Kartları (${lesson.flashcards.length})',
-            style: Theme.of(context).textTheme.titleMedium,
-          ),
-          const SizedBox(height: 12),
-          for (final card in lesson.flashcards)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: FlashcardTile(card: card),
-            ),
-          const SizedBox(height: 12),
-          Text(
-            'Test Soruları (${lesson.quizQuestions.length})',
-            style: Theme.of(context).textTheme.titleMedium,
-          ),
-          const SizedBox(height: 12),
-          for (final question in lesson.quizQuestions)
-            _QuizPreviewCard(question: question),
-        ],
+        ),
       ),
     );
   }
-}
 
-class _QuizPreviewCard extends StatelessWidget {
-  const _QuizPreviewCard({required this.question});
-
-  final QuizQuestion question;
-
-  @override
-  Widget build(BuildContext context) {
+  Widget _buildSummaryTab(BuildContext context) {
+    final lesson = widget.lesson;
     final colorScheme = Theme.of(context).colorScheme;
-    const optionLabels = ['A', 'B', 'C', 'D'];
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: [
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: lesson.color.withValues(alpha: 0.12),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: lesson.color.withValues(alpha: 0.4)),
+          ),
+          child: SelectableText(
+            lesson.summaryText,
+            style: TextStyle(color: colorScheme.onSurface, height: 1.4),
+          ),
+        ),
+      ],
+    );
+  }
 
-    return Card(
-      margin: const EdgeInsets.only(bottom: 10),
+  Widget _buildDifficultySelector() {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
+      child: SizedBox(
+        width: double.infinity,
+        child: SegmentedButton<SampleDifficulty>(
+          segments: SampleDifficulty.values
+              .map(
+                (d) => ButtonSegment(value: d, label: Text(d.label)),
+              )
+              .toList(),
+          selected: {_difficulty},
+          onSelectionChanged: (selection) {
+            setState(() => _difficulty = selection.first);
+          },
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLevelAwareTab(BuildContext context, {required bool isTest}) {
+    final content = widget.lesson.levels[_difficulty];
+    return Column(
+      children: [
+        _buildDifficultySelector(),
+        Expanded(
+          child: isTest
+              ? _buildTestContent(context, content?.quizQuestions ?? [])
+              : _buildCardsContent(content?.flashcards ?? []),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCardsContent(List<Flashcard> cards) {
+    if (cards.isEmpty) {
+      return const Center(child: Text('Bu seviyede henüz kart yok.'));
+    }
+    return ListView.separated(
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+      itemCount: cards.length,
+      separatorBuilder: (_, _) => const SizedBox(height: 12),
+      itemBuilder: (context, index) => FlashcardTile(card: cards[index]),
+    );
+  }
+
+  Widget _buildTestContent(BuildContext context, List<QuizQuestion> questions) {
+    if (questions.isEmpty) {
+      return const Center(child: Text('Bu seviyede henüz test yok.'));
+    }
+    return Center(
       child: Padding(
-        padding: const EdgeInsets.all(14),
+        padding: const EdgeInsets.all(24),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
           children: [
-            SelectableText(
-              question.question,
-              style: const TextStyle(fontWeight: FontWeight.w600),
+            Icon(
+              Icons.quiz_outlined,
+              size: 56,
+              color: Theme.of(context).colorScheme.primary,
             ),
-            const SizedBox(height: 10),
-            for (var i = 0; i < question.options.length; i++)
-              Padding(
-                padding: const EdgeInsets.only(bottom: 6),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      '${optionLabels[i]}. ',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: i == question.correctIndex
-                            ? Colors.green.shade700
-                            : colorScheme.onSurface,
-                      ),
+            const SizedBox(height: 16),
+            Text(
+              '${questions.length} soruluk (${_difficulty.label}) çoktan seçmeli test',
+              style: Theme.of(context).textTheme.titleMedium,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 20),
+            FilledButton.icon(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => SampleQuizScreen(
+                      title: '${widget.lesson.title} (${_difficulty.label})',
+                      questions: questions,
                     ),
-                    Expanded(
-                      child: Text(
-                        question.options[i],
-                        style: TextStyle(
-                          color: i == question.correctIndex
-                              ? Colors.green.shade700
-                              : colorScheme.onSurface,
-                          fontWeight: i == question.correctIndex
-                              ? FontWeight.w600
-                              : FontWeight.normal,
-                        ),
-                      ),
-                    ),
-                    if (i == question.correctIndex)
-                      Icon(
-                        Icons.check_circle,
-                        color: Colors.green.shade700,
-                        size: 16,
-                      ),
-                  ],
-                ),
-              ),
-            if (question.explanation.isNotEmpty) ...[
-              const SizedBox(height: 4),
-              Text(
-                question.explanation,
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-            ],
+                  ),
+                );
+              },
+              icon: const Icon(Icons.play_arrow),
+              label: const Text('Teste Başla'),
+            ),
           ],
         ),
       ),

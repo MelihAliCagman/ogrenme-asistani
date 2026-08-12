@@ -12,7 +12,9 @@ class DiscoverScreen extends StatefulWidget {
 
 class _DiscoverScreenState extends State<DiscoverScreen> {
   final _repository = SampleLessonRepository();
+  final _searchController = TextEditingController();
   List<SampleLesson> _lessons = [];
+  String _query = '';
   bool _isLoading = true;
   String? _errorMessage;
 
@@ -20,6 +22,22 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   void initState() {
     super.initState();
     _load();
+    _searchController.addListener(() {
+      setState(() => _query = _searchController.text.trim().toLowerCase());
+    });
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  List<SampleLesson> get _filteredLessons {
+    if (_query.isEmpty) return _lessons;
+    return _lessons
+        .where((lesson) => lesson.title.toLowerCase().contains(_query))
+        .toList();
   }
 
   Future<void> _load() async {
@@ -43,12 +61,38 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Keşfet')),
-      body: RefreshIndicator(
-        onRefresh: () {
-          setState(() => _isLoading = true);
-          return _load();
-        },
-        child: _buildBody(),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+            child: TextField(
+              controller: _searchController,
+              decoration: InputDecoration(
+                hintText: 'Ders veya sınav ara (ör. KPSS)...',
+                prefixIcon: const Icon(Icons.search),
+                suffixIcon: _query.isEmpty
+                    ? null
+                    : IconButton(
+                        icon: const Icon(Icons.clear),
+                        onPressed: _searchController.clear,
+                      ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                isDense: true,
+              ),
+            ),
+          ),
+          Expanded(
+            child: RefreshIndicator(
+              onRefresh: () {
+                setState(() => _isLoading = true);
+                return _load();
+              },
+              child: _buildBody(),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -84,16 +128,32 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
         ],
       );
     }
+    final lessons = _filteredLessons;
+    if (lessons.isEmpty) {
+      return ListView(
+        children: [
+          const SizedBox(height: 80),
+          Center(
+            child: Text(
+              '"$_query" ile eşleşen ders bulunamadı.',
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+          ),
+        ],
+      );
+    }
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        Text(
-          'Hazır ders paketleriyle yeni bir konuyu hemen keşfetmeye başla — '
-          'beğendiğini kendi derslerine ekleyip çalışmaya devam edebilirsin.',
-          style: Theme.of(context).textTheme.bodyMedium,
-        ),
-        const SizedBox(height: 16),
-        for (final lesson in _lessons)
+        if (_query.isEmpty) ...[
+          Text(
+            'Hazır ders paketleriyle yeni bir konuyu hemen keşfetmeye başla — '
+            'beğendiğini kendi derslerine ekleyip çalışmaya devam edebilirsin.',
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+          const SizedBox(height: 16),
+        ],
+        for (final lesson in lessons)
           Card(
             margin: const EdgeInsets.only(bottom: 8),
             child: ListTile(
@@ -103,7 +163,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
               ),
               title: Text(lesson.title),
               subtitle: Text(
-                '${lesson.flashcards.length} kart · ${lesson.quizQuestions.length} soru',
+                '${lesson.totalFlashcards} kart · ${lesson.totalQuizQuestions} soru · 3 zorluk seviyesi',
               ),
               trailing: const Icon(Icons.chevron_right),
               onTap: () {

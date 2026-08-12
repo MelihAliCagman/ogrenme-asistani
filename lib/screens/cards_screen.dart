@@ -36,6 +36,10 @@ class _CardsScreenState extends State<CardsScreen> {
   String? _selectedSubjectId;
   _GenerationFormat _format = _GenerationFormat.flashcards;
   int _flashcardCount = 10;
+  String _activeFilter = _filterAll;
+
+  static const _filterAll = '__all__';
+  static const _filterGeneral = '__general__';
   bool _isLoading = false;
   bool _isLoadingSets = true;
   String? _errorMessage;
@@ -228,6 +232,78 @@ class _CardsScreenState extends State<CardsScreen> {
     await _quizRepository.saveAll(_quizSets);
   }
 
+  Future<void> _renameCardSet(FlashcardSet set) async {
+    final newTitle = await _promptForNewTitle(set.title);
+    if (newTitle == null) return;
+    final updatedSet = FlashcardSet(
+      id: set.id,
+      title: newTitle,
+      createdAt: set.createdAt,
+      cards: set.cards,
+      subjectId: set.subjectId,
+    );
+    setState(() {
+      _cardSets = _cardSets.map((s) => s.id == set.id ? updatedSet : s).toList();
+    });
+    await _repository.saveAll(_cardSets);
+  }
+
+  Future<void> _renameQuizSet(QuizSet set) async {
+    final newTitle = await _promptForNewTitle(set.title);
+    if (newTitle == null) return;
+    final updatedSet = set.withTitle(newTitle);
+    setState(() {
+      _quizSets = _quizSets.map((s) => s.id == set.id ? updatedSet : s).toList();
+    });
+    await _quizRepository.saveAll(_quizSets);
+  }
+
+  Future<String?> _promptForNewTitle(String currentTitle) async {
+    final controller = TextEditingController(text: currentTitle);
+    final newTitle = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Yeniden adlandır'),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          decoration: const InputDecoration(border: OutlineInputBorder()),
+          onSubmitted: (value) => Navigator.of(context).pop(value.trim()),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Vazgeç'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(controller.text.trim()),
+            child: const Text('Kaydet'),
+          ),
+        ],
+      ),
+    );
+    if (newTitle == null || newTitle.isEmpty || newTitle == currentTitle) {
+      return null;
+    }
+    return newTitle;
+  }
+
+  List<FlashcardSet> _applyFilter(List<FlashcardSet> sets) {
+    if (_activeFilter == _filterAll) return sets;
+    if (_activeFilter == _filterGeneral) {
+      return sets.where((s) => s.subjectId == null).toList();
+    }
+    return sets.where((s) => s.subjectId == _activeFilter).toList();
+  }
+
+  List<QuizSet> _applyQuizFilter(List<QuizSet> sets) {
+    if (_activeFilter == _filterAll) return sets;
+    if (_activeFilter == _filterGeneral) {
+      return sets.where((s) => s.subjectId == null).toList();
+    }
+    return sets.where((s) => s.subjectId == _activeFilter).toList();
+  }
+
   Future<bool?> _confirmDelete(String title) {
     return showDialog<bool>(
       context: context,
@@ -416,11 +492,51 @@ class _CardsScreenState extends State<CardsScreen> {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: _buildSetList(),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  _buildFilterChips(),
+                  Expanded(child: _buildSetList()),
+                ],
+              ),
             ),
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildFilterChips() {
+    if (_subjects.isEmpty) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: [
+            _filterChip('Tümü', _filterAll),
+            const SizedBox(width: 8),
+            _filterChip('Genel', _filterGeneral),
+            for (final subject in _subjects) ...[
+              const SizedBox(width: 8),
+              _filterChip(subject.name, subject.id, color: subject.color),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _filterChip(String label, String value, {Color? color}) {
+    final isSelected = _activeFilter == value;
+    return ChoiceChip(
+      label: Text(label),
+      selected: isSelected,
+      onSelected: (_) => setState(() => _activeFilter = value),
+      avatar: color == null
+          ? null
+          : CircleAvatar(backgroundColor: color, radius: 6),
+      selectedColor: color?.withValues(alpha: 0.25),
     );
   }
 
@@ -430,12 +546,14 @@ class _CardsScreenState extends State<CardsScreen> {
     }
 
     if (_format == _GenerationFormat.flashcards) {
-      final sortedCardSets = List.of(_cardSets)
+      final sortedCardSets = _applyFilter(List.of(_cardSets))
         ..sort((a, b) => b.createdAt.compareTo(a.createdAt));
       if (sortedCardSets.isEmpty) {
         return Center(
           child: Text(
-            'Henüz kart seti yok. Bir metin yapıştırıp "Kart Oluştur"a bas.',
+            _activeFilter == _filterAll
+                ? 'Henüz kart seti yok. Bir metin yapıştırıp "Kart Oluştur"a bas.'
+                : 'Bu filtreye uyan kart seti yok.',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodyMedium,
           ),
@@ -448,12 +566,14 @@ class _CardsScreenState extends State<CardsScreen> {
       );
     }
 
-    final sortedQuizSets = List.of(_quizSets)
+    final sortedQuizSets = _applyQuizFilter(List.of(_quizSets))
       ..sort((a, b) => b.createdAt.compareTo(a.createdAt));
     if (sortedQuizSets.isEmpty) {
       return Center(
         child: Text(
-          'Henüz test seti yok. Bir metin yapıştırıp "Test Oluştur"a bas.',
+          _activeFilter == _filterAll
+              ? 'Henüz test seti yok. Bir metin yapıştırıp "Test Oluştur"a bas.'
+              : 'Bu filtreye uyan test seti yok.',
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
@@ -476,10 +596,12 @@ class _CardsScreenState extends State<CardsScreen> {
         subtitle: subject == null ? null : SubjectChip(subject: subject),
         trailing: PopupMenuButton<String>(
           onSelected: (value) {
+            if (value == 'rename') _renameCardSet(set);
             if (value == 'subject') _assignSubjectToCardSet(set);
             if (value == 'delete') _deleteSet(set);
           },
           itemBuilder: (context) => const [
+            PopupMenuItem(value: 'rename', child: Text('Yeniden Adlandır')),
             PopupMenuItem(value: 'subject', child: Text('Ders Ata/Değiştir')),
             PopupMenuItem(value: 'delete', child: Text('Sil')),
           ],
@@ -505,10 +627,12 @@ class _CardsScreenState extends State<CardsScreen> {
         subtitle: subject == null ? null : SubjectChip(subject: subject),
         trailing: PopupMenuButton<String>(
           onSelected: (value) {
+            if (value == 'rename') _renameQuizSet(set);
             if (value == 'subject') _assignSubjectToQuizSet(set);
             if (value == 'delete') _deleteQuizSet(set);
           },
           itemBuilder: (context) => const [
+            PopupMenuItem(value: 'rename', child: Text('Yeniden Adlandır')),
             PopupMenuItem(value: 'subject', child: Text('Ders Ata/Değiştir')),
             PopupMenuItem(value: 'delete', child: Text('Sil')),
           ],
