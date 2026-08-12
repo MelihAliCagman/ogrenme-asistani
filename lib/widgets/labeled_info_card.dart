@@ -48,7 +48,10 @@ class LabeledInfoCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
-          Text(text, style: TextStyle(color: foreground, fontSize: textFontSize)),
+          SelectableText(
+            text,
+            style: TextStyle(color: foreground, fontSize: textFontSize),
+          ),
         ],
       ),
     );

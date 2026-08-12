@@ -5,7 +5,7 @@ class ThemeController {
   ThemeController._();
 
   static final ValueNotifier<ThemeMode> themeMode = ValueNotifier(
-    ThemeMode.light,
+    ThemeMode.system,
   );
   static final ThemeRepository _repository = ThemeRepository();
 
@@ -13,8 +13,7 @@ class ThemeController {
     themeMode.value = await _repository.load();
   }
 
-  static Future<void> setDarkMode(bool isDark) async {
-    final mode = isDark ? ThemeMode.dark : ThemeMode.light;
+  static Future<void> setThemeMode(ThemeMode mode) async {
     themeMode.value = mode;
     await _repository.save(mode);
   }

@@ -42,7 +42,7 @@ dependencies:
   firebase_auth: ^6.5.7
   google_sign_in: ^7.2.0
   cloud_firestore: ^6.8.0
-
+  flutter_markdown_plus: ^1.0.12
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -53,6 +53,21 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.8
+
+flutter_native_splash:
+  color: "#673AB7"
+  image: assets/branding/logo.png
+  color_dark: "#1F1235"
+  image_dark: assets/branding/logo.png
+  android_12:
+    image: assets/branding/logo.png
+    icon_background_color: "#673AB7"
+    image_dark: assets/branding/logo.png
+    icon_background_color_dark: "#1F1235"
+  android: true
+  ios: false
+  web: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -67,6 +82,8 @@ flutter:
 
   assets:
     - .env
+    - assets/branding/logo.png
+    - assets/seed/sample_lessons.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

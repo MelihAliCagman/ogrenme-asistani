@@ -7,11 +7,26 @@ class ThemeRepository {
   Future<ThemeMode> load() async {
     final prefs = await SharedPreferences.getInstance();
     final raw = prefs.getString(_storageKey);
-    return raw == 'dark' ? ThemeMode.dark : ThemeMode.light;
+    switch (raw) {
+      case 'dark':
+        return ThemeMode.dark;
+      case 'system':
+        return ThemeMode.system;
+      case 'light':
+        return ThemeMode.light;
+      default:
+        // No preference saved yet — default to following the system.
+        return ThemeMode.system;
+    }
   }
 
   Future<void> save(ThemeMode mode) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_storageKey, mode == ThemeMode.dark ? 'dark' : 'light');
+    final value = switch (mode) {
+      ThemeMode.dark => 'dark',
+      ThemeMode.light => 'light',
+      ThemeMode.system => 'system',
+    };
+    await prefs.setString(_storageKey, value);
   }
 }

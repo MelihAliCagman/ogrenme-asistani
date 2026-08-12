@@ -47,9 +47,43 @@ class CardSetRepository {
     return _cloudStorage.loadAll(_collection(uid));
   }
 
+  /// Live updates of the user's flashcard sets. Falls back to an empty,
+  /// never-updating stream when signed out (local-only storage has no
+  /// change notifications).
+  Stream<List<FlashcardSet>> watchAll() {
+    final uid = _uid;
+    if (uid == null) return const Stream.empty();
+    return _collection(uid).snapshots().map(
+      (snapshot) =>
+          snapshot.docs.map((doc) => FlashcardSet.fromJson(doc.data())).toList(),
+    );
+  }
+
   Future<void> saveAll(List<FlashcardSet> sets) {
     final uid = _uid;
     if (uid == null) return _localStorage.saveAll(sets);
     return _cloudStorage.saveAll(_collection(uid), sets);
+  }
+
+  /// Reassigns every flashcard set pointing at [subjectId] back to
+  /// "Genel" (no subject) — used when the subject itself gets deleted.
+  Future<void> clearSubjectFromSets(String subjectId) async {
+    final sets = await loadAll();
+    final affected = sets.where((s) => s.subjectId == subjectId).toList();
+    if (affected.isEmpty) return;
+    final updated = sets
+        .map(
+          (s) => s.subjectId == subjectId
+              ? FlashcardSet(
+                  id: s.id,
+                  title: s.title,
+                  createdAt: s.createdAt,
+                  cards: s.cards,
+                  subjectId: null,
+                )
+              : s,
+        )
+        .toList();
+    await saveAll(updated);
   }
 }
