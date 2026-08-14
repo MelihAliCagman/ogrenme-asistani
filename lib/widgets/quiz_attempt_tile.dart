@@ -58,6 +58,7 @@ class QuizAttemptTile extends StatelessWidget {
                       question: questions[i],
                       wasWrong: attempt.wrongQuestionIndices.contains(i),
                       selectedOptionIndex: attempt.wrongSelections[i],
+                      givenTextAnswer: attempt.wrongTextAnswers[i],
                     ),
                 ],
               );
@@ -260,6 +261,7 @@ class _AttemptQuestionRow extends StatelessWidget {
     required this.question,
     required this.wasWrong,
     required this.selectedOptionIndex,
+    this.givenTextAnswer,
   });
 
   final QuizQuestion question;
@@ -269,11 +271,16 @@ class _AttemptQuestionRow extends StatelessWidget {
   /// (the correct highlight alone is enough in that case).
   final int? selectedOptionIndex;
 
+  /// The user's own typed answer, for fill-blank questions only.
+  final String? givenTextAnswer;
+
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final accent = wasWrong ? colorScheme.error : Colors.green.shade600;
-    const optionLabels = ['A', 'B', 'C', 'D'];
+    final optionLabels = question.type == QuestionType.trueFalse
+        ? const ['D', 'Y']
+        : const ['A', 'B', 'C', 'D'];
 
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
@@ -304,13 +311,34 @@ class _AttemptQuestionRow extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 10),
-          for (var i = 0; i < question.options.length; i++)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: _buildOptionLine(context, optionLabels[i], i),
-            ),
+          if (question.type == QuestionType.fillBlank)
+            _buildFillBlankAnswer(context)
+          else
+            for (var i = 0; i < question.options.length; i++)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 6),
+                child: _buildOptionLine(context, optionLabels[i], i),
+              ),
         ],
       ),
+    );
+  }
+
+  Widget _buildFillBlankAnswer(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (wasWrong && givenTextAnswer != null && givenTextAnswer!.isNotEmpty)
+          Text(
+            'Senin cevabın: $givenTextAnswer',
+            style: TextStyle(color: colorScheme.error),
+          ),
+        Text(
+          'Doğru cevap: ${question.answerText}',
+          style: TextStyle(color: Colors.green.shade700, fontWeight: FontWeight.w600),
+        ),
+      ],
     );
   }
 

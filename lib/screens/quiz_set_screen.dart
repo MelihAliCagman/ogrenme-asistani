@@ -40,7 +40,12 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
   bool _finished = false;
   final List<int> _wrongIndices = [];
   final Map<int, int> _wrongSelections = {};
+  final Map<int, String> _wrongTextAnswers = {};
   late List<QuizAttempt> _attempts;
+
+  final TextEditingController _fillBlankController = TextEditingController();
+  bool _fillBlankSubmitted = false;
+  bool _fillBlankCorrect = false;
 
   /// For each question (keyed by its original index), a shuffled
   /// permutation of its option indices — re-rolled every attempt so the
@@ -91,6 +96,28 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       _finished = false;
       _wrongIndices.clear();
       _wrongSelections.clear();
+      _wrongTextAnswers.clear();
+      _fillBlankController.clear();
+      _fillBlankSubmitted = false;
+      _fillBlankCorrect = false;
+    });
+  }
+
+  void _submitFillBlankAnswer() {
+    if (_fillBlankSubmitted) return;
+    final given = _fillBlankController.text.trim();
+    final expected = _currentQuestion.answerText.trim();
+    final isCorrect = given.toLowerCase() == expected.toLowerCase();
+    setState(() {
+      _fillBlankSubmitted = true;
+      _fillBlankCorrect = isCorrect;
+      if (isCorrect) {
+        _correctCount++;
+      } else {
+        final questionIndex = _order[_currentIndex];
+        _wrongIndices.add(questionIndex);
+        _wrongTextAnswers[questionIndex] = given;
+      }
     });
   }
 
@@ -113,6 +140,9 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       setState(() {
         _currentIndex++;
         _selectedOption = null;
+        _fillBlankController.clear();
+        _fillBlankSubmitted = false;
+        _fillBlankCorrect = false;
       });
       return;
     }
@@ -127,6 +157,7 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       totalCount: _order.length,
       wrongQuestionIndices: List.of(_wrongIndices),
       wrongSelections: Map.of(_wrongSelections),
+      wrongTextAnswers: Map.of(_wrongTextAnswers),
     );
     setState(() => _attempts = [..._attempts, attempt]);
     await _repository.addAttempt(widget.quizSet.id, attempt);
@@ -141,6 +172,12 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
   }
 
   @override
+  void dispose() {
+    _fillBlankController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(widget.quizSet.title)),
@@ -152,13 +189,9 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
   }
 
   Widget _buildQuiz(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
     final question = _currentQuestion;
-    final optionOrder = _currentOptionOrder;
-    const optionLabels = ['A', 'B', 'C', 'D'];
-    final isWrongSelected =
-        _selectedOption != null &&
-        _selectedOption != _currentCorrectDisplayIndex;
+    final isFillBlank = question.type == QuestionType.fillBlank;
+    final canAdvance = isFillBlank ? _fillBlankSubmitted : _selectedOption != null;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -170,71 +203,131 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
         ),
         const SizedBox(height: 16),
         Expanded(
-          child: ListView(
-            children: [
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: colorScheme.primaryContainer,
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: SelectableText(
-                  question.question,
-                  style: TextStyle(
-                    color: colorScheme.onPrimaryContainer,
-                    fontSize: 18,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 16),
-              for (var displayIndex = 0; displayIndex < optionOrder.length; displayIndex++)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: _OptionTile(
-                    label: optionLabels[displayIndex],
-                    text: question.options[optionOrder[displayIndex]],
-                    state: _optionState(displayIndex),
-                    onTap: () => _selectOption(displayIndex),
-                  ),
-                ),
-              if (isWrongSelected && question.explanation.isNotEmpty) ...[
-                const SizedBox(height: 4),
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(14),
-                  decoration: BoxDecoration(
-                    color: colorScheme.secondaryContainer,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Icon(
-                        Icons.lightbulb_outline,
-                        size: 18,
-                        color: colorScheme.onSecondaryContainer,
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: SelectableText(
-                          question.explanation,
-                          style: TextStyle(
-                            color: colorScheme.onSecondaryContainer,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ],
-          ),
+          child: isFillBlank ? _buildFillBlankBody(context) : _buildChoiceBody(context),
         ),
         FilledButton(
-          onPressed: _selectedOption == null ? null : _next,
+          onPressed: canAdvance ? _next : null,
           child: Text(_currentIndex + 1 < _order.length ? 'İleri' : 'Bitir'),
         ),
+      ],
+    );
+  }
+
+  Widget _buildChoiceBody(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final question = _currentQuestion;
+    final optionOrder = _currentOptionOrder;
+    final optionLabels = question.type == QuestionType.trueFalse
+        ? const ['D', 'Y']
+        : const ['A', 'B', 'C', 'D'];
+    final isWrongSelected =
+        _selectedOption != null &&
+        _selectedOption != _currentCorrectDisplayIndex;
+
+    return ListView(
+      children: [
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: colorScheme.primaryContainer,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: SelectableText(
+            question.question,
+            style: TextStyle(
+              color: colorScheme.onPrimaryContainer,
+              fontSize: 18,
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        for (var displayIndex = 0; displayIndex < optionOrder.length; displayIndex++)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: _OptionTile(
+              label: optionLabels[displayIndex],
+              text: question.options[optionOrder[displayIndex]],
+              state: _optionState(displayIndex),
+              onTap: () => _selectOption(displayIndex),
+            ),
+          ),
+        if (isWrongSelected && question.explanation.isNotEmpty)
+          _ExplanationBox(explanation: question.explanation),
+      ],
+    );
+  }
+
+  Widget _buildFillBlankBody(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final question = _currentQuestion;
+
+    Color? borderColor;
+    if (_fillBlankSubmitted) {
+      borderColor = _fillBlankCorrect ? Colors.green : colorScheme.error;
+    }
+
+    return ListView(
+      children: [
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: colorScheme.primaryContainer,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: SelectableText(
+            question.question,
+            style: TextStyle(
+              color: colorScheme.onPrimaryContainer,
+              fontSize: 18,
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        TextField(
+          controller: _fillBlankController,
+          enabled: !_fillBlankSubmitted,
+          textInputAction: TextInputAction.done,
+          onSubmitted: (_) => _submitFillBlankAnswer(),
+          decoration: InputDecoration(
+            hintText: 'Cevabını buraya yaz...',
+            border: const OutlineInputBorder(),
+            focusedBorder: borderColor == null
+                ? null
+                : OutlineInputBorder(borderSide: BorderSide(color: borderColor, width: 2)),
+            enabledBorder: borderColor == null
+                ? null
+                : OutlineInputBorder(borderSide: BorderSide(color: borderColor, width: 2)),
+            suffixIcon: !_fillBlankSubmitted
+                ? null
+                : Icon(
+                    _fillBlankCorrect ? Icons.check_circle : Icons.cancel,
+                    color: borderColor,
+                  ),
+          ),
+        ),
+        if (!_fillBlankSubmitted) ...[
+          const SizedBox(height: 12),
+          FilledButton.tonal(
+            onPressed: _submitFillBlankAnswer,
+            child: const Text('Cevapla'),
+          ),
+        ],
+        if (_fillBlankSubmitted && !_fillBlankCorrect) ...[
+          const SizedBox(height: 12),
+          Text(
+            'Doğru cevap: ${question.answerText}',
+            style: TextStyle(
+              color: colorScheme.error,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
+        if (_fillBlankSubmitted &&
+            !_fillBlankCorrect &&
+            question.explanation.isNotEmpty)
+          _ExplanationBox(explanation: question.explanation),
       ],
     );
   }
@@ -335,7 +428,10 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
           ),
           const SizedBox(height: 12),
           for (final index in _wrongIndices)
-            _WrongQuestionCard(question: widget.quizSet.questions[index]),
+            _WrongQuestionCard(
+              question: widget.quizSet.questions[index],
+              givenAnswer: _wrongTextAnswers[index],
+            ),
         ],
         if (_attempts.isNotEmpty) ...[
           const SizedBox(height: 32),
@@ -359,9 +455,12 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
 enum _OptionState { neutral, correct, incorrect }
 
 class _WrongQuestionCard extends StatelessWidget {
-  const _WrongQuestionCard({required this.question});
+  const _WrongQuestionCard({required this.question, this.givenAnswer});
 
   final QuizQuestion question;
+
+  /// The user's own typed answer, for fill-blank questions only.
+  final String? givenAnswer;
 
   @override
   Widget build(BuildContext context) {
@@ -377,15 +476,63 @@ class _WrongQuestionCard extends StatelessWidget {
               question.question,
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
+            if (question.type == QuestionType.fillBlank &&
+                givenAnswer != null &&
+                givenAnswer!.isNotEmpty) ...[
+              const SizedBox(height: 6),
+              SelectableText(
+                'Senin cevabın: $givenAnswer',
+                style: TextStyle(color: colorScheme.error),
+              ),
+            ],
             const SizedBox(height: 6),
             SelectableText(
-              'Doğru cevap: ${question.options[question.correctIndex]}',
+              'Doğru cevap: ${question.answerText}',
               style: TextStyle(color: colorScheme.primary),
             ),
             if (question.explanation.isNotEmpty) ...[
               const SizedBox(height: 6),
               SelectableText(question.explanation),
             ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ExplanationBox extends StatelessWidget {
+  const _ExplanationBox({required this.explanation});
+
+  final String explanation;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.only(top: 4),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: colorScheme.secondaryContainer,
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(
+              Icons.lightbulb_outline,
+              size: 18,
+              color: colorScheme.onSecondaryContainer,
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: SelectableText(
+                explanation,
+                style: TextStyle(color: colorScheme.onSecondaryContainer),
+              ),
+            ),
           ],
         ),
       ),

@@ -3,14 +3,17 @@ import 'package:ogrenme_asistani/models/sample_lesson.dart';
 import 'package:ogrenme_asistani/screens/discover_lesson_detail_screen.dart';
 import 'package:ogrenme_asistani/services/sample_lesson_repository.dart';
 
-class DiscoverScreen extends StatefulWidget {
-  const DiscoverScreen({super.key});
+/// The Keşfet content (search + sample lesson list), extracted so it can
+/// be embedded inside the Dersler screen's "Keşfet" tab without its own
+/// Scaffold/AppBar.
+class DiscoverBody extends StatefulWidget {
+  const DiscoverBody({super.key});
 
   @override
-  State<DiscoverScreen> createState() => _DiscoverScreenState();
+  State<DiscoverBody> createState() => _DiscoverBodyState();
 }
 
-class _DiscoverScreenState extends State<DiscoverScreen> {
+class _DiscoverBodyState extends State<DiscoverBody> {
   final _repository = SampleLessonRepository();
   final _searchController = TextEditingController();
   List<SampleLesson> _lessons = [];
@@ -59,41 +62,38 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Keşfet')),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-            child: TextField(
-              controller: _searchController,
-              decoration: InputDecoration(
-                hintText: 'Ders veya sınav ara (ör. KPSS)...',
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: _query.isEmpty
-                    ? null
-                    : IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: _searchController.clear,
-                      ),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                isDense: true,
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+          child: TextField(
+            controller: _searchController,
+            decoration: InputDecoration(
+              hintText: 'Ders veya sınav ara (ör. KPSS)...',
+              prefixIcon: const Icon(Icons.search),
+              suffixIcon: _query.isEmpty
+                  ? null
+                  : IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: _searchController.clear,
+                    ),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
               ),
+              isDense: true,
             ),
           ),
-          Expanded(
-            child: RefreshIndicator(
-              onRefresh: () {
-                setState(() => _isLoading = true);
-                return _load();
-              },
-              child: _buildBody(),
-            ),
+        ),
+        Expanded(
+          child: RefreshIndicator(
+            onRefresh: () {
+              setState(() => _isLoading = true);
+              return _load();
+            },
+            child: _buildBody(),
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 

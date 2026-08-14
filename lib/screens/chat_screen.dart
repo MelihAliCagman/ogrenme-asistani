@@ -15,6 +15,7 @@ import 'package:ogrenme_asistani/services/chat_session_repository.dart';
 import 'package:ogrenme_asistani/services/gemini_service.dart';
 import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/services/subject_repository.dart';
+import 'package:ogrenme_asistani/widgets/image_source_picker.dart';
 import 'package:ogrenme_asistani/widgets/subject_picker.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -23,11 +24,24 @@ class ChatScreen extends StatefulWidget {
     required this.chatId,
     required this.initialTitle,
     this.initialSubjectId,
+    this.initialText,
+    this.initialImageBytes,
+    this.initialImageMimeType,
   });
 
   final String chatId;
   final String initialTitle;
   final String? initialSubjectId;
+
+  /// When set (e.g. opened from the Sohbet welcome screen with text
+  /// already typed), automatically sent as the first message.
+  final String? initialText;
+
+  /// When set alongside [initialImageMimeType] (e.g. opened from the
+  /// welcome screen's camera button), automatically sent as the first
+  /// message.
+  final Uint8List? initialImageBytes;
+  final String? initialImageMimeType;
 
   @override
   State<ChatScreen> createState() => _ChatScreenState();
@@ -60,6 +74,9 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _sessionExists = false;
   StreamSubscription<List<Subject>>? _subjectsSubscription;
 
+  Uint8List? _selectedImageBytes;
+  String? _selectedImageMimeType;
+
   @override
   void initState() {
     super.initState();
@@ -67,6 +84,39 @@ class _ChatScreenState extends State<ChatScreen> {
     _loadAssistantProfile();
     _loadSubjectId();
     _watchSubjects();
+    _sendInitialMessageIfAny();
+  }
+
+  void _sendInitialMessageIfAny() {
+    final text = widget.initialText;
+    final imageBytes = widget.initialImageBytes;
+    final imageMimeType = widget.initialImageMimeType;
+    if ((text == null || text.isEmpty) && imageBytes == null) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      if (text != null && text.isNotEmpty) _controller.text = text;
+      if (imageBytes != null && imageMimeType != null) {
+        _selectedImageBytes = imageBytes;
+        _selectedImageMimeType = imageMimeType;
+      }
+      _sendMessage();
+    });
+  }
+
+  Future<void> _pickImage() async {
+    final bytes = await pickAndCropImage(context);
+    if (bytes == null || !mounted) return;
+    setState(() {
+      _selectedImageBytes = bytes;
+      _selectedImageMimeType = 'image/jpeg';
+    });
+  }
+
+  void _removeSelectedImage() {
+    setState(() {
+      _selectedImageBytes = null;
+      _selectedImageMimeType = null;
+    });
   }
 
   Future<void> _loadSubjectId() async {
@@ -155,16 +205,22 @@ class _ChatScreenState extends State<ChatScreen> {
 
   Future<void> _sendMessage() async {
     final text = _controller.text.trim();
-    if (text.isEmpty) return;
+    final imageBytes = _selectedImageBytes;
+    final imageMimeType = _selectedImageMimeType;
+    if (text.isEmpty && imageBytes == null) return;
 
     final isFirstMessage = _messages.isEmpty;
     final uid = FirebaseAuth.instance.currentUser?.uid;
+    final bubbleText = text.isNotEmpty
+        ? text
+        : '📷 Fotoğraf gönderildi';
 
     setState(() {
-      _messages.add(ChatMessage(text: text, isUser: true));
+      _messages.add(ChatMessage(text: bubbleText, isUser: true));
       _isAiTyping = true;
     });
     _controller.clear();
+    _removeSelectedImage();
     _scrollToBottom();
     await _repository.saveAll(_messages);
     if (uid != null) {
@@ -192,13 +248,15 @@ class _ChatScreenState extends State<ChatScreen> {
       );
       _sessionExists = true;
     }
-    if (isFirstMessage) _deriveTitleFromFirstMessage(text);
+    if (isFirstMessage) _deriveTitleFromFirstMessage(bubbleText);
 
     var hasReceivedChunk = false;
     try {
       final stream = _geminiService.sendMessageStream(
         List.of(_messages),
         systemInstruction: _systemInstruction,
+        imageBytes: imageBytes,
+        imageMimeType: imageMimeType,
       );
       await for (final chunk in stream) {
         if (!mounted) return;
@@ -218,8 +276,9 @@ class _ChatScreenState extends State<ChatScreen> {
         _scrollToBottom();
       }
       if (!hasReceivedChunk) throw GeminiException('Yanıt boş döndü.');
-    } catch (e) {
+    } catch (e, stackTrace) {
       debugPrint('[ChatScreen] Gemini isteği başarısız: $e');
+      debugPrint('[ChatScreen] Stack trace: $stackTrace');
       if (!mounted) return;
       setState(() {
         _isAiTyping = false;
@@ -378,7 +437,23 @@ class _ChatScreenState extends State<ChatScreen> {
                     },
                   ),
           ),
-          _MessageInput(controller: _controller, onSend: _sendMessage),
+          if (_selectedImageBytes != null)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 0, 12, 8),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Chip(
+                  avatar: const Icon(Icons.image_outlined, size: 18),
+                  label: const Text('Fotoğraf eklendi'),
+                  onDeleted: _removeSelectedImage,
+                ),
+              ),
+            ),
+          _MessageInput(
+            controller: _controller,
+            onSend: _sendMessage,
+            onPickImage: _pickImage,
+          ),
         ],
       ),
     );
@@ -572,19 +647,34 @@ class _TypingBubble extends StatelessWidget {
 }
 
 class _MessageInput extends StatelessWidget {
-  const _MessageInput({required this.controller, required this.onSend});
+  const _MessageInput({
+    required this.controller,
+    required this.onSend,
+    required this.onPickImage,
+  });
 
   final TextEditingController controller;
   final VoidCallback onSend;
+  final VoidCallback onPickImage;
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       top: false,
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(12, 8, 12, 12),
+        padding: const EdgeInsets.fromLTRB(8, 8, 12, 12),
         child: Row(
           children: [
+            IconButton(
+              onPressed: onPickImage,
+              icon: const Icon(Icons.camera_alt_outlined),
+              tooltip: 'Fotoğraf ekle',
+            ),
+            IconButton(
+              onPressed: null,
+              icon: const Icon(Icons.mic_none_outlined),
+              tooltip: 'Sesli giriş (yakında)',
+            ),
             Expanded(
               child: TextField(
                 controller: controller,
