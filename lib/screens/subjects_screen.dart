@@ -3,14 +3,20 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/subject.dart';
+import 'package:ogrenme_asistani/screens/discover_screen.dart';
 import 'package:ogrenme_asistani/screens/subject_detail_screen.dart';
 import 'package:ogrenme_asistani/services/card_set_repository.dart';
 import 'package:ogrenme_asistani/services/chat_session_repository.dart';
 import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
 import 'package:ogrenme_asistani/services/subject_repository.dart';
 
+enum _SubjectsTab { myLessons, discover }
+
 class SubjectsScreen extends StatefulWidget {
-  const SubjectsScreen({super.key});
+  const SubjectsScreen({super.key, this.initialTab = 0});
+
+  /// 0 = Derslerim, 1 = Keşfet.
+  final int initialTab;
 
   @override
   State<SubjectsScreen> createState() => _SubjectsScreenState();
@@ -24,6 +30,9 @@ class _SubjectsScreenState extends State<SubjectsScreen> {
   List<Subject> _subjects = [];
   StreamSubscription<List<Subject>>? _subjectsSubscription;
   bool _isLoading = true;
+  late _SubjectsTab _tab = widget.initialTab == 1
+      ? _SubjectsTab.discover
+      : _SubjectsTab.myLessons;
 
   @override
   void initState() {
@@ -137,22 +146,46 @@ class _SubjectsScreenState extends State<SubjectsScreen> {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-            child: SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                onPressed: _addSubject,
-                icon: const Icon(Icons.add),
-                label: const Text('Ders Ekle'),
-              ),
+            child: SegmentedButton<_SubjectsTab>(
+              segments: const [
+                ButtonSegment(
+                  value: _SubjectsTab.myLessons,
+                  label: Text('Derslerim'),
+                  icon: Icon(Icons.menu_book_outlined),
+                ),
+                ButtonSegment(
+                  value: _SubjectsTab.discover,
+                  label: Text('Keşfet'),
+                  icon: Icon(Icons.explore_outlined),
+                ),
+              ],
+              selected: {_tab},
+              onSelectionChanged: (selection) {
+                setState(() => _tab = selection.first);
+              },
             ),
           ),
-          Expanded(child: _buildBody()),
+          if (_tab == _SubjectsTab.myLessons) ...[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+              child: SizedBox(
+                width: double.infinity,
+                child: FilledButton.icon(
+                  onPressed: _addSubject,
+                  icon: const Icon(Icons.add),
+                  label: const Text('Ders Ekle'),
+                ),
+              ),
+            ),
+            Expanded(child: _buildMyLessonsBody()),
+          ] else
+            const Expanded(child: DiscoverBody()),
         ],
       ),
     );
   }
 
-  Widget _buildBody() {
+  Widget _buildMyLessonsBody() {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }

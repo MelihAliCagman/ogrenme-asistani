@@ -26,6 +26,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Soru fotoğrafı çekebilmek için kameraya erişim gerekiyor.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Galeriden soru fotoğrafı seçebilmek için fotoğraflara erişim gerekiyor.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

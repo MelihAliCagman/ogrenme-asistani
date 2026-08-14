@@ -3,13 +3,10 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/chat_session.dart';
-import 'package:ogrenme_asistani/models/streak_data.dart';
 import 'package:ogrenme_asistani/models/subject.dart';
 import 'package:ogrenme_asistani/screens/chat_screen.dart';
 import 'package:ogrenme_asistani/services/chat_session_repository.dart';
-import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/services/subject_repository.dart';
-import 'package:ogrenme_asistani/widgets/subject_chip.dart';
 import 'package:ogrenme_asistani/widgets/subject_picker.dart';
 
 class ChatListScreen extends StatefulWidget {
@@ -22,12 +19,9 @@ class ChatListScreen extends StatefulWidget {
 class _ChatListScreenState extends State<ChatListScreen> {
   final _repository = ChatSessionRepository();
   final _subjectRepository = SubjectRepository();
-  final _streakRepository = StreakRepository();
   List<ChatSession> _sessions = [];
   List<Subject> _subjects = [];
-  StreakData? _streak;
   StreamSubscription<List<Subject>>? _subjectsSubscription;
-  StreamSubscription<StreakData>? _streakSubscription;
   bool _isLoading = true;
 
   @override
@@ -35,22 +29,11 @@ class _ChatListScreenState extends State<ChatListScreen> {
     super.initState();
     _loadSessions();
     _watchSubjects();
-    _watchStreak();
-  }
-
-  void _watchStreak() {
-    final uid = FirebaseAuth.instance.currentUser?.uid;
-    if (uid == null) return;
-    _streakSubscription = _streakRepository.watch(uid).listen((streak) {
-      if (!mounted) return;
-      setState(() => _streak = streak);
-    });
   }
 
   @override
   void dispose() {
     _subjectsSubscription?.cancel();
-    _streakSubscription?.cancel();
     super.dispose();
   }
 
@@ -93,14 +76,6 @@ class _ChatListScreenState extends State<ChatListScreen> {
       title: ChatSession.defaultTitle,
       subjectId: subjectId,
     );
-  }
-
-  Subject? _subjectFor(String? subjectId) {
-    if (subjectId == null) return null;
-    for (final subject in _subjects) {
-      if (subject.id == subjectId) return subject;
-    }
-    return null;
   }
 
   Future<void> _renameChat(ChatSession session) async {
@@ -208,12 +183,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
         onPressed: _createChat,
         child: const Icon(Icons.add),
       ),
-      body: Column(
-        children: [
-          if (_streak != null) _StudyHintCard(streak: _streak!),
-          Expanded(child: _buildBody()),
-        ],
-      ),
+      body: _buildBody(),
     );
   }
 
@@ -233,59 +203,97 @@ class _ChatListScreenState extends State<ChatListScreen> {
         ),
       );
     }
-    return ListView.separated(
+    final groups = _groupedSessions;
+    return ListView(
       padding: const EdgeInsets.all(16),
-      itemCount: _sessions.length,
-      separatorBuilder: (_, _) => const SizedBox(height: 8),
-      itemBuilder: (context, index) {
-        final session = _sessions[index];
-        final subject = _subjectFor(session.subjectId);
-        return Card(
-          margin: EdgeInsets.zero,
-          child: ListTile(
-            leading: const Icon(Icons.chat_bubble_outline),
-            title: Text(session.title),
-            subtitle: Row(
-              children: [
-                Flexible(
-                  child: Text(
-                    _formatRelativeTime(session.updatedAt),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-                if (subject != null) ...[
-                  const SizedBox(width: 8),
-                  Flexible(child: SubjectChip(subject: subject)),
-                ],
-              ],
+      children: [
+        for (final group in groups) ...[
+          _buildGroupHeader(group.$1),
+          const SizedBox(height: 8),
+          for (final session in group.$2) ...[
+            _buildChatTile(session),
+            const SizedBox(height: 8),
+          ],
+          const SizedBox(height: 4),
+        ],
+      ],
+    );
+  }
+
+  /// Groups sessions by subject, subjects in the order returned by
+  /// [SubjectRepository] (most-recently-created first), with the
+  /// subject-less ("Genel") group last — mirrors the Setlerim grouping.
+  List<(Subject?, List<ChatSession>)> get _groupedSessions {
+    final groups = <(Subject?, List<ChatSession>)>[];
+    for (final subject in _subjects) {
+      final subjectSessions = _sessions
+          .where((s) => s.subjectId == subject.id)
+          .toList();
+      if (subjectSessions.isNotEmpty) groups.add((subject, subjectSessions));
+    }
+    final general = _sessions.where((s) => s.subjectId == null).toList();
+    if (general.isNotEmpty) groups.add((null, general));
+    return groups;
+  }
+
+  Widget _buildGroupHeader(Subject? subject) {
+    if (subject == null) {
+      return Row(
+        children: [
+          const Icon(Icons.inbox_outlined, size: 18),
+          const SizedBox(width: 8),
+          Text('Genel', style: Theme.of(context).textTheme.titleSmall),
+        ],
+      );
+    }
+    return Row(
+      children: [
+        CircleAvatar(
+          radius: 9,
+          backgroundColor: subject.color,
+          child: Icon(Subject.icon, color: Colors.white, size: 12),
+        ),
+        const SizedBox(width: 8),
+        Text(subject.name, style: Theme.of(context).textTheme.titleSmall),
+      ],
+    );
+  }
+
+  Widget _buildChatTile(ChatSession session) {
+    return Card(
+      margin: EdgeInsets.zero,
+      child: ListTile(
+        leading: const Icon(Icons.chat_bubble_outline),
+        title: Text(session.title),
+        subtitle: Text(
+          _formatRelativeTime(session.updatedAt),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        trailing: PopupMenuButton<String>(
+          onSelected: (value) {
+            if (value == 'rename') _renameChat(session);
+            if (value == 'subject') _assignSubject(session);
+            if (value == 'delete') _deleteChat(session);
+          },
+          itemBuilder: (context) => const [
+            PopupMenuItem(
+              value: 'rename',
+              child: Text('Yeniden Adlandır'),
             ),
-            trailing: PopupMenuButton<String>(
-              onSelected: (value) {
-                if (value == 'rename') _renameChat(session);
-                if (value == 'subject') _assignSubject(session);
-                if (value == 'delete') _deleteChat(session);
-              },
-              itemBuilder: (context) => const [
-                PopupMenuItem(
-                  value: 'rename',
-                  child: Text('Yeniden Adlandır'),
-                ),
-                PopupMenuItem(
-                  value: 'subject',
-                  child: Text('Ders Ata/Değiştir'),
-                ),
-                PopupMenuItem(value: 'delete', child: Text('Sil')),
-              ],
+            PopupMenuItem(
+              value: 'subject',
+              child: Text('Ders Ata/Değiştir'),
             ),
-            onTap: () => _openChat(
-              chatId: session.id,
-              title: session.title,
-              subjectId: session.subjectId,
-            ),
-          ),
-        );
-      },
+            PopupMenuItem(value: 'delete', child: Text('Sil')),
+          ],
+        ),
+        onTap: () => _openChat(
+          chatId: session.id,
+          title: session.title,
+          subjectId: session.subjectId,
+        ),
+      ),
     );
   }
 
@@ -295,66 +303,5 @@ class _ChatListScreenState extends State<ChatListScreen> {
     if (diff.inMinutes < 60) return '${diff.inMinutes} dakika önce';
     if (diff.inHours < 24) return '${diff.inHours} saat önce';
     return '${diff.inDays} gün önce';
-  }
-}
-
-class _StudyHintCard extends StatelessWidget {
-  const _StudyHintCard({required this.streak});
-
-  final StreakData streak;
-
-  String _buildMessage() {
-    final last = streak.lastActiveDate;
-    final subjectName = streak.lastSubjectName;
-    if (last == null) {
-      return 'Bugün yeni bir konu keşfetmeye ne dersin? Keşfet sekmesindeki '
-          'hazır derslere göz atabilirsin.';
-    }
-    final today = DateTime.now();
-    final todayDate = DateTime(today.year, today.month, today.day);
-    final lastDate = DateTime(last.year, last.month, last.day);
-    final diff = todayDate.difference(lastDate).inDays;
-
-    if (diff <= 0) {
-      return '🔥 ${streak.currentStreak} gün üst üste çalışıyorsun, harika gidiyorsun!';
-    }
-    if (diff == 1) {
-      return subjectName != null
-          ? 'Dün $subjectName çalıştın, bugün devam etmek ister misin?'
-          : 'Dün çalıştın, bugün devam etmek ister misin?';
-    }
-    return subjectName != null
-        ? 'En son $subjectName çalışmıştın. Kaldığın yerden devam etmeye ne dersin?'
-        : 'Bugün yeni bir konu keşfetmeye ne dersin? Keşfet sekmesindeki '
-              'hazır derslere göz atabilirsin.';
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
-      child: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: colorScheme.secondaryContainer,
-          borderRadius: BorderRadius.circular(14),
-        ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Icon(Icons.lightbulb_outline, color: colorScheme.onSecondaryContainer),
-            const SizedBox(width: 10),
-            Expanded(
-              child: Text(
-                _buildMessage(),
-                style: TextStyle(color: colorScheme.onSecondaryContainer),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
   }
 }

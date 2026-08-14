@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ogrenme_asistani/screens/chat_list_screen.dart';
 import 'package:ogrenme_asistani/screens/cards_screen.dart';
-import 'package:ogrenme_asistani/screens/discover_screen.dart';
+import 'package:ogrenme_asistani/screens/chat_welcome_screen.dart';
+import 'package:ogrenme_asistani/screens/home_screen.dart';
 import 'package:ogrenme_asistani/screens/profile_screen.dart';
 import 'package:ogrenme_asistani/screens/subjects_screen.dart';
 
@@ -16,10 +16,10 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = const [
-    ChatListScreen(),
+    HomeScreen(),
+    ChatWelcomeScreen(),
     CardsScreen(),
     SubjectsScreen(),
-    DiscoverScreen(),
     ProfileScreen(),
   ];
 
@@ -39,6 +39,11 @@ class _MainScreenState extends State<MainScreen> {
         },
         destinations: const [
           NavigationDestination(
+            icon: Icon(Icons.home_outlined),
+            selectedIcon: Icon(Icons.home),
+            label: 'Ana Sayfa',
+          ),
+          NavigationDestination(
             icon: Icon(Icons.chat_bubble_outline),
             selectedIcon: Icon(Icons.chat_bubble),
             label: 'Sohbet',
@@ -52,11 +57,6 @@ class _MainScreenState extends State<MainScreen> {
             icon: Icon(Icons.menu_book_outlined),
             selectedIcon: Icon(Icons.menu_book),
             label: 'Dersler',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.explore_outlined),
-            selectedIcon: Icon(Icons.explore),
-            label: 'Keşfet',
           ),
           NavigationDestination(
             icon: Icon(Icons.person_outline),

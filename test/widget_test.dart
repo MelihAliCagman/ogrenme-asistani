@@ -19,8 +19,10 @@ void main() {
     await tester.pump(const Duration(seconds: 3));
     await tester.pump();
 
+    expect(find.text('Ana Sayfa'), findsWidgets);
     expect(find.text('Sohbet'), findsWidgets);
-    expect(find.text('Kartlarım'), findsWidgets);
+    expect(find.text('Setlerim'), findsWidgets);
+    expect(find.text('Dersler'), findsWidgets);
     expect(find.text('Profil'), findsWidgets);
   });
 }

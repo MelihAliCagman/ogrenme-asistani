@@ -32,15 +32,33 @@ class GeminiService {
   /// incremental text chunk (not the full text so far). [history] is the
   /// full conversation so far (oldest first, ending with the latest user
   /// message) so Gemini has context from earlier turns, not just the
-  /// newest message.
+  /// newest message. When [imageBytes]/[imageMimeType] are given, they're
+  /// attached to the last (newest) turn in [history] — used for "solve
+  /// this photographed question" messages.
   Stream<String> sendMessageStream(
     List<ChatMessage> history, {
     String? systemInstruction,
+    Uint8List? imageBytes,
+    String? imageMimeType,
   }) {
-    return _generateTextStream(
-      _historyToContents(history),
-      systemInstruction: systemInstruction,
-    );
+    final contents = _historyToContents(history);
+    if (imageBytes != null && imageMimeType != null && contents.isNotEmpty) {
+      final last = contents.last;
+      final parts = <Map<String, dynamic>>[
+        ...(last['parts'] as List).cast<Map<String, dynamic>>(),
+        <String, dynamic>{
+          'inlineData': <String, dynamic>{
+            'mimeType': imageMimeType,
+            'data': base64Encode(imageBytes),
+          },
+        },
+      ];
+      contents[contents.length - 1] = <String, dynamic>{
+        ...last,
+        'parts': parts,
+      };
+    }
+    return _generateTextStream(contents, systemInstruction: systemInstruction);
   }
 
   List<Map<String, dynamic>> _singleTurn(String text) => [
@@ -81,11 +99,11 @@ class GeminiService {
   List<Map<String, dynamic>> _historyToContents(List<ChatMessage> history) {
     return history
         .where((m) => !m.isError)
-        .map(
-          (m) => {
+        .map<Map<String, dynamic>>(
+          (m) => <String, dynamic>{
             'role': m.isUser ? 'user' : 'model',
-            'parts': [
-              {'text': m.text},
+            'parts': <Map<String, dynamic>>[
+              <String, dynamic>{'text': m.text},
             ],
           },
         )
@@ -129,13 +147,15 @@ class GeminiService {
     Uint8List? fileBytes,
     String? fileMimeType,
     int cardCount = 10,
+    String? difficultyInstruction,
   }) async {
     final instructions =
         'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
         '$cardCount tane soru-cevap kartı oluştur ve konuyu özetleyen kısa '
         '(en fazla 4 kelime) bir başlık ver. Ne eksik ne fazla, tam olarak '
         '$cardCount kart üretmelisin. Sorular metindeki önemli kavramları '
-        'test etmeli, cevaplar kısa ve net olmalı.';
+        'test etmeli, cevaplar kısa ve net olmalı.'
+        '${difficultyInstruction == null ? '' : ' $difficultyInstruction'}';
     final prompt = _buildPrompt(
       instructions,
       sourceText: sourceText,
@@ -202,6 +222,7 @@ class GeminiService {
     Uint8List? fileBytes,
     String? fileMimeType,
     int questionCount = 10,
+    String? difficultyInstruction,
   }) async {
     final instructions =
         'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
@@ -211,7 +232,8 @@ class GeminiService {
         '$questionCount soru üretmelisin. correctIndex, doğru şıkkın options '
         'listesindeki 0 tabanlı indeksi olmalı. Her soru için ayrıca kısa '
         '(1-2 cümlelik) bir explanation yaz; bu açıklama doğru cevabın neden '
-        'doğru olduğunu özetlemeli.';
+        'doğru olduğunu özetlemeli.'
+        '${difficultyInstruction == null ? '' : ' $difficultyInstruction'}';
     final prompt = _buildPrompt(
       instructions,
       sourceText: sourceText,
@@ -284,6 +306,189 @@ class GeminiService {
     }
 
     return (title: title.isEmpty ? 'Test Seti' : title, questions: questions);
+  }
+
+  Future<({String title, List<QuizQuestion> questions})>
+  generateFillBlankQuestions({
+    String? sourceText,
+    Uint8List? fileBytes,
+    String? fileMimeType,
+    int questionCount = 10,
+    String? difficultyInstruction,
+  }) async {
+    final instructions =
+        'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
+        '$questionCount tane boşluk doldurma sorusu oluştur ve konuyu '
+        'özetleyen kısa (en fazla 4 kelime) bir başlık ver. Ne eksik ne '
+        'fazla, tam olarak $questionCount soru üretmelisin. Her sorunun '
+        'metninde boşluk bırakılacak yere "____" (alt çizgi) koy, answer '
+        'alanına o boşluğa gelmesi gereken kısa (tek kelime veya kısa bir '
+        'ifade) doğru cevabı yaz. Her soru için ayrıca kısa (1-2 cümlelik) '
+        'bir explanation yaz.'
+        '${difficultyInstruction == null ? '' : ' $difficultyInstruction'}';
+    final prompt = _buildPrompt(
+      instructions,
+      sourceText: sourceText,
+      hasFile: fileBytes != null,
+    );
+
+    final text = await _generateText(
+      _singleTurnWithFile(
+        prompt,
+        fileBytes: fileBytes,
+        fileMimeType: fileMimeType,
+      ),
+      generationConfig: {
+        'responseMimeType': 'application/json',
+        'responseSchema': {
+          'type': 'OBJECT',
+          'properties': {
+            'title': {'type': 'STRING'},
+            'questions': {
+              'type': 'ARRAY',
+              'minItems': questionCount,
+              'maxItems': questionCount,
+              'items': {
+                'type': 'OBJECT',
+                'properties': {
+                  'question': {'type': 'STRING'},
+                  'answer': {'type': 'STRING'},
+                  'explanation': {'type': 'STRING'},
+                },
+                'required': ['question', 'answer', 'explanation'],
+              },
+            },
+          },
+          'required': ['title', 'questions'],
+        },
+      },
+    );
+
+    Map<String, dynamic> parsed;
+    try {
+      parsed = jsonDecode(text) as Map<String, dynamic>;
+    } catch (e) {
+      debugPrint('[GeminiService] Boşluk doldurma JSON\'u ayrıştırılamadı: $e');
+      debugPrint('[GeminiService] Ham metin: $text');
+      throw GeminiException('Sorular oluşturulurken yanıt okunamadı.');
+    }
+
+    final title = (parsed['title'] as String? ?? '').trim();
+    final rawQuestions = parsed['questions'] as List? ?? [];
+    final questions = rawQuestions
+        .whereType<Map<String, dynamic>>()
+        .map(
+          (json) => QuizQuestion(
+            question: (json['question'] as String? ?? '').trim(),
+            options: [(json['answer'] as String? ?? '').trim()],
+            correctIndex: 0,
+            explanation: (json['explanation'] as String? ?? '').trim(),
+            type: QuestionType.fillBlank,
+          ),
+        )
+        .where((q) => q.question.isNotEmpty && q.answerText.isNotEmpty)
+        .toList();
+
+    if (questions.isEmpty) {
+      throw GeminiException('Sorular oluşturulamadı.');
+    }
+
+    return (
+      title: title.isEmpty ? 'Boşluk Doldurma Seti' : title,
+      questions: questions,
+    );
+  }
+
+  Future<({String title, List<QuizQuestion> questions})>
+  generateTrueFalseQuestions({
+    String? sourceText,
+    Uint8List? fileBytes,
+    String? fileMimeType,
+    int questionCount = 10,
+    String? difficultyInstruction,
+  }) async {
+    final instructions =
+        'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
+        '$questionCount tane doğru/yanlış sorusu (ifadesi) oluştur ve '
+        'konuyu özetleyen kısa (en fazla 4 kelime) bir başlık ver. Ne '
+        'eksik ne fazla, tam olarak $questionCount ifade üretmelisin. Her '
+        'ifade metindeki bir bilgiyi doğru ya da kasıtlı olarak yanlış '
+        'şekilde sunmalı; isTrue alanı ifadenin doğru olup olmadığını '
+        'belirtmeli. Her ifade için ayrıca kısa (1-2 cümlelik) bir '
+        'explanation yaz; bu açıklama ifadenin neden doğru/yanlış '
+        'olduğunu özetlemeli.'
+        '${difficultyInstruction == null ? '' : ' $difficultyInstruction'}';
+    final prompt = _buildPrompt(
+      instructions,
+      sourceText: sourceText,
+      hasFile: fileBytes != null,
+    );
+
+    final text = await _generateText(
+      _singleTurnWithFile(
+        prompt,
+        fileBytes: fileBytes,
+        fileMimeType: fileMimeType,
+      ),
+      generationConfig: {
+        'responseMimeType': 'application/json',
+        'responseSchema': {
+          'type': 'OBJECT',
+          'properties': {
+            'title': {'type': 'STRING'},
+            'questions': {
+              'type': 'ARRAY',
+              'minItems': questionCount,
+              'maxItems': questionCount,
+              'items': {
+                'type': 'OBJECT',
+                'properties': {
+                  'statement': {'type': 'STRING'},
+                  'isTrue': {'type': 'BOOLEAN'},
+                  'explanation': {'type': 'STRING'},
+                },
+                'required': ['statement', 'isTrue', 'explanation'],
+              },
+            },
+          },
+          'required': ['title', 'questions'],
+        },
+      },
+    );
+
+    Map<String, dynamic> parsed;
+    try {
+      parsed = jsonDecode(text) as Map<String, dynamic>;
+    } catch (e) {
+      debugPrint('[GeminiService] Doğru/Yanlış JSON\'u ayrıştırılamadı: $e');
+      debugPrint('[GeminiService] Ham metin: $text');
+      throw GeminiException('Sorular oluşturulurken yanıt okunamadı.');
+    }
+
+    final title = (parsed['title'] as String? ?? '').trim();
+    final rawQuestions = parsed['questions'] as List? ?? [];
+    final questions = rawQuestions
+        .whereType<Map<String, dynamic>>()
+        .map(
+          (json) => QuizQuestion(
+            question: (json['statement'] as String? ?? '').trim(),
+            options: const ['Doğru', 'Yanlış'],
+            correctIndex: (json['isTrue'] as bool? ?? true) ? 0 : 1,
+            explanation: (json['explanation'] as String? ?? '').trim(),
+            type: QuestionType.trueFalse,
+          ),
+        )
+        .where((q) => q.question.isNotEmpty)
+        .toList();
+
+    if (questions.isEmpty) {
+      throw GeminiException('Sorular oluşturulamadı.');
+    }
+
+    return (
+      title: title.isEmpty ? 'Doğru/Yanlış Seti' : title,
+      questions: questions,
+    );
   }
 
   Future<String> _generateText(
