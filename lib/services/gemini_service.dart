@@ -51,6 +51,30 @@ class GeminiService {
     },
   ];
 
+  /// Builds a single-turn `contents` payload with an optional inline file
+  /// (e.g. a PDF) attached alongside the prompt text, using Gemini's
+  /// multimodal `inlineData` part.
+  List<Map<String, dynamic>> _singleTurnWithFile(
+    String promptText, {
+    Uint8List? fileBytes,
+    String? fileMimeType,
+  }) {
+    final parts = <Map<String, dynamic>>[
+      {'text': promptText},
+    ];
+    if (fileBytes != null && fileMimeType != null) {
+      parts.add({
+        'inlineData': {
+          'mimeType': fileMimeType,
+          'data': base64Encode(fileBytes),
+        },
+      });
+    }
+    return [
+      {'parts': parts},
+    ];
+  }
+
   /// Converts stored chat messages into Gemini's `contents` turn format.
   /// Error placeholders (e.g. "couldn't respond" messages shown in the
   /// UI) are dropped since they were never real model output.
@@ -81,19 +105,49 @@ class GeminiService {
     return text.trim().replaceAll(RegExp(r'^["\x27]+|["\x27]+$'), '');
   }
 
-  Future<({String title, List<Flashcard> cards})> generateFlashcards(
-    String sourceText, {
+  /// Combines the base [instructions] with the source text and/or an
+  /// attached file. When a file is attached, [sourceText] (if non-empty)
+  /// is treated as an extra instruction from the user (e.g. "3. bölümden
+  /// soru çıkmasın") rather than the content itself.
+  String _buildPrompt(
+    String instructions, {
+    String? sourceText,
+    required bool hasFile,
+  }) {
+    final extra = sourceText?.trim() ?? '';
+    if (hasFile) {
+      return extra.isEmpty
+          ? '$instructions Kaynak, ekli dosyadır.'
+          : '$instructions Kaynak, ekli dosyadır. Ayrıca kullanıcının şu ek '
+                'talimatına uy: $extra';
+    }
+    return '$instructions\n\nMetin:\n$extra';
+  }
+
+  Future<({String title, List<Flashcard> cards})> generateFlashcards({
+    String? sourceText,
+    Uint8List? fileBytes,
+    String? fileMimeType,
     int cardCount = 10,
   }) async {
-    final prompt =
+    final instructions =
         'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
         '$cardCount tane soru-cevap kartı oluştur ve konuyu özetleyen kısa '
         '(en fazla 4 kelime) bir başlık ver. Ne eksik ne fazla, tam olarak '
         '$cardCount kart üretmelisin. Sorular metindeki önemli kavramları '
-        'test etmeli, cevaplar kısa ve net olmalı.\n\nMetin:\n$sourceText';
+        'test etmeli, cevaplar kısa ve net olmalı.';
+    final prompt = _buildPrompt(
+      instructions,
+      sourceText: sourceText,
+      hasFile: fileBytes != null,
+    );
 
     final text = await _generateText(
-      _singleTurn(prompt),
+      _singleTurnWithFile(
+        prompt,
+        fileBytes: fileBytes,
+        fileMimeType: fileMimeType,
+      ),
       generationConfig: {
         'responseMimeType': 'application/json',
         'responseSchema': {
@@ -143,21 +197,33 @@ class GeminiService {
     return (title: title.isEmpty ? 'Kart Seti' : title, cards: cards);
   }
 
-  Future<({String title, List<QuizQuestion> questions})> generateQuiz(
-    String sourceText,
-  ) async {
-    final prompt =
-        'Aşağıdaki ders notundan/metinden öğrenmeye yönelik, her biri 4 '
-        'şıklı (A, B, C, D) ve tek doğru cevabı olan 5 ile 20 arasında (mümkünse '
-        'en az 10 tane, metnin uzunluğuna göre daha fazla olabilir) çoktan '
-        'seçmeli soru oluştur ve konuyu özetleyen kısa (en fazla 4 kelime) bir '
-        'başlık ver. correctIndex, doğru şıkkın options listesindeki 0 tabanlı '
-        'indeksi olmalı. Her soru için ayrıca kısa (1-2 cümlelik) bir '
-        'explanation yaz; bu açıklama doğru cevabın neden doğru olduğunu '
-        'özetlemeli.\n\nMetin:\n$sourceText';
+  Future<({String title, List<QuizQuestion> questions})> generateQuiz({
+    String? sourceText,
+    Uint8List? fileBytes,
+    String? fileMimeType,
+    int questionCount = 10,
+  }) async {
+    final instructions =
+        'Aşağıdaki ders notundan/metinden öğrenmeye yönelik TAM OLARAK '
+        '$questionCount tane, her biri 4 şıklı (A, B, C, D) ve tek doğru '
+        'cevabı olan çoktan seçmeli soru oluştur ve konuyu özetleyen kısa '
+        '(en fazla 4 kelime) bir başlık ver. Ne eksik ne fazla, tam olarak '
+        '$questionCount soru üretmelisin. correctIndex, doğru şıkkın options '
+        'listesindeki 0 tabanlı indeksi olmalı. Her soru için ayrıca kısa '
+        '(1-2 cümlelik) bir explanation yaz; bu açıklama doğru cevabın neden '
+        'doğru olduğunu özetlemeli.';
+    final prompt = _buildPrompt(
+      instructions,
+      sourceText: sourceText,
+      hasFile: fileBytes != null,
+    );
 
     final text = await _generateText(
-      _singleTurn(prompt),
+      _singleTurnWithFile(
+        prompt,
+        fileBytes: fileBytes,
+        fileMimeType: fileMimeType,
+      ),
       generationConfig: {
         'responseMimeType': 'application/json',
         'responseSchema': {
@@ -166,8 +232,8 @@ class GeminiService {
             'title': {'type': 'STRING'},
             'questions': {
               'type': 'ARRAY',
-              'minItems': 5,
-              'maxItems': 20,
+              'minItems': questionCount,
+              'maxItems': questionCount,
               'items': {
                 'type': 'OBJECT',
                 'properties': {

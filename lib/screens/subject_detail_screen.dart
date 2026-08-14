@@ -226,7 +226,10 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => CardSetDetailScreen(cardSet: set),
+                  builder: (context) => CardSetDetailScreen(
+                    cardSet: set,
+                    returnToSubject: widget.subject,
+                  ),
                 ),
               );
             },

@@ -1,5 +1,7 @@
 import 'dart:async';
+import 'dart:typed_data';
 
+import 'package:file_picker/file_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
@@ -36,13 +38,17 @@ class _CardsScreenState extends State<CardsScreen> {
   String? _selectedSubjectId;
   _GenerationFormat _format = _GenerationFormat.flashcards;
   int _flashcardCount = 10;
+  int _quizCount = 10;
   String _activeFilter = _filterAll;
 
   static const _filterAll = '__all__';
   static const _filterGeneral = '__general__';
+  static const _maxFileSizeBytes = 10 * 1024 * 1024;
   bool _isLoading = false;
   bool _isLoadingSets = true;
   String? _errorMessage;
+  Uint8List? _selectedFileBytes;
+  String? _selectedFileName;
 
   final ScrollController _listScrollController = ScrollController();
   bool _formCollapsed = false;
@@ -108,9 +114,63 @@ class _CardsScreenState extends State<CardsScreen> {
     });
   }
 
+  Future<void> _pickFile() async {
+    setState(() => _errorMessage = null);
+    PlatformFile? file;
+    try {
+      file = await FilePicker.pickFile(
+        type: FileType.custom,
+        allowedExtensions: ['pdf'],
+      );
+    } catch (e) {
+      debugPrint('[CardsScreen] Dosya seçilemedi: $e');
+      if (!mounted) return;
+      setState(() {
+        _errorMessage = 'Dosya seçilirken bir sorun oluştu. Lütfen tekrar dene.';
+      });
+      return;
+    }
+    if (file == null) return;
+
+    Uint8List bytes;
+    try {
+      final size = await file.length();
+      if (size > _maxFileSizeBytes) {
+        if (!mounted) return;
+        setState(() {
+          _errorMessage =
+              'Dosya boyutu 10 MB sınırını aşıyor. Lütfen daha küçük bir PDF seç.';
+        });
+        return;
+      }
+      bytes = await file.readAsBytes();
+    } catch (e) {
+      debugPrint('[CardsScreen] Dosya okunamadı: $e');
+      if (!mounted) return;
+      setState(() {
+        _errorMessage = 'Dosya okunamadı. Lütfen tekrar dener misin?';
+      });
+      return;
+    }
+
+    if (!mounted) return;
+    setState(() {
+      _selectedFileBytes = bytes;
+      _selectedFileName = file!.name;
+    });
+  }
+
+  void _removeSelectedFile() {
+    setState(() {
+      _selectedFileBytes = null;
+      _selectedFileName = null;
+    });
+  }
+
   Future<void> _generate() async {
     final text = _controller.text.trim();
-    if (text.isEmpty) return;
+    final fileBytes = _selectedFileBytes;
+    if (text.isEmpty && fileBytes == null) return;
 
     setState(() {
       _isLoading = true;
@@ -120,7 +180,9 @@ class _CardsScreenState extends State<CardsScreen> {
     try {
       if (_format == _GenerationFormat.flashcards) {
         final result = await _geminiService.generateFlashcards(
-          text,
+          sourceText: text.isEmpty ? null : text,
+          fileBytes: fileBytes,
+          fileMimeType: fileBytes == null ? null : 'application/pdf',
           cardCount: _flashcardCount,
         );
         final newSet = FlashcardSet(
@@ -134,10 +196,17 @@ class _CardsScreenState extends State<CardsScreen> {
         setState(() {
           _cardSets = [newSet, ..._cardSets];
           _controller.clear();
+          _selectedFileBytes = null;
+          _selectedFileName = null;
         });
         await _repository.saveAll(_cardSets);
       } else {
-        final result = await _geminiService.generateQuiz(text);
+        final result = await _geminiService.generateQuiz(
+          sourceText: text.isEmpty ? null : text,
+          fileBytes: fileBytes,
+          fileMimeType: fileBytes == null ? null : 'application/pdf',
+          questionCount: _quizCount,
+        );
         final newSet = QuizSet(
           id: DateTime.now().microsecondsSinceEpoch.toString(),
           title: result.title,
@@ -149,6 +218,8 @@ class _CardsScreenState extends State<CardsScreen> {
         setState(() {
           _quizSets = [newSet, ..._quizSets];
           _controller.clear();
+          _selectedFileBytes = null;
+          _selectedFileName = null;
         });
         await _quizRepository.saveAll(_quizSets);
       }
@@ -399,6 +470,26 @@ class _CardsScreenState extends State<CardsScreen> {
                           const SizedBox(height: 12),
                         ],
                         if (_format == _GenerationFormat.quiz) ...[
+                          Text(
+                            'Soru sayısı',
+                            style: Theme.of(context).textTheme.bodyMedium,
+                          ),
+                          const SizedBox(height: 8),
+                          SizedBox(
+                            width: double.infinity,
+                            child: SegmentedButton<int>(
+                              segments: const [
+                                ButtonSegment(value: 10, label: Text('10')),
+                                ButtonSegment(value: 15, label: Text('15')),
+                                ButtonSegment(value: 20, label: Text('20')),
+                              ],
+                              selected: {_quizCount},
+                              onSelectionChanged: (selection) {
+                                setState(() => _quizCount = selection.first);
+                              },
+                            ),
+                          ),
+                          const SizedBox(height: 8),
                           Row(
                             children: [
                               Icon(
@@ -411,8 +502,7 @@ class _CardsScreenState extends State<CardsScreen> {
                               const SizedBox(width: 6),
                               Expanded(
                                 child: Text(
-                                  'Tek seferde en fazla 20 soru oluşturabilirsiniz, '
-                                  'aynı konudan tekrar tekrar yeni testler '
+                                  'Aynı konudan tekrar tekrar yeni testler '
                                   'oluşturabilirsiniz.',
                                   style: Theme.of(context).textTheme.bodySmall
                                       ?.copyWith(
@@ -426,13 +516,45 @@ class _CardsScreenState extends State<CardsScreen> {
                           ),
                           const SizedBox(height: 8),
                         ],
+                        Row(
+                          children: [
+                            OutlinedButton.icon(
+                              onPressed: _isLoading ? null : _pickFile,
+                              icon: const Icon(Icons.attach_file),
+                              label: const Text('Dosya Yükle (PDF)'),
+                            ),
+                          ],
+                        ),
+                        if (_selectedFileName != null) ...[
+                          const SizedBox(height: 8),
+                          Align(
+                            alignment: Alignment.centerLeft,
+                            child: Chip(
+                              avatar: const Icon(
+                                Icons.picture_as_pdf,
+                                size: 18,
+                              ),
+                              label: Text(
+                                'Seçilen dosya: $_selectedFileName',
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                              onDeleted: _isLoading
+                                  ? null
+                                  : _removeSelectedFile,
+                            ),
+                          ),
+                        ],
+                        const SizedBox(height: 8),
                         TextField(
                           controller: _controller,
                           maxLines: 6,
                           minLines: 3,
-                          decoration: const InputDecoration(
-                            hintText: 'Ders notunu veya metni buraya yapıştır...',
-                            border: OutlineInputBorder(),
+                          decoration: InputDecoration(
+                            hintText: _selectedFileBytes == null
+                                ? 'Ders notunu veya metni buraya yapıştır...'
+                                : 'İsteğe bağlı ek talimat yaz (örn. "sadece '
+                                      '2. üniteye odaklan")',
+                            border: const OutlineInputBorder(),
                           ),
                         ),
                         const SizedBox(height: 12),

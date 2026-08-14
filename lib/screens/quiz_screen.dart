@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
+import 'package:ogrenme_asistani/models/subject.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key, required this.cardSet});
+  const QuizScreen({super.key, required this.cardSet, this.returnToSubject});
 
   final FlashcardSet cardSet;
+
+  /// Set only when this screen was opened (via [CardSetDetailScreen]) from
+  /// that subject's detail screen, so the summary's back button can say
+  /// "Derse Dön" and pop straight back to it instead of all the way to
+  /// Kartlarım.
+  final Subject? returnToSubject;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -60,7 +67,11 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  void _backToCardsList() {
+  void _backToOrigin() {
+    if (widget.returnToSubject != null) {
+      Navigator.of(context).pop();
+      return;
+    }
     Navigator.of(context).popUntil((route) => route.isFirst);
   }
 
@@ -171,9 +182,15 @@ class _QuizScreenState extends State<QuizScreen> {
         ),
         const SizedBox(height: 12),
         OutlinedButton.icon(
-          onPressed: _backToCardsList,
-          icon: const Icon(Icons.style),
-          label: const Text("Kartlarım'a Dön"),
+          onPressed: _backToOrigin,
+          icon: Icon(
+            widget.returnToSubject != null
+                ? Icons.menu_book_outlined
+                : Icons.style,
+          ),
+          label: Text(
+            widget.returnToSubject != null ? 'Derse Dön' : "Kartlarım'a Dön",
+          ),
         ),
         ],
       ),
