@@ -9,13 +9,23 @@ import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/widgets/quiz_attempt_tile.dart';
 
 class QuizSetScreen extends StatefulWidget {
-  const QuizSetScreen({super.key, required this.quizSet, this.subject});
+  const QuizSetScreen({
+    super.key,
+    required this.quizSet,
+    this.subject,
+    this.onFinished,
+  });
 
   final QuizSet quizSet;
 
   /// The quiz's own subject, if any — shown in the result note
   /// regardless of where this screen was opened from.
   final Subject? subject;
+
+  /// Called once the set has been solved to its end, regardless of
+  /// score. Used by the Ders Yolları path screen to mark that node's
+  /// quiz/fill-blank/true-false content as completed.
+  final VoidCallback? onFinished;
 
   @override
   State<QuizSetScreen> createState() => _QuizSetScreenState();
@@ -141,6 +151,7 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
     }
     setState(() => _finished = true);
     _saveAttempt();
+    widget.onFinished?.call();
   }
 
   Future<void> _saveAttempt() async {

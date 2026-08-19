@@ -1,5 +1,26 @@
 import 'package:ogrenme_asistani/models/flashcard.dart';
+import 'package:ogrenme_asistani/models/path_progress.dart';
 import 'package:ogrenme_asistani/models/quiz_question.dart';
+import 'package:ogrenme_asistani/models/set_format.dart';
+
+/// The 4 content kinds a [CurriculumNode] can carry — also the 4 slices
+/// of a node's progress ring on the path screen.
+enum PathContentKind { flashcards, multipleChoice, fillBlank, trueFalse }
+
+extension PathContentKindMeta on PathContentKind {
+  SetFormat get setFormat {
+    switch (this) {
+      case PathContentKind.flashcards:
+        return SetFormat.flashcards;
+      case PathContentKind.multipleChoice:
+        return SetFormat.multipleChoice;
+      case PathContentKind.fillBlank:
+        return SetFormat.fillBlank;
+      case PathContentKind.trueFalse:
+        return SetFormat.trueFalse;
+    }
+  }
+}
 
 /// One topic ("konu") inside a [CurriculumUnit] — a single Duolingo-style
 /// node on the path. Content reuses the exact same wire format as
@@ -47,6 +68,27 @@ class CurriculumNode {
   final List<QuizQuestion> multipleChoice;
   final List<QuizQuestion> fillBlank;
   final List<QuizQuestion> trueFalse;
+
+  bool hasContent(PathContentKind kind) {
+    switch (kind) {
+      case PathContentKind.flashcards:
+        return flashcards.isNotEmpty;
+      case PathContentKind.multipleChoice:
+        return multipleChoice.isNotEmpty;
+      case PathContentKind.fillBlank:
+        return fillBlank.isNotEmpty;
+      case PathContentKind.trueFalse:
+        return trueFalse.isNotEmpty;
+    }
+  }
+
+  /// A node is fully completed once every content kind it actually has
+  /// content for is completed in [progress] — a kind the node has no
+  /// content for (e.g. a future phase's nodes before their fill-blank
+  /// set is authored) never blocks completion.
+  bool isFullyCompleted(NodeProgress progress) => PathContentKind.values
+      .where(hasContent)
+      .every(progress.isKindCompleted);
 }
 
 /// A unit ("ünite") — an ordered group of [CurriculumNode]s. Units seeded

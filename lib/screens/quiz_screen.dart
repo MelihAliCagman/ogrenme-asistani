@@ -4,9 +4,15 @@ import 'package:ogrenme_asistani/models/flashcard_set.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key, required this.cardSet});
+  const QuizScreen({super.key, required this.cardSet, this.onFinished});
 
   final FlashcardSet cardSet;
+
+  /// Called once the swipe-through session reaches its summary screen —
+  /// i.e. every card has been reviewed, regardless of score. Used by
+  /// the Ders Yolları path screen to mark that node's flashcard content
+  /// as completed.
+  final VoidCallback? onFinished;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -58,6 +64,9 @@ class _QuizScreenState extends State<QuizScreen> {
         _finished = true;
       }
     });
+    if (_finished) {
+      widget.onFinished?.call();
+    }
   }
 
   /// Always pops back to whichever screen pushed this one (always

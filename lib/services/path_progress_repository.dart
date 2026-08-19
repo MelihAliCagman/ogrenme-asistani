@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:ogrenme_asistani/models/curriculum_path.dart';
 import 'package:ogrenme_asistani/models/path_progress.dart';
 
 /// Per-user progress through a `CurriculumPath` —
@@ -19,9 +20,31 @@ class PathProgressRepository {
     return PathProgress.fromJson(subjectKey, doc.data());
   }
 
-  Future<void> markNodeCompleted(String uid, String subjectKey, String nodeId) {
+  /// Marks one content kind of one node as completed. Written as a
+  /// dotted field path (`nodeProgress.{nodeId}.{field}`) inside a
+  /// merge-set so it only touches that single leaf — every other
+  /// node's/kind's progress already stored is left untouched.
+  Future<void> markContentCompleted(
+    String uid,
+    String subjectKey,
+    String nodeId,
+    PathContentKind kind,
+  ) {
     return _collection(uid).doc(subjectKey).set({
-      'completedNodeIds': FieldValue.arrayUnion([nodeId]),
+      'nodeProgress.$nodeId.${_fieldFor(kind)}': true,
     }, SetOptions(merge: true));
+  }
+
+  String _fieldFor(PathContentKind kind) {
+    switch (kind) {
+      case PathContentKind.flashcards:
+        return 'cardCompleted';
+      case PathContentKind.multipleChoice:
+        return 'quizCompleted';
+      case PathContentKind.fillBlank:
+        return 'fillBlankCompleted';
+      case PathContentKind.trueFalse:
+        return 'trueFalseCompleted';
+    }
   }
 }

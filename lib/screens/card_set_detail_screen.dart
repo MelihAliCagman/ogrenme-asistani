@@ -6,15 +6,29 @@ import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/widgets/flashcard_tile.dart';
 
 class CardSetDetailScreen extends StatefulWidget {
-  const CardSetDetailScreen({super.key, required this.cardSet});
+  const CardSetDetailScreen({
+    super.key,
+    required this.cardSet,
+    this.onAllCardsReviewed,
+  });
 
   final FlashcardSet cardSet;
+
+  /// Called the first time every card in the set has either been
+  /// flipped at least once here, or reviewed via a full "Quiz Modu"
+  /// session — whichever happens first. Used by the Ders Yolları path
+  /// screen to mark that node's flashcard content as completed; unused
+  /// (and inert) everywhere else this screen is opened from.
+  final VoidCallback? onAllCardsReviewed;
 
   @override
   State<CardSetDetailScreen> createState() => _CardSetDetailScreenState();
 }
 
 class _CardSetDetailScreenState extends State<CardSetDetailScreen> {
+  final Set<int> _flippedIndices = {};
+  bool _reviewReported = false;
+
   @override
   void initState() {
     super.initState();
@@ -24,6 +38,19 @@ class _CardSetDetailScreenState extends State<CardSetDetailScreen> {
         uid,
         subjectId: widget.cardSet.subjectId,
       );
+    }
+  }
+
+  void _reportAllReviewed() {
+    if (_reviewReported) return;
+    _reviewReported = true;
+    widget.onAllCardsReviewed?.call();
+  }
+
+  void _onCardFlipped(int index) {
+    _flippedIndices.add(index);
+    if (_flippedIndices.length == widget.cardSet.cards.length) {
+      _reportAllReviewed();
     }
   }
 
@@ -40,7 +67,10 @@ class _CardSetDetailScreenState extends State<CardSetDetailScreen> {
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (context) => QuizScreen(cardSet: widget.cardSet),
+                    builder: (context) => QuizScreen(
+                      cardSet: widget.cardSet,
+                      onFinished: _reportAllReviewed,
+                    ),
                   ),
                 );
               },
@@ -54,7 +84,10 @@ class _CardSetDetailScreenState extends State<CardSetDetailScreen> {
                 itemCount: widget.cardSet.cards.length,
                 separatorBuilder: (_, _) => const SizedBox(height: 12),
                 itemBuilder: (context, index) {
-                  return FlashcardTile(card: widget.cardSet.cards[index]);
+                  return FlashcardTile(
+                    card: widget.cardSet.cards[index],
+                    onFlip: () => _onCardFlipped(index),
+                  );
                 },
               ),
             ),

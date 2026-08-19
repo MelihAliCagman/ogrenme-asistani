@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/curriculum_path.dart';
@@ -13,26 +15,10 @@ import 'package:ogrenme_asistani/services/curriculum_path_repository.dart';
 import 'package:ogrenme_asistani/services/path_progress_repository.dart';
 import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
 
-enum _ContentKind { flashcards, multipleChoice, fillBlank, trueFalse }
-
-extension on _ContentKind {
-  SetFormat get setFormat {
-    switch (this) {
-      case _ContentKind.flashcards:
-        return SetFormat.flashcards;
-      case _ContentKind.multipleChoice:
-        return SetFormat.multipleChoice;
-      case _ContentKind.fillBlank:
-        return SetFormat.fillBlank;
-      case _ContentKind.trueFalse:
-        return SetFormat.trueFalse;
-    }
-  }
-}
-
-/// The Duolingo-style unit/node map for one subject's "Ders Yolu". Nodes
-/// unlock in order as the user passes each one's test (≥60%); content
-/// (flashcards/quiz sets) is copied into the user's own
+/// The Duolingo-style unit/node map for one subject's "Ders Yolu". Each
+/// node tracks completion per content kind (see [PathContentKind]) and
+/// unlocks the next node once every kind it has content for is done —
+/// content (flashcards/quiz sets) is copied into the user's own
 /// [CardSetRepository]/[QuizSetRepository] on first open — with a
 /// deterministic id so re-opening reuses the same set — so the existing
 /// flip-card/quiz screens work completely unmodified.
@@ -65,7 +51,7 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       final path = await _pathRepository.loadPath(widget.subjectKey);
       final uid = FirebaseAuth.instance.currentUser?.uid;
       final progress = (path == null || uid == null)
-          ? PathProgress(subjectKey: widget.subjectKey, completedNodeIds: const {})
+          ? PathProgress(subjectKey: widget.subjectKey, nodeProgress: const {})
           : await _progressRepository.load(uid, widget.subjectKey);
       if (!mounted) return;
       setState(() {
@@ -82,13 +68,9 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     }
   }
 
-  /// Horizontal offset (in px) for a node's circle, cycling through a
-  /// gentle center/right/center/left wave so the path reads more like a
-  /// winding map than a flat list, without needing custom path painting.
-  static double _staggerFor(int index) {
-    const wave = [0.0, 28.0, 0.0, -28.0];
-    return wave[index % wave.length];
-  }
+  /// Horizontal px offset for a node's circle, alternating left/right so
+  /// the path reads as a gentle zigzag instead of a flat vertical list.
+  static double _staggerFor(int index) => index.isEven ? 16.0 : -16.0;
 
   String _materializedId(String nodeId, String suffix) =>
       'path_${widget.subjectKey}_${nodeId}_$suffix';
@@ -110,23 +92,27 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     return newSet;
   }
 
-  Future<QuizSet> _materializeQuiz(CurriculumNode node, _ContentKind kind) async {
-    final suffix = kind == _ContentKind.multipleChoice
-        ? 'mc'
-        : kind == _ContentKind.fillBlank
-        ? 'fillblank'
-        : 'truefalse';
+  Future<QuizSet> _materializeQuiz(CurriculumNode node, PathContentKind kind) async {
+    final suffix = switch (kind) {
+      PathContentKind.multipleChoice => 'mc',
+      PathContentKind.fillBlank => 'fillblank',
+      PathContentKind.trueFalse => 'truefalse',
+      PathContentKind.flashcards =>
+        throw ArgumentError('flashcards has no quiz set'),
+    };
     final id = _materializedId(node.id, suffix);
     final repository = QuizSetRepository();
     final all = await repository.loadAll();
     for (final set in all) {
       if (set.id == id) return set;
     }
-    final List<QuizQuestion> questions = kind == _ContentKind.multipleChoice
-        ? node.multipleChoice
-        : kind == _ContentKind.fillBlank
-        ? node.fillBlank
-        : node.trueFalse;
+    final List<QuizQuestion> questions = switch (kind) {
+      PathContentKind.multipleChoice => node.multipleChoice,
+      PathContentKind.fillBlank => node.fillBlank,
+      PathContentKind.trueFalse => node.trueFalse,
+      PathContentKind.flashcards =>
+        throw ArgumentError('flashcards has no quiz set'),
+    };
     final newSet = QuizSet(
       id: id,
       title: '${node.title} - ${kind.setFormat.shortLabel}',
@@ -137,61 +123,53 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     return newSet;
   }
 
-  /// After a quiz screen returns, re-reads that materialized set's own
-  /// (already-persisted) latest attempt and reuses its score — no quiz
-  /// grading logic is duplicated here.
-  Future<void> _refreshCompletionAfterQuiz(String quizSetId, String nodeId) async {
+  /// Marks one content kind of one node as completed and reloads
+  /// progress so the ring/lock state on screen reflects it immediately.
+  /// No minimum score is required — reaching the end of the set (or, for
+  /// flashcards, reviewing every card) is enough.
+  Future<void> _markKindCompleted(CurriculumNode node, PathContentKind kind) async {
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) return;
-    final all = await QuizSetRepository().loadAll();
-    QuizSet? updated;
-    for (final set in all) {
-      if (set.id == quizSetId) {
-        updated = set;
-        break;
-      }
-    }
-    if (updated == null || updated.attempts.isEmpty) return;
-    final last = updated.attempts.last;
-    if (last.totalCount == 0) return;
-    if (last.correctCount / last.totalCount < 0.6) return;
-
-    await _progressRepository.markNodeCompleted(uid, widget.subjectKey, nodeId);
+    await _progressRepository.markContentCompleted(
+      uid,
+      widget.subjectKey,
+      node.id,
+      kind,
+    );
     final progress = await _progressRepository.load(uid, widget.subjectKey);
     if (!mounted) return;
     setState(() => _progress = progress);
   }
 
-  Future<void> _openContent(CurriculumNode node, _ContentKind kind) async {
-    if (kind == _ContentKind.flashcards) {
+  Future<void> _openContent(CurriculumNode node, PathContentKind kind) async {
+    if (kind == PathContentKind.flashcards) {
       final set = await _materializeFlashcards(node);
       if (!mounted) return;
       await Navigator.of(context).push(
-        MaterialPageRoute(builder: (context) => CardSetDetailScreen(cardSet: set)),
+        MaterialPageRoute(
+          builder: (context) => CardSetDetailScreen(
+            cardSet: set,
+            onAllCardsReviewed: () => _markKindCompleted(node, kind),
+          ),
+        ),
       );
       return;
     }
     final set = await _materializeQuiz(node, kind);
     if (!mounted) return;
     await Navigator.of(context).push(
-      MaterialPageRoute(builder: (context) => QuizSetScreen(quizSet: set)),
+      MaterialPageRoute(
+        builder: (context) => QuizSetScreen(
+          quizSet: set,
+          onFinished: () => _markKindCompleted(node, kind),
+        ),
+      ),
     );
-    await _refreshCompletionAfterQuiz(set.id, node.id);
   }
 
   Future<void> _openNodeSheet(CurriculumNode node) async {
-    final items = [
-      if (node.flashcards.isNotEmpty)
-        (kind: _ContentKind.flashcards, count: node.flashcards.length),
-      if (node.multipleChoice.isNotEmpty)
-        (kind: _ContentKind.multipleChoice, count: node.multipleChoice.length),
-      if (node.fillBlank.isNotEmpty)
-        (kind: _ContentKind.fillBlank, count: node.fillBlank.length),
-      if (node.trueFalse.isNotEmpty)
-        (kind: _ContentKind.trueFalse, count: node.trueFalse.length),
-    ];
-    if (items.isEmpty) return;
-    final kind = await showModalBottomSheet<_ContentKind>(
+    final progress = _progress?.progressFor(node.id) ?? const NodeProgress();
+    final kind = await showModalBottomSheet<PathContentKind>(
       context: context,
       showDragHandle: true,
       builder: (context) => SafeArea(
@@ -205,12 +183,14 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
                 style: Theme.of(context).textTheme.titleMedium,
               ),
             ),
-            for (final item in items)
-              ListTile(
-                leading: Icon(item.kind.setFormat.icon),
-                title: Text(item.kind.setFormat.shortLabel),
-                trailing: Text('${item.count} adet'),
-                onTap: () => Navigator.of(context).pop(item.kind),
+            for (final contentKind in PathContentKind.values)
+              _ContentKindTile(
+                kind: contentKind,
+                available: node.hasContent(contentKind),
+                completed: progress.isKindCompleted(contentKind),
+                onTap: node.hasContent(contentKind)
+                    ? () => Navigator.of(context).pop(contentKind)
+                    : null,
               ),
             const SizedBox(height: 8),
           ],
@@ -246,12 +226,14 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       return const Center(child: Text('Bu ders için henüz bir yol yok.'));
     }
 
+    final progress = _progress;
     final allNodes = path.allNodes;
     var flatIndex = 0;
     final children = <Widget>[];
     for (var unitIndex = 0; unitIndex < path.units.length; unitIndex++) {
       final unit = path.units[unitIndex];
-      children.add(_UnitHeader(unit: unit));
+      children.add(_UnitBanner(unit: unit));
+      children.add(const SizedBox(height: 12));
       if (unit.isComingSoon) {
         children.add(const SizedBox(height: 8));
         continue;
@@ -259,16 +241,19 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       for (var i = 0; i < unit.nodes.length; i++) {
         final node = unit.nodes[i];
         final index = flatIndex;
-        final isCompleted = _progress?.isCompleted(node.id) ?? false;
-        final isUnlocked = index == 0 || (_progress?.isCompleted(allNodes[index - 1].id) ?? false);
+        final isCompleted = progress?.isNodeCompleted(node) ?? false;
+        final isUnlocked =
+            index == 0 || (progress?.isNodeCompleted(allNodes[index - 1]) ?? false);
         final isLast = index == allNodes.length - 1;
         children.add(
           _NodeTile(
             node: node,
+            progress: progress?.progressFor(node.id),
             isCompleted: isCompleted,
             isUnlocked: isUnlocked,
             isLast: isLast,
             stagger: _staggerFor(index),
+            nextStagger: isLast ? null : _staggerFor(index + 1),
             onTap: () {
               if (!isUnlocked) {
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -284,7 +269,7 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
         );
         flatIndex++;
       }
-      children.add(const SizedBox(height: 12));
+      children.add(const SizedBox(height: 20));
     }
 
     return ListView(
@@ -294,27 +279,42 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
   }
 }
 
-class _UnitHeader extends StatelessWidget {
-  const _UnitHeader({required this.unit});
+/// Vertically stacked "BÖLÜM {order}: {title}" banner above each unit's
+/// nodes — colored/highlighted for available units, muted for
+/// [CurriculumUnit.isComingSoon] ones.
+class _UnitBanner extends StatelessWidget {
+  const _UnitBanner({required this.unit});
 
   final CurriculumUnit unit;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
+    final isComingSoon = unit.isComingSoon;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      decoration: BoxDecoration(
+        color: isComingSoon
+            ? colorScheme.surfaceContainerHighest
+            : colorScheme.primaryContainer,
+        borderRadius: BorderRadius.circular(14),
+      ),
       child: Row(
         children: [
           Expanded(
             child: Text(
-              'Ünite ${unit.order}: ${unit.title}',
+              'BÖLÜM ${unit.order}: ${unit.title}',
               style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                color: unit.isComingSoon ? colorScheme.onSurfaceVariant : null,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 0.2,
+                color: isComingSoon
+                    ? colorScheme.onSurfaceVariant
+                    : colorScheme.onPrimaryContainer,
               ),
             ),
           ),
-          if (unit.isComingSoon) ...[
+          if (isComingSoon) ...[
             const SizedBox(width: 8),
             Icon(Icons.lock_outline, size: 16, color: colorScheme.onSurfaceVariant),
             const SizedBox(width: 4),
@@ -334,22 +334,30 @@ class _UnitHeader extends StatelessWidget {
 class _NodeTile extends StatelessWidget {
   const _NodeTile({
     required this.node,
+    required this.progress,
     required this.isCompleted,
     required this.isUnlocked,
     required this.isLast,
     required this.stagger,
+    required this.nextStagger,
     required this.onTap,
   });
 
   final CurriculumNode node;
+  final NodeProgress? progress;
   final bool isCompleted;
   final bool isUnlocked;
   final bool isLast;
 
   /// Horizontal px offset for this node's circle — see
-  /// [_PathDetailScreenState._staggerFor].
+  /// [_PathDetailScreenState._staggerFor]. `null` on [nextStagger] for
+  /// the very last node (no connector drawn below it).
   final double stagger;
+  final double? nextStagger;
   final VoidCallback onTap;
+
+  static const double _slotWidth = 92;
+  static const double _ringDiameter = 60;
 
   @override
   Widget build(BuildContext context) {
@@ -366,6 +374,12 @@ class _NodeTile extends StatelessWidget {
     // so it's colored the same as the completed state.
     final lineColor = isCompleted ? Colors.green : colorScheme.outlineVariant;
 
+    final filled = isUnlocked
+        ? PathContentKind.values
+              .map((kind) => !node.hasContent(kind) || (progress?.isKindCompleted(kind) ?? false))
+              .toList()
+        : const [false, false, false, false];
+
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(12),
@@ -378,51 +392,66 @@ class _NodeTile extends StatelessWidget {
               Column(
                 children: [
                   // Fixed-width slot so the circle can wander left/right
-                  // (a wave, like a winding path) without ever overlapping
-                  // the title text that follows in the row — the spine
-                  // line below stays centered in this same slot.
+                  // (a zigzag) without ever overlapping the title text
+                  // that follows in the row — the connector below stays
+                  // anchored to the same exact pixel offset via
+                  // Transform.translate, so it lines up with the circle.
                   SizedBox(
-                    width: 76,
-                    child: Align(
-                      alignment: Alignment(stagger / 28, 0),
-                      child: AnimatedContainer(
-                        duration: const Duration(milliseconds: 200),
-                        decoration: isUnlocked && !isCompleted
-                            ? BoxDecoration(
-                                shape: BoxShape.circle,
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: colorScheme.primary.withValues(alpha: 0.35),
-                                    blurRadius: 12,
-                                    spreadRadius: 2,
-                                  ),
-                                ],
-                              )
-                            : null,
-                        child: CircleAvatar(
-                          radius: isUnlocked && !isCompleted ? 24 : 22,
-                          backgroundColor: circleColor,
-                          child: isCompleted
-                              ? Icon(Icons.check, color: iconColor)
-                              : isUnlocked
-                              ? Text(
-                                  '${node.order}',
-                                  style: TextStyle(
-                                    color: iconColor,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                )
-                              : Icon(Icons.lock_outline, color: iconColor, size: 18),
+                    width: _slotWidth,
+                    child: Transform.translate(
+                      offset: Offset(stagger, 0),
+                      child: Center(
+                        child: _NodeProgressRing(
+                          filled: filled,
+                          trackColor: colorScheme.outlineVariant,
+                          fillColor: Colors.green,
+                          diameter: _ringDiameter,
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 200),
+                            decoration: isUnlocked && !isCompleted
+                                ? BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: colorScheme.primary.withValues(alpha: 0.35),
+                                        blurRadius: 12,
+                                        spreadRadius: 2,
+                                      ),
+                                    ],
+                                  )
+                                : null,
+                            child: CircleAvatar(
+                              radius: isUnlocked && !isCompleted ? 24 : 22,
+                              backgroundColor: circleColor,
+                              child: isCompleted
+                                  ? Icon(Icons.check, color: iconColor)
+                                  : isUnlocked
+                                  ? Text(
+                                      '${node.order}',
+                                      style: TextStyle(
+                                        color: iconColor,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    )
+                                  : Icon(Icons.lock_outline, color: iconColor, size: 18),
+                            ),
+                          ),
                         ),
                       ),
                     ),
                   ),
                   if (!isLast)
                     Expanded(
-                      child: Container(
-                        width: 2,
-                        margin: const EdgeInsets.symmetric(vertical: 2),
-                        color: lineColor,
+                      child: SizedBox(
+                        width: _slotWidth,
+                        child: CustomPaint(
+                          painter: _DashedConnectorPainter(
+                            startX: _slotWidth / 2 + stagger,
+                            endX: _slotWidth / 2 + (nextStagger ?? stagger),
+                            color: lineColor,
+                          ),
+                          child: const SizedBox.expand(),
+                        ),
                       ),
                     ),
                 ],
@@ -456,6 +485,182 @@ class _NodeTile extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Wraps a node's [CircleAvatar] with a thin 4-slice progress ring — one
+/// slice per [PathContentKind], in the same top-clockwise order as
+/// [PathContentKind.values] (Hafıza Kartı, Çoktan Seçmeli, Boşluk
+/// Doldurma, Doğru/Yanlış) — filled once that kind is completed.
+class _NodeProgressRing extends StatelessWidget {
+  const _NodeProgressRing({
+    required this.filled,
+    required this.trackColor,
+    required this.fillColor,
+    required this.diameter,
+    required this.child,
+  });
+
+  final List<bool> filled;
+  final Color trackColor;
+  final Color fillColor;
+  final double diameter;
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: diameter,
+      height: diameter,
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          CustomPaint(
+            size: Size(diameter, diameter),
+            painter: _ProgressRingPainter(
+              filled: filled,
+              trackColor: trackColor,
+              fillColor: fillColor,
+            ),
+          ),
+          child,
+        ],
+      ),
+    );
+  }
+}
+
+class _ProgressRingPainter extends CustomPainter {
+  _ProgressRingPainter({
+    required this.filled,
+    required this.trackColor,
+    required this.fillColor,
+  });
+
+  final List<bool> filled;
+  final Color trackColor;
+  final Color fillColor;
+
+  static const _strokeWidth = 3.5;
+  static const _gapDegrees = 10.0;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final rect = Rect.fromLTWH(
+      _strokeWidth / 2,
+      _strokeWidth / 2,
+      size.width - _strokeWidth,
+      size.height - _strokeWidth,
+    );
+    const sweep = 90.0 - _gapDegrees;
+    for (var i = 0; i < filled.length; i++) {
+      final start = -90.0 + i * 90.0 + _gapDegrees / 2;
+      final paint = Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = _strokeWidth
+        ..strokeCap = StrokeCap.round
+        ..color = filled[i] ? fillColor : trackColor;
+      canvas.drawArc(
+        rect,
+        start * math.pi / 180,
+        sweep * math.pi / 180,
+        false,
+        paint,
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant _ProgressRingPainter oldDelegate) {
+    if (oldDelegate.trackColor != trackColor || oldDelegate.fillColor != fillColor) {
+      return true;
+    }
+    for (var i = 0; i < filled.length; i++) {
+      if (oldDelegate.filled[i] != filled[i]) return true;
+    }
+    return false;
+  }
+}
+
+/// A dashed connector curving between two consecutive nodes' zigzagged
+/// x-offsets, instead of a straight vertical line.
+class _DashedConnectorPainter extends CustomPainter {
+  _DashedConnectorPainter({
+    required this.startX,
+    required this.endX,
+    required this.color,
+  });
+
+  final double startX;
+  final double endX;
+  final Color color;
+
+  static const _dashLength = 5.0;
+  static const _gapLength = 5.0;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final path = Path()
+      ..moveTo(startX, 0)
+      ..quadraticBezierTo((startX + endX) / 2, size.height / 2, endX, size.height);
+    final paint = Paint()
+      ..color = color
+      ..strokeWidth = 2.5
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round;
+
+    for (final metric in path.computeMetrics()) {
+      var distance = 0.0;
+      while (distance < metric.length) {
+        final next = math.min(distance + _dashLength, metric.length);
+        canvas.drawPath(metric.extractPath(distance, next), paint);
+        distance = next + _gapLength;
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant _DashedConnectorPainter oldDelegate) =>
+      oldDelegate.startX != startX ||
+      oldDelegate.endX != endX ||
+      oldDelegate.color != color;
+}
+
+/// One row in the node's content-kind bottom sheet — name + a small
+/// completed/empty mark, or "İçerik yok" when the node has none of that
+/// kind (disabled, no tap).
+class _ContentKindTile extends StatelessWidget {
+  const _ContentKindTile({
+    required this.kind,
+    required this.available,
+    required this.completed,
+    required this.onTap,
+  });
+
+  final PathContentKind kind;
+  final bool available;
+  final bool completed;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final format = kind.setFormat;
+    return ListTile(
+      enabled: available,
+      leading: Icon(format.icon),
+      title: Text(format.shortLabel),
+      trailing: !available
+          ? Text(
+              'İçerik yok',
+              style: TextStyle(color: colorScheme.onSurfaceVariant, fontSize: 12),
+            )
+          : Icon(
+              completed ? Icons.check_circle : Icons.radio_button_unchecked,
+              color: completed ? Colors.green : colorScheme.outlineVariant,
+            ),
+      onTap: onTap,
     );
   }
 }

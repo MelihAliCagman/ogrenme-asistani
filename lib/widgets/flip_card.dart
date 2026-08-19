@@ -3,10 +3,20 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class FlipCard extends StatefulWidget {
-  const FlipCard({super.key, required this.front, required this.back});
+  const FlipCard({
+    super.key,
+    required this.front,
+    required this.back,
+    this.onFlip,
+  });
 
   final Widget front;
   final Widget back;
+
+  /// Called the first time this card is flipped to its back (not on
+  /// every subsequent toggle) — used to track "all cards reviewed"
+  /// progress without the card needing to know why it's being watched.
+  final VoidCallback? onFlip;
 
   @override
   State<FlipCard> createState() => _FlipCardState();
@@ -23,6 +33,7 @@ class _FlipCardState extends State<FlipCard>
   void _toggle() {
     if (_showFront) {
       _controller.forward();
+      widget.onFlip?.call();
     } else {
       _controller.reverse();
     }
