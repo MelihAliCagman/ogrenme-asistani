@@ -225,9 +225,16 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
     final colorScheme = Theme.of(context).colorScheme;
     final question = _currentQuestion;
     final optionOrder = _currentOptionOrder;
-    final optionLabels = question.type == QuestionType.trueFalse
-        ? const ['D', 'Y']
-        : const ['A', 'B', 'C', 'D'];
+    final isTrueFalse = question.type == QuestionType.trueFalse;
+    // For Doğru/Yanlış, the label must follow the OPTION'S OWN meaning
+    // ("Doğru" is always D, "Yanlış" is always Y), never its shuffled
+    // display position — unlike A/B/C/D, which are just position
+    // markers for multiple choice and are fine to assign by displayIndex.
+    String labelFor(int displayIndex) {
+      if (!isTrueFalse) return const ['A', 'B', 'C', 'D'][displayIndex];
+      return question.options[optionOrder[displayIndex]] == 'Doğru' ? 'D' : 'Y';
+    }
+
     final isWrongSelected =
         _selectedOption != null &&
         _selectedOption != _currentCorrectDisplayIndex;
@@ -254,7 +261,7 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: _OptionTile(
-              label: optionLabels[displayIndex],
+              label: labelFor(displayIndex),
               text: question.options[optionOrder[displayIndex]],
               state: _optionState(displayIndex),
               onTap: () => _selectOption(displayIndex),
