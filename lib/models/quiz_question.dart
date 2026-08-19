@@ -7,6 +7,21 @@
 /// marker (e.g. "____").
 enum QuestionType { multipleChoice, trueFalse, fillBlank }
 
+extension QuestionTypeLabel on QuestionType {
+  /// Short label for the set-list badge — distinct from [QuizQuestion]'s
+  /// own use, this is meant to fit a small chip, not a screen title.
+  String get badgeLabel {
+    switch (this) {
+      case QuestionType.multipleChoice:
+        return 'Çoktan Seçmeli';
+      case QuestionType.trueFalse:
+        return 'Doğru/Yanlış';
+      case QuestionType.fillBlank:
+        return 'Boşluk Doldurma';
+    }
+  }
+}
+
 QuestionType _typeFromJson(String? raw) {
   switch (raw) {
     case 'trueFalse':

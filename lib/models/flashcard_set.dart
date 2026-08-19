@@ -7,6 +7,7 @@ class FlashcardSet {
     required this.createdAt,
     required this.cards,
     this.subjectId,
+    this.isManual = false,
   });
 
   factory FlashcardSet.fromJson(Map<String, dynamic> json) {
@@ -20,6 +21,7 @@ class FlashcardSet {
           .map(Flashcard.fromJson)
           .toList(),
       subjectId: json['subjectId'] as String?,
+      isManual: json['isManual'] as bool? ?? false,
     );
   }
 
@@ -29,11 +31,16 @@ class FlashcardSet {
   final List<Flashcard> cards;
   final String? subjectId;
 
+  /// Whether the user typed these cards in by hand instead of generating
+  /// them with AI — shown as a small badge in set lists.
+  final bool isManual;
+
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,
     'createdAt': createdAt.toIso8601String(),
     'cards': cards.map((c) => c.toJson()).toList(),
     'subjectId': subjectId,
+    'isManual': isManual,
   };
 }

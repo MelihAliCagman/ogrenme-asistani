@@ -1,0 +1,2213 @@
+{
+  "subjectKey": "tyt_biyoloji",
+  "title": "TYT Biyoloji",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Canlıların Ortak Özellikleri ve Temel Bileşenler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Canlıların Ortak Özellikleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "question": "Bütün canlıların sahip olduğu, tek hücrelilerde bölünme, çok hücrelilerde ise sayı ve hacim artışı ile gerçekleşen ortak özellik nedir?",
+              "answer": "Büyüme"
+            },
+            {
+              "question": "Canlıların iç dengesini değişen çevre koşullarına rağmen kararlı ve dengeli tutma mekanizmasına ne ad verilir?",
+              "answer": "Homeostazi"
+            },
+            {
+              "question": "Hücresel organizasyon basamaklarında, benzer yapı ve görevdeki hücrelerin bir araya gelmesiyle ne oluşur?",
+              "answer": "Doku"
+            },
+            {
+              "question": "Canlıların nesillerini devam ettirebilmek için kendilerine benzer yeni bireyler oluşturması sürecine ne denir?",
+              "answer": "Üreme"
+            },
+            {
+              "question": "Hücre içi atık maddelerin vücuttan uzaklaştırılması olayına ne ad verilir?",
+              "answer": "Boşaltım"
+            },
+            {
+              "question": "Canlıların dış ortamdan gelen uyarıcılara karşı gösterdiği yönelme veya tepki verme yeteneğine ne denir?",
+              "answer": "Uyarılara tepki"
+            },
+            {
+              "question": "Organik besin monomerlerinin parçalanarak ATP üretildiği hücresel solunum reaksiyonlarının temel amacı nedir?",
+              "answer": "Enerji üretmek"
+            },
+            {
+              "question": "Tüm canlıların yapısında bulunan, prokaryot ve ökaryot olmak üzere iki temel tipe ayrılan birim nedir?",
+              "answer": "Hücre"
+            },
+            {
+              "question": "Bakteri ve arkeler gibi tek hücreli canlılarda organizasyonun en üst basamağı hangisidir?",
+              "answer": "Hücre"
+            },
+            {
+              "question": "Canlıların dış ortamdan hazır alarak ya da fotosentez ile üreterek vücutlarına almasına ne denir?",
+              "answer": "Beslenme"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Bütün canlılarda aşağıda verilen özelliklerden hangisi ortak olarak bulunur?",
+              "options": [
+                "Oksijenli solunum yapma",
+                "Hücresel yapıya sahip olma",
+                "Aktif hareket etme",
+                "Eşeyli üreme ile çoğalma"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bütün canlılar prokaryot veya ökaryot yapıda olsun mutlaka hücre veya hücrelerden oluşur. Diğer seçenekler tüm canlılar için ortak değildir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlıların iç dengesini kararlı ve değişmez bir halde tutmasına ne ad verilir?",
+              "options": [
+                "Metabolizma",
+                "Homeostazi",
+                "Adaptasyon",
+                "Mutasyon"
+              ],
+              "correctIndex": 1,
+              "explanation": "Homeostazi, değişen dış çevreye rağmen canlının iç dengesini kararlı tutma yeteneğidir. Örneğin insanın terleyerek vücut ısısını sabitlemesi buna örnektir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Tek hücreli ve çok hücreli bütün canlılar için aşağıdakilerden hangisi ortak bir özelliktir?",
+              "options": [
+                "Doku ve organ sistemlerine sahip olma",
+                "Organik besinleri dışarıdan hazır alma",
+                "Metabolik atıkları vücuttan uzaklaştırma",
+                "Kloroplast organeli ile fotosentez yapma"
+              ],
+              "correctIndex": 2,
+              "explanation": "Tüm canlılar gerçekleştirdikleri metabolik faaliyetler sonucunda oluşan atıkları boşaltım yoluyla uzaklaştırır. Doku ve organ sadece çok hücrelilerde bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlıların organizasyon basamakları küçükten büyüğe doğru sıralandığında, aşağıdakilerden hangisi 'doku' basamağından hemen önce gelir?",
+              "options": [
+                "Organ",
+                "Hücre",
+                "Sistem",
+                "Organizma"
+              ],
+              "correctIndex": 1,
+              "explanation": "Organizasyon basamakları hücre, doku, organ, sistem ve organizma şeklinde sıralanır. Buna göre dokudan hemen önce hücre gelir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitkilerin ışığa doğru yönelmesi canlıların ortak özelliklerinden hangisiyle doğrudan ilgilidir?",
+              "options": [
+                "Uyarılara tepki",
+                "Otootrof beslenme",
+                "Eşeyli üreme",
+                "Aktif hareket"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bitkilerin ışık gibi dış uyarılara karşı yönelme hareketi göstermesi, uyarılara tepki verme özelliğinin bir sonucudur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlıların nesillerini devam ettirebilmek için kendilerine benzer yeni bireyler oluşturması süreci aşağıdakilerden hangisidir?",
+              "options": [
+                "Solunum",
+                "Üreme",
+                "Boşaltım",
+                "Beslenme"
+              ],
+              "correctIndex": 1,
+              "explanation": "Üreme canlılar için ortak bir özelliktir ve neslin devamını sağlar, ancak bireyin hayatta kalması için zorunlu değildir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi heterotrof (besinini dışarıdan hazır alan) beslenen bir canlının ortak özelliklerinden biri olamaz?",
+              "options": [
+                "Kendi besinini fotosentezle üretme",
+                "Hücresel solunum yapma",
+                "Enzim kullanma",
+                "Metabolizma sahibi olma"
+              ],
+              "correctIndex": 0,
+              "explanation": "Heterotrof canlılar kendi besinini üretemez, dışarıdan hazır alır. Fotosentez yaparak kendi besinini üretenler ototrof canlılardır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlı organizmalarda gerçekleşen anabolizma ve katabolizma olaylarının tamamına ne ad verilir?",
+              "options": [
+                "Homeostazi",
+                "Metabolizma",
+                "Mutasyon",
+                "Adaptasyon"
+              ],
+              "correctIndex": 1,
+              "explanation": "Yapım (anabolizma) ve yıkım (katabolizma) tepkimelerinin bütününe metabolizma denir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Çok hücreli bir hayvanda organizasyon basamakları incelendiğinde, kalp hangi basamakta yer alır?",
+              "options": [
+                "Hücre",
+                "Doku",
+                "Organ",
+                "Sistem"
+              ],
+              "correctIndex": 2,
+              "explanation": "Kalp, birden fazla dokunun bir araya gelmesiyle oluşan bir organdır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki canlılardan hangisinde organ ve sistem düzeyinde bir organizasyon görülmez?",
+              "options": [
+                "Amip",
+                "Kedi",
+                "Çam ağacı",
+                "Serçe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Amip tek hücreli bir canlıdır. Tek hücreli canlılarda doku, organ ve sistem düzeyinde organizasyon bulunmaz.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Bütün canlılar yaşamlarını sürdürebilmek için dış ortamdan besin, su ve oksijen gibi maddeleri almak zorundadır, bu duruma ____ denir.",
+              "options": [
+                "beslenme"
+              ],
+              "correctIndex": 0,
+              "explanation": "Canlıların enerji üretmek ve yapı taşlarını oluşturmak için dışarıdan madde alması beslenme olarak adlandırılır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Tek hücreli canlılarda hacim ve yüzey artışı ile gözlenen, çok hücreli canlılarda ise hücre bölünmesiyle sağlanan ortak özelliğe ____ denir.",
+              "options": [
+                "büyüme"
+              ],
+              "correctIndex": 0,
+              "explanation": "Büyüme, tek hücrelilerde sitoplazmanın hacimce artışı, çok hücrelilerde ise hücre sayısının ve hacminin artması ile gerçekleşir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Canlıların iç ortamlarını (pH, sıcaklık vb.) kararlı ve dengeli bir şekilde sabit tutma yeteneğine ____ denir.",
+              "options": [
+                "homeostazi"
+              ],
+              "correctIndex": 0,
+              "explanation": "Homeostazi, çevresel değişikliklere rağmen organizmanın iç dengesini koruması anlamına gelir ve tüm canlılarda ortaktır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Canlıların nesillerini devam ettirebilmek ve kalıtsal bilgiyi sonraki kuşaklara aktarmak için gerçekleştirdiği ortak özellik ____ adı verilir.",
+              "options": [
+                "üreme"
+              ],
+              "correctIndex": 0,
+              "explanation": "Üreme canlılığın devamı için şarttır ancak bireyin hayatta kalması için zorunlu bir ortak özellik değildir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Canlıların çevreden gelen fiziksel ve kimyasal uyarıcılara karşı gösterdiği durumsal tepkilere ____ denir.",
+              "options": [
+                "irkilme"
+              ],
+              "correctIndex": 0,
+              "explanation": "İrkilme, tüm canlıların çevresel uyaranlara karşı gösterdiği ani ve ortak tepki çeşitlerinden biridir.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Tüm canlılar hücresel yapıya sahip olup, tek hücreli canlılarda da organizasyon basamakları hücre, doku ve organ şeklinde ilerler.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Tek hücreli canlılarda doku ve organ düzeyinde organizasyon bulunmaz, organizasyon sadece hücre düzeyinde kalır.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Canlıların iç dengesini kararlı ve değişmez bir sınırda tutma yeteneğine homeostazi denir ve tüm canlılarda ortak olarak görülür.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Homeostazi, tüm canlıların çevresel değişimlere karşı iç ortamlarını belirli bir denge altında tutma ortak özelliğidir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Bütün canlılar inaktif maddelerden kendi besinlerini üretmek için fotosentez yapmak zorundadır.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Beslenme tüm canlılar için ortak bir özelliktir ancak heterotrof canlılar kendi besinlerini üretemez, dışarıdan hazır alırlar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Canlılarda metabolizma sonucu oluşan zararlı atık maddelerin vücuttan uzaklaştırılması olayına boşaltım denir ve bu özellik tüm canlılarda ortak olarak gerçekleşir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Boşaltım, metabolik faaliyetler sonucu oluşan atıkların atılması için tüm canlılarda ortak görülen hayati bir süreçtir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Canlıların üremesi türün devamı için zorunludur ancak bireyin hayatta kalması için biyolojik olarak zorunlu bir ortak özellik değildir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Üreme ortak bir özelliktir ancak tek bir bireyin yaşamını sürdürmesi için şart değildir, neslin devamını sağlar.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İnorganik Bileşikler",
+          "estimatedMinutes": 12,
+          "flashcards": [
+            {
+              "question": "Canlıların yapısına katılan ve en fazla bulunan inorganik bileşik hangisidir?",
+              "answer": "Su"
+            },
+            {
+              "question": "Suyun özgül ısısının yüksek olması canlılara hangi temel avantajı sağlar?",
+              "answer": "Vücut sıcaklığının dengede tutulmasını sağlar"
+            },
+            {
+              "question": "Su moleküllerinin hidrojen bağları ile başka yüzeylere tutunma özelliğine ne ad verilir?",
+              "answer": "Adhezyon"
+            },
+            {
+              "question": "Su moleküllerinin birbirine hidrojen bağları ile tutunarak yüzey gerilimi oluşturmasına ne denir?",
+              "answer": "Kohezyon"
+            },
+            {
+              "question": "Mineraller canlı vücudunda hangi temel organik molekülün yapısına katılarak düzenleyici görev üstlenir?",
+              "answer": "Enzim"
+            },
+            {
+              "question": "Kanın ozmotik basıncını ve vücudun su dengesini korumada en çok rol oynayan mineral hangisidir?",
+              "answer": "Sodyum"
+            },
+            {
+              "question": "Kemiklerin ve dişlerin yapısında en çok bulunan iki mineral hangisidir?",
+              "answer": "Kalsiyum ve fosfor"
+            },
+            {
+              "question": "Hemoglobin molekülünün yapısına katılarak oksijen taşınmasını sağlayan mineral hangisidir?",
+              "answer": "Demir"
+            },
+            {
+              "question": "Eksikliğinde guatr hastalığı görülen mineral hangisidir?",
+              "answer": "İyot"
+            },
+            {
+              "question": "Klorofil pigmentinin yapısında yer alan ve fotosentez için gerekli olan mineral hangisidir?",
+              "answer": "Magnezyum"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi suyun canlılar için taşıdığı biyolojik önem ve özelliklerden biri değildir?",
+              "options": [
+                "Özgül ısısının yüksek olması sayesinde vücut sıcaklığının dengelenmesinde rol oynar.",
+                "Hidrojen bağları sayesinde molekülleri birbirini tutar ve kohezyon kuvveti sağlar.",
+                "Hücre içinde enerji üretiminde doğrudan birincil besin kaynağı olarak kullanılır.",
+                "Çözücü özelliği sayesinde metabolik atıkların vücuttan uzaklaştırılmasını kolaylaştırır."
+              ],
+              "correctIndex": 2,
+              "explanation": "Su, hücresel solunumda enerji hammaddesi olarak doğrudan kullanılmaz; inorganik bir maddedir ve enerji vermez.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitkilerin köklerinden aldığı suyun yer çekimine zıt yönde yapraklara kadar taşınmasında suyun hangi özelliği en etkili rol oynar?",
+              "options": [
+                "Kohezyon ve adhezyon kuvvetleri",
+                "Yüksek özgül ısı kapasitesi",
+                "pH değerini dengeleme yeteneği",
+                "Donduğunda yoğunluğunun azalması"
+              ],
+              "correctIndex": 0,
+              "explanation": "Su moleküllerinin hem birbirini çekmesi (kohezyon) hem de boruların çeperine tutunması (adhezyon) kılcallık olayını ve suyun taşınmasını sağlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlıların vücut sıcaklığının ani değişimlere karşı korunmasında suyun hangi özelliği doğrudan etkilidir?",
+              "options": [
+                "İyi bir çözücü olması",
+                "Yüksek buharlaşma ısısına ve özgül ısıya sahip olması",
+                "Yoğunluğunun 4 derecede en yüksek değere ulaşması",
+                "Polar yapıya sahip olması"
+              ],
+              "correctIndex": 1,
+              "explanation": "Suyun yüksek özgül ısısı ve buharlaşma ısısı, sıcaklık dalgalanmalarını tamponlayarak organizmayı aşırı ısınmadan korur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "İnsan vücudunda gerçekleşen; kalsiyum, demir ve potasyum gibi minerallerle ilgili olarak aşağıdakilerden hangisi söylenebilir?",
+              "options": [
+                "Sindirim enzimleriyle hidrolize uğratılarak yapı taşlarına ayrılırlar.",
+                "Organik bileşiklerin yapısına katılarak düzenleyici ve yapısal görev yaparlar.",
+                "Canlılar tarafından hücre içinde sıfırdan sentezlenebilirler.",
+                "Solunum reaksiyonlarında doğrudan enerji verici olarak kullanılırlar."
+              ],
+              "correctIndex": 1,
+              "explanation": "Mineraller inorganik yapıda oldukları için sindirilmez ve sentezlenmezler; yapıya katılarak düzenleyici rol oynarlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Kanın yapısında oksijen taşınmasını sağlayan hemoglobin molekülünün yapısına katılan ve eksikliğinde anemi (kansızlık) görülen mineral aşağıdakilerden hangisidir?",
+              "options": [
+                "Kalsiyum",
+                "Magnezyum",
+                "Demir",
+                "İyot"
+              ],
+              "correctIndex": 2,
+              "explanation": "Demir minerali, alyuvarlardaki hemoglobinin yapısına katılarak oksijen ve karbondioksit taşınmasında görev alır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Tiroit bezinden salgılanan tiroksin hormonunun sentezlenebilmesi için vücuda dışarıdan mutlaka alınması gereken mineral hangisidir?",
+              "options": [
+                "Potasyum",
+                "İyot",
+                "Çinko",
+                "Fosfor"
+              ],
+              "correctIndex": 1,
+              "explanation": "İyot eksikliğinde tiroksin hormonu üretilemez ve guatr hastalığı ortaya çıkar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki minerallerden hangisi insanlarda kemik ve dişlerin yapısına katılması yanı sıra kas kasılması ve sinirsel iletimde de doğrudan görev yapar?",
+              "options": [
+                "Kalsiyum",
+                "Demir",
+                "Magnezyum",
+                "Klor"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kalsiyum, sert dokuların yapısında bulunmasının yanı sıra kasların kasılması ve sinir impulslarının iletiminde kritik öneme sahiptir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitkilerin fotosentez yapabilmesi için klorofil pigmentinin sentezinde kofaktör olarak görev yapan ve eksikliğinde yapraklarda sararma görülen mineral hangisidir?",
+              "options": [
+                "Sodyum",
+                "Magnezyum",
+                "Fosfor",
+                "Kalsiyum"
+              ],
+              "correctIndex": 1,
+              "explanation": "Magnezyum, klorofil molekülünün merkez atomudur ve eksikliğinde fotosentez olayı olumsuz etkilenir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Hücre içi ve hücre dışı sıvı dengesinin (ozmotik basınç) korunmasında, ayrıca sinir hücrelerinde impulsların iletiminde birlikte görev yapan temel mineraller hangileridir?",
+              "options": [
+                "Demir ve İyot",
+                "Kalsiyum ve Fosfor",
+                "Sodyum ve Potasyum",
+                "Magnezyum ve Çinko"
+              ],
+              "correctIndex": 2,
+              "explanation": "Sodyum ve potasyum iyonları, hücre zarındaki pompalarla osmotik dengenin ve sinirsel iletimin temelini oluşturur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki ifadelerden hangisi hem su hem de mineraller için ortak bir özelliktir?",
+              "options": [
+                "Hücre zarından difüzyon veya aktif taşıma ile doğrudan geçebilme",
+                "Sindirim kanalında enzimler yardımıyla daha küçük moleküllere parçalanma",
+                "Canlıların hücrelerinde organik moleküllerden sentezlenebilme",
+                "Solunum reaksiyonlarında yıkılarak ATP üretme"
+              ],
+              "correctIndex": 0,
+              "explanation": "Su ve mineraller küçük yapılı inorganik maddeler olduklarından sindirilmeden hücre zarından doğrudan geçebilirler.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Canlıların yapısına katılan ve vücutta sentezlenemediği için dışarıdan hazır olarak alınan su, mineraller, asitler, bazlar ve tuzlar ____ bileşikler olarak adlandırılır.",
+              "options": [
+                "inorganik"
+              ],
+              "correctIndex": 0,
+              "explanation": "Canlılar tarafından sentezlenemeyen ve doğrudan dışarıdan alınan bileşikler inorganik bileşikler olarak sınıflandırılır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Solunum reaksiyonlarında açığa çıkan karbondioksitin vücuttan uzaklaştırılmasında ve kan pH'ının dengede tutulmasında en önemli tampon maddelerden biri ____ iyonudur.",
+              "options": [
+                "bikarbonat"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bikarbonat iyonları, kanın asit-baz dengesini korumada ve solunum gazlarının taşınmasında kritik bir role sahiptir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Kemiklerin ve dişlerin yapısına katılan, ayrıca kas kasılması ve sinirsel iletimde görev yapan en temel mineral ____ elementidir.",
+              "options": [
+                "kalsiyum"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kalsiyum, özellikle iskelet sisteminin yapısında bolca bulunmasının yanı sıra metabolik faaliyetlerde de düzenleyici görev üstlenir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Bitkilerin fotosentez yapabilmesi için klorofil molekülünün sentezinde merkez atom olarak mutlaka bulunması gereken mineral ____ elementidir.",
+              "options": [
+                "magnezyum"
+              ],
+              "correctIndex": 0,
+              "explanation": "Magnezyum, klorofil molekülünün yapısına katılarak ışık enerjisinin emilmesinde ve fotosentezde doğrudan görev alır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Hücre zarının yapısına katılamayan ve sindirime uğramadan doğrudan hücre zárından geçebilen küçük yapılı bileşiklere ____ bileşikler denir.",
+              "options": [
+                "inorganik"
+              ],
+              "correctIndex": 0,
+              "explanation": "Inorganik bileşikler küçük moleküllü olduklarından hücre zarından hidrolize (sindirime) uğramadan doğrudan geçebilirler.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Su molekülleri arasındaki hidrojen bağları sayesinde su, ani sıcaklık değişimlerine karşı dirençlidir ve bu durum kararlı sucul ekosistemlerin oluşmasını sağlar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Su, yüksek özgül ısı kapasitesine sahiptir ve bu özellik hidrojen bağları sayesinde gerçekleşerek çevrenin ani ısınıp soğumasını engeller.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Mineraller hücre zarının yapısına doğrudan katılarak organik moleküllerin sentezinde enerji kaynağı olarak kullanılırlar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Mineraller düzenleyici, yapısal ve kofaktör olarak görev yaparlar ancak solunumda enerji hammaddesi olarak kullanılmazlar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Su moleküllerinin kohezyon kuvveti, bitkilerde köklerden yapraklara doğru suyun yerçekimine karşı taşınmasında etkilidir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Su moleküllerinin kendi aralarındaki hidrojen bağları kohezyon kuvvetini oluşturur ve bu da suyun kesintisiz bir sütun halinde taşınmasını sağlar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "İnorganik bileşikler hücre zarından doğrudan geçemeyecek kadar büyük yapılı olduklarından mutlaka hidroliz edilerek hücre içine alınırlar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "İnorganik bileşikler küçük yapılıdır ve sindirime (hidrolize) uğramadan hücre zarından doğrudan geçebilirler.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Kalsiyum minerali kemik ve dişlerin yapısına katılmasının yanı sıra kas kasılması ve sinirsel iletimde de düzenleyici olarak görev yapar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kalsiyum hem yapısal bir mineraldir hem de canlı metabolizmasında hayati düzenleyici işlevlere sahiptir.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Karbonhidratlar",
+          "estimatedMinutes": 12,
+          "flashcards": [
+            {
+              "question": "Monosakkaritler hücre zarı üzerindeki hangi deliklerden geçer?",
+              "answer": "Küçük moleküllü oldukları için porlardan doğrudan geçerler."
+            },
+            {
+              "question": "Canlılarda enerji veren en temel monosakkarit hangisidir?",
+              "answer": "Glikoz"
+            },
+            {
+              "question": "RNA'nın yapısına katılan pentoz şekeri hangisidir?",
+              "answer": "Riboz"
+            },
+            {
+              "question": "DNA'nın yapısına katılan 5 karbonlu şeker hangisidir?",
+              "answer": "Deoksiriboz"
+            },
+            {
+              "question": "İki monosakkarit arasında hangi bağ kurulur?",
+              "answer": "Glikozit bağı"
+            },
+            {
+              "question": "Disakkarit sentezi sırasında açığa çıkan su sayısı ile kurulan bağ sayısı arasında nasıl bir ilişki vardır?",
+              "answer": "Sayıca eşittir."
+            },
+            {
+              "question": "Süt şekerinin diğer adı nedir?",
+              "answer": "Laktoz"
+            },
+            {
+              "question": "Arpa şekeri olarak bilinen disakkarit hangisidir?",
+              "answer": "Maltoz"
+            },
+            {
+              "question": "Bitkilerde nişasta hangi hücre organelinde depolanır?",
+              "answer": "Lökoplast"
+            },
+            {
+              "question": "Eklem bacaklıların dış iskeletinin yapısında bulunan azotlu polisakkarit hangisidir?",
+              "answer": "Kitin"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi karbonhidratların yapısında kesinlikle bulunan elementlerden biridir?",
+              "options": [
+                "Azot",
+                "Kükürt",
+                "Hidrojen",
+                "Fosfor"
+              ],
+              "correctIndex": 2,
+              "explanation": "Karbonhidratlar karbon (C), hidrojen (H) ve oksijen (O) elementlerinden oluşur. Bu nedenle hidrojen yapısında kesinlikle bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki karbonhidrat çeşitlerinden hangisi hücre zarından doğrudan geçebilecek büyüklüktedir?",
+              "options": [
+                "Glikojen",
+                "Glikoz",
+                "Sakkaroz",
+                "Nişasta"
+              ],
+              "correctIndex": 1,
+              "explanation": "Glikoz bir monosakkarittir ve küçük yapılı olduğu için hidrolize uğramadan hücre zarından doğrudan geçebilir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitkisel hücrelerde fotosentez sonucu üretilen fazla glikozun geçici olarak depolandığı polisakkarit aşağıdakilerden hangisidir?",
+              "options": [
+                "Nişasta",
+                "Glikojen",
+                "Selüloz",
+                "Kitin"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bitkiler fazla glikozu nişasta halinde lökoplastlarda depolar. Selüloz ise depo değil, yapısal bir polisakkarittir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bir disakkarit olan maltoz molekülü sentezlenirken hangi iki monosakkarit bir araya gelir?",
+              "options": [
+                "Glikoz + Fruktoz",
+                "Glikoz + Galaktoz",
+                "Glikoz + Glikoz",
+                "Fruktoz + Galaktoz"
+              ],
+              "correctIndex": 2,
+              "explanation": "Maltoz (arpa şekeri), iki molekül glikozun glikozit bağı ile birleşmesi sonucu oluşur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki disakkaritlerden hangisi hayvan hücrelerinde sentezlenemez ancak hayvanlar tarafından besin yoluyla dışarıdan alınabilir?",
+              "options": [
+                "Laktoz",
+                "Maltoz",
+                "Sakkaroz",
+                "Glikojen"
+              ],
+              "correctIndex": 2,
+              "explanation": "Sakkaroz (çay şekeri) sadece bitkiler tarafından üretilir. Hayvanlar sakkarozu sentezleyemez, sadece tüketebilir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Eklembacaklıların dış iskeletinde ve mantarların hücre duvarında bulunan azot içeren yapısal polisakkarit aşağıdakilerden hangisidir?",
+              "options": [
+                "Selüloz",
+                "Kitin",
+                "Nişasta",
+                "Glikojen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Kitin yapısında azot bulunduran tek polisakkarittir ve eklembacaklıların dış iskeleti ile mantar hücre duvarının yapısına katılır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Süt şekeri olarak bilinen laktoz disakkaritinin hidrolizi sonucunda hangi monosakkaritler açığa çıkar?",
+              "options": [
+                "Glikoz ve Fruktoz",
+                "Glikoz ve Galaktoz",
+                "Glikoz ve Glikoz",
+                "Fruktoz ve Galaktoz"
+              ],
+              "correctIndex": 1,
+              "explanation": "Laktoz, bir molekül glikoz ile bir molekül galaktozun birleşmesiyle oluşur; dolayısıyla hidrolizinde bu ikisi açığa çıkar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitki hücrelerinin çeperinde bulunarak bitkiye mekanik destek sağlayan ve insan sindirim kanalında sindirilemeyen polisakkarit hangisidir?",
+              "options": [
+                "Nişasta",
+                "Kitin",
+                "Glikojen",
+                "Selüloz"
+              ],
+              "correctIndex": 3,
+              "explanation": "Selüloz bitkisel hücre çeperinin temel bileşenidir. İnsanlarda onu sindirecek enzim bulunmadığı için lif kaynağı olarak görev yapar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Beş karbonlu bir monosakkarit olan riboz molekülü canlılarda temel olarak hangi yapının oluşumunda görev alır?",
+              "options": [
+                "Glikojen",
+                "RNA ve ATP",
+                "Nişasta",
+                "Trigliserit"
+              ],
+              "correctIndex": 1,
+              "explanation": "Riboz pentoz (beş karbonlu) şekeridir ve RNA nükleotitleri ile enerji molekülü olan ATP'nin yapısına katılır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "İki monosakkarit arasında bir disakkarit oluşumu (dehidrasyon) sırasında aşağıdakilerden hangisi daima gerçekleşir?",
+              "options": [
+                "Su tüketimi",
+                "Su açığa çıkması",
+                "ATP harcanmaması",
+                "Glikozit bağının yıkılması"
+              ],
+              "correctIndex": 1,
+              "explanation": "Dehidrasyon sentezlerinde küçük moleküller birleşirken bağ kurulur ve açığa su çıkar. Disakkarit oluşumunda glikozit bağı kurulur.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Hücre zarının yapısına katılan ve glikolipid ile glikoproteinlerin oluşumunu sağlayan temel organik molekül grubu ____ olarak adlandırılır.",
+              "options": [
+                "karbonhidratlar"
+              ],
+              "correctIndex": 0,
+              "explanation": "Karbonhidratlar, hücre zarındaki proteinler ve lipitlerle birleşerek hücrenin özgüllüğünü belirleyen glikoprotein ve glikolipidleri oluşturur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Meyvelerde bolca bulunan ve bitkisel kaynaklı bir karbonhidrat çeşidi olan ____, yapısal olarak monosakkarittir.",
+              "options": [
+                "fruktoz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fruktoz, meyve şekeri olarak bilinen ve yapısında altı karbon bulunduran bir monosakkarit çeşididir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Bitkilerin hücre çeperinin yapısına katılan ve insanlar tarafından sindirilemeyen polisakkarit ____ olarak bilinir.",
+              "options": [
+                "selüloz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Selüloz, bitkilerde hücre duvarının temel yapı maddesidir ve insanda sindirim kanalında hidroliz edilemez.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Hayvanların ve mantarların vücudunda depolanan nişasta benzeri glikoz polimerine ____ denir.",
+              "options": [
+                "glikojen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Glikojen, hayvan, mantar ve bakteri hücrelerinde glikozun fazlasının depolandığı polisakkarittir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "İki monosakkaritin glikozit bağıyla birleşmesi ve bir molekül su açığa çıkarmasıyla oluşan karbonhidrat türüne ____ denir.",
+              "options": [
+                "disakkarit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Disakkaritler, iki monosakkaritin dehidrasyon sünteziyle ve aralarında glikozit bağı kurularak birleşmesi sonucu oluşur.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Monosakkaritler sindirime uğramadan doğrudan hücre zarından geçebilen en küçük karbonhidrat birimleridir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Monosakkaritler yapıtaşları olduğu için hidrolize (sindirim) ihtiyaç duymadan hücre zarından kolayca geçebilirler.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Glikojen, bitki hücrelerinin hücre çeperinin yapısına katılan temel bir polisakkarittir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Glikojen hayvan, mantar ve bakterilerde depopolisakkarittir. Bitki hücre duvarının yapısına katılan polisakkarit selülozdur.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Maltoz, maltoz sentezi sırasında bir molekül su açığa çıkaran bir disakkarittir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Maltoz iki molekül glikozun glikozit bağıyla birleşmesiyle oluşur ve bu dehidrasyon tepkimesinde bir molekül su açığa çıkar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Selüloz insan sindirim sisteminde hidrolize uğrayarak kana karışabilen enerji verici bir polisakkarittir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "İnsanlar selülozu sindirecek enzime sahip değildir. Selüloz insanlarda enerji vermez ancak bağırsak sağlığı için lif görevi görür.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Nişasta bitkilerde glikozun fazlasının depolandığı nişasta tanecikleri şeklinde bulunan bir polisakkarittir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bitkiler fotosentez sonucu ürettikleri fazla glikozu nişasta halinde lökoplast organellerinde depolar.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Lipitler (Yağlar)",
+          "estimatedMinutes": 12,
+          "flashcards": [
+            {
+              "question": "Lipitlerin yapı taşları nelerdir?",
+              "answer": "Yağ asidi ve gliserol"
+            },
+            {
+              "question": "Yağ asitleri ile gliserolü birbirine bağlayan kimyasal bağın adı nedir?",
+              "answer": "Ester bağı"
+            },
+            {
+              "question": "Üç yağ asidi ile bir gliserolün tepkimesi sonucu oluşan temel nötral yağ molekülü ile birlikte açığa çıkan su miktarı kaç mol olur?",
+              "answer": "3 mol"
+            },
+            {
+              "question": "Oda koşullarında katı halde bulunan, genellikle hayvansal kaynaklı ve karbon atomları arasında tek bağ içeren yağ asitlerine ne ad verilir?",
+              "answer": "Doymuş yağ asidi"
+            },
+            {
+              "question": "Oda koşullarında sıvı halde bulunan, genellikle bitkisel kaynaklı ve karbon atomları arasında çift bağ bulunduran yağ asitlerine ne ad verilir?",
+              "answer": "Doyumsuz yağ asidi"
+            },
+            {
+              "question": "Hücre zarının yapısına katılan, çift katlı tabaka oluşturan ve yapısında fosfat grubu bulunduran lipit çeşidi hangisidir?",
+              "answer": "Fosfolipit"
+            },
+            {
+              "question": "Eşey hormonları (östrojen, testosteron) ve kolesterol gibi canlılarda düzenleyici ve yapısal görevler üstlenen lipit grubu hangisidir?",
+              "answer": "Steroit"
+            },
+            {
+              "question": "Yağların solunumda yıkılması sonucunda karbonhidrat ve proteinlere göre daha fazla su açığa çıkmasının temel sebebi nedir?",
+              "answer": "Yapılarındaki hidrojen atomu sayısının fazla olması"
+            },
+            {
+              "question": "Kutup bölgelerinde yaşayan hayvanlarda ısı yalıtımı, hafiflik ve depo edilebilme avantajı sağlayan temel organik molekül grubu hangisidir?",
+              "answer": "Lipitler"
+            },
+            {
+              "question": "Yağda çözünen ve vücutta depolanan vitaminler hangileridir?",
+              "answer": "A, D, E, K vitaminleri"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi tüm lipit (yağ) çeşitleri için ortak bir özelliktir?",
+              "options": [
+                "Yapılarında gliserol molekulatorü bulundurma",
+                "Suda çözünmeyip eter, kloroform gibi organik çözücülerde çözünme",
+                "Yapılarında ester bağı bulundurma",
+                "Hücre zarının yapısına doğrudan katılarak akışkanlık sağlama"
+              ],
+              "correctIndex": 1,
+              "explanation": "Tüm lipitler polar olmayan yapıları nedeniyle suda çözünmezler ancak organik çözücülerde çözünürler. Gliserol ve ester bağı sadece bazı lipit çeşitlerinde bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Nötral yağ (trigliserit) sentezi sırasında gerçekleşen olaylarla ilgili aşağıdakilerden hangisi yanlıştır?",
+              "options": [
+                "Sentez reaksiyonu dehidrasyon olarak gerçekleşir.",
+                "Ortamdaki su miktarı azalırken ester bağı sayısı artar.",
+                "Bir molekül nötral yağ sentezinde en fazla üç farklı çeşit yağ asidi kullanılabilir.",
+                "Harcanan gliserol sayısı, açığa çıkan su sayısına eşittir."
+              ],
+              "correctIndex": 3,
+              "explanation": "Bir nötral yağ sentezinde 1 gliserol ve 3 yağ asidi birleşir, bu sırada 3 molekül su açığa çıkar. Yani açığa çıkan su sayısı harcanan gliserol sayısının üç katıdır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Doymuş yağ asitleri ile doymamış yağ asitlerinin karşılaştırıldığı aşağıdaki ifadelerden hangisi doğrudur?",
+              "options": [
+                "Doymuş yağ asitlerinin karbon atomları arasında çift bağ bulunur.",
+                "Doymamış yağ asitleri oda sıcaklığında katı haldedir.",
+                "Doymuş yağ asitlerinin hidrojen atomu sayısı, aynı karbon sayılı doymamış yağ asitlerine göre daha fazladır.",
+                "Zeytinyağı doymuş yağ asitlerine örnektir."
+              ],
+              "correctIndex": 2,
+              "explanation": "Doymuş yağ asitlerinin karbonları arasındaki bağlar tekli olduğundan doyabileceği maksimum hidrojen atomunu taşır. Doymamış yağ asitlerinde ise çift bağ bulunduğu için hidrojen sayısı daha azdır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlılar için lipitlerin önemi düşünüldüğünde, aşağıdakilerden hangisi yağların temel işlevlerinden biri değildir?",
+              "options": [
+                "Hücre zarının temel yapısını oluşturarak madde geçişini düzenlemek",
+                "Kutup bölgelerinde yaşayan hayvanlarda ısı yalıtımı sağlamak",
+                "Solunumla yıkıldıklarında karbonhidratlara göre daha az metabolic su açığa çıkarmak",
+                "Yağda çözünen vitaminlerin (A, D, E, K) vücuda alınmasını ve taşınmasını kolaylaştırmak"
+              ],
+              "correctIndex": 2,
+              "explanation": "Yağlar solunumla yıkıldıklarında yapılarındaki bol miktarda hidrojen nedeniyle karbonhidrat ve proteinlere göre çok daha fazla metabolik su açığa çıkarırlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Fosfolipit molekülleri hücre zarının yapısında çift katlı bir tabaka oluşturur. Bu durumun temel sebebi aşağıdakilerden hangisidir?",
+              "options": [
+                "Hidrofilik (suyu seven) baş kısımların dışa, hidrofobik (suyu sevmeyen) kuyruk kısımların içe bakması",
+                "Fosfolipitlerin proteinlerle ester bağı kurarak bağlanması",
+                "Fosfolipitlerin tamamının doymuş yağ asitlerinden oluşması",
+                "Sadece bitki hücrelerinin zarında bulunmaları"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fosfolipitler amfipatik moleküllerdir; polar baş kısımlar suyu severken apolar kuyruk kısımlar sudan kaçar ve bu sayede hücre zarında çift katlı tabaka oluştururlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Steroitler ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+              "options": [
+                "Yapıları halkasal karbon iskeletine sahiptir.",
+                "Hayvansal hücrelerin zarında bulunarak zara dayanıklılık kazandırabilir.",
+                "Eşey hormonlarının (östrojen, testosteron gibi) yapısına katılır.",
+                "Enerji elde etmek amacıyla solunum reaksiyonlarında ilk sırada kullanılır."
+              ],
+              "correctIndex": 3,
+              "explanation": "Steroitler düzenleyici ve yapısal lipitlerdir; enerji veren moleküller olarak ilk sırada değil, karbonhidratlar ve nötral yağlardan sonra gerekirse kullanılırlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki organik bileşik çiftlerinden hangisinin yapı taşları (monomerleri) aynıdır?",
+              "options": [
+                "Nötral yağ - Glikojen",
+                "Nişasta - Selüloz",
+                "Fosfolipit - Steroit",
+                "Protein - Nötral yağ"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nişasta ve selüloz bitkisel polisakkaritlerdir ve her ikisinin de yapı taşı glikozdur. Diğer seçeneklerdeki moleküllerin yapı taşları birbirinden farklıdır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşırı karbonhidrat tüketen sağlıklı bir bireyin vücudunda, bu fazla karbonhidratların bir kısmının yağ olarak depolandığı bilinmektedir. Bu dönüşüm sırasında gerçekleşen olaylarla ilgili,",
+              "options": [
+                "I. Vücuttaki ester bağı sayısı artar.",
+                "II. Karbonhidratların yapısındaki monomerler doğrudan esterleşir.",
+                "III. Olay sırasında dehidrasyon sentezi gerçekleşir.",
+                "ifadelerinden hangileri doğrudur?"
+              ],
+              "correctIndex": 2,
+              "explanation": "Fazla karbonhidratlar yağa dönüştürülürken glikozlar önce yağ asidi ve gliserole çevrilir, ardından dehidrasyon ile ester bağları kurularak trigliseritler sentezlenir. I ve III doğrudur, ancak II yanlıştır çünkü glikozlar doğrudan yağ asidine dönüşmez.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi bitki ve hayvanlarda ortak olarak bulunan lipit çeşitlerinden biridir?",
+              "options": [
+                "Klorofil pigmenti",
+                "Trigliserit (nötral yağ)",
+                "Kolesterol",
+                "Glikojen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Trigliseritler (nötral yağlar) hem bitkilerde hem de hayvansal organizmalarda enerji depolama amacıyla ortak olarak bulunur. Kolesterol sadece hayvansaldır, klorofil ve glikojen ise bitkilerde (ve bazı istisnai durumlarda değişir) farklı dağılım gösterir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bir biyoloji laboratuvarında saf bir lipit çözeltisi üzerine belirli bir ayıraç damlatıldığında çözeltinin renginin yarı şeffaf pembe-kırmızıya dönüştüğü gözlemleniyor. Bu deneyde kullanılan ayıraç aşağıdakilerden hangisidir?",
+              "options": [
+                "İyot çözeltisi",
+                "Benedict çözeltisi",
+                "Sudan III ayıracı",
+                "Biüret ayıracı"
+              ],
+              "correctIndex": 2,
+              "explanation": "Sudan III ayıracı lipitlerin (yağların) tespiti için kullanılır ve yağlarla birleştiğinde kırmızı renkli bir görünüm oluşturur. İyot nişastayı, Biüret proteinleri, Benedict ise glikozu belirler.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Lipitlerin yapı taşları yağ asitleri ve ____ molekülüdür.",
+              "options": [
+                "gliserol"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nötral yağların (trigliseritlerin) yapısında üç molekül yağ asidi ile bir molekül gliserol ester bağlarıyla bağlanarak bulunur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Oda koşullarında sıvı halde bulunan bitkisel yağların yapısındaki yağ asitleri ____ bağlar içerir.",
+              "options": [
+                "çift"
+              ],
+              "correctIndex": 0,
+              "explanation": "Doymamış yağ asitlerinin karbon atomları arasında ikili (çift) bağlar bulunur, bu yüzden oda sıcaklığında sıvı haldedirler.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Hücre zarının temel yapısını oluşturan, iki katlı tabaka halinde bulunan ve fosfat içeren lipit çeşidine ____ denir.",
+              "options": [
+                "fosfolipit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fosfolipitler hücre zarının temel bileşenidir; baş kısmı suyu seven (hidrofilik), kuyruk kısmı ise suyu sevmeyen (hidrofobik) yapıdadır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Eşey hormonlarının ve D vitamininin üretiminde öncül madde olarak kullanılan halkasal yapılı lipit çeşidi ____ molekülüdür.",
+              "options": [
+                "kolesterol"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kolesterol, hayvansal hücre zarlarının yapısına katılır ve steroid yapılı hormonlar ile bazı vitaminlerin sentezinde öncülük eder.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Yağ asitleri birbirine ____ bağları adı verilen özel bağlarla bağlanır.",
+              "options": [
+                "ester"
+              ],
+              "correctIndex": 0,
+              "explanation": "Yağ asitleri ile gliserolün birleşmesi sırasında ester bağları kurulur ve bu tepkime sonucunda su açığa çıkar.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Lipitlerin yapısında karbon, hidrojen ve oksijen atomları bulunur, ayrıca bazı çeşitlerinde azot ve fosfor da bulunabilir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Lipitler temel olarak C, H ve O elementlerinden oluşur. Fosfolipitler yapılarında fosfat ve azot grubu da bulundurur.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Nötral yağların (trigliserit) sentezi sırasında bir molekül yağ asidi ile üç molekül gliserol ester bağlarıyla birleşir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nötral yağ sentezinde üç molekül yağ asidi ile bir molekül gliserol birleşir ve bu sırada üç molekül su açığa çıkar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Doymuş yağların oda sıcaklığındaki fiziksel halleri katıdır ve genellikle hayvansal kaynaklıdırlar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Doymuş yağ asidi içeren yağlar karbon atomları arasında tek bağ bulundurduğu için oda koşullarında katı haldedir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Steroitler, hücre zarının yapısına katılan ve polimer yapıda olan büyük moleküllü lipit çeşitleridir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Steroitler lipit sınıfında yer almasına rağmen monomer yapılıdırlar ve polimerleşmezler.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Derialtı yağ dokusu, soğuk iklimde yaşayan hayvanların vücut ısısının korunmasında ve bazı iç organların darbelere karşı yastıklanmasında görev yapar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nötral yağlar ısı yalıtımı sağlama ve organları mekanik darbelere karşı koruma gibi hayati işlevlere sahiptir.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Proteinler",
+          "estimatedMinutes": 12,
+          "flashcards": [
+            {
+              "question": "Proteinlerin yapı taşları olan monomerlerin adı nedir?",
+              "answer": "Amino asit"
+            },
+            {
+              "question": "Amino asitlerin yapısında bulunan ve amino aside baz özelliği kazandıran grup hangisidir?",
+              "answer": "Amino grup"
+            },
+            {
+              "question": "Amino asitlerin yapısında bulunan ve zayıf asit özelliği gösteren grup hangisidir?",
+              "answer": "Karboksil grup"
+            },
+            {
+              "question": "Amino asitlerin birbirine bağlanmasını sağlayan bağ çeşidi nedir?",
+              "answer": "Peptit bağ"
+            },
+            {
+              "question": "İki amino asidin peptit bağıyla birleşmesi sonucu açığa çıkan molekül hangisidir?",
+              "answer": "Su"
+            },
+            {
+              "question": "Protein sentezi sırasında kurulan peptit bağ sayısı ile açığa çıkan su sayısı arasında nasıl bir ilişki vardır?",
+              "answer": "Eşittir"
+            },
+            {
+              "question": "Proteinlerin üç boyutlu yapı kazanarak işlevsel hale gelmesini bozan yüksek sıcaklık ve pH gibi faktörlerin yol açtığı duruma ne ad verilir?",
+              "answer": "Denatürasyon"
+            },
+            {
+              "question": "Canlılarda protein sentezine emir veren ve şifre sağlayan yönetici molekül hangisidir?",
+              "answer": "DNA"
+            },
+            {
+              "question": "Yapıcı, onarıcı ve düzenleyici olarak görev yapan, hücre zarının yapısına katılan organik bileşik grubu hangisidir?",
+              "answer": "Proteinler"
+            },
+            {
+              "question": "Kanın ozmotik basıncını ayarlayarak su dengesini koruyan ve karaciğerde üretilen temel kan proteini hangisidir?",
+              "answer": "Albümün"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi tüm amino asitlerin ortak özelliklerinden biridir?",
+              "options": [
+                "Radikal (R) grupta karbon atomu bulundurma",
+                "Yapılarında mutlaka kükürt (S) atomu taşıma",
+                "Amino grubu, karboksil grubu ve radikal grup bulundurma",
+                "Sadece bitkisel hücreler tarafından sentezlenme"
+              ],
+              "correctIndex": 2,
+              "explanation": "Tüm amino asitlerin yapısında merkezdeki bir karbon atomuna bağlı amino grubu, karboksil grubu, hidrojen ve değişken olan radikal grup bulunur. Kükürt her amino asitte bulunmaz.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "İki amino asit arasında kurulan peptit bağı sırasında hangi molekül açığa çıkar?",
+              "options": [
+                "Su",
+                "Karbondioksit",
+                "Amonyak",
+                "ATP"
+              ],
+              "correctIndex": 0,
+              "explanation": "Peptit bağı bir amino asidin karboksil grubu ile diğerinin amino grubu arasında dehidrasyon (su çıkışı) reaksiyonu ile kurulur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Proteinlerin yüksek sıcaklık, basınç ve aşırı pH gibi faktörler nedeniyle üç boyutlu yapılarını kaybetmesine ne ad verilir?",
+              "options": [
+                "Hidroliz",
+                "Denatürasyon",
+                "Dehidrasyon",
+                "Fosforilasyon"
+              ],
+              "correctIndex": 1,
+              "explanation": "Denatürasyon, proteinlerin zayıf hidrojen bağlarının bozulmasıyla üç boyutlu yapılarını kaybetmesidir ve genellikle işlev kaybına yol açar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlılarda proteinlerin yapı taşı olan amino asit çeşitliliğini sağlayan kısım aşağıdakilerden hangisidir?",
+              "options": [
+                "Amino grubu",
+                "Karboksil grubu",
+                "Peptit bağı",
+                "Radikal grup"
+              ],
+              "correctIndex": 3,
+              "explanation": "Amino asitlerin yapısındaki radikal (R) grup değişken olup, doğada bulunan 20 çeşit amino asidin birbirinden farklı olmasını sağlar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi proteinlerin vücuttaki temel işlevlerinden biri değildir?",
+              "options": [
+                "Hücre zarının yapısına katılarak madde alışverişini sağlama",
+                "Kalıtsal bilgiyi nesilden nesile aktarma",
+                "Enzim ve hormon yapısına katılarak düzenleme sağlama",
+                "Antikor oluşturarak savunma sisteminde görev alma"
+              ],
+              "correctIndex": 1,
+              "explanation": "Kalıtsal bilgiyi nesilden nesile aktarmak proteinlerin değil, nükleik asitlerin (DNA ve RNA) görevidir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Üç amino asidin iki peptit bağı ile birleşmesi sonucu oluşan moleküle ne ad verilir?",
+              "options": [
+                "Dipeptit",
+                "Tripeptit",
+                "Polipeptit",
+                "Nükleotit"
+              ],
+              "correctIndex": 1,
+              "explanation": "Üç amino asidin birleşmesiyle oluşan molekül tripeptit olarak adlandırılır ve bu süreçte 2 molekül su açığa çıkar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "İnsan vücudunda sentezlenemeyen ve besinlerle dışarıdan hazır olarak alınması gereken amino asitlere ne denir?",
+              "options": [
+                "Temel (esansiyel) amino asitler",
+                "Değişken amino asitler",
+                "Organik amino asitler",
+                "Sentetik amino asitler"
+              ],
+              "correctIndex": 0,
+              "explanation": "İnsan vücudunda üretilemeyip diyetle alınması zorunlu olan amino asitler temel ya da esansiyel amino asitler olarak adlandırılır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Proteinlerin yapılarına katılan amino asitler birbirine hangi bağla bağlanır?",
+              "options": [
+                "Glikozit bağı",
+                "Ester bağı",
+                "Peptit bağı",
+                "Hidrojen bağı"
+              ],
+              "correctIndex": 2,
+              "explanation": "Amino asitler arasında kurulan ve proteinlerin birincil yapısını oluşturan bağ peptit bağıdır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki moleküllerden hangisinin yapısında peptit bağı bulunur?",
+              "options": [
+                "Glikojen",
+                "İnsülin hormonu",
+                "Nişasta",
+                "Trigliserit"
+              ],
+              "correctIndex": 1,
+              "explanation": "İnsülin bir protein yapılı hormondur ve yapısında çok sayıda amino asit ile peptit bağları bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bitkiler fotosentez sırasında ürettikleri glikozdan protein sentezlemek için aşağıdakilerden hangisini topraktan hazır olarak almak zorundadır?",
+              "options": [
+                "Azot (N) tuzları",
+                "Karbon dioksit",
+                "Oksijen",
+                "Glikoz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Proteinlerin yapısında karbon, hidrojen, oksijen ve azot bulunur. Glikozda azot olmadığı için bitkiler azot ihtiyacını topraktan mineraller yoluyla karşılar.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Proteinlerin yapı taşları olan ____, amino asitlerin birbirine bağlanmasıyla oluşur.",
+              "options": [
+                "peptit bağı"
+              ],
+              "correctIndex": 0,
+              "explanation": "Amino asitler arasında kurulan bağ peptit bağı olarak adlandırılır ve bu bağın kurulması sırasında su açığa çıkar.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Canlıların kalıtsal şifresine uygun olarak protein sentezlenen hücresel organel ____ organelidir.",
+              "options": [
+                "ribozom"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ribozom, tüm canlı hücrelerde ortak olarak bulunan ve protein sentezini gerçekleştiren temel organeldir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Proteinlerin yüksek sıcaklık, basınç ve pH değişimleri nedeniyle üç boyutlu yapılarını kaybetmesine ____ denir.",
+              "options": [
+                "denatürasyon"
+              ],
+              "correctIndex": 0,
+              "explanation": "Denatürasyon, proteinlerin yapısal bozulmaya uğramasıdır ve genellikle biyolojik işlevlerini kaybetmelerine neden olur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Bitkiler fotosentez ile ürettikleri glikozdan protein sentezleyebilmek için topraktan ____ tuzlarını almak zorundadır.",
+              "options": [
+                "azot"
+              ],
+              "correctIndex": 0,
+              "explanation": "Proteinlerin yapısında karbon, hidrojen, oksijen ve azot elementleri bulunur; azot bitkiler tarafından inorganik tuzlar şeklinde alınır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Eksikliğinde çocuklarda büyüme geriliği, zeka geriliği ve ödem gibi belirtiler gösteren, kanın ozmotik basıncını ayarlayan temel kan proteini ____ proteinidir.",
+              "options": [
+                "albümin"
+              ],
+              "correctIndex": 0,
+              "explanation": "Albümin, karaciğerde üretilen ve kanın ozmotik basıncını dengede tutarak sıvı dengesini sağlayan önemli bir plazma proteinidir.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Proteinlerin yapı taşları olan amino asitlerin yapısında amino grubu, karboksil grubu, hidrojen ve radikal grup bulunur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Her amino asidin merkezinde bir karbon atomuna bağlı bir amino grubu, bir karboksil grubu, bir hidrojen atomu ve değişken bir radikal grup yer alır.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Amino asitler arasında kurulan ve protein oluşumunu sağlayan peptit bağı, esterleşme tepkimesi sonucunda oluşur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Amino asitler arasındaki bağ peptit bağıdır ve bu bağ su açığa çıkan dehidrasyon (peptitleşme) tepkimesiyle kurulur; ester bağı ise yağ asitleri ile gliserol arasında görülür.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Bir proteinin yapısındaki amino asitlerin dizilişi, sayısı ve çeşidi doğrudan o proteinin kendine özgü üç boyutlu yapısını ve işlevini belirler.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA şifresine göre üretilen proteinlerin amino asit dizilimindeki en küçük bir değişiklik bile proteinin işlevini yitirmesine neden olabilir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Proteinler vücutta yalnızca enerji verici olarak kullanılır ve hücredeki yapısal onarımda hiçbir görevleri yoktur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Proteinler enerji verici olarak kullanılabilmelerine rağmen öncelikli olarak yapısal, düzenleyici, taşıyıcı ve bağışıklık gibi yaşamsal görevlere sahiptir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Yüksek sıcaklık, aşırı pH değişimi ve basınç gibi faktörler proteinlerin üç boyutlu yapılarını bozarak denatürasyona uğratır.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Denatürasyon sonucunda proteinin işlevsel yapısı bozulur ancak genelde primer (birincil) yapıdaki amino asit dizilimi ve peptit bağları zarar görmez.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Enzimler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "question": "Enzimlerin yapısında bulunan ve protein kısmına yardımcı olan organik moleküllere ne ad verilir?",
+              "answer": "Koenzim"
+            },
+            {
+              "question": "Enzimlerin etki ettiği maddeye ne denir?",
+              "answer": "Substrat"
+            },
+            {
+              "question": "Enzimlerin substrata bağlandığı özel bölgeye ne denir?",
+              "answer": "Aktif bölge"
+            },
+            {
+              "question": "Sadece protein kısmından oluşan enzimlere ne ad verilir?",
+              "answer": "Basit enzim"
+            },
+            {
+              "question": "Enzimlerin yardımcı kısmının vitamin olduğu bileşik enzimlere ne denir?",
+              "answer": "Koenzim"
+            },
+            {
+              "question": "Enzimlerin optimum sıcaklığın çok üzerine çıkıldığında yapısının bozulmasına ne denir?",
+              "answer": "Denatürasyon"
+            },
+            {
+              "question": "Enzim ve substrat arasında kurulan geçici yapıya ne ad verilir?",
+              "answer": "Enzim-substrat kompleksi"
+            },
+            {
+              "question": "Aktivör maddeler enzimin çalışmasını nasıl etkiler?",
+              "answer": "Hızlandırır"
+            },
+            {
+              "question": "Bileşik enzimlerde protein kısmına verilen ad nedir?",
+              "answer": "Apoenzim"
+            },
+            {
+              "question": "Enzim miktarının sabit olduğu bir reaksiyonda, substrat sürekli artırılırsa reaksiyon hızı bir süre sonra ne olur?",
+              "answer": "Sabit kalır"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi tüm enzimlerin ortak özelliklerinden biri değildir?",
+              "options": [
+                "Protein yapısında olma",
+                "Reaksiyonları hızlandırma",
+                "Takım halinde çalışabilme",
+                "Reaksiyon sonrasında değişmeden çıkma"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bütün enzimlerin yapısında protein bulunur ancak bazı enzimler sadece proteinden oluşurken, bazılarında protein olmayan yardımcı kısım da yer alır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Basit bir enzimin yapısında aşağıdakilerden hangisi kesinlikle bulunur?",
+              "options": [
+                "Koenzim",
+                "Apoenzim",
+                "Kofaktör",
+                "Vitamin"
+              ],
+              "correctIndex": 1,
+              "explanation": "Basit enzimler yalnızca protein kısmından (apoenzim) oluşur, yardımcı kısım içermezler.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bileşik bir enzimin (holoenzim) protein kısmına bağlanan organik yapıdaki yardımcı kısma ne ad verilir?",
+              "options": [
+                "Apoenzim",
+                "Kofaktör",
+                "Koenzim",
+                "Substrat"
+              ],
+              "correctIndex": 2,
+              "explanation": "Bileşik enzimlerde protein kısmına bağlı olan yardımcı kısım organik kökenliyse koenzim, inorganik kökenliyse kofaktör adını alır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Enzimin etki ettiği maddeye ne denir?",
+              "options": [
+                "Substrat",
+                "Apoenzim",
+                "Ürün",
+                "İnhibitör"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimlerin üzerine etki ettiği ve reaksiyona giren maddelere substrat denir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Enzim ve substrat arasında hangi özellikte bir uyum gerçekleşir?",
+              "options": [
+                "Kilit-anahtar uyumu",
+                "Rastgele bağ kurma",
+                "Sadece sıcaklık bağımlılığı",
+                "Mekanik basınca dayalı uyum"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimlerin aktif bölgesi ile substratın yapısı birbirine kilit-anahtar modeline benzer şekilde tam uyumludur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Optimum sıcaklığın çok üzerine çıkarılan bir enzimde ilk olarak ne bozulur?",
+              "options": [
+                "Substrat miktarı",
+                "Enzimin üç boyutlu yapısı",
+                "Ürünlerin yapısı",
+                "Ortamdaki su oranı"
+              ],
+              "correctIndex": 1,
+              "explanation": "Yüksek sıcaklık, protein yapısında olan enzimlerin üç boyutlu yapılarını (denatürasyon) bozar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Her enzimin en iyi çalıştığı belirli bir pH değeri vardır. Bu değere ne denir?",
+              "options": [
+                "Maksimum pH",
+                "Nötr pH",
+                "Optimum pH",
+                "Minimum pH"
+              ],
+              "correctIndex": 2,
+              "explanation": "Enzimlerin maksimum hızda çalıştığı pH değerine optimum pH denir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Enzim miktarının sınırlı olduğu uygun koşullardaki bir reaksiyonda, substrat miktarı sürekli artırılırsa reaksiyon hızı için ne söylenebilir?",
+              "options": [
+                "Sürekli artar",
+                "Önce artar sonra sabit kalır",
+                "Hiç değişmez",
+                "Önce azalır sonra durur"
+              ],
+              "correctIndex": 1,
+              "explanation": "Enzimler tükenene kadar reaksiyon hızı artar, tüm enzimler substratla doygunluğa ulaştıktan sonra reaksiyon hızı sabit kalır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi enzimlerin çalışma hızını yavaşlatan veya durduran maddelerdir?",
+              "options": [
+                "Aktivatör",
+                "Koenzim",
+                "İnhibitör",
+                "Substrat"
+              ],
+              "correctIndex": 2,
+              "explanation": "İnhibitör maddeler enzimlere bağlanarak onların çalışmasını engeller ya da yavaşlatır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki faktörlerden hangisi enzim-substrat kompleksinin oluşumunu doğrudan etkilemez?",
+              "options": [
+                "Ortamdaki su miktarı",
+                "Ortamın ışık rengi",
+                "Sıcaklık",
+                "pH değeri"
+              ],
+              "correctIndex": 1,
+              "explanation": "Fotosentez dışındaki genel enzymatik reaksiyonlarda ışık rengi enzim aktivitesini doğrudan etkilemez.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Enzimlerin etki ettiği maddeye ____ adı verilir.",
+              "options": [
+                "substrat"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimlerin üzerine etki ettiği ve ürüne dönüştürdüğü moleküllere substrat denir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Enzimlerin yapısında protein kısmın yanı sıra organik veya inorganik yardımcı kısım bulunabilir. Organik yardımcı kısma ____ denir.",
+              "options": [
+                "koenzim"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bileşik enzimlerin protein kısmına (apoenzim) bağlanan yardımcı kısım organik kökenliyse koenzim adını alır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Yüksek sıcaklık, pH değişimleri ve yüksek basınç gibi etkenler enzimlerin üç boyutlu yapısını bozar ve bu olaya ____ denir.",
+              "options": [
+                "denatürasyon"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimin yapısal bütünlüğünün ve aktif bölgesinin bozulması onun işlev göremez hale gelmesine yani denatüre olmasına neden olur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Enzimler kimyasal reaksiyonları başlatmaz ancak reaksiyonun gerçekleşmesi için gereken ____ enerjisini düşürür.",
+              "options": [
+                "aktivasyon"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimler, reaksiyonun başlaması için gereken enerji bariyerini (aktivasyon enerjisi) düşürerek süreci hızlandırır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Sadece protein kısımdan oluşan enzimlere ____ enzim adı verilir.",
+              "options": [
+                "basit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Yardımcı kısmı bulunmayan, yalnızca amino asit zincirlerinden oluşan enzimler basit enzimler olarak sınıflandırılır.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "Enzimler, reaksiyonları hızlandıran ve reaksiyon sonucunda yapısı bozulmadan değişmeden çıkan biyolojik katalizörlerdir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Enzimler reaksiyona girer ve ürün oluşumunu sağladıktan sonra orijinal halleriyle açığa çıkar, bu nedenle tekrar tekrar kullanılabilirler.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Bütün enzimlerin yapısı sadece protein moleküllerinden meydana gelir ve hiçbir enzim yapısında protein dışı kısım bulundurmaz.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bazı enzimler sadece proteinden oluşur ancak bileşik enzimler protein kısmın (apoenzim) yanında yardımcı kısım olarak kofaktör veya koenzim bulundurur.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Enzimler ile substratlar arasında anahtar-kilit uyumuna benzer özel ve özgül bir ilişki bulunmaktadır.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Her enzim genellikle belirli bir substrata etki eder ve aktif merkez ile substrat uyumu anahtarın kilide uyması gibidir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Çok yüksek sıcaklıklar enzimlerin üç boyutlu yapılarını bozarak (denatürasyon) etkinliklerini kalıcı olarak durdurur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sıcaklığın aşırı yükselmesi protein yapılı enzimlerin bağlarını kopararak denatüre olmasına yol açar ve bu durum genellikle geri dönüşsüzdür.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Ortamdaki substrat konsantrasyonu sürekli artırıldığında, sınırlı enzim şartlarında reaksiyon hızı sonsuza kadar artmaya devam eder.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ortamdaki enzim miktarı sabitken substrat artırılsa bile bir süre sonra tüm enzimler doygunluğa ulaşacağı için reaksiyon hızı sabit bir değerde kalır.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Vitaminler",
+          "estimatedMinutes": 12,
+          "flashcards": [
+            {
+              "question": "YaÄŸda Ã§Ã¶zÃ¼nen vitaminler hangileridir?",
+              "answer": "A, D, E ve K vitaminleridir."
+            },
+            {
+              "question": "Suda Ã§Ã¶zÃ¼nen vitaminler hangileridir?",
+              "answer": "B grubu ve C vitaminleridir."
+            },
+            {
+              "question": "YaÄŸda Ã§Ã¶zÃ¼nen vitaminlerin fazlasÄ± nerede depolanÄ±r?",
+              "answer": "KaraciÄŸerde ve yaÄŸ dokuda depolanÄ±r."
+            },
+            {
+              "question": "Suda Ã§Ã¶zÃ¼nen vitaminlerin fazlasÄ± vÃ¼cuttan nasÄ±l uzaklaÅŸtÄ±rÄ±lÄ±r?",
+              "answer": "Ä°drarla vÃ¼cuttan atÄ±lÄ±r."
+            },
+            {
+              "question": "EksikliÄŸi en Ã§abuk fark edilen vitamin grubu hangisidir?",
+              "answer": "Suda Ã§Ã¶zÃ¼nen vitaminlerdir."
+            },
+            {
+              "question": "Hangi vitamin eksikliÄŸinde gece kÃ¶rlÃ¼ÄŸÃ¼ gÃ¶rÃ¼lÃ¼r?",
+              "answer": "A vitamini eksikliÄŸinde."
+            },
+            {
+              "question": "Kalsiyum ve fosfor emilimini saÄŸlayarak kemik geliÅŸiminde rol oynayan vitamin hangisidir?",
+              "answer": "D vitaminidir."
+            },
+            {
+              "question": "EksikliÄŸinde yaralarÄ±n geÃ§ iyileÅŸmesi ve skorbÃ¼t hastalÄ±ÄŸÄ± gÃ¶rÃ¼len vitamin hangisidir?",
+              "answer": "C vitaminidir."
+            },
+            {
+              "question": "KanÄ±n pÄ±htÄ±laÅŸmasÄ±nda gÃ¶rev alan yaÄŸda Ã§Ã¶zÃ¼nen vitamin hangisidir?",
+              "answer": "K vitaminidir."
+            },
+            {
+              "question": "Vitaminlerin hÃ¼credeki temel gÃ¶revi enerji verici olarak kullanÄ±lmak mÄ±dÄ±r?",
+              "answer": "HayÄ±r, dÃ¼zenleyici ve koenzim olarak gÃ¶rev yaparlar."
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdaki vitaminlerden hangisi suda çözünen vitaminler grubunda yer alır?",
+              "options": [
+                "A vitamini",
+                "C vitamini",
+                "D vitamini",
+                "K vitamini"
+              ],
+              "correctIndex": 1,
+              "explanation": "B ve C vitaminleri suda çözünen vitaminlerdir, bu yüzden vücutta depolanmazlar ve fazlası idrarla atılır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Yağda çözünen vitaminlerin ortak özelliklerinden biri aşağıdakilerden hangisidir?",
+              "options": [
+                "İdrarla dışarı atılmaları",
+                "Fazlasının karaciğerde depolanmaları",
+                "Canlılar tarafından doğrudan sentezlenebilmeleri",
+                "Enerji veren moleküller olmaları"
+              ],
+              "correctIndex": 1,
+              "explanation": "A, D, E ve K vitaminleri yağda çözünür ve genellikle karaciğerde depolanır, bu nedenle eksiklikleri geç fark edilir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki vitamin eksikliklerinden hangisi yanlış eşleştirilmiştir?",
+              "options": [
+                "A vitamini - Gece körlüğü",
+                "D vitamini - Raşitizm",
+                "C vitamini - Skorbüt",
+                "K vitamini - Beriberi"
+              ],
+              "correctIndex": 3,
+              "explanation": "Beriberi hastalığı B1 vitamini eksikliğinde görülür. K vitamini eksikliğinde ise kanın pıhtılaşmasında gecikme yaşanır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Canlılarda koenzim olarak görev yapan ve hücresel solunumda rol oynayan vitaminler genellikle hangi gruptandır?",
+              "options": [
+                "Yağda çözünenler",
+                "Suda çözünenler",
+                "Sadece D ve K vitaminleri",
+                "Sadece A vitamini"
+              ],
+              "correctIndex": 1,
+              "explanation": "B grubu vitaminleri ve C vitamini (suda çözünenler) genellikle enzimlerin yapısına koenzim olarak katılır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "İnsan vücudunda inaktif provitamin A şeklinde alınıp karaciğerde A vitaminine dönüştürülen molekül aşağıdakilerden hangisidir?",
+              "options": [
+                "Glikojen",
+                "Karoten",
+                "Kolesalsiferol",
+                "Tiamin"
+              ],
+              "correctIndex": 1,
+              "explanation": "Havuç gibi bitkisel besinlerde bulunan karoten, vücutta A vitaminine dönüştürülür.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki vitaminlerden hangisinin eksikliğinde çocuklarda kemik gelişim bozukluğu (raşitizm) görülür?",
+              "options": [
+                "A vitamini",
+                "C vitamini",
+                "D vitamini",
+                "E vitamini"
+              ],
+              "correctIndex": 2,
+              "explanation": "D vitamini kalsiyum ve fosfor emilimini sağlayarak kemik sağlığında kritik rol oynar; eksikliğinde raşitizm ortaya çıkar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Sağlıklı bir insanda, suda çözünen vitaminlerin eksiklik belirtilerinin yağda çözünenlere göre daha çabuk ortaya çıkmasının temel sebebi nedir?",
+              "options": [
+                "Vücutta depolanamayıp fazlasının atılması",
+                "Hücre zarından geçememeleri",
+                "Enerji hammaddesi olmaları",
+                "Sadece hayvansal gıdalardan alınabilmeleri"
+              ],
+              "correctIndex": 0,
+              "explanation": "Suda çözünen vitaminler vücutta depolanmadığı için günlük olarak dışarıdan alınmak zorundadır, bu yüzden eksikleri hızlıca hissedilir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Yaralanmalarda kanın pıhtılaşmasını sağlayan proteinlerin sentezinde rol oynayan vitamin aşağıdakilerden hangisidir?",
+              "options": [
+                "B12 vitamini",
+                "K vitamini",
+                "C vitamini",
+                "A vitamini"
+              ],
+              "correctIndex": 1,
+              "explanation": "K vitamini, karaciğerde kanın pıhtılaşmasında görevli faktörlerin üretimi için gereklidir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki ifadelerden hangisi tüm vitaminler için ortak bir özelliktir?",
+              "options": [
+                "Hücre zarından doğrudan geçebilecek kadar küçük olmaları",
+                "Sindirim kanalında hidrolize uğramaları",
+                "Canlılar tarafından inorganik maddelerden üretilmeleri",
+                "Hücrede enerji üretiminde doğrudan yakıt olarak kullanılmaları"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vitaminler küçük organik moleküllerdir, bu nedenle sindirime uğramadan hücre zarlarından doğrudan geçebilirler.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Antioksidan özelliği sayesinde hücreleri serbest radikallerin zararlı etkilerinden koruyan ve bağışıklığı güçlendiren vitamin grubu aşağıdakilerden hangisidir?",
+              "options": [
+                "E ve C vitaminleri",
+                "K ve D vitaminleri",
+                "Sadece B1 vitamini",
+                "Sadece A vitamini"
+              ],
+              "correctIndex": 0,
+              "explanation": "E ve C vitaminleri güçlü antioksidan özellik göstererek bağışıklık sistemini destekler ve hücresel yaşlanmayı yavaşlatır.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "Canlıların yapısında katılan ve enerji vermeyen organik bileşenlerden biri olan C vitamini eksikliğinde ____ adı verilen diş eti kanamalı hastalık ortaya çıkar.",
+              "options": [
+                "skorbüt"
+              ],
+              "correctIndex": 0,
+              "explanation": "Skorbüt, C vitamini eksikliğinde görülen ve özellikle bağ dokusunun zayıflamasıyla ortaya çıkan bir rahatsızlıktır.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Yağda çözünen vitaminler A, D, E ve ____ vitaminleridir.",
+              "options": [
+                "K"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vitaminler suda ve yağda çözünenler olarak ikiye ayrılır. A, D, E ve K vitaminleri yağda çözünen vitaminlerdir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Eksikliğinde gece körlüğü rahatsızlığının görüldüğü vitamin ____ vitaminidir.",
+              "options": [
+                "A"
+              ],
+              "correctIndex": 0,
+              "explanation": "A vitamini görme pigmentlerinin yapısına katılır ve eksikliğinde karanlıkta görme bozukluğu olan gece körlüğü meydana gelir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Kemiklerde kalsiyum birikimini sağlayarak eksikliğinde raşitizm hastalığına yol açan vitamin ____ vitaminidir.",
+              "options": [
+                "D"
+              ],
+              "correctIndex": 0,
+              "explanation": "D vitamini kalsiyum ve fosfor emilimini düzenleyerek kemik gelişiminde kritik rol oynar; eksikliğinde çocuklarda raşitizm görülür.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Provitamin A, vücudumuzda karaciğerde ____ vitaminine dönüştürülür.",
+              "options": [
+                "A"
+              ],
+              "correctIndex": 0,
+              "explanation": "Besinlerle alınan öncül madde (provitamin A) karaciğerde aktif A vitaminine çevrilerek vücutta kullanılır.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "A, D, E ve K vitaminleri yağda çözünen vitaminler grubunda yer alır ve fazlaları karaciğerde depolanabilir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Yağda çözünen vitaminler vücutta depolanabildiği için bu vitaminlerin eksiklik belirtileri geç ortaya çıkar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "B ve C vitaminleri suda çözünen vitaminler olup, fazla alındıklarında idrar yoluyla vücuttan dışarı atılırlar.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Suda çözünen vitaminler depolanamadığı için günlük olarak düzenli alınmaları gerekir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "D vitamini eksikliğinde çocuklarda raşitizm, yetişkinlerde ise osteomalazi gibi kemik rahatsızlıkları görülür.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "D vitamini kalsiyum ve fosfor emilimini düzenleyerek kemik sağlığında kritik bir rol oynar.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Vitaminler doğrudan enerji kaynağı olarak kullanılır ve solunum reaksiyonlarında yıkılarak ATP üretilir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "Vitaminler enerji verici olarak kullanılmaz; ancak metabolik olaylarda düzenleyici görev üstlenirler.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "K vitamini kanın pıhtılaşmasında görev alırken, eksikliğinde yaralanmalarda kanın pıhtılaşması gecikebilir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "K vitamini karaciğerde pıhtılaşma faktörlerinin sentezlenmesi için gerekli olan önemli bir vitamindir.",
+              "type": "trueFalse"
+            }
+          ]
+        },
+        {
+          "id": "node8",
+          "order": 8,
+          "title": "Nükleik Asitler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "question": "Nükleik asitlerin temel yapı birimi nedir?",
+              "answer": "Nükleotit"
+            },
+            {
+              "question": "Bir nükleotidin yapısında hangi üç temel molekül bulunur?",
+              "answer": "Azotlu organik baz, pentoz şeker ve fosfat"
+            },
+            {
+              "question": "DNA'nın yapısında bulunan pentoz şekerin adı nedir?",
+              "answer": "Deoksiriboz"
+            },
+            {
+              "question": "RNA'nın yapısında bulunan pentoz şekerin adı nedir?",
+              "answer": "Riboz"
+            },
+            {
+              "question": "DNA'da adenin nükleotidinin karşısına hangi baz gelir?",
+              "answer": "Timin"
+            },
+            {
+              "question": "RNA'da timin bazının yerini hangi organik baz alır?",
+              "answer": "Urasil"
+            },
+            {
+              "question": "Nükleotitlerin birbirine bağlanmasını sağlayan bağın adı nedir?",
+              "answer": "Fosfodiester bağı"
+            },
+            {
+              "question": "DNA molekülünün yapısal modeli nasıldır?",
+              "answer": "İkili sarmal"
+            },
+            {
+              "question": "Protein sentezinde ribozomun yapısına katılan RNA çeşidi hangisidir?",
+              "answer": "Ribozomal RNA (rRNA)"
+            },
+            {
+              "question": "Hücredeki genetik bilgiyi ribozoma taşıyan RNA çeşidi hangisidir?",
+              "answer": "Mesajcı RNA (mRNA)"
+            }
+          ],
+          "multipleChoice": [
+            {
+              "question": "Aşağıdakilerden hangisi hem DNA'nın hem de RNA'nın ortak yapı birimi olan nükleotitlerin yapısında kesinlikle bulunur?",
+              "options": [
+                "Deoksiriboz şekeri",
+                "Urasil bazı",
+                "Fosfat grubu",
+                "Timin bazı"
+              ],
+              "correctIndex": 2,
+              "explanation": "Nükleotitler yapılarında azotlu organik baz, pentoz şekeri ve fosfat grubu bulundurur. Fosfat grubu her iki nükleotit çeşidinde de ortak olarak bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "DNA molekülünün yapısında bulunan organik bazlar aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+              "options": [
+                "Adenin, Timin, Guanin, Sitozin",
+                "Adenin, Urasil, Guanin, Sitozin",
+                "Adenin, Timin, Urasil, Guanin",
+                "Guanin, Sitozin, Urasil, Timin"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA molekülünün yapısında adenin, timin, guanin ve sitozin bazları yer alır. Urasil bazı ise yalnızca RNA'da bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Tek zincirli bir RNA molekülünde toplam nükleotit sayısı 300 biliniyorsa, bu moleküldeki toplam fosfat sayısı kaçtır?",
+              "options": [
+                "150",
+                "300",
+                "600",
+                "900"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bir nükleotidin yapısında bir adet fosfat, bir adet pentoz şekeri ve bir adet organik baz bulunur. Dolayısıyla nükleotit sayısı fosfat sayısına eşittir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi RNA çeşitlerinin ortak özelliklerinden biridir?",
+              "options": [
+                "Protein sentezinde görev alma",
+                "Hücrede DNA tarafından sentezlenme",
+                "Çift zincirli sarmal yapıya sahip olma",
+                "Yapısında timin bazı bulundurma"
+              ],
+              "correctIndex": 1,
+              "explanation": "Tüm RNA çeşitleri (mRNA, tRNA, rRNA) DNA üzerindeki genetik bilgiye göre çekirdekteki DNA tarafından sentezlenir. Protein sentezinde de ortak olarak görev yaparlar ancak her RNA çeşidi protein sentezinde farklı görevler üstlenir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Bir DNA molekülünde zayıf hidrojen bağlarının sayısı hangi bazlar arasında kurulur?",
+              "options": [
+                "Adenin ile Timin, Guanin ile Sitozin",
+                "Adenin ile Urasil, Guanin ile Sitozin",
+                "Adenin ile Guanin, Timin ile Sitozin",
+                "Deoksiriboz ile Fosfat arasında"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA'nın ikili sarmal yapısında adenin ile timin arasında ikili, guanin ile sitozin arasında ise üçlü zayıf hidrojen bağları bulunur.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdaki organik moleküllerden hangisi bir nükleotidin yapısına kesinlikle katılmaz?",
+              "options": [
+                "Fosfat",
+                "Pentoz şekeri",
+                "Glikojen",
+                "Azotlu organik baz"
+              ],
+              "correctIndex": 2,
+              "explanation": "Glikojen bir hayvansal polisakkarittir ve enerji depolamada kullanılır. Nükleotit yapısında ise fosfat, pentoz şekeri ve organik baz yer alır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "DNA molekülünün kendini eşlemesi (replikasyon) sürecinde aşağıdaki enzimlerden hangisi görev yapar?",
+              "options": [
+                "DNA polimeraz",
+                "Amilaz",
+                "Pepsinojen",
+                "Lipaz"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA polimeraz enzimi, DNA replikasyonu sırasında yeni nükleotitleri uygun sıra ile ekleyerek yeni DNA zincirinin sentezini gerçekleştirir.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Aşağıdakilerden hangisi DNA ve RNA arasındaki farklardan biri değildir?",
+              "options": [
+                "Şeker çeşidi",
+                "Nükleotit yapısında fosfat bulundurma",
+                "İçerdikleri bazı organik bazlar",
+                "Zincir sayıları"
+              ],
+              "correctIndex": 1,
+              "explanation": "Hem DNA hem de RNA nükleotitlerinin yapısında fosfat grubu bulunur. Şeker, bazı bazlar ve zincir sayısı ise aralarındaki farklardandır.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Hücredeki protein sentezinde doğrudan kalıp görevi yapan ve genetik şifreyi ribozoma taşıyan RNA çeşidi aşağıdakilerden hangisidir?",
+              "options": [
+                "tRNA",
+                "rRNA",
+                "mRNA",
+                "sRNA"
+              ],
+              "correctIndex": 2,
+              "explanation": "mRNA (mesajcı RNA), DNA'daki şifreyi kopyalayarak sitoplazmadaki ribozomlara taşır ve protein sentezi için kalıplık yapar.",
+              "type": "multipleChoice"
+            },
+            {
+              "question": "Yapısında riboz şekeri ve urasil bazı bulunduran bir nükleik asit çeşidi için aşağıdakilerden hangisi kesinlikle söylenir?",
+              "options": [
+                "Hücre bölünmesi sırasında kendini eşleyebilir",
+                "Tek zincirli bir RNA çeşididir",
+                "Çift sarmallu DNA molekülüdür",
+                "Sadece çekirdekte bulunur"
+              ],
+              "correctIndex": 1,
+              "explanation": "Riboz şekeri ve urasil bazı bulunduran nükleik asit RNA'dır. RNA genellikle tek zincirli olarak işlev görür.",
+              "type": "multipleChoice"
+            }
+          ],
+          "fillBlank": [
+            {
+              "question": "DNA molekülünün yapı taşı olan monomerlere ____ denir.",
+              "options": [
+                "nükleotit"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA ve RNA gibi nükleik asitlerin temel yapı birimi nükleotittir. Her nükleotit bir azotlu organik baz, bir beş karbonlu şeker ve bir fosfat grubundan oluşur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "DNA'nın yapısında bulunan beş karbonlu şekerin adı ____ tir.",
+              "options": [
+                "deoksiriboz"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA adını yapısındaki deoksiriboz şekerinden alır. RNA'da ise riboz şekeri bulunur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "DNA molekülünde adenin bazı daima ____ bazı ile ikili hidrojen bağı kurarak eşleşir.",
+              "options": [
+                "timin"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA'nın çift sarmallı yapısında adenin timin ile iki, guanin ise sitozin ile üç hidrojen bağı kurarak bir araya gelir.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "RNA moleküllerinde timin bazının yerini ____ bazı alır.",
+              "options": [
+                "urasil"
+              ],
+              "correctIndex": 0,
+              "explanation": "Urasil bazı yalnızca RNA'nın yapısında bulunur, DNA'da ise timin bulunur.",
+              "type": "fillBlank"
+            },
+            {
+              "question": "Hücredeki kalıtsal bilgiyi ribozoma taşıyarak protein sentezine şifre veren RNA çeşidi ____ (mRNA) olarak adlandırılır.",
+              "options": [
+                "mesajcı RNA"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mesajcı RNA, DNA'daki şifreyi ribozoma taşıyarak protein sentezinde kalıp görevini üstlenir.",
+              "type": "fillBlank"
+            }
+          ],
+          "trueFalse": [
+            {
+              "question": "DNA molekülünün yapısında beş karbonlu bir şeker olan deoksiriboz şekeri ile organik bazlar ve fosfat grubu bulunur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA, yapısında deoksiriboz şekeri, fosfat ve adenin, timin, guanin, sitozin bazlarını barındıran nükleotitlerden oluşur.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "RNA molekülü çift iplikte heliks yapısına sahip olup kendini eşleyebilme yeteneğine sahiptir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "RNA tek ipliklidir, heliks yapıda değildir ve kendisini doğrudan eşleyemez; DNA üzerinden sentezlenir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Adenin nükleotidinin karşısına her zaman timin nükleoti di, guanin nükleotidinin karşısına ise sitozin nükleoti di gelir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "DNA'da nükleotitler arasında zayıf hidrojen bağları kurulurken adenin timinle, guanin ise sitozinle eşleşir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "Tüm RNA çeşitleri (mRNA, tRNA, rRNA) protein sentezinde görev alır ve DNA tarafından sentezlenir.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hücredeki mRNA, tRNA ve rRNA moleküllerinin tamamı DNA üzerindeki genetik bilgiye göre çekirdekte transkripsiyonla üretilir.",
+              "type": "trueFalse"
+            },
+            {
+              "question": "RNA molekülünün yapısında deoksiriboz şekeri ve timin bazı bulunur.",
+              "options": [
+                "Doğru",
+                "Yanlış"
+              ],
+              "correctIndex": 1,
+              "explanation": "RNA molekülü riboz şekeri ve timin yerine urasil bazı içerir; deoksiriboz ve timin DNA'ya özgüdür.",
+              "type": "trueFalse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Hücre ve Organelleri",
+      "nodes": []
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Hücre Zarından Madde Geçişi",
+      "nodes": []
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Canlıların Sınıflandırılması",
+      "nodes": []
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Mitoz ve Eşeysiz Üreme",
+      "nodes": []
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Mayoz ve Eşeyli Üreme",
+      "nodes": []
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Kalıtımın Genel İlkeleri",
+      "nodes": []
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Ekosistem Ekolojisi",
+      "nodes": []
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Güncel Çevre Sorunları",
+      "nodes": []
+    }
+  ]
+}

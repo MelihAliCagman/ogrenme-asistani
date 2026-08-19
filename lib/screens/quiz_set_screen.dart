@@ -9,23 +9,13 @@ import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/widgets/quiz_attempt_tile.dart';
 
 class QuizSetScreen extends StatefulWidget {
-  const QuizSetScreen({
-    super.key,
-    required this.quizSet,
-    this.subject,
-    this.returnToSubject,
-  });
+  const QuizSetScreen({super.key, required this.quizSet, this.subject});
 
   final QuizSet quizSet;
 
   /// The quiz's own subject, if any — shown in the result note
   /// regardless of where this screen was opened from.
   final Subject? subject;
-
-  /// Set only when this screen was opened from that subject's detail
-  /// screen, so the summary's back button can say "Derse Dön" and pop
-  /// straight back to it instead of all the way to Kartlarım.
-  final Subject? returnToSubject;
 
   @override
   State<QuizSetScreen> createState() => _QuizSetScreenState();
@@ -54,6 +44,9 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
 
   QuizQuestion get _currentQuestion =>
       widget.quizSet.questions[_order[_currentIndex]];
+
+  String get _currentFillBlankDisplayText =>
+      _fillBlankDisplayText(_currentQuestion);
 
   List<int> get _currentOptionOrder => _optionOrder[_order[_currentIndex]]!;
 
@@ -163,12 +156,12 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
     await _repository.addAttempt(widget.quizSet.id, attempt);
   }
 
+  /// Always pops back to whichever screen pushed this one — Setlerim,
+  /// a ders detayı, or a Ders Yolları node all push this screen directly,
+  /// so a plain pop naturally lands back on the session's real starting
+  /// point instead of a hardcoded destination.
   void _backToOrigin() {
-    if (widget.returnToSubject != null) {
-      Navigator.of(context).pop();
-      return;
-    }
-    Navigator.of(context).popUntil((route) => route.isFirst);
+    Navigator.of(context).pop();
   }
 
   @override
@@ -277,7 +270,7 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
             borderRadius: BorderRadius.circular(16),
           ),
           child: SelectableText(
-            question.question,
+            _currentFillBlankDisplayText,
             style: TextStyle(
               color: colorScheme.onPrimaryContainer,
               fontSize: 18,
@@ -407,16 +400,8 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
             const SizedBox(width: 12),
             OutlinedButton.icon(
               onPressed: _backToOrigin,
-              icon: Icon(
-                widget.returnToSubject != null
-                    ? Icons.menu_book_outlined
-                    : Icons.quiz_outlined,
-              ),
-              label: Text(
-                widget.returnToSubject != null
-                    ? 'Derse Dön'
-                    : "Kartlarım'a Dön",
-              ),
+              icon: const Icon(Icons.arrow_back),
+              label: const Text('Geri Dön'),
             ),
           ],
         ),
@@ -452,6 +437,17 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
   }
 }
 
+final _blankMarker = RegExp('_{3,}');
+
+/// The fill-blank question text with its "____" placeholder replaced by
+/// underscores matching the correct answer's letter count (e.g. a
+/// 4-letter answer shows "_ _ _ _"), instead of a fixed-length blank.
+String _fillBlankDisplayText(QuizQuestion question) {
+  final letterCount = question.answerText.trim().replaceAll(' ', '').length;
+  final placeholder = List.filled(letterCount > 0 ? letterCount : 1, '_').join(' ');
+  return question.question.replaceFirst(_blankMarker, placeholder);
+}
+
 enum _OptionState { neutral, correct, incorrect }
 
 class _WrongQuestionCard extends StatelessWidget {
@@ -473,7 +469,9 @@ class _WrongQuestionCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SelectableText(
-              question.question,
+              question.type == QuestionType.fillBlank
+                  ? _fillBlankDisplayText(question)
+                  : question.question,
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             if (question.type == QuestionType.fillBlank &&

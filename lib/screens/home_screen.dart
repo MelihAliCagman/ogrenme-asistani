@@ -7,6 +7,7 @@ import 'package:ogrenme_asistani/models/chat_session.dart';
 import 'package:ogrenme_asistani/models/exam_goal.dart';
 import 'package:ogrenme_asistani/models/streak_data.dart';
 import 'package:ogrenme_asistani/screens/chat_screen.dart';
+import 'package:ogrenme_asistani/screens/path_subjects_screen.dart';
 import 'package:ogrenme_asistani/screens/subjects_screen.dart';
 import 'package:ogrenme_asistani/services/assistant_profile_repository.dart';
 import 'package:ogrenme_asistani/services/chat_session_repository.dart';
@@ -136,6 +137,12 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  void _openPaths() {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (context) => const PathSubjectsScreen()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -149,9 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
             _GoalCountdownCard(goal: _nextUpcomingGoal!),
             const SizedBox(height: 16),
           ],
-          if (_streak != null) _StreakSummaryCard(streak: _streak!),
-          if (_streak != null) const SizedBox(height: 16),
-          if (_streak != null) _StudyHintCard(streak: _streak!),
+          if (_streak != null) _StreakStatusCard(streak: _streak!),
           if (_streak != null) const SizedBox(height: 20),
           Text(
             'Hızlı Erişim',
@@ -160,27 +165,40 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           const SizedBox(height: 8),
-          _QuickAccessTile(
-            icon: Icons.chat_bubble_outline,
-            title: 'Sohbete Devam Et',
-            subtitle: _sessions.isNotEmpty
-                ? _sessions.first.title
-                : 'Yeni bir sohbet başlat',
-            onTap: _continueChat,
-          ),
-          const SizedBox(height: 8),
-          _QuickAccessTile(
-            icon: Icons.menu_book_outlined,
-            title: 'Derslerim',
-            subtitle: 'Derslerine göz at',
-            onTap: _openSubjects,
-          ),
-          const SizedBox(height: 8),
-          _QuickAccessTile(
-            icon: Icons.explore_outlined,
-            title: 'Keşfet',
-            subtitle: 'Hazır ders paketlerini keşfet',
-            onTap: _openDiscover,
+          Row(
+            children: [
+              Expanded(
+                child: _QuickAccessTile(
+                  icon: Icons.chat_bubble_outline,
+                  label: 'Sohbet',
+                  onTap: _continueChat,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _QuickAccessTile(
+                  icon: Icons.menu_book_outlined,
+                  label: 'Derslerim',
+                  onTap: _openSubjects,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _QuickAccessTile(
+                  icon: Icons.explore_outlined,
+                  label: 'Keşfet',
+                  onTap: _openDiscover,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _QuickAccessTile(
+                  icon: Icons.route_outlined,
+                  label: 'Ders Yolları',
+                  onTap: _openPaths,
+                ),
+              ),
+            ],
           ),
         ],
       ),
@@ -296,64 +314,19 @@ class _GoalCountdownCard extends StatelessWidget {
   }
 }
 
-class _StreakSummaryCard extends StatelessWidget {
-  const _StreakSummaryCard({required this.streak});
+/// Merges the streak count and the "what to study next" hint into one
+/// card — both are motivational/status info, so showing them separately
+/// just added vertical clutter.
+class _StreakStatusCard extends StatelessWidget {
+  const _StreakStatusCard({required this.streak});
 
   final StreakData streak;
 
-  @override
-  Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    return Card(
-      margin: EdgeInsets.zero,
-      child: Padding(
-        padding: const EdgeInsets.all(14),
-        child: Row(
-          children: [
-            const Text('🔥', style: TextStyle(fontSize: 26)),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    streak.currentStreak > 0
-                        ? '${streak.currentStreak} gün üst üste çalışıyorsun'
-                        : 'Bugün çalışarak bir seri başlat!',
-                    style: Theme.of(context).textTheme.bodyLarge,
-                  ),
-                  if (streak.longestStreak > 0) ...[
-                    const SizedBox(height: 2),
-                    Text(
-                      'En uzun serin: ${streak.longestStreak} gün',
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                  ],
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-/// Moved here from the Sohbet tab — surfaces what to study next based on
-/// the user's streak/subject history right on the home screen.
-class _StudyHintCard extends StatelessWidget {
-  const _StudyHintCard({required this.streak});
-
-  final StreakData streak;
-
-  String _buildMessage() {
+  String _buildHint() {
     final last = streak.lastActiveDate;
     final subjectName = streak.lastSubjectName;
     if (last == null) {
-      return 'Bugün yeni bir konu keşfetmeye ne dersin? Keşfet sekmesindeki '
-          'hazır derslere göz atabilirsin.';
+      return 'Bugün yeni bir konu keşfetmeye ne dersin?';
     }
     final today = DateTime.now();
     final todayDate = DateTime(today.year, today.month, today.day);
@@ -371,64 +344,83 @@ class _StudyHintCard extends StatelessWidget {
           : 'Dün çalıştın, bugün devam etmek ister misin?';
     }
     return subjectName != null
-        ? 'En son $subjectName çalışmıştın. Kaldığın yerden devam etmeye ne dersin?'
-        : 'Bugün yeni bir konu keşfetmeye ne dersin? Keşfet sekmesindeki '
-              'hazır derslere göz atabilirsin.';
+        ? 'En son $subjectName çalışmıştın. Kaldığın yerden devam et!'
+        : 'Bugün yeni bir konu keşfetmeye ne dersin?';
   }
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: colorScheme.secondaryContainer,
-        borderRadius: BorderRadius.circular(14),
-      ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Icon(Icons.lightbulb_outline, color: colorScheme.onSecondaryContainer),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Text(
-              _buildMessage(),
-              style: TextStyle(color: colorScheme.onSecondaryContainer),
+    final streakLabel = streak.currentStreak > 0
+        ? '${streak.currentStreak} gün üst üste çalışıyorsun'
+        : 'Bugün çalışarak bir seri başlat!';
+    return Card(
+      margin: EdgeInsets.zero,
+      child: Padding(
+        padding: const EdgeInsets.all(14),
+        child: Row(
+          children: [
+            const Text('🔥', style: TextStyle(fontSize: 26)),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(streakLabel, style: Theme.of(context).textTheme.bodyLarge),
+                  const SizedBox(height: 2),
+                  Text(
+                    _buildHint(),
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
 }
 
+/// Compact quick-access tile: icon on top, short label below, no
+/// subtitle — three of these sit side by side instead of stacking as
+/// full-width rows.
 class _QuickAccessTile extends StatelessWidget {
   const _QuickAccessTile({
     required this.icon,
-    required this.title,
-    required this.subtitle,
+    required this.label,
     required this.onTap,
   });
 
   final IconData icon;
-  final String title;
-  final String subtitle;
+  final String label;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
     return Card(
       margin: EdgeInsets.zero,
-      child: ListTile(
-        leading: CircleAvatar(
-          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-          child: Icon(icon, color: Theme.of(context).colorScheme.onPrimaryContainer),
-        ),
-        title: Text(title),
-        subtitle: Text(subtitle, maxLines: 1, overflow: TextOverflow.ellipsis),
-        trailing: const Icon(Icons.chevron_right),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(12),
         onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 12),
+          child: Column(
+            children: [
+              Icon(icon, color: colorScheme.primary),
+              const SizedBox(height: 6),
+              Text(
+                label,
+                style: Theme.of(context).textTheme.bodySmall,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

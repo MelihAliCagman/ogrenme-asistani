@@ -8,16 +8,10 @@ import 'package:ogrenme_asistani/widgets/quiz_attempt_tile.dart';
 /// reached when the user picks "Geçmiş Sonuçları Analiz Et" instead of
 /// "Çöz".
 class QuizHistoryScreen extends StatelessWidget {
-  const QuizHistoryScreen({
-    super.key,
-    required this.quizSet,
-    this.subject,
-    this.returnToSubject,
-  });
+  const QuizHistoryScreen({super.key, required this.quizSet, this.subject});
 
   final QuizSet quizSet;
   final Subject? subject;
-  final Subject? returnToSubject;
 
   int get _bestPercent {
     if (quizSet.attempts.isEmpty) return 0;
@@ -70,7 +64,6 @@ class QuizHistoryScreen extends StatelessWidget {
               builder: (context) => QuizSetScreen(
                 quizSet: quizSet,
                 subject: subject,
-                returnToSubject: returnToSubject,
               ),
             ),
           );

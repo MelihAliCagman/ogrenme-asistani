@@ -80,6 +80,7 @@ class CardSetRepository {
                   createdAt: s.createdAt,
                   cards: s.cards,
                   subjectId: null,
+                  isManual: s.isManual,
                 )
               : s,
         )

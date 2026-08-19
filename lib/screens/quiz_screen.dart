@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
-import 'package:ogrenme_asistani/models/subject.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key, required this.cardSet, this.returnToSubject});
+  const QuizScreen({super.key, required this.cardSet});
 
   final FlashcardSet cardSet;
-
-  /// Set only when this screen was opened (via [CardSetDetailScreen]) from
-  /// that subject's detail screen, so the summary's back button can say
-  /// "Derse Dön" and pop straight back to it instead of all the way to
-  /// Kartlarım.
-  final Subject? returnToSubject;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -67,12 +60,12 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
+  /// Always pops back to whichever screen pushed this one (always
+  /// [CardSetDetailScreen], which itself may have come from Setlerim, a
+  /// ders detayı, or a Ders Yolları node) instead of a hardcoded
+  /// destination.
   void _backToOrigin() {
-    if (widget.returnToSubject != null) {
-      Navigator.of(context).pop();
-      return;
-    }
-    Navigator.of(context).popUntil((route) => route.isFirst);
+    Navigator.of(context).pop();
   }
 
   @override
@@ -90,6 +83,29 @@ class _QuizScreenState extends State<QuizScreen> {
     final colorScheme = Theme.of(context).colorScheme;
     final card = _shuffledCards[_currentIndex];
 
+    final cardColumn = Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        LabeledInfoCard(
+          label: 'SORU',
+          text: card.question,
+          background: colorScheme.primaryContainer,
+          foreground: colorScheme.onPrimaryContainer,
+          textFontSize: 18,
+        ),
+        if (_showAnswer) ...[
+          const SizedBox(height: 12),
+          LabeledInfoCard(
+            label: 'CEVAP',
+            text: card.answer,
+            background: colorScheme.secondaryContainer,
+            foreground: colorScheme.onSecondaryContainer,
+            textFontSize: 18,
+          ),
+        ],
+      ],
+    );
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -99,29 +115,62 @@ class _QuizScreenState extends State<QuizScreen> {
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 16),
-        Expanded(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+        if (_showAnswer) ...[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              LabeledInfoCard(
-                label: 'SORU',
-                text: card.question,
-                background: colorScheme.primaryContainer,
-                foreground: colorScheme.onPrimaryContainer,
-                textFontSize: 18,
+              Row(
+                children: [
+                  Icon(Icons.arrow_back, size: 16, color: colorScheme.error),
+                  const SizedBox(width: 4),
+                  Text(
+                    'Bilemedim',
+                    style: TextStyle(color: colorScheme.error),
+                  ),
+                ],
               ),
-              if (_showAnswer) ...[
-                const SizedBox(height: 12),
-                LabeledInfoCard(
-                  label: 'CEVAP',
-                  text: card.answer,
-                  background: colorScheme.secondaryContainer,
-                  foreground: colorScheme.onSecondaryContainer,
-                  textFontSize: 18,
-                ),
-              ],
+              Row(
+                children: [
+                  Text(
+                    'Bildim',
+                    style: const TextStyle(color: Colors.green),
+                  ),
+                  const SizedBox(width: 4),
+                  const Icon(Icons.arrow_forward, size: 16, color: Colors.green),
+                ],
+              ),
             ],
           ),
+          const SizedBox(height: 8),
+        ],
+        Expanded(
+          child: _showAnswer
+              ? Dismissible(
+                  key: ValueKey('card_$_currentIndex'),
+                  direction: DismissDirection.horizontal,
+                  onDismissed: (direction) =>
+                      _answer(direction == DismissDirection.startToEnd),
+                  background: Container(
+                    alignment: Alignment.centerLeft,
+                    padding: const EdgeInsets.symmetric(horizontal: 24),
+                    decoration: BoxDecoration(
+                      color: Colors.green.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: const Icon(Icons.check_circle, color: Colors.green, size: 32),
+                  ),
+                  secondaryBackground: Container(
+                    alignment: Alignment.centerRight,
+                    padding: const EdgeInsets.symmetric(horizontal: 24),
+                    decoration: BoxDecoration(
+                      color: colorScheme.error.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Icon(Icons.cancel, color: colorScheme.error, size: 32),
+                  ),
+                  child: cardColumn,
+                )
+              : cardColumn,
         ),
         if (!_showAnswer)
           FilledButton(
@@ -183,14 +232,8 @@ class _QuizScreenState extends State<QuizScreen> {
         const SizedBox(height: 12),
         OutlinedButton.icon(
           onPressed: _backToOrigin,
-          icon: Icon(
-            widget.returnToSubject != null
-                ? Icons.menu_book_outlined
-                : Icons.style,
-          ),
-          label: Text(
-            widget.returnToSubject != null ? 'Derse Dön' : "Kartlarım'a Dön",
-          ),
+          icon: const Icon(Icons.arrow_back),
+          label: const Text('Geri Dön'),
         ),
         ],
       ),
