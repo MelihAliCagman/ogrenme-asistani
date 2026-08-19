@@ -35,6 +35,19 @@ class FlashcardSet {
   /// them with AI — shown as a small badge in set lists.
   final bool isManual;
 
+  /// Re-syncs the card content while keeping id/etc. — used by the Ders
+  /// Yolları path screen to refresh an already-materialized set if the
+  /// source curriculum node's content was corrected upstream after the
+  /// user's first copy was made.
+  FlashcardSet withCards(List<Flashcard> cards) => FlashcardSet(
+    id: id,
+    title: title,
+    createdAt: createdAt,
+    cards: cards,
+    subjectId: subjectId,
+    isManual: isManual,
+  );
+
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,

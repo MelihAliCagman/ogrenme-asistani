@@ -75,12 +75,23 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
   String _materializedId(String nodeId, String suffix) =>
       'path_${widget.subjectKey}_${nodeId}_$suffix';
 
+  /// Materializes the node's flashcards into the user's own
+  /// [CardSetRepository], reusing the existing copy (by its
+  /// deterministic id) if one is already there — but always re-synced
+  /// to the current curriculum node content first. Without this, a
+  /// correction made to the shared curriculum content after a user's
+  /// first open would never reach a copy they'd already materialized.
   Future<FlashcardSet> _materializeFlashcards(CurriculumNode node) async {
     final id = _materializedId(node.id, 'flashcards');
     final repository = CardSetRepository();
     final all = await repository.loadAll();
-    for (final set in all) {
-      if (set.id == id) return set;
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].id == id) {
+        final refreshed = all[i].withCards(node.flashcards);
+        all[i] = refreshed;
+        await repository.saveAll(all);
+        return refreshed;
+      }
     }
     final newSet = FlashcardSet(
       id: id,
@@ -92,6 +103,11 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     return newSet;
   }
 
+  /// Materializes the node's quiz/fill-blank/true-false questions into
+  /// the user's own [QuizSetRepository] — see [_materializeFlashcards]
+  /// for why the existing copy (found by its deterministic id) is
+  /// always re-synced to the current curriculum node content (keeping
+  /// its attempt history) rather than reused unchanged.
   Future<QuizSet> _materializeQuiz(CurriculumNode node, PathContentKind kind) async {
     final suffix = switch (kind) {
       PathContentKind.multipleChoice => 'mc',
@@ -101,11 +117,6 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
         throw ArgumentError('flashcards has no quiz set'),
     };
     final id = _materializedId(node.id, suffix);
-    final repository = QuizSetRepository();
-    final all = await repository.loadAll();
-    for (final set in all) {
-      if (set.id == id) return set;
-    }
     final List<QuizQuestion> questions = switch (kind) {
       PathContentKind.multipleChoice => node.multipleChoice,
       PathContentKind.fillBlank => node.fillBlank,
@@ -113,6 +124,16 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       PathContentKind.flashcards =>
         throw ArgumentError('flashcards has no quiz set'),
     };
+    final repository = QuizSetRepository();
+    final all = await repository.loadAll();
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].id == id) {
+        final refreshed = all[i].withQuestions(questions);
+        all[i] = refreshed;
+        await repository.saveAll(all);
+        return refreshed;
+      }
+    }
     final newSet = QuizSet(
       id: id,
       title: '${node.title} - ${kind.setFormat.shortLabel}',

@@ -68,6 +68,19 @@ class QuizSet {
     attempts: attempts,
   );
 
+  /// Re-syncs the question content while keeping id/attempts/etc. — used
+  /// by the Ders Yolları path screen to refresh an already-materialized
+  /// set if the source curriculum node's content was corrected upstream
+  /// after the user's first copy was made.
+  QuizSet withQuestions(List<QuizQuestion> questions) => QuizSet(
+    id: id,
+    title: title,
+    createdAt: createdAt,
+    questions: questions,
+    subjectId: subjectId,
+    attempts: attempts,
+  );
+
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,
