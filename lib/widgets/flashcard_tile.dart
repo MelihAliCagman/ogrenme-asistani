@@ -4,15 +4,19 @@ import 'package:ogrenme_asistani/widgets/flip_card.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class FlashcardTile extends StatelessWidget {
-  const FlashcardTile({super.key, required this.card});
+  const FlashcardTile({super.key, required this.card, this.onFlip});
 
   final Flashcard card;
+
+  /// See [FlipCard.onFlip].
+  final VoidCallback? onFlip;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
     return FlipCard(
+      onFlip: onFlip,
       front: LabeledInfoCard(
         label: 'SORU',
         text: card.question,
