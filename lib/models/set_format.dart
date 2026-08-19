@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 enum SetFormat { flashcards, multipleChoice, fillBlank, trueFalse }
 
 extension SetFormatLabel on SetFormat {
@@ -11,6 +13,34 @@ extension SetFormatLabel on SetFormat {
         return 'Boşluk Doldurma';
       case SetFormat.trueFalse:
         return 'Doğru/Yanlış';
+    }
+  }
+
+  /// Short label for the format segmented button — the full [label] is
+  /// too long ("Çoktan Seçmeli Test") to fit three-up on a phone screen.
+  String get shortLabel {
+    switch (this) {
+      case SetFormat.flashcards:
+        return 'Hafıza Kartı';
+      case SetFormat.multipleChoice:
+        return 'Çoktan Seçmeli';
+      case SetFormat.fillBlank:
+        return 'Boşluk Doldurma';
+      case SetFormat.trueFalse:
+        return 'Doğru/Yanlış';
+    }
+  }
+
+  IconData get icon {
+    switch (this) {
+      case SetFormat.flashcards:
+        return Icons.style_outlined;
+      case SetFormat.multipleChoice:
+        return Icons.checklist_outlined;
+      case SetFormat.fillBlank:
+        return Icons.short_text_outlined;
+      case SetFormat.trueFalse:
+        return Icons.rule_outlined;
     }
   }
 

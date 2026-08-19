@@ -37,6 +37,10 @@ class QuizSet {
   final String? subjectId;
   final List<QuizAttempt> attempts;
 
+  /// The question type shared by every question in this set (a set is
+  /// always generated as a single format), or `null` if it has none.
+  QuestionType? get format => questions.isEmpty ? null : questions.first.type;
+
   QuizSet withSubjectId(String? subjectId) => QuizSet(
     id: id,
     title: title,

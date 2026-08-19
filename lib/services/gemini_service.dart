@@ -323,7 +323,11 @@ class GeminiService {
         'fazla, tam olarak $questionCount soru üretmelisin. Her sorunun '
         'metninde boşluk bırakılacak yere "____" (alt çizgi) koy, answer '
         'alanına o boşluğa gelmesi gereken kısa (tek kelime veya kısa bir '
-        'ifade) doğru cevabı yaz. Her soru için ayrıca kısa (1-2 cümlelik) '
+        'ifade) doğru cevabı yaz. answer alanını normal Türkçe yazım '
+        'kurallarına uygun şekilde yaz; Türkçe özel karakterleri (ç, ğ, ı, '
+        'ö, ş, ü ve büyük halleri Ç, Ğ, İ, Ö, Ş, Ü) gerektiği yerde MUTLAKA '
+        'kullan, ASCII karşılıklarına çevirme (doğru örnek: "üreme", '
+        'yanlış örnek: "ureme"). Her soru için ayrıca kısa (1-2 cümlelik) '
         'bir explanation yaz.'
         '${difficultyInstruction == null ? '' : ' $difficultyInstruction'}';
     final prompt = _buildPrompt(
@@ -386,7 +390,12 @@ class GeminiService {
             type: QuestionType.fillBlank,
           ),
         )
-        .where((q) => q.question.isNotEmpty && q.answerText.isNotEmpty)
+        .where(
+          (q) =>
+              q.question.isNotEmpty &&
+              q.answerText.isNotEmpty &&
+              !q.answerText.contains('�'),
+        )
         .toList();
 
     if (questions.isEmpty) {

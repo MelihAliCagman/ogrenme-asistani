@@ -13,6 +13,8 @@ import 'package:ogrenme_asistani/screens/quiz_set_screen.dart';
 import 'package:ogrenme_asistani/services/card_set_repository.dart';
 import 'package:ogrenme_asistani/services/chat_session_repository.dart';
 import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
+import 'package:ogrenme_asistani/widgets/manual_badge.dart';
+import 'package:ogrenme_asistani/widgets/quiz_format_chip.dart';
 
 class SubjectDetailScreen extends StatefulWidget {
   const SubjectDetailScreen({super.key, required this.subject});
@@ -126,7 +128,6 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
           builder: (context) => QuizSetScreen(
             quizSet: set,
             subject: widget.subject,
-            returnToSubject: widget.subject,
           ),
         ),
       );
@@ -160,7 +161,6 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
           builder: (context) => QuizSetScreen(
             quizSet: set,
             subject: widget.subject,
-            returnToSubject: widget.subject,
           ),
         ),
       );
@@ -170,7 +170,6 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
           builder: (context) => QuizHistoryScreen(
             quizSet: set,
             subject: widget.subject,
-            returnToSubject: widget.subject,
           ),
         ),
       );
@@ -223,13 +222,16 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
           child: ListTile(
             leading: const Icon(Icons.style),
             title: Text('${set.title} - ${set.cards.length} kart'),
+            subtitle: set.isManual
+                ? const Align(
+                    alignment: Alignment.centerLeft,
+                    child: ManualBadge(),
+                  )
+                : null,
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => CardSetDetailScreen(
-                    cardSet: set,
-                    returnToSubject: widget.subject,
-                  ),
+                  builder: (context) => CardSetDetailScreen(cardSet: set),
                 ),
               );
             },
@@ -249,11 +251,18 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
       separatorBuilder: (_, _) => const SizedBox(height: 8),
       itemBuilder: (context, index) {
         final set = _quizSets[index];
+        final format = set.format;
         return Card(
           margin: EdgeInsets.zero,
           child: ListTile(
             leading: const Icon(Icons.quiz),
             title: Text('${set.title} - ${set.questions.length} soru'),
+            subtitle: format == null
+                ? null
+                : Align(
+                    alignment: Alignment.centerLeft,
+                    child: QuizFormatChip(format: format),
+                  ),
             onTap: () => _openQuizSet(set),
           ),
         );

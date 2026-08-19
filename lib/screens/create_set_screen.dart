@@ -4,6 +4,7 @@ import 'dart:typed_data';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
 import 'package:ogrenme_asistani/models/quiz_question.dart';
 import 'package:ogrenme_asistani/models/quiz_set.dart';
@@ -56,7 +57,21 @@ class _CreateSetScreenState extends State<CreateSetScreen> {
   Uint8List? _selectedFileBytes;
   String? _selectedFileName;
 
+  /// Only meaningful for flashcard sets — quiz sets are always
+  /// AI-generated, so this stays `false` whenever [_isQuiz] is `true`.
+  bool _manualMode = false;
+  final TextEditingController _manualTitleController = TextEditingController();
+  final List<_ManualCardControllers> _manualCards = [_ManualCardControllers()];
+
   bool get _isQuiz => _format.isQuiz;
+
+  void _addManualCard() {
+    setState(() => _manualCards.add(_ManualCardControllers()));
+  }
+
+  void _removeManualCard(int index) {
+    setState(() => _manualCards.removeAt(index).dispose());
+  }
 
   @override
   void initState() {
@@ -146,6 +161,58 @@ class _CreateSetScreenState extends State<CreateSetScreen> {
       _selectedFileBytes = null;
       _selectedFileName = null;
     });
+  }
+
+  bool get _canSaveManual =>
+      _manualTitleController.text.trim().isNotEmpty &&
+      _manualCards.any(
+        (c) =>
+            c.questionController.text.trim().isNotEmpty &&
+            c.answerController.text.trim().isNotEmpty,
+      );
+
+  Future<void> _createManual() async {
+    setState(() {
+      _isLoading = true;
+      _errorMessage = null;
+    });
+    try {
+      final cards = _manualCards
+          .where(
+            (c) =>
+                c.questionController.text.trim().isNotEmpty &&
+                c.answerController.text.trim().isNotEmpty,
+          )
+          .map(
+            (c) => Flashcard(
+              question: c.questionController.text.trim(),
+              answer: c.answerController.text.trim(),
+            ),
+          )
+          .toList();
+      final sets = await _cardSetRepository.loadAll();
+      final newSet = FlashcardSet(
+        id: DateTime.now().microsecondsSinceEpoch.toString(),
+        title: _manualTitleController.text.trim(),
+        createdAt: DateTime.now(),
+        cards: cards,
+        subjectId: _selectedSubjectId,
+        isManual: true,
+      );
+      await _cardSetRepository.saveAll([newSet, ...sets]);
+      if (!mounted) return;
+      Navigator.of(context).pop(true);
+    } catch (e) {
+      debugPrint('[CreateSetScreen] Manuel oluşturma başarısız: $e');
+      if (!mounted) return;
+      setState(() {
+        _errorMessage = 'Kaydedilemedi. Lütfen tekrar dener misin?';
+      });
+    } finally {
+      if (mounted) {
+        setState(() => _isLoading = false);
+      }
+    }
   }
 
   Future<void> _create() async {
@@ -241,14 +308,213 @@ class _CreateSetScreenState extends State<CreateSetScreen> {
   @override
   void dispose() {
     _controller.dispose();
+    _manualTitleController.dispose();
+    for (final card in _manualCards) {
+      card.dispose();
+    }
     _subjectsSubscription?.cancel();
     super.dispose();
   }
 
+  Widget _buildSubjectPicker(BuildContext context) {
+    return InkWell(
+      onTap: _pickSubject,
+      borderRadius: BorderRadius.circular(8),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        child: Row(
+          children: [
+            const Icon(Icons.menu_book_outlined, size: 18),
+            const SizedBox(width: 8),
+            Text(
+              _subjectFor(_selectedSubjectId)?.name ?? 'Ders seç (opsiyonel)',
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+            const Icon(Icons.arrow_drop_down),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildErrorMessage(BuildContext context) {
+    if (_errorMessage == null) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.only(top: 12),
+      child: Text(
+        _errorMessage!,
+        style: TextStyle(color: Theme.of(context).colorScheme.error),
+      ),
+    );
+  }
+
+  List<Widget> _buildAiForm(BuildContext context) {
+    final counts = _isQuiz ? const [10, 15, 20] : const [5, 10, 15, 20];
+    return [
+      if (_isQuiz) ...[
+        Text('Soru tipi', style: Theme.of(context).textTheme.bodyMedium),
+        const SizedBox(height: 8),
+        SizedBox(
+          width: double.infinity,
+          child: SegmentedButton<SetFormat>(
+            segments: _quizFormats.map((format) {
+              return ButtonSegment(
+                value: format,
+                icon: Icon(format.icon, size: 18),
+                label: Text(format.shortLabel, overflow: TextOverflow.ellipsis),
+              );
+            }).toList(),
+            selected: {_format},
+            showSelectedIcon: false,
+            onSelectionChanged: (selection) {
+              setState(() => _format = selection.first);
+            },
+          ),
+        ),
+        const SizedBox(height: 20),
+      ],
+      Row(
+        children: [
+          OutlinedButton.icon(
+            onPressed: _isLoading ? null : _pickFile,
+            icon: const Icon(Icons.attach_file),
+            label: const Text('Dosya Yükle (PDF)'),
+          ),
+        ],
+      ),
+      if (_selectedFileName != null) ...[
+        const SizedBox(height: 8),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: Chip(
+            avatar: const Icon(Icons.picture_as_pdf, size: 18),
+            label: Text(
+              'Seçilen dosya: $_selectedFileName',
+              overflow: TextOverflow.ellipsis,
+            ),
+            onDeleted: _isLoading ? null : _removeSelectedFile,
+          ),
+        ),
+      ],
+      const SizedBox(height: 12),
+      TextField(
+        controller: _controller,
+        maxLines: 6,
+        minLines: 3,
+        decoration: InputDecoration(
+          hintText: _selectedFileBytes == null
+              ? 'Ders notunu veya metni buraya yapıştır...'
+              : 'İsteğe bağlı ek talimat yaz (örn. "sadece 2. üniteye '
+                    'odaklan")',
+          border: const OutlineInputBorder(),
+        ),
+      ),
+      const SizedBox(height: 20),
+      Text(
+        _isQuiz ? 'Soru sayısı' : 'Kart sayısı',
+        style: Theme.of(context).textTheme.bodyMedium,
+      ),
+      const SizedBox(height: 8),
+      SizedBox(
+        width: double.infinity,
+        child: SegmentedButton<int>(
+          segments: [
+            for (final c in counts) ButtonSegment(value: c, label: Text('$c')),
+          ],
+          selected: {_count},
+          onSelectionChanged: (selection) {
+            setState(() => _count = selection.first);
+          },
+        ),
+      ),
+      const SizedBox(height: 20),
+      Text('Zorluk seviyesi', style: Theme.of(context).textTheme.bodyMedium),
+      const SizedBox(height: 8),
+      Wrap(
+        spacing: 8,
+        runSpacing: 8,
+        children: SetDifficulty.values.map((difficulty) {
+          return ChoiceChip(
+            label: Text(difficulty.label),
+            selected: _difficulty == difficulty,
+            onSelected: (_) => setState(() => _difficulty = difficulty),
+          );
+        }).toList(),
+      ),
+      const SizedBox(height: 20),
+      _buildSubjectPicker(context),
+      const SizedBox(height: 20),
+      FilledButton.icon(
+        onPressed: _isLoading ? null : _create,
+        icon: _isLoading
+            ? const SizedBox(
+                width: 18,
+                height: 18,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              )
+            : const Icon(Icons.auto_awesome),
+        label: Text(
+          _isLoading
+              ? 'Oluşturuluyor...'
+              : _isQuiz
+              ? 'Test Oluştur'
+              : 'Kart Oluştur',
+        ),
+      ),
+      _buildErrorMessage(context),
+    ];
+  }
+
+  List<Widget> _buildManualForm(BuildContext context) {
+    return [
+      TextField(
+        controller: _manualTitleController,
+        decoration: const InputDecoration(
+          labelText: 'Set adı',
+          border: OutlineInputBorder(),
+        ),
+        onChanged: (_) => setState(() {}),
+      ),
+      const SizedBox(height: 20),
+      _buildSubjectPicker(context),
+      const SizedBox(height: 20),
+      Text('Kartlar', style: Theme.of(context).textTheme.bodyMedium),
+      const SizedBox(height: 8),
+      for (var i = 0; i < _manualCards.length; i++)
+        Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: _ManualCardForm(
+            index: i,
+            controllers: _manualCards[i],
+            onChanged: () => setState(() {}),
+            onRemove: _manualCards.length > 1
+                ? () => _removeManualCard(i)
+                : null,
+          ),
+        ),
+      OutlinedButton.icon(
+        onPressed: _addManualCard,
+        icon: const Icon(Icons.add),
+        label: const Text('Kart Ekle'),
+      ),
+      const SizedBox(height: 20),
+      FilledButton.icon(
+        onPressed: _isLoading || !_canSaveManual ? null : _createManual,
+        icon: _isLoading
+            ? const SizedBox(
+                width: 18,
+                height: 18,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              )
+            : const Icon(Icons.save_outlined),
+        label: Text(_isLoading ? 'Kaydediliyor...' : 'Kaydet'),
+      ),
+      _buildErrorMessage(context),
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
-    final counts = _isQuiz ? const [10, 15, 20] : const [5, 10, 15, 20];
-
     return Scaffold(
       appBar: AppBar(
         title: Text(_isQuiz ? 'Test Oluştur' : 'Kart Oluştur'),
@@ -257,142 +523,108 @@ class _CreateSetScreenState extends State<CreateSetScreen> {
         child: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            if (_isQuiz) ...[
-              Text(
-                'Soru tipi',
-                style: Theme.of(context).textTheme.bodyMedium,
-              ),
-              const SizedBox(height: 8),
-              Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: _quizFormats.map((format) {
-                  return ChoiceChip(
-                    label: Text(format.label),
-                    selected: _format == format,
-                    onSelected: (_) => setState(() => _format = format),
-                  );
-                }).toList(),
+            if (!_isQuiz) ...[
+              SizedBox(
+                width: double.infinity,
+                child: SegmentedButton<bool>(
+                  segments: const [
+                    ButtonSegment(
+                      value: false,
+                      icon: Icon(Icons.auto_awesome, size: 18),
+                      label: Text('AI ile Oluştur'),
+                    ),
+                    ButtonSegment(
+                      value: true,
+                      icon: Icon(Icons.edit_note, size: 18),
+                      label: Text('Manuel Ekle'),
+                    ),
+                  ],
+                  selected: {_manualMode},
+                  showSelectedIcon: false,
+                  onSelectionChanged: (selection) {
+                    setState(() => _manualMode = selection.first);
+                  },
+                ),
               ),
               const SizedBox(height: 20),
             ],
+            ...(_manualMode && !_isQuiz)
+                ? _buildManualForm(context)
+                : _buildAiForm(context),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Text controllers for a single manual flashcard's question/answer
+/// fields — kept as a unit so the row list can add/remove/dispose them
+/// together.
+class _ManualCardControllers {
+  final questionController = TextEditingController();
+  final answerController = TextEditingController();
+
+  void dispose() {
+    questionController.dispose();
+    answerController.dispose();
+  }
+}
+
+class _ManualCardForm extends StatelessWidget {
+  const _ManualCardForm({
+    required this.index,
+    required this.controllers,
+    required this.onChanged,
+    required this.onRemove,
+  });
+
+  final int index;
+  final _ManualCardControllers controllers;
+  final VoidCallback onChanged;
+  final VoidCallback? onRemove;
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      margin: EdgeInsets.zero,
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
             Row(
               children: [
-                OutlinedButton.icon(
-                  onPressed: _isLoading ? null : _pickFile,
-                  icon: const Icon(Icons.attach_file),
-                  label: const Text('Dosya Yükle (PDF)'),
+                Text(
+                  'Kart ${index + 1}',
+                  style: Theme.of(context).textTheme.labelLarge,
                 ),
+                const Spacer(),
+                if (onRemove != null)
+                  IconButton(
+                    icon: const Icon(Icons.remove_circle_outline),
+                    onPressed: onRemove,
+                    tooltip: 'Kartı sil',
+                  ),
               ],
             ),
-            if (_selectedFileName != null) ...[
-              const SizedBox(height: 8),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Chip(
-                  avatar: const Icon(Icons.picture_as_pdf, size: 18),
-                  label: Text(
-                    'Seçilen dosya: $_selectedFileName',
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  onDeleted: _isLoading ? null : _removeSelectedFile,
-                ),
-              ),
-            ],
-            const SizedBox(height: 12),
             TextField(
-              controller: _controller,
-              maxLines: 6,
-              minLines: 3,
-              decoration: InputDecoration(
-                hintText: _selectedFileBytes == null
-                    ? 'Ders notunu veya metni buraya yapıştır...'
-                    : 'İsteğe bağlı ek talimat yaz (örn. "sadece 2. üniteye '
-                          'odaklan")',
-                border: const OutlineInputBorder(),
+              controller: controllers.questionController,
+              decoration: const InputDecoration(
+                labelText: 'Soru',
+                border: OutlineInputBorder(),
               ),
-            ),
-            const SizedBox(height: 20),
-            Text(
-              _isQuiz ? 'Soru sayısı' : 'Kart sayısı',
-              style: Theme.of(context).textTheme.bodyMedium,
+              onChanged: (_) => onChanged(),
             ),
             const SizedBox(height: 8),
-            SizedBox(
-              width: double.infinity,
-              child: SegmentedButton<int>(
-                segments: [
-                  for (final c in counts)
-                    ButtonSegment(value: c, label: Text('$c')),
-                ],
-                selected: {_count},
-                onSelectionChanged: (selection) {
-                  setState(() => _count = selection.first);
-                },
+            TextField(
+              controller: controllers.answerController,
+              decoration: const InputDecoration(
+                labelText: 'Cevap',
+                border: OutlineInputBorder(),
               ),
+              onChanged: (_) => onChanged(),
             ),
-            const SizedBox(height: 20),
-            Text(
-              'Zorluk seviyesi',
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            const SizedBox(height: 8),
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: SetDifficulty.values.map((difficulty) {
-                return ChoiceChip(
-                  label: Text(difficulty.label),
-                  selected: _difficulty == difficulty,
-                  onSelected: (_) => setState(() => _difficulty = difficulty),
-                );
-              }).toList(),
-            ),
-            const SizedBox(height: 20),
-            InkWell(
-              onTap: _pickSubject,
-              borderRadius: BorderRadius.circular(8),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 4),
-                child: Row(
-                  children: [
-                    const Icon(Icons.menu_book_outlined, size: 18),
-                    const SizedBox(width: 8),
-                    Text(
-                      _subjectFor(_selectedSubjectId)?.name ??
-                          'Ders seç (opsiyonel)',
-                      style: Theme.of(context).textTheme.bodyMedium,
-                    ),
-                    const Icon(Icons.arrow_drop_down),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 20),
-            FilledButton.icon(
-              onPressed: _isLoading ? null : _create,
-              icon: _isLoading
-                  ? const SizedBox(
-                      width: 18,
-                      height: 18,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
-                  : const Icon(Icons.auto_awesome),
-              label: Text(
-                _isLoading
-                    ? 'Oluşturuluyor...'
-                    : _isQuiz
-                    ? 'Test Oluştur'
-                    : 'Kart Oluştur',
-              ),
-            ),
-            if (_errorMessage != null) ...[
-              const SizedBox(height: 12),
-              Text(
-                _errorMessage!,
-                style: TextStyle(color: Theme.of(context).colorScheme.error),
-              ),
-            ],
           ],
         ),
       ),
