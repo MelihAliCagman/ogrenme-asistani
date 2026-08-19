@@ -110,7 +110,11 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
     if (_fillBlankSubmitted) return;
     final given = _fillBlankController.text.trim();
     final expected = _currentQuestion.answerText.trim();
-    final isCorrect = given.toLowerCase() == expected.toLowerCase();
+    // Folds Turkish diacritics away for comparison ONLY — the given/
+    // expected strings themselves (used below and shown on screen)
+    // keep their original characters. Forgives a user typing "ureme"
+    // on a keyboard without Turkish letters, or the reverse.
+    final isCorrect = _foldTurkish(given) == _foldTurkish(expected);
     setState(() {
       _fillBlankSubmitted = true;
       _fillBlankCorrect = isCorrect;
@@ -446,6 +450,32 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       ],
     );
   }
+}
+
+/// Turkish-diacritic → ASCII-base fold, for fill-blank answer comparison
+/// only (never for storage or display) — lowercases via [toLowerCase]
+/// first since Dart's default case folding already handles the
+/// non-Turkish letters correctly, then maps the Turkish-specific
+/// letters by hand ([toLowerCase] leaves 'ı' as-is and turns 'İ' into
+/// 'i̇' with a combining dot rather than a plain 'i', so both need an
+/// explicit map here).
+const Map<String, String> _turkishFold = {
+  'ç': 'c', 'Ç': 'c',
+  'ğ': 'g', 'Ğ': 'g',
+  'ı': 'i', 'I': 'i',
+  'i': 'i', 'İ': 'i',
+  'ö': 'o', 'Ö': 'o',
+  'ş': 's', 'Ş': 's',
+  'ü': 'u', 'Ü': 'u',
+};
+
+String _foldTurkish(String text) {
+  final buffer = StringBuffer();
+  for (final char in text.toLowerCase().runes) {
+    final s = String.fromCharCode(char);
+    buffer.write(_turkishFold[s] ?? s);
+  }
+  return buffer.toString();
 }
 
 final _blankMarker = RegExp('_{3,}');

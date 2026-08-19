@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
+import 'package:ogrenme_asistani/widgets/flip_card.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -92,27 +93,26 @@ class _QuizScreenState extends State<QuizScreen> {
     final colorScheme = Theme.of(context).colorScheme;
     final card = _shuffledCards[_currentIndex];
 
-    final cardColumn = Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        LabeledInfoCard(
-          label: 'SORU',
-          text: card.question,
-          background: colorScheme.primaryContainer,
-          foreground: colorScheme.onPrimaryContainer,
-          textFontSize: 18,
-        ),
-        if (_showAnswer) ...[
-          const SizedBox(height: 12),
-          LabeledInfoCard(
-            label: 'CEVAP',
-            text: card.answer,
-            background: colorScheme.secondaryContainer,
-            foreground: colorScheme.onSecondaryContainer,
-            textFontSize: 18,
-          ),
-        ],
-      ],
+    final flipCard = FlipCard(
+      // Once already revealed, tapping again just flips the FlipCard
+      // locally back and forth (harmless) — onFlip is only needed to
+      // learn about the FIRST flip, which is when the answer becomes
+      // visible and swiping should unlock.
+      onFlip: _showAnswer ? null : _revealAnswer,
+      front: LabeledInfoCard(
+        label: 'SORU',
+        text: card.question,
+        background: colorScheme.primaryContainer,
+        foreground: colorScheme.onPrimaryContainer,
+        textFontSize: 18,
+      ),
+      back: LabeledInfoCard(
+        label: 'CEVAP',
+        text: card.answer,
+        background: colorScheme.secondaryContainer,
+        foreground: colorScheme.onSecondaryContainer,
+        textFontSize: 18,
+      ),
     );
 
     return Column(
@@ -124,86 +124,36 @@ class _QuizScreenState extends State<QuizScreen> {
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 16),
-        if (_showAnswer) ...[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Row(
-                children: [
-                  Icon(Icons.arrow_back, size: 16, color: colorScheme.error),
-                  const SizedBox(width: 4),
-                  Text(
-                    'Bilemedim',
-                    style: TextStyle(color: colorScheme.error),
-                  ),
-                ],
-              ),
-              Row(
-                children: [
-                  Text(
-                    'Bildim',
-                    style: const TextStyle(color: Colors.green),
-                  ),
-                  const SizedBox(width: 4),
-                  const Icon(Icons.arrow_forward, size: 16, color: Colors.green),
-                ],
-              ),
-            ],
-          ),
-          const SizedBox(height: 8),
-        ],
         Expanded(
-          child: _showAnswer
-              ? Dismissible(
-                  key: ValueKey('card_$_currentIndex'),
-                  direction: DismissDirection.horizontal,
-                  onDismissed: (direction) =>
-                      _answer(direction == DismissDirection.startToEnd),
-                  background: Container(
-                    alignment: Alignment.centerLeft,
-                    padding: const EdgeInsets.symmetric(horizontal: 24),
-                    decoration: BoxDecoration(
-                      color: Colors.green.withValues(alpha: 0.15),
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: const Icon(Icons.check_circle, color: Colors.green, size: 32),
-                  ),
-                  secondaryBackground: Container(
-                    alignment: Alignment.centerRight,
-                    padding: const EdgeInsets.symmetric(horizontal: 24),
-                    decoration: BoxDecoration(
-                      color: colorScheme.error.withValues(alpha: 0.15),
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: Icon(Icons.cancel, color: colorScheme.error, size: 32),
-                  ),
-                  child: cardColumn,
-                )
-              : cardColumn,
-        ),
-        if (!_showAnswer)
-          FilledButton(
-            onPressed: _revealAnswer,
-            child: const Text('Cevabı Göster'),
-          )
-        else
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton(
-                  onPressed: () => _answer(false),
-                  child: const Text('Bilemedim'),
-                ),
+          child: Dismissible(
+            key: ValueKey('card_$_currentIndex'),
+            // Swiping only does anything once the card's been flipped
+            // to show its answer — before that, a horizontal drag is
+            // just FlipCard's own tap-to-flip gesture underneath.
+            direction: _showAnswer ? DismissDirection.horizontal : DismissDirection.none,
+            onDismissed: (direction) =>
+                _answer(direction == DismissDirection.startToEnd),
+            background: Container(
+              alignment: Alignment.centerLeft,
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              decoration: BoxDecoration(
+                color: Colors.green.withValues(alpha: 0.15),
+                borderRadius: BorderRadius.circular(16),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: FilledButton(
-                  onPressed: () => _answer(true),
-                  child: const Text('Bildim'),
-                ),
+              child: const Icon(Icons.check_circle, color: Colors.green, size: 32),
+            ),
+            secondaryBackground: Container(
+              alignment: Alignment.centerRight,
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              decoration: BoxDecoration(
+                color: colorScheme.error.withValues(alpha: 0.15),
+                borderRadius: BorderRadius.circular(16),
               ),
-            ],
+              child: Icon(Icons.cancel, color: colorScheme.error, size: 32),
+            ),
+            child: flipCard,
           ),
+        ),
       ],
     );
   }
