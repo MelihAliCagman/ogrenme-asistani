@@ -1,6 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/flashcard.dart';
+import 'package:ogrenme_asistani/models/flashcard_in_progress.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
+import 'package:ogrenme_asistani/services/flashcard_progress_repository.dart';
 import 'package:ogrenme_asistani/widgets/flip_card.dart';
 import 'package:ogrenme_asistani/widgets/labeled_info_card.dart';
 
@@ -20,28 +23,98 @@ class QuizScreen extends StatefulWidget {
 }
 
 class _QuizScreenState extends State<QuizScreen> {
-  late List<Flashcard> _shuffledCards;
+  final _progressRepository = FlashcardProgressRepository();
+  late List<int> _order;
   int _currentIndex = 0;
   bool _showAnswer = false;
   int _correctCount = 0;
   int _incorrectCount = 0;
   bool _finished = false;
+  bool _isLoading = true;
+
+  List<Flashcard> get _shuffledCards =>
+      _order.map((i) => widget.cardSet.cards[i]).toList();
+
+  String? get _uid => FirebaseAuth.instance.currentUser?.uid;
 
   @override
   void initState() {
     super.initState();
+    _initQuiz();
+  }
+
+  /// Checks for a saved mid-session snapshot before starting a fresh
+  /// shuffle — offers to resume it if one exists and still matches this
+  /// set's current card count (a stale snapshot from before the content
+  /// changed is simply discarded in favor of a fresh start).
+  Future<void> _initQuiz() async {
+    final uid = _uid;
+    final saved = uid == null
+        ? null
+        : await _progressRepository.load(uid, widget.cardSet.id);
+    if (!mounted) return;
+    if (saved != null &&
+        saved.order.length == widget.cardSet.cards.length &&
+        saved.currentIndex < saved.order.length) {
+      final shouldResume = await _confirmResume();
+      if (!mounted) return;
+      if (shouldResume) {
+        _resumeQuiz(saved);
+        return;
+      }
+    }
     _startQuiz();
+  }
+
+  Future<bool> _confirmResume() async {
+    final result = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        title: const Text('Yarım kalan tekrar'),
+        content: const Text(
+          'Bu kart setinde yarım kalmış bir tekrarın var. Kaldığın yerden '
+          'devam etmek ister misin?',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Baştan Başla'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Kaldığım Yerden Devam Et'),
+          ),
+        ],
+      ),
+    );
+    return result ?? false;
+  }
+
+  void _resumeQuiz(FlashcardInProgress saved) {
+    setState(() {
+      _order = List.of(saved.order);
+      _currentIndex = saved.currentIndex;
+      _showAnswer = false;
+      _correctCount = saved.correctCount;
+      _incorrectCount = saved.incorrectCount;
+      _finished = false;
+      _isLoading = false;
+    });
   }
 
   void _startQuiz() {
     setState(() {
-      _shuffledCards = List.of(widget.cardSet.cards)..shuffle();
+      _order = List.generate(widget.cardSet.cards.length, (i) => i)..shuffle();
       _currentIndex = 0;
       _showAnswer = false;
       _correctCount = 0;
       _incorrectCount = 0;
       _finished = false;
+      _isLoading = false;
     });
+    final uid = _uid;
+    if (uid != null) _progressRepository.clear(uid, widget.cardSet.id);
   }
 
   void _revealAnswer() {
@@ -58,7 +131,7 @@ class _QuizScreenState extends State<QuizScreen> {
         _incorrectCount++;
       }
 
-      if (_currentIndex + 1 < _shuffledCards.length) {
+      if (_currentIndex + 1 < _order.length) {
         _currentIndex++;
         _showAnswer = false;
       } else {
@@ -66,8 +139,32 @@ class _QuizScreenState extends State<QuizScreen> {
       }
     });
     if (_finished) {
+      _clearProgress();
       widget.onFinished?.call();
+    } else {
+      _saveProgress();
     }
+  }
+
+  Future<void> _saveProgress() {
+    final uid = _uid;
+    if (uid == null) return Future.value();
+    return _progressRepository.save(
+      uid,
+      widget.cardSet.id,
+      FlashcardInProgress(
+        order: _order,
+        currentIndex: _currentIndex,
+        correctCount: _correctCount,
+        incorrectCount: _incorrectCount,
+      ),
+    );
+  }
+
+  Future<void> _clearProgress() {
+    final uid = _uid;
+    if (uid == null) return Future.value();
+    return _progressRepository.clear(uid, widget.cardSet.id);
   }
 
   /// Always pops back to whichever screen pushed this one (always
@@ -84,14 +181,18 @@ class _QuizScreenState extends State<QuizScreen> {
       appBar: AppBar(title: Text('Tekrar Et - ${widget.cardSet.title}')),
       body: Padding(
         padding: const EdgeInsets.all(16),
-        child: _finished ? _buildSummary(context) : _buildQuiz(context),
+        child: _isLoading
+            ? const Center(child: CircularProgressIndicator())
+            : _finished
+            ? _buildSummary(context)
+            : _buildQuiz(context),
       ),
     );
   }
 
   Widget _buildQuiz(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final card = _shuffledCards[_currentIndex];
+    final card = widget.cardSet.cards[_order[_currentIndex]];
 
     final flipCard = FlipCard(
       // Once already revealed, tapping again just flips the FlipCard

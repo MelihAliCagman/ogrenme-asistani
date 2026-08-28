@@ -71,6 +71,9 @@ Future<void> main() async {
     final content = jsonDecode(contentFile.readAsStringSync()) as Map<String, dynamic>;
     final subjectKey = content['subjectKey'] as String;
     final units = content['units'] as List;
+    final hasContent = units.any(
+      (u) => ((u as Map<String, dynamic>)['nodes'] as List).isNotEmpty,
+    );
 
     stderr.writeln('"$subjectKey" ders yolu $projectId projesine yazılıyor...');
 
@@ -78,7 +81,14 @@ Future<void> main() async {
       'https://firestore.googleapis.com/v1/projects/$projectId/databases/(default)/documents/$_collection/$subjectKey',
     );
     final pathBody = jsonEncode({
-      'fields': _toFirestoreFields({'title': content['title']}),
+      'fields': _toFirestoreFields({
+        'title': content['title'],
+        // Drives the "Ders Yolları" hierarchy chooser (YKS -> Biyoloji ->
+        // "TYT Biyoloji") — see lib/services/curriculum_path_repository.dart.
+        'examType': content['examType'] ?? 'YKS',
+        'subject': content['subject'] ?? 'Biyoloji',
+        'hasContent': hasContent,
+      }),
     });
     final pathResponse = await client.patch(
       pathUri,
@@ -120,10 +130,55 @@ Future<void> main() async {
       final nodeCount = (unit['nodes'] as List).length;
       stderr.writeln('✅ Yazıldı: $unitId (${unit['title']}) - $nodeCount node');
     }
+
+    // "AYT Biyoloji" placeholder — no units authored yet, so it shows
+    // locked/"Yakında" in the Ders Yolları hierarchy leaf list (see
+    // PathVariantsScreen) purely from hasContent: false, same convention
+    // as an empty CurriculumUnit on the unit list itself.
+    await _upsertPlaceholderPath(
+      client,
+      projectId,
+      subjectKey: 'ayt_biyoloji',
+      title: 'AYT Biyoloji',
+      examType: 'YKS',
+      subject: 'Biyoloji',
+    );
+
     stderr.writeln('Tamamlandı.');
   } finally {
     client.close();
   }
+}
+
+Future<void> _upsertPlaceholderPath(
+  AuthClient client,
+  String projectId, {
+  required String subjectKey,
+  required String title,
+  required String examType,
+  required String subject,
+}) async {
+  final uri = Uri.parse(
+    'https://firestore.googleapis.com/v1/projects/$projectId/databases/(default)/documents/$_collection/$subjectKey',
+  );
+  final body = jsonEncode({
+    'fields': _toFirestoreFields({
+      'title': title,
+      'examType': examType,
+      'subject': subject,
+      'hasContent': false,
+    }),
+  });
+  final response = await client.patch(
+    uri,
+    headers: {'Content-Type': 'application/json'},
+    body: body,
+  );
+  if (response.statusCode != 200) {
+    stderr.writeln('❌ $subjectKey (placeholder): HTTP ${response.statusCode} ${response.body}');
+    return;
+  }
+  stderr.writeln('✅ Yazıldı: $subjectKey (placeholder, "Yakında")');
 }
 
 Map<String, dynamic> _toFirestoreFields(Map<String, dynamic> map) {

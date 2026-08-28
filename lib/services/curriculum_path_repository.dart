@@ -9,18 +9,35 @@ class CurriculumPathRepository {
   CollectionReference<Map<String, dynamic>> get _paths =>
       FirebaseFirestore.instance.collection('curriculum_paths');
 
-  /// The subject keys/titles of every seeded path, for the "Ders
-  /// Yolları" chooser screen.
-  Future<List<({String subjectKey, String title})>> loadAvailablePaths() async {
+  /// Every seeded path's chooser-relevant fields, for the "Ders Yolları"
+  /// hierarchy (sınav türü -> ders -> path, e.g. YKS -> Biyoloji -> "TYT
+  /// Biyoloji") — grouped/derived purely from this data at the UI layer,
+  /// so a newly seeded path (a new subject, or a new exam-scoped variant
+  /// like "AYT Biyoloji") slots into the hierarchy without any app code
+  /// change. [hasContent] is `false` for a placeholder path seeded with
+  /// no units yet (e.g. "AYT Biyoloji" before it's authored), shown as
+  /// locked/"Yakında" the same way an empty [CurriculumUnit] already is.
+  Future<
+    List<({
+      String subjectKey,
+      String title,
+      String examType,
+      String subject,
+      bool hasContent,
+    })>
+  >
+  loadAvailablePaths() async {
     final snapshot = await _paths.get();
-    return snapshot.docs
-        .map(
-          (doc) => (
-            subjectKey: doc.id,
-            title: doc.data()['title'] as String? ?? doc.id,
-          ),
-        )
-        .toList();
+    return snapshot.docs.map((doc) {
+      final data = doc.data();
+      return (
+        subjectKey: doc.id,
+        title: data['title'] as String? ?? doc.id,
+        examType: data['examType'] as String? ?? '',
+        subject: data['subject'] as String? ?? '',
+        hasContent: data['hasContent'] as bool? ?? false,
+      );
+    }).toList();
   }
 
   Future<CurriculumPath?> loadPath(String subjectKey) async {

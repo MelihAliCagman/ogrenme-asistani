@@ -22,41 +22,90 @@ extension PathContentKindMeta on PathContentKind {
   }
 }
 
+/// One "part" of a node's flashcard content — e.g. "Kart Seti 2" of 5 —
+/// materialized 1:1 into a real [FlashcardSet] the first time it's
+/// opened, same wire format as [Flashcard] so no conversion step is
+/// needed.
+class CurriculumFlashcardPart {
+  CurriculumFlashcardPart({required this.title, required this.cards});
+
+  factory CurriculumFlashcardPart.fromJson(Map<String, dynamic> json) =>
+      CurriculumFlashcardPart(
+        title: json['title'] as String? ?? '',
+        cards: ((json['cards'] as List?) ?? [])
+            .whereType<Map<String, dynamic>>()
+            .map(Flashcard.fromJson)
+            .toList(),
+      );
+
+  final String title;
+  final List<Flashcard> cards;
+}
+
+/// One "part" of a node's quiz-shaped content (multiple choice, fill
+/// blank, or true/false) — e.g. "Test 3" of 5 — materialized 1:1 into a
+/// real [QuizSet] the first time it's opened.
+class CurriculumQuizPart {
+  CurriculumQuizPart({required this.title, required this.questions});
+
+  factory CurriculumQuizPart.fromJson(Map<String, dynamic> json) =>
+      CurriculumQuizPart(
+        title: json['title'] as String? ?? '',
+        questions: ((json['questions'] as List?) ?? [])
+            .whereType<Map<String, dynamic>>()
+            .map(QuizQuestion.fromJson)
+            .toList(),
+      );
+
+  final String title;
+  final List<QuizQuestion> questions;
+}
+
 /// One topic ("konu") inside a [CurriculumUnit] — a single Duolingo-style
-/// node on the path. Content reuses the exact same wire format as
-/// [Flashcard]/[QuizQuestion] everywhere else in the app, so a node's
-/// content can be copied straight into a normal [FlashcardSet]/[QuizSet]
-/// with no conversion step.
+/// node on the path. Each content kind is split into small, independently
+/// completable parts (e.g. 50 multiple-choice questions become 5 "Test
+/// N" parts of 10) instead of one long set, so a kind only counts as
+/// finished once every one of its parts has been done at least once —
+/// see [NodeProgress.isKindCompleted].
 class CurriculumNode {
   CurriculumNode({
     required this.id,
     required this.order,
     required this.title,
     required this.estimatedMinutes,
-    required this.flashcards,
-    required this.multipleChoice,
-    required this.fillBlank,
-    required this.trueFalse,
+    required this.flashcardParts,
+    required this.multipleChoiceParts,
+    required this.fillBlankParts,
+    required this.trueFalseParts,
   });
 
-  factory CurriculumNode.fromJson(Map<String, dynamic> json) {
-    List<Flashcard> cardsFrom(String key) => ((json[key] as List?) ?? [])
-        .whereType<Map<String, dynamic>>()
-        .map(Flashcard.fromJson)
-        .toList();
-    List<QuizQuestion> questionsFrom(String key) => ((json[key] as List?) ?? [])
-        .whereType<Map<String, dynamic>>()
-        .map(QuizQuestion.fromJson)
-        .toList();
+  /// [unitId] is folded into [id] because the raw `id` field in a node's
+  /// JSON (e.g. `"node1"`) is only unique *within* its unit — every unit
+  /// reuses the same `node1..nodeN` ids. [id] is used as the progress
+  /// lookup key ([PathProgress.progressFor]) and to derive the
+  /// materialized flashcard/quiz set id ([PathDetailScreen]), so without
+  /// this prefix two different units' first node would read/write the
+  /// exact same progress entry and the exact same materialized set.
+  factory CurriculumNode.fromJson(Map<String, dynamic> json, {required String unitId}) {
+    List<CurriculumFlashcardPart> flashcardPartsFrom(String key) =>
+        ((json[key] as List?) ?? [])
+            .whereType<Map<String, dynamic>>()
+            .map(CurriculumFlashcardPart.fromJson)
+            .toList();
+    List<CurriculumQuizPart> quizPartsFrom(String key) =>
+        ((json[key] as List?) ?? [])
+            .whereType<Map<String, dynamic>>()
+            .map(CurriculumQuizPart.fromJson)
+            .toList();
     return CurriculumNode(
-      id: json['id'] as String? ?? '',
+      id: '${unitId}_${json['id'] as String? ?? ''}',
       order: json['order'] as int? ?? 0,
       title: json['title'] as String? ?? '',
       estimatedMinutes: json['estimatedMinutes'] as int? ?? 10,
-      flashcards: cardsFrom('flashcards'),
-      multipleChoice: questionsFrom('multipleChoice'),
-      fillBlank: questionsFrom('fillBlank'),
-      trueFalse: questionsFrom('trueFalse'),
+      flashcardParts: flashcardPartsFrom('flashcards'),
+      multipleChoiceParts: quizPartsFrom('multipleChoice'),
+      fillBlankParts: quizPartsFrom('fillBlank'),
+      trueFalseParts: quizPartsFrom('trueFalse'),
     );
   }
 
@@ -64,23 +113,25 @@ class CurriculumNode {
   final int order;
   final String title;
   final int estimatedMinutes;
-  final List<Flashcard> flashcards;
-  final List<QuizQuestion> multipleChoice;
-  final List<QuizQuestion> fillBlank;
-  final List<QuizQuestion> trueFalse;
+  final List<CurriculumFlashcardPart> flashcardParts;
+  final List<CurriculumQuizPart> multipleChoiceParts;
+  final List<CurriculumQuizPart> fillBlankParts;
+  final List<CurriculumQuizPart> trueFalseParts;
 
-  bool hasContent(PathContentKind kind) {
+  int partCountFor(PathContentKind kind) {
     switch (kind) {
       case PathContentKind.flashcards:
-        return flashcards.isNotEmpty;
+        return flashcardParts.length;
       case PathContentKind.multipleChoice:
-        return multipleChoice.isNotEmpty;
+        return multipleChoiceParts.length;
       case PathContentKind.fillBlank:
-        return fillBlank.isNotEmpty;
+        return fillBlankParts.length;
       case PathContentKind.trueFalse:
-        return trueFalse.isNotEmpty;
+        return trueFalseParts.length;
     }
   }
+
+  bool hasContent(PathContentKind kind) => partCountFor(kind) > 0;
 
   /// A node is fully completed once every content kind it actually has
   /// content for is completed in [progress] — a kind the node has no
@@ -88,7 +139,7 @@ class CurriculumNode {
   /// set is authored) never blocks completion.
   bool isFullyCompleted(NodeProgress progress) => PathContentKind.values
       .where(hasContent)
-      .every(progress.isKindCompleted);
+      .every((kind) => progress.isKindCompleted(kind, partCountFor(kind)));
 }
 
 /// A unit ("ünite") — an ordered group of [CurriculumNode]s. Units seeded
@@ -107,7 +158,7 @@ class CurriculumUnit {
     final nodes =
         rawNodes
             .whereType<Map<String, dynamic>>()
-            .map(CurriculumNode.fromJson)
+            .map((n) => CurriculumNode.fromJson(n, unitId: id))
             .toList()
           ..sort((a, b) => a.order.compareTo(b.order));
     return CurriculumUnit(

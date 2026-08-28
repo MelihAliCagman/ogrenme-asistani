@@ -88,11 +88,16 @@ class _SubjectSetsScreenState extends State<SubjectSetsScreen> {
     ]);
     if (!mounted) return;
     setState(() {
+      // Ders Yolları content is materialized into the same repositories
+      // but shouldn't clutter the general Setlerim list — see
+      // FlashcardSet.sourceCurriculumPath.
       _cardSets = (results[0] as List<FlashcardSet>)
           .where((s) => s.subjectId == widget.subject?.id)
+          .where((s) => s.source != FlashcardSet.sourceCurriculumPath)
           .toList();
       _quizSets = (results[1] as List<QuizSet>)
           .where((s) => s.subjectId == widget.subject?.id)
+          .where((s) => s.source != QuizSet.sourceCurriculumPath)
           .toList();
       _isLoadingSets = false;
     });

@@ -2,13 +2,14 @@ import 'dart:math' as math;
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ogrenme_asistani/config/dev_flags.dart';
 import 'package:ogrenme_asistani/models/curriculum_path.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
 import 'package:ogrenme_asistani/models/path_progress.dart';
-import 'package:ogrenme_asistani/models/quiz_question.dart';
 import 'package:ogrenme_asistani/models/quiz_set.dart';
 import 'package:ogrenme_asistani/models/set_format.dart';
 import 'package:ogrenme_asistani/screens/card_set_detail_screen.dart';
+import 'package:ogrenme_asistani/screens/curriculum_parts_screen.dart';
 import 'package:ogrenme_asistani/screens/quiz_set_screen.dart';
 import 'package:ogrenme_asistani/services/card_set_repository.dart';
 import 'package:ogrenme_asistani/services/curriculum_path_repository.dart';
@@ -40,6 +41,13 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
   bool _isLoading = true;
   String? _errorMessage;
 
+  /// Which units' node lists are expanded — toggled by tapping a unit's
+  /// accordion header. Seeded once (on first load only, see [_load]) with
+  /// the "active" unit so the screen doesn't open to a wall of collapsed
+  /// headers; left alone afterward so a later progress refresh (e.g.
+  /// finishing a part) never fights the user's own expand/collapse taps.
+  final Set<String> _expandedUnitIds = {};
+
   @override
   void initState() {
     super.initState();
@@ -58,6 +66,10 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
         _path = path;
         _progress = progress;
         _isLoading = false;
+        if (path != null) {
+          final activeUnitId = _defaultExpandedUnitId(path, progress);
+          if (activeUnitId != null) _expandedUnitIds.add(activeUnitId);
+        }
       });
     } catch (e) {
       if (!mounted) return;
@@ -68,26 +80,60 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     }
   }
 
+  /// The unit to expand by default: the first (in path order) unit with
+  /// content that isn't fully completed yet — i.e. whichever unit the
+  /// user is actively working through. Falls back to the last unit with
+  /// content if every unit is already finished, or `null` if the path
+  /// has no content at all yet.
+  String? _defaultExpandedUnitId(CurriculumPath path, PathProgress progress) {
+    CurriculumUnit? lastWithContent;
+    for (final unit in path.units) {
+      if (unit.isComingSoon) continue;
+      lastWithContent = unit;
+      final allDone = unit.nodes.every(progress.isNodeCompleted);
+      if (!allDone) return unit.id;
+    }
+    return lastWithContent?.id;
+  }
+
   /// Horizontal px offset for a node's circle, alternating left/right so
   /// the path reads as a gentle zigzag instead of a flat vertical list.
   static double _staggerFor(int index) => index.isEven ? 16.0 : -16.0;
 
-  String _materializedId(String nodeId, String suffix) =>
-      'path_${widget.subjectKey}_${nodeId}_$suffix';
+  String _materializedId(String nodeId, String suffix, int partIndex) =>
+      'path_${widget.subjectKey}_${nodeId}_${suffix}_$partIndex';
 
-  /// Materializes the node's flashcards into the user's own
-  /// [CardSetRepository], reusing the existing copy (by its
-  /// deterministic id) if one is already there — but always re-synced
-  /// to the current curriculum node content first. Without this, a
-  /// correction made to the shared curriculum content after a user's
-  /// first open would never reach a copy they'd already materialized.
-  Future<FlashcardSet> _materializeFlashcards(CurriculumNode node) async {
-    final id = _materializedId(node.id, 'flashcards');
+  List<CurriculumQuizPart> _quizPartsFor(CurriculumNode node, PathContentKind kind) {
+    switch (kind) {
+      case PathContentKind.multipleChoice:
+        return node.multipleChoiceParts;
+      case PathContentKind.fillBlank:
+        return node.fillBlankParts;
+      case PathContentKind.trueFalse:
+        return node.trueFalseParts;
+      case PathContentKind.flashcards:
+        throw ArgumentError('flashcards has no quiz parts');
+    }
+  }
+
+  /// Materializes one flashcard part into the user's own
+  /// [CardSetRepository], reusing the existing copy (by its deterministic
+  /// id) if one is already there — but always re-synced to the current
+  /// curriculum node content first. Without this, a correction made to
+  /// the shared curriculum content after a user's first open would never
+  /// reach a copy they'd already materialized.
+  Future<FlashcardSet> _materializeFlashcardPart(CurriculumNode node, int partIndex) async {
+    final part = node.flashcardParts[partIndex];
+    final id = _materializedId(node.id, 'flashcards', partIndex);
     final repository = CardSetRepository();
     final all = await repository.loadAll();
     for (var i = 0; i < all.length; i++) {
       if (all[i].id == id) {
-        final refreshed = all[i].withCards(node.flashcards);
+        // Also backfills `source` on a copy materialized before that
+        // field existed, so it starts being excluded from Setlerim too.
+        final refreshed = all[i]
+            .withCards(part.cards)
+            .withSource(FlashcardSet.sourceCurriculumPath);
         all[i] = refreshed;
         await repository.saveAll(all);
         return refreshed;
@@ -95,20 +141,25 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     }
     final newSet = FlashcardSet(
       id: id,
-      title: '${node.title} - Kartlar',
+      title: '${node.title} - ${part.title}',
       createdAt: DateTime.now(),
-      cards: node.flashcards,
+      cards: part.cards,
+      source: FlashcardSet.sourceCurriculumPath,
     );
     await repository.saveAll([newSet, ...all]);
     return newSet;
   }
 
-  /// Materializes the node's quiz/fill-blank/true-false questions into
-  /// the user's own [QuizSetRepository] — see [_materializeFlashcards]
-  /// for why the existing copy (found by its deterministic id) is
-  /// always re-synced to the current curriculum node content (keeping
-  /// its attempt history) rather than reused unchanged.
-  Future<QuizSet> _materializeQuiz(CurriculumNode node, PathContentKind kind) async {
+  /// Materializes one quiz/fill-blank/true-false part into the user's own
+  /// [QuizSetRepository] — see [_materializeFlashcardPart] for why the
+  /// existing copy (found by its deterministic id) is always re-synced
+  /// to the current curriculum node content (keeping its attempt
+  /// history) rather than reused unchanged.
+  Future<QuizSet> _materializeQuizPart(
+    CurriculumNode node,
+    PathContentKind kind,
+    int partIndex,
+  ) async {
     final suffix = switch (kind) {
       PathContentKind.multipleChoice => 'mc',
       PathContentKind.fillBlank => 'fillblank',
@@ -116,19 +167,17 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       PathContentKind.flashcards =>
         throw ArgumentError('flashcards has no quiz set'),
     };
-    final id = _materializedId(node.id, suffix);
-    final List<QuizQuestion> questions = switch (kind) {
-      PathContentKind.multipleChoice => node.multipleChoice,
-      PathContentKind.fillBlank => node.fillBlank,
-      PathContentKind.trueFalse => node.trueFalse,
-      PathContentKind.flashcards =>
-        throw ArgumentError('flashcards has no quiz set'),
-    };
+    final part = _quizPartsFor(node, kind)[partIndex];
+    final id = _materializedId(node.id, suffix, partIndex);
     final repository = QuizSetRepository();
     final all = await repository.loadAll();
     for (var i = 0; i < all.length; i++) {
       if (all[i].id == id) {
-        final refreshed = all[i].withQuestions(questions);
+        // Also backfills `source` on a copy materialized before that
+        // field existed, so it starts being excluded from Setlerim too.
+        final refreshed = all[i]
+            .withQuestions(part.questions)
+            .withSource(QuizSet.sourceCurriculumPath);
         all[i] = refreshed;
         await repository.saveAll(all);
         return refreshed;
@@ -136,53 +185,107 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     }
     final newSet = QuizSet(
       id: id,
-      title: '${node.title} - ${kind.setFormat.shortLabel}',
+      title: '${node.title} - ${part.title}',
       createdAt: DateTime.now(),
-      questions: questions,
+      questions: part.questions,
+      source: QuizSet.sourceCurriculumPath,
     );
     await repository.saveAll([newSet, ...all]);
     return newSet;
   }
 
-  /// Marks one content kind of one node as completed and reloads
-  /// progress so the ring/lock state on screen reflects it immediately.
-  /// No minimum score is required — reaching the end of the set (or, for
-  /// flashcards, reviewing every card) is enough.
-  Future<void> _markKindCompleted(CurriculumNode node, PathContentKind kind) async {
+  /// Marks one part of one content kind of one node as completed and
+  /// reloads progress so the ring/lock state on screen reflects it
+  /// immediately. No minimum score is required — reaching the end of the
+  /// part (or, for flashcards, reviewing every card) is enough. A kind
+  /// only counts as fully completed once every one of its parts has been
+  /// marked this way — see [NodeProgress.isKindCompleted].
+  Future<void> _markPartCompleted(
+    CurriculumNode node,
+    PathContentKind kind,
+    int partIndex,
+  ) async {
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) return;
-    await _progressRepository.markContentCompleted(
+    await _progressRepository.markPartCompleted(
       uid,
       widget.subjectKey,
       node.id,
       kind,
+      partIndex,
     );
     final progress = await _progressRepository.load(uid, widget.subjectKey);
     if (!mounted) return;
     setState(() => _progress = progress);
   }
 
-  Future<void> _openContent(CurriculumNode node, PathContentKind kind) async {
+  Future<void> _openPart(CurriculumNode node, PathContentKind kind, int partIndex) async {
     if (kind == PathContentKind.flashcards) {
-      final set = await _materializeFlashcards(node);
+      final set = await _materializeFlashcardPart(node, partIndex);
       if (!mounted) return;
       await Navigator.of(context).push(
         MaterialPageRoute(
           builder: (context) => CardSetDetailScreen(
             cardSet: set,
-            onAllCardsReviewed: () => _markKindCompleted(node, kind),
+            onAllCardsReviewed: () => _markPartCompleted(node, kind, partIndex),
           ),
         ),
       );
       return;
     }
-    final set = await _materializeQuiz(node, kind);
+    final set = await _materializeQuizPart(node, kind, partIndex);
     if (!mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) => QuizSetScreen(
           quizSet: set,
-          onFinished: () => _markKindCompleted(node, kind),
+          onFinished: () => _markPartCompleted(node, kind, partIndex),
+        ),
+      ),
+    );
+  }
+
+  /// Materializes every part of [kind] for [node] and pushes the parts
+  /// list screen ("Test 1".."Test N", etc.) — the actual
+  /// question/card content only opens once a specific part is tapped
+  /// there (see [_openPart]).
+  Future<void> _openContentParts(CurriculumNode node, PathContentKind kind) async {
+    bool isPartCompleted(int partIndex) =>
+        _progress?.progressFor(node.id).isPartCompleted(kind, partIndex) ?? false;
+
+    if (kind == PathContentKind.flashcards) {
+      final sets = <FlashcardSet>[
+        for (var i = 0; i < node.flashcardParts.length; i++)
+          await _materializeFlashcardPart(node, i),
+      ];
+      if (!mounted) return;
+      await Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (context) => CurriculumPartsScreen(
+            nodeTitle: node.title,
+            kind: kind,
+            cardSets: sets,
+            isPartCompleted: isPartCompleted,
+            onOpenPart: (index) => _openPart(node, kind, index),
+          ),
+        ),
+      );
+      return;
+    }
+
+    final parts = _quizPartsFor(node, kind);
+    final sets = <QuizSet>[
+      for (var i = 0; i < parts.length; i++) await _materializeQuizPart(node, kind, i),
+    ];
+    if (!mounted) return;
+    await Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => CurriculumPartsScreen(
+          nodeTitle: node.title,
+          kind: kind,
+          quizSets: sets,
+          isPartCompleted: isPartCompleted,
+          onOpenPart: (index) => _openPart(node, kind, index),
         ),
       ),
     );
@@ -208,7 +311,10 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
               _ContentKindTile(
                 kind: contentKind,
                 available: node.hasContent(contentKind),
-                completed: progress.isKindCompleted(contentKind),
+                completed: progress.isKindCompleted(
+                  contentKind,
+                  node.partCountFor(contentKind),
+                ),
                 onTap: node.hasContent(contentKind)
                     ? () => Navigator.of(context).pop(contentKind)
                     : null,
@@ -219,7 +325,7 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       ),
     );
     if (kind == null || !mounted) return;
-    await _openContent(node, kind);
+    await _openContentParts(node, kind);
   }
 
   @override
@@ -253,7 +359,25 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     final children = <Widget>[];
     for (var unitIndex = 0; unitIndex < path.units.length; unitIndex++) {
       final unit = path.units[unitIndex];
-      children.add(_UnitBanner(unit: unit));
+      final isExpanded = _expandedUnitIds.contains(unit.id);
+      final completedCount =
+          unit.nodes.where((n) => progress?.isNodeCompleted(n) ?? false).length;
+      children.add(
+        _UnitBanner(
+          unit: unit,
+          isExpanded: isExpanded,
+          completedCount: completedCount,
+          onTap: unit.isComingSoon
+              ? null
+              : () => setState(() {
+                  if (isExpanded) {
+                    _expandedUnitIds.remove(unit.id);
+                  } else {
+                    _expandedUnitIds.add(unit.id);
+                  }
+                }),
+        ),
+      );
       children.add(const SizedBox(height: 12));
       if (unit.isComingSoon) {
         children.add(const SizedBox(height: 8));
@@ -262,10 +386,12 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
       for (var i = 0; i < unit.nodes.length; i++) {
         final node = unit.nodes[i];
         final index = flatIndex;
+        flatIndex++;
+        if (!isExpanded) continue;
         final isCompleted = progress?.isNodeCompleted(node) ?? false;
-        final isUnlocked =
+        final isUnlocked = kDevUnlockAllNodes ||
             index == 0 || (progress?.isNodeCompleted(allNodes[index - 1]) ?? false);
-        final isLast = index == allNodes.length - 1;
+        final isLast = i == unit.nodes.length - 1;
         children.add(
           _NodeTile(
             node: node,
@@ -288,7 +414,6 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
             },
           ),
         );
-        flatIndex++;
       }
       children.add(const SizedBox(height: 20));
     }
@@ -302,51 +427,85 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
 
 /// Vertically stacked "BÖLÜM {order}: {title}" banner above each unit's
 /// nodes — colored/highlighted for available units, muted for
-/// [CurriculumUnit.isComingSoon] ones.
+/// [CurriculumUnit.isComingSoon] ones. Doubles as an accordion header for
+/// available units: tapping toggles [isExpanded] via [onTap] (`null` for
+/// a coming-soon unit, which has no nodes to expand), and shows a
+/// "N/M tamamlandı" progress summary instead of the node list when
+/// collapsed.
 class _UnitBanner extends StatelessWidget {
-  const _UnitBanner({required this.unit});
+  const _UnitBanner({
+    required this.unit,
+    required this.isExpanded,
+    required this.completedCount,
+    required this.onTap,
+  });
 
   final CurriculumUnit unit;
+  final bool isExpanded;
+  final int completedCount;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final isComingSoon = unit.isComingSoon;
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-      decoration: BoxDecoration(
-        color: isComingSoon
-            ? colorScheme.surfaceContainerHighest
-            : colorScheme.primaryContainer,
+    final foreground = isComingSoon
+        ? colorScheme.onSurfaceVariant
+        : colorScheme.onPrimaryContainer;
+    return Material(
+      color: isComingSoon
+          ? colorScheme.surfaceContainerHighest
+          : colorScheme.primaryContainer,
+      borderRadius: BorderRadius.circular(14),
+      child: InkWell(
+        onTap: onTap,
         borderRadius: BorderRadius.circular(14),
-      ),
-      child: Row(
-        children: [
-          Expanded(
-            child: Text(
-              'BÖLÜM ${unit.order}: ${unit.title}',
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                fontWeight: FontWeight.bold,
-                letterSpacing: 0.2,
-                color: isComingSoon
-                    ? colorScheme.onSurfaceVariant
-                    : colorScheme.onPrimaryContainer,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'BÖLÜM ${unit.order}: ${unit.title}',
+                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 0.2,
+                        color: foreground,
+                      ),
+                    ),
+                    if (!isComingSoon) ...[
+                      const SizedBox(height: 2),
+                      Text(
+                        '$completedCount/${unit.nodes.length} tamamlandı',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: foreground.withValues(alpha: 0.85),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
               ),
-            ),
+              if (isComingSoon) ...[
+                const SizedBox(width: 8),
+                Icon(Icons.lock_outline, size: 16, color: foreground),
+                const SizedBox(width: 4),
+                Text(
+                  'Yakında',
+                  style: Theme.of(
+                    context,
+                  ).textTheme.labelMedium?.copyWith(color: foreground),
+                ),
+              ] else
+                Icon(
+                  isExpanded ? Icons.expand_less : Icons.expand_more,
+                  color: foreground,
+                ),
+            ],
           ),
-          if (isComingSoon) ...[
-            const SizedBox(width: 8),
-            Icon(Icons.lock_outline, size: 16, color: colorScheme.onSurfaceVariant),
-            const SizedBox(width: 4),
-            Text(
-              'Yakında',
-              style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: colorScheme.onSurfaceVariant,
-              ),
-            ),
-          ],
-        ],
+        ),
       ),
     );
   }
@@ -397,7 +556,11 @@ class _NodeTile extends StatelessWidget {
 
     final filled = isUnlocked
         ? PathContentKind.values
-              .map((kind) => !node.hasContent(kind) || (progress?.isKindCompleted(kind) ?? false))
+              .map(
+                (kind) =>
+                    !node.hasContent(kind) ||
+                    (progress?.isKindCompleted(kind, node.partCountFor(kind)) ?? false),
+              )
               .toList()
         : const [false, false, false, false];
 

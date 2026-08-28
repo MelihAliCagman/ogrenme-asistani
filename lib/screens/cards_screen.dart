@@ -54,8 +54,15 @@ class _CardsScreenState extends State<CardsScreen> {
     ]);
     if (!mounted) return;
     setState(() {
-      _cardSets = results[0] as List<FlashcardSet>;
-      _quizSets = results[1] as List<QuizSet>;
+      // Ders Yolları content is materialized into the same repositories
+      // but shouldn't clutter the general Setlerim list — see
+      // FlashcardSet.sourceCurriculumPath.
+      _cardSets = (results[0] as List<FlashcardSet>)
+          .where((s) => s.source != FlashcardSet.sourceCurriculumPath)
+          .toList();
+      _quizSets = (results[1] as List<QuizSet>)
+          .where((s) => s.source != QuizSet.sourceCurriculumPath)
+          .toList();
       _isLoadingSets = false;
     });
   }
