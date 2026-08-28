@@ -1,9 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/models/quiz_attempt.dart';
+import 'package:ogrenme_asistani/models/quiz_in_progress.dart';
 import 'package:ogrenme_asistani/models/quiz_question.dart';
 import 'package:ogrenme_asistani/models/quiz_set.dart';
 import 'package:ogrenme_asistani/models/subject.dart';
+import 'package:ogrenme_asistani/services/quiz_progress_repository.dart';
 import 'package:ogrenme_asistani/services/quiz_set_repository.dart';
 import 'package:ogrenme_asistani/services/streak_repository.dart';
 import 'package:ogrenme_asistani/widgets/quiz_attempt_tile.dart';
@@ -33,11 +35,13 @@ class QuizSetScreen extends StatefulWidget {
 
 class _QuizSetScreenState extends State<QuizSetScreen> {
   final _repository = QuizSetRepository();
+  final _progressRepository = QuizProgressRepository();
   late List<int> _order;
   int _currentIndex = 0;
   int? _selectedOption;
   int _correctCount = 0;
   bool _finished = false;
+  bool _isLoading = true;
   final List<int> _wrongIndices = [];
   final Map<int, int> _wrongSelections = {};
   final Map<int, String> _wrongTextAnswers = {};
@@ -65,12 +69,14 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
   int get _currentCorrectDisplayIndex =>
       _currentOptionOrder.indexOf(_currentQuestion.correctIndex);
 
+  String? get _uid => FirebaseAuth.instance.currentUser?.uid;
+
   @override
   void initState() {
     super.initState();
     _attempts = List.of(widget.quizSet.attempts);
-    _startQuiz();
-    final uid = FirebaseAuth.instance.currentUser?.uid;
+    _initQuiz();
+    final uid = _uid;
     if (uid != null) {
       StreakRepository().recordActivityToday(
         uid,
@@ -78,6 +84,86 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
         subjectName: widget.subject?.name,
       );
     }
+  }
+
+  /// Checks for a saved mid-attempt snapshot before starting a fresh
+  /// shuffle — offers to resume it if one exists and still matches this
+  /// set's current question count (a stale snapshot from before the
+  /// content changed is simply discarded in favor of a fresh start).
+  Future<void> _initQuiz() async {
+    final uid = _uid;
+    final saved = uid == null
+        ? null
+        : await _progressRepository.load(uid, widget.quizSet.id);
+    if (!mounted) return;
+    if (saved != null &&
+        saved.order.length == widget.quizSet.questions.length &&
+        saved.currentIndex < saved.order.length) {
+      final shouldResume = await _confirmResume();
+      if (!mounted) return;
+      if (shouldResume) {
+        _resumeQuiz(saved);
+        return;
+      }
+    }
+    _startQuiz();
+  }
+
+  Future<bool> _confirmResume() async {
+    final result = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        title: const Text('Yarım kalan deneme'),
+        content: const Text(
+          'Bu testte yarım kalmış bir denemen var. Kaldığın yerden devam '
+          'etmek ister misin?',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Baştan Başla'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Kaldığım Yerden Devam Et'),
+          ),
+        ],
+      ),
+    );
+    return result ?? false;
+  }
+
+  void _resumeQuiz(QuizInProgress saved) {
+    setState(() {
+      _order = List.of(saved.order);
+      _optionOrder = {
+        for (final questionIndex in _order)
+          questionIndex:
+              List.generate(
+                  widget.quizSet.questions[questionIndex].options.length,
+                  (i) => i,
+                )
+                ..shuffle(),
+      };
+      _currentIndex = saved.currentIndex;
+      _selectedOption = null;
+      _correctCount = saved.correctCount;
+      _finished = false;
+      _wrongIndices
+        ..clear()
+        ..addAll(saved.wrongIndices);
+      _wrongSelections
+        ..clear()
+        ..addAll(saved.wrongSelections);
+      _wrongTextAnswers
+        ..clear()
+        ..addAll(saved.wrongTextAnswers);
+      _fillBlankController.clear();
+      _fillBlankSubmitted = false;
+      _fillBlankCorrect = false;
+      _isLoading = false;
+    });
   }
 
   void _startQuiz() {
@@ -103,7 +189,11 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       _fillBlankController.clear();
       _fillBlankSubmitted = false;
       _fillBlankCorrect = false;
+      _isLoading = false;
     });
+    // A restart discards whatever partial attempt was saved, if any.
+    final uid = _uid;
+    if (uid != null) _progressRepository.clear(uid, widget.quizSet.id);
   }
 
   void _submitFillBlankAnswer() {
@@ -151,11 +241,36 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
         _fillBlankSubmitted = false;
         _fillBlankCorrect = false;
       });
+      _saveProgress();
       return;
     }
     setState(() => _finished = true);
     _saveAttempt();
+    _clearProgress();
     widget.onFinished?.call();
+  }
+
+  Future<void> _saveProgress() {
+    final uid = _uid;
+    if (uid == null) return Future.value();
+    return _progressRepository.save(
+      uid,
+      widget.quizSet.id,
+      QuizInProgress(
+        order: _order,
+        currentIndex: _currentIndex,
+        correctCount: _correctCount,
+        wrongIndices: List.of(_wrongIndices),
+        wrongSelections: Map.of(_wrongSelections),
+        wrongTextAnswers: Map.of(_wrongTextAnswers),
+      ),
+    );
+  }
+
+  Future<void> _clearProgress() {
+    final uid = _uid;
+    if (uid == null) return Future.value();
+    return _progressRepository.clear(uid, widget.quizSet.id);
   }
 
   Future<void> _saveAttempt() async {
@@ -191,7 +306,11 @@ class _QuizSetScreenState extends State<QuizSetScreen> {
       appBar: AppBar(title: Text(widget.quizSet.title)),
       body: Padding(
         padding: const EdgeInsets.all(16),
-        child: _finished ? _buildSummary(context) : _buildQuiz(context),
+        child: _isLoading
+            ? const Center(child: CircularProgressIndicator())
+            : _finished
+            ? _buildSummary(context)
+            : _buildQuiz(context),
       ),
     );
   }

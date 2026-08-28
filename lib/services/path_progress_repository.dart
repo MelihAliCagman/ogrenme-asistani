@@ -20,10 +20,11 @@ class PathProgressRepository {
     return PathProgress.fromJson(subjectKey, doc.data());
   }
 
-  /// Marks one content kind of one node as completed, as a nested-map
-  /// merge-set — Firestore merges nested map fields leaf-by-leaf under
-  /// `SetOptions(merge: true)`, so this only touches that single
-  /// node/kind and leaves every other one already stored untouched.
+  /// Marks one *part* of one content kind of one node as completed, as a
+  /// nested-map merge-set — Firestore merges nested map fields
+  /// leaf-by-leaf under `SetOptions(merge: true)`, so this only touches
+  /// that single node/kind/part-array and leaves every other one already
+  /// stored untouched.
   ///
   /// A dotted string key (`{'nodeProgress.$nodeId.field': true}`) would
   /// NOT do this — dot-notation field paths are only honored by
@@ -31,15 +32,23 @@ class PathProgressRepository {
   /// stored as one literal field literally named with dots in it,
   /// silently going nowhere near `nodeProgress`. That was the actual
   /// bug behind "the ring never fills in even after finishing a set".
-  Future<void> markContentCompleted(
+  ///
+  /// [FieldValue.arrayUnion] makes this idempotent — completing the same
+  /// part twice (e.g. retaking a test) doesn't duplicate its index.
+  Future<void> markPartCompleted(
     String uid,
     String subjectKey,
     String nodeId,
     PathContentKind kind,
+    int partIndex,
   ) {
     return _collection(uid).doc(subjectKey).set({
       'nodeProgress': {
-        nodeId: {_fieldFor(kind): true},
+        nodeId: {
+          'completedParts': {
+            _fieldFor(kind): FieldValue.arrayUnion([partIndex]),
+          },
+        },
       },
     }, SetOptions(merge: true));
   }
