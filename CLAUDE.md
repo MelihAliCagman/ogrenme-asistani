@@ -46,6 +46,7 @@ Pattern: generate with Gemini → review `tool/curriculum_path_output.json` → 
 - `seed_curriculum_path_admin.dart` / `seed_sample_lessons_admin.dart` — write the JSON outputs to Firestore using `tool/service-account.json` (gitignored; Firebase Console → Service Accounts → generate key).
 - `migrate_curriculum_parts.dart`, `regenerate_fillblank.dart`, `fix_broken_cards.dart` — one-off repair/reshape tools (Turkish diacritic loss, part splitting).
 - `spend_guard.dart` — shared Gemini spend meter (`tool/spend_ledger.json`, gitignored); every paid-API tool must go through it and take `--budget-usd`.
+- `curriculum_manifest.json` — what content should exist (path → unit → node, with each node's scope text). `pipeline.dart status` compares it with `curriculum_path_output.json`; `pipeline.dart validate` runs offline quality checks (structure, broken/ASCII-folded Turkish, near-duplicates, MC answer-position/length bias) and edits nothing.
 - `analyze_source_book.dart` — turns OCR text of a source book (`kaynaklar/ocr/`, local only, gitignored, **never commit book PDFs/text**) into an abstract topic/facts list and a question-pattern catalog in `kaynaklar/analiz/`. Refuses to send book text without `--paid-tier-confirmed` (free tier data may be used by Google for training). Never pass book text into content-generation prompts, only the abstract outputs.
 - Content status: TYT Biyoloji Ünite 1–6 generated and seeded; Ünite 7–9 (Kalıtımın Genel İlkeleri, Ekosistem Ekolojisi, Güncel Çevre Sorunları) not started.
 
@@ -63,7 +64,7 @@ Pattern: generate with Gemini → review `tool/curriculum_path_output.json` → 
 - Dart SDK constraint: `^3.12.2` (see `pubspec.yaml`)
 - Platforms scaffolded: android, ios, linux, macos, windows, web (Android is the primary target)
 - Lints: `package:flutter_lints/flutter.yaml` via `analysis_options.yaml` (no custom rule overrides)
-- `test/widget_test.dart` is the only test file and predates the Firebase/auth flow, so it may not reflect the current startup path.
+- Tests: `test/curriculum_progress_test.dart` (pure-Dart unit tests for the Ders Yolu progress/model logic). Widget tests that boot the whole app need Firebase mocks; the old `widget_test.dart` was removed because it failed without them.
 
 ## Commands
 
