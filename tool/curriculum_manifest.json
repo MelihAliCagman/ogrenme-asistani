@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "paths": [
+    {
+      "subjectKey": "tyt_biyoloji",
+      "title": "TYT Biyoloji",
+      "examType": "YKS",
+      "subject": "Biyoloji",
+      "units": [
+        {
+          "id": "unit1",
+          "order": 1,
+          "title": "Canlıların Ortak Özellikleri ve Temel Bileşenler",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Canlıların Ortak Özellikleri",
+              "estimatedMinutes": 15,
+              "scope": "hücresel yapı, beslenme, solunum, boşaltım, üreme, uyarılara tepki, homeostazi ve canlıların organizasyon basamakları (hücre, doku, organ, sistem, organizma)",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "İnorganik Bileşikler",
+              "estimatedMinutes": 12,
+              "scope": "su ve minerallerin canlılardaki önemi, işlevleri ve özellikleri",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Karbonhidratlar",
+              "estimatedMinutes": 12,
+              "scope": "monosakkarit, disakkarit, polisakkarit yapıları ve canlılardaki işlevleri",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Lipitler (Yağlar)",
+              "estimatedMinutes": 12,
+              "scope": "yağların yapısı, çeşitleri ve canlılardaki işlevleri",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node5",
+              "order": 5,
+              "title": "Proteinler",
+              "estimatedMinutes": 12,
+              "scope": "amino asit yapısı, peptit bağı, proteinlerin yapısı ve işlevleri",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node6",
+              "order": 6,
+              "title": "Enzimler",
+              "estimatedMinutes": 15,
+              "scope": "enzimlerin yapısı, çalışma prensibi, enzim-substrat ilişkisi ve enzim aktivitesini etkileyen faktörler (sıcaklık, pH, konsantrasyon)",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node7",
+              "order": 7,
+              "title": "Vitaminler",
+              "estimatedMinutes": 12,
+              "scope": "yağda ve suda çözünen vitaminlerin özellikleri ve canlılardaki önemi",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node8",
+              "order": 8,
+              "title": "Nükleik Asitler",
+              "estimatedMinutes": 15,
+              "scope": "DNA ve RNA'nın temel yapısı, nükleotit yapısı ve görevleri",
+              "parts": {
+                "flashcards": 1,
+                "multipleChoice": 1,
+                "fillBlank": 1,
+                "trueFalse": 1
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit2",
+          "order": 2,
+          "title": "Hücre ve Organelleri",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Hücre Teorisi",
+              "estimatedMinutes": 18,
+              "scope": "- Hücre, canlının temel yapı ve görev birimidir; canlılar bir veya çok hücreden oluşur; yeni hücreler var olan hücrelerin bölünmesiyle oluşur; hücreler genetik materyali bölünme yoluyla yavru hücrelere aktarır; tüm metabolik olaylar hücre içinde gerçekleşir.\n- Tarihsel gelişim: Matthias Schleiden (bitki hücrelerini inceledi, çekirdeğin bölünmedeki rolünü belirtti), Theodor Schwann (hayvan hücrelerini inceledi, hücrenin canlıların yapı birimi olduğunu ortaya koydu), Rudolf Virchow (hücrelerin önceki hücrelerden oluştuğunu belirtti).\n- Mikroskobun tarihsel gelişimi: Leeuwenhoek'un mikroskobu (~1600), elde taşınır mikroskop (~1700), İngiliz mikroskobu (1865), diseksiyon mikroskobu (1927), günümüz ışık mikroskobu - mikroskobun icadının yeni bilim dallarının doğmasına yol açtığı vurgusu.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Prokaryot ve Ökaryot Hücre",
+              "estimatedMinutes": 15,
+              "scope": "- Hücreler yapısal organizasyonlarına göre prokaryot ve ökaryot olarak ikiye ayrılır.\n- Prokaryot: DNA çekirdek zarıyla çevrili değil, sitoplazmada dairesel/serbest halde bulunur; zarlı organel yok ama ribozom var; bakteriler ve arkeler prokaryottur; her zaman tek hücrelidir. Bakteri şeması bileşenleri: kapsül, hücre çeperi, hücre zarı, sitoplazma, DNA, plazmit, ribozom, pilus, flagellum, glikojen granülü.\n- Ökaryot: gerçek (zarlı) çekirdek var, zarlı organeller mevcut, tek veya çok hücreli olabilir.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Hücre Zarının Yapısı",
+              "estimatedMinutes": 15,
+              "scope": "- Hücre zarı protein, lipit ve karbonhidrat moleküllerinden oluşur; akıcı-mozaik zar modeli 1972'de Singer ve Nicolson tarafından geliştirildi.\n- Temel özellikler: seçici geçirgenlik, esneklik, dinamik/akıcı yapı; ince ve yarı saydam olması sayesinde hücre içi mikroskopla incelenebilir.\n- İşlevler: koruma, madde alışverişini kontrol, hücreler arası tanıma (glikolipit ve glikoproteinler sayesinde hücreye \"kimlik\" kazandırma).\n- Yapısal bileşenler: çift katlı fosfolipit tabakası, gömülü proteinler, fosfolipit/proteinlere bağlı karbonhidratlar.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Sitoplazma ve Organeller",
+              "estimatedMinutes": 35,
+              "scope": "- Hücre Duvarı: bitki, alg, mantar ve prokaryot hücrelerde bulunur; bakterilerde peptidoglikan, arkelerde pseudopeptidoglikan, bitkilerde ağırlıklı selüloz, alg ve mantarlarda kitinden yapılıdır; bitki hücresi olgunlaştıkça kalınlaşır, tam geçirgendir.\n- Sitoplazma: hücre zarı ile çekirdek zarı arasındaki yarı akışkan ortam, %70-90 su, protein/lipit/karbonhidrat/enzim/hormon içerir; sürekli hareketiyle maddelerin homojen dağılımını sağlar. Prokaryotlarda çekirdek zarı olmadığı için tüm iç içerik sitoplazma sayılır.\n- Ribozom: tüm prokaryot ve ökaryot hücrelerde bulunan, protein sentezinden sorumlu, zarsız organel; rRNA (çekirdekçikte üretilir) + protein içerir; küçük ve büyük alt birimden oluşur, protein sentezi sırasında birleşir; birden fazla ribozomun bir arada bulunmasına polizom/poliribozom denir. Farklı konumlardaki ribozomlar (sitoplazmik, çekirdek zarına bağlı, kloroplast/mitokondri, ER'ye bağlı) farklı proteinler üretir.\n- Endoplazmik Retikulum (ER): sabit şekli/boyutu olmayan, olgun alyuvarlar hariç çoğu ökaryot hücrede bulunan, hücre bölünmesinde eriyip sonra yeniden oluşan bir organel; çekirdek zarından hücre zarına uzanan kanallar sistemidir. Granüllü ER (üzerinde ribozom var): protein sentezler, çoğu salgıyı üretir, proteinleri/salgıları golgiye taşınmak üzere keseciklere paketler, hücre zarına lipit ekleyerek zarı büyütür. Granülsüz/düz ER: yağ ve glikojen gibi karbonhidrat sentezler, çizgili kaslarda kalsiyum depolar, depolanan glikojeni glikoza parçalar, steroid yapılı hormon sentezler, zararlı maddeleri (pestisit, ilaç, alkol) detoksifiye eder, zar için lipit molekülleri üretir.\n- Golgi Cisimciği: 1898'de İtalyan bilim insanı Camillo Golgi tarafından keşfedildi; olgun alyuvar, sperm ve prokaryotlarda bulunmaz; yassı keseler ve küçük keseciklerden oluşur (protein+lipit yapılı); tükürük bezi, hormon salgılayan doku ve nektar üreten bitki hücrelerinde gelişmiştir. Görevleri: ER'den gelen maddeleri sınıflandırma/depolama/paketleme, glikoprotein ve lipoprotein üretimi, lizozom oluşturma, hücre zarını yenileme, bitki hücre duvarı için pektin gibi polisakkarit üretimi. Alzheimer ve kistik fibrozis gibi hastalıklarda golgi işlev bozukluğu görülür.\n- Lizozom: sindirim enzimleri içeren, hücre içi sindirimden sorumlu tek zarlı organel; yaşlanmış organelleri ve hücreye giren yabancı/istenmeyen maddeleri (fagositoz yoluyla alınanlar dahil) parçalar; genelde hayvan hücrelerinde bulunur.\n- Koful: tek zarla çevrili, yassı keseciklerden oluşan, hücre yaşlandıkça büyüyen yapılar. Besin kofulu (endositozla alınan besinler, amip ve fagositoz yapabilen akyuvarlarda), depo kofulu (bitkilerde büyük ve merkezi, su/atık/çeşitli madde depolar, su basıncıyla bitkiye destek sağlar), boşaltım kofulu (golgide üretilen salgı ve metabolik atığın hücre dışına atılmasına yardım eder), kontraktil koful (tatlı su canlılarında -amip, paramesyum- fazla suyu ATP harcayarak dışarı atar, su dengesini/homeostaziyi korur).\n- Mitokondri: hücrenin ATP'sinin büyük kısmını oksijen kullanarak üreten organel; çift zarlı, iç zarda yüzey alanını artıran kristalar bulunur (elektron taşıma ve ATP sentezi enzimleri burada), iç sıvıya matriks denir; 5-10 adet halkasal DNA molekülü, RNA çeşitleri, ribozom, ATP, solunum enzimleri ve mineraller içerir. Oksijenli solunum yapar, çekirdek kontrolünde kendi DNA'sıyla çoğalabilir, kendi ribozomlarıyla bazı proteinlerini üretir; kas/sinir/böbrek/sperm gibi enerji ihtiyacı yüksek hücrelerde daha fazla bulunur. Prokaryotlarda ve olgun memeli alyuvarlarında bulunmaz; mitokondri zarar görürse/çıkarılırsa hücre ölür.\n- Plastitler (kloroplast, kromoplast, lökoplast): sadece bitki ve alg gibi ökaryot canlılarda bulunur. Kloroplast: çift zarlı, içinde klorofil taşıyan yassı kese şeklindeki tilakoitler, tilakoitlerin istifine granum denir, iç sıvı stroma (halkasal DNA, RNA çeşitleri, ribozom, enzim içerir); fotosentez yapar, oksijen ve organik madde üretir, bitkiye yeşil renk verir, kendi DNA'sıyla çoğalır, kendi ribozomuyla protein sentezler. Kromoplast: sarı (ksantofil), turuncu (karoten), kırmızı (likopen) pigment içerir; çiçek yaprağı, bazı kök/meyve/tohumlarda bol bulunur (papaya/limon-sarı, havuç/portakal-turuncu, domates/çilek-kırmızı); kloroplast kromoplasta dönüşebilir. Lökoplast: pigmentsiz, toprak altı dokularda bulunur, fotosentezle üretilen nişastayı depolar (zeytin/fındık/avokadoda yağ, mercimek/fasulyede protein, patateste nişasta depolar); uzun süre ışık alınca kloroplasta dönüşebilir.\n- Hücre İskeleti: özel proteinlerin aralarında bağ kurup birleşmesiyle oluşan tüpsü/ipliksi yapılar, 3 türü var: Mikroflamentler (en ince, kas kasılması, amipte yalancı ayak oluşumu, hücre bölünmesi, bağırsak mikrovillusları), Ara flamentler (mikroflamentten kalın mikrotübülden ince, organel konumunu sabitler, doku gerginliğini korur, tırnak/saç/pul yapısına katkı), Mikrotübüller (tubulin proteininden yapılı içi boş silindirik yapı, en kalın, organel hareketini sağlar, bitki hücre duvarında selüloz liflerinin dizilimini düzenler).",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node5",
+              "order": 5,
+              "title": "Çekirdek Yapısı",
+              "estimatedMinutes": 18,
+              "scope": "- Çekirdek, hücrenin yönetim ve kalıtım merkezidir. Hücrelerde çekirdek bulunma durumu/sayısı/büyüklüğü değişir - olgun alyuvarlarda çekirdek yok, karaciğer ve iskelet kası hücrelerinde birden fazla çekirdek olabilir.\n- 4 temel yapı: (1) Çekirdek zarı - çekirdek ile sitoplazma arasındaki madde geçişini seçici geçirgen porlar aracılığıyla düzenler, (2) Çekirdek özsuyu (nükleoplazma) - su, mineral, ATP, protein ve nükleotid içeren yoğun sıvı, (3) Çekirdekçik (nükleolus) - rRNA sentezi ve ribozom üretiminin gerçekleştiği yer, (4) Kromatin - DNA'nın proteinlere sarılmasıyla oluşan, genetik bilgiyi taşıyan yapı.\n- Görevleri: kalıtsal bilgiyi depolama ve aktarma, hücre büyümesi/onarımı/bölünmesini kontrol etme.\n- Önemli not: çekirdeği çıkarılan hücreler uzun vadede bölünemez ve ölür; insan alyuvarları çekirdeksiz ~120 gün yaşarken, çekirdekli sinir hücreleri yıllarca yaşayabilir.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit3",
+          "order": 3,
+          "title": "Hücre Zarından Madde Geçişi",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Difüzyon (Basit ve Kolaylaştırılmış)",
+              "estimatedMinutes": 20,
+              "scope": "- Basit difüzyon: gazların ve yağda çözünen moleküllerin zar proteinleri olmadan fosfolipit tabakadan geçmesi, ATP harcanmaz, oksijen/karbondioksit/yağda çözünen vitaminler bu şekilde geçer.\n- Kolaylaştırılmış difüzyon: suyun ve suda çözünen moleküllerin (glikoz, fruktoz, galaktoz, amino asit, iyon, tuz) taşıyıcı protein veya kanal proteinleri aracılığıyla geçmesi, ATP harcanmaz ama taşıyıcı protein moleküle özgüdür (enzim-substrat ilişkisine benzer).\n- Difüzyon hızını etkileyen 7 faktör: derişim farkı, sıcaklık, molekül ağırlığı, zardaki gözenek sayısı, yağda çözünürlük, elektriksel yük (zar pozitif yüklü olduğu için nötr moleküller daha hızlı geçer), yüzey alanı.\n- Diyaliz: zararlı maddelerin ve fazla suyun seçici geçirgen bir zardan geçirilmesi, böbrek yetmezliğinde hemodiyalizde kullanılır.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Osmoz",
+              "estimatedMinutes": 18,
+              "scope": "- İzotonik ortam: çözelti derişimi hücre sitoplazmasıyla eşit, net su hareketi olmaz.\n- Hipertonik ortam: çözelti derişimi hücreden fazla, hücre su kaybedip büzülür (plazmoliz), turgor basıncı azalır, ozmotik basınç artar.\n- Hipotonik ortam: çözelti derişimi hücreden az, hücre su alıp şişer (turgor hali); plazmolize olmuş hücre hipotonik ortama konursa deplazmolize olur (eski haline döner).\n- Bitki hücresinde plazmoliz sırasında hücre çeperi şeklini korur, sadece çeper ile zar arasındaki mesafe artar. Hayvan hücresi hipotonik ortamda aşırı su alıp zarı yırtılırsa buna hemoliz denir.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Aktif Taşıma",
+              "estimatedMinutes": 15,
+              "scope": "- Küçük moleküllerin az yoğun ortamdan çok yoğun ortama, ATP enerjisi harcanarak, enzim ve taşıyıcı protein yardımıyla taşınması.\n- Özellikleri: derişim farkına ters yönde (az yoğundan çok yoğuna), ATP harcanır, sadece canlı hücrelerde gerçekleşir, enzim görev alır, küçük moleküller taşınır.\n- Örnek: sinir hücrelerinde impuls iletiminde sodyum-potasyum iyonlarının aktif taşınması.\n- Önemli not: su hiçbir zaman aktif taşımayla taşınmaz, su sadece osmozla hareket eder.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Endositoz ve Ekzositoz",
+              "estimatedMinutes": 18,
+              "scope": "- Endositoz: büyük moleküllerin enerji harcanarak hücre zarının içe doğru cepleşmesiyle hücreye alınması; bakteri ve mantar hücrelerinde (hücre çeperi nedeniyle) gerçekleşmez.\n- Fagositoz: büyük katı parçacıkların yalancı ayak (pseudopod) ile alınması, zar içe kıvrılıp kesecik oluşturur, kesecik lizozomla birleşip sindirilir; akyuvarlar yabancı mikroorganizmaları bu yolla yok eder.\n- Pinositoz: büyük suda çözünen maddelerin (enzim, virüs, antikor, hormon) fagositozdan daha küçük keseciklerle alınması.\n- Her iki süreç de ATP gerektirir, derişim farkından bağımsız tek yönlü taşımadır; endositoz sırasında hücre zarı yüzeyi küçülür (içe kıvrılan kısımlar taşıma keseciği oluşturduğu için).\n- Ekzositoz: hücre içindeki maddelerin (salgı, atık) kesecik halinde zara kaynaşıp hücre dışına atılması - endositozun tersi yönde, zar yüzeyini artırır.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit4",
+          "order": 4,
+          "title": "Canlıların Sınıflandırılması",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Sınıflandırmanın Temel İlkeleri",
+              "estimatedMinutes": 15,
+              "scope": "- 7 temel kategori: âlem, şube/filum, sınıf, takım, familya, cins, tür - büyükten küçüğe sıralanır.\n- Takson: belirli bir kategoriye ait, ortak özellikleri paylaşan bireyler topluluğu.\n- Hiyerarşide âlemden türe inildikçe: genetik çeşitlilik azalır, canlı çeşidi azalır, birey sayısı azalır, ortak özellik sayısı artar, homolog organ sayısı artar, akrabalık derecesi ve embriyonik/genetik benzerlik artar.\n- Tür kavramı ilk olarak John Ray tarafından ortaya atıldı; tür, ortak atadan gelen, yapısal/işlevsel olarak benzer, doğal koşullarda üreyip verimli (kısır olmayan) yavru verebilen bireyler topluluğudur.\n- Aynı türün bireyleri genelde aynı kromozom sayısına sahiptir, ama farklı türler de aynı kromozom sayısına sahip olabilir (örn. insan, bazı bitkiler, bazı balıklar) - bu akrabalık göstermez.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Bakteriler Âlemi ve Virüsler",
+              "estimatedMinutes": 20,
+              "scope": "- Bakteri hücre yapısı: sitoplazma (%80 su, nükleik asit/enzim/amino asit/karbonhidrat/lipit/inorganik madde içerir), pilus (konjugasyonla DNA aktarımı), kapsül (yapışma, dayanıklılık, su kaybını önleme), tek halkasal DNA (çekirdeksiz, sitoplazmada), hücre çeperi (peptidoglikan, koruma/şekil verme), ribozomlar (sitoplazmada dağınık, protein sentezi), hücre zarı (seçici geçirgen fosfolipit çift tabaka), plazmit (küçük halkasal DNA, genetik mühendislikte kullanılır), flagellum (hareket, küresel olmayan çoğu bakteride bulunur).\n- Virüsler: canlı-cansız arası geçiş formu, protein kılıf + DNA veya RNA içerir, elektron mikroskobuyla görülür (çubuk/küre/elips/spiral şekilli). Metabolik aktivite gösteremezler (kendi sitoplazma/enzim sistemleri yok), zorunlu hücre içi parazittirler, belirli canlı/doku/hücreleri hedefler (örn. HIV akyuvarları enfekte eder), pH/radyasyon/sıcaklığa duyarlıdırlar, enzim sistemleri olmadığı için antibiyotiklere dirençlidirler. Hava/su/temas/vücut sıvılarıyla bulaşır, enfekte hücreler interferon salgılayarak savunur. Konak hücrenin enzim/enerji/kaynaklarını kullanarak çoğalırlar.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Arkeler Âlemi",
+              "estimatedMinutes": 15,
+              "scope": "- 1970'lerde gen dizileri ve ribozomal RNA parçaları karşılaştırılarak bakterilerden ayrı bir âlem olarak sınıflandırıldı.\n- Tek hücreli prokaryot, bazı ökaryot-benzeri özellikler taşır; patojen türleri yok, endospor oluşturamazlar.\n- Yapı: sitoplazma (%80 su), pilus (konjugasyonla DNA aktarımı), DNA (histon proteinlere sarılı - ökaryotlara benzer), hücre zarı (seçici geçirgen lipit çift tabaka), hücre çeperi (pseudopeptidoglikan), ribozom (yapısal olarak ökaryot ribozomlarına benzer, bu yüzden antibiyotiklere dirençli), flagellum (hareket).\n- Yaşam ortamına göre gruplar: halofiller (aşırı tuzlu ortam), metanojenler (oksijensiz ortam, metan üretir), termofiller (sıcak su kaynakları).",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Protista Âlemi",
+              "estimatedMinutes": 22,
+              "scope": "- Ökaryot canlılar arasında en ilkel grup, tek veya çok hücreli olabilir, sucul ortam/nemli toprak/parazit olarak yaşar.\n- Kamçılılar: hücre çeperi yok, 1-2 kamçı var, koruyucu pellikula tabakası var, ışığa duyarlı göz lekesi ve fotosentez için kloroplast bulunabilir, ışık yetersizken dıştan beslenebilir (örn. Euglena).\n- Kök ayaklılar: örnek amip, yalancı ayak (pseudopod) ile hareket eder, sabit şekli yoktur, yalancı ayaklarını hem hareket hem besin yakalamak için kullanır, bazı türleri insan/hayvan sindirim sisteminde parazitleşir.\n- Algler: fotosentez yapar, hücre çeperi var, karada/suda yaşar, dünya oksijeninin önemli bir kısmını üretir, pigmentine göre yeşil/kahverengi/altın/kırmızı renkte olabilir.\n- Slime moldler (küf benzeri): iplik yapılı, belirli hücre şekli yok, gerçek mantarlardan farklı olarak çok çekirdekli, amipsi hareket eder, hücre çeperi yoktur, nemli ortamda yaşar, eşeyli/eşeysiz üreyebilir, ayrıştırıcı olarak madde döngüsüne katkı sağlar.\n- Önem: silis içeren protist kalıntıları diyatom toprağı oluşturur (diş macunu, yalıtım malzemesi), algler protein/vitamin/mineral açısından zengin besin kaynağıdır, atık arıtma/antibiyotik üretimi/kozmetik sanayinde kullanılır, sucul ortamda oksijen/besin kaynağıdır, ayrıştırıcı rolü vardır.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node5",
+              "order": 5,
+              "title": "Mantarlar Âlemi",
+              "estimatedMinutes": 18,
+              "scope": "- Ökaryot, hücre çeperi kitinden yapılı, heterotrof (saprofit/parazit/simbiyotik beslenebilir) canlılardır, fotosentez yapmazlar.\n- Vücut yapısı hif adı verilen ipliksi yapılardan oluşur, hifler bir araya gelerek miçel (misel) yapısını oluşturur.\n- Üreme genelde sporla (eşeyli veya eşeysiz) gerçekleşir.\n- Tek hücreli örnek: maya (fermantasyon, ekmek/alkol üretiminde kullanılır). Çok hücreli örnek: küf mantarları, şapkalı mantarlar.\n- Simbiyotik ilişkiler: liken (mantar + alg/siyanobakteri ortak yaşamı), mikoriza (mantar + bitki kökü ortak yaşamı, bitkinin su/mineral alımını artırır).\n- Ekosistemdeki rolü: başlıca ayrıştırıcı olarak organik maddeyi parçalayıp madde döngüsüne katkı sağlar; bazı türleri insanlarda hastalık (mantar enfeksiyonu) yapabilir, bazıları (penisilin gibi) antibiyotik üretiminde kullanılır.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node6",
+              "order": 6,
+              "title": "Bitkiler Âlemi",
+              "estimatedMinutes": 22,
+              "scope": "- Fotosentetik ototrof beslenen, ökaryot, çoğunlukla çok hücreli canlılardır; kloroplastlarındaki klorofil sayesinde güneş enerjisini biyokimyasal enerjiye çevirir, su ve CO2'den organik madde üretir, oksijen açığa çıkar, üretilen glikoz nişasta halinde depolanır.\n- Hücre çeperi selülozdan yapılıdır, turgor basıncıyla bitkiye diklik/destek sağlar.\n- Yapraklarda gaz alışverişi ve terlemeyi sağlayan açılıp kapanabilen gözenekler (stoma) bulunur.\n- Bitki kısımları: kök (su/mineral alımı, depolama, toprağa bağlanma) ve sürgün (gövde, dal, yaprak, çiçek, meyve, tohum).\n- Üreme: kök/gövde/yaprakla eşeysiz, çiçek/meyve/tohumla eşeyli (spor veya tohumla gerçekleşir).\n- Çok yıllık bitkilerde büyüme yaşam boyu sürer; bitkiler yer değiştiremez ama yönelim/irkilme hareketleri gösterebilir.\n- Damarlı bitkilerde iletim demetleri (damar) su/mineral/organik madde taşır.\n- Örnekler: damarsız tohumsuz (kara yosunu, ciğer otu), damarlı tohumsuz (eğrelti otu, atkuyruğu), damarlı tohumlu (karahindiba).\n- Tam parazit (küsküt otu) ve yarı parazit (ökse otu) örnekleri de değinilebilir.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node7",
+              "order": 7,
+              "title": "Hayvanlar Âlemi (Omurgasız ve Omurgalı)",
+              "estimatedMinutes": 25,
+              "scope": "- Genel özellikler: ökaryot, çok hücreli, aktif yer değiştirebilen, heterotrof beslenen, oksijenli solunum yapan, çoğunlukla eşeyli üreyen canlılardır.\n- Omurgasızlar: omurga yapısı yok, sinir sistemi karın bölgesinde, genelde açık kan dolaşımı. Süngerler: en basit organizasyonlu, denizde zemine bağlı yaşar, vücut açıklıklarıyla gaz/besin alışverişi yapar, yüksek rejenerasyon yeteneği var. Sölenterler: doku düzeyinde organizasyon, kas/sinir dokusu var, örnekler hidra/denizanası/mercan.\n- Omurgalılar: sırt boyunca omurlardan oluşan omurga, iç iskelet, sırtta sinir kordonu; hepsinde kapalı dolaşım var; suda yaşayanlar solungaçla, karada yaşayanlar akciğerle solunum yapar; kalp 2-4 odacıklı olabilir.\n- Balıklar: tatlı/tuzlu suda yaşar, suya geçirimsiz pullu vücut, kıkırdak veya kemik iskelet, dış ortam sıcaklığından etkilenir (soğukkanlı), kış uykusuna yatmaz, boşaltım atığı amonyak, solungaçla solur.\n- Kuşlar: uçabilen ilk omurgalı grup, keratin yapılı pul/tüy/pençe, gagalı-dişsiz, 4 odacıklı kalp (tam ayrık kan), sabit vücut sıcaklığı (sıcakkanlı), hava boşluklu içi boş kemikler, ön uzuvlar kanada dönüşmüş, gelişmiş görme/işitme, zayıf koku alma.\n- Memeliler: kıllı vücut (bazı sucul türler hariç), sıcakkanlı, alveollü akciğer, göğüs-karın boşluğunu ayıran diyafram kası, 4 odacıklı kalp, deri bezleri (ter/yağ/süt bezi), iç döllenme ve gelişim, çoğunda plasenta ile embriyo beslenmesi, atık boşaltımı için böbrek.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit5",
+          "order": 5,
+          "title": "Mitoz ve Eşeysiz Üreme",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Hücre Döngüsü ve Mitozun Gerekliliği",
+              "estimatedMinutes": 18,
+              "scope": "- Hücre döngüsünün süresi organizmadaki farklı dokular arasında ve türler arasında değişir; çok hücreli canlılarda bazı hücreler ihtiyaç oldukça bölünür, bazıları bölünmeden kalır.\n- Embriyonik hücreler G1 evresini atlayıp direkt S evresine geçer, sonra G2'den geçerek normal hücrelerden daha hızlı döngü tamamlar.\n- İnterfaz evreleri: G1 (yoğun metabolik faaliyet, madde alışverişi, sentez/yıkım tepkimeleri, organel üretimi -mitokondri, ER-, RNA sentezi, hücre hızlı büyür), S (DNA kendini eşler, her genin bir kopyası oluşur, toplam DNA miktarı ikiye katlanır), G2 (protein/enzim/RNA sentezi devam eder, sitoplazmik organel sayısı artar).",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Mitoz Evreleri",
+              "estimatedMinutes": 20,
+              "scope": "- Profaz: kromatin iplikleri kısalıp kalınlaşarak kromozomları oluşturur, çekirdek zarı ve ER dağılmaya başlar, sentrozomlar zıt kutuplara göç eder, iğ iplikleri oluşur.\n- Metafaz: kromozomlar hücrenin ekvatoral düzleminde sıralanır, kromozomların en net incelenebildiği evredir.\n- Anafaz: kardeş kromatidler ayrılıp zıt kutuplara çekilir, ayrıldıktan sonra her biri bağımsız bir kromozom sayılır.\n- Telofaz: çekirdek zarı iki yeni çekirdek etrafında yeniden oluşur, iğ iplikleri kaybolur, kromozomlar tekrar kromatin haline döner.\n- Bitki hücrelerinde sentriyol yoktur, iğ ipliklerini mikrotübül organize edici merkezler oluşturur.\n- Metafazda karyotipleme yapılarak kromozom anomalileri tespit edilebilir, genetik hastalıkların erken teşhisinde kullanılır.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Hücre Döngüsünün Kontrolü ve Kanser",
+              "estimatedMinutes": 16,
+              "scope": "- Kanser: bir organ/dokudaki hücrelerin kontrolsüz bölünüp çoğalmasıdır.\n- Sağlıklı hücreler DNA hasarını onarabilir; kanserli hücrelerde hasar onarılamaz, hücre döngüsü kontrolü bozulur.\n- Tümör: bağışıklık sisteminin yok edemediği, kontrolü bozulmuş hücre kütlesi. İyi huylu tümörler hızlı büyümez/yayılmaz, kötü huylu tümörler yayılır.\n- Metastaz: kanser hücrelerinin kan/lenf dolaşımıyla vücudun başka bölgelerine taşınıp yayılması.\n- Risk faktörleri: genetik yatkınlık, tütün, alkol, yanlış beslenme, obezite, radyasyon, çevre kirliliği, yaşlanma, gen bozuklukları, virüsler, aşırı güneş ışını. Örnek: kolon kanseri, genelde 50 yaş sonrası görülür.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Eşeysiz Üreme - Bölünerek, Tomurcuklanma, Rejenerasyon",
+              "estimatedMinutes": 20,
+              "scope": "- Eşeysiz üreme genel özellikleri: döllenme olmadan tek bir atadan, genetik olarak aynı yeni bireyler oluşur; hızlı ve çok sayıda yavru üretir; yavrular ebeveynle/aralarında aynı kalıtsal özelliklere sahiptir; koşullar değişirse popülasyon savunmasız kalır (genetik çeşitlilik yok).\n- Bölünerek üreme: belirli büyüklüğe ulaşmış tek hücreli canlının ikiye bölünmesi; bakteri, arke, amip, paramesyum, öglena gibi canlılarda görülür; bakteri DNA'sını eşler, hücre uzar, zar içeri çekilerek bölünür.\n- Tomurcuklanma: ana canlı üzerinde mitozla tomurcuk şeklinde çıkıntı oluşması; tek hücrelilerde maya, çok hücrelilerde hidra ve mercan örnek; yavru ayrılabilir veya bağlı kalıp koloni oluşturabilir.\n- Rejenerasyonla üreme: kopan vücut parçasından genetik varyasyon olmadan yeni birey gelişmesi; canlı karmaşıklaştıkça bu yetenek azalır; planarya ve deniz yıldızı tam rejenerasyon yapabilir, deniz yıldızında merkez diskin bir kısmını taşıyan tek bir kol yeni bireye dönüşebilir.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node5",
+              "order": 5,
+              "title": "Eşeysiz Üreme - Sporla, Partenogenezle",
+              "estimatedMinutes": 18,
+              "scope": "- Spor: sert dış örtülü, olumsuz çevre koşullarına dayanıklı, n kromozomlu özelleşmiş üreme hücresi; döllenme olmadan mitozla yeni birey oluşturur; plazmodyum, algler, mantarlar, eğrelti otu ve yosun gibi tohumsuz bitkilerde görülür.\n- Partenogenez: mayozla oluşan yumurta hücresinin döllenmeden mitozla gelişip yeni birey oluşturması; arı kolonisi örneği - döllenmemiş yumurtalar haploid erkek (erkek arı), döllenmiş yumurtalar diploid dişi (kraliçe/işçi) olur; işçi arı gelişimi beslenmeye bağlı - arı sütüyle beslenen kraliçe, polenle beslenen kısır işçi olur; arı/karınca/yaprak biti gibi omurgasızlarda ve bazı balık/kurbağa/sürüngen/kuş türlerinde görülür.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node6",
+              "order": 6,
+              "title": "Eşeysiz Üreme - Vejetatif Üreme",
+              "estimatedMinutes": 18,
+              "scope": "- Gelişmiş yapılı bitkilerin kök/gövde/dal/yaprak gibi ayrılmış kısımlarından, ana bitkiyle aynı genetik yapıya sahip yeni bitki oluşması; mitoz ve rejenerasyona dayanır.\n- Stolon (sürünücü gövde) ile üreme: çilek gibi bitkilerde yatay gövdeler kök salıp geniş alana yeni bitkiler oluşturur.\n- Yumru ile üreme: patates/yer fıstığı gibi toprak altı depo organlarında bulunan \"göz\" (nodium) adı verilen tomurcuklar sürgüne dönüşerek yavru bitki oluşturur.\n- Rizom ile üreme: zencefil/süsen gibi bitkilerdeki yatay toprak altı gövdeler besin depolar, uç ve yanal tomurcuklar taşır, çok yıllık özelliği bu şekilde sürer.\n- Bu yöntemlerin tarımsal uygulamalarda eşeyli üremeye alternatif olarak kullanıldığına değin.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit6",
+          "order": 6,
+          "title": "Mayoz ve Eşeyli Üreme",
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Mayoz I Evreleri",
+              "estimatedMinutes": 22,
+              "scope": "- Mayoz, birbirini takip eden Mayoz I ve Mayoz II aşamalarından oluşur, sonuçta genetik çeşitliliğe sahip haploit üreme hücreleri oluşur.\n- Profaz I: mayozun en uzun ve en karmaşık evresi. Homolog kromozomlar yan yana gelip tetrat (4 kromatitli yapı) oluşturur. Sinapsis: homolog kromozomların geçici olarak fiziksel birleşmesi. Krossing over (parça değişimi): kardeş olmayan kromatidler arasında kiazma denilen bölgelerde genetik madde alışverişi olur.\n- Önemli not: tetrat sayısı hücrenin haploit kromozom sayısına eşittir, kromatit sayısı kromozom sayısının iki katıdır (örnek: 2n=4 durumunda tetrat/kromatit ilişkisi).\n- Metafaz I, Anafaz I (homolog kromozomlar zıt kutuplara ayrılır - kardeş kromatidler değil), Telofaz I kısaca değinilir.\n- Sitokinez I: hayvan hücresinde boğumlanma, bitki hücresinde orta lamel oluşumuyla gerçekleşir, sonuçta genetik olarak farklı 2 haploit hücre oluşur.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Mayoz II Evreleri",
+              "estimatedMinutes": 20,
+              "scope": "- Mayoz I ile Mayoz II arasında interfaz yoktur ve DNA eşlenmez (kritik nokta).\n- Profaz II: Profaz I'e göre kısa sürer; çekirdek zarı ve çekirdekçik (varsa) dağılır, iğ iplikleri oluşur, kromozomlar belirginleşir.\n- Metafaz II, Anafaz II (bu kez kardeş kromatidler ayrılır, mitozdaki anafaza benzer), Telofaz II.\n- Sitokinez II: hayvan hücresinde boğumlanma, bitki hücresinde hücre plağı oluşumu; sonuçta birbirinden ve ana hücreden genetik olarak farklı 4 haploit kardeş hücre oluşur (örnek: 2n=4'ten n=2 kromozomlu 4 hücre).",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Mitoz ve Mayoz Karşılaştırması",
+              "estimatedMinutes": 20,
+              "scope": "- Hücre sayısı: mitoz 2 yeni hücre, mayoz 4 yeni hücre üretir.\n- Kromozom sayısı: mitozda ana hücreyle aynı kalır, mayozda yarıya iner.\n- Krossing over: mayozun Profaz I'inde görülür, mitozun profazında görülmez.\n- Zamanlama: mitoz zigot evresinden itibaren yaşam boyu sürer, mayoz canlının üreme olgunluğu döneminde gerçekleşir.\n- Anafaz farkı: mitozda kardeş kromatidler ayrılır; mayozda Anafaz I'de homolog kromozomlar, Anafaz II'de kardeş kromatidler ayrılır.\n- DNA içeriği: mitoz sonrası hücrelerde DNA ana hücreyle aynı, mayoz sonrası hücrelerde DNA miktarı yarıya iner.\n- Hücre döngüsü basamakları: mitoz interfaz+mitoz+sitokinezden oluşur, mayoz ara sitokinezli iki tam bölünmeden oluşur.",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Eşeyli Üreme",
+              "estimatedMinutes": 20,
+              "scope": "- Tanım: farklı cinsiyetteki aynı tür iki canlının iki haploit gametinin döllenmesiyle yeni yavru oluşması.\n- Mayoz bölünme ve döllenme bu sistemin temelidir; dişi gamete yumurta, erkek gamete sperm denir; döllenmiş yumurtaya zigot denir (diploit hücre).\n- Gametler şansa bağlı bir araya geldiği için tür içi genetik çeşitlilik oluşur, yavrular hem anne hem babadan genetik malzeme taşır.\n- Önemli notlar: prokaryotlarda mitoz, mayoz ve döllenme gerçekleşmez; bitkilerde tohum oluşumu eşeyli üremenin kanıtıdır; eşeyli üreme adaptasyon yeteneğini artırır.\n- Örnekler: şeftali/erik/orkide gibi çiçekli bitkilerde tek çiçekte hem erkek hem dişi organ bulunabilir; solucan/güve/istiridye gibi hermafrodit canlılar gametlerini farklı zamanlarda üretir, böylece kendi kendini döllemek yerine başka bireylerle çiftleşip genetik çeşitliliği artırır.\n- Eşeysiz-eşeyli üreme karşılaştırma tablosu: genetik çeşitlilik (eşeysizde yok/mutasyon hariç, eşeylide var), ebeveyn sayısı (eşeysizde tek atadan, eşeylide iki genetik ebeveynden), bölünme temeli (eşeysiz mitoz, eşeyli mayoz), döllenme (eşeysizde yok, eşeylide var), çevreye uyum olasılığı (eşeysizde düşük, eşeylide yüksek).",
+              "parts": {
+                "flashcards": 5,
+                "multipleChoice": 5,
+                "fillBlank": 2,
+                "trueFalse": 2
+              },
+              "zorluk_hedefi": null
+            }
+          ]
+        },
+        {
+          "id": "unit7",
+          "order": 7,
+          "title": "Kalıtımın Genel İlkeleri",
+          "nodes": []
+        },
+        {
+          "id": "unit8",
+          "order": 8,
+          "title": "Ekosistem Ekolojisi",
+          "nodes": []
+        },
+        {
+          "id": "unit9",
+          "order": 9,
+          "title": "Güncel Çevre Sorunları",
+          "nodes": []
+        }
+      ]
+    }
+  ]
+}
