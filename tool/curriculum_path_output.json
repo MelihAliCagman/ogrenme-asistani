@@ -32691,6 +32691,2534 @@
               ]
             }
           ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Mitoz ve Mayoz Karşılaştırması",
+          "estimatedMinutes": 20,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mitoz bölünme sonucunda ana hücreden kaç yeni hücre oluşur?",
+                  "answer": "2 yeni hücre"
+                },
+                {
+                  "question": "Mayoz bölünmede kromozom sayısı ana hücreye göre nasıl değişir?",
+                  "answer": "Yarıya iner"
+                },
+                {
+                  "question": "Mitoz bölünmede kromozom sayısı ana hücreye göre nasıl değişir?",
+                  "answer": "Aynı kalır"
+                },
+                {
+                  "question": "Krossing over olayı mayozun hangi evresinde görülür?",
+                  "answer": "Profaz I"
+                },
+                {
+                  "question": "Mitoz bölünmenin profaz evresinde krossing over görülür mü?",
+                  "answer": "Görülmez"
+                },
+                {
+                  "question": "Mitoz bölünme canlılarda hangi evreden itibaren yaşam boyu sürer?",
+                  "answer": "Zigot evresinden itibaren"
+                },
+                {
+                  "question": "Mayoz bölünme canlının hangi döneminde gerçekleşir?",
+                  "answer": "Üreme olgunluğu dönemi"
+                },
+                {
+                  "question": "Mitoz bölünmede anafaz evresinde ne ayrılır?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mayoz I'in anafaz evresinde (Anafaz I) ne ayrılır?",
+                  "answer": "Homolog kromozomlar"
+                },
+                {
+                  "question": "Mayoz bölünme sonrasında oluşan hücrelerin DNA miktarı ana hücreye göre nasıl değişir?",
+                  "answer": "Yarıya iner"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 2",
+              "cards": [
+                {
+                  "question": "Mitoz bölünme sonucunda oluşan hücrelerin DNA miktarı ana hücreye göre nasıldır?",
+                  "answer": "Aynı kalır"
+                },
+                {
+                  "question": "Mayoz II evresinde anafaz aşamasında (Anafaz II) hücrede ne ayrılır?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mitoz bölünme hangi temel evrelerden oluşur?",
+                  "answer": "İnterfaz, mitoz ve sitokinez"
+                },
+                {
+                  "question": "Mayoz bölünme yapısı itibarıyla nasıl iki tam bölünmeden oluşur?",
+                  "answer": "Ara sitokinezli iki tam bölünme"
+                },
+                {
+                  "question": "Mitoz bölünme canlılarda yaşam boyu sürer mi?",
+                  "answer": "Evet"
+                },
+                {
+                  "question": "Mayozun Profaz I evresinde gerçekleşen çeşitlilik olayı nedir?",
+                  "answer": "Krossing over"
+                },
+                {
+                  "question": "Mitozda anafaz evresinde birbirinden ayrılan yapılar nelerdir?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mayoz bölünmenin Anafaz I evresinde birbirinden ayrılan yapılar nelerdir?",
+                  "answer": "Homolog kromozomlar"
+                },
+                {
+                  "question": "Mitoz bölünme sonrasında oluşan hücrelerin DNA içeriği ana hücre ile nasıldır?",
+                  "answer": "Aynı"
+                },
+                {
+                  "question": "Mayoz bölünme canlılarda hangi dönemde başlar ve gerçekleşir?",
+                  "answer": "Üreme olgunluğu dönemi"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 3",
+              "cards": [
+                {
+                  "question": "Mitoz bölünmenin temel basamakları hangi üç aşamadan meydana gelir?",
+                  "answer": "İnterfaz, mitoz ve sitokinez"
+                },
+                {
+                  "question": "Mayoz II evresinin anafaz aşamasında (Anafaz II) birbirinden ayrılan yapılar nelerdir?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren bir hücrede krossing over olayı profaz evresinde görülür mü?",
+                  "answer": "Görülmez"
+                },
+                {
+                  "question": "Mayoz bölünmenin Profaz I aşamasında genetik çeşitliliği sağlayan olay nedir?",
+                  "answer": "Krossing over"
+                },
+                {
+                  "question": "Mayoz bölünmede homolog kromozomlar hangi evrede ayrılır?",
+                  "answer": "Anafaz I"
+                },
+                {
+                  "question": "Mitoz bölünme canlılarda ne kadar süre devam eder?",
+                  "answer": "Yaşam boyu"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda kaç yeni hücre üretilir?",
+                  "answer": "4 yeni hücre"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren bir hücrenin DNA içeriği bölünme sonrası ana hücreye göre nasıldır?",
+                  "answer": "Aynı kalır"
+                },
+                {
+                  "question": "Mayoz bölünmenin Anafaz II evresinde hücrede hangi yapılar birbirinden ayrılır?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mitoz bölünme hangi ana basamaklardan meydana gelir?",
+                  "answer": "İnterfaz, mitoz ve sitokinez"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 4",
+              "cards": [
+                {
+                  "question": "Mayoz bölünme nasıl bir yapıya sahiptir?",
+                  "answer": "Ara sitokinezli iki tam bölünme"
+                },
+                {
+                  "question": "Mayoz bölünmeden sonra oluşan hücrelerin DNA miktarı ana hücreye göre nasıldır?",
+                  "answer": "Yarıya iner"
+                },
+                {
+                  "question": "Mitoz bölünme sonucunda üretilen toplam yeni hücre sayısı kaçtır?",
+                  "answer": "2 yeni hücre"
+                },
+                {
+                  "question": "Mayoz bölünme yapısal olarak nasıl iki tam bölünmeden meydana gelir?",
+                  "answer": "Ara sitokinezli iki tam bölünme"
+                },
+                {
+                  "question": "Mitoz bölünmenin temel hücre döngüsü basamakları sırasıyla nelerdir?",
+                  "answer": "İnterfaz, mitoz ve sitokinez"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir hücrede genetik çeşitlilik sağlayan krossing over hangi evrede gerçekleşir?",
+                  "answer": "Profaz I"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda oluşan hücrelerin kromozom sayısı ana hücreye göre nasıldır?",
+                  "answer": "Yarıya iner"
+                },
+                {
+                  "question": "Mitoz bölünme sonucunda oluşan hücrelerin kromozom sayısı ana hücreyle karşılaştırıldığında nasıl kalır?",
+                  "answer": "Aynı kalır"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda ana hücreden kaç yeni hücre meydana gelir?",
+                  "answer": "4 yeni hücre"
+                },
+                {
+                  "question": "Mayoz bölünmenin gerçekleşmesi için canlının hangi dönemde olması gerekir?",
+                  "answer": "Üreme olgunluğu dönemi"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 5",
+              "cards": [
+                {
+                  "question": "Mayoz bölünmede krossing over olayı hangi evrede meydana gelir?",
+                  "answer": "Profaz I"
+                },
+                {
+                  "question": "Mitoz bölünme süreci canlılarda hangi evreden başlayarak devam eder?",
+                  "answer": "Zigot evresinden itibaren"
+                },
+                {
+                  "question": "Mitoz bölünmenin anafaz evresinde birbirinden ayrılan yapılar hangileridir?",
+                  "answer": "Kardeş kromatidler"
+                },
+                {
+                  "question": "Mayoz I evresinin anafaz aşamasında birbirinden ayrılan yapılar hangileridir?",
+                  "answer": "Homolog kromozomlar"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir hücrenin kromozom sayısı ana hücreye kıyasla nasıl değişir?",
+                  "answer": "Yarıya iner"
+                },
+                {
+                  "question": "Krossing over olayı mayoz bölünmenin hangi evresinde gerçekleşir?",
+                  "answer": "Profaz I"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir hücrenin DNA miktarı bölünme sonrasında ana hücreye göre nasıldır?",
+                  "answer": "Yarıya iner"
+                },
+                {
+                  "question": "Mayoz bölünmenin yapısal olarak oluştuğu şekil nasıldır?",
+                  "answer": "Ara sitokinezli iki tam bölünme"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren bir hücrenin kromozom sayısında ana hücreye göre nasıl bir değişim görülür?",
+                  "answer": "Aynı kalır"
+                },
+                {
+                  "question": "Hücre döngüsü basamakları dikkate alındığında mitoz bölünme hangi ana aşamalardan oluşur?",
+                  "answer": "İnterfaz, mitoz ve sitokinez"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme sonucunda ana hücreden kaç adet yeni hücre oluşur?",
+                  "options": [
+                    "1",
+                    "2",
+                    "4",
+                    "8"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme sonucunda ana hücreyle aynı özelliklere sahip 2 yeni hücre üretilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi mayoz bölünme sonucunda oluşan hücrelerin özelliklerinden biridir?",
+                  "options": [
+                    "Ana hücre ile aynı sayıda kromozoma sahip olmaları",
+                    "DNA miktarının ana hücre ile aynı kalması",
+                    "Kromozom sayısının ana hücreye göre yarıya inmesi",
+                    "Sadece 2 yeni hücre oluşması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz bölünme sonucunda kromozom sayısı ve DNA miktarı ana hücrenin yarıya inmiş haliyle 4 yeni hücre oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Krossing over olayı hücre bölünmelerinin hangisinde ve hangi evrede gerçekleşir?",
+                  "options": [
+                    "Mitozun Profaz evresinde",
+                    "Mayozun Profaz I evresinde",
+                    "Mayozun Anafaz II evresinde",
+                    "Mitozun İnterfaz evresinde"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Krossing over sadece mayoz bölünmenin Profaz I evresinde görülür, mitozda gerçekleşmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme canlılarda hangi evreden itibaren yaşam boyu sürer?",
+                  "options": [
+                    "Zigot evresinden itibaren",
+                    "Sadece ergenlik döneminden itibaren",
+                    "Sadece yaşlılık döneminde",
+                    "Üreme olgunluğu döneminden sonra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme zigot evresinden itibaren canlının yaşamı boyunca devam eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme canlının hayatında hangi dönemde gerçekleşmeye başlar?",
+                  "options": [
+                    "Zigot oluşumu ile aynı anda",
+                    "Üreme olgunluğu döneminde",
+                    "Sadece embriyonik dönemde",
+                    "Doğumdan hemen sonra"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme canlının üreme olgunluğu döneminde gerçekleşmeye başlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmede homolog kromozomların ayrılması hangi evrede gerçekleşir?",
+                  "options": [
+                    "Anafaz I",
+                    "Anafaz II",
+                    "Mitozun Anafaz evresi",
+                    "Profaz I"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayozda homolog kromozomlar Anafaz I evresinde birbirinden ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünmede ve Mayoz II'nin Anafaz II evresinde ne ayrılır?",
+                  "options": [
+                    "Homolog kromozomlar",
+                    "Kardeş kromatidler",
+                    "Çekirdek zarları",
+                    "Sitoplazmalar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitozda ve mayozun Anafaz II evresinde kardeş kromatidler birbirinden ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme sonrasında oluşan hücrelerin DNA içeriği için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "DNA miktarı ana hücreyle aynıdır.",
+                    "DNA miktarı ana hücrenin iki katıdır.",
+                    "DNA miktarı ana hücreye göre yarıya iner.",
+                    "DNA miktarı tamamen sıfırlanır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz sonrası oluşan hücrelerde DNA miktarı ana hücreyle aynı kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmenin genel yapısı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Tek bir bölünmeden oluşur.",
+                    "Ara sitokinezli iki tam bölünmeden oluşur.",
+                    "Sadece interfaz ve sitokinezden ibarettir.",
+                    "Krossing over olmadan gerçekleşir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme ara sitokinezli iki tam bölünmeden (Mayoz I ve Mayoz II) oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hücre döngüsü basamakları dikkate alındığında mitoz bölünme hangi aşamalardan oluşur?",
+                  "options": [
+                    "Sadece profaz ve anafaz",
+                    "İnterfaz, mitoz ve sitokinez",
+                    "Mayoz I ve Mayoz II",
+                    "Sadece sitokinez ve krossing over"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz döngüsü temel olarak interfaz, mitoz ve sitokinez basamaklarından oluşur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 2",
+              "questions": [
+                {
+                  "question": "Mayoz bölünme sonucunda oluşan yeni hücrelerin sayısı ve kromozom sayısı durumu aşağıdakilerden hangisinde doğru verilmiştir?",
+                  "options": [
+                    "4 yeni hücre oluşur, kromozom sayısı yarıya iner.",
+                    "2 yeni hücre oluşur, kromozom sayısı aynı kalır.",
+                    "4 yeni hücre oluşur, kromozom sayısı aynı kalır.",
+                    "2 yeni hücre oluşur, kromozom sayısı yarıya iner."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme sonucunda ana hücreden 4 yeni hücre üretilir ve kromozom sayısı ana hücreye göre yarıya inmiş olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki olaylardan hangisi sadece mayoz bölünme sırasında gerçekleşir ve mitozda görülmez?",
+                  "options": [
+                    "Kardeş kromatitlerin zıt kutuplara çekilmesi",
+                    "Ana hücreyle aynı DNA içeriğine sahip hücre oluşumu",
+                    "Profaz evresinde iğ ipliklerinin oluşması",
+                    "Profaz I evresinde krossing over olayı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Krossing over olayı mayozun Profaz I evresinde görülür, mitozun profazında kesinlikle görülmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme ile mayoz bölünmenin başlama zamanları karşılaştırıldığında hangisi doğrudur?",
+                  "options": [
+                    "İkisi de sadece ergenlik döneminde başlar.",
+                    "Mitoz zigot evresinden itibaren yaşam boyu sürer, mayoz üreme olgunluğunda gerçekleşir.",
+                    "İkisi de zigot evresinden itibaren başlar.",
+                    "Mayoz yaşam boyu sürer, mitoz sadece üreme döneminde görülür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz zigot evresinden itibaren yaşam boyu sürerken, mayoz canlının üreme olgunluğu döneminde gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme ve mayoz bölünmenin Anafaz evrelerindeki farklılıklar göz önüne alındığında, aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Mitozda homolog kromozomlar ayrılır.",
+                    "Mayozun Anafaz I evresinde kardeş kromatidler ayrılır.",
+                    "Mayozun Anafaz II evresinde kardeş kromatidler ayrılır.",
+                    "Mitozda krossing over gerçekleşir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayozda Anafaz I'de homolog kromozomlar, Anafaz II'de ise kardeş kromatidler ayrılır. Mitozda ise kardeş kromatidler ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme sonrasında oluşan hücrelerin DNA içeriği ana hücreye göre nasıldır?",
+                  "options": [
+                    "DNA içeriği yarıya inmiştir.",
+                    "DNA içeriği iki katına çıkmıştır.",
+                    "DNA içeriği ana hücreyle aynıdır.",
+                    "DNA içeriği tamamen kaybolmuştur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mitoz bölünme sonucunda oluşan hücrelerde DNA miktarı ana hücreyle aynı kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmenin genel yapısı ve hücre döngüsü basamakları dikkate alındığında, mayozun temel mekanizması nasıldır?",
+                  "options": [
+                    "Ara sitokinezli iki tam bölünmeden oluşur.",
+                    "Tek bir sitokinez ile tamamlanan bir bölünmedir.",
+                    "Sadece interfaz ve mitozdan oluşur.",
+                    "Dört ardışık sitokinez aşaması içerir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz, ara sitokinezli iki tam bölünmeden meydana gelen bir süreçtir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme tamamlandığında, oluşan yeni hücrelerin DNA içeriği için ne söylenebilir?",
+                  "options": [
+                    "Ana hücreyle aynı miktarda DNA içerir.",
+                    "DNA miktarı yarıya inmiştir.",
+                    "DNA içeriği iki katına çıkmıştır.",
+                    "DNA içermezler."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz sonrasında oluşan hücrelerde DNA miktarı ana hücreye göre yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerin ürettikleri hücre sayıları arasındaki fark hangisinde doğru belirtilmiştir?",
+                  "options": [
+                    "Mitoz 4, mayoz 2 yeni hücre üretir.",
+                    "Mitoz 2, mayoz 4 yeni hücre üretir.",
+                    "İkisi de 4 yeni hücre üretir.",
+                    "İkisi de 2 yeni hücre üretir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme 2 yeni hücre, mayoz bölünme ise 4 yeni hücre üretir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmenin Anafaz I evresinde gerçekleşen olay aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kardeş kromatidlerin birbirinden ayrılması",
+                    "Homolog kromozomların zıt kutuplara çekilmesi",
+                    "Krossing over ile parça değişimi",
+                    "DNA miktarının iki katına çıkması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayozun Anafaz I evresinde homolog kromozomlar birbirinden ayrılıp zıt kutuplara çekilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerin ürettikleri toplam yeni hücre sayıları arasındaki ilişki aşağıdakilerden hangisinde doğru verilmiştir?",
+                  "options": [
+                    "Mitoz 2, mayoz 4 yeni hücre üretir.",
+                    "Mitoz 4, mayoz 2 yeni hücre üretir.",
+                    "Her ikisi de eşit sayıda hücre üretir.",
+                    "Mitoz 1, mayoz 2 yeni hücre üretir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme sonucunda 2 yeni hücre, mayoz bölünme sonucunda ise 4 yeni hücre oluşur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 3",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme ile mayoz bölünmenin ürettiği yeni hücre sayıları hangi seçenekte doğru olarak verilmiştir?",
+                  "options": [
+                    "Mitoz 2 hücre, mayoz 4 hücre üretir.",
+                    "Mitoz 4 hücre, mayoz 2 hücre üretir.",
+                    "Her ikisi de 2 hücre üretir.",
+                    "Her ikisi de 4 hücre üretir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme sonucunda ana hücreden 2 yeni hücre oluşurken, mayoz bölünme sonucunda 4 yeni hücre oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerde kromozom sayısının değişimi ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Mitozda yarıya iner, mayozda aynı kalır.",
+                    "Mitozda aynı kalır, mayozda yarıya iner.",
+                    "Her iki bölünmede de kromozom sayısı yarıya iner.",
+                    "Her iki bölünmede de kromozom sayısı değişmez."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünmede kromozom sayısı ana hücreyle aynı kalırken, mayoz bölünmede kromozom sayısı yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Krossing over olayı ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Mitozun profaz evresinde gerçekleşir.",
+                    "Mayozun profaz evresinde görülmez.",
+                    "Mayoz I'in profaz I evresinde görülür.",
+                    "Hem mitozda hem mayozda ortak olarak görülür."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Krossing over sadece mayozun Profaz I evresinde görülür, mitozun profazında gerçekleşmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerin gerçekleşme zamanlaması hakkında aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Mitoz yaşam boyu sürer, mayoz üreme olgunluğu döneminde gerçekleşir.",
+                    "Mayoz zigot evresinden itibaren başlar, mitoz sadece üreme dönemindedir.",
+                    "Her iki bölünme de sadece embriyonik dönemde görülür.",
+                    "Her iki bölünme de ergenlik döneminden sonra başlar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz zigot evresinden itibaren yaşam boyu sürerken, mayoz canlının üreme olgunluğu döneminde gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme ile mayoz bölünmenin Anafaz evrelerindeki temel fark aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mitozda homolog kromozomlar ayrılır.",
+                    "Mayozda anafaz evresi hiç görülmez.",
+                    "Mitozda kardeş kromatidler ayrılır, mayozda Anafaz I'de homolog kromozomlar ayrılır.",
+                    "Mayoz II'de homolog kromozomlar ayrılır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mitozda kardeş kromatidler ayrılırken; mayozda Anafaz I'de homolog kromozomlar, Anafaz II'de kardeş kromatidler ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme hangi aşamalardan meydana gelir?",
+                  "options": [
+                    "Sadece ara sitokinezli iki tam bölünmeden oluşur.",
+                    "Sadece krossing over ve anafaz evrelerinden oluşur.",
+                    "İnterfaz, mayoz ve sitokinezden oluşur.",
+                    "İnterfaz, mitoz ve sitokinezden oluşur."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Hücre döngüsü basamakları dikkate alındığında mitoz bölünme interfaz, mitoz ve sitokinez aşamalarından oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren bir hücre ile mayoz bölünme geçiren bir hücrenin ürettikleri toplam yeni hücre sayıları arasındaki oran nasıldır?",
+                  "options": [
+                    "Mitoz 2, mayoz 4 hücre üretir.",
+                    "Mitoz 4, mayoz 2 hücre üretir.",
+                    "Her ikisi de 4 hücre üretir.",
+                    "Her ikisi de 2 hücre üretir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme sonucunda 2 yeni hücre oluşurken, mayoz bölünme sonucunda 4 yeni hücre üretilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir ana hücrenin kromozom sayısı ile mayoz sonrasında oluşan hücrelerin kromozom sayısı arasındaki değişim nasıldır?",
+                  "options": [
+                    "Aynı kalır",
+                    "Yarıya iner",
+                    "İki katına çıkar",
+                    "Dört katına çıkar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme sonucunda oluşan hücrelerin kromozom sayısı ana hücreye göre yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren bir hücrenin kromozom sayısı ile mitoz sonrasında oluşan hücrelerin kromozom sayısı karşılaştırıldığında ne söylenebilir?",
+                  "options": [
+                    "Kromozom sayısı yarıya iner.",
+                    "Kromozom sayısı iki katına çıkar.",
+                    "Kromozom sayısı ana hücreyle aynı kalır.",
+                    "Kromozom sayısı sıfırlanır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mitoz bölünmede kromozom sayısı ana hücreyle aynı kalır ve değişmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerde krossing over olayının görülme durumu ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Mitozun profazında görülür, mayozda görülmez.",
+                    "Sadece mayozun Profaz I evresinde görülür, mitozun profazında görülmez.",
+                    "Hem mitozun profazında hem mayozun Profaz I evresinde görülür.",
+                    "Sadece mitozun interfaz evresinde görülür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Krossing over olayı yalnızca mayozun Profaz I evresinde görülür, mitozun profazında gerçekleşmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 4",
+              "questions": [
+                {
+                  "question": "Aşağıdaki olaylardan hangisi mitoz bölünmenin profaz aşamasında kesinlikle gözlenmez?",
+                  "options": [
+                    "İğ ipliklerinin oluşması",
+                    "Krossing over ile gen alışverişi",
+                    "Kromatin ipliklerin kısalıp kalınlaşması",
+                    "Çekirdek zarlarının erimesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Krossing over sadece mayozun Profaz I evresinde görülür, mitozun profazında asla gerçekleşmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir ana hücreden toplamda kaç adet yeni hücre üretilir?",
+                  "options": [
+                    "1",
+                    "2",
+                    "4",
+                    "8"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz bölünme sonucunda ana hücreden 4 yeni hücre oluşur, mitozda ise bu sayı 2'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme sonrasındaki hücrelerin kromozom sayısı ile ana hücrenin kromozom sayısı arasındaki ilişki nasıldır?",
+                  "options": [
+                    "Mitozda kromozom sayısı yarıya iner.",
+                    "Mitozda ana hücreyle aynı kalır.",
+                    "Mitozda kromozom sayısı iki katına çıkar.",
+                    "Mitozda kromozom sayısı dörde bölünür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünmede kromozom sayısı sabit kalır, ana hücreyle aynı kalırken mayozda yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme hangi ardışık temel basamaklardan meydana gelir?",
+                  "options": [
+                    "Yalnızca iki tam bölünme evresinden",
+                    "Interfaz, mitoz ve sitokinezden",
+                    "Profaz, metafaz ve anafazdan",
+                    "Ara sitokinez ve mayoz evrelerinden"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hücre döngüsü basamakları dikkate alındığında mitoz bölünme interfaz, mitoz ve sitokinez aşamalarından oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme sırasında gerçekleşen Anafaz I evresinde hücrede ne ayrılır?",
+                  "options": [
+                    "Kardeş kromatidler",
+                    "Homolog kromozomlar",
+                    "Sentriyoller",
+                    "Çekirdekçikler"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayozun Anafaz I evresinde homolog kromozomlar zıt kutuplara ayrılır, kardeş kromatidler ise Anafaz II'de ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme tamamlandığında oluşan yeni hücrelerin DNA içeriği ana hücreye göre nasıl olur?",
+                  "options": [
+                    "Ana hücreyle aynı kalır",
+                    "İki katına çıkar",
+                    "Yarıya iner",
+                    "Dört katına çıkar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz sonrasında oluşan hücrelerde DNA miktarı ana hücreye göre yarıya iner; mitozda ise aynı kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi mitoz bölünme ile mayoz bölünmenin ortak özelliklerinden biri değildir?",
+                  "options": [
+                    "Krossing over olayının görülmesi",
+                    "Sitokinez aşamasını içermesi",
+                    "İğ ipliklerinin görev yapması",
+                    "DNA'nın eşlenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Krossing over sadece mayozun Profaz I evresinde görülür, mitozda kesinlikle görülmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme ile mayoz bölünmenin kromozom sayısı üzerindeki nihai etkileri kıyaslandığında hangi ifade doğrudur?",
+                  "options": [
+                    "Mitoz kromozom sayısını korur, mayoz ise yarıya indirir.",
+                    "Mitoz kromozom sayısını yarıya indirir, mayoz korur.",
+                    "Her iki bölünme de kromozom sayısını yarıya düşürür.",
+                    "Her iki bölünme de kromozom sayısını sabit tutar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitozda kromozom sayısı ana hücreyle aynı kalırken, mayoz bölünmede kromozom sayısı yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir hücrede DNA miktarının değişimi ile ilgili aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Oluşan hücrelerin DNA miktarı ana hücreyle aynıdır.",
+                    "Oluşan hücrelerde DNA miktarı ana hücreye göre yarıya iner.",
+                    "Bölünme sonucunda DNA miktarı iki katına çıkar.",
+                    "DNA miktarı sadece Anafaz II'de artar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme sonrasında oluşan hücrelerin DNA içeriği ana hücreye göre yarıya iner.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Canlıların yaşam döngüsünde mitoz ve mayozun başlama ve devam etme süreleri hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Mitoz sadece üreme döneminde başlar, mayoz yaşam boyu sürer.",
+                    "Mitoz zigot evresinden itibaren yaşam boyu sürer, mayoz üreme olgunluğu döneminde gerçekleşir.",
+                    "Her iki bölünme de sadece embriyonik evrede görülür.",
+                    "Mitoz ve mayoz eş zamanlı olarak yaşam boyu devam eder."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz zigot evresinden itibaren yaşam boyu sürerken, mayoz canlının üreme olgunluğu döneminde gerçekleşir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 5",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme geçiren 2n kromozomlu bir hücrenin bölünmesi tamamlandığında, oluşan her bir yeni hücrenin kromozom sayısı kaç olur?",
+                  "options": [
+                    "n",
+                    "2n",
+                    "4n",
+                    "n/2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünmede kromozom sayısı sabit kalır, bu nedenle ana hücreyle aynı kromozom sayısına sahip hücreler oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme geçiren bir hücrede, genetik çeşitliliği sağlayan krossing over olayı hangi evrede meydana gelir?",
+                  "options": [
+                    "Profaz I",
+                    "Anafaz I",
+                    "Profaz II",
+                    "Anafaz II"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Krossing over olayı yalnızca mayoz bölünmenin Profaz I evresinde gerçekleşir ve mitozda görülmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Canlılarda mayoz bölünmenin başlama zamanı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Zigot oluştuktan hemen sonra başlar",
+                    "Canlının üreme olgunluğu döneminde gerçekleşir",
+                    "Sadece embriyonik dönemde görülür",
+                    "Yaşam boyu kesintisiz devam eder"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme canlının hayatı boyunca değil, sadece üreme olgunluğu döneminde gerçekleşmeye başlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmenin genel yapısı dikkate alındığında, bu bölünme süreci nasıl gerçekleşir?",
+                  "options": [
+                    "Tek bir çekirdek bölünmesinden oluşur",
+                    "Ara sitokinezli iki tam bölünmeden oluşur",
+                    "Sadece interfaz ve sitokinezden ibarettir",
+                    "DNA eşlenmesi olmadan gerçekleşen iki aşamadır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme, aralarında ara sitokinez bulunan iki tam bölünme evresi şeklinde gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda oluşan hücrelerin DNA miktarı, ana hücrenin DNA miktarı ile karşılaştırıldığında ne söylenebilir?",
+                  "options": [
+                    "Ana hücre ile aynı kalır",
+                    "Ana hücrenin iki katına çıkar",
+                    "Yarıya iner",
+                    "Dört katına çıkar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz bölünme sonucunda oluşan hücrelerin DNA içeriği, başlangıçtaki ana hücreye göre yarıya inmiş olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünme sürecinin aşamaları göz önüne alındığında, bu döngü hangi temel basamakları kapsar?",
+                  "options": [
+                    "İnfaz, metafaz ve telofaz",
+                    "İnterfaz, mitoz ve sitokinez",
+                    "Profaz I ve Profaz II",
+                    "Anafaz I ve ara sitokinez"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme döngüsü sırasıyla interfaz, mitoz ve sitokinez basamaklarından oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz ve mayoz bölünmelerin anafaz evrelerindeki farklar düşünüldüğünde, mitozun Anafaz evresinde hangi yapı ayrılır?",
+                  "options": [
+                    "Homolog kromozomlar",
+                    "Kardeş kromatidler",
+                    "Sentrozomlar",
+                    "Çekirdek zarı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünmenin Anafaz evresinde kardeş kromatidler birbirinden ayrılarak zıt kutuplara gider.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünmenin gerçekleşme zamanlaması ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sadece ergenlik döneminden sonra başlar.",
+                    "Zigot evresinden itibaren yaşam boyu sürer.",
+                    "Sadece üreme olgunluğu döneminde başlar.",
+                    "Canlının yaşlılık döneminde tamamen durur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme zigot evresinden başlayarak canlının yaşamı boyunca devam eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mayoz bölünmenin başlama zamanlaması hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Zigot olunduğu andan itibaren başlar.",
+                    "Sadece embriyonik dönemde görülür.",
+                    "Canlının üreme olgunluğu döneminde gerçekleşir.",
+                    "Yaşamın ilk gününden itibaren aralıksız sürer."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz bölünme, canlının üreme olgunluğu dönemine ulaştığı zaman gerçekleşmeye başlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitoz bölünmenin Anafaz evresinde hücrede gerçekleşen temel olay nedir?",
+                  "options": [
+                    "Homolog kromozomlar zıt kutuplara çekilir.",
+                    "Kardeş kromatidler birbirinden ayrılır.",
+                    "Krossing over ile parça değişimi olur.",
+                    "Sitoplazma ikiye bölünür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitozun Anafaz evresinde kardeş kromatidler birbirinden ayrılarak zıt kutuplara gider.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme sonucunda ana hücreden ____ yeni hücre üretilir.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme tamamlandığında genetik olarak özdeş iki yeni hücre meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda oluşan yeni hücre sayısı ____ tanedir.",
+                  "options": [
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme iki aşamalı olarak gerçekleşir ve sonucunda dört yeni hücre oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitozda kromozom sayısı ana hücreyle aynı kalırken, mayozda kromozom sayısı ____ iner.",
+                  "options": [
+                    "yarıya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme üreme hücrelerinin oluşumunu sağladığı için kromozom sayısını yarıya düşürür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Krossing over olayı mayozun Profaz I aşamasında görülürken, mitozun profazında ____.",
+                  "options": [
+                    "görülmez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Krossing over sadece mayoz bölünmeye özgü bir çeşitlilik mekanizmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme zigot evresinden itibaren yaşam boyu sürerken, mayoz canlının ____ dönemi gerçekleşir.",
+                  "options": [
+                    "üreme olgunluğu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme eşeyli üremeyi sağlayan hücrelerin üretimi için ergenlik veya üreme olgunluğu döneminde başlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitozun anafaz evresinde kardeş kromatidler ayrılırken, mayozun Anafaz I evresinde homolog kromozomlar, Anafaz II'de ise ____ ayrılır.",
+                  "options": [
+                    "kardeş kromatidler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz II evresi mitoza benzer şekilde işler ve bu evrenin anafazında kardeş kromatidler zıt kutuplara çekilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme sonrasında oluşan hücrelerde DNA miktarı ana hücreyle aynı kalır, mayoz sonrasında ise DNA miktarı ____.",
+                  "options": [
+                    "yarıya iner"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme sonucunda n kromozomlu ve ana hücreye göre yarı DNA miktarına sahip hücreler oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme interfaz, mitoz evresi ve ____ basamaklarından oluşur.",
+                  "options": [
+                    "sitokinez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hücre döngüsü hazırlık evresi olan interfaz ile başlar, çekirdek bölünmesi ve sitoplazma bölünmesi (sitokinez) ile tamamlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mayoz bölünme ara sitokinezli ____ tam bölünmeden oluşur.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz I ve Mayoz II olmak üzere birbirini takip eden iki bölünme evresi vardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Krossing over olayı mayoz bölünmenin ____ evresinde gerçekleşir.",
+                  "options": [
+                    "Profaz I"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Homolog kromozomların kardeş olmayan kromatidleri arasındaki parça değişimi Profaz I evresinde gözlenir.",
+                  "type": "fillBlank"
+                }
+              ]
+            },
+            {
+              "title": "Boşluk Doldurma 2",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme sonucunda oluşan yeni hücrelerin kromozom sayısı ana hücreyle aynı kalırken, mayoz bölünmede kromozom sayısı ____.",
+                  "options": [
+                    "yarıya iner"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme temel olarak kromozom sayısının yarıya inmesini sağlayan bir bölünme çeşididir, mitozda ise korunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Krossing over olayı mayoz bölünmenin Profaz I evresinde gerçekleşirken, bu olay mitozun profazında ____.",
+                  "options": [
+                    "görülmez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Krossing over çeşitlilik sağlayan bir olaydır ve sadece mayozun Profaz I evresine özgüdür, mitozda görülmez.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme zigot evresinden başlayarak yaşam boyu devam ederken, mayoz bölünme canlının ____ döneminde gerçekleşir.",
+                  "options": [
+                    "üreme olgunluğu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Canlılarda mayoz bölünmenin başlayabilmesi için bireyin üreme olgunluğuna erişmiş olması gerekmektedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitozun anafaz evresinde kardeş kromatidler zıt kutuplara çekilirken, mayozun Anafaz I evresinde zıt kutuplara ____ ayrılır.",
+                  "options": [
+                    "homolog kromozomlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayozun birinci bölünmesinin anafaz evresinde homolog kromozomlar birbirinden ayrılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme genel olarak interfaz, mitoz evresi ve ____ basamaklarından meydana gelir.",
+                  "options": [
+                    "sitokinez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hücre döngüsü hazırlık evresi olan interfaz, çekirdek bölünmesi ve sitoplazma bölünmesi yani sitokinezden oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mayoz bölünme, aralarında ara sitokinez bulunan ____ tam bölünme evresinden oluşmaktadır.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz, Mayoz I ve Mayoz II olmak üzere arka arkaya gerçekleşen iki bölünme evresini kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Genetik çeşitliliğe katkı sağlayan krossing over olayı mayozun ____ evresinde gözlenir.",
+                  "options": [
+                    "Profaz I"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Homolog kromozomların kardeş olmayan kromatidleri arasındaki parça değişimi mayozun Profaz I aşamasında gerçekleşir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mayozun Anafaz II evresinde kardeş kromatidler ayrılırken, mitoz bölünmede kardeş kromatitlerin ayrıldığı evre ____ evresidir.",
+                  "options": [
+                    "anafaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitozda kardeş kromatitler anafaz evresinde birbirinden ayrılarak hücrenin zıt kutuplarına doğru gider.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tek bir hücrenin geçirdiği mitoz bölünme sonucunda toplam ____ yeni hücre meydana gelirken, mayoz sonucunda dört yeni hücre oluşur.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme tamamlandığında ana hücreden genetik olarak özdeş iki yeni yavru hücre üretilmiş olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mitoz bölünme ____ evresinden itibaren başlar ve canlının yaşamı boyunca devam eder.",
+                  "options": [
+                    "zigot"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme zigot evresinden başlayarak organizmanın yaşamı boyunca kesintisiz sürer.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme sonucunda ana hücreyle aynı kromozom sayısına sahip 2 yeni hücre oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme ile kalıtsal olarak özdeş ve ana hücre ile aynı kromozom sayısına sahip iki yeni hücre üretilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda ana hücreye göre kromozom sayısı yarıya inmiş 4 yeni hücre oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme, kromozom sayısının yarıya indiği dört yeni hücre oluşumuyla tamamlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Krossing over olayı mayozun Profaz I evresinde görülür ancak mitozun profazında asla görülmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genetik çeşitliliği sağlayan krossing over yalnızca mayoz bölünmenin Profaz I evresinde gerçekleşir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünme zigot evresinden itibaren yaşam boyu kesintisiz olarak devam eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Canlılarda büyüme, gelişme ve onarımı sağlayan mitoz bölünme yaşam boyu sürer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme canlının doğumundan itibaren tüm yaşam evrelerinde aktif olarak gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme yaşam boyu sürmez, sadece canlının üreme olgunluğu döneminde gerçekleşir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünmede anafaz evresinde homolog kromozomlar zıt kutuplara çekilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitozun anafaz evresinde homolog kromozomlar değil, kardeş kromatidler birbirinden ayrılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayozda Anafaz I evresinde homolog kromozomlar, Anafaz II evresinde ise kardeş kromatidler ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayozun birinci bölünmesinde homolog kromozomlar, ikinci bölünmesinde ise mitoza benzer şekilde kardeş kromatidler ayrılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünme geçiren hücrelerin sonundaki DNA miktarı ana hücrenin DNA miktarının yarısına düşer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme sonrasında oluşan hücrelerin DNA içeriği ana hücre ile tamamen aynı kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme ara sitokinezli iki tam bölünme basamağından meydana gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz, art arda gerçekleşen iki çekirdek ve sitoplazma bölünmesi ile aradaki sitokinez basamaklarını kapsar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme zigot oluşumundan hemen sonra başlayarak tüm organlarda mitoz gibi yaşam boyu sürer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme sadece üreme ana hücrelerinde ve üreme olgunluğu döneminde başlar, yaşam boyu her dokuda görülmez.",
+                  "type": "trueFalse"
+                }
+              ]
+            },
+            {
+              "title": "Doğru/Yanlış 2",
+              "questions": [
+                {
+                  "question": "Mitoz bölünme sonucunda oluşan yeni hücrelerin kromozom sayısı ana hücre ile aynı kalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme ile kalıtsal olarak ana hücreyle aynı özellikte iki yeni hücre oluşur ve kromozom sayısı değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda ana hücrenin kromozom sayısının iki katına çıkmış dört yeni hücre meydana gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme sonucunda kromozom sayısı yarıya inmiş dört yeni hücre oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Krossing over olayı mayoz bölünmenin Profaz I evresinde gerçekleşirken mitozun profazında görülmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Parça değişimi yani krossing over yalnızca mayoz I aşamasının Profaz I evresine özgü bir durumdur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünme sadece canlıların üreme olgunluğuna eriştiği dönemden sonra başlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme zigot evresinden itibaren yaşam boyu kesintisiz bir şekilde devam eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mayoz bölünme canlının hayatı boyunca her dönemde görülebilen bir üreme şeklidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mayoz bölünme yalnızca canlının üreme olgunluğu döneminde gerçekleşir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünmenin anafaz evresinde kardeş kromatidler zıt kutuplara doğru ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitozda sentromer bölünmesi ile kardeş kromatidler ayrılarak farklı kutuplara gider.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hücre döngüsü basamakları incelendiğinde mitoz interfaz, mitoz ve sitokinez aşamalarından oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz süreci genel hücre döngüsünde interfaz, nükleer bölünme yani mitoz ve sitokinez basamaklarını kapsar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünme sonucunda ana hücreden genetik olarak farklı dört yeni hücre meydana gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mitoz bölünme sonucunda ana hücreyle aynı kalıtsal özellikte 2 yeni hücre oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünmenin profaz evresinde çeşitliliği sağlayan krossing over olayı gözlenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Krossing over olayı sadece mayozun Profaz I evresinde görülür, mitozda görülmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mitoz bölünme zigot evresinden itibaren canlılarda yaşam boyu sürmektedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mitoz bölünme zigottan itibaren tüm yaşam boyunca devam eder.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Eşeyli Üreme",
+          "estimatedMinutes": 20,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Eşeyli üremeyi oluşturan iki temel olay nedir?",
+                  "answer": "Mayoz bölünme ve döllenme."
+                },
+                {
+                  "question": "Dişi ve erkek haploit gametlerin birleşmesine ne denir?",
+                  "answer": "Döllenme."
+                },
+                {
+                  "question": "Döllenme sonucu oluşan diploit hücrenin adı nedir?",
+                  "answer": "Zigot."
+                },
+                {
+                  "question": "Eşeyli üreme sırasında tür içi genetik çeşitliliğin oluşmasının temel nedeni nedir?",
+                  "answer": "Gametlerin şansa bağlı bir araya gelmesi."
+                },
+                {
+                  "question": "Prokaryot canlılarda mitoz, mayoz ve döllenme gerçekleşir mi?",
+                  "answer": "Gerçekleşmez."
+                },
+                {
+                  "question": "Bitkilerde neyin oluşumu eşeyli üremenin kanıtıdır?",
+                  "answer": "Tohum oluşumu."
+                },
+                {
+                  "question": "Eşeyli üreme canlıların hangi yeteneğini artırır?",
+                  "answer": "Adaptasyon yeteneğini."
+                },
+                {
+                  "question": "Hermafrodit canlılar kendi kendilerini döllemek yerine neden gametlerini farklı zamanlarda üretir?",
+                  "answer": "Başka bireylerle çiftleşip genetik çeşitliliği artırmak için."
+                },
+                {
+                  "question": "Eşeysiz üremenin temelini hangi bölünme çeşitleri oluşturur?",
+                  "answer": "Mitoz bölünme."
+                },
+                {
+                  "question": "Eşeysiz ve eşeyli üreme karşılaştırmasına göre çevreye uyum olasılığı hangisinde daha yüksektir?",
+                  "answer": "Eşeyli üremede."
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 2",
+              "cards": [
+                {
+                  "question": "Eşeyli üreme sırasında yeni yavru oluşumu hangi iki hücrenin birleşmesiyle gerçekleşir?",
+                  "answer": "İki haploit gametin döllenmesiyle"
+                },
+                {
+                  "question": "Dişi gamete ne ad verilir?",
+                  "answer": "Yumurta"
+                },
+                {
+                  "question": "Erkek gamete ne ad verilir?",
+                  "answer": "Sperm"
+                },
+                {
+                  "question": "Döllenme sonucunda oluşan diploit hücreye ne denir?",
+                  "answer": "Zigot"
+                },
+                {
+                  "question": "Yavruların hem anne hem babadan genetik malzeme taşımasının sebebi nedir?",
+                  "answer": "Eşeyli üreme"
+                },
+                {
+                  "question": "Şeftali, erik ve orkide gibi çiçekli bitkilerde tek bir çiçekte hangi organlar bir arada bulunabilir?",
+                  "answer": "Hem erkek hem dişi organ"
+                },
+                {
+                  "question": "Solucan, güve ve istiridye gibi hermafrodit canlılar gametlerini neden farklı zamanlarda üretir?",
+                  "answer": "Genetik çeşitliliği artırmak için"
+                },
+                {
+                  "question": "Eşeyli üremede genetik çeşitliliğin kaynağı olan olaylar nelerdir?",
+                  "answer": "Mayoz bölünme ve döllenme"
+                },
+                {
+                  "question": "Eşeysiz ve eşeyli üreme karşılaştırmasında ebeveyn sayısı açısından fark nedir?",
+                  "answer": "Eşeysizde tek atadan, eşeylide iki genetik ebeveynden oluşur"
+                },
+                {
+                  "question": "Eşeyli üreme tanımına göre yeni yavrunun oluşması hangi hücrelerin döllenmesiyle gerçekleşir?",
+                  "answer": "İki haploit gametin"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 3",
+              "cards": [
+                {
+                  "question": "Eşeyli üremenin temelini oluşturan iki ana biyolojik olay hangileridir?",
+                  "answer": "Mayoz bölünme ve döllenme"
+                },
+                {
+                  "question": "Dişi bireyler tarafından oluşturulan haploit üreme hücresine ne ad verilir?",
+                  "answer": "Yumurta"
+                },
+                {
+                  "question": "Erkek bireyler tarafından üretilen haploit üreme hücresinin adı nedir?",
+                  "answer": "Sperm"
+                },
+                {
+                  "question": "Döllenme olayı sonucunda oluşan diploit hücre hangisidir?",
+                  "answer": "Zigot"
+                },
+                {
+                  "question": "Çiçekli bitkilerde hangi yapının oluşması eşeyli üremenin kesin kanıtıdır?",
+                  "answer": "Tohum"
+                },
+                {
+                  "question": "Eşeysiz üremenin temelini hangi hücre bölünmesi çeşidi oluşturur?",
+                  "answer": "Mitoz"
+                },
+                {
+                  "question": "Eşeyli üremede ebeveyn sayısı eşeysiz üremeden farklı olarak kaç tanedir?",
+                  "answer": "İki"
+                },
+                {
+                  "question": "Farklı cinsiyetteki aynı tür iki canlının iki haploit gametinin döllenmesiyle yeni yavru oluşumunu sağlayan üreme şekli nedir?",
+                  "answer": "Eşeyli üreme"
+                },
+                {
+                  "question": "Eşeyli üremede görev alan haploit gametlerden dişi olana ne ad verilir?",
+                  "answer": "Yumurta"
+                },
+                {
+                  "question": "Eşeyli üremede gametlerin birleşmesiyle meydana gelen diploit hücre hangisidir?",
+                  "answer": "Zigot"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 4",
+              "cards": [
+                {
+                  "question": "Eşeyli üreme sırasında yavrular genetik malzemeyi nereden alır?",
+                  "answer": "Hem anne hem babadan"
+                },
+                {
+                  "question": "Eşeyli üremede görev alan dişi üreme hücresinin kromozom durumu nedir?",
+                  "answer": "Haploit"
+                },
+                {
+                  "question": "Zigot hücresinin kromozom takımı yapısı nedir?",
+                  "answer": "Diploit"
+                },
+                {
+                  "question": "Çiçekli bitkilerde hangi yapının meydana gelmesi eşeyli üremenin kanıtı olarak kabul edilir?",
+                  "answer": "Tohum"
+                },
+                {
+                  "question": "Eşeysiz üremede genetik çeşitlilik hangi durum haricinde görülmez?",
+                  "answer": "Mutasyon"
+                },
+                {
+                  "question": "Eşeyli üreme hangi cinsiyetteki ve hangi türdeki iki canlının gametleriyle gerçekleşir?",
+                  "answer": "Farklı cinsiyetteki aynı tür iki canlının"
+                },
+                {
+                  "question": "Eşeyli üreme sonucunda oluşan yavrular genetik malzemeyi kimlerden taşır?",
+                  "answer": "Hem anne hem babadan"
+                },
+                {
+                  "question": "Solucan, güve ve istiridye gibi canlılar hangi üreme tipi için örnek oluşturur?",
+                  "answer": "Hermafrodit canlılar"
+                },
+                {
+                  "question": "Eşeyli üreme canlıların hangi yeteneğini artırarak hayatta kalma şansını yükseltir?",
+                  "answer": "Adaptasyon yeteneğini"
+                },
+                {
+                  "question": "Eşeysiz üreme ile kıyaslandığında eşeyli üremede çevreye uyum olasılığı nasıldır?",
+                  "answer": "Yüksektir"
+                }
+              ]
+            },
+            {
+              "title": "Kart Seti 5",
+              "cards": [
+                {
+                  "question": "Eşeyli üreme hangi iki cinsiyetteki ve nasıl canlılar arasında gerçekleşir?",
+                  "answer": "Farklı cinsiyetteki aynı tür iki canlı"
+                },
+                {
+                  "question": "Eşeyli üremede görev alan dişi gametin adı nedir?",
+                  "answer": "Yumurta"
+                },
+                {
+                  "question": "Eşeyli üremede yavruların genetik çeşitlilik göstermesinin temel nedeni gametlerin nasıl bir araya gelmesidir?",
+                  "answer": "Şansa bağlı"
+                },
+                {
+                  "question": "Şeftali ve erik gibi çiçekli bitkilerde neyin oluşması eşeyli üremenin kanıtıdır?",
+                  "answer": "Tohum oluşumu"
+                },
+                {
+                  "question": "Hermafrodit canlılar gametlerini farklı zamanlarda üreterek hangi durumu engeller?",
+                  "answer": "Kendi kendini döllemek"
+                },
+                {
+                  "question": "Eşeysiz üremenin temeli hangi bölünme çeşidine dayanır?",
+                  "answer": "Mitoz"
+                },
+                {
+                  "question": "Eşeyli üremenin temelini oluşturan ve gametlerin oluşumunu sağlayan bölünme çeşidi hangisidir?",
+                  "answer": "Mayoz bölünme"
+                },
+                {
+                  "question": "Eşeyli üremede genetik çeşitliliğin oluşmasında gametlerin nasıl bir araya gelmesi etkilidir?",
+                  "answer": "Şansa bağlı"
+                },
+                {
+                  "question": "Eşeysiz ve eşeyli üreme karşılaştırmasına göre eşeysiz üremenin temeli hangi bölünmeye dayanır?",
+                  "answer": "Mitoz"
+                },
+                {
+                  "question": "Eşeyli üreme karşılaştırma tablosuna göre eşeysiz üremede döllenme olayı var mıdır?",
+                  "answer": "Yoktur"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi eşeyli üremenin temelini oluşturan olaylardan biridir?",
+                  "options": [
+                    "Mitoz bölünme ve regenerasyon",
+                    "Mayoz bölünme ve döllenme",
+                    "Budama ve çelikle üreme",
+                    "Klonlama ve tomurcuklanma"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeyli üreme sistemi temel olarak mayoz bölünme ve döllenme olaylarına dayanır. Bu süreçler genetik çeşitliliğin ortaya çıkmasını sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dişi gamete verilen ad aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sperm",
+                    "Zigot",
+                    "Yumurta",
+                    "Spor"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede dişi bireyler tarafından üretilen haploit gamete yumurta denir. Erkek gametin adı ise sperm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Döllenmiş yumurta hücresine ne ad verilir?",
+                  "options": [
+                    "Zigot",
+                    "Emriyo",
+                    "Gamete",
+                    "Sperm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haploit iki gametin birleşmesiyle (döllenme) oluşan diploit hücreye zigot denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki canlılardan hangisinde mitoz, mayoz ve döllenme kesinlikle gerçekleşmez?",
+                  "options": [
+                    "Solucan",
+                    "Bakteri",
+                    "Şeftali",
+                    "Güve"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Prokaryot olan bakterilerde mitoz, mayoz ve döllenme süreçleri gerçekleşmez. Bu canlılar genellikle ikiye bölünme ile ürer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bitkilerde neyin oluşumu eşeyli üremenin gerçekleştiğinin kesin kanıtıdır?",
+                  "options": [
+                    "Yumru",
+                    "Tohum",
+                    "Soğan",
+                    "Çelik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bitkilerde tohum oluşumu, çiçekli bitkilerdeki eşeyli üremenin en temel kanıtıdır. Tohum mayoz ve döllenme ürünlerini barındırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Yavrular sadece anneden genetik malzeme taşır.",
+                    "Genetik çeşitliliğe neden olmaz.",
+                    "Adaptasyon yeteneğini artırır.",
+                    "Temeli mitoz bölünmeye dayanır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üreme gametlerin şansa bağlı bir araya gelmesiyle genetik çeşitlilik sağlar ve bu durum değişen çevre koşullarına karşı adaptasyon yeteneğini artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hermafrodit canlılar ile ilgili aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Kendi kendilerini her zaman hızla dölleyerek çeşitliliği azaltırlar.",
+                    "Gametlerini farklı zamanlarda üreterek başka bireylerle çiftleşirler.",
+                    "Sadece prokaryot canlılarda görülen bir özelliktir.",
+                    "Temelinde sadece mitoz bölünme ve eşeysiz üreme yer alır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Solucan ve istiridye gibi hermafrodit canlılar gametlerini farklı zamanlarda üreterek başka bireylerle çiftleşir ve böylece genetik çeşitliliği artırırlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeysiz üreme ile eşeyli üreme karşılaştırıldığında aşağıdakilerden hangisi eşeyli üremeye ait bir özelliktir?",
+                  "options": [
+                    "Tek bir atadan yeni yavruların oluşması",
+                    "Çevreye uyum olasılığının düşük olması",
+                    "Genetik çeşitliliğin bulunması",
+                    "Döllenme olayının hiç gerçekleşmemesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede iki ebeveynin genetik malzemesi birleştiği için yavrular arasında genetik çeşitlilik bulunur. Eşeysizde ise mutasyon hariç çeşitlilik yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şeftali, erik ve orkide gibi çiçekli bitkilerde üreme organlarıyla ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Tek bir çiçekte hem erkek hem dişi organ bulunabilir.",
+                    "Sadece ayrı bitkilerde dişi ve erkek organlar yer alır.",
+                    "Bu bitkilerde döllenme olayı asla gerçekleşmez.",
+                    "Üreme süreçlerinin temeli sadece mitozdur."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çiçekli bitkilerde tek bir çiçekte hem erkek organ hem de dişi organ bir arada bulunabilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremede ebeveyn sayısı ve genetik yapı temeli ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Tek genetik ebeveyn vardır ve temeli mitozdur.",
+                    "İki genetik ebeveyn vardır ve temeli mayozdur.",
+                    "Döllenme süreci eşeyli üremede yer almaz.",
+                    "Yavrular sadece babanın kopyası şeklindedir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeyli üremede iki genetik ebeveyn bulunur ve bu üreme biçiminin temelini mayoz bölünme ile döllenme oluşturur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 2",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme sırasında oluşan gametlerin rastgele ve şansa bağlı bir araya gelmesi canlılarda hangi durumun ortaya çıkmasında en büyük etkendir?",
+                  "options": [
+                    "Tür içi genetik çeşitliliğin oluşmasında",
+                    "Sadece tek bir atanın genlerinin aktarılmasında",
+                    "Klon bireylerin sayısının artmasında",
+                    "Mayoz bölünmenin tamamen ortadan kalkmasında"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametler şansa bağlı bir araya geldiği için yavrular farklı özellikler kazanır ve bu durum tür içi genetik çeşitliliği sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki canlı gruplarından hangisinde eşeyli üremenin temel olayları olan mayoz ve döllenme kesinlikle görülmez?",
+                  "options": [
+                    "Prokaryotlar",
+                    "Çiçekli bitkiler",
+                    "Hermafrodit canlılar",
+                    "Omurgalı hayvanlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapsam notlarına göre prokaryot canlılarda mitoz, mayoz ve döllenme gerçekleşmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hermafrodit canlıların gametlerini farklı zamanlarda üretmelerinin temel biyolojik amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kendi kendini döllemek yerine başka bireylerle çiftleşip çeşitliliği artırmak",
+                    "Üreme hızını yavaşlatarak popülasyonu sabitlemek",
+                    "Mayoz bölünme geçirme yeteneğini tamamen kaybetmek",
+                    "Sadece dişi gamet üretimine odaklanmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hermafrodit canlılar gametlerini farklı zamanlarda üreterek kendi kendilerini döllemeyi engeller ve genetik çeşitliliği artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremenin canlılara sağladığı en önemli avantajlardan biri olan adaptasyon yeteneği ile ilgili ne söylenebilir?",
+                  "options": [
+                    "Eşeyli üreme adaptasyon yeteneğini artırır",
+                    "Eşeyli üreme çevresel uyum olasılığını sıfırlar",
+                    "Adaptasyon sadece eşeysiz üreyenlerde görülür",
+                    "Eşeyli üremede genetik çeşitlilik olmadığı için adaptasyon zayıftır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme sonucu oluşan genetik çeşitlilik, türlerin değişen çevre koşullarına karşı adaptasyon yeteneğini artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir bitki türünde tohum oluşumunun gözlenmesi o bitkide hangi üreme şeklinin kesin kanıtıdır?",
+                  "options": [
+                    "Eşeyli üreme",
+                    "Eşeysiz üreme",
+                    "Sadece mitoz temelli çoğalma",
+                    "Sporla üreme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bitkilerde tohum oluşumu, gamet birleşmesinin yani döllenmenin gerçekleştiğini gösterir ve bu eşeyli üremenin kanıtıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremenin temelini oluşturan iki ana evre aşağıdakilerden hangisinde doğru verilmiştir?",
+                  "options": [
+                    "Mayoz bölünme ve döllenme",
+                    "Mitoz bölünme ve mutasyon",
+                    "Sadece hücre büyümesi ve bölünmesi",
+                    "Rejenerasyon ve tomurcuklanma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayoz bölünme ile haploit gametler oluşur ve bu gametlerin döllenmesi eşeyli üremenin temelini oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeysiz üreme ile eşeyli üreme karşılaştırıldığında çevreye uyum olasılığı açısından hangi sonuç çıkarılır?",
+                  "options": [
+                    "Eşeyli üremede çevreye uyum olasılığı daha yüksektir",
+                    "Eşeysiz üremede genetik çeşitlilik fazla olduğu için uyum yüksektir",
+                    "İki üreme tipinde de çevreye uyum şansı eşittir",
+                    "Eşeyli üreme çevreye uyumu olumsuz etkiler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme genetik çeşitlilik sağladığı için çevreye uyum (adaptasyon) olasılığı eşeysiz üremeye göre daha yüksektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremede yeni bir bireyin oluşum süreci dikkate alındığında, yavruların genetik kökeni hakkında ne söylenebilir?",
+                  "options": [
+                    "Yavrular hem anne hem de babadan genetik malzeme taşır",
+                    "Yavrular sadece tek bir ebeveynin birebir kopyasıdır",
+                    "Genetik malzeme sadece babadan aktarılır",
+                    "Yavruların genleri ebeveynlerinden tamamen bağımsızdır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üremede iki haploit gametin birleşmesiyle oluşan yavrular, hem anneden hem de babadan genetik malzeme taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeysiz ve eşeyli üremenin temel alındığı bölünme çeşitleri sırasıyla hangi seçenekte doğru olarak verilmiştir?",
+                  "options": [
+                    "Mitoz ve Mayoz",
+                    "Mayoz ve Mitoz",
+                    "Sadece Mayoz ve Sadece Döllenme",
+                    "Mutasyon ve Rejenerasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeysiz üremenin temeli mitoza dayanırken, eşeyli üremenin temeli mayoz bölünmeye dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremede yeni bir yavrunun oluşumunu sağlayan temel süreçlerin doğru sıralaması hangi seçenekte verilmiştir?",
+                  "options": [
+                    "Mayoz bölünme - Döllenme",
+                    "Mitoz bölünme - Döllenme",
+                    "Mayoz bölünme - Mitoz",
+                    "Döllenme - Mayoz bölünme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme, haploit gametlerin mayozla oluşması ve bu gametlerin birleşmesiyle yani döllenmeyle yeni birey oluşturulmasına dayanır. Mayoz ve döllenme bu sistemin temelidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 3",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme sırasında iki haploit gametin birleşmesiyle oluşan diploit hücreye ne ad verilir?",
+                  "options": [
+                    "Zigot",
+                    "Sperm",
+                    "Yumurta",
+                    "Gametsiz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erkek ve dişi gametlerin döllenmesi sonucu oluşan diploit hücreye zigot denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi eşeyli üremenin temelini oluşturan olaylar arasında yer alır?",
+                  "options": [
+                    "Yalnızca mitoz bölünmeler",
+                    "Mayoz bölünme ve döllenme",
+                    "Tek ata bireyin bölünmesi",
+                    "Sadece spor oluşumu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeyli üreme temel olarak mayoz bölünme ve döllenme olaylarına dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Erkek üreme organı tarafından üretilen haploit üreme hücresine ne ad verilir?",
+                  "options": [
+                    "Yumurta",
+                    "Zigot",
+                    "Sperm",
+                    "Tohum"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Erkek gamete sperm adı verilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremenin canlı popülasyonlarında sağladığı en önemli avantajlardan biri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Adaptasyon yeteneğini artırması",
+                    "Genetik çeşitliliği azaltması",
+                    "Yalnızca tek bir ebeveyne bağlı olması",
+                    "Çevreye uyum olasılığını düşürmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme tür içi genetik çeşitliliği artırarak organizmaların adaptasyon yeteneğini güçlendirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki canlı türlerinden hangisinde mitoz, mayoz ve döllenme olaylarının hiçbiri gerçekleşmez?",
+                  "options": [
+                    "Şeftali",
+                    "Solucan",
+                    "Prokaryotlar",
+                    "Güve"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Prokaryot canlılarda mitoz, mayoz ve döllenme görülmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çiçekli bitkilerde hangi yapının oluşumu, o bitkide eşeyli üremenin gerçekleştiğinin kesin bir kanıtıdır?",
+                  "options": [
+                    "Tohum",
+                    "Yaprak",
+                    "Kök",
+                    "Gövde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bitkilerde tohum oluşumu eşeyli üremenin en net kanıtıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme sonucunda dünyaya gelen yavruların genetik malzemesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sadece babadan taşınır",
+                    "Sadece anneden taşınır",
+                    "Hem anne hem babadan genetik malzeme taşır",
+                    "Tamamen tek bir ata ile aynıdır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üreme yavruları hem anneden hem de babadan gelen genetik malzemeyi taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme ile eşeysiz üreme arasındaki farklar düşünüldüğünde, ebeveyn sayısı bakımından doğru ifade hangisidir?",
+                  "options": [
+                    "Eşeyli üremede tek ata vardır",
+                    "Eşeysiz üremede iki ebeveyn bulunur",
+                    "Eşeyli üremede iki genetik ebeveyn bulunur",
+                    "Eşeysiz üremede döllenme görülür"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede iki genetik ebeveyn yer alırken, eşeysiz üremede tek ata bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme sürecinde gametlerin şansa bağlı bir araya gelmesi popülasyonda hangi sonucun ortaya çıkmasını sağlar?",
+                  "options": [
+                    "Tür içi genetik çeşitliliğin oluşması",
+                    "Klon bireylerin sayısının artması",
+                    "Tek bir atadan kalıtım aktarılması",
+                    "Mayoz bölünmenin engellenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametler şansa bağlı bir araya geldiği için tür içi genetik çeşitlilik meydana gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme ile çoğalan canlıların yavruları genetik materyali nereden alır?",
+                  "options": [
+                    "Sadece dişi ebeveynden",
+                    "Sadece erkek ebeveynden",
+                    "Hem anne hem babadan",
+                    "Çevredeki başka türlerden"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yavrular hem anne hem de babadan genetik malzeme taşır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 4",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme sırasında iki farklı haploit gametin birleşmesi olayı hangi biyolojik süreci ifade eder?",
+                  "options": [
+                    "Döllenme",
+                    "Mitoz bölünme",
+                    "Mutasyon",
+                    "Mayoz bölünme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üremede farklı cinsiyetteki iki haploit gametin birleşmesi döllenme olarak adlandırılır ve diploit zigotu oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi eşeyli üremenin canlı popülasyonuna sağladığı temel avantajlardan biridir?",
+                  "options": [
+                    "Sabit kalıtsal özelliklerin korunması",
+                    "Adaptasyon yeteneğinin artması",
+                    "Tek bir atadan hızlı çoğalma",
+                    "Metabolik hızın maksimuma çıkması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeyli üreme genetik çeşitlilik sağladığı için popülasyonun değişen çevre koşullarına karşı adaptasyon yeteneğini artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremenin temelini oluşturan iki temel hücresel olay hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Mitoz ve bölünme",
+                    "Mayoz ve döllenme",
+                    "Mutasyon ve adaptasyon",
+                    "Replikasyon ve transkripsiyon"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeyli üremenin temelini mayoz bölünme ile gamet oluşumu ve bu gametlerin döllenmesi oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreyen canlılarda yeni bireylerin genetik yapısı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sadece anneden genetik malzeme taşır",
+                    "Sadece babadan genetik malzeme taşır",
+                    "Hem anne hem de babadan genetik malzeme taşır",
+                    "Tek atanın birebir aynısıdır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede yavru birey, dişi ve erkek gametlerin birleşmesi sonucu oluştuğu için hem anneden hem de babadan genetik malzeme taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki canlılardan hangisinde eşeyli üremenin temel mekanizmaları olan mayoz ve döllenme kesinlikle gözlenmez?",
+                  "options": [
+                    "Bakteri",
+                    "Şeftali",
+                    "Güve",
+                    "İstiridye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bakteriler prokaryot canlılardır ve prokaryotlarda mitoz, mayoz ve döllenme gerçekleşmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeysiz üreme ile eşeyli üreme karşılaştırıldığında ebeveyn sayısı açısından hangi ifade doğrudur?",
+                  "options": [
+                    "Eşeysizde iki, eşeylide tek ebeveyn vardır",
+                    "Her iki üreme şeklinin de ebeveyn sayısı aynıdır",
+                    "Eşeysizde tek atadan, eşeylide iki genetik ebeveynden oluşur",
+                    "Eşeylide ebeveyn katılımı bulunmaz"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeysiz üreme tek bir atadan gerçekleşirken, eşeyli üreme iki genetik ebeveynin katkısıyla gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme sırasında genetik çeşitliliğin ortaya çıkmasında en büyük etkenlerden biri nedir?",
+                  "options": [
+                    "Gametlerin şansa ve rastgele bir araya gelmesi",
+                    "Mitoz bölünmelerin hızlı gerçekleşmesi",
+                    "Tek bir ebeveynin genlerinin kopyalanması",
+                    "Çevre koşullarının sabit kalması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametlerin şansa ve rastgele bir araya gelmesi, tür içi genetik çeşitliliğin oluşmasında büyük rol oynar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme yapan bir canlı türünde, iki haploit gametin rastgele birleşmesi sonucunda oluşan diploit hücre için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Sadece anneden gelen genetik malzemeyi taşır",
+                    "Hem anne hem de babadan genetik malzeme taşır",
+                    "Sadece babadan gelen genetik malzemeyi taşır",
+                    "Ebeveynleri ile tamamen aynı genetik yapıya sahiptir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Döllenmiş yumurta olan zigot, iki farklı ebeveynin haploit gametlerinin birleşmesiyle oluşur ve her iki ebeveynden de genetik malzeme taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme sırasında gametlerin şansa bağlı bir araya gelmesi popülasyonda hangi temel durumun ortaya çıkmasına doğrudan zemin hazırlar?",
+                  "options": [
+                    "Klon bireylerin oluşması",
+                    "Tür içi genetik çeşitlilik",
+                    "Mitoz bölünme hızının artması",
+                    "Çevresel uyum yeteneğinin tamamen yok olması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gametlerin şansa bağlı bir araya gelmesi, yavruların farklı gen kombinasyonlarına sahip olmasını sağlayarak tür içi genetik çeşitliliği artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bitkilerde gözlenen hangi olay, o canlıda eşeyli üremenin gerçekleştiğinin kesin kanıtı olarak kabul edilir?",
+                  "options": [
+                    "Vejetatif üreme ile yeni dal oluşumu",
+                    "Tohum oluşumu",
+                    "Yaprak dökümü",
+                    "Kök gelişimi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bitkilerde tohum oluşumu, çiçekli bitkilerde mayoz ve döllenme süreçlerinin gerçekleştiğini gösterdiği için eşeyli üremenin kesin kanıtıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            },
+            {
+              "title": "Test 5",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme yapan bir canlıda, farklı cinsiyetteki bireylerden gelen gametlerin şansa bağlı bir araya gelmesi popülasyona ne kazandırır?",
+                  "options": [
+                    "Tür içi genetik çeşitlilik",
+                    "Mutasyon oranında artış",
+                    "Hücre sayısında hızlı artış",
+                    "Klon bireylerin oluşumu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametler şansa bağlı bir araya geldiği için tür içi genetik çeşitlilik oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme ile çoğalan bir organizmanın yavrularının genetik materyali ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Yalnızca anneden aktarılır.",
+                    "Yalnızca babadan aktarılır.",
+                    "Hem anne hem babadan taşınır.",
+                    "Sadece mutasyonlarla oluşur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yavrular hem anne hem babadan genetik malzeme taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme ile eşeysiz üreme ebeveyn sayısı bakımından karşılaştırıldığında aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Eşeysizde tek ata, eşeylide iki genetik ebeveyn vardır.",
+                    "İkisinde de tek ebeveyn bulunur.",
+                    "Eşeylide ebeveyn bulunmaz.",
+                    "Eşeysizde iki genetik ebeveyn vardır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeysizde tek atadan, eşeylide iki genetik ebeveynden oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme sürecinde dişi birey tarafından üretilen haploit üreme hücresine ne ad verilir?",
+                  "options": [
+                    "Sperm",
+                    "Zigot",
+                    "Yumurta",
+                    "Spor"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dişi gamete yumurta denir ve bu hücre haploit yapıdadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi eşeyli üremeyi eşeysiz üremeden ayıran özelliklerden biridir?",
+                  "options": [
+                    "Temelinin mitoz bölünmeye dayanması",
+                    "Tek bir atadan yavru birey oluşması",
+                    "Döllenme olayının gerçekleşmesi",
+                    "Yavruların genetik olarak tamamen aynı olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede iki haploit gametin birleşmesi yani döllenme gerçekleşir, eşeysiz üremede ise döllenme yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme yapan canlılarda yavruların genetik materyali ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sadece anneden aktarılır.",
+                    "Sadece babadan aktarılır.",
+                    "Hem anne hem babadan genetik malzeme taşır.",
+                    "Ata canlı ile tamamen aynı genetik şifreye sahiptir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşeyli üremede yavrular hem anne hem de babadan genetik malzeme taşır ve bu durum çeşitliliğe yol açar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üreme gerçekleştiren canlı popülasyonlarında çevreye uyum yeteneğinin yüksek olmasının temel sebebi nedir?",
+                  "options": [
+                    "Genetik çeşitliliğin yüksek olması",
+                    "Tüm bireylerin kalıtsal olarak aynı olması",
+                    "Sadece mitoz bölünmelerle çoğalmaları",
+                    "Döllenme olayının hiç gerçekleşmemesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametlerin şansa bağlı birleşmesi ve mayoz bölünme genetik çeşitliliği artırarak popülasyonun adaptasyon yeteneğini yükseltir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremenin temel olayları olan mayoz bölünme ve döllenme ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Prokaryot canlılarda da düzenli olarak görülür.",
+                    "Sadece eşeysiz üremenin temelini oluşturur.",
+                    "Eşeyli üreme sisteminin temelini oluşturur.",
+                    "Yavruların ata canlı ile aynı kalıtsal özellikte olmasını sağlar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayoz bölünme ve döllenme eşeyli üreme sisteminin temel mekanizmalarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeysiz üreme ile eşeyli üremenin bölünme temeli hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Eşeysiz: Mayoz - Eşeyli: Mitoz",
+                    "Eşeysiz: Mitoz - Eşeyli: Mayoz",
+                    "Her ikisi de sadece mayozla gerçekleşir.",
+                    "Her ikisi de sadece mitozla gerçekleşir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeysiz üremenin temeli mitoza dayanırken, eşeyli üreme mayoz bölünme temeline dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşeyli üremede iki haploit gametin şansa bağlı olarak bir araya gelmesi sonucunda oluşan ilk diploit hücreye ne denir?",
+                  "options": [
+                    "Yumurta",
+                    "Sperm",
+                    "Spor",
+                    "Zigot"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Döllenme sonucunda oluşan iki n (diploit) kromozomlu ilk hücreye zigot adı verilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Farklı cinsiyetteki aynı tür iki canlının iki haploit gametinin döllenmesiyle yeni yavru oluşumuna ____ denir.",
+                  "options": [
+                    "eşeyli üreme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tanım eşeyli üremenin temelini açıklar ve mayoz ile döllenme süreçlerine dayanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mayoz bölünme sonucunda oluşan dişi gamete ____ adı verilir.",
+                  "options": [
+                    "yumurta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dişi bireyler tarafından üretilen üreme hücrelerine yumurta denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üremede erkek bireyler tarafından oluşturulan üreme hücresine ____ denir.",
+                  "options": [
+                    "sperm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erkek gametler sperm olarak adlandırılır ve yumurtayı döllemekle görevlidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yumurta ve sperm hücrelerinin birleşmesiyle (döllenme) oluşan diploit hücreye ____ denir.",
+                  "options": [
+                    "zigot"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Döllenme sonucu meydana gelen ilk diploit hücre zigot adını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Prokaryot canlılarda mitoz, döllenme ve ____ bölünme kesinlikle gerçekleşmez.",
+                  "options": [
+                    "mayoz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Prokaryotlarda çekirdek ve zar organeller olmadığı için mayoz, mitoz ve döllenme görülmez.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bitkilerde ____ oluşumu, eşeyli üremenin en somut kanıtlarından biridir.",
+                  "options": [
+                    "tohum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tohumlu bitkilerde tohumun oluşması döllenme olayını yani eşeyli üremeyi kanıtlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üreme popülasyonlarda tür içi ____ çeşitliliğin artmasını sağlar.",
+                  "options": [
+                    "genetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametin şansa bağlı birleşmesi ve mayoz sırasındaki olaylar genetik çeşitliliğe yol açar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üreme süreci, değişen çevre koşullarına karşı canlıların ____ yeteneğini artırır.",
+                  "options": [
+                    "adaptasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genetik çeşitlilik sayesinde türlerin çevreye uyum sağlama potansiyeli (adaptasyon yeteneği) yükselir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hem erkek hem de dişi üreme organını aynı bünyesinde bulunduran solucan, güve ve istiridye gibi canlılara ____ canlılar denir.",
+                  "options": [
+                    "hermafrodit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hermafrodit canlılar hem dişi hem erkek gamet üretebilir ancak çeşitlilik için genellikle farklı bireylerle çiftleşirler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeysiz üremenin temelini mitoz bölünme oluştururken, eşeyli üremenin temelini ____ bölünme oluşturur.",
+                  "options": [
+                    "mayoz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üremede haploit gametlerin oluşması için mayoz bölünme şarttır.",
+                  "type": "fillBlank"
+                }
+              ]
+            },
+            {
+              "title": "Boşluk Doldurma 2",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme sırasında iki haploit gametin birleşmesi olayına ____ adı verilir.",
+                  "options": [
+                    "döllenme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haploit iki gametin birleşerek diploit zigotu oluşturması sürecine döllenme denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Döllenme olayı sonucunda oluşan ve diploit kromozom sayısına sahip olan ilk hücreye ____ denir.",
+                  "options": [
+                    "zigot"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yumurta ve spermin birleşmesiyle meydana gelen ilk diploit hücre zigot adını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gametler şansa bağlı olarak bir araya geldiği için eşeyli üreme tür içi ____ çeşitliliğe neden olur.",
+                  "options": [
+                    "genetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı gametlerin rastgele birleşmesi popülasyonda genetik çeşitliliğin artmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Şeftali, erik ve orkide gibi çiçekli bitkilerde ____ oluşumu eşeyli üremenin kanıtıdır.",
+                  "options": [
+                    "tohum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çiçekli bitkilerde tohumun meydana gelmesi, eşeyli üremenin gerçekleştiğini gösteren en net kanıttır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kendi kendini döllemek yerine başka bireylerle çiftleşen hermafrodit canlılar gametlerini farklı ____ üretir.",
+                  "options": [
+                    "zamanlarda"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hermafrodit canlılar hem erkek hem dişi gameti üretir ancak bunları farklı zamanlarda oluşturarak çeşitliliği artırır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üremenin temelini mayoz bölünme ve ____ olayı oluşturur.",
+                  "options": [
+                    "döllenme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme sisteminin temelini mayoz bölünme ile gamet oluşumu ve bu gametlerin döllenmesi oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeysiz üreme tek bir atadan oluşurken, eşeyli üreme iki genetik ____ ile gerçekleşir.",
+                  "options": [
+                    "ebeveynden"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme iki farklı ebeveynin genetik malzemesinin bir araya gelmesiyle meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeysiz üremenin temelini mitoz oluştururken, çevreye uyum olasılığı eşeyli üremede ____ bulunur.",
+                  "options": [
+                    "yüksek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genetik çeşitlilik sağlandığı için eşeyli üreme yapan canlıların çevreye uyum şansı daha yüksektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üreme sürecinde temel olan ve gamet oluşumunu sağlayan bölünme çeşidine ____ denir.",
+                  "options": [
+                    "mayoz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üremenin temelini mayoz bölünme ve döllenme oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşeyli üreme sırasında gametlerin şansa bağlı bir araya gelmesi popülasyonda ____ çeşitliliğe yol açar.",
+                  "options": [
+                    "genetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametler şansa bağlı birleştiği için yavrular anne ve babadan farklı genetik kombinasyonlar taşır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Eşeyli üreme, farklı cinsiyetteki aynı tür iki canlının iki haploit gametinin döllenmesiyle yeni bir yavru oluşması sürecidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade eşeyli üremenin temel tanımını tam olarak karşılamaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dişi gamete sperm, erkek gamete ise yumurta adı verilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bilgi yanlıştır; dişi gamet yumurta, erkek gamet ise sperm olarak adlandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Döllenme sonucu oluşan diploit hücreye zigot denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sperm ve yumurtanın birleşmesiyle oluşan ilk diploit hücre zigottur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gametler şansa bağlı bir araya geldiği için tür içi genetik çeşitlilik oluşur ve yavrular hem anne hem babadan genetik malzeme taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu durum eşeyli üremenin genetik çeşitlilik sağlama özelliğini açıklar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Prokaryot canlılarda da mayoz bölünme ve döllenme olayları gerçekleşebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Prokaryotlarda mitoz, mayoz ve döllenme kesinlikle gerçekleşmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bitkilerde tohum oluşumu, eşeyli üremenin gerçekleştiğinin kesin bir kanıtıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çiçekli bitkilerde tohum oluşumu gametlerin birleşmesi yani eşeyli üreme ile olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeyli üreme, değişen çevre koşullarına karşı türün adaptasyon yeteneğini artırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genetik çeşitlilik sağladığı için eşeyli üreme adaptasyon yeteneğini olumlu yönde etkiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hermafrodit canlılar kendi kendilerini dölleyerek genetik çeşitliliği maksimum seviyeye çıkarırlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hermafrodit canlılar gametlerini farklı zamanlarda üreterek başka bireylerle çiftleşir ve çeşitliliği artırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeyli üremenin temelini mayoz bölünme ve döllenme olayları oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üreme sisteminin temeli gamet oluşumunu sağlayan mayoz ve birleşmeyi sağlayan döllenmedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeysiz üreme çeşitlerinde genetik çeşitlilik, mutasyonlar hariç, eşeyli üremeye göre çok daha fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeysiz üremede genetik çeşitlilik yoktur veya çok düşüktür; çeşitlilik eşeyli üremede fazladır.",
+                  "type": "trueFalse"
+                }
+              ]
+            },
+            {
+              "title": "Doğru/Yanlış 2",
+              "questions": [
+                {
+                  "question": "Şeftali, erik ve orkide gibi çiçekli bitkilerde tek bir çiçek içerisinde hem erkek organ hem de dişi organ bir arada bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu bitkilerin çiçek yapısı incelendiğinde, aynı çiçekte her iki üreme organının da yer alabildiği görülmektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Solucan, güve ve istiridye gibi hermafrodit canlılar gametlerini aynı anda üretirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hermafrodit canlılar gametlerini farklı zamanlarda üretirler; bu durum kendi kendilerini döllemelerini engeller.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeyli üreme yapan canlıların yavrularında genetik çeşitliliğin oluşmasında gametlerin şansa bağlı bir araya gelmesi etkilidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gametler rastgele birleştiği için yavrular anne ve babadan farklı gen kombinasyonları alarak çeşitlilik oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Prokaryot canlılarda mitoz, mayoz bölünme ve döllenme olaylarının tamamı düzenli olarak gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Prokaryot canlılarda çekirdek ve zar yapıları olmadığı için mitoz, mayoz ve döllenme olayları gerçekleşmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeyli üreme, değişen çevre koşullarına karşı popülasyonun adaptasyon yeteneğini artıran önemli bir faktördür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genetik çeşitlilik sağladığı için eşeyli üreme, çevreye uyum yeteneğinin artmasına doğrudan katkı sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hermafrodit canlılar başka bireylerle çiftleşerek genetik çeşitliliği artırma avantajına sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı zamanlarda gamet üreterek başka bireylerle birleşirler ve kendi kendilerini döllemekten kaçınırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeysiz üremede yavrular tek bir atadan meydana gelirken, eşeyli üremede iki genetik ebeveyn bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeysiz üreme tek ata üzerinden gerçekleşir ve kalıtsal olarak birebir kopya yavrular oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeysiz üreme yapan canlıların değişen çevre koşullarına uyum olasılığı eşeyli üreyenlere göre çok daha yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşeysiz üremede genetik çeşitlilik (mutasyonlar hariç) olmadığı için çevreye uyum olasılığı eşeyli üremeye göre düşüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşeyli üreme sırasında birleşen iki gamet de haploit kromozom yapısına sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşeyli üremede dişi ve erkek haploit gametlerin döllenmesiyle diploid zigot oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bitkilerde tohum oluşumu eşeyli üremenin kanıtları arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tohumlu bitkilerde tohum oluşumu eşeyli üremenin kesin bir kanıtıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
