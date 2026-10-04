@@ -1753,44 +1753,44 @@
               "title": "Kart Seti 1",
               "cards": [
                 {
-                  "question": "YaÄŸda Ã§Ã¶zÃ¼nen vitaminler hangileridir?",
+                  "question": "Yağda çözünen vitaminler hangileridir?",
                   "answer": "A, D, E ve K vitaminleridir."
                 },
                 {
-                  "question": "Suda Ã§Ã¶zÃ¼nen vitaminler hangileridir?",
+                  "question": "Suda çözünen vitaminler hangileridir?",
                   "answer": "B grubu ve C vitaminleridir."
                 },
                 {
-                  "question": "YaÄŸda Ã§Ã¶zÃ¼nen vitaminlerin fazlasÄ± nerede depolanÄ±r?",
-                  "answer": "KaraciÄŸerde ve yaÄŸ dokuda depolanÄ±r."
+                  "question": "Yağda çözünen vitaminlerin fazlası nerede depolanır?",
+                  "answer": "Karaciğerde ve yağ dokuda depolanır."
                 },
                 {
-                  "question": "Suda Ã§Ã¶zÃ¼nen vitaminlerin fazlasÄ± vÃ¼cuttan nasÄ±l uzaklaÅŸtÄ±rÄ±lÄ±r?",
-                  "answer": "Ä°drarla vÃ¼cuttan atÄ±lÄ±r."
+                  "question": "Suda çözünen vitaminlerin fazlası vücuttan nasıl uzaklaştırılır?",
+                  "answer": "İdrarla vücuttan atılır."
                 },
                 {
-                  "question": "EksikliÄŸi en Ã§abuk fark edilen vitamin grubu hangisidir?",
-                  "answer": "Suda Ã§Ã¶zÃ¼nen vitaminlerdir."
+                  "question": "Eksikliği en çabuk fark edilen vitamin grubu hangisidir?",
+                  "answer": "Suda çözünen vitaminlerdir."
                 },
                 {
-                  "question": "Hangi vitamin eksikliÄŸinde gece kÃ¶rlÃ¼ÄŸÃ¼ gÃ¶rÃ¼lÃ¼r?",
-                  "answer": "A vitamini eksikliÄŸinde."
+                  "question": "Hangi vitamin eksikliğinde gece körlüğü görülür?",
+                  "answer": "A vitamini eksikliğinde."
                 },
                 {
-                  "question": "Kalsiyum ve fosfor emilimini saÄŸlayarak kemik geliÅŸiminde rol oynayan vitamin hangisidir?",
+                  "question": "Kalsiyum ve fosfor emilimini sağlayarak kemik gelişiminde rol oynayan vitamin hangisidir?",
                   "answer": "D vitaminidir."
                 },
                 {
-                  "question": "EksikliÄŸinde yaralarÄ±n geÃ§ iyileÅŸmesi ve skorbÃ¼t hastalÄ±ÄŸÄ± gÃ¶rÃ¼len vitamin hangisidir?",
+                  "question": "Eksikliğinde yaraların geç iyileşmesi ve skorbüt hastalığı görülen vitamin hangisidir?",
                   "answer": "C vitaminidir."
                 },
                 {
-                  "question": "KanÄ±n pÄ±htÄ±laÅŸmasÄ±nda gÃ¶rev alan yaÄŸda Ã§Ã¶zÃ¼nen vitamin hangisidir?",
+                  "question": "Kanın pıhtılaşmasında görev alan yağda çözünen vitamin hangisidir?",
                   "answer": "K vitaminidir."
                 },
                 {
-                  "question": "Vitaminlerin hÃ¼credeki temel gÃ¶revi enerji verici olarak kullanÄ±lmak mÄ±dÄ±r?",
-                  "answer": "HayÄ±r, dÃ¼zenleyici ve koenzim olarak gÃ¶rev yaparlar."
+                  "question": "Vitaminlerin hücredeki temel görevi enerji verici olarak kullanılmak mıdır?",
+                  "answer": "Hayır, düzenleyici ve koenzim olarak görev yaparlar."
                 }
               ]
             }
@@ -2419,8 +2419,8 @@
                   "answer": "1865"
                 },
                 {
-                  "question": "Canlilarin olustugu en temel yapi ve gorev birimi nedir?",
-                  "answer": "Hucre"
+                  "question": "Canlıların oluştuğu en temel yapı ve görev birimi nedir?",
+                  "answer": "Hücre"
                 }
               ]
             },
@@ -2428,40 +2428,40 @@
               "title": "Kart Seti 3",
               "cards": [
                 {
-                  "question": "Yeni hucrelerin olusmasini saglayan temel olay nedir?",
-                  "answer": "Bolunme"
+                  "question": "Yeni hücrelerin oluşmasını sağlayan temel olay nedir?",
+                  "answer": "Bölünme"
                 },
                 {
-                  "question": "Hucreler genetik materyali yavru hucrelere hangi mekanizma ile aktarir?",
-                  "answer": "Bolunme"
+                  "question": "Hücreler genetik materyali yavru hücrelere hangi mekanizma ile aktarır?",
+                  "answer": "Bölünme"
                 },
                 {
-                  "question": "Canlilarda gerceklesen tum metabolik olaylar nerede yer alir?",
-                  "answer": "Hucre ici"
+                  "question": "Canlılarda gerçekleşen tüm metabolik olaylar nerede yer alır?",
+                  "answer": "Hücre içi"
                 },
                 {
-                  "question": "Bitki hucrelerini inceleyip cekirdegin bolunmedeki rolunu aciklayan bilim insani kimdir?",
+                  "question": "Bitki hücrelerini inceleyip çekirdeğin bölünmedeki rolünü açıklayan bilim insanı kimdir?",
                   "answer": "Matthias Schleiden"
                 },
                 {
-                  "question": "Hayvan hucrelerini inceleyerek hucrenin canlilarin yapi birimi oldugunu gosteren bilim insani kimdir?",
+                  "question": "Hayvan hücrelerini inceleyerek hücrenin canlıların yapı birimi olduğunu gösteren bilim insanı kimdir?",
                   "answer": "Theodor Schwann"
                 },
                 {
-                  "question": "Hucrelerin daha once var olan hucrelerin bolunmesiyle olustugunu ifade eden bilim insani kimdir?",
+                  "question": "Hücrelerin daha önce var olan hücrelerin bölünmesiyle oluştuğunu ifade eden bilim insanı kimdir?",
                   "answer": "Rudolf Virchow"
                 },
                 {
-                  "question": "Leeuwenhoek tarafindan gelistirilen mikroskop hangi yil civarindadir?",
+                  "question": "Leeuwenhoek tarafından geliştirilen mikroskop hangi yıl civarındadır?",
                   "answer": "1600"
                 },
                 {
-                  "question": "Ingiliz mikroskobu hangi yil gelistirilmistir?",
+                  "question": "İngiliz mikroskobu hangi yıl geliştirilmiştir?",
                   "answer": "1865"
                 },
                 {
-                  "question": "Mikroskobun icat edilmesi hangi alanlarin dogmasina zemin hazirlamistir?",
-                  "answer": "Yeni bilim dallari"
+                  "question": "Mikroskobun icat edilmesi hangi alanların doğmasına zemin hazırlamıştır?",
+                  "answer": "Yeni bilim dalları"
                 },
                 {
                   "question": "Canlıların oluşumunda rol oynayan temel yapı ve görev birimini ifade eden kavram nedir?",
@@ -2522,39 +2522,39 @@
                   "answer": "1865"
                 },
                 {
-                  "question": "Canlilar kac hucreli olabilir?",
-                  "answer": "Bir veya cok"
+                  "question": "Canlılar kaç hücreli olabilir?",
+                  "answer": "Bir veya çok"
                 },
                 {
-                  "question": "Yeni hucrelerin olusumunu saglayan temel mekanizma nedir?",
-                  "answer": "Hucresel bolunme"
+                  "question": "Yeni hücrelerin oluşumunu sağlayan temel mekanizma nedir?",
+                  "answer": "Hücresel bölünme"
                 },
                 {
-                  "question": "Genetik materyal yavru hucrelere nasil aktarilir?",
-                  "answer": "Bolunme yoluyla"
+                  "question": "Genetik materyal yavru hücrelere nasıl aktarılır?",
+                  "answer": "Bölünme yoluyla"
                 },
                 {
-                  "question": "Canlilardaki tum metabolik olaylar nerede gerceklesir?",
-                  "answer": "Hucre icinde"
+                  "question": "Canlılardaki tüm metabolik olaylar nerede gerçekleşir?",
+                  "answer": "Hücre içinde"
                 },
                 {
-                  "question": "Matthias Schleiden hangi hucre turunu incelemistir?",
-                  "answer": "Bitki hucrelerini"
+                  "question": "Matthias Schleiden hangi hücre türünü incelemiştir?",
+                  "answer": "Bitki hücrelerini"
                 },
                 {
-                  "question": "Theodor Schwann hangi hucre turunu incelemistir?",
-                  "answer": "Hayvan hucrelerini"
+                  "question": "Theodor Schwann hangi hücre türünü incelemiştir?",
+                  "answer": "Hayvan hücrelerini"
                 },
                 {
-                  "question": "Leeuwenhoek'un mikroskobu hangi yil civarinda gelistirilmistir?",
+                  "question": "Leeuwenhoek'un mikroskobu hangi yıl civarında geliştirilmiştir?",
                   "answer": "1600"
                 },
                 {
-                  "question": "Elde tasinir mikroskop hangi yil civarinda ortaya cikmistir?",
+                  "question": "Elde taşınır mikroskop hangi yıl civarında ortaya çıkmıştır?",
                   "answer": "1700"
                 },
                 {
-                  "question": "Diseksiyon mikroskobu hangi yil gelistirilmistir?",
+                  "question": "Diseksiyon mikroskobu hangi yıl geliştirilmiştir?",
                   "answer": "1927"
                 }
               ]
@@ -5459,7 +5459,7 @@
                     "Lipitler, nükleik asitler ve vitaminler"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Hücre zari temel olarak protein, lipit ve karbonhidrat moleküllerinden meydana gelir.",
+                  "explanation": "Hücre zarı temel olarak protein, lipit ve karbonhidrat moleküllerinden meydana gelir.",
                   "type": "multipleChoice"
                 }
               ]
@@ -10055,8 +10055,8 @@
                   "answer": "Turgor hali"
                 },
                 {
-                  "question": "Net su hareketinin gozlenmedigi, cozelti derisimi ile hucre sitoplazmasinin esit oldugu ortam hangisidir?",
-                  "answer": "Izotonik ortam"
+                  "question": "Net su hareketinin gözlenmediği, çözelti derişimi ile hücre sitoplazmasının eşit olduğu ortam hangisidir?",
+                  "answer": "İzotonik ortam"
                 }
               ]
             },
@@ -10064,39 +10064,39 @@
               "title": "Kart Seti 4",
               "cards": [
                 {
-                  "question": "Hucrenin su kaybedip buzuldugu, turgor basincinin azaldigi ortam hangisidir?",
+                  "question": "Hücrenin su kaybedip büzüldüğü, turgor basıncının azaldığı ortam hangisidir?",
                   "answer": "Hipertonik ortam"
                 },
                 {
-                  "question": "Hipertonik ortama konulan bir hucrenin su kaybederek buzudugu olay nedir?",
+                  "question": "Hipertonik ortama konulan bir hücrenin su kaybederek büzüldüğü olay nedir?",
                   "answer": "Plazmoliz"
                 },
                 {
-                  "question": "Hipertonik ortamda su kaybeden bir hucrede ozmotik basincin yonu nasil degisir?",
+                  "question": "Hipertonik ortamda su kaybeden bir hücrede ozmotik basıncın yönü nasıl değişir?",
                   "answer": "Artar"
                 },
                 {
-                  "question": "Hipertonik ortamda su kaybeden bir hucrede turgor basinci nasil degisir?",
-                  "answer": "Azalir"
+                  "question": "Hipertonik ortamda su kaybeden bir hücrede turgor basıncı nasıl değişir?",
+                  "answer": "Azalır"
                 },
                 {
-                  "question": "Hucrenin su alip sistigi ve turgor haline gectigi ortam hangisidir?",
+                  "question": "Hücrenin su alıp şiştiği ve turgor haline geçtiği ortam hangisidir?",
                   "answer": "Hipotonik ortam"
                 },
                 {
-                  "question": "Plazmoliz olmus hucrenin hipotonik ortama konulmasiyla eski haline donmesi olayina ne denir?",
+                  "question": "Plazmoliz olmuş hücrenin hipotonik ortama konulmasıyla eski haline dönmesi olayına ne denir?",
                   "answer": "Deplazmoliz"
                 },
                 {
-                  "question": "Bitki hucresinde plazmoliz sirasinda hangi yapi sabit kalip seklini korur?",
-                  "answer": "Hucre ceperi"
+                  "question": "Bitki hücresinde plazmoliz sırasında hangi yapı sabit kalıp şeklini korur?",
+                  "answer": "Hücre çeperi"
                 },
                 {
-                  "question": "Plazmoliz sirasinda bitki hucresinde hangi iki yapi arasindaki mesafe artar?",
-                  "answer": "Ceper ile zar"
+                  "question": "Plazmoliz sırasında bitki hücresinde hangi iki yapı arasındaki mesafe artar?",
+                  "answer": "Çeper ile zar"
                 },
                 {
-                  "question": "Hayvan hucresinin hipotonik ortamda asiri su alip zarinin yirtilmasi olayina ne ad verilir?",
+                  "question": "Hayvan hücresinin hipotonik ortamda aşırı su alıp zarının yırtılması olayına ne ad verilir?",
                   "answer": "Hemoliz"
                 },
                 {
@@ -13777,12 +13777,12 @@
                   "answer": "Kromozom sayısı"
                 },
                 {
-                  "question": "Sınıflandırma hiyerarşisinde alemden türe inildikçe birey sayısı nasıl değişir?",
+                  "question": "Sınıflandırma hiyerarşisinde âlemden türe inildikçe birey sayısı nasıl değişir?",
                   "answer": "Azalır"
                 },
                 {
                   "question": "Sınıflandırma hiyerarşisinde en büyük kategori hangisidir?",
-                  "answer": "Alem"
+                  "answer": "Âlem"
                 },
                 {
                   "question": "Sınıflandırma hiyerarşisinde âlemden türe inildikçe akrabalık derecesi nasıl değişir?",
@@ -13863,40 +13863,40 @@
               "title": "Kart Seti 4",
               "cards": [
                 {
-                  "question": "Siniflandirma hiyerarsisinde alemden ture inildikce homolog organ sayisi nasil degisir?",
+                  "question": "Sınıflandırma hiyerarşisinde âlemden türe inildikçe homolog organ sayısı nasıl değişir?",
                   "answer": "Artar"
                 },
                 {
-                  "question": "Farkli turlerin kromozom sayilarinin ayni olmasi bu canlilar arasinda neyin gostergesi degildir?",
-                  "answer": "Akrabalik"
+                  "question": "Farklı türlerin kromozom sayılarının aynı olması bu canlılar arasında neyin göstergesi değildir?",
+                  "answer": "Akrabalık"
                 },
                 {
-                  "question": "Tur taniminda bireylerin hangi tur kosullarda ureyip verimli yavru vermesi gerekir?",
-                  "answer": "Dogal kosullarda"
+                  "question": "Tür tanımında bireylerin hangi tür koşullarda üreyip verimli yavru vermesi gerekir?",
+                  "answer": "Doğal koşullarda"
                 },
                 {
-                  "question": "Siniflandirma hiyerarsisinde turden aleme dogru cikildikca embriyonik ve genetik benzerlik nasil degisir?",
-                  "answer": "Azalir"
+                  "question": "Sınıflandırma hiyerarşisinde türden âleme doğru çıkıldıkça embriyonik ve genetik benzerlik nasıl değişir?",
+                  "answer": "Azalır"
                 },
                 {
-                  "question": "Belirli bir kategoriye ait olan ve ortak ozellikleri paylasan bireyler topluluguna ne denir?",
+                  "question": "Belirli bir kategoriye ait olan ve ortak özellikleri paylaşan bireyler topluluğuna ne denir?",
                   "answer": "Takson"
                 },
                 {
-                  "question": "Siniflandirma hiyerarsisinde alemden ture inildikce canli cesidi sayisi nasil degisir?",
-                  "answer": "Azalir"
+                  "question": "Sınıflandırma hiyerarşisinde âlemden türe inildikçe canlı çeşidi sayısı nasıl değişir?",
+                  "answer": "Azalır"
                 },
                 {
-                  "question": "Tur kavramini ilk kez ortaya atan bilim insaninin adi nedir?",
+                  "question": "Tür kavramını ilk kez ortaya atan bilim insanının adı nedir?",
                   "answer": "John Ray"
                 },
                 {
-                  "question": "Ayni turu olusturan bireylerin yavrularinin durumu ne olmalidir?",
+                  "question": "Aynı türü oluşturan bireylerin yavrularının durumu ne olmalıdır?",
                   "answer": "Verimli yavru"
                 },
                 {
-                  "question": "Siniflandirma hiyerarsisinde alemden ture dogru inildikce birey sayisindaki degisim nasil olur?",
-                  "answer": "Azalir"
+                  "question": "Sınıflandırma hiyerarşisinde âlemden türe doğru inildikçe birey sayısındaki değişim nasıl olur?",
+                  "answer": "Azalır"
                 },
                 {
                   "question": "Sınıflandırma hiyerarşisinde şubeden sonra gelen kategori hangisidir?",
@@ -14774,7 +14774,7 @@
               "title": "Doğru/Yanlış 1",
               "questions": [
                 {
-                  "question": "Canlıların sınıflandırılmasında kullanılan 7 temel kategori büyükten küçüğe doğru alem, şube, sınıf, takım, familya, cins ve tür şeklinde sıralanır.",
+                  "question": "Canlıların sınıflandırılmasında kullanılan 7 temel kategori büyükten küçüğe doğru âlem, şube, sınıf, takım, familya, cins ve tür şeklinde sıralanır.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -14784,13 +14784,13 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Hiyerarşik basamaklarda alemden türe doğru inildikçe birey sayısı artar, ortak özellik sayısı ise azalır.",
+                  "question": "Hiyerarşik basamaklarda âlemden türe doğru inildikçe birey sayısı artar, ortak özellik sayısı ise azalır.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Alemden türe inildikçe birey sayısı azalır, ortak özellik sayısı ise artar.",
+                  "explanation": "Âlemden türe inildikçe birey sayısı azalır, ortak özellik sayısı ise artar.",
                   "type": "trueFalse"
                 },
                 {
@@ -14814,13 +14814,13 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Hiyerarşide türden aleme doğru çıkıldıkça canlılar arasındaki akrabalık derecesi artar.",
+                  "question": "Hiyerarşide türden âleme doğru çıkıldıkça canlılar arasındaki akrabalık derecesi artar.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Türden aleme doğru çıkıldıkça akrabalık derecesi ve genetik benzerlik azalır.",
+                  "explanation": "Türden âleme doğru çıkıldıkça akrabalık derecesi ve genetik benzerlik azalır.",
                   "type": "trueFalse"
                 },
                 {
@@ -14834,7 +14834,7 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Alemden türe doğru inildikçe homolog organ sayısı artar.",
+                  "question": "Âlemden türe doğru inildikçe homolog organ sayısı artar.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -14854,13 +14854,13 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Alemden türe doğru inildikçe genetik çeşitlilik artar.",
+                  "question": "Âlemden türe doğru inildikçe genetik çeşitlilik artar.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Alemden türe inildikçe canlı grubu daraldığı için genetik çeşitlilik azalır.",
+                  "explanation": "Âlemden türe inildikçe canlı grubu daraldığı için genetik çeşitlilik azalır.",
                   "type": "trueFalse"
                 },
                 {
@@ -15674,43 +15674,43 @@
                     "Protein kılıf ile sarılı nükleik asit ipliği"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Bakteri hücre zari secici gecirgen ozellige sahip fosfolipit cift tabakadan meydana gelir. Diger secenekler zar degil farkli yapilara aittir.",
+                  "explanation": "Bakteri hücre zarı seçici geçirgen özelliğe sahip fosfolipit çift tabakadan meydana gelir. Diğer seçenekler zar değil farklı yapılara aittir.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Bakterilerin sitoplazma içeriğinde bulunan organik ve inorganik maddeler dışında, sitoplazmanın sıvı oranını oluşturan su yüzdesi aşağıdakilerden hangisidir?",
                   "options": [
-                    "Yuzde yirmi",
-                    "Yuzde seksen",
-                    "Yuzde elli",
-                    "Yuzde doksan bes"
+                    "Yüzde yirmi",
+                    "Yüzde seksen",
+                    "Yüzde elli",
+                    "Yüzde doksan beş"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Bakterilerin sitoplazmasi yaklasik olarak yuzde seksen oraninda su icerir. Geri kalan kisimda enzimler, nükleik asitler ve diger molekuller yer alir.",
+                  "explanation": "Bakterilerin sitoplazması yaklaşık olarak yüzde seksen oranında su içerir. Geri kalan kısımda enzimler, nükleik asitler ve diğer moleküller yer alır.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Bakteri hücresinde bulunan ve sitoplazmada serbest hâlde yer alarak kalıtsal bilgiyi taşıyan temel yapı aşağıdakilerden hangisidir?",
                   "options": [
-                    "Cekirdek zari ile cevrili lineer kromozom",
-                    "Tek halkasal yapili sitoplazmik DNA",
-                    "Zarli organellerin icindeki genetik materyal",
-                    "Protein kılıf icine gomulu RNA molekulu"
+                    "Çekirdek zarı ile çevrili lineer kromozom",
+                    "Tek halkasal yapılı sitoplazmik DNA",
+                    "Zarlı organellerin içindeki genetik materyal",
+                    "Protein kılıf içine gömülü RNA molekülü"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Bakterilerde cekirdek zari yoktur ve temel kalitsal bilgi sitoplazmada yer alan tek halkasal DNA tarafindan tasinir.",
+                  "explanation": "Bakterilerde çekirdek zarı yoktur ve temel kalıtsal bilgi sitoplazmada yer alan tek halkasal DNA tarafından taşınır.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Aşağıdakilerden hangisi virüslerin fiziksel ve yapısal formları arasında gösterilemez?",
                   "options": [
-                    "Cubuk seklinde olanlar",
-                    "Kure biciminde bulunanlar",
-                    "Spiral yapi gosterenler",
-                    "Halkasal cekirdege sahip olanlar"
+                    "Çubuk şeklinde olanlar",
+                    "Küre biçiminde bulunanlar",
+                    "Spiral yapı gösterenler",
+                    "Halkasal çekirdeğe sahip olanlar"
                   ],
                   "correctIndex": 3,
-                  "explanation": "Viruslerin hucresel bir yapisi ve cekirdegi yoktur; cubuk, kure, elips veya spiral sekillerde olabilirler.",
+                  "explanation": "Virüslerin hücresel bir yapısı ve çekirdeği yoktur; çubuk, küre, elips veya spiral şekillerde olabilirler.",
                   "type": "multipleChoice"
                 }
               ]
@@ -15721,49 +15721,49 @@
                 {
                   "question": "Virüslerin enfekte ettikleri canlı hücrelerde çoğalabilmek için kullandıkları enerji, hammadde ve enzim kaynaklarının kaynağı nedir?",
                   "options": [
-                    "Kendi gelismis sitoplazmik enzim sistemleri",
-                    "Konak hucrenin metabolik kaynaklari ve sistemi",
+                    "Kendi gelişmiş sitoplazmik enzim sistemleri",
+                    "Konak hücrenin metabolik kaynakları ve sistemi",
                     "Dis ortamdaki organik besin solusyonlari",
-                    "Serbest enerji ureten mitokondriyal yapilari"
+                    "Serbest enerji üreten mitokondriyal yapıları"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Viruslerin kendi enzim sistemleri olmadigi icin cogalmak amaciyla konak hucrenin enerji ve hammadde kaynaklarini kullanirlar.",
+                  "explanation": "Virüslerin kendi enzim sistemleri olmadığı için çoğalmak amacıyla konak hücrenin enerji ve hammadde kaynaklarını kullanırlar.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Virüslerin doğada yayılması ve bireyler arası geçişi hususunda aşağıdakilerden hangisi bir bulaşma yolu olarak kabul edilir?",
                   "options": [
-                    "Vucut sivilari ve temas",
-                    "Kendi kendine aktif yer degistirme",
-                    "Bagimsiz fotosentez yoluyla yayilma",
-                    "Hucresel bolunme ile çoğalma"
+                    "Vücut sıvıları ve temas",
+                    "Kendi kendine aktif yer değiştirme",
+                    "Bağımsız fotosentez yoluyla yayılma",
+                    "Hücresel bölünme ile çoğalma"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Virusler hava, su, temas ve vucut sivilari araciligiyla bulasir; aktif yer degistiremez veya kendi baslarina bolunemezler.",
+                  "explanation": "Virüsler hava, su, temas ve vücut sıvıları aracılığıyla bulaşır; aktif yer değiştiremez veya kendi başlarına bölünemezler.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Bakteri hücrelerinde bulunan plazmitlerin genetik mühendisliği ve biyoteknolojik çalışmalar açısından en önemli işlevi nedir?",
                   "options": [
-                    "Hucresel solunumu gerceklestirerek ATP uretmek",
-                    "Gen aktarimi ve genetik calismalara aracilik etmek",
-                    "Antibiyotiklere karsi dogrudan hucreyi korumak",
-                    "Aktif hareket saglayarak yer degistirmeyi saglamak"
+                    "Hücresel solunumu gerçekleştirerek ATP üretmek",
+                    "Gen aktarımı ve genetik çalışmalara aracılık etmek",
+                    "Antibiyotiklere karşı doğrudan hücreyi korumak",
+                    "Aktif hareket sağlayarak yer değiştirmeyi sağlamak"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Plazmitler, ana DNA disindaki kucuk halkasal DNA'lardir ve genetik muhendisliginde istenen genlerin tasinmasi icin sikca kullanilir.",
+                  "explanation": "Plazmitler, ana DNA dışındaki küçük halkasal DNA'lardır ve genetik mühendisliğinde istenen genlerin taşınması için sıkça kullanılır.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Aşağıdaki canlı veya form gruplarından hangisi zorunlu hücre içi parazit olarak nitelendirilir?",
                   "options": [
                     "Bakteriler",
-                    "Virusler",
+                    "Virüsler",
                     "Algler",
                     "Mantarlar"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Virusler metabolik aktivite gosteremedikleri ve kendi enzim sistemleri olmadigi icin zorunlu hucre ici parazitlerdir.",
+                  "explanation": "Virüsler metabolik aktivite gösteremedikleri ve kendi enzim sistemleri olmadığı için zorunlu hücre içi parazitlerdir.",
                   "type": "multipleChoice"
                 },
                 {
@@ -15772,22 +15772,22 @@
                     "Ribozom",
                     "Plazmit",
                     "Pilus",
-                    "Kapsul"
+                    "Kapsül"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Bakterilerde zarli organel bulunmaz ancak sitoplazmalarinda protein sentezini gerceklestiren ribozomlar daginik halde yer alir.",
+                  "explanation": "Bakterilerde zarlı organel bulunmaz ancak sitoplazmalarında protein sentezini gerçekleştiren ribozomlar dağınık halde yer alır.",
                   "type": "multipleChoice"
                 },
                 {
                   "question": "Aşağıdaki yapışma ve hareket yapılarından hangisi küresel olmayan çoğu bakteride aktif yer değiştirmeyi sağlar?",
                   "options": [
-                    "Kapsul",
+                    "Kapsül",
                     "Pilus",
                     "Flagellum",
                     "Plazmit"
                   ],
                   "correctIndex": 2,
-                  "explanation": "Flagellum (kamci), kuresel olmayan bircok bakteride aktif hareketi saglayan yapi olarak gorev yapar.",
+                  "explanation": "Flagellum (kamçı), küresel olmayan birçok bakteride aktif hareketi sağlayan yapı olarak görev yapar.",
                   "type": "multipleChoice"
                 },
                 {
@@ -16427,8 +16427,8 @@
                   "answer": "Seçici geçirgen lipit çift tabaka"
                 },
                 {
-                  "question": "Arkelerin bakterilerden farkli bir alem olarak kabul edilmesinde hangi iki temel genetik veri karsilastirilmistir?",
-                  "answer": "Gen dizileri ve ribozomal RNA parcalari"
+                  "question": "Arkelerin bakterilerden farklı bir âlem olarak kabul edilmesinde hangi iki temel genetik veri karşılaştırılmıştır?",
+                  "answer": "Gen dizileri ve ribozomal RNA parçaları"
                 }
               ]
             },
@@ -16436,39 +16436,39 @@
               "title": "Kart Seti 5",
               "cards": [
                 {
-                  "question": "Arkelerin hucre yapisi hangi iki temel ozelligi bir arada tasidigini gosterir?",
-                  "answer": "Tek hücreli prokaryot olmasi ve bazi ökaryot-benzeri ozellikler tasimasi"
+                  "question": "Arkelerin hücre yapısı hangi iki temel özelliği bir arada taşıdığını gösterir?",
+                  "answer": "Tek hücreli prokaryot olması ve bazı ökaryot-benzeri özellikler taşıması"
                 },
                 {
-                  "question": "Arkelerin insanlarda veya diger canlilarda hastaliga neden olan turleri var midir?",
+                  "question": "Arkelerin insanlarda veya diğer canlılarda hastalığa neden olan türleri var mıdır?",
                   "answer": "Patojen türleri yoktur"
                 },
                 {
-                  "question": "Arkelerin zorlu kosullara karsi direnc saglamak icin olusturamadigi yapi hangisidir?",
+                  "question": "Arkelerin zorlu koşullara karşı direnç sağlamak için oluşturamadığı yapı hangisidir?",
                   "answer": "Endospor"
                 },
                 {
-                  "question": "Arkelerin sitoplazmasinin yaklasik yuzde kaci sudan olusmaktadir?",
-                  "answer": "Yuzde seksen"
+                  "question": "Arkelerin sitoplazmasının yaklaşık yüzde kaçı sudan oluşmaktadır?",
+                  "answer": "Yüzde seksen"
                 },
                 {
-                  "question": "Arkelerin hucreler arasi DNA aktarimini saglayan yapinin adi nedir?",
+                  "question": "Arkelerin hücreler arası DNA aktarımını sağlayan yapının adı nedir?",
                   "answer": "Pilus"
                 },
                 {
-                  "question": "Arkelerin histon proteinlerine sarili olan genetik materyali hangisidir?",
+                  "question": "Arkelerin histon proteinlerine sarılı olan genetik materyali hangisidir?",
                   "answer": "DNA"
                 },
                 {
-                  "question": "Arkelerin hucre zarinin temel ozelligi olan secici gecirgen yapi hangi bilesenden olusur?",
+                  "question": "Arkelerin hücre zarının temel özelliği olan seçici geçirgen yapı hangi bileşenden oluşur?",
                   "answer": "Lipit çift tabaka"
                 },
                 {
-                  "question": "Arkelerin hucre çeperinde bulunan ozel maddenin tam adi nedir?",
+                  "question": "Arkelerin hücre çeperinde bulunan özel maddenin tam adı nedir?",
                   "answer": "Pseudopeptidoglikan"
                 },
                 {
-                  "question": "Arkelerin aktif hareket etmesini saglayan yapinin adi nedir?",
+                  "question": "Arkelerin aktif hareket etmesini sağlayan yapının adı nedir?",
                   "answer": "Flagellum"
                 },
                 {
@@ -17638,7 +17638,7 @@
                   "answer": "Algler"
                 },
                 {
-                  "question": "Ökaryot canlılar arasında en ilkel grup olarak kabul edilen, tek veya çok hücreli olabilen alem hangisidir?",
+                  "question": "Ökaryot canlılar arasında en ilkel grup olarak kabul edilen, tek veya çok hücreli olabilen âlem hangisidir?",
                   "answer": "Protista"
                 },
                 {
@@ -18784,7 +18784,7 @@
               "title": "Kart Seti 1",
               "cards": [
                 {
-                  "question": "Mantarlar alemindeki canlıların hücre çeperi hangi maddeden yapılmıştır?",
+                  "question": "Mantarlar âlemindeki canlıların hücre çeperi hangi maddeden yapılmıştır?",
                   "answer": "Kitin"
                 },
                 {
@@ -18829,7 +18829,7 @@
               "title": "Kart Seti 2",
               "cards": [
                 {
-                  "question": "Mantarlar alemindeki canlılar hücre zarı ve çekirdek yapısı bakımından nasıl hücrelilere sahiptir?",
+                  "question": "Mantarlar âlemindeki canlılar hücre zarı ve çekirdek yapısı bakımından nasıl hücrelilere sahiptir?",
                   "answer": "Ökaryot"
                 },
                 {
@@ -18874,7 +18874,7 @@
               "title": "Kart Seti 3",
               "cards": [
                 {
-                  "question": "Mantarlar alemindeki canlıların hücresel yapıları prokaryot mu yoksa ökaryot mu?",
+                  "question": "Mantarlar âlemindeki canlıların hücresel yapıları prokaryot mu yoksa ökaryot mu?",
                   "answer": "Ökaryot"
                 },
                 {
@@ -18910,7 +18910,7 @@
                   "answer": "Mantarlar"
                 },
                 {
-                  "question": "Mantarlar alemindeki canlıların hücre çeşidi prokaryot mu yoksa ökaryot mu olarak sınıflandırılır?",
+                  "question": "Mantarlar âlemindeki canlıların hücre çeşidi prokaryot mu yoksa ökaryot mu olarak sınıflandırılır?",
                   "answer": "Ökaryot"
                 }
               ]
@@ -18951,7 +18951,7 @@
                   "answer": "Ayrıştırıcı"
                 },
                 {
-                  "question": "Mantarlar besinlerini temin ederken saprofit ve parazitin dısında hangi beslenme seklini de kullanabilir?",
+                  "question": "Mantarlar besinlerini temin ederken saprofit ve parazitin dışında hangi beslenme şeklini de kullanabilir?",
                   "answer": "Simbiyotik"
                 },
                 {
@@ -18968,7 +18968,7 @@
                   "answer": "Bitki"
                 },
                 {
-                  "question": "Mantarlar kloroplast tasımadıkları için hangi hayatsal olayi gerceklestiremezler?",
+                  "question": "Mantarlar kloroplast taşımadıkları için hangi hayatsal olayı gerçekleştiremezler?",
                   "answer": "Fotosentez"
                 },
                 {
@@ -19019,7 +19019,7 @@
                     "Kendi besinini aktif hareket ederek yakalama"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Mantarlar alemindeki tüm canlıların hücre çeperi kitin yapısındadır ve heterotrof beslenirler.",
+                  "explanation": "Mantarlar âlemindeki tüm canlıların hücre çeperi kitin yapısındadır ve heterotrof beslenirler.",
                   "type": "multipleChoice"
                 },
                 {
@@ -19830,7 +19830,7 @@
               "title": "Doğru/Yanlış 1",
               "questions": [
                 {
-                  "question": "Mantarlar alemindeki tüm canlılar ökaryot hücre yapısına sahiptir.",
+                  "question": "Mantarlar âlemindeki tüm canlılar ökaryot hücre yapısına sahiptir.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -19935,7 +19935,7 @@
               "title": "Doğru/Yanlış 2",
               "questions": [
                 {
-                  "question": "Mantarlar alemindeki canlıların hücre çeperi kitin yapısındadır.",
+                  "question": "Mantarlar âlemindeki canlıların hücre çeperi kitin yapısındadır.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -20025,7 +20025,7 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Mantarlar alemindeki canlılar, beslenme biçimlerine göre heterotrof canlılar arasında yer alır ve kesinlikle fotosentez yapmazlar.",
+                  "question": "Mantarlar âlemindeki canlılar, beslenme biçimlerine göre heterotrof canlılar arasında yer alır ve kesinlikle fotosentez yapmazlar.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -20275,7 +20275,7 @@
               "title": "Test 1",
               "questions": [
                 {
-                  "question": "Bitkiler alemi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "question": "Bitkiler âlemi ile ilgili aşağıdakilerden hangisi yanlıştır?",
                   "options": [
                     "Fotosentetik ototrof olarak beslenirler.",
                     "Hücre çeperleri kitinden yapılmıştır.",
@@ -21312,7 +21312,7 @@
               "title": "Kart Seti 1",
               "cards": [
                 {
-                  "question": "Hayvanlar alemindeki canlıların genel beslenme şekli nasıldır?",
+                  "question": "Hayvanlar âlemindeki canlıların genel beslenme şekli nasıldır?",
                   "answer": "Heterotrof beslenirler."
                 },
                 {
@@ -21664,7 +21664,7 @@
               "title": "Test 2",
               "questions": [
                 {
-                  "question": "Canlılar aleminde yer alan hayvanların genel beslenme ve solunum özellikleri dikkate alındığında, aşağıdakilerden hangisi söylenebilir?",
+                  "question": "Canlılar âleminde yer alan hayvanların genel beslenme ve solunum özellikleri dikkate alındığında, aşağıdakilerden hangisi söylenebilir?",
                   "options": [
                     "Kendi besinini fotosentezle üretirler.",
                     "Oksijenli solunum yaparlar ve heterotrof beslenirler.",
@@ -21897,7 +21897,7 @@
                   "type": "multipleChoice"
                 },
                 {
-                  "question": "Hayvanlar aleminin genel beslenme ve hücresel yapı özellikleri düşünüldüğünde, aşağıdakilerden hangisi bu alemdeki canlılar için kesinlikle söylenebilir?",
+                  "question": "Hayvanlar âleminin genel beslenme ve hücresel yapı özellikleri düşünüldüğünde, aşağıdakilerden hangisi bu âlemdeki canlılar için kesinlikle söylenebilir?",
                   "options": [
                     "Kendi besinini fotosentez ile üretirler",
                     "Aktif olarak yer değiştirebilirler",
@@ -21905,7 +21905,7 @@
                     "Tek hücreli ökaryotlardır"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Hayvanlar alemindeki tüm canlılar heterotrof beslenir, çok hücreli ökaryotlardır ve aktif yer değiştirme yeteneğine sahiptir.",
+                  "explanation": "Hayvanlar âlemindeki tüm canlılar heterotrof beslenir, çok hücreli ökaryotlardır ve aktif yer değiştirme yeteneğine sahiptir.",
                   "type": "multipleChoice"
                 }
               ]
@@ -22364,7 +22364,7 @@
                     "Yanlış"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Hayvanlar alemindeki tüm canlılar ökaryot hücre yapısına sahip, çok hücreli, kendi besinini üretemeyen ve aktif hareket edebilen organizmalardır.",
+                  "explanation": "Hayvanlar âlemindeki tüm canlılar ökaryot hücre yapısına sahip, çok hücreli, kendi besinini üretemeyen ve aktif hareket edebilen organizmalardır.",
                   "type": "trueFalse"
                 },
                 {
@@ -22463,7 +22463,7 @@
               "title": "Doğru/Yanlış 2",
               "questions": [
                 {
-                  "question": "Tüm hayvanlar alemi üyeleri ökaryot, çok hücreli, heterotrof ve oksijenli solunum yapan canlılardır.",
+                  "question": "Tüm hayvanlar âlemi üyeleri ökaryot, çok hücreli, heterotrof ve oksijenli solunum yapan canlılardır.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -22677,7 +22677,7 @@
                   "answer": "Farklı dokular arasında değişir."
                 },
                 {
-                  "question": "Hücre döngüsünün süresi canlı alemi içinde hangi kategoriler arasında farklılık gösterir?",
+                  "question": "Hücre döngüsünün süresi canlı âlemi içinde hangi kategoriler arasında farklılık gösterir?",
                   "answer": "Türler arasında değişir."
                 },
                 {
@@ -25140,7 +25140,7 @@
                 },
                 {
                   "question": "Kanser risk faktörlerinden biri olan, hücrelerde DNA bozulmasına yol açan güneş kaynağı nedir?",
-                  "answer": "Asiri gunes isini"
+                  "answer": "Aşırı güneş ışını"
                 },
                 {
                   "question": "Kanser gelişiminde etkili olan, sigara gibi ürünleri kapsayan risk faktörü nedir?",
@@ -26686,7 +26686,7 @@
                   "type": "multipleChoice"
                 },
                 {
-                  "question": "Canlılar aleminde gelişmişlik düzeyi arttıkça rejenerasyon yeteneği genellikle nasıl bir değişim gösterir?",
+                  "question": "Canlılar âleminde gelişmişlik düzeyi arttıkça rejenerasyon yeteneği genellikle nasıl bir değişim gösterir?",
                   "options": [
                     "Canlı karmaşıklaştıkça rejenerasyon yeteneği artar",
                     "Canlı karmaşıklaştıkça rejenerasyon yeteneği azalır",
@@ -26936,7 +26936,7 @@
                   "type": "multipleChoice"
                 },
                 {
-                  "question": "Canlılar aleminde basitten gelişmişe doğru gidildikçe rejenerasyon yeteneği ve bununla üreme durumu genellikle nasıl bir değişim gösterir?",
+                  "question": "Canlılar âleminde basitten gelişmişe doğru gidildikçe rejenerasyon yeteneği ve bununla üreme durumu genellikle nasıl bir değişim gösterir?",
                   "options": [
                     "Canlı karmaşıklaştıkça rejenerasyon yeteneği azalır",
                     "Gelişmiş canlılarda tam rejenerasyonla üreme görülür",
@@ -27037,7 +27037,7 @@
                   "type": "multipleChoice"
                 },
                 {
-                  "question": "Canlılar alemindeki gelişmişlik düzeyi ile rejenerasyon yeteneği arasındaki ilişki göz önüne alındığında, aşağıdakilerden hangisi söylenebilir?",
+                  "question": "Canlılar âlemindeki gelişmişlik düzeyi ile rejenerasyon yeteneği arasındaki ilişki göz önüne alındığında, aşağıdakilerden hangisi söylenebilir?",
                   "options": [
                     "Gelişmişlik arttıkça tam rejenerasyonla üreme yeteneği artar.",
                     "Gelişmiş canlılarda sadece organ düzeyinde rejenerasyon görülmez.",
@@ -29029,8 +29029,8 @@
                   "answer": "Çok yıllık özelliği"
                 },
                 {
-                  "question": "Gelismis yapili bitkilerde kok, govde, dal ve yaprak gibi kisimlardan yeni bitki olusturan ve ana bitkiyle ayni genetik yapiyi saglayan genel surec hangi kavramla ifade edilir?",
-                  "answer": "Vejetatif ureme"
+                  "question": "Gelişmiş yapılı bitkilerde kök, gövde, dal ve yaprak gibi kısımlardan yeni bitki oluşturan ve ana bitkiyle aynı genetik yapıyı sağlayan genel süreç hangi kavramla ifade edilir?",
+                  "answer": "Vejetatif üreme"
                 }
               ]
             },
@@ -29038,43 +29038,43 @@
               "title": "Kart Seti 4",
               "cards": [
                 {
-                  "question": "Vejetatif ureme hangi gelismis bitki kisimlarindan yeni bireyler olusturabilir?",
-                  "answer": "Kok, govde, dal ve yaprak"
+                  "question": "Vejetatif üreme hangi gelişmiş bitki kısımlarından yeni bireyler oluşturabilir?",
+                  "answer": "Kök, gövde, dal ve yaprak"
                 },
                 {
-                  "question": "Bitkilerin kopan veya ayrilan kisimlarindan yeni bir birey olusmasi temel olarak hangi iki surece dayanir?",
+                  "question": "Bitkilerin kopan veya ayrılan kısımlarından yeni bir birey oluşması temel olarak hangi iki sürece dayanır?",
                   "answer": "Mitoz ve rejenerasyon"
                 },
                 {
-                  "question": "Vejetatif ureme ile olusan yeni bitkinin kalitsal ozellikleri ana bitkiye gore nasildir?",
-                  "answer": "Ana bitkiyle ayni genetik yapiya sahiptir"
+                  "question": "Vejetatif üreme ile oluşan yeni bitkinin kalıtsal özellikleri ana bitkiye göre nasıldır?",
+                  "answer": "Ana bitkiyle aynı genetik yapıya sahiptir"
                 },
                 {
-                  "question": "Cilek gibi bitkilerde genis alanda yeni bitkiler olusturan yatay govdelere ne ad verilir?",
+                  "question": "Çilek gibi bitkilerde geniş alanda yeni bitkiler oluşturan yatay gövdelere ne ad verilir?",
                   "answer": "Stolon"
                 },
                 {
-                  "question": "Patates ve yer fistigi gibi bitkilerin toprak alti depo organlarinda bulunan tomurcuklara ne denir?",
-                  "answer": "Goz"
+                  "question": "Patates ve yer fıstığı gibi bitkilerin toprak altı depo organlarında bulunan tomurcuklara ne denir?",
+                  "answer": "Göz"
                 },
                 {
-                  "question": "Yumru ile ureme sirasinda yeni surgunleri olusturan goz yapisinin diger adi nedir?",
+                  "question": "Yumru ile üreme sırasında yeni sürgünleri oluşturan göz yapısının diğer adı nedir?",
                   "answer": "Nodium"
                 },
                 {
-                  "question": "Zencefil ve susen gibi bitkilerde besin depolayan yatay toprak alti govde tipi hangisidir?",
+                  "question": "Zencefil ve süsen gibi bitkilerde besin depolayan yatay toprak altı gövde tipi hangisidir?",
                   "answer": "Rizom"
                 },
                 {
-                  "question": "Rizom govdelere sahip bitkilerde cok yillik ozelligin surmesini ve yeni bitki olusumunu saglayan yapilar nelerdir?",
-                  "answer": "Uc ve yanal tomurcuklar"
+                  "question": "Rizom gövdelere sahip bitkilerde çok yıllık özelliğin sürmesini ve yeni bitki oluşumunu sağlayan yapılar nelerdir?",
+                  "answer": "Uç ve yanal tomurcuklar"
                 },
                 {
-                  "question": "Tarimsal uygulamalarda vejetatif ureme hangi ureme turune alternatif olarak kullanilir?",
-                  "answer": "Eşeyli ureme"
+                  "question": "Tarımsal uygulamalarda vejetatif üreme hangi üreme türüne alternatif olarak kullanılır?",
+                  "answer": "Eşeyli üreme"
                 },
                 {
-                  "question": "Stolon ile ureme hangi bitki turunde yaygin bir ornek olarak gorulur?",
+                  "question": "Stolon ile üreme hangi bitki türünde yaygın bir örnek olarak görülür?",
                   "answer": "Çilek"
                 }
               ]
@@ -31438,43 +31438,43 @@
               "title": "Kart Seti 1",
               "cards": [
                 {
-                  "question": "Mayoz I ile Mayoz II arasinda interfaz evresi gerceklesir mi?",
-                  "answer": "Hayir"
+                  "question": "Mayoz I ile Mayoz II arasında interfaz evresi gerçekleşir mi?",
+                  "answer": "Hayır"
                 },
                 {
-                  "question": "Mayoz I ile Mayoz II arasindaki evrede DNA eslenmesi olur mu?",
-                  "answer": "Hayir"
+                  "question": "Mayoz I ile Mayoz II arasındaki evrede DNA eşlenmesi olur mu?",
+                  "answer": "Hayır"
                 },
                 {
-                  "question": "Profaz I'e gore daha kisa suren, cekirdek zarinin dagildigi ve ig ipliklerinin olustugu Mayoz II evresi hangisidir?",
+                  "question": "Profaz I'e göre daha kısa süren, çekirdek zarının dağıldığı ve iğ ipliklerinin oluştuğu Mayoz II evresi hangisidir?",
                   "answer": "Profaz II"
                 },
                 {
-                  "question": "Mayoz II evrelerinden hangisinde kardes kromatidler birbirinden ayrilir?",
+                  "question": "Mayoz II evrelerinden hangisinde kardeş kromatidler birbirinden ayrılır?",
                   "answer": "Anafaz II"
                 },
                 {
-                  "question": "Mayoz II sirasinda kardes kromatidlerin ayrilmasi olayi hangi hucre bolunmesi turunun anafaz evresine benzer?",
+                  "question": "Mayoz II sırasında kardeş kromatidlerin ayrılması olayı hangi hücre bölünmesi türünün anafaz evresine benzer?",
                   "answer": "Mitoz"
                 },
                 {
-                  "question": "Mayoz II sonrasinda gerceklesen sitokinez II olayinda hayvan hucreleri nasil bolunur?",
-                  "answer": "Bogumlanma ile"
+                  "question": "Mayoz II sonrasında gerçekleşen sitokinez II olayında hayvan hücreleri nasıl bölünür?",
+                  "answer": "Boğumlanma ile"
                 },
                 {
-                  "question": "Mayoz II sonrasinda gerceklesen sitokinez II olayinda bitki hucrelerinde ne olusur?",
-                  "answer": "Hucre bagi"
+                  "question": "Mayoz II sonrasında gerçekleşen sitokinez II olayında bitki hücrelerinde ne oluşur?",
+                  "answer": "Hücre bağı"
                 },
                 {
-                  "question": "Mayoz sonucunda olusan yeni hucrelerin kromozom sayisi baslangictaki ana hucreye gore nasildir?",
-                  "answer": "Yarisi kadardir"
+                  "question": "Mayoz sonucunda oluşan yeni hücrelerin kromozom sayısı başlangıçtaki ana hücreye göre nasıldır?",
+                  "answer": "Yarısı kadardır"
                 },
                 {
-                  "question": "Mayoz sonucunda tek bir ana hucreden genetik olarak farkli kac adet haploit hucre olusur?",
+                  "question": "Mayoz sonucunda tek bir ana hücreden genetik olarak farklı kaç adet haploit hücre oluşur?",
                   "answer": "4"
                 },
                 {
-                  "question": "2n = 4 kromozomlu bir hucrede mayoz tamamlandiginda olusan yeni hucrelerin kromozom sayisi kac olur?",
+                  "question": "2n = 4 kromozomlu bir hücrede mayoz tamamlandığında oluşan yeni hücrelerin kromozom sayısı kaç olur?",
                   "answer": "n = 2"
                 }
               ]
@@ -31483,43 +31483,43 @@
               "title": "Kart Seti 2",
               "cards": [
                 {
-                  "question": "Mayoz I ve Mayoz II arasinda gerceklesmeyen ve DNA'nin kendisini kopyalamadigi evre hangisidir?",
+                  "question": "Mayoz I ve Mayoz II arasında gerçekleşmeyen ve DNA'nın kendisini kopyalamadığı evre hangisidir?",
                   "answer": "interfaz"
                 },
                 {
-                  "question": "Profaz I evresine kiyasla cok daha kisa suren Mayoz II evresi hangisidir?",
+                  "question": "Profaz I evresine kıyasla çok daha kısa süren Mayoz II evresi hangisidir?",
                   "answer": "Profaz II"
                 },
                 {
-                  "question": "Profaz II evresinde kromozomlarin hareketini saglayan yapilarin adi nedir?",
+                  "question": "Profaz II evresinde kromozomların hareketini sağlayan yapıların adı nedir?",
                   "answer": "iğ iplikleri"
                 },
                 {
-                  "question": "Profaz II asamasinda hucrede bulunan cekirdek zari ve cekirdekcik ne olur?",
+                  "question": "Profaz II aşamasında hücrede bulunan çekirdek zarı ve çekirdekçik ne olur?",
                   "answer": "dağılır"
                 },
                 {
-                  "question": "Mayoz II sirasinda kromozomlarin hucrenin ekvatoral dulemine dizildigi evre hangisidir?",
+                  "question": "Mayoz II sırasında kromozomların hücrenin ekvatoral düzlemine dizildiği evre hangisidir?",
                   "answer": "Metafaz II"
                 },
                 {
-                  "question": "Mayoz II evresinde zıt kutuplara dogru cekilen yapilar tam olarak nedir?",
+                  "question": "Mayoz II evresinde zıt kutuplara doğru çekilen yapılar tam olarak nedir?",
                   "answer": "kardeş kromatidler"
                 },
                 {
-                  "question": "Sitokinez II sirasinda bitki hucrelerinin ortasinda olusan ve hucre bolunmesini saglayan yapi nedir?",
+                  "question": "Sitokinez II sırasında bitki hücrelerinin ortasında oluşan ve hücre bölünmesini sağlayan yapı nedir?",
                   "answer": "hücre plağı"
                 },
                 {
-                  "question": "Mayoz II sonunda olusan toplam yeni hucre sayisi kactir?",
+                  "question": "Mayoz II sonunda oluşan toplam yeni hücre sayısı kaçtır?",
                   "answer": "4"
                 },
                 {
-                  "question": "Mayoz sonucunda olusan yeni hucrelerin ana hucreye gore genetik yapilari nasildir?",
+                  "question": "Mayoz sonucunda oluşan yeni hücrelerin ana hücreye göre genetik yapıları nasıldır?",
                   "answer": "farklı"
                 },
                 {
-                  "question": "Mayoz sonucunda olusan yeni hucrelerin kromozom takimi sayisi nedir?",
+                  "question": "Mayoz sonucunda oluşan yeni hücrelerin kromozom takımı sayısı nedir?",
                   "answer": "haploit"
                 }
               ]
@@ -31528,44 +31528,44 @@
               "title": "Kart Seti 3",
               "cards": [
                 {
-                  "question": "Mayoz I ile Mayoz II arasinda eksik olan ve bu nedenle DNA'nin eslenmedigi evrenin adi nedir?",
+                  "question": "Mayoz I ile Mayoz II arasında eksik olan ve bu nedenle DNA'nın eşlenmediği evrenin adı nedir?",
                   "answer": "interfaz"
                 },
                 {
-                  "question": "Profaz I evresi ile kiyaslandiginda sure olarak daha kisa suren Mayoz II evresi hangisidir?",
+                  "question": "Profaz I evresi ile kıyaslandığında süre olarak daha kısa süren Mayoz II evresi hangisidir?",
                   "answer": "Profaz II"
                 },
                 {
-                  "question": "Profaz II evresinde iğ ipliklerinin olusmasiyla birlikte hucrede dagilan yapilar nelerdir?",
+                  "question": "Profaz II evresinde iğ ipliklerinin oluşmasıyla birlikte hücrede dağılan yapılar nelerdir?",
                   "answer": "çekirdek zarı ve çekirdekçik"
                 },
                 {
-                  "question": "Kromozomlarin hucrenin orta dulemine tek sira halinde dizildigi Mayoz II evresi hangisidir?",
+                  "question": "Kromozomların hücrenin orta düzlemine tek sıra halinde dizildiği Mayoz II evresi hangisidir?",
                   "answer": "Metafaz II"
                 },
                 {
-                  "question": "Mayoz II evresinde zıt kutuplara dogru hareket eden temel kalitsal birimler tam olarak nedir?",
+                  "question": "Mayoz II evresinde zıt kutuplara doğru hareket eden temel kalıtsal birimler tam olarak nedir?",
                   "answer": "kardeş kromatidler"
                 },
                 {
-                  "question": "Mayoz II sirasinda gerceklesen hangi evre, mitoz bolunmenin anafaz evresi ile benzerlik gosterir?",
+                  "question": "Mayoz II sırasında gerçekleşen hangi evre, mitoz bölünmenin anafaz evresi ile benzerlik gösterir?",
                   "answer": "Anafaz II"
                 },
                 {
-                  "question": "Mayoz II tamamlandiktan sonra gerceklesen sitokinez II sirasinda hayvan hucreleri hangi yontemle bolunur?",
+                  "question": "Mayoz II tamamlandıktan sonra gerçekleşen sitokinez II sırasında hayvan hücreleri hangi yöntemle bölünür?",
                   "answer": "boğumlanma"
                 },
                 {
-                  "question": "Bitki hucrelerinde sitokinez II evresinde sitoplazma bolunmesini saglayan olusumun adi nedir?",
+                  "question": "Bitki hücrelerinde sitokinez II evresinde sitoplazma bölünmesini sağlayan oluşumun adı nedir?",
                   "answer": "hücre plağı"
                 },
                 {
-                  "question": "2n = 4 kromozomlu bir bitki veya hayvan hucre uzantisi mayoz gecirdiginde olusan hucrelerin kromozom formulu ne olur?",
+                  "question": "2n = 4 kromozomlu bir bitki veya hayvan hücre uzantısı mayoz geçirdiğinde oluşan hücrelerin kromozom formülü ne olur?",
                   "answer": "n = 2"
                 },
                 {
-                  "question": "Mayoz I bittikten hemen sonra ve Mayoz II baslamadan onceki donemde DNA eslenmesi gerceklesir mi?",
-                  "answer": "Hayir"
+                  "question": "Mayoz I bittikten hemen sonra ve Mayoz II başlamadan önceki dönemde DNA eşlenmesi gerçekleşir mi?",
+                  "answer": "Hayır"
                 }
               ]
             },
@@ -31573,35 +31573,35 @@
               "title": "Kart Seti 4",
               "cards": [
                 {
-                  "question": "Mayoz I ile Mayoz II arasinda DNA eslenmesinin gerceklesmemesinin nedeni hangi evrenin olmamasidir?",
+                  "question": "Mayoz I ile Mayoz II arasında DNA eşlenmesinin gerçekleşmemesinin nedeni hangi evrenin olmamasıdır?",
                   "answer": "interfaz"
                 },
                 {
-                  "question": "Mayoz II sirasinda kardes kromatidlerin zit kutuplara cekildigi evre hangisidir?",
+                  "question": "Mayoz II sırasında kardeş kromatidlerin zıt kutuplara çekildiği evre hangisidir?",
                   "answer": "Anafaz II"
                 },
                 {
-                  "question": "Telofaz II evresinden sonra gerceklesen sitokinez II hayvan hucrelerinde hangi yontemle gerceklesir?",
+                  "question": "Telofaz II evresinden sonra gerçekleşen sitokinez II hayvan hücrelerinde hangi yöntemle gerçekleşir?",
                   "answer": "boğumlanma"
                 },
                 {
-                  "question": "Mayoz I ile Mayoz II arasinda hangi evre yer almaz?",
+                  "question": "Mayoz I ile Mayoz II arasında hangi evre yer almaz?",
                   "answer": "interfaz"
                 },
                 {
-                  "question": "Mayoz I bittikten sonra Mayoz II baslamadan once DNA neden eslenmez?",
-                  "answer": "interfaz evresi olmadigi icin"
+                  "question": "Mayoz I bittikten sonra Mayoz II başlamadan önce DNA neden eşlenmez?",
+                  "answer": "interfaz evresi olmadığı için"
                 },
                 {
-                  "question": "Profaz I evresine gore daha kisa suren ve iğ ipliklerinin olustugu Mayoz II baslangic evresi nedir?",
+                  "question": "Profaz I evresine göre daha kısa süren ve iğ ipliklerinin oluştuğu Mayoz II başlangıç evresi nedir?",
                   "answer": "Profaz II"
                 },
                 {
-                  "question": "Profaz II evresinde cekirdek zari ve varsa cekirdekcik ne olur?",
+                  "question": "Profaz II evresinde çekirdek zarı ve varsa çekirdekçik ne olur?",
                   "answer": "dağılır"
                 },
                 {
-                  "question": "Mayoz II evresinde kromozomlarin belirginlestigi ve iğ ipliklerinin olustugu evre hangisidir?",
+                  "question": "Mayoz II evresinde kromozomların belirginleştiği ve iğ ipliklerinin oluştuğu evre hangisidir?",
                   "answer": "Profaz II"
                 },
                 {
@@ -31609,7 +31609,7 @@
                   "answer": "Anafaz II"
                 },
                 {
-                  "question": "Mayoz II sirasinda gerceklesen Anafaz II evresi hangi temel bolunme turunun anafaz evresine benzerlik gosterir?",
+                  "question": "Mayoz II sırasında gerçekleşen Anafaz II evresi hangi temel bölünme türünün anafaz evresine benzerlik gösterir?",
                   "answer": "mitoz"
                 }
               ]
@@ -31618,43 +31618,43 @@
               "title": "Kart Seti 5",
               "cards": [
                 {
-                  "question": "Mayoz I ile Mayoz II arasinda DNA'nin kopyalanmamasinin temel sebebi hangi evrenin eksikligidir?",
+                  "question": "Mayoz I ile Mayoz II arasında DNA'nın kopyalanmamasının temel sebebi hangi evrenin eksikliğidir?",
                   "answer": "interfaz"
                 },
                 {
-                  "question": "Mayoz II evrelerinden hangisinde kromozomlar hucrenin ekvatoral dulemine dizilir?",
+                  "question": "Mayoz II evrelerinden hangisinde kromozomlar hücrenin ekvatoral düzlemine dizilir?",
                   "answer": "Metafaz II"
                 },
                 {
-                  "question": "Telofaz II evresinden sonra gerceklesen sitokinez II sirasinda bitki hucrelerinde sitoplazma bolunmesini saglayan olusum nedir?",
-                  "answer": "hucre bagi"
+                  "question": "Telofaz II evresinden sonra gerçekleşen sitokinez II sırasında bitki hücrelerinde sitoplazma bölünmesini sağlayan oluşum nedir?",
+                  "answer": "hücre bağı"
                 },
                 {
-                  "question": "Mayoz II surecinde kromozomlarin hareketini baslatan ve iplik seklinde olusan yapilarin adi nedir?",
-                  "answer": "ig iplikleri"
+                  "question": "Mayoz II sürecinde kromozomların hareketini başlatan ve iplik şeklinde oluşan yapıların adı nedir?",
+                  "answer": "iğ iplikleri"
                 },
                 {
-                  "question": "Mayoz II sonrasinda olusan dort yeni hucrenin temel genetik ozelligi baslangictaki ana hucreye gore nasildir?",
-                  "answer": "farkli"
+                  "question": "Mayoz II sonrasında oluşan dört yeni hücrenin temel genetik özelliği başlangıçtaki ana hücreye göre nasıldır?",
+                  "answer": "farklı"
                 },
                 {
-                  "question": "Mayoz II tamamlandiginda olusan yeni hucrelerin kromozom takimi durumu hangi kavramla ifade edilir?",
+                  "question": "Mayoz II tamamlandığında oluşan yeni hücrelerin kromozom takımı durumu hangi kavramla ifade edilir?",
                   "answer": "haploit"
                 },
                 {
-                  "question": "Mayoz II evreleri sirasinda cekirdek zarinin ve cekirdekcigin ortadan kalktigi ilk evre hangisidir?",
+                  "question": "Mayoz II evreleri sırasında çekirdek zarının ve çekirdekçiğin ortadan kalktığı ilk evre hangisidir?",
                   "answer": "Profaz II"
                 },
                 {
-                  "question": "Mayoz bolunme tamamlandiginda tek bir diploit ana hucreden toplam kac adet yeni hucre meydana gelir?",
+                  "question": "Mayoz bölünme tamamlandığında tek bir diploit ana hücreden toplam kaç adet yeni hücre meydana gelir?",
                   "answer": "4"
                 },
                 {
-                  "question": "Mayoz I ve Mayoz II arasinda gerceklesmeyen olay sonucunda hucredeki hangi molekul eslenmez?",
+                  "question": "Mayoz I ve Mayoz II arasında gerçekleşmeyen olay sonucunda hücredeki hangi molekül eşlenmez?",
                   "answer": "DNA"
                 },
                 {
-                  "question": "2n kromozom sayisina sahip bir hucre mayoz surecini tamamladiginda olusan hucrelerin kromozom formulu ne olur?",
+                  "question": "2n kromozom sayısına sahip bir hücre mayoz sürecini tamamladığında oluşan hücrelerin kromozom formülü ne olur?",
                   "answer": "n"
                 }
               ]
@@ -32659,33 +32659,33 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Mayoz I ve Mayoz II arasindaki dinlenme evresinde DNA molekulu kendini bir kez daha esler.",
+                  "question": "Mayoz I ve Mayoz II arasındaki dinlenme evresinde DNA molekülü kendini bir kez daha eşler.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Mayoz I ile Mayoz II arasinda interfaz evresi yoktur ve DNA eslenmesi gerceklesmez.",
+                  "explanation": "Mayoz I ile Mayoz II arasında interfaz evresi yoktur ve DNA eşlenmesi gerçekleşmez.",
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Profaz II evresinde cekirdek zari ve varsa cekirdekcik dagilmaya baslar, ayrica iq iplikleri olusur.",
+                  "question": "Profaz II evresinde çekirdek zarı ve varsa çekirdekçik dağılmaya başlar, ayrıca iğ iplikleri oluşur.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Profaz II asamasinda cekirdek zari erir, cekirdekcik dagilir ve igne iplikleri olusarak kromozomlar belirginlesir.",
+                  "explanation": "Profaz II aşamasında çekirdek zarı erir, çekirdekçik dağılır ve iğne iplikleri oluşarak kromozomlar belirginleşir.",
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Metafaz II evresinde kromozomlar ekvatoral duzleme ciftler halinde yan yana dizilirler.",
+                  "question": "Metafaz II evresinde kromozomlar ekvatoral düzleme çiftler halinde yan yana dizilirler.",
                   "options": [
                     "Doğru",
                     "Yanlış"
                   ],
                   "correctIndex": 1,
-                  "explanation": "Metafaz II de kromozomlar ekvatoral duzleme tekli sira halinde dizilir, ciftler halinde dizilme Mayoz I de olur.",
+                  "explanation": "Metafaz II de kromozomlar ekvatoral düzleme tekli sıra halinde dizilir, çiftler halinde dizilme Mayoz I de olur.",
                   "type": "trueFalse"
                 }
               ]
