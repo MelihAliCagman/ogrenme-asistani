@@ -45,7 +45,9 @@ Pattern: generate with Gemini → review `tool/curriculum_path_output.json` → 
 - `generate_curriculum_path.dart`, `generate_unit{2..6}_content.dart` — Gemini content generators per unit (resume-aware: they skip nodes whose parts are already complete). Read `GEMINI_API_KEY` straight from `.env`.
 - `seed_curriculum_path_admin.dart` / `seed_sample_lessons_admin.dart` — write the JSON outputs to Firestore using `tool/service-account.json` (gitignored; Firebase Console → Service Accounts → generate key).
 - `migrate_curriculum_parts.dart`, `regenerate_fillblank.dart`, `fix_broken_cards.dart` — one-off repair/reshape tools (Turkish diacritic loss, part splitting).
-- Content status: TYT Biyoloji Ünite 1–5 done; Ünite 6 ("Mayoz ve Eşeyli Üreme") has 2 of 4 nodes generated (blocked earlier by Gemini's daily free-tier quota); Ünite 7–9 not started. See memory for resume steps.
+- `spend_guard.dart` — shared Gemini spend meter (`tool/spend_ledger.json`, gitignored); every paid-API tool must go through it and take `--budget-usd`.
+- `analyze_source_book.dart` — turns OCR text of a source book (`kaynaklar/ocr/`, local only, gitignored, **never commit book PDFs/text**) into an abstract topic/facts list and a question-pattern catalog in `kaynaklar/analiz/`. Refuses to send book text without `--paid-tier-confirmed` (free tier data may be used by Google for training). Never pass book text into content-generation prompts, only the abstract outputs.
+- Content status: TYT Biyoloji Ünite 1–6 generated and seeded; Ünite 7–9 (Kalıtımın Genel İlkeleri, Ekosistem Ekolojisi, Güncel Çevre Sorunları) not started.
 
 ### Environment
 

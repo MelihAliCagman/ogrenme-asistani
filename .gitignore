@@ -51,3 +51,9 @@ tool/service-account.json
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Telifli kaynak kitaplar - asla commit edilmez
+kaynaklar/
+*.pdf
+*.epub
+tool/spend_ledger.json
