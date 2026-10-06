@@ -57,3 +57,4 @@ kaynaklar/
 *.pdf
 *.epub
 tool/spend_ledger.json
+tool/logs/
