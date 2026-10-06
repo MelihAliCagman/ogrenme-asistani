@@ -88,6 +88,11 @@ Future<void> main() async {
         'examType': content['examType'] ?? 'YKS',
         'subject': content['subject'] ?? 'Biyoloji',
         'hasContent': hasContent,
+        'unitCount': units.length,
+        'nodeCount': units.fold<int>(
+          0,
+          (sum, u) => sum + ((u as Map<String, dynamic>)['nodes'] as List).length,
+        ),
       }),
     });
     final pathResponse = await client.patch(
@@ -131,54 +136,13 @@ Future<void> main() async {
       stderr.writeln('✅ Yazıldı: $unitId (${unit['title']}) - $nodeCount node');
     }
 
-    // "AYT Biyoloji" placeholder — no units authored yet, so it shows
-    // locked/"Yakında" in the Ders Yolları hierarchy leaf list (see
-    // PathVariantsScreen) purely from hasContent: false, same convention
-    // as an empty CurriculumUnit on the unit list itself.
-    await _upsertPlaceholderPath(
-      client,
-      projectId,
-      subjectKey: 'ayt_biyoloji',
-      title: 'AYT Biyoloji',
-      examType: 'YKS',
-      subject: 'Biyoloji',
-    );
+    // AYT Biyoloji (and every other ders without questions yet) is seeded
+    // as an outline by tool/seed_yks_outline_admin.dart.
 
     stderr.writeln('Tamamlandı.');
   } finally {
     client.close();
   }
-}
-
-Future<void> _upsertPlaceholderPath(
-  AuthClient client,
-  String projectId, {
-  required String subjectKey,
-  required String title,
-  required String examType,
-  required String subject,
-}) async {
-  final uri = Uri.parse(
-    'https://firestore.googleapis.com/v1/projects/$projectId/databases/(default)/documents/$_collection/$subjectKey',
-  );
-  final body = jsonEncode({
-    'fields': _toFirestoreFields({
-      'title': title,
-      'examType': examType,
-      'subject': subject,
-      'hasContent': false,
-    }),
-  });
-  final response = await client.patch(
-    uri,
-    headers: {'Content-Type': 'application/json'},
-    body: body,
-  );
-  if (response.statusCode != 200) {
-    stderr.writeln('❌ $subjectKey (placeholder): HTTP ${response.statusCode} ${response.body}');
-    return;
-  }
-  stderr.writeln('✅ Yazıldı: $subjectKey (placeholder, "Yakında")');
 }
 
 Map<String, dynamic> _toFirestoreFields(Map<String, dynamic> map) {

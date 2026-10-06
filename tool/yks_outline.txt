@@ -1,0 +1,411 @@
+# YKS müfredat taslağı (TYT / AYT / YDT) — ders > ünite > konu.
+# Biçim:  @anahtar|Ders adı        yeni bir ders yolu başlatır (anahtar tyt_/ayt_/ydt_ ile başlar)
+#         # Ünite adı              yeni ünite
+#         Konu 1|Konu 2|Konu 3     bir önceki ünitenin konuları
+# Kaynak: Fizik, Kimya, AYT Biyoloji, Tarih, Din Kültürü ve Felsefe ünite adları MEB'in "ÖSYM tarafından 2026
+# yılında gerçekleştirilecek TYT, AYT ve YDT sınavlarına esas ortak derslere ait kazanım ve açıklamalar" belgesinden
+# alındı (ttkb.meb.gov.tr/meb_iys_dosyalar/2025_11/26164023_2026_yks.pdf; TYT = 9-10. sınıf, AYT = 11-12. sınıf).
+# Türkçe, Matematik, Geometri, Edebiyat, Coğrafya, Mantık, Psikoloji, Sosyoloji ve İngilizce taslağı ÖSYM soru
+# dağılımına göre el ile derlendi; konu adları çalışma başlığıdır, her sınav dönemi öncesi güncel belgeyle
+# karşılaştırılmalı.
+# tyt_biyoloji içeriği ayrı üretildiği için burada YOK.
+
+@tyt_turkce|Türkçe
+# Sözcükte Anlam
+Sözcüğün Anlamı|Gerçek, Mecaz ve Terim Anlam|Çok Anlamlılık ve Eş Sesli Sözcükler|Eş Anlamlı ve Zıt Anlamlı Sözcükler|Deyimler ve Atasözleri
+# Cümlede Anlam
+Cümle Yorumlama|Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları|Neden-Sonuç ve Amaç-Sonuç Cümleleri|Koşul, Karşılaştırma ve Örnekleme|Öznel ve Nesnel Yargılar
+# Paragraf
+Ana Düşünce ve Konu|Yardımcı Düşünce|Paragrafın Yapısı|Paragraf Tamamlama ve Bölme|Anlatım Teknikleri
+# Ses Bilgisi
+Ünlü ve Ünsüz Uyumları|Ses Olayları|Hece ve Vurgu
+# Yazım Kuralları
+Büyük Harflerin Kullanımı|Birleşik Sözcüklerin Yazımı|de, ki, mi Yazımı|Sayıların ve Kısaltmaların Yazımı
+# Noktalama İşaretleri
+Nokta, Virgül, Noktalı Virgül|İki Nokta, Üç Nokta, Soru ve Ünlem İşaretleri|Tırnak, Parantez, Kesme ve Tire
+# Sözcük Türleri
+İsimler|Sıfatlar|Zamirler|Zarflar|Edat, Bağlaç ve Ünlem|Fiiller|Fiilde Kip ve Kişi|Fiilde Çatı|Fiilimsiler|Ek Fiil
+# Sözcükte Yapı
+Kök ve Ekler|Yapım Ekleri|Çekim Ekleri|Basit, Türemiş ve Birleşik Sözcükler
+# Cümlenin Ögeleri
+Yüklem|Özne|Nesne|Dolaylı Tümleç ve Zarf Tümleci|Cümle Vurgusu ve Ögelerin Yeri
+# Cümle Türleri
+Yüklemin Türüne Göre Cümleler|Yapısına Göre Cümleler|Anlamına Göre Cümleler
+# Anlatım Bozuklukları
+Anlama Dayalı Bozukluklar|Yapıya Dayalı Bozukluklar
+
+@tyt_matematik|Matematik
+# Temel Kavramlar
+Sayı Kümeleri ve Sayı Basamakları|Bölme ve Bölünebilme|Asal Çarpanlara Ayırma|EBOB ve EKOK|Rasyonel Sayılar|Ondalık Sayılar|Gerçek Sayılar
+# Üslü ve Köklü Sayılar
+Üslü Sayılar|Köklü Sayılar|Mutlak Değer|Çarpanlara Ayırma
+# Denklemler ve Eşitsizlikler
+Birinci Dereceden Denklemler|Eşitsizlikler|Oran ve Orantı|Denklem Çözme Teknikleri
+# Problemler
+Sayı ve Kesir Problemleri|Yaş Problemleri|İşçi ve Havuz Problemleri|Hareket Problemleri|Yüzde, Kâr ve Zarar|Karışım Problemleri|Tablo ve Grafik Problemleri
+# Kümeler ve Mantık
+Kümelerde Temel Kavramlar|Kümelerde İşlemler|Önermeler ve Bağlaçlar
+# Fonksiyonlar
+Fonksiyon Kavramı|Fonksiyon Türleri|Bileşke ve Ters Fonksiyon
+# Polinomlar ve Denklemler
+Polinomlar|İkinci Dereceden Denklemler|Parabol|Çarpanlara Ayırma Uygulamaları
+# Sayma ve Olasılık
+Sayma Kuralları|Permütasyon|Kombinasyon|Olasılık
+# Veri Analizi
+Ortalama, Medyan, Mod ve Aralık|Grafik ve Tablo Yorumlama|Betimsel İstatistik
+
+@tyt_geometri|Geometri
+# Temel Geometri
+Temel Geometrik Kavramlar|Doğruda Açılar|Üçgende Açılar
+# Üçgenler
+Özel Üçgenler|Üçgende Eşlik ve Benzerlik|Üçgende Alan|Üçgende Açıortay ve Kenarortay|Pisagor ve Öklid Bağıntıları
+# Çokgenler ve Dörtgenler
+Çokgenler|Paralelkenar ve Eşkenar Dörtgen|Dikdörtgen ve Kare|Yamuk ve Deltoid
+# Çember ve Daire
+Çemberde Açılar|Çemberde Uzunluk|Dairenin Çevresi ve Alanı
+# Analitik Geometri
+Noktanın Analitiği|Doğrunun Analitik İncelenmesi
+# Katı Cisimler
+Prizmalar|Piramitler|Silindir, Koni ve Küre
+
+@tyt_fizik|Fizik
+# Fizik Bilimine Giriş
+Fizik Biliminin Önemi|Fiziğin Uygulama Alanları|Fiziksel Niceliklerin Sınıflandırılması|Bilim Araştırma Merkezleri
+# Madde ve Özellikleri
+Madde ve Özkütle|Dayanıklılık|Yapışma ve Birbirini Tutma
+# Hareket ve Kuvvet
+Hareket|Kuvvet|Newton’ın Hareket Yasaları|Sürtünme Kuvveti
+# Enerji
+İş, Enerji ve Güç|Mekanik Enerji|Enerjinin Korunumu ve Enerji Dönüşümleri|Verim|Enerji Kaynakları
+# Isı ve Sıcaklık
+Isı ve Sıcaklık|Hâl Değişimi|Isıl Denge|Enerji İletim Yolları ve Enerji İletim Hızı|Genleşme
+# Elektrostatik
+Elektrik Yükleri
+# Elektrik ve Manyetizma
+Elektrik Akımı, Potansiyel Farkı ve Direnç|Elektrik Devreleri|Mıknatıs ve Manyetik Alan|Akım ve Manyetik Alan
+# Basınç ve Kaldırma Kuvveti
+Basınç|Kaldırma Kuvveti
+# Dalgalar
+Dalgalar|Yay Dalgası|Su Dalgası|Ses Dalgası|Deprem Dalgası
+# Optik
+Aydınlanma|Gölge|Yansıma|Düzlem Ayna|Küresel Aynalar|Kırılma|Mercekler|Prizmalar|Renk
+
+@tyt_kimya|Kimya
+# Kimya Bilimi
+Simyadan Kimyaya|Kimya Disiplinleri ve Kimyacıların Çalışma Alanları|Kimyanın Sembolik Dili|Kimya Uygulamalarında İş Sağlığı ve Güvenliği
+# Atom ve Periyodik Sistem
+Atom Modelleri|Atomun Yapısı|Periyodik Sistem
+# Kimyasal Türler Arası Etkileşimler
+Kimyasal Tür|Kimyasal Türler Arası Etkileşimlerin Sınıflandırılması|Güçlü Etkileşimler|Zayıf Etkileşimler|Fiziksel ve Kimyasal Değişimler
+# Maddenin Hâlleri
+Maddenin Fiziksel Hâlleri|Katılar|Sıvılar|Gazlar|Plazma
+# Doğa ve Kimya
+Su ve Hayat|Çevre Kimyası
+# Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar
+Kimyanın Temel Kanunları|Mol Kavramı|Kimyasal Tepkimeler ve Denklemler|Kimyasal Tepkimelerde Hesaplamalar
+# Karışımlar
+Homojen ve Heterojen Karışımlar|Ayırma ve Saflaştırma Teknikleri
+# Asitler, Bazlar ve Tuzlar
+Asitler ve Bazlar|Asitlerin ve Bazların Tepkimeleri|Hayatımızda Asitler ve Bazlar|Tuzlar
+# Kimya Her Yerde
+Yaygın Günlük Hayat Kimyasalları|Gıdalar
+
+@tyt_tarih|Tarih
+# Tarih ve Zaman
+Tarih Bilimi ve Kaynakları|Zaman ve Kronoloji|Tarihin Yardımcı Bilimleri
+# İnsanlığın İlk Dönemleri
+Paleolitik ve Neolitik Dönemler|İlk Çağ Uygarlıkları
+# Orta Çağ’da Dünya
+Avrupa’da Orta Çağ|Doğu ve Batı Dünyası
+# İlk ve Orta Çağlarda Türk Dünyası
+İlk Türk Devletleri|Türklerde Devlet ve Toplum Yapısı|Türk Kültür ve Medeniyeti
+# İslam Medeniyetinin Doğuşu
+İslam’ın Doğuşu ve Yayılışı|İlk İslam Devletleri|İslam Medeniyeti
+# Türklerin İslamiyet’i Kabulü ve İlk Türk İslam Devletleri
+Türklerin İslamiyet’i Kabulü|Karahanlılar ve Gazneliler|Büyük Selçuklu Devleti
+# Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi
+Anadolu’nun Fethi ve Yurt Edinme|Türkiye Selçuklu Devleti|Anadolu Beylikleri
+# 20. Yüzyıl Başlarında Osmanlı Devleti ve Dünya
+Balkan Savaşları ve Trablusgarp|I. Dünya Savaşı|Mondros ve İşgaller
+# Millî Mücadele
+Kuvayımilliye ve TBMM|Cepheler|Lozan ve Diplomasi
+# Atatürkçülük ve Türk İnkılabı
+Atatürk İlkeleri|Siyasi, Hukuki ve Toplumsal İnkılaplar|Eğitim, Kültür ve Ekonomi
+# İki Savaş Arasındaki Dönemde Türkiye ve Dünya
+Türkiye’nin İç ve Dış Politikası|İki Savaş Arası Dünya
+# II. Dünya Savaşı Sürecinde Türkiye ve Dünya
+Savaşın Nedenleri ve Gelişimi|Türkiye’nin Siyaseti|Savaşın Sonuçları
+# II. Dünya Savaşı Sonrasında Türkiye ve Dünya
+Soğuk Savaş|Türkiye’de Çok Partili Hayat
+# Toplumsal Devrim Çağında Dünya ve Türkiye
+Toplumsal Hareketler|Türkiye’de Siyasi ve Toplumsal Değişim
+# 21. Yüzyılın Eşiğinde Türkiye ve Dünya
+Küreselleşme|Türkiye’nin Dış Politikası|Bilim ve Teknoloji
+
+@tyt_cografya|Coğrafya
+# Doğa ve İnsan
+Coğrafya Bilimi ve Konum|Dünya'nın Şekli ve Hareketleri|Harita Bilgisi
+# Atmosfer ve İklim
+Atmosfer ve Sıcaklık|Basınç ve Rüzgârlar|Nem ve Yağış|İklim Tipleri|Türkiye'nin İklimi
+# Yer Şekilleri
+İç Kuvvetler ve Levha Tektoniği|Dış Kuvvetler|Türkiye'nin Yer Şekilleri
+# Doğal Varlıklar
+Su Varlığı|Toprak Varlığı|Bitki Varlığı
+# Beşeri Sistemler
+Nüfus ve Dağılışı|Göçler|Yerleşme
+# Ekonomik Faaliyetler
+Tarım ve Hayvancılık|Madencilik ve Enerji|Sanayi, Ticaret ve Ulaşım
+# Bölgeler ve Ülkeler
+Türkiye'nin Coğrafi Bölgeleri|Bölge Türleri|Ülkeler Arası Etkileşim
+# Çevre ve Toplum
+Doğal Afetler|Çevre Sorunları|Sürdürülebilirlik
+
+@tyt_felsefe|Felsefe
+# Felsefeyi Tanıma
+Felsefenin Konusu ve Alanı|Felsefenin Özellikleri
+# Felsefe İle Düşünme
+Felsefeyle Düşünme|Felsefi Yöntem
+# Felsefenin Temel Konuları ve Problemleri
+Bilgi Felsefesi|Varlık Felsefesi|Ahlak Felsefesi|Sanat Felsefesi|Din Felsefesi|Siyaset Felsefesi|Bilim Felsefesi
+# Felsefi Okuma ve Yazma
+Felsefi Metin Okuma|Felsefi Yazma
+
+@tyt_din|Din Kültürü
+# Bilgi ve İnanç
+Bilgi ve İnanç
+# Din ve İslam
+Din ve İslam
+# İslam ve İbadet
+İslam ve İbadet
+# Gençlik ve Değerler
+Gençlik ve Değerler
+# Gönül Coğrafyamız
+Gönül Coğrafyamız
+# Allah İnsan İlişkisi
+Allah İnsan İlişkisi
+# Hz. Muhammed ve Gençlik
+Hz. Muhammed ve Gençlik
+# Din ve Hayat
+Din ve Hayat
+# Ahlaki Tutum ve Davranışlar
+Ahlaki Tutum ve Davranışlar
+
+@ayt_matematik|Matematik
+# Fonksiyonlar
+Fonksiyonlar ve Grafikleri|Bileşke ve Ters Fonksiyon|Fonksiyonlarda Dönüşümler
+# Polinomlar ve Denklemler
+Polinomlar|İkinci Dereceden Denklemler|Eşitsizlikler ve Mutlak Değer
+# Parabol
+Parabolün Grafiği|Parabol ve Doğru
+# Trigonometri
+Trigonometrik Oranlar|Trigonometrik Fonksiyonlar|Trigonometrik Denklemler|Toplam-Fark ve Dönüşüm Formülleri
+# Logaritma
+Üstel Fonksiyon|Logaritma Fonksiyonu|Logaritmik Denklem ve Eşitsizlikler
+# Diziler
+Dizi Kavramı|Aritmetik Dizi|Geometrik Dizi
+# Limit ve Süreklilik
+Limit Kavramı|Limit Hesaplama Teknikleri|Süreklilik
+# Türev
+Türev Kavramı|Türev Kuralları|Türevin Uygulamaları|Grafik Çizimi ve Ekstremum
+# İntegral
+Belirsiz İntegral|Belirli İntegral|Alan ve Hacim Hesapları
+# Sayma ve Olasılık
+Permütasyon ve Kombinasyon|Binom Açılımı|Olasılık
+
+@ayt_geometri|Geometri
+# Üçgenler ve Çokgenler
+Üçgende Trigonometri|Üçgende Benzerlik ve Alan|Çokgenler ve Dörtgenler
+# Çember ve Daire
+Çemberde Teğet ve Kiriş|Çemberde Açı ve Uzunluk|Dairenin Alanı
+# Analitik Geometri
+Doğrunun Analitik İncelenmesi|Çemberin Analitik İncelenmesi
+# Dönüşüm Geometrisi
+Öteleme ve Yansıma|Dönme ve Simetri
+# Katı Cisimler
+Prizma ve Piramit|Silindir, Koni ve Küre|Yüzey Alanı ve Hacim
+
+@ayt_fizik|Fizik
+# Kuvvet ve Hareket
+Vektörler|Bağıl Hareket|Newton’ın Hareket Yasaları|Bir Boyutta Sabit İvmeli Hareket|İki Boyutta Hareket|Enerji ve Hareket|İtme ve Çizgisel Momentum|Tork|Denge ve Denge Şartları|Basit Makineler
+# Elektrik ve Manyetizma
+Elektriksel Kuvvet ve Elektrik Alan|Elektriksel Potansiyel|Düzgün Elektrik Alan ve Sığa|Manyetizma ve Elektromanyetik İndüklenme|Alternatif Akım|Transformatörler
+# Çembersel Hareket
+Düzgün Çembersel Hareket|Dönerek Öteleme Hareketi|Açısal Momentum|Kütle Çekim Kuvveti|Kepler Kanunları
+# Basit Harmonik Hareket
+Basit Harmonik Hareket
+# Dalga Mekaniği
+Dalgalarda Kırınım, Girişim ve Doppler Olayı|Elektromanyetik Dalgalar
+# Atom Fiziğine Giriş ve Radyoaktivite
+Atom Kavramının Tarihsel Gelişimi|Büyük Patlama ve Evrenin Oluşumu|Radyoaktivite
+# Modern Fizik
+Özel Görelilik|Kuantum Fiziğine Giriş|Fotoelektrik Olayı|Compton Saçılması ve de Broglie Dalga Boyu
+# Modern Fiziğin Teknolojideki Uygulamaları
+Görüntüleme Teknolojileri|Yarı İletken Teknolojisi|Süper İletkenler|Nanoteknoloji|Laser Işınları
+
+@ayt_kimya|Kimya
+# Modern Atom Teorisi
+Atomun Kuantum Modeli|Periyodik Sistem ve Elektron Dizilimleri|Periyodik Özellikler|Elementleri Tanıyalım|Yükseltgenme Basamakları
+# Gazlar
+Gazların Özellikleri ve Gaz Yasaları|İdeal Gaz Yasası|Gazlarda Kinetik Teori|Gaz Karışımları|Gerçek Gazlar
+# Sıvı Çözeltiler ve Çözünürlük
+Çözücü Çözünen Etkileşimleri|Derişim Birimleri|Koligatif Özellikler|Çözünürlük|Çözünürlüğe Etki Eden Faktörler
+# Kimyasal Tepkimelerde Enerji
+Tepkimelerde Isı Değişimi|Oluşum Entalpisi|Bağ Enerjileri|Tepkime Isılarının Toplanabilirliği
+# Kimyasal Tepkimelerde Hız
+Tepkime Hızları|Tepkime Hızını Etkileyen Faktörler
+# Kimyasal Tepkimelerde Denge
+Kimyasal Denge|Dengeyi Etkileyen Faktörler|Sulu Çözelti Dengeleri
+# Kimya ve Elektrik
+İndirgenme-Yükseltgenme Tepkimelerinde Elektrik Akımı|Elektrotlar ve Elektrokimyasal Hücreler|Elektrot Potansiyelleri|Kimyasallardan Elektrik Üretimi|Elektroliz|Korozyon
+# Karbon Kimyasına Giriş
+Anorganik ve Organik Bileşikler|Basit Formül ve Molekül Formülü|Doğada Karbon|Lewis Formülleri|Hibritleşme-Molekül Geometrileri
+# Organik Bileşikler
+Hidrokarbonlar|Fonksiyonel Gruplar|Alkoller|Eterler|Karbonil Bileşikleri|Karboksilik Asitler|Esterler
+# Enerji Kaynakları ve Bilimsel Gelişmeler
+Fosil Yakıtlar|Alternatif Enerji Kaynakları|Sürdürülebilirlik|Nanoteknoloji
+
+@ayt_biyoloji|Biyoloji
+# İnsan Fizyolojisi
+Denetleyici ve Düzeleyici Sistem, Duyu Organları|Destek ve Hareket Sistemi|Sindirim Sistemi|Dolaşım Sistemleri|Solunum Sistemi|Üriner Sistem|Üreme Sistemi ve Embriyonik Gelişim
+# Komünite ve Popülasyon Ekolojisi
+Komünite Ekolojisi|Popülasyon Ekolojisi
+# Genden Proteine
+Nükleik Asitlerin Keşfi ve Önemi|Genetik Şifre ve Protein Sentezi
+# Canlılarda Enerji Dönüşümleri
+Canlılık ve Enerji|Fotosentez|Kemosentez|Hücresel Solunum
+# Bitki Biyolojisi
+Bitkilerin Yapısı|Bitkilerde Madde Taşınması|Bitkilerde Eşeyli Üreme
+# Canlılar ve Çevre
+Canlılar ve Çevre
+
+@ayt_edebiyat|Edebiyat
+# Edebiyatın Temelleri
+Güzel Sanatlar ve Edebiyat|Metinlerin Sınıflandırılması|Anlam ve Söz Sanatları
+# Şiir Bilgisi
+Nazım Biçimleri ve Ölçü|Uyak ve Redif|Şiir Dili ve Söz Sanatları
+# Edebi Türler
+Öğretici Metinler|Hikâye ve Roman|Tiyatro|Deneme, Makale ve Eleştiri
+# İslamiyet Öncesi ve Geçiş Dönemi Türk Edebiyatı
+İslamiyet Öncesi Türk Edebiyatı|Geçiş Dönemi Eserleri
+# Halk Edebiyatı
+Anonim Halk Edebiyatı|Âşık Edebiyatı|Dinî-Tasavvufi Halk Edebiyatı
+# Divan Edebiyatı
+Divan Şiiri ve Nazım Biçimleri|Divan Şairleri|Divan Nesri
+# Tanzimat ve Servet-i Fünun
+Tanzimat Edebiyatı|Servet-i Fünun ve Fecr-i Ati
+# Milli ve Cumhuriyet Dönemi Edebiyatı
+Milli Edebiyat Dönemi|Cumhuriyet Dönemi Şiiri|Cumhuriyet Dönemi Roman ve Hikâyesi|Cumhuriyet Dönemi Tiyatro ve Düşünce
+# Edebi Akımlar ve Dünya Edebiyatı
+Batı Edebiyatı Akımları|Dünya Edebiyatından Eserler
+
+@ayt_tarih|Tarih
+# Beylikten Devlete Osmanlı Siyaseti (1302-1453)
+Osmanlı’nın Kuruluşu|Fetih ve Yükseliş
+# Devletleşme Sürecinde Savaşçılar ve Askerler
+Osmanlı Ordusu ve Savaş Teknikleri|Kapıkulu Ocakları
+# Beylikten Devlete Osmanlı Medeniyeti
+Yönetim Anlayışı|Kültür ve Sanat
+# Dünya Gücü Osmanlı (1453-1595)
+İstanbul’un Fethi|Yükselme Dönemi Seferleri|Akdeniz ve Denizcilik
+# Sultan ve Osmanlı Merkez Teşkilatı
+Padişah ve Saray|Divan-ı Hümayun|Taşra Teşkilatı
+# Klasik Çağda Osmanlı Toplum Düzeni
+Toplum Yapısı|Ekonomi ve Esnaf|Vakıflar
+# Değişen Dünya Dengeleri Karşısında Osmanlı Siyaseti (1595-1774)
+Duraklama Dönemi|Savaşlar ve Antlaşmalar|Küçük Kaynarca
+# Değişim Çağında Avrupa ve Osmanlı
+Avrupa’da Değişim|Osmanlı’da Islahatlar
+# Devrimler Çağında Değişen Devlet-Toplum İlişkileri
+Fransız İhtilali ve Etkileri|Sanayi Devrimi|Meşrutiyet ve Anayasal Gelişmeler
+# Uluslararası İlişkilerde Denge Stratejisi (1774-1914)
+Doğu Sorunu|Denge Politikası
+# XIX ve XX. Yüzyılda Değişen Sosyo-Ekonomik Hayat
+Ekonomik Değişim|Toplumsal Değişim|Kültür ve Eğitim
+
+@ayt_cografya|Coğrafya
+# Ekosistem ve Biyoçeşitlilik
+Ekosistemin Yapısı|Madde Döngüleri|Biyoçeşitlilik
+# Nüfus ve Yerleşme
+Nüfus Politikaları|Şehirlerin Fonksiyonları|Göçler
+# Ekonomik Faaliyetler
+Tarım|Hayvancılık ve Ormancılık|Madencilik ve Enerji|Sanayi|Ticaret ve Ulaşım|Turizm
+# Doğal Afetler ve Çevre
+Doğal Afetler|Çevre Sorunları ve Politikalar
+# Küresel Ortam ve Jeopolitik
+Jeopolitik ve Küresel Ortam|Uluslararası Örgütler|Kültür Bölgeleri
+# Türkiye'nin Bölgesel Coğrafyası
+Türkiye'nin Bölgeleri|Ülkeler Arası Etkileşim
+
+@ayt_felsefe|Felsefe
+# MÖ 6. Yüzyıl-MS 2. Yüzyıl Felsefesi
+Felsefenin Doğuşu|Sokrates ve Sofistler|Platon ve Aristoteles
+# MS 2. Yüzyıl-MS 15. Yüzyıl Felsefesi
+Hristiyan Felsefesi|İslam Felsefesi
+# 15. Yüzyıl-17. Yüzyıl Felsefesi
+Rönesans ve Bilim Devrimi|Rasyonalizm ve Empirizm
+# 18. Yüzyıl-19. Yüzyıl Felsefesi
+Aydınlanma Felsefesi|Kant ve Alman İdealizmi|Pozitivizm ve Marksizm
+# 20. Yüzyıl Felsefesi
+Fenomenoloji ve Varoluşçuluk|Analitik Felsefe ve Bilim Felsefesi
+
+@ayt_mantik|Mantık
+# Mantığa Giriş
+Mantığın Konusu ve Önemi|Mantık ve Doğru Düşünme
+# Klasik Mantık
+Kavram ve Terim|Önerme|Klasik Mantıkta Çıkarım
+# Mantık ve Dil
+Dil ve Mantık|Tanım ve Kanıtlama
+# Sembolik Mantık
+Sembolik Mantığa Giriş|Önermeler Mantığı
+
+@ayt_psikoloji|Psikoloji
+# Psikoloji Bilimine Giriş
+Psikolojinin Tarihi ve Alanları|Psikolojide Araştırma Yöntemleri
+# Psikolojinin Temel Süreçleri
+Duyum, Algı ve Dikkat|Öğrenme|Bellek|Düşünme ve Problem Çözme
+# Ruh Sağlığı
+Gelişim Psikolojisi|Kişilik ve Motivasyon|Ruh Sağlığının Temelleri
+
+@ayt_sosyoloji|Sosyoloji
+# Sosyolojiye Giriş
+Sosyolojinin Doğuşu|Sosyolojinin Konusu ve Yöntemi
+# Birey ve Toplum
+Toplumsallaşma|Toplumsal Roller ve Statüler
+# Toplumsal Yapı ve Kurumlar
+Toplumsal Yapı|Toplumsal Kurumlar|Toplumsal Tabakalaşma
+# Kültür ve Değişme
+Toplum ve Kültür|Toplumsal Değişme ve Gelişme
+
+@ayt_din|Din Kültürü
+# Dünya ve Ahiret
+Dünya ve Ahiret
+# Kur’an’a Göre Hz. Muhammed
+Kur’an’a Göre Hz. Muhammed
+# Kur’an’da Bazı Kavramlar
+Kur’an’da Bazı Kavramlar
+# İnançla İlgili Meseleler
+İnançla İlgili Meseleler
+# Yahudilik ve Hıristiyanlık
+Yahudilik ve Hıristiyanlık
+# İslam ve Bilim
+İslam ve Bilim
+# Anadolu’da İslam
+Anadolu’da İslam
+# İslam Düşüncesinde Tasavvufi Yorumlar
+İslam Düşüncesinde Tasavvufi Yorumlar
+# Güncel Dinî Meseleler
+Güncel Dinî Meseleler
+# Hint ve Çin Dinleri
+Hint ve Çin Dinleri
+
+@ydt_ingilizce|İngilizce
+# Kelime Bilgisi
+Anlamdaş ve Zıt Anlamlı Kelimeler|Deyimler ve Phrasal Verbs
+# Dilbilgisi
+Tenses|Modals|Passive Voice|Conditionals|Relative Clauses|Noun Clauses|Reported Speech
+# Okuma
+Paragraf Anlama|Ana Düşünce ve Ayrıntılar|Çıkarım Soruları
+# Tamamlama Soruları
+Cümle Tamamlama|Diyalog Tamamlama|Paragraf Tamamlama|Anlam Bütünlüğünü Bozan Cümle
+# Çeviri
+İngilizce-Türkçe Çeviri|Türkçe-İngilizce Çeviri
