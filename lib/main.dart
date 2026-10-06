@@ -5,6 +5,7 @@ import 'package:ogrenme_asistani/firebase_options.dart';
 import 'package:ogrenme_asistani/screens/splash_screen.dart';
 import 'package:ogrenme_asistani/services/chat_font_size_controller.dart';
 import 'package:ogrenme_asistani/services/theme_controller.dart';
+import 'package:ogrenme_asistani/theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,17 +26,8 @@ class OgrenmeAsistaniApp extends StatelessWidget {
       builder: (context, mode, _) {
         return MaterialApp(
           title: 'Öğrenme Asistanı',
-          theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-            useMaterial3: true,
-          ),
-          darkTheme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(
-              seedColor: Colors.deepPurple,
-              brightness: Brightness.dark,
-            ),
-            useMaterial3: true,
-          ),
+          theme: AppTheme.light(),
+          darkTheme: AppTheme.dark(),
           themeMode: mode,
           home: const SplashScreen(),
         );

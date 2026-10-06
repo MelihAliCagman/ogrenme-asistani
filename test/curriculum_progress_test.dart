@@ -44,6 +44,26 @@ void main() {
       expect(node.hasContent(PathContentKind.flashcards), isTrue);
     });
 
+    test('içeriği hiç olmayan (sadece müfredat) konu asla tamamlanmış sayılmaz', () {
+      final outline = CurriculumNode.fromJson({
+        'id': 'node1',
+        'order': 1,
+        'title': 'Sadece başlık',
+      }, unitId: 'unit1');
+      expect(outline.hasAnyContent, isFalse);
+      expect(outline.isFullyCompleted(const NodeProgress()), isFalse);
+      final unit = CurriculumUnit.fromJson('unit1', {
+        'order': 1,
+        'title': 'U1',
+        'nodes': [
+          {'id': 'node1', 'order': 1, 'title': 'Sadece başlık'},
+        ],
+      });
+      expect(unit.hasContent, isFalse);
+      expect(unit.contentNodeCount, 0);
+      expect(unit.isComingSoon, isFalse);
+    });
+
     test('tüm parçalar bitmeden düğüm tamamlanmış sayılmaz', () {
       final node = _node();
       const half = NodeProgress(
