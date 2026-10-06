@@ -1,0 +1,3398 @@
+{
+  "subjectKey": "tyt_tarih",
+  "title": "TYT Tarih",
+  "examType": "YKS",
+  "subject": "Tarih",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Tarih ve Zaman",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tarih Bilimi ve Kaynakları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Tarih bilimi hangi olayları inceler?",
+                  "answer": "İnsan topluluklarının geçmişteki yaşayışlarını, faaliyetlerini, birbirleriyle olan ilişkilerini neden-sonuç ilişkisi içinde ve yer-zaman göstererek inceler."
+                },
+                {
+                  "question": "Tarihsel olay ve tarihsel olgu arasındaki temel fark nedir?",
+                  "answer": "Olay, kısa süreli ve somuttur (örneğin Malazgirt Savaşı); olgu ise uzun süreli, genel ve soyuttur (örneğin Türkleşme süreci)."
+                },
+                {
+                  "question": "Tarih araştırmalarında birinci elden kaynaklar nelerdir?",
+                  "answer": "Olayın geçirdiği dönemde üretilmiş, olaya doğrudan tanıklık eden her türlü kalıntı, belge, para ve kitabelerdir."
+                },
+                {
+                  "question": "Tarih biliminin deney ve gözlem yöntemini kullanamamasının temel nedeni nedir?",
+                  "answer": "Tarihsel olayların bir kez gerçekleşmiş ve bir daha aynı koşullarda tekrarlanamaz olmasıdır."
+                },
+                {
+                  "question": "Yazılı kaynakların oluşmasından önceki dönemi inceleyen tarih alt dalı nedir?",
+                  "answer": "Prehistorya (ön tarih) dönemidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi tarih biliminin yöntem basamaklarından biri değildir?",
+                  "options": [
+                    "Tarama (Kaynak arama)",
+                    "Tahlil (Çözümleme)",
+                    "Tasnif (Sınıflandırma)",
+                    "Deney yapma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tarih biliminin konusu geçmişteki insan faaliyetleri olduğu için laboratuvar ortamında deney yapılamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir tarih araştırmacısının elde ettiği belgelerin güvenilirliğini ve içeriğindeki bilgilerin doğru olup olmadığını denetlemesi aşaması aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tasnif",
+                    "Terkip",
+                    "Tahlil",
+                    "Tenkit"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tenkit (eleştiri) aşaması, elde edilen kaynakların iç ve dış tenkit yapılarak güvenilirliğinin test edildiği aşamadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi tarihin yazılı kaynakları arasında yer almaz?",
+                  "options": [
+                    "Fermanlar",
+                    "Kitabeler",
+                    "Tümülüs mezar kalıntıları",
+                    "Paralar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tümülüs mezar kalıntıları arkeolojik kazılar sonucu elde edilen kalıntılardır ve yazılı kaynak değil, maddi kültür kalıntısıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tarihî olayların incelenmesinde yer ve zaman gösterilmesinin temel amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Olayların nesnel ve güvenilir bir temele oturtulması",
+                    "Olayların tekrarlanabilirliğinin sağlanması",
+                    "Olayların ekonomik sonuçlarının hesaplanması",
+                    "Olaylar arasında deney yapılması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yer ve zaman belirtilmesi, tarihî olayların başka olaylarla karıştırılmasını önler ve nesnelliği artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi tarihin diğer bilim dallarından yararlanma nedenlerinden biridir?",
+                  "options": [
+                    "Tarihî olayların laboratuvarda tekrar canlandırılması",
+                    "Tarihin sadece siyasi olayları incelemesi",
+                    "Geçmişin aydınlatılmasında tek bir bilimin yetersiz kalması",
+                    "Tarihsel olayların gelecekteki sonuçlarının önceden kestirilmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tarih, geçmişin karmaşık yapısını ve insanlığın tüm faaliyetlerini incelediği için antropoloji, coğrafya, arkeoloji gibi birçok bilimden yararlanır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tarih araştırmalarında elde edilen kaynakların zaman, mekân ve konu olmak üzere gruplandırılması aşamasına ____ denir.",
+                  "options": [
+                    "tasnif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tasnif, elde edilen verilerin daha kolay incelenmesi için sınıflandırılması demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geçmişte yaşanmış bir olayın doğru olup olmadığını anlamak için yapılan kaynak eleştirisine ____ denir.",
+                  "options": [
+                    "tenkit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tenkit aşamasında kaynağın yazarı, güvenilirliği ve verilen bilgilerin doğruluğu sorgulanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarihsel verilerin birleştirilerek yeni bir sentez oluşturulduğu, yani eserin kaleme alındığı aşamaya ____ denir.",
+                  "options": [
+                    "terkip"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Terkip (sentez), tüm aşamalardan geçen bilgilerin bir araya getirilerek yazım aşamasına ulaşıldığı son adımdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazının icadından önceki dönemi inceleyen ve kazı bilimi olarak da bilinen bilim dalı ____ bilim dalıdır.",
+                  "options": [
+                    "arkeoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Arkeoloji, toprak altındaki maddi kalıntıları gün yüzüne çıkararak tarihe yardımcı olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarih bilimi geçmişteki olayları incelerken sebep-sonuç bağı kurmalı ve ____ olmalıdır.",
+                  "options": [
+                    "nesnel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarihçi tarafsız (nesnel) olmalı, duygularını ve dönemin önyargılarını araştırmasına yansıtmamalıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tarih bilimi, günümüzdeki olayları ve gelecekte yaşanabilecekleri kesin olarak tahmin eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tarih, kehanette bulunmaz veya geleceği kesin olarak tahmin etmez; geçmişin tecrübelerini bugüne aktarır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tarih araştırmalarında birinci elden kaynaklar, olayın yaşandığı döneme ait olan belgelerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci elden kaynaklar doğrudan olayın tanığı olan dönem eşyaları ve belgeleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tarihî olaylar arasında neden-sonuç ilişkisi kurmak mümkündür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her tarihî olay kendisinden önceki bir olayın sonucu, kendisinden sonraki olayın ise sebebidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tarih bilimi, olayları incelerken laboratuvar ortamında deney ve gözlem metodunu uygular.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tarihî olaylar bir kez yaşanmıştır ve tekrarlanamaz, bu yüzden deney ve gözlem yapılamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yazısız dönemlerin aydınlatılmasında arkeoloji ve antropoloji gibi bilimlerden üst düzeyde yararlanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazılı belge bulunmayan dönemlerde arkeolojik kazılar ve insan bilimi (antropoloji) hayati önem taşır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Zaman ve Kronoloji",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kronoloji nedir?",
+                  "answer": "Olayların zamanını tespit ederek sıralayan tarih bilimine yardımcı bilim dalıdır."
+                },
+                {
+                  "question": "Milat kavramı ne anlama gelir?",
+                  "answer": "Tarih takvimlerinin başlangıç noktası olarak kabul edilen olaydır."
+                },
+                {
+                  "question": "Yüzyıl (asit) hesaplanırken hangi kural uygulanır?",
+                  "answer": "Verilen yılın ilk iki veya üç hanesine 1 eklenerek yüzyıl bulunur."
+                },
+                {
+                  "question": "Milattan önce (MÖ) tarihlerde zaman ilerledikçe sayılar nasıl değişir?",
+                  "answer": "Sayısal değer sıfıra doğru küçülür."
+                },
+                {
+                  "question": "Takvimlerin oluşturulmasında hangi faktörler etkili olmuştur?",
+                  "answer": "Güneş'in ve Ay'ın hareketleri ile tarımsal faaliyetler etkili olmuştur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki bilim dallarından hangisi tarih araştırmalarında olayların zamanını sıralamak için doğrudan kronolojiye başvurur?",
+                  "options": [
+                    "Kronoloji",
+                    "Epigrafi",
+                    "Paleografya",
+                    "Nümizmatik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kronoloji, tarihsel olayların zamanını tespit ederek onları oluş sırasına koyar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Milattan Önce (MÖ) 375 yılında meydana gelen bir olay ile Milattan Sonra (MS) 125 yılında meydana gelen başka bir olay arasındaki süre ne kadardır?",
+                  "options": [
+                    "250 yıl",
+                    "500 yıl",
+                    "450 yıl",
+                    "200 yıl"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "MÖ 375'ten sıfıra kadar 375 yıl, sıfırdan MS 125'e kadar 125 yıl vardır. Toplam süre 375 + 125 = 500 yıldır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1453 yılı hangi yüzyıla ve bu yüzyılın hangi yarıyılına denk gelir?",
+                  "options": [
+                    "14. yüzyıl, ikinci yarı",
+                    "15. yüzyıl, birinci yarı",
+                    "15. yüzyıl, ikinci yarı",
+                    "14. yüzyıl, ilk yarı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1453 yılı 15. yüzyıldır. 01-50 arası yıllar birinci yarıyı kapsadığı için birinci yarıya girer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ay'ın dünya etrafındaki dönümünü esas alan ilk takvim hangi uygarlık tarafından bulunmuştur?",
+                  "options": [
+                    "Mısırlılar",
+                    "Romalılar",
+                    "Sümerler",
+                    "Yunanlılar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ay yılı esaslı ilk takvim Mezopotamya uygarlığı olan Sümerler tarafından geliştirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Güneş yılı esaslı takvimi ilk kez geliştiren ve 365 gün olarak hesaplayan medeniyet aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mısır",
+                    "Çin",
+                    "İran",
+                    "Babilliler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nil Nehri'nin taşması ve tarım hesapları sonucunda Güneş yılı esaslı takvimi ilk kez Mısırlılar bulmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Olayların zamanını belirleyerek sıralayan bilim dalına ____ denir.",
+                  "options": [
+                    "kronoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarih biliminin en önemli yardımcılarından biri olan kronoloji, olayları zaman sırasına koyar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hicri takvimin başlangıcı Hz. Muhammed'in Mekke'den Medine'ye ____ olayesidir.",
+                  "options": [
+                    "hicret"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam dünyasında kullanılan Hicri takvim, 622 yılındaki Hicret olayını başlangıç kabul eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Miladi takvimin temelini oluşturan Güneş yılı esaslı takvimi geliştiren ilk medeniyet ____ uygarlığıdır.",
+                  "options": [
+                    "Mısır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mısırlılar, Nil Nehri'nin taşma zamanlarını hesaplamak amacıyla Güneş esaslı takvimi icat etmişlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "MS 1923 yılı ____ yüzyıla denk gelmektedir.",
+                  "options": [
+                    "20."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1923 yılının ilk iki hanesine 1 eklendiğinde 20. yüzyıl elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarihî olayların değerlendirilmesinde günümüzden geriye doğru giden zaman ölçüsüne ____ denir.",
+                  "options": [
+                    "milattan önce"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Milattan Önce (MÖ) kavramı, İsa'nın doğumundan önceki dönemi ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kronoloji, tarihî olayların yerini ve mekânını inceleyen bilim dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kronoloji yer ve mekânı değil, zamanı ve sıralamayı inceler. Mekânı inceleyen bilim dalı coğrafyadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Milattan Önce (MÖ) tarihlerde sayısal değer büyüdükçe günümüze yaklaşılmış olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "MÖ tarihlerde sayılar büyüdükçe günümüzden uzaklaşılır, sıfıra yaklaştıkça günümüze yaklaşılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Celali takvimi, Büyük Selçuklu Devleti döneminde Melikşah adına düzenlenmiş Güneş yılı esaslı bir takvimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Celali takvimi tarımsal işleri düzenlemek amacıyla Melikşah döneminde hazırlanan Güneş esaslı bir takvimdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "12 Hayvanlı Türk Takvimi, Türklerin tarih boyunca kullandığı Ay yılı esaslı ilk takvimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "12 Hayvanlı Türk Takvimi Ay yılı değil, Güneş yılı esaslıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Miladi takvimin sıfır noktası İsa'nın doğum miladı olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Miladi takvimde milat (0 yılı) Hz. İsa'nın doğum yılı kabul edilmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Tarihin Yardımcı Bilimleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kitapların, yazmaların ve belgelerin incelenmesini sağlayan tarihin yardımcı bilimi nedir?",
+                  "answer": "Paleografi"
+                },
+                {
+                  "question": "Paraları inceleyerek dönemin ekonomik ve siyasi durumu hakkında bilgi veren bilim dalı hangisidir?",
+                  "answer": "Nümizmatik"
+                },
+                {
+                  "question": "Armaları, mühürleri ve devletlerin kimlik sembollerini inceleyen bilim dalının adı nedir?",
+                  "answer": "Heraldik"
+                },
+                {
+                  "question": "Yazıtları ve kitabeleri inceleyerek geçmiş olayları aydınlatan tarih yardımcısı bilim dalı nedir?",
+                  "answer": "Epigrafi"
+                },
+                {
+                  "question": "Toplumların ırklarını, fiziksel özelliklerini ve kökenlerini inceleyen bilim dalı hangisidir?",
+                  "answer": "Antropoloji"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki tarih yardımcı bilimlerinden hangisi eski yazıları ve alfabeleri çözmekle doğrudan ilgilidir?",
+                  "options": [
+                    "Paleografi",
+                    "Nümizmatik",
+                    "Epigrafi",
+                    "Heraldik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paleografi, eski yazıları ve bu yazarların gelişim süreçlerini inceleyen bilim dalıdır. Epigrafi ise daha çok sert zeminler üzerindeki yazıtlarla ilgilenir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Geçmişte basılan madeni paraları, madalyonları ve kâğıt paraları inceleyerek tarihi aydınlatan bilim dalı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Nümizmatik",
+                    "Arkeoloji",
+                    "Antropoloji",
+                    "Kronoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nümizmatik (Meskukat), eski paraları inceleyerek dönemin ekonomik gücü, hükümdarları ve sanat anlayışı hakkında bilgi verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kazı yaparak toprak altındaki maddi kalıntıları gün yüzüne çıkaran ve tarihin en büyük yardımcılarından biri olan bilim dalı hangisidir?",
+                  "options": [
+                    "Etnografya",
+                    "Arkeoloji",
+                    "Filoloji",
+                    "Diplomasi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Arkeoloji, özellikle yazının icadından önceki dönemin aydınlatılmasında en büyük paya sahip olan kazı bilimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Devletler arası resmi yazışmaları, fermanları, beratları ve antlaşmaları inceleyen tarih yardımcı bilimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Onomastik",
+                    "Sigillografi",
+                    "Heraldik",
+                    "Diplomasi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Diplomasi, resmi belgeleri inceleyerek devletler arası ilişkilerin yapısını ve hukuki boyutunu ortaya koyar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumların örf, adet, gelenek ve yaşam tarzlarını yerinde inceleyerek kültür bilimi olarak da bilinen dal hangisidir?",
+                  "options": [
+                    "Etnografya",
+                    "Antropoloji",
+                    "Coğrafya",
+                    "Kronoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etnografya, halk bilimi ve kültür bilimi olarak da adlandırılır; toplumsal yaşamı ve kültürel unsurları inceler.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tarihi olayların zamanını belirleyen ve olaylar arasında zaman sıralaması yapan tarihin yardımcı bilimi ____ olarak adlandırılır.",
+                  "options": [
+                    "Kronoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kronoloji, zaman bilimidir ve tarihsel olayların birbirini izleyen sıralamasını belirlemede temel rol oynar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sert maddeler (taş, mermer, kaya vb.) üzerine kazınmış yazıtları ve kitabeleri inceleyen bilim dalına ____ denir.",
+                  "options": [
+                    "Epigrafi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Epigrafi, kalıcı materyaller üzerine yazılmış metinleri inceler ve paleografiden bu yönüyle ayrılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dillerin yapısını, kökenini ve tarihsel gelişim sürecini inceleyerek milletler arasındaki bağları araştıran bilim dalı ____ bilimidir.",
+                  "options": [
+                    "Filoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Filoloji (dil bilimi), dillerin kökenini ve değişimini inceleyerek göçler ve kültürel etkileşimler hakkında bilgi verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarihî olayların meydana geldiği yerin iklimini, bitki örtüsünü ve yeryüzü şekillerini inceleyen en önemli yardımcı bilim ____ bilimdir.",
+                  "options": [
+                    "Coğrafya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coğrafya, mekânın tarih üzerindeki etkisini inceleyerek olayların yer analizini yapar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mühürleri inceleyerek devlet görevlilerinin ve hükümdarların imza ile mühür kullanım geleneklerini araştıran bilim dalı ____ olarak bilinir.",
+                  "options": [
+                    "Sigillografi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sigillografi, mühür bilimi demektir ve belgelerin asıllığını kanıtlamada yardımcı olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Antropoloji, insan ırklarını ve iskelet kalıntılarını inceleyerek tarihe yardımcı olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antropoloji insan bilimidir; fiziksel ve kültürel antropoloji olarak ikiye ayrılır ve insan türünün gelişimini inceler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nümizmatik bilimi sadece kâğıt paraları inceler, madeni paralarla ilgilenmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nümizmatik özellikle madeni paraları (meskukat) inceler, çünkü eski dönemlerde paralar genellikle madenden basılırdı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Heraldik, devletlerin kullandığı armaları ve bayraklardaki sembolleri inceleyen bir bilim dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Heraldik, armaların ve asalet göstergelerinin anlamlarını çözerek devlet yapısı hakkında fikir verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Arkeoloji bilimi yazının icadından sonraki dönemleri inceler, yazısız dönemle hiçbir ilgisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Arkeoloji özellikle yazının icadından önceki karanlık dönemi aydınlatmada en büyük rolü oynayan bilim dalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kronoloji bilimi sayesinde tarihî olaylar sebep-sonuç ilişkisi içinde zamana bağlı olarak sıralanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kronoloji zaman sıralaması yapar ve olayların akışını anlamayı kolaylaştırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "İnsanlığın İlk Dönemleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Paleolitik ve Neolitik Dönemler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Paleolitik Dönem'in insanları geçimlerini nasıl sağlardı?",
+                  "answer": "Avcılık ve toplayıcılıkla."
+                },
+                {
+                  "question": "Neolitik Dönem'de insan yaşamındaki en büyük ekonomik değişim nedir?",
+                  "answer": "Üretime geçilmesi (tarım ve hayvancılık)."
+                },
+                {
+                  "question": "Tarihin bilinen en eski tapınak merkezi nerededir?",
+                  "answer": "Göbeklitepe (Şanlıurfa)."
+                },
+                {
+                  "question": "Mezolitik Dönem'in en belirgin taş aletleri nedir?",
+                  "answer": "Mikrolit adı verilen küçük taş aletler."
+                },
+                {
+                  "question": "Neolitik Dönem'de yerleşik hayata geçişle birlikte hangi mimari yapı ortaya çıkmıştır?",
+                  "answer": "Kalıcı kerpiç evler ve köyler."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Paleolitik Dönem'in özelliklerinden biri değildir?",
+                  "options": [
+                    "Tüketici bir yaşam tarzının benimsenmesi",
+                    "Avcılık ve toplayıcılıkla geçinilmesi",
+                    "Toprağın işlenerek tarım yapılması",
+                    "Mağara duvarlarına resimler yapılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Toprağın işlenmesi ve tarım faaliyetleri Neolitik Dönem'de başlamıştır, Paleolitik Dönem'de insanlar tamamen tüketiciydi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anadolu'da Neolitik Dönem'e ait en önemli yerleşim yerlerinden biri olup UNESCO Dünya Miras Listesi'nde yer alan, ana tanrıça kültü ile bilinen merkez hangisidir?",
+                  "options": [
+                    "Yarımburgaz Mağarası",
+                    "Çatalhöyük",
+                    "Karain Mağarası",
+                    "Beldibi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çatalhöyük, Neolitik Dönem'e ait en önemli yerleşimlerden biridir ve ana tanrıça heykelcikleriyle ün salmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsanlığın İlk Dönemleri'nde görülen avcılık, toplayıcılık ve göçebe yaşam hangi dönemin temel karakteristiğidir?",
+                  "options": [
+                    "Paleolitik Dönem",
+                    "Kalkolitik Dönem",
+                    "Neolitik Dönem",
+                    "Demir Çağı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paleolitik (Eski Taş) Dönem, üretimin olmadığı, insanların avcılık ve toplayıcılıkla geçindiği göçebe bir dönemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Neolitik Dönem'de üretici hayata geçilmesiyle birlikte aşağıdakilerden hangisi doğrudan ortaya çıkmamıştır?",
+                  "options": [
+                    "Tarımsal üretim fazlası (artı ürün)",
+                    "Özel mülkiyet kavramı",
+                    "Köleliğe dayalı imparatorluklar",
+                    "Kalıcı yerleşim yerleri"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Neolitik Dönem'de köleliğe dayalı büyük imparatorluklar henüz ortaya çıkmamıştır; bu durum çok daha sonraki İlk Çağ medeniyetlerinde görülmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki madenlerden hangisi, insanların doğada en kolay bulup işlediği ve Maden Devri'nin başlangıcını oluşturan ilk madendir?",
+                  "options": [
+                    "Kömür",
+                    "Bakır",
+                    "Tunç",
+                    "Demir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bakır, doğada saf olarak bulunabilmesi ve işlenmesinin kolay olması nedeniyle insanların kullandığı ilk maden olmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İnsanların doğaya bağımlı olarak avcılık ve toplayıcılıkla geçindiği döneme ____ Dönem denir.",
+                  "options": [
+                    "Paleolitik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paleolitik (Eski Taş) Dönem, üretimin henüz başlamadığı, insanların doğada hazır bulduklarını tüketerek yaşadığı ilk dönemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Neolitik Dönem'de üretimin başlamasıyla birlikte insanlar göçebe yaşamdan ____ hayata geçmişlerdir.",
+                  "options": [
+                    "yerleşik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarım ve hayvancılık faaliyetleri insanların ekip diktikleri arazilerin başında kalmasını zorunlu kılmış ve yerleşik hayatı başlatmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarih öncesi devirlerde insanların ilk kez madeni işleyerek alet yaptığı dönem ____ Çağı'dır.",
+                  "options": [
+                    "Bakır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Madencilik evresinin ilk basamağı Bakır Çağı'dır çünkü bakır kolay işlenebilen bir madendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Şanlıurfa yakınlarında yer alan ve dünyanın bilinen en eski tapınak merkezi olan yerleşim ____ adını taşır.",
+                  "options": [
+                    "Göbeklitepe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Göbeklitepe, avcı-toplayıcı grupların inşa ettiği kabul edilen anıtsal yapılarıyla tarih yazımını değiştirmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mezolitik Dönem'de insanların çakmak taşını işleyerek yaptığı küçük boyutlu aletlere ____ adı verilir.",
+                  "options": [
+                    "mikrolit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mikrolitler, Mezolitik (Orta Taş) Dönem'in en karakteristik küçük çakmak taşı aletleridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Paleolitik Dönem'de insanlar henüz ateşin kullanımını keşfetmemişti.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ateş, Paleolitik Dönem'in orta ve geç aşamalarında insanlığın en önemli keşiflerinden biri olarak kontrol altına alınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Neolitik Dönem'de tarımın başlamasıyla birlikte toplumsal iş bölümü ve ticaret de gelişmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üretim fazlası (artı ürün) elde edilmesi, ticaretin doğmasına ve toplumsal iş bölümünün ortaya çıkmasına zemin hazırlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çatalhöyük, Anadolu'da Neolitik Dönem'in en bilinen yerleşimlerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konya sınırları içinde yer alan Çatalhöyük, erken Neolitik yerleşim düzeni ve ev mimarisiyle dünyaca tanınmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yazının icadı ile birlikte Tarih Öncesi Devirler kapanmış ve Tarih Çağları başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarihin başlangıcı yazının Sümerler tarafından icat edilmesi kabul edilir, bu da tarih öncesi devirleri sona erdirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maden Devirleri sırasıyla Tunç, Bakır ve Demir şeklinde yaşanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Maden Devirleri işlenebilirlik sırasına göre Bakır, Tunç ve Demir şeklinde yaşanmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İlk Çağ Uygarlıkları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sümerlerin bulduğu ve İlk Çağ'da yazının başlangıcı kabul edilen yazı sistemi nedir?",
+                  "answer": "Çivi yazısı"
+                },
+                {
+                  "question": "Anadolu'da kurulan, ticaret amacıyla Karum adı verilen pazar yerleri kuran uygarlık hangisidir?",
+                  "answer": "Asurlular"
+                },
+                {
+                  "question": "Mısır uygarlığında ölümden sonraki hayata inanıldığı için yapılan mumyalama faaliyetleri hangi bilim dalının gelişmesini sağlamıştır?",
+                  "answer": "Tıp ve anatomi"
+                },
+                {
+                  "question": "Lidyalıların bulduğu ve ticaret hayatında takas usulüne son veren önemli gelişme nedir?",
+                  "answer": "Paranın icadı"
+                },
+                {
+                  "question": "Hititlerde kralın yetkilerini kısıtlayan, soylulardan oluşan meclisin adı nedir?",
+                  "answer": "Pankuş Meclisi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Mezopotamya'da 'Tavan' adı verilen krallar ve 'Kadeş Antlaşması' ile bilinen uygarlık aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Hititler",
+                    "Urartular",
+                    "Sümerler",
+                    "Lidyalılar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hititlerde krallara Tavan eş denir ve Mısır ile tarihin ilk yazılı antlaşması olan Kadeş Antlaşması'nı imzalamışlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uygarlıklardan hangisi Mezopotamya uygarlıklarından biri değildir?",
+                  "options": [
+                    "Frigler",
+                    "Elamlılar",
+                    "Akatlar",
+                    "Babilliler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Frigler, İç Anadolu'da Gordion merkezli kurulmuş bir Anadolu uygarlığıdır. Elam, Akat ve Babilliler ise Mezopotamya'da yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Lidyalılar ticareti geliştirmek amacıyla aşağıdakilerden hangi ticaret yolunu aktif olarak kullanmışlardır?",
+                  "options": [
+                    "İpek Yolu",
+                    "Baharat Yolu",
+                    "Kürk Yolu",
+                    "Kral Yolu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Lidyalılar, Sardes'ten başlayıp Mezopotamya'ya kadar uzanan Kral Yolu'nun batı ucunu kontrol ederek ticaretin gelişmesini sağlamışlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk defa bir alfabe sistemi geliştirerek günümüz Latin alfabesinin temelini atan Akdeniz uygarlığı hangisidir?",
+                  "options": [
+                    "İbraniler",
+                    "Urartular",
+                    "Fenikeliler",
+                    "Sümerler"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fenikeliler, 22 harften oluşan ilk alfabe sistemini bularak deniz ticareti sayesinde bunu Akdeniz havzasına yaymışlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anadolu'da maden işçiliğinde ileri giden, fibula adı çengelli iğneyi ve patates tanrısı Kibele'yi baş tacı eden uygarlık hangisidir?",
+                  "options": [
+                    "İyonlar",
+                    "Hititler",
+                    "Frigler",
+                    "Urartular"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Frigler, tarım ve hayvancılığa dayalı ekonomik yapıları nedeniyle tarımı koruyan kanunlar yapmış ve fibula denilen çengelli iğneyi icat etmişlerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sümerlerde tapınak ve aynı zamanda depo, okul ve gözlemevi olarak kullanılan yapı ____ olarak adlandırılır.",
+                  "options": [
+                    "Ziggurat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zigguratlar Sümer mimarisinde çok katlı tapınaklar olup dini ve idari işlevlerin yanı sıra bilimsel gözlemler için de kullanılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mısır'da güneş yılı esasına dayalı takvimin geliştirilmesinde ____ nehrinin taşma zamanını hesaplama ihtiyacı etkili olmuştur.",
+                  "options": [
+                    "Nil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nil Nehri'nin taşma zamanlarının tarım arazilerini etkilemesi, Mısırlıları astronomi ve takvim konusunda gelişmeye yöneltmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Urartular tarımı geliştirmek amacıyla ____ adı verilen sulama kanalları ve tüneller inşa etmişlerdir.",
+                  "options": [
+                    "Şamran"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Urartu kralı Menua tarafından yaptırılan Şamran kanalı, Van bölgesindeki kurak toprakların sulanmasını sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yunan uygarlığında şehir devletlerine verilen isim ____ şeklindedir.",
+                  "options": [
+                    "Polis"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atina, Sparta gibi şehir devletleri 'polis' adı verilen bağımsız siyasi yapıları oluşturmaktaydı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mezopotamya'da Hammurabi Kanunları ile bilinen ve kısasa kısas ilkesine dayanan devlet ____ İmparatorluğudur.",
+                  "options": [
+                    "Babil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Babil Kralı Hammurabi, dönemin en sert ve kısas esasına dayanan merkeziyetçi kanunlarını hazırlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sümerler tarafından bulunan çivi yazısı, Anadolu'da Asurlular aracılığıyla tanınmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asurlular, Mezopotamya ile Anadolu arasında ticaret yaparken çivi yazısını Anadolu'ya taşıyarak yazılı dönemi başlatmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Lidyalılar parayı bulmuş ve bu sayede takas ekonomisini yaygınlaştırmışlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Lidyalılar parayı bularak takas usulüne son vermişlerdir, yaygınlaştırmamışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İyonlar, özgür düşünce ortamı sayesinde bilim ve felsefe alanında önemli isimler yetiştirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Batı Anadolu'da kurulan İyonya'da siyasi baskının az olması Hipokrat, Thales gibi bilim insanlarının yetişmesine olanak tanımıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hititler, krallarının hayatını ve yıllık olayları tarafsız bir şekilde kaydettikleri 'Kısas' adı verilen yıllar yazmışlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hititlerin tanrıya hesap vermek amacıyla yazdıkları yıllıkların adı 'Kısas' değil, 'Anal' (yıllık) olarak bilinir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mısırlılar, kendilerini tanrı-kral olarak gören Firavunlar için piramitler inşa etmişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mısır uygarlığında firavunlar tanrı olarak kabul edilmiş ve cesetlerinin korunması için devasa anıt mezarlar olan piramitler yapılmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Orta Çağ’da Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Avrupa’da Orta Çağ",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Orta Çağ Avrupa'sında siyasi ve ekonomik gücün toprak mülkiyetine dayandığı sistemin adı nedir?",
+                  "answer": "Feodalite"
+                },
+                {
+                  "question": "Orta Çağ'da Avrupa'da skolastik düşüncenin hâkim olmasında en etkili kurum hangisidir?",
+                  "answer": "Katolik Kilisesi"
+                },
+                {
+                  "question": "Fransa Krallığı ile İngiltere Krallığı arasında yapılan ve Yüzyıl Savaşları'na sebep olan temel faktör nedir?",
+                  "answer": "Toprak anlaşmazlıkları ve taht kavgaları"
+                },
+                {
+                  "question": "Orta Çağ'da Avrupa'da ticaretin ve üretimin denetimini elinde tutan esnaf örgütlenmesi hangisidir?",
+                  "answer": "Lonca teşkilatı"
+                },
+                {
+                  "question": "Magna Carta Libertatum hangi İngiliz kralı döneminde imzalanmıştır?",
+                  "answer": "Kral John"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ Avrupa'sında toprağa bağlı olan ve köle statüsünde olmasa da alınıp satılamayan köylü sınıfına ne ad verilir?",
+                  "options": [
+                    "Serf",
+                    "Senyör",
+                    "Burgino",
+                    "Vassal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Çağ'da feodal toplum düzeninde serfler, toprakla birlikte alınıp satılan ve temel haklardan mahrum olan köylü sınıfını oluştururdu.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Katolik Kilisesi'nin Orta Çağ'da siyasi ve dini otoritesini artırmak için kullandığı yetkilerden biri değildir?",
+                  "options": [
+                    "Endüljans",
+                    "Aforoz",
+                    "Laisizm",
+                    "Enterdi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Laisizm, devlet ile din işlerinin birbirinden ayrılmasını savunan bir ilkedir ve Orta Çağ Avrupa'sının teokratik yapısıyla tamamen çelişmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüzyıl Savaşları hangi iki Avrupa devleti arasında yapılmıştır?",
+                  "options": [
+                    "İngiltere - Fransa",
+                    "İngiltere - Rusya",
+                    "İspanya - Portekiz",
+                    "Almanya - İtalya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüzyıl Savaşları, 1337-1453 yılları arasında İngiltere Krallığı ile Fransa Krallığı arasında toprak mülkiyeti nedeniyle yapılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orta Çağ'da Avrupa'da bilimsel ve felsefi düşünceyi kilisenin dogmatik kurallarına bağlı kılan anlayışa ne denir?",
+                  "options": [
+                    "Rönesans",
+                    "Hümanizm",
+                    "Rasyonalizm",
+                    "Skolastik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Skolastik düşünce, Orta Çağ'da dini dogmaları akılla kanıtlamaya çalışan ve serbest düşünceyi kısıtlayan bir öğretidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Magna Carta'nın İngiltere tarihindeki en önemli önemi nedir?",
+                  "options": [
+                    "Mutlak monarşinin kurulmasını sağlamıştır.",
+                    "Katolik kilisesinin gücünü tamamen kırmıştır.",
+                    "Feodalite sistemini tamamen ortadan kaldırmıştır.",
+                    "Kralın yetkilerini ilk kez hukuki olarak kısıtlamıştır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "1215 yılında imzalanan Magna Carta ile İngiltere kralının yetkileri ilk kez yazılı bir belgeyle sınırlandırılmış ve soylulara bazı haklar tanınmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ Avrupa'sında toprağın mülkiyetini elinde bulunduran ve feodal bey olarak anılan kişilere ____ denir.",
+                  "options": [
+                    "senyör"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Feodalitede siyasi ve ekonomik gücü elinde bulunduran toprak sahiplerine senyör adı verilmektedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Katolik Kilisesi'nin Hristiyanları dinden çıkarma cezasına ____ denir.",
+                  "options": [
+                    "aforoz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aforoz, kilisenin koyduğu kurallara uymayan kişileri dinden çıkarma ve toplumsal hayattan tecrit etme cezasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İngiltere'de kralın yetkilerini kısıtlayan ilk belgenin adı ____ Kartası'dır.",
+                  "options": [
+                    "Magna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Magna Carta Libertatum, İngiltere'de kralın yetkilerini sınırlandıran ve anayasal rejimin ilk adımı kabul edilen belgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ'da aynı meslek grubuna ait zanaatkârların oluşturduğu ekonomik birliğe ____ denir.",
+                  "options": [
+                    "lonca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Loncalar, üretim kalitesini, fiyatları ve usta-çırak ilişkilerini denetleyen ekonomik örgütlenmelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ'da kilisenin para karşılığı günahları bağışlaması ve cennetten yer satması olayına ____ denir.",
+                  "options": [
+                    "endüljans"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Endüljans belgesi, Papa veya temsilcileri tarafından para karşılığı satılan günah çıkarma ve af belgesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ Avrupa'sında merkezi krallıklar güçlü bir siyasi yapıya sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Orta Çağ'da feodalite rejimi nedeniyle merkezi krallıklar zayıflamış, siyasi yetki yerel senyörler arasında bölünmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Skolastik düşünce özgür araştırmaya ve deney gözleme dayalı bilimsel çalışmalara önem vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Skolastik düşünce deney ve gözleme değil, kilisenin dogmatik kurallarına dayanır ve bu nedenle bilimsel gelişmeleri engellemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Magna Carta ile İngiltere kralının yetkileri ilk kez yazılı olarak sınırlandırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1215 tarihli Magna Carta, kralın yetkilerini sınırlayan ve hukukun üstünlüğü ilkesinin temelini atan ilk belgedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Serfler feodal toplumda toprakla birlikte alınıp satılabilen köylü sınıfıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Serflerin kölelerden farklı olarak kişisel bazı hakları olsa da toprakla birlikte bağimludurlar ve izinsiz yer değiştiremezler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Katolik Kilisesi 'enterdi' cezası ile tüm bir ülkeyi dini hizmetlerden mahrum bırakabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Enterdi cezası, bir bölgede veya ülkede kilise faaliyetlerinin (vaftiz, cenaze törenleri hariç) durdurulması anlamına gelen ağır bir yaptırımdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Doğu ve Batı Dünyası",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Orta Çağ'da Doğu Roma İmparatorluğu olarak da bilinen devlet hangisidir?",
+                  "answer": "Bizans İmparatorluğu"
+                },
+                {
+                  "question": "Orta Çağ Avrupa'sında siyasi ve ekonomik gücün toprak sahibi derebeyleri elinde bulunduğu sistemin adı nedir?",
+                  "answer": "Feodalizm"
+                },
+                {
+                  "question": "Orta Çağ'da Uzak Doğu'da merkeziyetçi yapısıyla öne çıkan ve imparatorluk yöneten büyük devlet hangisidir?",
+                  "answer": "Çin"
+                },
+                {
+                  "question": "Orta Çağ'da Hindistan'da toplumsal sınıf ayrımını kesin çizgilerle belirleyen sistem nedir?",
+                  "answer": "Kast sistemi"
+                },
+                {
+                  "question": "Avrupa'da Orta Çağ boyunca bilim üzerinde baskı kurarak skolastik düşünceyi yayan kurum hangisidir?",
+                  "answer": "Katolik Kilisesi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ'da Doğu Roma (Bizans) İmparatorluğu'nun başkenti olan ve hem Doğu hem Batı ticaret yollarının kesişiminde yer alan şehir hangisidir?",
+                  "options": [
+                    "İskenderiye",
+                    "Konstantinopolis",
+                    "Atina",
+                    "Roma"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Konstantinopolis (İstanbul), Doğu Roma İmparatorluğu'nun başkenti olup stratejik konumu sayesinde Orta Çağ boyunca hem siyasi hem de ekonomik açıdan dünyanın en önemli merkezlerinden biri olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Avrupa'da Orta Çağ'da görülen feodalizm rejiminde, toprak sahibi soylu sınıfa ne ad verilir?",
+                  "options": [
+                    "Serf",
+                    "Derebeyi",
+                    "Burjuva",
+                    "Vassal"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Feodalitede toprakların sahibi olan ve siyasi yetkiyi elinde bulunduran kişilere derebeyi (senyör) denir. Serfler köle durumundaki köylüler, vassal ise derebeyine bağlılık yemin eden kişidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orta Çağ'da Çin medeniyetinin geliştirdiği ve batıya yayılarak dünyada köklü değişime yol açan buluşlar arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Pusula",
+                    "Matbaa",
+                    "Barut",
+                    "Buhar makinesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Buhar makinesi Çin'de değil, Sanayi Devrimi döneminde Avrupa'da geliştirilmiştir. Kağıt, matbaa, pusula ve barut ise Çin medeniyetinin dünyaya armağan ettiği önemli buluşlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orta Çağ'da Katolik Kilisesi'nin halkı dinden çıkatmak amacıyla kullandığı yetkinin adı nedir?",
+                  "options": [
+                    "Aforoz",
+                    "Konsil",
+                    "Endüljans",
+                    "Enterdi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kilisenin koyduğu kurallara uymayanları veya karşı çıkanları dinden çıkarma cezasına aforoz denir. Endüljans af belgesi, enterdi ise bir bölgenin dini faaliyetlerden men edilmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orta Çağ başlarında Avrupa'da siyasi birliği sağlayan ve imparatorluğu papa tarafından taçlandırılan 8. yüzyıl hükümdarı kimdir?",
+                  "options": [
+                    "I. Justinianus",
+                    "Büyük Konstantin",
+                    "Şarlman",
+                    "I. Theodosius"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Frank Kralı Şarlman, Orta Çağ'da Batı Avrupa'da geniş sınırları olan bir imparatorluk kurmuş ve 800 yılında Papa tarafından imparator ilan edilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ'da Avrupa'da düşünceyi baskı altına alan ve kilisenin dogmatik kurallarını savunan düşünce sistemine ____ denir.",
+                  "options": [
+                    "skolastik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Skolastik düşünce, Orta Çağ Avrupa'sında akıl ve deneyin önemsenmediği, dini dogmaların mutlak doğru kabul edildiği bir felsefi ve eğitim anlayışıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bizans İmparatorluğu'nda dönemin hukuk kurallarını derleyerek oluşturulan ünlü kanunlar külliyatına ____ Kanunları denir.",
+                  "options": [
+                    "Justinianus"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bizans İmparatoru I. Justinianus, Roma hukukunu derletip düzenleterek Corpus Juris Civilis adı verilen Justinianus Kanunları'nı hazırlatmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ'da Avrupa'da toprak üzerinde çalışan, hiçbir hakkı olmayan ve toprakla birlikte alınıp satılan köylü sınıfına ____ denir.",
+                  "options": [
+                    "serf"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Serfler, feodal düzenin en alt tabakasını oluşturur; özgürlükleri yoktur ve lordun malikanesindeki toprakla birlikte devredilirlerdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ'da Çin ile Avrupa arasındaki ticaretin ve kültürel alışverişin temelini oluşturan tarihi güzergaha ____ Yolu denir.",
+                  "options": [
+                    "İpek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İpek Yolu, Doğu ile Batı'yı birbirine bağlayan, sadece ipek ve baharatın değil, aynı zamanda bilgi ve kültürün de taşındığı en önemli ticaret yoludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ'da Hindistan'da insanların doğdukları sosyal sınıfa göre yaşamaya zorlandığı katı yapının adı ____ sistemidir.",
+                  "options": [
+                    "kast"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kast sistemi, Hindistan'da sınıflar arası geçişin yasak olduğu, mesleklerin ve toplumsal statünün babadan oğula geçtiği katı bir yapıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Orta Çağ'da Doğu Roma İmparatorluğu (Bizans), Katolik kilisesine bağlı kalmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğu Roma İmparatorluğu Katolik değil, Ortodoks mezhebine bağlıdır. 1054 yılında Katolik ve Ortodoks kiliseleri kesin olarak ayrılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orta Çağ Avrupa'sında feodalizm döneminde merkezi krallıklar güçlü bir otoriteye sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Feodalizm döneminde merkezi krallıklar zayıflamıştır; güç, toprakları elinde tutan yerel derebeylerinin elinde toplanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orta Çağ'da Çin medeniyeti, kağıt ve matbaa gibi önemli buluşları dünyaya tanıtan medeniyetler arasındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çinliler kağıt, matbaa, pusula ve barut gibi insanlık tarihini değiştiren keşifleri ilk yapan ve geliştiren medeniyettir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orta Çağ'da skolastik düşünce, bilimsel araştırmaların ve özgür düşüncenin önünü açmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Skolastik düşünce bilimsel gelişmeleri engellemiş, her türlü bilginin kilisenin öğretilerine uygun olması gerektiğini savunarak özgür düşünceyi baskılamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orta Çağ boyunca Doğu Dünyası, bilim ve ticaret alanında Batı Dünyasına kıyasla daha gelişmiş bir seyir izlemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Çağ'da İslam dünyası, Çin ve Hindistan gibi Doğu medeniyetleri bilim, fen ve ticaret alanında Avrupa'ya göre çok daha ileri bir düzeydeydi.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "İlk ve Orta Çağlarda Türk Dünyası",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İlk Türk Devletleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk Türk devletlerinde hükümdarlara verilen unvanlardan üçünü yazınız.",
+                  "answer": "Han, Hakan, Kağan"
+                },
+                {
+                  "question": "İlk Türk devletlerinde devlet işlerinin görüşülüp karara bağlandığı meclisin adı nedir?",
+                  "answer": "Kurultay (Kengeş / Toy)"
+                },
+                {
+                  "question": "Türklerde göçebe yaşam tarzının temel geçim kaynağı nedir?",
+                  "answer": "Hayvancılık"
+                },
+                {
+                  "question": "Orhun Abideleri hangi Türk devletine aittir?",
+                  "answer": "İkinci Köktürk (Göktürk) Devleti"
+                },
+                {
+                  "question": "İlk Türk devletlerinde ölen kişinin arkasından düzenlenen cenaze törenine ne ad verilir?",
+                  "answer": "Yuğ"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde kağanlığın tanrı tarafından kut (siyasi yetki ve güç) verilerek bağışlandığı inancına ne ad verilir?",
+                  "options": [
+                    "Uçmağ",
+                    "Kut anlayışı",
+                    "Töre",
+                    "Kürgen"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kut anlayışı, yönetim yetkisinin tanrı tarafından kağan ve ailesine kan yoluyla verildiğine inanılan dini ve siyasi bir gelenektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İlk Türk devletlerindeki yazısız hukuk kurallarına verilen isimdir?",
+                  "options": [
+                    "Töre",
+                    "Kurultay",
+                    "Balbal",
+                    "Yargu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Töre, Türk toplumunda nesilden nesile aktarılan, sosyal düzeni ve adaleti sağlayan yazısız hukuk kurallarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk Türk devletlerinde ölen kişilerin mezarlarının başına dikilen ve kişinin hayatında yendiği düşman sayısını temsil ettiğine inanılan heykellere ne denir?",
+                  "options": [
+                    "Tamga",
+                    "Kurgan",
+                    "Balbal",
+                    "Yuğ"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Balbal adı verilen bu mezar taşları, Türk sanat tarihinin ilk örnekleri arasında yer alır ve genellikle öldürülen düşmanları simgeler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Asya Hun Devleti'nin en parlak dönemini yaşayan ve Çin üzerine seferler düzenleyerek vergiye bağlayan hükümdar kimdir?",
+                  "options": [
+                    "Bumin Kağan",
+                    "Bilig Kağan",
+                    "Bayat",
+                    "Mete Han"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mete Han, Asya Hun Devleti'nin en güçlü dönemini sağlamış ve tarihte ilk kez onluk sistem askeri teşkilatını kurmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk Türk devletlerinde ölen kişilerin değerli eşyalarıyla birlikte gömüldüğü mezarlara ne ad verilir?",
+                  "options": [
+                    "Uçmağ",
+                    "Kurgan",
+                    "Kengeş",
+                    "Tamu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kurgan adı verilen bu mezarlar, Türklerin ahiret inancına sahip olduklarının en önemli kanıtıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde hükümdarın eşine ____ adı verilirdi ve devlet yönetiminde söz sahibiydi.",
+                  "options": [
+                    "Hatun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hatun, kurultay toplantılarına katılması ve elçi kabul etmesiyle ilk Türk devletlerinde kadının siyasi hayattaki yerini gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Asya Hun hükümdarı Mete Han tarafından kurulan ordu teşkilatının temel sistemi ____ sistem olarak bilinir.",
+                  "options": [
+                    "onluk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Onluk sistem, günümüz modern ordularının da temelini oluşturan askeri yapılanmadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk devletlerinde 'cennet' anlamına gelen kelime ____ idi.",
+                  "options": [
+                    "Uçmağ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türk inancına göre iyi insanlar öldükten sonra uçmağa (cennete), kötü insanlar ise tamuya (cehenneme) giderlerdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk devletlerinde askeri ve idari konularda kağana yardımcı olan boy beyi çocuklarına ____ denirdi.",
+                  "options": [
+                    "Tigin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tiginler, devlet tecrübesi kazanmaları amacıyla ülkenin farklı bölgelerine vali olarak gönderilirdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Köktürkler döneminde yazılan ve Türk edebiyatının ilk yazılı belgeleri ____ Abideleridir.",
+                  "options": [
+                    "Orhun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orhun Abideleri, Vezir Tonyukuk, Kül Tigin ve Bilge Kağan adına dikilmiş olup Türk dilinin ve tarihinin ilk başyapıtlarındandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde veraset sistemindeki belirsizlikler, taht kavgalarına ve devletlerin kısa sürede yıkılmasına neden olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kut anlayışı gereği tahtın verasetinin tüm hanedan erkek üyelerine ait olması sık sık taht kavgalarına yol açmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uygurlar, yerleşik hayata geçen ilk Türk devletidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uygurlar Maniheizm dininin etkisiyle göçebe yaşamı bırakıp yerleşik hayata geçmiş, tarım ve mimari alanında gelişmişlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İlk Türk devletlerinde ordu-millet anlayışı bulunmadığından sadece profesyonel askerler savaşlara katılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türklerde eli silah tutan herkes asker sayıldığından profesyonel ordu yerine ordu-millet anlayışı hâkimdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asya Hun Devleti, tarihte Türk siyasi birliğini kuran ilk Türk devletidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teoman ve özellikle Mete Han döneminde Asya'daki Türk boyları tek bir bayrak altında toplanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türklerde tahta çıkacak olan tiginlerin eğitiminden ve yetiştirilmesinden 'Ataman' ya da 'İnal' adı verilen öğretmenler sorumluurdu.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atamanlar, şehzadeleri devlet yönetimi, binicilik ve savaş sanatları konularında eğitirdi.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türklerde Devlet ve Toplum Yapısı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk Türk devletlerinde hükümdara yönetme yetkisinin Tanrı tarafından verildiği inancına ne ad verilir?",
+                  "answer": "Kut"
+                },
+                {
+                  "question": "Türklerde devlet hanedanın ortak malı anlayışına dayandığı için bu durum neye yol açmıştır?",
+                  "answer": "Taht kavgaları ve devletin kısa sürede bölünmesine"
+                },
+                {
+                  "question": "İlk Türk devletlerinde boy beyirliklerinin bir araya gelmesiyle oluşan siyasi ve askerî birliğe ne denir?",
+                  "answer": "Oruç veya İl (Devlet)"
+                },
+                {
+                  "question": "Eski Türklerde kurultayda halkın ve boy beylerinin fikirlerinin alınması hangi yapıyı gösterir?",
+                  "answer": "Demokratik eğilimleri"
+                },
+                {
+                  "question": "Türklerde ordu-millet anlayışının temel göstergesi nedir?",
+                  "answer": "Eli silâh tutan her bireyin asker sayılması"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde devlet meselelerinin görüşülüp karara bağlandığı meclise ne ad verilirdi?",
+                  "options": [
+                    "Kurultay",
+                    "Divan-ı Hümayun",
+                    "Meclis-i Mebusan",
+                    "Ahi teşkilatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurultay (Toy veya Kengeş), ilk Türk devletlerinde siyasi, ekonomik ve askerî kararların alındığı meclistir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türklerde kağana devlet yönetme yetkisinin Gök Tanrı tarafından verildiğine inanılan gücün adı nedir?",
+                  "options": [
+                    "Töre",
+                    "Sü",
+                    "Yuğ",
+                    "Kut"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kut anlayışı, kan yoluyla kağanın bütün soyuna Gök Tanrı tarafından verildiğine inanılan siyasi yetkidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi eski Türk toplumunun sosyal yapısının aşamalarından biri değildir?",
+                  "options": [
+                    "Oguş",
+                    "Sipahi",
+                    "Urug",
+                    "Boy"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sipahi, Osmanlı Devleti'ndeki tımar sistemine bağlı askerî sınıftır. Eski Türklerde sosyal yapı oguş, urug, boy ve budun şeklinde sıralanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk Türk devletlerinde yazısız hukuk kurallarına ne ad verilirdi?",
+                  "options": [
+                    "Töre",
+                    "Buyruk",
+                    "Yarlık",
+                    "Şecere"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Töre, Türklerde sosyal hayatı düzenleyen, kağan dahil herkesin uymak zorunda olduğu yazısız hukuk kurallarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türklerde hakanın eşine verilen ve kurultayda söz hakkı bulunan unvan aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sultan",
+                    "Hatun",
+                    "Saylav",
+                    "Melike"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hatun, kağanın eşidir ve devlet yönetiminde etkili olup kurultay toplantılarına katılabilirdi.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türklerde aile anlamına gelen ve ilk sosyal birlik olan yapıya ____ denir.",
+                  "options": [
+                    "Oguş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Oguş, Türk toplumunda çekirdek aile anlamına gelen en küçük sosyal birimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk devletlerinde boyların birleşmesiyle oluşan halk kütlesine ve millete ____ adı verilirdi.",
+                  "options": [
+                    "Budun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Budun, boyların bir araya gelmesiyle oluşan siyasi ve sosyal birlik yani millettir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türklerde ölen kişiler için düzenlenen cenaze törenine ____ denirdi.",
+                  "options": [
+                    "Yuğ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yuğ, ölen kişinin ardından yapılan yas törenidir ve mezar başına balbal dikilirdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk devletlerinde orduya ____ adı verilirdi.",
+                  "options": [
+                    "Sü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sü, eski Türklerde ordu anlamına gelmektedir ve komutanına sübaşı denirdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eski Türklerde devletin yönetim merkezi olan başkente ____ denilirdi.",
+                  "options": [
+                    "Ötüken"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ötüken, Türk devletleri için kutsal kabul edilen ve uzun yıllar başkentlik yapmış olan merkezdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde kağanlar yetkilerini halktan alır ve seçimle iş başına gelirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kağanlar yetkilerini halktan değil, Gök Tanrı tarafından verildiğine inanılan kut inancına dayanarak kan yoluyla alırlardı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Töre kuralları sadece halkı bağlar, hakan veya hatun töre kurallarına uymak zorunda değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Töre kuralları üstün bir kanun niteliğinde olup kağan dâhil herkesin uyması zorunlu olan kurallardı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türklerde boylar beyi veya oymak başkanları kurultaya katılarak devleti ilgilendiren kararlarda söz sahibi olabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurultaya boy beylerinin katılması Türklerdeki istişare kültürünün ve katılımcı yönetim anlayışının göstergesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eski Türklerde ekonomik hayat büyük ölçüde göçebe bozkır kültürüne ve hayvancılığa dayanıyordu.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coğrafi şartlar nedeniyle Türkler temel geçim kaynağı olarak hayvancılığı benimsemiş ve göçebe yaşam tarzını sürmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türklerde mülkiyet anlayışı özel mülkiyete dayandığı için topraklar şahıslara aitti ve satılabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türklerde topraklar devlete (ika/otlak) ait olduğundan özel mülkiyet gelişmemiştir, topraklar ortak kullanılırdı.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Türk Kültür ve Medeniyeti",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk Türk devletlerinde hükümdara verilen ilahi kökenli yetkinin adı nedir?",
+                  "answer": "Kut"
+                },
+                {
+                  "question": "İlk Türk devletlerinde kurultay üyelerine ne denirdi?",
+                  "answer": "Toygun"
+                },
+                {
+                  "question": "Türklerde ölen kişilerin arkasından düzenlenen cenaze törenine ne denir?",
+                  "answer": "Yuğ"
+                },
+                {
+                  "question": "İlk Türk devletlerinde iktisadi yaşamın temel dayanağı olan geçim kaynağı nedir?",
+                  "answer": "Bozkır hayvancılığı"
+                },
+                {
+                  "question": "Türklerde balbal adı verilen mezar taşlarının simgelediği anlam nedir?",
+                  "answer": "Ölen kişinin öldürdüğü düşman sayısı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde, devlet işlerinin görüşülüp karara bağlandığı meclise ne ad verilirdi?",
+                  "options": [
+                    "Kurultay",
+                    "Divan-ı Hümayun",
+                    "Meclis-i Mebusan",
+                    "Ahi teşkilatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurultay (toy veya kengeş), ilk Türk devletlerinde siyasi, askeri ve ekonomik kararların alındığı meclistir. Divan-ı Hümayun İslami dönemde kurulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Göçebe Türk topluluklarında taşınabilir sanat eserlerinin ortaya çıkmasında en önemli etken aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Gömü kültürü",
+                    "Hayvancılık ve göçebe yaşam tarzı",
+                    "Yazının kullanılmaması",
+                    "Merkezi devlet yapısı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkler bozkır yaşam tarzı gereği sürekli yer değiştirdiklerinden sanat eserleri daima taşınabilir malzemelerden (halı, kilim, kemer tokası vb.) yapılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk Türk devletlerinde hükümdarların yönetme yetkisini tanrıdan aldıklarına inanılan güç aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Yuğ",
+                    "Otağ",
+                    "Töre",
+                    "Kut"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kut anlayışı, kan yoluyla Gök Tanrı tarafından hükümdara ve ailesine bağışlanan siyasi yetkidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ilk Türk devletlerinin yazılı hukuk kuralları arasında yer alır?",
+                  "options": [
+                    "Uçmağ",
+                    "Kut",
+                    "Töre",
+                    "Yargu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Töre, Türklerde sözlü hukuk kuralları iken zamanla yazılı hale gelmiştir ve toplumsal düzeni sağlamıştır. Yargu ise yargı organıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uygurların yerleşik hayata geçmesiyle birlikte Türk mimarisinde görülen en belirgin değişiklik aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kümbetlerin yapılması",
+                    "Kervansarayların inşası",
+                    "Çadır mimarisinin yaygınlaşması",
+                    "Tapınak ve saray mimarisinin gelişmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Uygurlar Maniheizm ve Budizm etkisiyle yerleşik hayata geçmiş, tapınak (stupa) ve saray gibi kalıcı mimari eserler inşa etmişlerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde yazısız hukuk kurallarına genel olarak ____ adı verilirdi.",
+                  "options": [
+                    "töre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Töre, Türk toplumunda sosyal düzeni, adaleti ve devlet ile birey ilişkilerini düzenleyen yazısız kurallar bütünüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türklerde ölen kişinin arkasından düzenlenen matem törenine ____ denirdi.",
+                  "options": [
+                    "yuğ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yuğ, ölen kişinin ardından yapılan cenaze törenidir. Bu törende sagu adı verilen ağıtlar söylenirdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uygurlar döneminde yerleşik yaşamın başlamasıyla birlikte tapınaklara verilen ad ____ olmuştur.",
+                  "options": [
+                    "stupa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uygurlar Maniheizm ve Budizm etkisiyle tapınaklar inşa etmişler ve bu yapıların bir kısmına stupa adını vermişlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk devletlerinde hükümdarın eşinehatun adı verilirken, devlet meclisine ____ denirdi.",
+                  "options": [
+                    "kurultay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurultay, devletin iç ve dış siyasetinin görüşüldüğü, hanedan üyeleri ve boy beylerinin katıldığı meclistir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türklerde cenerelerde mezar başına dikilen küçük taş heykellere ____ adı verilirdi.",
+                  "options": [
+                    "balbal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Balbal, kişinin yaşamı boyunca öldürdüğü düşman sayısını simgeleyen mezar taşlarıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İlk Türk devletlerinde veraset sistemindeki belirsizlik sık sık taht kavgalarına neden olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kut anlayışına göre ülkenin hanedan üyelerinin ortak malı sayılması, taht kavgalarının en temel sebebidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uygurlar, göçebe yaşam tarzını benimseyen ilk Türk devletidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Uygurlar göçebe değil, yerleşik hayata geçen ilk Türk devletidir. Göçebe yaşam tarzı genel Türk kültürünün temelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İlk Türklerde ahiret inancının varlığına kanıt olarak cenaze törenlerinde ölen kişinin eşyalarıyla gömülmesi gösterilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurgan adı verilen mezarlara ölen kişinin değerli eşyaları, silahları ve atı ile gömülmesi ahiret inancının olduğunun kanıtıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kurultay üyelerine toygun denir ve bu meclise yalnızca hanedan üyeleri katılabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kurultaya hanedan üyelerinin yanı sıra boy beyleri de toygun unvanıyla katılırdı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türklerde ordu-millet anlayışı hâkim olduğundan eli silah tutan herkes asker sayılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bozkır yaşam koşulları ve güvenlik ihtiyacı nedeniyle Türklerde daimi ve profesyonel ordulardan ziyade ordu-millet anlayışı gelişmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "İslam Medeniyetinin Doğuşu",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İslam’ın Doğuşu ve Yayılışı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslamiyet'in doğduğu sırada Arap Yarımadası'nda yaygın olan genel yönetim biçimi nedir?",
+                  "answer": "Kabile teşkilatına dayanan aşiret düzeni."
+                },
+                {
+                  "question": "Hz. Muhammed'e ilk vahiy hangi dağda ve hangi mağarada gelmiştir?",
+                  "answer": "Hira Dağı'ndaki Nur Mağarası."
+                },
+                {
+                  "question": "Müslümanların Mekke'den Medine'ye göç etmesine ne ad verilir?",
+                  "answer": "Hicret."
+                },
+                {
+                  "question": "Hicri takvimin başlangıcı olarak kabul edilen olay hangisidir?",
+                  "answer": "Hicret olayı."
+                },
+                {
+                  "question": "Müslümanların Kabe'yi ziyaret etmek amacıyla Mekkelilerle yaptığı antlaşma hangisidir?",
+                  "answer": "Hudeybiye Antlaşması."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Arap Yarımadası'nda siyasi birliğin bulunmamasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bedevi yaşam tarzı ve kabileler arası kan davaları",
+                    "Merkezi otoritenin çok güçlü olması",
+                    "Yabancı devletlerin sürekli işgalleri",
+                    "Tek tanrılı inancın tüm kabilelerce benimsenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Arap Yarımadası'nda kabileler halinde göçebe (bedevi) bir yaşam sürülmesi ve aralarındaki kan davaları, siyasi birliğin kurulmasını engellemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi hicretin sonuçlarından biri değildir?",
+                  "options": [
+                    "Mekke'nin fethedilerek putlardan temizlenmesi",
+                    "İslam devletinin temellerinin Medine'de atılması",
+                    "Medine Sözleşmesi'nin yapılarak toplumsal barışın sağlanması",
+                    "Müslümanların ekonomik ve siyasi olarak güçlenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mekke'nin fethedilmesi hicretten yıllar sonra, Hicret'in 8. yılında gerçekleşmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Müslümanların Mekkelilerle yaptığı ilk askeri ve siyasi başarı olarak kabul edilen savaş hangisidir?",
+                  "options": [
+                    "Uhud Savaşı",
+                    "Mute Savaşı",
+                    "Bedir Savaşı",
+                    "Hendek Savaşı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bedir Savaşı, Müslümanların Mekkeli müşriklere karşı kazandığı ilk askeri zaferdir ve Müslümanların özgüvenini artırmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hudeybiye Antlaşması'nın en önemli hukuki sonucu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mekkelilerin İslamiyet'i resmi din olarak kabul etmesi",
+                    "Kureyş müşriklerinin İslam devletini hukuken tanıması",
+                    "Müslümanların hac ibadetini o yıl serbestçe yapması",
+                    "Medine'nin başkent ilan edilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hudeybiye Antlaşması ile Mekkeli müşrikler, Müslümanların varlığını ve İslam devletini hukuken kabul etmişlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hz. Muhammed döneminde yapılan hangi savaşta okçuların yerini terk etmesi sonucu Müslümanlar kayba uğramıştır?",
+                  "options": [
+                    "Uhud Savaşı",
+                    "Mute Savaşı",
+                    "Bedir Savaşı",
+                    "Yermük Savaşı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uhud Savaşı'nda Hz. Muhammed'in Uhud Dağı'na yerleştirdiği okçuların ganimet hırsıyla yerlerini terk etmesi savaşın seyrini değiştirmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Arap Yarımadası'nda putların bulunduğu kutsal merkeze ____ denirdi.",
+                  "options": [
+                    "Kabe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kabe, İslam öncesi dönemde de Araplar için kutsal kabul edilen ve içinde putların yer aldığı bir merkezdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Müslümanların Mekkelilerin baskısından dolayı ilk olarak hicret ettiği yer ____ ülkesidir.",
+                  "options": [
+                    "Habeşistan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Müslümanlar ilk baskılardan kaçmak için Habeşistan'a iki defa hicret etmişlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Medine'ye giden Müslümanlar ile Medineli yerli halka verilen ortak isim ____ idi.",
+                  "options": [
+                    "Ensar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Medineli Müslümanlara Ensar, Mekke'den göç edenlere ise Muhacir denilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hendek Savaşı'nda Medine çevresine kazılan hendek fikrini İslam ordusuna sunan sahabi ____ el-Farisidir.",
+                  "options": [
+                    "Selman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Selman el-Farisî'nin önerisiyle şehrin etrafına hendekler kazılmış ve savunma savaşı yapılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Müslümanların Mekkelilerle yaptığı son askeri sefer Hz. Muhammed komutasındaki ____ Seferi'dir.",
+                  "options": [
+                    "Tebük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tebük Seferi, Hz. Muhammed'in katıldığı son seferdir ve Bizans İmparatorluğu'na karşı düzenlenmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslamiyet'in doğduğu dönemde Arap Yarımadası'nda sadece putperestlik hâkimdi, başka hiçbir inanç yoktu.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Putperestliğin yanında Hristiyanlık, Yahudilik, Mecusilik ve Hz. İbrahim'in dini olan Hanif inancı da bulunmaktaydı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Medine Sözleşmesi, Medine'de farklı din ve kabilelerin bir arada barış içinde yaşamasını amaçlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Medine Sözleşmesi ile Müslümanlar ve Yahudiler arasında toplumsal barış ve savunma birliği sağlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mekke'nin fethi ile Kabe putlardan tamamen temizlenmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Muhammed Mekke'yi fethettikten sonra Kabe'yi putlardan arındırmış ve orayı İslam'ın merkezi haline getirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mute Savaşı, İslam devletinin Bizans İmparatorluğu ile yaptığı ilk savaştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mute Savaşı, Müslümanlar ile Bizans güçleri arasında yapılan ilk askeri çatışmadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Veda Hutbesi, Hz. Muhammed'in hicret sırasında yaptığı son konuşmadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Veda Hutbesi hicret sırasında değil, Hz. Muhammed'in vefatından kısa süre önce Veda Haccı sırasında yapılmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İlk İslam Devletleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk İslam Devletinde devlet başkanlarına ne ad verilirdi?",
+                  "answer": "Halife"
+                },
+                {
+                  "question": "Hz. Ebubekir döneminde Kuranı Kerim'in kitap haline getirilme sebebi nedir?",
+                  "answer": "Yalancı peygamberler ile yapılan savaşlarda hafızların şehit olması"
+                },
+                {
+                  "question": "Hz. Ömer döneminde kurulan ilk düzenli İslam ordusu karargah şehri hangisidir?",
+                  "answer": "Fustat"
+                },
+                {
+                  "question": "Hz. Osman döneminde yazdırılan Kuranı Kerim nüshaları nerelere gönderilmiştir?",
+                  "answer": "Önemli İslam merkezlerine"
+                },
+                {
+                  "question": "Hz. Ali döneminde Müslümanlar arasındaki ilk iç çatışmalara sebep olan olay nedir?",
+                  "answer": "Cemel Vakası"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Dört Halife Dönemi'nde gerçekleşen gelişmelerden biri değildir?",
+                  "options": [
+                    "Hicri takvimin hazırlanması",
+                    "İlk İslam parasının bastırılması",
+                    "Yalancı peygamberlerle mücadele edilmesi",
+                    "Kuranı Kerim'in çoğaltılması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İlk İslam parası Emeviler döneminde Abdülmelik tarafından bastırılmıştır. Dört Halife Dönemi'nde ise Hicri takvim Hz. Ömer zamanında düzenlenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hz. Ömer döneminde fethedilen toprakların yönetimini kolaylaştırmak amacıyla oluşturulan yönetim birimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Medrese",
+                    "Eyalet",
+                    "Divan",
+                    "İkta"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Ömer devrinde genişleyen sınırlar eyaletlere bölünmüş ve buralara valiler atanmıştır. Divan teşkilatı da bu dönemde kurulmuştur ancak yönetim birimi olarak eyaletler ayrılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki halifelerden hangisi döneminde İslam devleti ilk kez deniz aşırı seferler düzenlemiştir?",
+                  "options": [
+                    "Hz. Osman",
+                    "Hz. Ömer",
+                    "Hz. Ebubekir",
+                    "Hz. Ali"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Osman döneminde Muaviye komutasında İslam donanması oluşturulmuş ve Kıbrıs fethedilerek ilk deniz aşırı sefer gerçekleştirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Cemel Vakası ve Sıffın Savaşı hangi halifenin saltanatı ya da hilafeti döneminde yaşanmıştır?",
+                  "options": [
+                    "Hz. Ebubekir",
+                    "Hz. Ali",
+                    "Hz. Osman",
+                    "Hz. Ömer"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Ali dönemi iç karışıklıkların yoğun olduğu bir dönemdir. Cemel Vakası ve Sıffın Savaşı bu dönemde Müslümanlar arasında çıkmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dört Halife Dönemi ile ilgili olarak aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Halifeler seçimle iş başına gelmiştir.",
+                    "Saltanat sistemine geçilmiştir.",
+                    "İslam toprakları genişlemiştir.",
+                    "Merkeziyetçi yönetim anlayışı benimsenmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dört Halife Dönemi seçimle (şura ve biat ile) iş başına gelinen bir dönemdir. Saltanat sistemi Emeviler ile birlikte başlamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hz. Ebubekir döneminde zekat vermek istemeyenlerle ve dinden dönenlerle yapılan savaşlara ____ adı verilir.",
+                  "options": [
+                    "Ridde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Ebubekir döneminde İslam devletinin birliğini korumak için Ridde (dinden dönme) savaşları yapılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Ömer döneminde devlet hazinesinin oluşturulması ve düzenli gelirlerin kaydedilmesi için ____ teşkilatı kurulmuştur.",
+                  "options": [
+                    "Divan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Ömer, devlet işlerinin düzenli yürütülmesi ve gelirlerin kontrolü için Divan teşkilatını kurmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Osman döneminde Kuranı Kerim'in çoğaltılması amacıyla kurulan komisyonun başkanlığını ____ yapmıştır.",
+                  "options": [
+                    "Zeyd bin Sabit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zeyd bin Sabit başkanlığındaki heyet, Kuranı Kerim nüshalarını çoğaltarak çeşitli merkezlere göndermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Ali ile Muaviye arasında yapılan ve hakem olayı ile sonuçlanan savaşın adı ____ Savaşı'dır.",
+                  "options": [
+                    "Sıffın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıffın Savaşı sonrasında taraflar meseleyi çözmek için hakeme başvurmuşlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dört Halife Dönemi'nde halifelerin seçimle belirlenmesi yönetimde ____ anlayışının olduğunu gösterir.",
+                  "options": [
+                    "demokratik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halkın ya da ileri gelenlerin seçimiyle göreve gelme usulü demokratik bir uygulama olarak kabul edilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Hz. Ebubekir döneminde yalancı peyganberler ortadan kaldırılmış ve birlik sağlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ridde savaşları ile İslam birliği Hz. Ebubekir tarafından korunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Ömer dönemi fetihlerin durduğu ve iç isyanların bastırılamadığı bir dönemdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Ömer dönemi İslam tarihinde fetihlerin en çok hız kazandığı ve teşkilatlanmanın en üst düzeye çıktığı dönemdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Osman kendi akrabalarını önemli görevlere getirdiği için bazı eleştirilere maruz kalmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emevi soyundan gelenleri kritik görevlere ataması hoşnutsuzluğa ve iç karışıklıklara zemin hazırlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıffın Savaşı sonrasında Hakem Olayı yaşanmış ve bu olay Müslümanlar arasında ayrılıkları derinleştirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hakem olayı sonucunda Müslümanlar Şiiler, Emeviler ve Hariciler olmak üzere üç gruba ayrılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dört Halife Dönemi'nde babadan oğula geçen saltanat sistemi uygulanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dört Halife seçimle iş başına gelmiştir; saltanat sistemi Emeviler ile başlamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "İslam Medeniyeti",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslamiyet öncesi Arap yarımadasında siyasi birliği olmayan, kabileler halinde yaşayan toplumsal yapının adı nedir?",
+                  "answer": "Bedevi yaşam tarzı ve kabile teşkilatı"
+                },
+                {
+                  "question": "Hz. Muhammed'e ilk vahyin geldiği mağara hangisidir?",
+                  "answer": "Hira Mağarası"
+                },
+                {
+                  "question": "Müslümanların Mekke'deki baskılardan kaçarak ilk sığındıkları yer neresidir?",
+                  "answer": "Habeşistan"
+                },
+                {
+                  "question": "Medine Sözleşmesi hangi yıl imzalanmıştır?",
+                  "answer": "622"
+                },
+                {
+                  "question": "Dört Halife Devri'nde ilk fetihlerin ve kurumsallaşmanın hızlandığı halife kimdir?",
+                  "answer": "Hz. Ömer"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Arabistan'da putperestliğin yaygın olduğu döneme ne ad verilir?",
+                  "options": [
+                    "Medine Dönemi",
+                    "Cahiliye Dönemi",
+                    "Asr-ı Saadet",
+                    "Fetret Devri"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslamiyet öncesi Arap yarımadasındaki putperestlik, inançsızlık ve sosyal kargaşa dönemine Cahiliye Dönemi denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İslamiyet'in doğduğu dönemde Arap yarımadasında hâkim olan inançlardan biri değildir?",
+                  "options": [
+                    "Putperestlik",
+                    "Hristiyanlık",
+                    "Musevilik",
+                    "Budizm"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bölgede putperestlik, Haniflik, Musevilik, Hristiyanlık ve Mecusilik bulunurken Budizm yaygın değildi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Müslümanların Mekke'den Medine'ye göç etmesine ne ad verilir?",
+                  "options": [
+                    "Serriye",
+                    "Hicret",
+                    "Miraç",
+                    "İsra"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "622 yılında Müslümanların baskı nedeniyle Mekke'den Medine'ye göç etmesi olayına Hicret denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dört Halife Dönemi'nde ilk kez İslam devletinin hazinesinin (Beytülmal) kurulduğu halife kimdir?",
+                  "options": [
+                    "Hz. Osman",
+                    "Hz. Ali",
+                    "Hz. Ebubekir",
+                    "Hz. Ömer"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Hz. Ömer döneminde devlet teşkilatlanması hızlanmış, divanlar kurulmuş ve devlet hazinesi oluşturulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam medeniyetinde bilim ve tercüme faaliyetlerinin en yoğun yaşandığı Abbasi halifesi kim döneminde başlamıştır?",
+                  "options": [
+                    "Ebu Cafer el-Mansur",
+                    "Harun Reşit",
+                    "I. Muaviye",
+                    "Abdülmelik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Harun Reşit ve oğlu Memun döneminde Beytülhikme kurularak felsefi ve bilimsel eserler Arapçaya tercüme edilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hz. Muhammed'in Mekke'den Medine'ye göç ettiği 622 yılı, İslam takviminin başlangıcı yani ____ olmuştur.",
+                  "options": [
+                    "Hicri takvim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Ömer döneminde 622 yılı Hicret olayından ötürü Hicri takvimin başlangıcı kabul edilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Müslümanlar ile Mekkeli müşrikler arasında yapılan ilk askerî mücadele ____ Savaşı'dır.",
+                  "options": [
+                    "Bedir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "624 yılında yapılan Bedir Savaşı, Müslümanların kazandığı ilk büyük zaferdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dört Halife Dönemi'nde Kur'an-ı Kerim'in çoğaltılarak önemli merkezlere gönderilmesi ____ döneminde gerçekleşmiştir.",
+                  "options": [
+                    "Hz. Osman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı kıraat farklılıklarını önlemek amacıyla Hz. Osman döneminde Kur'an çoğaltılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Emeviler döneminde Arap olmayan Müslümanlara karşı uygulanan ayrımcı politikalara ____ politikası denir.",
+                  "options": [
+                    "Mevali"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emevilerin Arap milletini üstün tutan bu politikası İslam birliğini ztelemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Abbasi döneminde Türklerin yerleşmesi amacıyla kurulan askerî şehirlerin en önemlisi ____ şehridir.",
+                  "options": [
+                    "Samarra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Abbasiler, Bizans sınırına yakın kurdukları Samarra gibi şehirlerde Türk askerleri yerleştirmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Arabistan'da siyasi birlik bulunmamakta, kabile devletleri şeklinde yaşam sürülmekteydi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kabileler arası sürekli kan davaları ve mücadeleler olduğundan siyasi birlik yoktu.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hudeybiye Antlaşması ile Mekkeli müşrikler İslam devletini hukuken tanımıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu antlaşma ile Müslümanlar siyasi olarak Mekkeliler tarafından resmen tanınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Ali dönemi, Dört Halife Devri'nin en huzurlu ve fetihlerin en çok yapıldığı dönemdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Ali dönemi iç karışıklıkların (Cemel Vakası ve Sıffin Savaşı) yaşandığı ve fetihlerin durduğu bir dönemdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Emeviler Dönemi'nde Arapça resmî dil ilan edilmiş ve ilk İslam parası bastırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Abdülmelik bin Mervan döneminde Arapça resmi dil kabul edilmiş ve Bizans parası yerine İslam parası basılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Abbasiler, Emevilerin aksine sadece Arap kökenli Müslümanlara devlet kademelerinde görev vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Abbasiler ümmetçi politika izlemiş, Türkler ve İranlılar gibi diğer milletlere de yönetimde ve orduda görev vermiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Türklerin İslamiyet’i Kabulü ve İlk Türk İslam Devletleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Türklerin İslamiyet’i Kabulü",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk Müslüman Türk devleti hangisidir?",
+                  "answer": "Karahanlılar"
+                },
+                {
+                  "question": "Türklerin İslamiyet'i toplu halde benimsemesinde etkili olan 751 yılındaki savaş hangisidir?",
+                  "answer": "Talas Savaşı"
+                },
+                {
+                  "question": "İslamiyet'i kabul eden ilk Türk boyu hangisidir?",
+                  "answer": "Karluklar"
+                },
+                {
+                  "question": "Karahanlılar döneminde yazılan ilk İslam Türk edebi eseri hangisidir?",
+                  "answer": "Kutadgu Bilig"
+                },
+                {
+                  "question": "Satuk Buğra Han İslamiyet'i kabul ettikten sonra hangi unvanı almıştır?",
+                  "answer": "Abdülkerim"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki Türk devletlerinden hangisi İslamiyet'i resmi din olarak ilk kez benimsemiştir?",
+                  "options": [
+                    "Gazneliler",
+                    "Tolunoğulları",
+                    "Büyük Selçuklu",
+                    "Karahanlılar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Karahanlılar, Satuk Buğra Han döneminde İslamiyet'i resmi din olarak benimseyen ilk Türk-İslam devletidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "751 Talas Savaşı hangi iki büyük devlet arasında gerçekleşmiştir?",
+                  "options": [
+                    "Göktürkler ile Çinliler",
+                    "Abbasi Devleti ile Bizans İmparatorluğu",
+                    "Karahanlılar ile Gazneliler",
+                    "Abbasiler ve Karluklar ile Çin Tang Hanedanlığı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Talas Savaşı, Abbasi Devleti ile Çin arasında yapılmış; Karluk Türkleri Abbasileri destekleyerek Türklerin İslamiyet'e geçiş sürecini hızlandırmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yusuf Has Hacip tarafından yazılan ve 'Mutluluk Veren Bilgi' anlamına gelen eser aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Divanü Lügati't-Türk",
+                    "Divan-ı Hikmet",
+                    "Atabetü'l-Hakayık",
+                    "Kutadgu Bilig"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kutadgu Bilig, Yusuf Has Hacip tarafından Karahanlı hükümdarı Tabgaç Buğra Han'a sunulmuş siyasetname özellikli bir eserdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki Türk boylarından hangisi Talas Savaşı sonrasında İslamiyet'i benimseyen ilk boydur?",
+                  "options": [
+                    "Peçenekler",
+                    "Oğuzlar",
+                    "Karluklar",
+                    "Kıpçaklar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Talas Savaşı'nda Abbasilerin yanında yer alan Karluk boyu, İslamiyet'i kabul eden ilk Türk boyu olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karahanlılar dönemine ait olan ve Kaşgarlı Mahmut tarafından yazılan sözlük niteliğindeki eser hangisidir?",
+                  "options": [
+                    "Divanü Lügati't-Türk",
+                    "Atabetü'l-Hakayık",
+                    "Risaletü'n-Nushiyye",
+                    "Kutadgu Bilig"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaşgarlı Mahmut, Araplara Türkçe öğretmek ve Türk dilinin zenginliğini göstermek amacıyla Divanü Lügati't-Türk'ü kaleme almıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türklerin İslamiyet'i kabulünde en önemli dönüm noktası olan 751 yılındaki savaşın adı ____ Savaşı'dır.",
+                  "options": [
+                    "Talas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "751 yılında Abbasiler ile Çin arasında yapılan Talas Savaşı, Türk-İslam tarihi açısından milat kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karahanlılar döneminde İslamiyet'i resmi din olarak kabul eden ilk hükümdar Satuk ____ Han'dır.",
+                  "options": [
+                    "Buğra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Satuk Buğra Han İslamiyet'i kabul ettikten sonra Abdülkerim adını almış ve Karahanlılarda İslamiyet'in yayılmasını sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk Türk-İslam edebi eserlerinden biri olan Kutadgu Bilig'in yazarı Yusuf Has ____'tir.",
+                  "options": [
+                    "Hacip"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yusuf Has Hacip, Karahanlılar döneminde Kutadgu Bilig adlı eseri kaleme alarak ideal devlet yönetimi hakkında bilgiler vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kaşgarlı Mahmut tarafından yazılan ilk Türkçe sözlüğün adı ____ Lügati't-Türk'tür.",
+                  "options": [
+                    "Divanü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Divanü Lügati't-Türk, içerdiği harita ve kelime hazinesiyle ilk Türk ansiklopedisi ve sözlüğü olarak kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Asya'da kurulan ilk Müslüman Türk devleti ____'lardır.",
+                  "options": [
+                    "Karahanlılar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karahanlılar, Karluk, Çiğil ve Yağma gibi Türk boylarının katılımıyla Maveraünnehir ve Semerkant civarında kurulmuştur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Talas Savaşı, İslamiyet'in Türkler arasında yayılma sürecini hızlandırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Talas Savaşı'nda Abbasileri destekleyen Türkler İslam medeniyeti ile doğrudan tanışmış ve bu durum toplu geçişleri kolaylaştırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karahanlılar devleti sadece Türk kültüründen uzaklaşarak tamamen Arap kültürünü benimsemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karahanlılar İslamiyet'i kabul etmelerine rağmen ulusal kimliklerini korumuşlar, resmi dil olarak Türkçe'yi kullanmaya devam etmişlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karluklar, İslamiyet'i resmi devlet dini olarak kabul eden ilk Türk boyudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karluklar İslamiyet'i kabul eden ilk Türk boyudur; ancak İslamiyet'i devlet dini olarak ilk kabul eden devlet Karahanlılardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Divanü Lügati't-Türk adlı eser Kaşgarlı Mahmut tarafından kaleme alınmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaşgarlı Mahmut, Türk dilinin zenginliğini Arap dillere kanıtlamak için bu büyük sözlüğü hazırlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Satuk Buğra Han, İslamiyet'i benimsedikten sonra Abdülkerim adını almıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Satuk Buğra Han Müslüman olduktan sonra Abdülkerim adını almış ve Karahanlılarda İslamiyet'in resmi din olmasını sağlamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Karahanlılar ve Gazneliler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Karahanlılar nerede kurulmuştur?",
+                  "answer": "Orta Asya'da, Karluk, Çiğil ve Yağma Türk boyları tarafından kurulmuştur."
+                },
+                {
+                  "question": "Karahanlıların resmî dili nedir?",
+                  "answer": "Türkçedir."
+                },
+                {
+                  "question": "Gazneli Mahmut'un Hindistan seferlerinin temel amacı nedir?",
+                  "answer": "İslamiyet'i yaymak ve Hindistan'ın zenginliklerini ele geçirmektir."
+                },
+                {
+                  "question": "Gaznelilere en parlak dönemini yaşatan hükümdar kimdir?",
+                  "answer": "Gazneli Mahmut'tur."
+                },
+                {
+                  "question": "Karahanlılar döneminde yazılan ilk İslam Türk edebi eseri hangisidir?",
+                  "answer": "Kutadgu Bilig'dir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Karahanlıların özelliklerinden biri değildir?",
+                  "options": [
+                    "Resmî dil olarak Türkçe'yi kullanmışlardır.",
+                    "Orta Asya'da kurulan ilk Müslüman Türk devleti olmaları",
+                    "Hindistan üzerine seferler düzenleyerek İslamiyet'i yaymaları",
+                    "Bimarhane adı verilen hastaneler inşa etmeleri"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hindistan üzerine seferler düzenleyerek İslamiyet'i yayan devlet Karahanlılar değil, Gaznelilerdir. Karahanlılar Orta Asya'da kurulmuş ve Türkçeye büyük önem vermiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gazneli Mahmut, Abbasi halifesinden hangi unvanı almıştır?",
+                  "options": [
+                    "Hakan",
+                    "Atabey",
+                    "İlhan",
+                    "Sultan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Gazneli Mahmut, Hindistan seferlerinde İslamiyet'e yaptığı hizmetlerden dolayı Abbasi halifesinden 'Sultan' unvanını alan ilk Türk hükümdarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki Türk-İslam eserlerinden hangisi Yusuf Has Hacip tarafından yazılmıştır?",
+                  "options": [
+                    "Divan-ı Hikmet",
+                    "Kutadgu Bilig",
+                    "Atabetü'l-Hakayık",
+                    "Divanü Lügati't-Türk"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kutadgu Bilig, Yusuf Has Hacip tarafından yazılmış ve Karahanlı hükümdarı Tabgaç Buğra Han'a sunulmuş siyasetname özellikli bir eserdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gaznelilerin yıkılış sürecine girmesinde etkili olan en önemli savaş aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Talas Savaşı",
+                    "Malazgirt Savaşı",
+                    "Dandanakan Savaşı",
+                    "Pasinler Savaşı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "1040 yılında Büyük Selçuklular ile Gazneliler arasında yapılan Dandanakan Savaşı'nı Gazneliler kaybetmiş ve devlet yıkılış sürecine girmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karahanlılar hangi Türk boylarının birleşmesiyle kurulmuştur?",
+                  "options": [
+                    "Oğuz, Kıpçak, Peçenek",
+                    "Karluk, Çiğil, Yağma",
+                    "Kırgız, Tatar, Moğol",
+                    "Avar, Bulgar, Macar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karahanlı Devleti, Orta Asya'da Karluk, Çiğil ve Yağma Türk boylarının bir araya gelmesiyle kurulmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Karahanlılar döneminde yazılan ve ilk Türkçe ansiklopedik sözlük niteliği taşıyan eser ____ olarak adlandırılır.",
+                  "options": [
+                    "Divanü Lügati't-Türk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaşgarlı Mahmut tarafından yazılan Divanü Lügati't-Türk, Araplara Türkçeyi öğretmek ve dilin zenginliğini göstermek amacıyla kaleme alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gaznelilere en parlak dönemini yaşatan ve Sultan unvanını ilk kez kullanan hükümdar ____ Mahmut'tur.",
+                  "options": [
+                    "Gazneli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazneli Mahmut, Hindistan'a düzenlediği 17 seferle İslamiyet'i bölgede yaymış ve Sultan unvanını kullanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karahanlılar, İslamiyet'i resmî din olarak ilk kez Satuk Buğra Han döneminde ____ devleti zamanında benimsemiştir.",
+                  "options": [
+                    "Orta Asya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karahanlılar Orta Asya'da İslamiyet'i resmi din olarak kabul eden ilk köklü Türk devletidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Büyük Selçuklular ile Gazneliler arasında yapılan ve Gaznelilerin yıkılışına zemin hazırlayan savaş ____ Savaşı'dır.",
+                  "options": [
+                    "Dandanakan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1040 Dandanakan Savaşı sonucunda Büyük Selçuklular güç kazanırken Gazneliler zayıflayarak yıkılış sürecine girmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Edip Ahmet Yükneki tarafından yazılan ve ahlaki öğütler içeren ilk İslam Türk eseri ____ şeklindedir.",
+                  "options": [
+                    "Atabetü'l-Hakayık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atabetü'l-Hakayık, Karahanlılar döneminde hakikatlerin eşiği anlamına gelen ve ahlaki erdemleri anlatan önemli bir eserdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Karahanlılar, milli benliklerini koruyarak resmi dil olarak Türkçe'yi kullanmaya devam etmişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karahanlılar İslamiyet'i kabul etmelerine rağmen ulusal kimliklerini ve dillerini korumuş, resmi yazışmalarda Türkçe'yi kullanmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazneliler imparatorluk karakteri taşımadığı için çok uluslu bir yapıya sahip olmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gazneliler Türk, Hint, Fars gibi farklı milletleri bünyesinde barındıran çok uluslu ve imparatorluk karakterinde bir devlettir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Birleşmiş olduğu boyların gücüyle kurulan Karahanlılar, aynı zamanda Ribat adı verilen kervansaraylar inşa etmişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karahanlılar ticaretin gelişmesi ve güvenliğin sağlanması amacıyla ribat adı verilen ilk Türk-İslam kervansaraylarını yapmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazneli Mahmut, ünlü bilim insanı Biruni'yi 'sarayımın en değerli hazinesi' olarak nitelendirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazneli Mahmut bilime ve bilim insanlarına değer vermiş, Biruni gibi önemli alimleri sarayında himaye etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karahanlılar, deniz ticaretiyle uğraştıkları için donanmaya büyük önem vermişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karahanlılar Orta Asya'da karasal alanda kurulmuştur, denize kıyıları yoktur ve donanma faaliyetleri bulunmaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Büyük Selçuklu Devleti",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anadolu’nun Fethi ve Yurt Edinme",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkiye Selçuklu Devleti",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Anadolu Beylikleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "20. Yüzyıl Başlarında Osmanlı Devleti ve Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Balkan Savaşları ve Trablusgarp",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "I. Dünya Savaşı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Mondros ve İşgaller",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Millî Mücadele",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kuvayımilliye ve TBMM",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Cepheler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Lozan ve Diplomasi",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Atatürkçülük ve Türk İnkılabı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Atatürk İlkeleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Siyasi, Hukuki ve Toplumsal İnkılaplar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Eğitim, Kültür ve Ekonomi",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit11",
+      "order": 11,
+      "title": "İki Savaş Arasındaki Dönemde Türkiye ve Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Türkiye’nin İç ve Dış Politikası",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İki Savaş Arası Dünya",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit12",
+      "order": 12,
+      "title": "II. Dünya Savaşı Sürecinde Türkiye ve Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Savaşın Nedenleri ve Gelişimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkiye’nin Siyaseti",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Savaşın Sonuçları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit13",
+      "order": 13,
+      "title": "II. Dünya Savaşı Sonrasında Türkiye ve Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Soğuk Savaş",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkiye’de Çok Partili Hayat",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit14",
+      "order": 14,
+      "title": "Toplumsal Devrim Çağında Dünya ve Türkiye",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Toplumsal Hareketler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkiye’de Siyasi ve Toplumsal Değişim",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit15",
+      "order": 15,
+      "title": "21. Yüzyılın Eşiğinde Türkiye ve Dünya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Küreselleşme",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkiye’nin Dış Politikası",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Bilim ve Teknoloji",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

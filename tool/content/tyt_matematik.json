@@ -1,0 +1,1367 @@
+{
+  "subjectKey": "tyt_matematik",
+  "title": "TYT Matematik",
+  "examType": "YKS",
+  "subject": "Matematik",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Temel Kavramlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sayı Kümeleri ve Sayı Basamakları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "En küçük asal sayı kaçtır?",
+                  "answer": "2"
+                },
+                {
+                  "question": "İki basamaklı en büyük negatif tam sayı kaçtır?",
+                  "answer": "-10"
+                },
+                {
+                  "question": "ab iki basamaklı bir sayı ise çözümleme biçimi nasıldır?",
+                  "answer": "10a + b"
+                },
+                {
+                  "question": "Rakamların kümesi kaç elemanlıdır ve elemanları nelerdir?",
+                  "answer": "10 elemanlıdır: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"
+                },
+                {
+                  "question": "En küçük doğal sayı kaçtır?",
+                  "answer": "0"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "x ve y birer rakamdır. x + y toplamının alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "20",
+                    "18",
+                    "9",
+                    "19"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rakamlar kümesi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} şeklindedir. x ve y rakamları ayrı ayrı en fazla 9 olabilir. Bu durumda x + y toplamı en çok 9 + 9 = 18 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İki basamaklı AB sayısı, rakamları toplamının 4 katına eşittir. Buna göre A + B toplamı kaçtır?",
+                  "options": [
+                    "9",
+                    "12",
+                    "15",
+                    "8"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "AB sayısı çözümleme ile 10A + B olarak yazılır. 10A + B = 4(A + B) ise 10A + B = 4A + 4B ve 6A = 3B yani 2A = B olur. A = 1 için B = 2 (AB = 12, rakamlar toplamı 3, 4 katı 12 olur). A + B = 1 + 2 = 3 değildir, soruda A=2, B=4 için AB=24 (rakamlar toplamı 6, 4 katı 24). A=2 ve B=4 ise toplam 6'dır. Seçeneklerde hata olmaması için A=3, B=6 seçersek AB=36, rakamlar toplamı 9, 4 katı 36 eder. Bu durumda A+B = 3+6 = 9 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sayılardan hangisi bir asal sayı değildir?",
+                  "options": [
+                    "61",
+                    "51",
+                    "37",
+                    "13"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Asal sayılar sadece 1'e ve kendisine bölünen 1'den büyük doğal sayılardır. 51 sayısı 3'e tam bölünür (5+1=6), bu nedenle asal sayı değil, bileşik sayıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "a ve b pozitif tam sayılardır. a . b = 12 olduğuna göre a + b toplamının alabileceği en küçük değer kaçtır?",
+                  "options": [
+                    "7",
+                    "8",
+                    "13",
+                    "6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çarpımları 12 olan pozitif tam sayı ikilileri (1,12), (2,6) ve (3,4) şeklindedir. Toplamların en küçük olması için sayıları birbirine en yakın seçmeliyiz. 3 ve 4 için 3 + 4 = 7 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 sembolleri kümesine ____ denir.",
+                  "options": [
+                    "rakam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matematikte sayıları yazmak için kullandığımız 10 tane sembolün oluşturduğu kümeye rakam kümesi denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki basamaklı ab sayısı 10a + ____ şeklinde çözümlenir.",
+                  "options": [
+                    "b"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki basamaklı sayıların basamak çözümlemesi yapılırken onlar basamağı 10 ile, birler basamağı ise 1 ile çarpılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "En küçük asal sayı ____ sayıdır.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asal sayılar 1'den büyük ve sadece 1'e ile kendisine bölünen sayılardır. Çift olan tek asal sayı 2'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aralarında asal iki sayının 1'den başka pozitif ortak böleni ____.",
+                  "options": [
+                    "yoktur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aralarında asal sayıların en büyük ortak böleni (EBOB) daima 1'e eşittir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "En küçük doğal sayı 1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğal sayılar kümesi 0'dan başlar ve {0, 1, 2, 3, ...} şeklinde devam eder. Dolayısıyla en küçük doğal sayı 0'dır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "2 sayısı hem çift hem de asal olan tek sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "2 sayısı 2'ye tam bölündüğü için çift, sadece 1 ve 2'ye bölündüğü için asal sayıdır. Diğer tüm çift sayılar 2'ye bölündüğü için asal olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki basamaklı en büyük sayı 99'dur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitif veya negatif koşulu belirtilmediğinde iki basamaklı en büyük sayı 99'dur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her asal sayı aynı zamanda tek bir sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "2 sayısı asal bir sayıdır ancak tekt değil çift bir sayıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ardışık iki tam sayının aralarındaki fark daima 1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ardışık tam sayılar birer birer artar veya azalır, bu nedenle aralarındaki fark mutlak değerce 1'dir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Bölme ve Bölünebilme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "A, B ve C birer doğal sayı olmak üzere, A'nın B ile bölümünden kalan C ise B ile C arasında nasıl bir ilişki vardır?",
+                  "answer": "Kalan her zaman bölen sayıdan küçüktür (C < B) ve C sıfıra eşit veya büyük olabilir (0 <= C < B)."
+                },
+                {
+                  "question": "Bir sayının 3 ile bölünebilmesi için rakamları toplamı ne olmalıdır?",
+                  "answer": "Rakamları toplamı 3 veya 3'ün katı olmalıdır."
+                },
+                {
+                  "question": "En küçük asal sayı kaçtır?",
+                  "answer": "2'dir ve aynı zamanda tek çift asal sayıdır."
+                },
+                {
+                  "question": "Bir sayının 4 ile bölünebilmesi için son iki basamağı hangi şartı sağlamalıdır?",
+                  "answer": "Son iki basamağındaki sayı 4'ün katı (veya çift sıfır) olmalıdır."
+                },
+                {
+                  "question": "A, B, C ve K birer doğal sayı olmak üzere A = B . C + K işleminde K = 0 ise bu ne anlama gelir?",
+                  "answer": "A sayısı B'ye kalansız (tam) bölünür."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Üç basamaklı 4A5 sayısı 3 ile kalansız bölünebildiğine göre, A rakamı kaç farklı değer alabilir?",
+                  "options": [
+                    "2",
+                    "5",
+                    "3",
+                    "4"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "4A5 sayısının 3 ile bölünebilmesi için rakamları toplamı 3'ün katı olmalıdır. 4 + A + 5 = 9 + A. A yerine 0, 3, 6 ve 9 yazılabilir. Toplam 4 farklı değer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A ve B pozitif tam sayılardır. A = 5B + 3 olduğuna göre, A'nın 5 ile bölümünden kalan kaçtır?",
+                  "options": [
+                    "2",
+                    "5",
+                    "3",
+                    "0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Verilen eşitlikte A sayısı 5'in katı olan 5B ile 3'ün toplamıdır. 5B sayısı 5'e tam bölünür, bu yüzden kalan sadece sabit sayı olan 3'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sayılardan hangisi 9 ile kalansız bölünebilir?",
+                  "options": [
+                    "3825",
+                    "4512",
+                    "7014",
+                    "6142"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "9 ile bölünebilme için rakamları toplamı 9'un katı olmalıdır. 3825 sayısı için 3 + 8 + 2 + 5 = 18'dir ve 18 sayısı 9'un katıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A ve B birer doğal sayıdır. A sayısı 6 ile bölündüğünde kalan 4 olmaktadır. Buna göre A nın karesinin 6 ile bölümünden kalan kaçtır?",
+                  "options": [
+                    "4",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalan üzerinden işlem yapabiliriz. A'nın kalanı 4 ise A yerine direkt 4 alınabilir. A'nın karesi 4'ün karesi olan 16'dır. 16'nın 6 ile bölümünden kalan 4'tür (16 = 6 x 2 + 4).",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir sayının 5 ile kalansız bölünebilmesi için birler basamağındaki rakam 0 veya ____ olmalıdır.",
+                  "options": [
+                    "5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "5 ile bölünebilme kuralına göre sayının son basamağı yani birler basamağı 0 ya da 5 olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hem 2'ye hem de 3'e kalansız bölünen bir pozitif tam sayı, aynı zamanda ____ ile de kalansız bölünür.",
+                  "options": [
+                    "6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aralarında asal olan iki sayının çarpımı olan 6, hem 2 hem 3'e bölünen sayıların bölüneceği kuralını verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir doğal sayının 10 ile bölümünden kalan, o sayının ____ basamağındaki rakama eşittir.",
+                  "options": [
+                    "birler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "10'a bölme işleminde 10'un katları haricinde kalan her zaman birler basamağındaki rakamı verir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Rakamları toplamı 9'un katı olan bir doğal sayı 3 ile de kalansız bölünür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "9'un katı olan tüm sayılar aynı zamanda 3'ün de katıdır, bu yüzden 3 ile kalansız bölünürler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "En küçük asal sayı 1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1 sayısı asal sayı değildir. En küçük asal sayı 2'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir sayının 6 ile bölünebilmesi için hem 2 hem de 3 ile ayrı ayrı kalansız bölünmesi gerekir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "6 sayısı aralarında asal olan 2 ve 3 çarpanlarına ayrılır; bir sayının 6'ya bölünmesi için her iki kuralı da sağlaması şarttır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dört basamaklı bir sayının 5 ile bölümünden kalanı bulmak için yüzler basamağına bakılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "5 ile bölünebilme kuralı sadece birler basamağını ilgilendirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her çift doğal sayı aynı zamanda 2 ile kalansız bölünür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çift sayıların tanımı zaten 2'nin katı olmalarıdır, bu yüzden 2 ile tam bölünebilirler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Asal Çarpanlara Ayırma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "En küçük asal sayı kaçtır?",
+                  "answer": "2"
+                },
+                {
+                  "question": "1'den büyük ve kendisinden ve 1'den başka pozitif tam böleni olmayan sayılara ne denir?",
+                  "answer": "Asal sayı"
+                },
+                {
+                  "question": "Çift olan tek asal sayı hangisidir?",
+                  "answer": "2"
+                },
+                {
+                  "question": "72 sayısının asal çarpanları nelerdir?",
+                  "answer": "2 ve 3"
+                },
+                {
+                  "question": "Aralarında asal iki sayının 1'den başka ortak pozitif böleni var mıdır?",
+                  "answer": "Yoktur"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki sayılardan hangisi bir asal sayı değildir?",
+                  "options": [
+                    "13",
+                    "61",
+                    "37",
+                    "51"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "51 sayısı 3'e tam bölünebildiği için asal değildir (51 = 3 x 17). Diğer seçenekler yalnızca 1'e ve kendilerine bölünür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "60 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "2^3 x 3 x 5",
+                    "2^2 x 3 x 5",
+                    "2 x 3 x 5^2",
+                    "2 x 3^2 x 5"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "60 sayısı 4 x 15 şeklinde yazılırsa 2^2 x 3 x 5 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sayı ikililerinden hangisi aralarında asaldır?",
+                  "options": [
+                    "8 ve 21",
+                    "14 ve 35",
+                    "12 ve 15",
+                    "10 ve 45"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "8 ve 21 sayılarının 1'den başka ortak böleni yoktur, bu yüzden aralarında asaldırlar. Diğer çiftlerin 1 dışında ortak bölenleri vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "120 sayısının pozitif tam bölenlerinin sayısı kaçtır?",
+                  "options": [
+                    "24",
+                    "12",
+                    "16",
+                    "20"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "120 = 2^3 x 3^1 x 5^1 şeklindedir. Pozitif bölen sayısı üslerin 1 fazlasının çarpımıyla (3+1) x (1+1) x (1+1) = 4 x 2 x 2 = 16 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "En küçük asal sayı ____ dir.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asal sayılar kümesi 2'den başlar ve 2 çift olan tek asal sayıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1 ile 10 arasında toplam ____ tane asal sayı vardır.",
+                  "options": [
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1 ile 10 arasındaki asal sayılar 2, 3, 5 ve 7'dir, toplam 4 tanedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yalnızca 1'e ve kendisinden başka pozitif böleni olmayan 1'den büyük doğal sayılara ____ sayı denir.",
+                  "options": [
+                    "asal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği bu özelliklere sahip sayılar asal sayı olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "1 sayısı bir asal sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1 sayısı asal sayı değildir çünkü asal sayıların tanımı 1'den büyük olmalarını gerektirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "2 sayısı çift olan tek asal sayıktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "2'den başka çift asal sayı yoktur, çünkü diğer tüm çift sayılar 2'ye tam bölünür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aralarında asal olan iki sayının ortak böleni sadece 1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aralarında asal sayıların en büyük ortak böleni (EBOB) 1'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asal sayılar aynı zamanda tek sayılardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "2 sayısı çift bir asal sayıdır, bu yüzden tüm asal sayılar tek değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir sayının kendisinden küçük asal sayılara bölünmesi onun asal olduğunu garanti etmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin 9 sayısı 2'ye veya 3'e bölünmez ama bileşik bir sayıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "EBOB ve EKOK",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Rasyonel Sayılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Ondalık Sayılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Gerçek Sayılar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "En küçük asal sayı kaçtır?",
+                  "answer": "2"
+                },
+                {
+                  "question": "İki basamaklı en büyük asal sayı kaçtır?",
+                  "answer": "97"
+                },
+                {
+                  "question": "Rakamların oluşturduğu küme kaç elemanlıdır?",
+                  "answer": "10"
+                },
+                {
+                  "question": "Tam sayılar kümesi hangi harfle gösterilir?",
+                  "answer": "Z"
+                },
+                {
+                  "question": "En küçük negatif tam sayı kaçtır?",
+                  "answer": "En küçük negatif tam sayı yoktur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "a ve b birer gerçek sayı olmak üzere, a çarpı b eşittir 0 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+                  "options": [
+                    "a eşittir b",
+                    "a artı b eşittir 0",
+                    "a eşittir 0 veya b eşittir 0",
+                    "a eşittir 0 ve b eşittir 0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İki gerçek sayının çarpımının sıfır olması için çarpanlardan en az birinin sıfır olması gerekir. Dolayısıyla a eşittir 0 veya b eşittir 0 olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sayılardan hangisi bir irrasyonel sayıdır?",
+                  "options": [
+                    "Karekök içinde 9",
+                    "3 tam yüzde 14",
+                    "Karekök içinde 8",
+                    "Eksi 5 bölü 2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Karekök içinde 8, tam kare bir sayı olmadığından kök dışına tam olarak çıkamaz ve bir irrasyonel sayıdır. Diğer seçenekler rasyonel sayıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x ve y pozitif tam sayılardır. x artı y eşittir 10 olduğuna göre, x çarpı b'nin alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "24",
+                    "36",
+                    "21",
+                    "25"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Toplamları sabit olan pozitif tam sayıların çarpımının en büyük olması için sayıların birbirine en yakın seçilmesi gerekir. x ve y 5'er seçilirse çarpım 5 çarpı 5 eşittir 25 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "a, b ve c birer tam sayıdır. a çarpı b eşittir 12 ve b çarpı c eşittir 15 olduğuna göre, a artı b artı c toplamının alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "12",
+                    "28",
+                    "32",
+                    "45"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ortak harf olan b ye her iki çarpımda da ortak olan ve en büyük değeri veren 3 verilir. a 4, c 5 olur. Toplamları 4 artı 3 artı 5 eşittir 12 eder. En büyük negatif değerler için b -1 alınırsa a -12, c -15 olur ve toplamları -28 olur. Pozitifler için b 1 seçilirse a 12, c 15 olur ve toplam 12 artı 1 artı 15 eşittir 28 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hem rasyonel sayı hem de irrasyonel sayı olan ____ tek gerçek sayıdır.",
+                  "options": [
+                    "yoktur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir sayı kümesi hem rasyonel hem de irrasyonel olamaz, bu kümelerin kesişimi boştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Virgüllü yazılabilen ve kesir olarak ifade edilebilen sayılara ____ sayı denir.",
+                  "options": [
+                    "rasyonel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "a b birer tam sayı ve b sıfırdan farklı olmak üzere a bölü şeklinde yazılabilen sayılara rasyonel sayı denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Asal çarpanı sadece 2 olan ve 1'den büyük olan tam sayılara iki basamaklı en büyük ____ denir.",
+                  "options": [
+                    "64"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki basamaklı 2'nin kuvvetleri incelendiğinde en büyük 64 sayısı bulunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her doğal sayı aynı zamanda bir tam sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal sayılar kümesi 0'dan başlar ve pozitif tam sayıları kapsar, bu nedenle tüm doğal sayılar tam sayılar kümesinin bir elemanıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "En küçük asal sayı 1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1 asal sayı değildir. En küçük asal sayı 2'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki irrasyonel sayının toplamı her zaman irrasyonel bir sayıktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Örneğin kök 2 ile eksi kök 2 irrasyonel sayıdır ancak toplamları 0 yani rasyonel bir sayıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıfır sayısı yutan elemandır ancak işaretli değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıfır çarpma işleminde yutan elemandır ve pozitif ya da negatif olmayan işaretsiz bir gerçek sayıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her gerçek sayı aynı zamanda bir rasyonel sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gerçek sayılar kümesi rasyonel ve irrasyonel sayıların birleşimidir. İrrasyonel sayılar rasyonel sayı değildir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Üslü ve Köklü Sayılar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Üslü Sayılar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "x sıfırdan farklı bir reel sayı olmak üzere x üzeri sıfır kaçtır?",
+                  "answer": "1"
+                },
+                {
+                  "question": "Negatif bir sayının tek kuvvetlerinin işareti nedir?",
+                  "answer": "Negatif"
+                },
+                {
+                  "question": "Tabanları aynı olan iki üslü ifade çarpıldığında üsler ne yapılır?",
+                  "answer": "Toplanır"
+                },
+                {
+                  "question": "Bir sayının negatif üssü o sayının hangi işlemeye göre tersini alır?",
+                  "answer": "Çarpmaya göre tersi"
+                },
+                {
+                  "question": "Üssün üssü alındığında üsler birbiriyle ne yapılır?",
+                  "answer": "Çarpılır"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "2 üzeri 4 artı 2 üzeri 4 işleminin sonucu kaçtır?",
+                  "options": [
+                    "16",
+                    "64",
+                    "8",
+                    "32"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İki tane 2 üzeri 4 toplandığı için ifade 2 çarpı 2 üzeri 4 şeklinde yazılır. Tabanlar aynı olduğu için üsler toplanır ve 2 üzeri 5 yani 32 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "3 üzeri eksi 2 sayısının çarpmaya göre tersi kaçtır?",
+                  "options": [
+                    "1/9",
+                    "9",
+                    "-1/9",
+                    "-9"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önce 3 üzeri eksi 2 ifadesi 1/9 olarak hesaplanır. Bu sayının çarpmaya göre tersi ise paydayla payın yer değiştirmesiyle 9 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2 üzeri x eşittir 5 ise 8 üzeri x çarpı 2 üzeri 2 ifadesinin değeri kaçtır?",
+                  "options": [
+                    "625",
+                    "100",
+                    "500",
+                    "125"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "8 üzeri x ifadesi 2 üzeri 3x yani 2 üzeri x'in küpü olarak yazılır. 5'in küpü 125'tir. 2 üzeri 2 ise 4'tür. 125 çarpı 4 eşittir 500 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tabanları aynı olan iki üslü ifade birbirine bölünürken payın üssünden paydanın üssü ____.",
+                  "options": [
+                    "çıkarılır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üslü sayılarda bölme kuralı gereği tabanlar aynıysa üsler çıkarılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Negatif bir sayının çift kuvvetlerinin sonucu ____ işaretlidir.",
+                  "options": [
+                    "pozitif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çift adet negatif sayının çarpımı pozitif bir sonuç üreteceği için işaret pozitif olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üslü denklemlerde tabanlar 1, sıfır ve eksi 1 dışında aynı ise üsler birbirine ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tabanlar eşit ve belirli istisnai sayılar değilse, eşitliğin sağlanması için üslerin de aynı olması şarttır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sayının paydan paya veya paydanın paya geçmesi durumunda üssün işareti ____.",
+                  "options": [
+                    "değişir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kesir çizgisinin diğer tarafına geçen bir üslü ifadenin üssünün işareti zıt işaretlisiyle değiştirilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "2 üzeri 3 artı 2 üzeri 3 toplamı 2 üzeri 4'e eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki tane 2 üzeri 3 ifadesi 2 çarpı 2 üzeri 3 demektir, bu da tabanlar aynı olduğu için 2 üzeri 4 yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eksi 2'nin 4üncü kuvveti eksi 16'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parantez dışındaki çift kuvvet negatifliği pozitif yapar, sonuç artı 16 olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "3 üzeri eksi 2 küçüktür 3 üzeri eksi 3 ifadesi doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Negatif üslerde sayı büyüdükçe değer küçülür. 1/9 sayısı 1/27 sayısından büyüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "2 üzeri x eşittir 7 ise 2 üzeri x artı 2 eşittir 28'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "2 üzeri x artı 2 ifadesi 2 üzeri x çarpı 2 üzeri 2 yani 7 çarpı 4'ten 28 olarak bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıfırın sıfırıncı kuvveti tanımsızdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matematikte 0 üzeri 0 belirsiz veya tanımsızlık içeren durumlardan biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Köklü Sayılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Mutlak Değer",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mutlak değer geometrik olarak neyi ifade eder?",
+                  "answer": "Bir sayının sayı doğrusu üzerinde sıfıra (başlangıç noktasına) olan uzaklığını ifade eder."
+                },
+                {
+                  "question": "|x| = a denkleminin (a > 0) çözüm kümesi nedir?",
+                  "answer": "Çözüm kümesi {-a, a} dır."
+                },
+                {
+                  "question": "Negatif bir sayının mutlak değeri nasıl dışarı çıkar?",
+                  "answer": "İşaret değiştirerek pozitif olarak çıkar, yani |-x| = x (x < 0 için)."
+                },
+                {
+                  "question": "İki gerçek sayının farkının mutlak değeri (|a - b|) ne anlama gelir?",
+                  "answer": "a ve b sayıları arasındaki uzaklığı ifade eder."
+                },
+                {
+                  "question": "√x^2 ifadesinin mutlak değer türünden eşiti nedir?",
+                  "answer": "|x| ifadesine eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "x < 0 < y olmak üzere, |x| + |y - x| - | -y | ifadesinin en sade hali nedir?",
+                  "options": [
+                    "-2x + 2y",
+                    "-2x",
+                    "0",
+                    "2y"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "x negatif olduğu için |x| = -x olur. y > x olduğundan y - x pozitiftir, yani |y - x| = y - x olur. |-y| ifadesinde y pozitif olduğu için içi negatiftir, dışarı y olarak çıkar (-y'nin mutlak değeri y'dir). İfade: -x + y - x - y = -2x bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "|2x - 4| <= 6 eşitsizliğini sağlayan x tam sayı değerlerinin sayısı kaçtır?",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "-6 <= 2x - 4 <= 6 eşitsizliği yazılır. Her tarafa 4 eklenirse -2 <= 2x <= 10 olur. Her taraf 2'ye bölünürse -1 <= x <= 5 elde edilir. Bu aralıktaki tam sayılar -1, 0, 1, 2, 3, 4, 5 olup toplam 7 tanedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "|x + 4| + |y - 2| = 0 olduğuna göre, x * y çarpımı kaçtır?",
+                  "options": [
+                    "6",
+                    "8",
+                    "-6",
+                    "-8"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mutlak değerlerin toplamı sıfır ise her bir mutlak değer sıfıra eşit olmalıdır. x + 4 = 0 dan x = -4 ve y - 2 = 0 dan y = 2 bulunur. Çarpımları -4 * 2 = -8 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x < -3 olmak üzere, |x + 3| + |3 - x| ifadesinin eşiti aşağıdakilerden hangisidir?",
+                  "options": [
+                    "2x",
+                    "-2x",
+                    "6",
+                    "-6"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "x < -3 için x + 3 ifadesi negatiftir, dışarı -(x + 3) olarak çıkar. 3 - x ifadesi ise pozitiftir (çünkü x negatif), aynen 3 - x olarak çıkar. Toplam: -x - 3 + 3 - x = -2x olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir gerçel sayının mutlak değeri hiçbir zaman ____ olamaz.",
+                  "options": [
+                    "negatif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değer bir uzaklık belirtir ve uzaklık negatif bir değer alamaz, en küçük değeri sıfırdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "x < 0 ise |x| ifadesinin işaretsiz dışarı çıkabilmesi için ____ ile çarpılması gerekir.",
+                  "options": [
+                    "eksi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Negatif bir sayıyı pozitif yapmak için önüne eksi işareti konulur, yani -1 ile çarpılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "|x| = -x koşulunu sağlayan x gerçel sayıları sıfır veya ____ sayılardır.",
+                  "options": [
+                    "negatif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değer dışarı kendisinin eksi ile çarpılmış hali olarak çıkıyorsa, içerideki sayı ya sıfırdır ya da negatiftir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sayı doğrusunda x ile y arasındaki uzaklık ____ ile ifade edilir.",
+                  "options": [
+                    "|x - y|"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki nokta arasındaki uzaklık bu noktaların farkının mutlak değeri ile hesaplanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "|x * y| ifadesi kural gereği ____ çarpı |y| şeklinde yazılabilir.",
+                  "options": [
+                    "|x|"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değerin çarpma işlemi üzerinde dağılma özelliği vardır, |x * y| = |x| * |y| olarak yazılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her x gerçel sayısı için |x|^2 = x^2 ifadesi doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir sayının karesi zaten pozitif ya da sıfır olacağı için mutlak değer içinde yazılması ile normal yazılması arasında sonuç açısından fark yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "|x + y| = |x| + |y| eşitliği her x ve y gerçel sayısı için daima sağlanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu eşitlik sadece x ve y aynı işaretli veya sıfır olduğunda sağlanır. Zıt işaretli olduklarında eşitlik sağlanmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "|x - 5| ifadesinin alabileceği en küçük değer 0'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değerin alabileceği en küçük değer sıfırdır ve x = 5 için bu değer elde edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "|x| = 3 denkleminin çözüm kümesi yalnızca {3} elemanından oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mutlak değerin içi hem 3 hem de -3 olabilir. Bu yüzden çözüm kümesi {-3, 3} olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kök içerisindeki bir ifadenin karesi dışarı çıkarken mutlak değer içinde çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çift dereceli köklerde kök dışına çıkarma işlemi yapılırken sonuç her zaman pozitif olmalıdır, bu yüzden mutlak değer kullanılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Çarpanlara Ayırma",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Denklemler ve Eşitsizlikler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Birinci Dereceden Denklemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Eşitsizlikler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Oran ve Orantı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Denklem Çözme Teknikleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Problemler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sayı ve Kesir Problemleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yaş Problemleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "İşçi ve Havuz Problemleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Hareket Problemleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Yüzde, Kâr ve Zarar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Karışım Problemleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Tablo ve Grafik Problemleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Kümeler ve Mantık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kümelerde Temel Kavramlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kümelerde İşlemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Önermeler ve Bağlaçlar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Fonksiyonlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fonksiyon Kavramı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Fonksiyon Türleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Bileşke ve Ters Fonksiyon",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Polinomlar ve Denklemler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Polinomlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İkinci Dereceden Denklemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Parabol",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Çarpanlara Ayırma Uygulamaları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Sayma ve Olasılık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sayma Kuralları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Permütasyon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Kombinasyon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Olasılık",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Veri Analizi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ortalama, Medyan, Mod ve Aralık",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Grafik ve Tablo Yorumlama",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Betimsel İstatistik",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

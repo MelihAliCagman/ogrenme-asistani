@@ -1,0 +1,2145 @@
+{
+  "subjectKey": "ayt_felsefe",
+  "title": "AYT Felsefe",
+  "examType": "YKS",
+  "subject": "Felsefe",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "MÖ 6. Yüzyıl-MS 2. Yüzyıl Felsefesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Felsefenin Doğuşu",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefe ilk olarak hangi coğrafyada doğmuştur?",
+                  "answer": "İyonya (Antik Yunan'ın Anadolu'daki kıyı bölgesi)"
+                },
+                {
+                  "question": "MÖ 6. yüzyıl felsefesinin temel yönelimi nedir?",
+                  "answer": "Doğanın ana maddesini (arkhe) aramak"
+                },
+                {
+                  "question": "İlk felsefi düşüncenin mitolojiden ayrılmasının temel nedeni nedir?",
+                  "answer": "Olayların nedenini tanrısal güçler yerine akıl ve doğa ile açıklama çabası"
+                },
+                {
+                  "question": "İlk filozof olarak kabul edilen ve 'Her şeyin ana maddesi sudur' diyen düşünür kimdir?",
+                  "answer": "Thales"
+                },
+                {
+                  "question": "MÖ 6. yüzyıl felsefesinin diğer adı nedir?",
+                  "answer": "Doğa felsefesi veya İlkçağ Doğa Felsefesi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "MÖ 6. yüzyılda felsefenin İyonya bölgesinde doğmasında aşağıdaki faktörlerden hangisinin doğrudan etkili olduğu söylenemez?",
+                  "options": [
+                    "Ekonomik refah ve ticaretin gelişmiş olması",
+                    "Demokratik ve özgür düşünceyi destekleyen yönetim biçimleri",
+                    "Farklı kültürlerle etkileşim ve hoşgörü ortamı",
+                    "Merkezi ve baskıcı bir teokratik imparatorluğun bulunması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İyonya bölgesinde merkezi ve baskıcı bir teokratik yönetim yerine şehir devletleri (polis) bulunmaktaydı. Bu özgür ortam felsefenin doğuşunu kolaylaştırmıştır; dolayısıyla baskıcı bir imparatorluğun varlığı söylenemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefe tarihinin ilk filozofu olarak bilinen ve güneş tutulmasını önceden tahmin ettiği rivayet edilen antik çağ düşünürü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Herakleitos",
+                    "Empedokles",
+                    "Thales",
+                    "Anaximandros"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Thales, arkhe olarak suyu öne sürmüş ve felsefe tarihinin ilk filozofu olarak kabul edilmiştir. Ayrıca geometri ve astronomi alanındaki çalışmalarıyla tanınır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "MÖ 6. yüzyıl felsefesinin temel problemi olan 'arkhe' kavramı aşağıdakilerden hangisini ifade eder?",
+                  "options": [
+                    "Evrendeki ahlaki kuralların bütününü",
+                    "Her şeyin kendisinden türediği ilk neden ve ana maddeyi",
+                    "İnsanın bilgiye ulaşma yöntemlerini",
+                    "Toplumsal düzeni sağlayan yasaları"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Arkhe, ilkçağ doğa filozoflarının aradığı her şeyin kendisinden geldiği ve yine her şeyin ona döneceği ilk madde, töz veya ana neden anlamına gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mitolojik düşünceden felsefi düşünceye geçiş sürecinde aşağıdakilerden hangisi etkili olmamıştır?",
+                  "options": [
+                    "Olayların nedenlerini doğa üstü varlıklara bağlama alışkanlığının azalması",
+                    "Bilginin otoriter bir din adamı sınıfı tarafından mutlak olarak denetlenmesi",
+                    "Deney, gözlem ve akıl yürütmeye önem verilmesi",
+                    "Farklı mitolojilerin ve inançların sorgulanır hale gelmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefe, dogmatik ve din adamı sınıfının tekelindeki mutlak bilgiyi reddederek aklı ön plana çıkarmıştır. Bu nedenle bilginin din adamlarıca denetlenmesi felsefi düşünceye geçişi değil, engeller.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anaximenes'e göre her şeyin ilk maddesi (arkhe) nedir?",
+                  "options": [
+                    "Aperion (Sınırsız)",
+                    "Ateş",
+                    "Hava (Nefes)",
+                    "Su"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Anaximenes, evrenin ana maddesinin hava olduğunu savunmuş ve havanın seyrelme ve sıkışma yoluyla diğer nesneleri oluşturduğunu öne sürmüştür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "MÖ 6. yüzyıl felsefesinde evrenin ana maddesini yani ilk nedenini ifade etmek için kullanılan temel kavram ____ olarak adlandırılır.",
+                  "options": [
+                    "arkhe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Arkhe, doğa filozoflarının evrenin nereden gelip nereye gittiğini açıklamak için aradıkları temel maddedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefenin ilk doğduğu yer olan İyonya bölgesinde yer alan ticaret ve kültür merkezi ____ kenti, bu gelişimin merkezidir.",
+                  "options": [
+                    "Milet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Miletos kenti, İyonya'nın en zengin liman kentlerinden biri olup Thales, Anaximandros ve Anaximenes gibi ilk filozofların yetiştiği yerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anaximandros'un arkhe olarak belirlediği, hiçbir niteliği olmayan ve sınırsız anlamına gelen kavram ____ adını alır.",
+                  "options": [
+                    "aperion"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aperion, belirli bir element olmayan, sonsuz ve sınırsız olan ilk maddedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "MÖ 6. yüzyıl ile MS 2. yüzyıl arasındaki felsefi döneme genel olarak ____ felsefesi adı verilir.",
+                  "options": [
+                    "ilkçağ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Milattan önce 6. yüzyıldan milattan sonra 2. yüzyıla kadar uzanan bu dönem İlkçağ felsefesi olarak sınıflandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Evrendeki her şeyin sürekli bir değişim ve akış içinde olduğunu savunan ve arkheyi ateş olarak gören antik dönem filozofu ____ dir.",
+                  "options": [
+                    "Herakleitos"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Herakleitos değişim felsefesinin kurucusudur ve değişmeyen tek şeyin değişim olduğunu savunmuştur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "MÖ 6. yüzyılda felsefe, mitolojik açıklamaların yerini akla dayalı açıklamaların almasıyla başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefe, mitolojiden akla ve mantıksal temellendirmelere geçişle birlikte İyonya'da doğmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İlkçağ doğa filozoflarının tamamı arkhe olarak tek bir ortak elementin su olduğunu savunmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Filozoflar tek bir madde üzerinde uzlaşamamıştır; örneğin Thales suyu, Anaximenes havayı, Herakleitos ise ateşi savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İyonya bölgesinin ekonomik ve kültürel açıdan zengin olması felsefenin ortaya çıkmasında önemli bir etken olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ticaret yolları üzerinde bulunan ve refah seviyesi yüksek olan İyonya, farklı kültürlerin buluşma noktası olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi düşünce doğu medeniyetlerinden tamamen bağımsız olarak ilk defa sadece Yunan topraklarında ortaya çıkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yunan felsefesi Mezopotamya, Mısır ve Hint medeniyetlerinin matematik, astronomi ve kültür birikiminden beslenmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "MÖ 6. yüzyıl felsefesinde ana odak noktası insanın ahlaki eylemleri ve toplumsal adalet olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu dönemin ana odak noktası insan ve ahlak değil, doğa ve evrenin ana maddesi (arkhe) olmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Sokrates ve Sofistler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sofistlerin bilgi anlayışında kesin ve evrensel doğrulara ulaşmanın mümkün olmadığını savunan temel görüş nedir?",
+                  "answer": "Rölativizm (Görecelik)"
+                },
+                {
+                  "question": "Sokrates'in, karşısındaki kişiye soru sorarak onda zaten var olan bilgileri ortaya çıkarmasını sağlayan yöntemin adı nedir?",
+                  "answer": "Mayieutik (Doğurtma)"
+                },
+                {
+                  "question": "Sofistlerin felsefe tarihindeki en ünlü temsilcilerinden biri olan, \"İnsan her şeyin ölçüsüdür\" sözünün sahibi kimdir?",
+                  "answer": "Protagoras"
+                },
+                {
+                  "question": "Sokrates'in bilgi anlayışında, doğuştan akılda var olan bilgilerin açığa çıkarılması sürecine ne ad verilir?",
+                  "answer": "Anamnesis (Hatırlama)"
+                },
+                {
+                  "question": "Sokrates'in bilgi ve erdem anlayışını özetleyen \"Erdem ____\" formülündeki eksik kelime nedir?",
+                  "answer": "Bilgidir"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi MÖ 6. Yüzyıl - MS 2. Yüzyıl felsefesinde Sofistlerin ortak özelliklerinden biri değildir?",
+                  "options": [
+                    "Kesin ve evrensel bilgiye ulaşılabileceğini savunmaları",
+                    "Göreceli (rölativist) bir bilgi anlayışını benimsemeleri",
+                    "Hakikati bulmaktan ziyade ikna etmeyi ve retoriği önemsemeleri",
+                    "Gezgin öğretmenler olarak para karşılığı ders vermeleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sofistler kesin ve evrensel bilginin imkansız olduğunu, her şeyin kişiye ve duruma göre değiştiğini savunurlar. Bu nedenle ilk seçenek yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sokrates, iftira ve suçlamalarla yargılandığı mahkemede savunma yaparken kendi felsefi duruşunu \"Sorgulanmamış yaşam ____\" sözüyle ifade etmiştir. Bu cümleyi tamamlayan en uygun kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "yaşanmaya değmez",
+                    "değersizdir",
+                    "anlamsızdır",
+                    "eksiktir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sokrates'in Apologia (Savunma) diyalogunda geçen ünlü ifadesi \"Sorgulanmamış yaşam yaşanmaya değmez\" şeklindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sokrates, ilk olarak bildiğini iddia eden kişilere hiçbir şey bilmediklerini sorularla fark ettirir. Bu aşamaya ne ad verilir?",
+                  "options": [
+                    "İroni (Alay)",
+                    "Diyalektik (Tartışma)",
+                    "Mayieutik (Doğurtma)",
+                    "Anamnesis (Hatırlama)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sokrates yönteminin ilk basamağı olan ironi, kişinin bilgisizliğini bilmemesi durumunu ortadan kaldırmak için karşısındakini soru yağmuruna tutarak bilgisizliğini kendisine itiraf ettirmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Protagoras'ın \"İnsan her şeyin ölçüsüdür\" önermesiyle vurgulamak istediği temel felsefi görüş aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Evrende değişmeyen evrensel yasalar vardır",
+                    "Bilgi insandan bağımsız olarak nesneldir",
+                    "Algılar ve doğrular kişiden kişiye değişir",
+                    "Doğa yasaları insan yasalarından üstündür"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu önerme rölativizmi (göreciliği) ifade eder. Bilginin ve algının ölçüsü bireydir, dolayısıyla nesnel bir doğru yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sokrates'in erdem ve bilgi ilişkisi hakkındaki görüşü göz önüne alındığında, aşağıdakilerden hangisi onun ahlak anlayışını doğru yansıtır?",
+                  "options": [
+                    "Kötülük yapanlar bunu bilerek ve isteyerek yaparlar",
+                    "Hiç kimse bilerek kötülük yapmaz, kötülük bilgisizlikten kaynaklanır",
+                    "Erdemli olmak için Tanrı'nın emirlerine uymak şarttır",
+                    "Ahlaki kurallar toplumdan topluma değişen göreceli kurallardır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sokrates'e göre bilgi ile erdem özdeştir. Kimse bilerek kötülük yapmaz; kötülük sadece cehaletten (bilgisizlikten) ileri gelir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sokrates'in felsefi yöntemi, karşılıklı konuşmaya ve soru-cevap temeline dayanan ____ yöntemidir.",
+                  "options": [
+                    "diyalektik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sokrates, ironi ve mayieutik aşamalarından oluşan konuşma sanatına diyalektik yöntem adını vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sofistler, doğa felsefesinden insan ve toplum felsefesine geçişi sağlamışlar ve özellikle retoriğe yani güzel ____ sanatına önem vermişlerdir.",
+                  "options": [
+                    "konuşma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sofistler mahkemelerde ve mecliste insanları ikna edebilmek için retoriği yani güzel konuşma sanatını kullanmışlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sokrates'e göre insanın ruhunda doğuştan bulunan bilgilerin açığa çıkarılması sürecine ____ denir.",
+                  "options": [
+                    "anamnesis"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anamnesis, hatırlama demektir; Sokrates'e göre öğrenme aslında ruhun önceki yaşantılarından bildiklerini hatırlamasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her şeyin göreceli olduğunu savunarak \"Hiçbir şey yoktur, olsaydı da bilinemezdi, bilinse bile başkalarına aktarılamazdı\" diyen ünlü Sofist ____.",
+                  "options": [
+                    "Gorgias"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gorgias nihilist (hiççilik) ve septik (şüpheci) yaklaşımıyla bilinen önemli bir Sofist düşünürdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sokrates, Atina'da gençlerin ahlakını bozmak ve yeni tanrılar türetmek suçlamalarıyla ____ cezasına çarptırılmıştır.",
+                  "options": [
+                    "ölüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sokrates mahkeme tarafından suçlu bulunmuş ve zehirli baldırıkan (baldıran) içirilerek ölüm cezasına çarptırılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sofistler, doğadaki arkhe problemini çözmek amacıyla astronomi ve fizik araştırmalarına ağırlık vermişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır çünkü Sofistler doğa felsefesinden vazgeçip insan, toplum, bilgi ve ahlak konularına yönelmişlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sokrates, bilginin doğuştan zihinde var olduğunu ve sorularla hatırlatılması gerektiğini savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Sokrates'in doğurtma yöntemi ve anamnesis anlayışı bu temel üzerine kuruludur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Protagoras ve Gorgias gibi Sofistler, evrensel ve mutlak bir ahlak yasasının varlığını savunmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; Sofistler rölativist olduklarından evrensel ve mutlak ahlak yasalarının olmadığını savunurlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sokrates hiçbir zaman yazılı bir eser bırakmamış, felsefesini sadece sokaklarda insanlarla diyalog kurarak aktarmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudan yazılı eser bırakmayan Sokrates'in görüşleri öğrencisi Platon'un diyalogları sayesinde günümüze ulaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sofistler, Antik Yunan'da şehir şehir gezip para karşılığı felsefe ve hitabet dersleri veren öğretmenlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Sofistler dönemlerinin ilk profesyonel öğretmenleri olarak bilinir ve ücret karşılığı ders verirlerdi.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Platon ve Aristoteles",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Platon'un varlık anlayışını oluşturan iki ayrı evren nedir?",
+                  "answer": "Idealar evreni ve nesneler (görünüşler) evreni"
+                },
+                {
+                  "question": "Platon'a göre gerçek varlıkların (ideaların) bilgisi hangi yetiyşe elde edilir?",
+                  "answer": "Akis (Akıl / Episteme)"
+                },
+                {
+                  "question": "Aristoteles'in varlığı açıklamak için öne sürdüğü dört neden nedir?",
+                  "answer": "Maddi neden, formel neden, fail neden, amaçsal neden"
+                },
+                {
+                  "question": "Aristoteles'in 'ilk hareket ettirici ama kendisi hareket etmeyen' varlık tanımı nedir?",
+                  "answer": "Ilk neden (ilk motor)"
+                },
+                {
+                  "question": "Platon'un devlet anlayışında ideal düzeni sağlayacak olan yöneticiler kimlerdir?",
+                  "answer": "Filozoflar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Platon'un bilgi anlayışına göre, beş duyumuzla algıladığımız dış dünya hangi kavramla ifade edilir?",
+                  "options": [
+                    "Idealar Evreni",
+                    "Akılsal Alan",
+                    "Nesneler Evreni",
+                    "Formlar Dünyası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Platon varlığı ikiye ayırır. Duyularla algılanan geçici dünya nesneler evrenidir; akılla kavranan kalıcı özler ise idealar evrenidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aristoteles varlık felsefesinde Platon'un idealar kuramını eleştirmiştir. Aristoteles'e göre idealar (formlar) nerededir?",
+                  "options": [
+                    "Ayrı bir aşkın evrende",
+                    "Tanrı'nın zihninde",
+                    "Nesnelerin içindedir",
+                    "İnsan zihninde doğuştan vardır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aristoteles, Platon gibi formların başka bir evrende olduğunu savunmaz; formların nesnelerin içinde, maddesiyle birlikte var olduğunu ileri sürer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Platon'un devlet felsefesinde erdemler ile toplumsal sınıflar arasında bir eşleşme vardır. Buna göre 'bilgelik' erdemi hangi sınıfa aittir?",
+                  "options": [
+                    "Yöneticiler (Filozoflar)",
+                    "Köleler",
+                    "Bekçiler (Askerler)",
+                    "Üreticiler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Platon devletinde üreticiler ölçülü, bekçiler cesur, yöneticiler (filozoflar) ise bilge olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aristoteles'in ahlak anlayışında erdemli yaşam hangi ilke üzerine kurulmuştur?",
+                  "options": [
+                    "Tanrı'nın buyrukları",
+                    "Ödev bilinci",
+                    "Altın orta",
+                    "Mutlak haz"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aristoteles ahlaki erdemi aşırılıklar ile eksiklikler arasındaki orta nokta olan 'altın orta' olarak tanımlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Platon'un mağara alegorisinde, mağaradan çıkıp dışarıdaki güneşi (gerçekliği) gören mahkum neyi temsil eder?",
+                  "options": [
+                    "Maddeci bilim insanını",
+                    "Gerçek bilgiye ulaşan filozofu",
+                    "Sıradan insanı",
+                    "Sofist filozofu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mağaradan dışarı çıkış, insanın duyulardan akıl dünyasına ve gerçek bilgiye (ideaya) ulaşmasını temsil eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Platon'a göre ruhun göçü ve daha önceki yaşamında idealar evresinde gördüklerini hatırlamasına ____ denir.",
+                  "options": [
+                    "anımsama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anımsama (anamnesis), ruhun ölümsüz olduğunu ve idealar evrenindeki bilgileri bu dünyada hatırladığını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aristoteles mantığın kurucusu olarak kabul edilir ve akıl yürütme yöntemi olarak ____ sistemini geliştirmiştir.",
+                  "options": [
+                    "tasım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tasım (silojizm), öncüllerden sonuca ulaşmayı sağlayan Aristotelesçi mantık yöntemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Platon'un en önemli siyaset eserlerinden biri olan kitabının adı ____ dir.",
+                  "options": [
+                    "Devlet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Platon'un 'Devlet' adlı eseri, ideal devlet düzenini ve adalet kavramını inceleyen en ünlü kitabıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aristoteles'e göre insan doğası gereği toplumsal ve ____ bir canlıdır.",
+                  "options": [
+                    "siyasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles, insanın yalnız yaşayamayacağını, devletli yapıda ve siyasal bir hayat içinde var olduğunu savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Platon'un kurduğu okulun adı ____ dir.",
+                  "options": [
+                    "Akademi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Platon Atina'da kurduğu okula Akademi adını vermiştir ve bu okul antik dünyanın en önemli eğitim merkezlerinden biridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Platon'a göre gerçek bilgi, duyularımız aracılığıyla elde ettiğimiz bilgilerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır çünkü Platon'a göre duyular yanıltıcıdır; gerçek bilgi yalnızca akıl ile idealar evreninden elde edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aristoteles varlığı madde ve form (öz) ikiliğiyle açıklar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudandır; Aristoteles her nesnenin bir maddesi ve bir de o nesneyi o nesne yapan formu olduğunu savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Platon sanat anlayışında sanatın gerçeğin kopyasının kopyası (mimesis) olduğunu savunarak ona olumlu bir değer biçer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; sanat ideaların taklidinin taklidi olduğu için Platon tarafından ikinci derece bir yanılsama olarak görülmüş ve eleştirilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aristoteles'e göre devlet, bireylerin sadece yaşamak için değil, iyi yaşamak için oluşturduğu doğal bir kurumdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudandır; Aristoteles devletin insan doğasının bir sonucu olarak doğal bir şekilde ortaya çıktığını belirtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Platon ve Aristoteles aynı dönemde yaşamış ve varlık konusunda birebir aynı görüşleri paylaşmış iki filozoftur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; Platon hocadır ve idealizmi savunur, Aristoteles ise öğrencisidir ve realizmi (madde-form birlikteliğini) savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "MS 2. Yüzyıl-MS 15. Yüzyıl Felsefesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Hristiyan Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hristiyan felsefesinin milat kabul edilen başlangıç yüzyılı hangisidir?",
+                  "answer": "MS 2. yüzyıl."
+                },
+                {
+                  "question": "Hristiyan felsefesinde inancın akılla temellendirilmesi çabasına ne ad verilir?",
+                  "answer": "Patristik dönem veya skolastik felsefe."
+                },
+                {
+                  "question": "Hristiyan felsefesinin ilk dönemi olan Patristik dönemin en önemli temsilcisi kimdir?",
+                  "answer": "Aurelius Augustinus (Aziz Augustinus)."
+                },
+                {
+                  "question": "Hristiyan felsefesinde 'İnanayım ki anlıyayım' anlayışını savunan filozof kimdir?",
+                  "answer": "Augustinus."
+                },
+                {
+                  "question": "Skolastik felsefenin en önemli ve zirvedeki filozofu kimdir?",
+                  "answer": "Thomas Aquinas."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Hristiyan felsefesinin genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Düşünce özgürlüğünün en üst düzeyde desteklenmesi",
+                    "Akıl ile inancın uzlaştırılmaya çalışılması",
+                    "Felsefenin teolojinin hizmetinde olması",
+                    "Antik Yunan felsefesinden, özellikle Platon'dan etkilenilmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hristiyan felsefesinde dogmatik bir yapı hakimdir ve felsefe dinin hizmetindedir; bu nedenle düşünce özgürlüğü sınırlıdır ve dogmalara bağlılık esastır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Patristik dönem ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "MS 2. yüzyıl ile MS 8. yüzyıl arasındaki dönemi kapsar.",
+                    "Hristiyan inancının savunulması (apolojetik) amaçlanmıştır.",
+                    "Aristoteles felsefesi bu dönemde tamamen reddedilmiş, hiç kullanılmamıştır.",
+                    "Kilise babalarının felsefe yaptığı dönemdir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Patristik dönemde ağırlıklı olarak Platon ve Yeni Eflatunculuk etkili olsa da, Aristoteles felsefesi tamamen reddedilmemiş, sonraki skolastik dönemde daha yoğun olmak üzere kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Thomas Aquinas'ın felsefesinde Tanrı'nın varlığını kanıtlamak için kullandığı en önemli yöntem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Skolastik metod ve akıl yürütme yolları",
+                    "Deneysel gözlem ve laboratuvar testleri",
+                    "Mutlak şüphe yöntemi",
+                    "Sadece kutsal metinlerin literal yorumu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Thomas Aquinas, Aristoteles mantığını kullanarak skolastik metod ile Tanrı'nın varlığını kanıtlamaya çalışmış, akıl ve imanın uyumunu savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "MS 2. ve MS 15. yüzyıllar arasındaki felsefi döneme adını veren temel yaklaşım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Pozitivizm",
+                    "Materyalizm",
+                    "Rasyonalizm",
+                    "Skolastik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu dönem ağırlıklı olarak kilise okullarında (skola) şekillendiği ve öğretildiği için Skolastik Felsefe olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki filozoflardan hangisi Hristiyan felsefesi dönemi içinde yer almaz?",
+                  "options": [
+                    "Augustinus",
+                    "Thomas Aquinas",
+                    "Descartes",
+                    "Anselmus"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Descartes 17. yüzyıl modern felsefe dönemine ait bir filozoftur; diğer isimler Hristiyan felsefesi dönemi filozoflarıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hristiyan felsefesinde MS 2. ile MS 8. yüzyıllar arasını kapsayan döneme ____ dönemi denir.",
+                  "options": [
+                    "Patristik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kilise babalarının felsefe yaptığı bu ilk evre Patristik dönem olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hristiyan felsefesinde MS 8. ile MS 15. yüzyıllar arasını kapsayan okul felsefesi dönemine ____ dönemi denir.",
+                  "options": [
+                    "Skolastik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Çağ'ın ikinci yarısında katedrallerde ve okullarda gelişen bu dönem skolastik dönemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Augustinus'un felsefesinde 'İnanayım ki ____' anlayışı temel bir ilkedir.",
+                  "options": [
+                    "anlıyayım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Augustinus'a göre hakikate ulaşmak için önce inanmak, ardından akılla anlamaya çalışmak gerekir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hristiyan felsefesinde inancın akılla kanıtlanması veya anlaşılması çabasına ____ denir.",
+                  "options": [
+                    "teoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din felsefesi veya teoloji kapsamında inancın akılla temellendirilmesi hedeflenmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Çağ Hristiyan felsefesinde Tanrı'nın varlığını kanıtlayan ontolojik kanıtı ilk öne süren filozof ____'dur.",
+                  "options": [
+                    "Anselmus"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anselmus, ontolojik kanıtlaması ile Tanrı fikrinden yola çıkarak O'nun varlığını kanıtlamaya çalışmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Hristiyan felsefesinde felsefe, teolojinin hizmetkarı konumundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde felsefe, dini dogmaları açıklamak ve temellendirmek için bir araç olarak görülmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Skolastik dönemde Aristoteles'in görüşleri tamamen yasaklanmış ve hiçbir şekilde kullanılmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, skolastik dönemde Thomas Aquinas başta olmak üzere filozoflar Aristoteles'in felsefesini Hristiyan teolojisiyle sentezlemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Patristik dönemde Hristiyanlık inancını felsefi olarak savunan yazarlara 'Kilise Babaları' denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemin en önemli figürleri kilise babaları olarak anılır ve Hristiyanlığı pagan felsefesine karşı savunmuşlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hristiyan felsefesinde tümüyle özgür düşünce ve eleştirel şüphecilik hakimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hristiyan felsefesi dogmatiktir; kutsal metinler ve kilise öğretileri mutlak kabul edildiğinden sınırsız bir özgürlük yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Augustinus, kötülük problemine karşı irade özgürlüğü kavramı ile çözüm aramıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Augustinus kötülüğün Tanrı'dan gelmediğini, insanın kötü irade kullanımının bir sonucu olduğunu savunmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İslam Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam felsefesinde inancın akıl yoluyla temellendirilmesi çabasına ne ad verilir?",
+                  "answer": "Kelam"
+                },
+                {
+                  "question": "Farabi'nin antik yunan filozoflarından etkilenerek toplumu ve devleti incelediği ünlü eseri nedir?",
+                  "answer": "El-Medinetu'l-Fazila"
+                },
+                {
+                  "question": "İbn Sina'nın tıbbın yanı sıra felsefe alanında da otorite kabul edilmesini sağlayan ansiklopedik eseri hangisidir?",
+                  "answer": "Kitabü'ş-Şifa"
+                },
+                {
+                  "question": "Gazali'nin felsefi görüşleri eleştirdiği ve filozofların tutarsızlığını savunduğu eserinin adı nedir?",
+                  "answer": "Tehafütü'l-Felasife"
+                },
+                {
+                  "question": "İbn Rüşt'ün Gazali'nin eleştirilerine karşı yazdığı savunma niteliğindeki ünlü eseri hangisidir?",
+                  "answer": "Tehafütü'l-Tehafüt"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam felsefesinin temel özelliklerinden biri değildir?",
+                  "options": [
+                    "İnanç ile akıl arasında uzlaştırma çabaları ön plandadır",
+                    "Sadece dini dogmaları kabul edip akılsal sorgulamayı tamamen reddetmiştir",
+                    "Antik Yunan felsefesinden etkilenmiş ve çeviri faaliyetleriyle beslenmiştir",
+                    "Batı felsefesinin ve Orta Çağ skolastiğinin gelişimine katkı sağlamıştır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam felsefesi dogmaları körü körüne kabul etmemiş, aksine akıl, mantık ve nakil dengesini gözeterek derinlemesine sorgulamalar yapmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Farabi'nin 'İkinci Öğretmen' olarak anılmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Aristoteles'in mantık eserlerine yazdığı şerhler ve felsefeyi sistemleştirmesidir",
+                    "Platon'un devlet anlayışını tamamen reddedip yeni bir din kurmasıdır",
+                    "İslam dünyasında ilk kez okullar kurup öğretmenlik yapmasıdır",
+                    "Matematik ve geometri alanında çığır açan teoriler öne sürmesidir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi, Aristoteles'in eserlerini çok iyi yorumlayıp İslam dünyasına tanıttığı ve mantık alanında derinleştiği için 'Muallim-i Sani' yani İkinci Öğretmen unvanını almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İbn Sina'nın varlık felsefesinde 'zorunlu varlık' kavramıyla ifade ettiği zat kimdir?",
+                  "options": [
+                    "İnsan aklı",
+                    "Faal akıl",
+                    "Allah",
+                    "Kainat"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İbn Sina varlığı 'vacibü'l-vücut' (zorunlu varlık) ve 'mümkünü'l-vücut' olarak ayırır. Zorunlu varlık kendinden var olan Allah'tır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gazali, bilgi anlayışında duyular ve aklın yanı sıra hangi yöntemi en üstün bilgi kaynağı olarak kabul eder?",
+                  "options": [
+                    "Deney ve gözlem",
+                    "Diyabetik yöntem",
+                    "Sezgi (kalp gözü)",
+                    "Tümevarım"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gazali felsefi ve kelami tartışmaların ardından şüpheyi aşmak için tasavvufi yönelime girmiş ve en kesin bilginin kalbe doğan ilham yani sezgi yoluyla elde edileceğini savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İbn Rüşt'ün felsefe ile din ilişkisini açıkladığı temel görüşü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Din ve felsefe tamamen zıt iki hakikat yoludur",
+                    "Din felsefeyi tamamen dışlar, felsefe yapmak günahtır",
+                    "Din ve felsefe aynı hakikate farklı yollardan ulaşan uzlaşabilir iki alandır",
+                    "Sadece felsefe gerçeği bilir, din ise halkı uyutmak için vardır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İbn Rüşt 'Hakikat hakikate zıt düşmez' ilkesinden hareketle dinin ve felsefenin aynı kaynağa (hakikate) dayandığını, aralarında bir çelişki olamayacağını savunmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslam felsefesinde antik yunan metinlerinin Arapçaya çevrildiği döneme ve merkeze ____ evi adı verilmiştir.",
+                  "options": [
+                    "Beytü'l-Hikme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağdat'ta kurulan Beytü'l-Hikme (Bilgelik Evi), antik felsefi eserlerin Arapçaya tercüme edilmesinde ve İslam felsefesinin doğuşunda kritik rol oynamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Farabi'nin ideal devlet düzenini anlattığı eserinde erdemli şehrin karşısına koyduğu bozuk düzenlerden biri de cahil şehir yerine geçen ____ şehridir.",
+                  "options": [
+                    "Fasık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi erdemli şehir yanında fasiq, dalalet, değişmiş ve cahil gibi erdemli olmayan devlet biçimlerini sınıflandırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İbn Sina'nın nesnelerin hem zihinde hem dış dünyada var olduğunu savunan görüşüne ____ felsefesi denir.",
+                  "options": [
+                    "Meşaisilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam dünyasında Aristotelesçi gelenek Meşaisilik (yürüyenler felsefesi) olarak adlandırılmış, Farabi ve İbn Sina bu akımın en önemli temsilcileri olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gazali'nin felsefe eleştirilerinden sonra tasavvufi yönünü ve deneyimlerini aktardığı otobiyografik eseri ____tir.",
+                  "options": [
+                    "El-Munkiz mine'd-Dalal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "El-Munkiz mine'd-Dalal (Dalaletten Kurtuluş) adlı eserinde Gazali, hakikati arayış serüvenini ve şüphe dönemini anlatır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Endülüs'te yetişen ve Batı'da Averroes adıyla tanınan büyük İslam filozofu ____dir.",
+                  "options": [
+                    "İbn Rüşt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İbn Rüşt, Batı felsefesini derinden etkilemiş ve özellikle Aristoteles yorumlarıyla 'Averroizm' akımının kurucusu kabul edilmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam felsefesi yalnızca dini metinlerin yorumlanmasından ibarettir ve orijinal hiçbir fikir üretmemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; İslam filozofları antik mirası eleştirel bir süzgeceden geçirmiş, ontoloji, epistemoloji ve siyaset felsefesinde özgün sistemler kurmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Farabi, peygamberliği felsefi açıdan açıklayarak faal akılla kurulan bir ilişki olarak tanımlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur; Farabi peygamberin faal akımdan vahiy aldığını ve bunu filozofun sezgisinden farklı olarak tahayyül gücüyle topluma aktardığını savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İbn Sina, ruhun ölümsüz olmadığını ve bedenle birlikte yok olacağını savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; İbn Sina 'Uçan Adam' (Ibn Tufeyl veya İbn Sina'nın meşhur düşünce deneyi) argümanıyla ruhun bedenden bağımsız, tikel ve ölümsüz bir töz olduğunu savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazali, nedenselliğin zorunlu olmadığını, olaylar arasındaki bağın adetullah (Allah'ın adeti) ile gerçekleştiğini savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur; Gazali ateşin pamuğu yakmasının zorunlu bir tabiat kanunu olmadığını, Allah'ın her an yaratmasıyla gerçekleşen alışılmış bir düzen olduğunu öne sürmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İbn Rüşt, felsefi bilgiyi halkın tamamının doğrudan anlayabileceğini ve bu yüzden avama felsefe öğretilmesi gerektiğini savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; İbn Rüşt insanların anlama yetilerinin farklı olduğunu, halkın (avam) hitabet ve zikirle, seçkinlerin (havas) ise burhan ve felsefe ile hakikate ulaşması gerektiğini savunmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "15. Yüzyıl-17. Yüzyıl Felsefesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Rönesans ve Bilim Devrimi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Rönesans felsefesinde skolastik düşünceye karşı hangi antik dönem filozofu yeniden merkeze alınmıştır?",
+                  "answer": "Platon"
+                },
+                {
+                  "question": "Bilim Devrimi'nin temelini oluşturan, doğayı matematiksel bir dille açıklama fikri hangi filozofla özdeşleşmiştir?",
+                  "answer": "Galileo Galilei"
+                },
+                {
+                  "question": "Francis Bacon'ın bilimsel bilgiye ulaşmak için önerdiği yöntem nedir?",
+                  "answer": "Tümevarım"
+                },
+                {
+                  "question": "Güneş merkezli evren modelini matematiksel temellendirerek Modern Bilim Devrimi'ni başlatan astronom kimdir?",
+                  "answer": "Nikolay Kopernik"
+                },
+                {
+                  "question": "Rönesans felsefesinde insanın ve doğanın özgürce ele alınmasını sağlayan akım hangisidir?",
+                  "answer": "Hümanizm"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "15. ve 17. yüzyıl felsefesinde skolastik düşüncenin otoritesini sarsarak modern bilimin doğuşuna zemin hazırlayan temel faktör aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kilisenin bilimsel araştırmaları doğrudan desteklemesi",
+                    "Metafiziksel açıklamaların tek bilgi kaynağı sayılması",
+                    "Deney ve gözleme dayalı yeni yöntemlerin geliştirilmesi",
+                    "Aristoteles'in fizik görüşlerinin eksiksiz kabul edilmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu dönemde skolastik otorite sorgulanmış, doğayı anlamada deney, gözlem ve matematik ön plana çıkmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Francis Bacon'ın bilimsel bilgiyi elde etmek amacıyla geliştirdiği tümevarım yönteminde en kritik aşama aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Otoritelerin görüşlerini ezberlemek",
+                    "Soyut kavramlardan hareketle tümdengelim yapmak",
+                    "Doğadan elde edilen verileri düzenli gözlem ve deneyle incelemek",
+                    "Dogmatik kabulleri sorgulamadan benimsemek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bacon, doğanın doğru bilgisine ulaşmak için önyargılardan arınarak düzenli deney ve gözlem yapılması gerektiğini savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Galileo Galilei'nin 'Evren matematik dilinde yazılmıştır' düşüncesiyle vurgulamak istediği temel görüş nedir?",
+                  "options": [
+                    "Doğal olayların yalnızca dini metinlerle açıklanabileceği",
+                    "Fiziksel evrenin matematiksel yasalara ve ölçülebilir ilişkilere sahip olduğu",
+                    "Matematiğin sadece soyut bir zihin faaliyeti olduğu",
+                    "Bilimsel araştırmalarda deneyin gereksiz olduğu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Galileo, doğanın niceliksel olarak incelenmesi gerektiğini ve fizik yasalarının matematiksel olarak ifade edilebileceğini savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 15. ve 17. yüzyıl felsefesinin genel özellikleri arasında yer almaz?",
+                  "options": [
+                    "Din felsefesi problemlerinin tamamen ortadan kalkması",
+                    "Bilimsel yöntemlerin felsefeye uygulanması",
+                    "Aklın ve bireyin ön plana çıkması",
+                    "Hümanist düşüncenin etkisini artırması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde teolojik tartışmalar devam etmiş, din felsefesi problemleri tamamen ortadan kalkmamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kopernik'in evren modelinde gerçekleştirdiği en büyük devrimsel yenilik nedir?",
+                  "options": [
+                    "Güneş merkezli evren modelini öne sürmek",
+                    "Dünyanın evrenin merkezinde sabit durduğunu kanıtlamak",
+                    "Yıldızların sabit bir küre üzerinde olduğunu reddetmek",
+                    "Gezegenlerin hareketlerinin düzgün daireler olmadığını söylemek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kopernik, yer merkezli (geosentrik) anlayışı yıkarak Güneş merkezli (heliosentrik) modeli öne sürmüştür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Rönesans döneminde insanın değerini, potansiyelini ve özgürlüğünü savunan düşünce akımına ____ denir.",
+                  "options": [
+                    "Hümanizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hümanizm, antik yunan ve roma kültürünü yeniden ele alarak insanı merkeze koyan bir felsefi akımdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Francis Bacon'ın bilginin gücünü vurgulayan ve doğaya hakim olmanın yolunun deney ve gözlemden geçtiğini savunan eseri Novum Organum'da savunduğu yöntem ____ yöntemidir.",
+                  "options": [
+                    "Tümevarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümevarım, tekillerden genel yasalara ulaşmayı amaçlayan ve Bacon tarafından geliştirilen bilimsel yöntemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneş merkezli evren modelini savunan ve bu yüzden engizisyon mahkemesinde yargılanan İtalyan gökbilimci ____'dir.",
+                  "options": [
+                    "Galileo Galilei"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Galileo, teleskop gözlemleriyle Kopernikçi modeli desteklemiş ve modern din-bilim çatışmasının simge isimlerinden biri olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "15-17. yüzyıl felsefesinde skolastik felsefenin etkisinin azalmasıyla birlikte bilgi üretiminde otoriteye körü körüne bağlılık yerine ____ ön plana çıkmıştır.",
+                  "options": [
+                    "Akıl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Skolastik düşüncenin dogmatik yapısı yerini insanın akıl yürütme gücüne ve eleştirel düşüncesine bırakmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rönesans felsefesinde doğanın ve evrenin mekanik bir makine gibi işlediği fikrini benimseyen ve doğayı matematiksel olarak açıklamaya çalışan anlayışa ____ denir.",
+                  "options": [
+                    "Mekanik dünya görüşü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mekanik dünya görüşü, evrenin ruhani güçler yerine fiziksel ve mekanik yasalarla işlediğini savunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Rönesans felsefesi, tamamen skolastik felsefenin devamı niteliğindedir ve ondan hiçbir kopuş yaşamamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rönesans, skolastik felsefenin dogmatik yapısına karşı bir tepki olarak doğmuş ve ondan keskin bir kopuş yaşamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bilim Devrimi sürecinde teolojik açıklamaların yerini doğa yasaları ve deneysel yöntemler almıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilim Devrimi ile birlikte doğa olayları tanrısal iradenin doğrudan müdahalesiyle değil, mekanik ve fiziksel yasalarla açıklanmaya başlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nikolay Kopernik, evrenin merkezine Dünyayı koyan yer merkezli modeli savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kopernik, Dünyanın Güneş'in etrafında döndüğünü öne süren Güneş merkezli (heliosentrik) modeli savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Francis Bacon, tümevarım yöntemini savunarak bilimsel bilginin deney ve gözleme dayandırılması gerektiğini belirtmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bacon, doğayı anlamanın yolunun önyargılardan arınarak gözlem yapmak ve tümevarım yöntemiyle genel bilgilere ulaşmak olduğunu savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "15-17. yüzyıl felsefesinde dinin toplumsal ve kültürel üzerindeki etkisi tamamen ortadan kalkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu dönemde din hala çok güçlüdür; felsefe ve bilim dini tamamen dışlamamış, ancak kilisenin bilgi üzerindeki tekelini sarsmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Rasyonalizm ve Empirizm",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Rasyonalizm akımının temel savunusu nedir?",
+                  "answer": "Bilginin kaynağının akım ve doğuştan gelen fikirler olduğunu savunan felsefi görüştür."
+                },
+                {
+                  "question": "Empirizm akımının temel savunusu nedir?",
+                  "answer": "İnsan zihninin boş bir levha (tabula rasa) olduğunu ve tüm bilgilerin deney yoluyla kazandığını savunan görüştür."
+                },
+                {
+                  "question": "Descartes'ın bilgiye ulaşmak için kullandığı yöntemin adı nedir?",
+                  "answer": "Metodik şüphe"
+                },
+                {
+                  "question": "John Locke'a göre insan zihni doğuştan nasıldır?",
+                  "answer": "Boş bir levha (tabula rasa)"
+                },
+                {
+                  "question": "Rasyonalizmin öncülerinden olan ve 'Düşünüyorum, o halde varım' diyen filozof kimdir?",
+                  "answer": "Rene Descartes"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "15. ve 17. yüzyıl felsefesinde bilginin kaynağını duyu ve deneyimde arayan, zihnin doğuştan boş olduğunu savunan filozof aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Rene Descartes",
+                    "John Locke",
+                    "Gottfried Wilhelm Leibniz",
+                    "Baruch Spinoza"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "John Locke, empirizm (deneycilik) akımının en önemli temsilcisidir ve bilginin duyular yoluyla sonradan kazanıldığını savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki filozoflardan hangisi rasyonalizm (akılcılık) geleneğine mensup değildir?",
+                  "options": [
+                    "Rene Descartes",
+                    "Baruch Spinoza",
+                    "Gottfried Wilhelm Leibniz",
+                    "John Locke"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "John Locke empirist bir filozoftur; Descartes, Spinoza ve Leibniz ise rasyonalist filozoflardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Descartes'ın her türlü bilgiden şüphe ederek ulaştığı ve kesin kabul ettiği ilk bilgi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tanrı'nın varlığı",
+                    "Düşünüyor olduğum gerçeği",
+                    "Dış dünyanın gerçekliği",
+                    "Doğuştan fikirlerin varlığı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Descartes, şüphe edemeyeceği tek şeyin şüphe etmekte olduğu yani düşündüğü gerçeği olduğunu fark etmiş ve 'Cogito, ergo sum' sonucuna varmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Empirizm ile ilgili aşağıdaki yargılardan hangisi doğrudur?",
+                  "options": [
+                    "Bilginin kaynağı sezgiye dayanır.",
+                    "Akıl, deneyden bağımsız olarak doğru bilgilere ulaşabilir.",
+                    "Doğuştan gelen bilgiler vardır.",
+                    "Bilginin temeli deney ve duyulardır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Empirizm, insan zihninde doğuştan hiçbir fikir olmadığını ve tüm bilgilerin duyu organları ve deneyimler sayesinde oluştuğunu savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 15. yüzyıl - 17. yüzyıl felsefesinin genel karakteristik özelliklerinden biridir?",
+                  "options": [
+                    "Mitnolojik açıklamaların yeniden canlanması",
+                    "Felsefenin tamamen teolojiye tabi olması",
+                    "Skolastik düşüncenin tamamen hakim olması",
+                    "Bilimde deney ve gözlem yöntemlerinin gelişmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "15-17. yüzyıl felsefesi modern bilimin doğuşuna tanıklık etmiş, rasyonalizm ve empirizm gibi akımlarla deney, gözlem ve akıl ön plana çıkmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "John Locke, insan zihninin doğumda boş bir levha olduğunu ifade etmek için Latincede ____ kavramını kullanmıştır.",
+                  "options": [
+                    "tabula rasa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "John Locke, empirist görüşünü açıklarken zihnin boş bir levha olduğunu belirtmek için tabula rasa terimini kullanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rene Descartes, bilginin kaynağını duyularda değil, ____ yetisinde arayan rasyonalist bir filozoftur.",
+                  "options": [
+                    "akıl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rasyonalizm akımına göre doğru ve kesin bilgiye sadece akıl yoluyla ulaşılabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deneycilik anlamına gelen ve bilginin duyu algılarıyla başladığını savunan felsefi akım ____ olarak adlandırılır.",
+                  "options": [
+                    "empirizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Empirizm, bilginin tek kaynağının deney ve gözlem olduğunu savunan epistemolojik bir akımdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rene Descartes'ın doğru bilgiye ulaşmak amacıyla her şeyden şüphe etme yöntemine ____ şüphe denir.",
+                  "options": [
+                    "metodik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Descartes, kesin bilgiye ulaşmak için şüpheyi bir araç olarak kullanmış ve buna metodik şüphe adını vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akılcılık akımının temelini oluşturan ve sonradan kazanılmayan fikirlere ____ fikirler denir.",
+                  "options": [
+                    "doğuştan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rasyonalistlere göre zihinde deneyden bağımsız olarak var olan doğuştan (A priori) fikirler bulunmaktadır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Rene Descartes, empirizm akımının en önemli kurucusu olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rene Descartes empirizmin değil, rasyonalizm (akılcılık) akımının en önemli temsilcilerindendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "John Locke, insan zihninde doğuştan gelen hiçbir fikir olmadığını savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "John Locke empirist bir filozof olduğu için zihnin doğuştan boş olduğunu ve tüm bilgilerin sonradan kazanıldığını savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Empiristlere göre bilgi duyu organları aracılığıyla dış dünyadan elde edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Empirizm akımı bilginin temelinde deney ve duyu verilerinin olduğunu savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rasyonalizm, bilginin kaynağını deney ve gözlemde arayan bir felsefi görüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bilginin kaynağını deney ve gözlemde arayan akım empirizmektir; rasyonalizm ise kaynağı akılda arar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Descartes'a göre duyu organlarımız bizi yanıltabileceği için kesin bilginin kaynağı olamazlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Descartes duyuların aldatıcı olabileceğini öne sürerek kesin bilginin ancak akıl yoluyla elde edilebileceğini savunmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "18. Yüzyıl-19. Yüzyıl Felsefesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Aydınlanma Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Aydınlanma felsefesinin temel sloganı ve akıl anlayışını özetleyen ifade nedir?",
+                  "answer": "Aklını kendin kullanma cesaretini göster! (Sapere aude)"
+                },
+                {
+                  "question": "Aydınlanma döneminde din ile akıl ilişkisini düzenleyen, Tanrı'nın evreni yaratıp doğa yasalarına bıraktığını savunan görüşün adı nedir?",
+                  "answer": "Deizm"
+                },
+                {
+                  "question": "Aydınlanma felsefesinin en önemli temsilcilerinden biri olan ve 'Saf Aklın Eleştirisi' eserini yazan Alman filozof kimdir?",
+                  "answer": "Immanuel Kant"
+                },
+                {
+                  "question": "Fransız Aydınlanmasında güçler ayrılığı ilkesini savunarak monarşinin sınırlandırılmasını öne süren filozof kimdir?",
+                  "answer": "Montesquieu"
+                },
+                {
+                  "question": "Toplum sözleşmesi teorisiyle devletin meşruiyetinin halkın egemenliğine dayanması gerektiğini savuan Cenevreli filozof kimdir?",
+                  "answer": "Jean-Jacques Rousseau"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi 18. yüzyıl Aydınlanma felsefesinin temel özelliklerinden biri değildir?",
+                  "options": [
+                    "Doğal hukuk ve insan hakları gibi kavramlar ön plana çıkmıştır.",
+                    "Skolastik düşünce ve kilisenin otoritesi yeniden canlandırılmıştır.",
+                    "Bilgi ve bilim alanında büyük ilerlemeler kaydedilmiştir.",
+                    "Aklın rehberliğinde dogmalardan kurtulma hedeflenmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aydınlanma felsefesi skolastik düşünceye ve kilisenin otoritesine karşı çıkmıştır. Bu nedenle skolastik düşüncenin canlandırılması Aydınlanmanın özelliği olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Immanuel Kant'ın Aydınlanma tanımına göre bireyin kendi aklını başkasının kılavuzluğuna ihtiyaç duymadan kullanmaya başlaması hangi latince deyişle ifade edilir?",
+                  "options": [
+                    "Cogito ergo sum",
+                    "Tabula rasa",
+                    "A priori",
+                    "Sapere aude"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sapere aude deyişi 'Aklını kendin kullanma cesaretini göster' anlamına gelir ve Kant tarafından Aydınlanmanın parolası olarak benimsenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki filozoflardan hangisi devlet, din ve siyaset alanında güçler ayrılığı fikrini savunarak özgürlüklerin korunmasını amaçlamıştır?",
+                  "options": [
+                    "Montesquieu",
+                    "Karl Marx",
+                    "Auguste Comte",
+                    "Thomas Hobbes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Montesquieu Kanunların Ruhu adlı eserinde yasama, yürütme ve yargı güçlerinin birbirinden ayrı olması gerektiğini savunarak güçler ayrılığı ilkesini getirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "18. yüzyıl felsefesinde evrenin kusursuz bir saat gibi işlediğini, Tanrı'nın evreni yarattıktan sonra doğa yasalarına müdahale etmediğini savunan din anlayışı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Deizm",
+                    "Düalizm",
+                    "Panteizm",
+                    "Ateizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deizm, vahiy dinlerini reddeden ve Tanrı'nın evreni yaratıp başıboş bıraktığını savunan, Aydınlanma döneminde etkili olan bir inanç biçimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Jean-Jacques Rousseau'nun 'Toplum Sözleşmesi' adlı eserinde vurguladığı temel siyasi kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mutlak monarşi",
+                    "Teokrasi",
+                    "Milli egemenlik",
+                    "Feodalite"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Rousseau, iktidarın kaynağının halk olduğunu ve egemenliğin devredilemeyeceğini savunarak milli egemenlik anlayışının temellerini atmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Aydınlanma felsefesinde insan zihninin doğuştan boş bir levha olduğunu savunan empirist filozof ____ dir.",
+                  "options": [
+                    "John Locke"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "John Locke, insan zihninin doğuştan boş bir levha (tabula rasa) olduğunu ve tüm bilgilerin deney ve gözlem yoluyla kazanıldığını savunmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Immanuel Kant'ın bilgi felsefesinde hem deneye dayanan hem de zihinde hazır bulunan formları birleştirdiği felsefi yaklaşımı ____ olarak adlandırılır.",
+                  "options": [
+                    "Kritisizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kant, hem rasyonalizmi hem de empirizmi eleştirerek kendi uzlaştırıcısı olan eleştirel felsefe yani kritisizm anlayışını kurmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransız ihtilaline zemin hazırlayan, akılcılığı ve bilimi savunurken din adamlarının dogmalarını eleştiren dönemin Fransız aydınlarına ____ adı verilir.",
+                  "options": [
+                    "Filozoflar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fransız Aydınlanma dönemindeki Voltaire, Rousseau gibi düşünürler genel olarak Fransız filozofları olarak anılır ve toplumsal değişime öncülük etmişlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "18. yüzyılda din ve inanç alanında dogmatik kabulleri sorgulayan, akla dayalı bir doğal din anlayışını savunan sistem ____ olarak bilinir.",
+                  "options": [
+                    "Deizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deizm, akılcı bir din anlayışı sunarak mucizeleri ve vahyi reddetmiş, doğa yasalarını ön plana çıkarmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aydınlanma felsefesinin en temel iddiası, insanın her alanda rehber edinmesi gereken en üstün yetinin ____ olduğudur.",
+                  "options": [
+                    "akıl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aydınlanma dönemi tamamen akıl merkezlidir; her türlü bilginin, otoritenin ve toplumsal kuralın akıl süzgecinden geçirilmesi savunulmuştur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Aydınlanma felsefesi skolastik felsefenin dogmatik yapısını reddederek aklı ve bilimi merkeze koymuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aydınlanma dönemi, orta çağın skolastik düşünce tarzına bir tepki olarak doğmuş ve aklı en üstün otorite kabul etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "18. yüzyıl felsefesinde tüm filozoflar mutlak monarşiyi savunmuş ve demokrasiye karşı çıkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, 18. yüzyıl filozofları (Rousseau, Montesquieu vb.) mutlak monarşileri eleştirmiş, kuvvetler ayrılığı ve halk egemenliği gibi demokratik fikirleri savunmuşlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Immanuel Kant 'Saf Aklın Eleştirisi' adlı eserinde bilgi sürecinde hem aklın yapısının hem de duyusal deneyimin rolünü incelemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kant, bilginin duyularla başlayıp akılla işlendiğini belirterek deney ve aklı sentezleyen kritik felsefesini ortaya koymuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "John Locke her türlü bilginin doğuştan zihinde var olduğunu savunan rasyonalist bir filozoftur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "John Locke rasyonalist değil, empiristtir ve zihnin doğuştan boş olduğunu (tabula rasa) savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aydınlanma dönemi düşünürleri doğanın akılcı yasalarla işlediğini ve bu yasaların keşfedilebileceğini savunmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aydınlanma anlayışına göre doğa düzenli ve akılcıdır; insan da aklı sayesinde doğanın bu yasalarını çözebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kant ve Alman İdealizmi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kant'ın epistemolojide rasyonalizm ile empirizmi sentezlediği felsefi yönelimine ne ad verilir?",
+                  "answer": "Kritisizm (Eleştiricilik)"
+                },
+                {
+                  "question": "Kant'ın bilgi teorisinde deneyüstü, deneyden bağımsız olan ve zihinde doğuştan bulunan kavramlara ne denir?",
+                  "answer": "A priori"
+                },
+                {
+                  "question": "Kant'ın ahlak felsefesinde her türlü koşuldan bağımsız olan ve ahlaki eylemin amacını kendisinde taşıyan buyruk hangisidir?",
+                  "answer": "Kategorik Imperatif"
+                },
+                {
+                  "question": "Alman İdealizminin en önemli temsilcilerinden biri olan, felsefede tez-antitez-sentez (diyalektik) sürecini geliştiren filozof kimdir?",
+                  "answer": "Hegel"
+                },
+                {
+                  "question": "Kant'ın duyularımızla algıladığımız dış dünya olarak tanımladığı kavram nedir?",
+                  "answer": "Fenomen"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Kant, bilginin kaynağı konusunda rasyonalizm ve empirizmi uzlaştırmıştır. Ona göre bilgi deneyle başlar ancak deneyden doğmaz. Bu yaklaşım hangi felsefi akım olarak adlandırılır?",
+                  "options": [
+                    "Pozitivizm",
+                    "Pragmatizm",
+                    "Kritisizm",
+                    "Egzistansiyalizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kant, saf aklın sınırlarını çizdiği 'Kritisizm' (Eleştiricilik) akımının kurucusudur. Bilginin hem duyu deneyimine hem de zihnin apriori formlarına dayandığını savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kant'ın ahlak anlayışında bir eylemin ahlaki değerini belirleyen temel unsur nedir?",
+                  "options": [
+                    "Eylemin sağladığı fayda",
+                    "Eylemin toplum tarafından onaylanması",
+                    "Eylemin mutluluk getirmesi",
+                    "Eylemin arkasındaki iyi niyet ve ödev bilinci"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kant'a göre bir eylem yalnızca ödev bilinciyle ve iyi niyetle yapıldığında ahlaki bir değer taşır; sonuçları veya getirdiği fayda dikkate alınmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Alman İdealizminin önde gelen ismi Hegel, felsefi sistemini hangi temel mantıksal süreç üzerine kurmuştur?",
+                  "options": [
+                    "Mutlak şüphecilik",
+                    "Diyalektik süreç (Tez-Antitez-Sentez)",
+                    "Deneysel doğrulama",
+                    "Tümevarımsal gözlem"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hegel felsefesinin temeli diyalektiğe dayanır. Her düşünce (tez) kendi zıddını (antitez) doğurur ve bunlar daha üst bir birlik olan sentezde uzlaşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kant felsefesinde, kendinde şey olarak bilinemeyen, zihnin kategorileriyle şekillenmemiş gerçeklik alanı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Nomen",
+                    "Ampirik",
+                    "Apriori",
+                    "Fenomen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kant, duyularımızla algıladığımız dünyaya 'fenomen', zihnimizle kavrayamadığımız ve deneyüstü olan kendinde nesneye ise 'nomen' adını verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Kant'ın kategorik imperatif (kesin buyruk) anlayışını en iyi ifade eder?",
+                  "options": [
+                    "Her zaman çoğunluğun mutluluğunu sağlayan eylemi seç.",
+                    "Öyle bir eylede bulun ki, eyleminin ilkesi evrensel bir yasa olsun.",
+                    "Amacına ulaşmak için her yolu mubah say.",
+                    "Bireysel çıkarlarını her zaman ön planda tut."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kant'ın kategorik imperatifi, bireyin eylem kuralının herkes için geçerli evrensel bir yasa olabileceğini varsayarak hareket etmesini emreder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kant'a göre insan zihninde deneyden bağımsız olarak bulunan kavram ve formlara ____ denir.",
+                  "options": [
+                    "apriori"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Apriori, deneyden önce gelen, doğuştan zihinde var olan bilgi ve kategorileri ifade etmek için kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hegel felsefesinde her şeyin özünü oluşturan, kendini tarihsel süreçte geliştiren akım veya töz ____ olarak adlandırılır.",
+                  "options": [
+                    "mutlak akım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hegel, evrenin temelinde mutlak bir aklın (Geist) olduğunu ve her şeyin bu mutlak aklın açılımı olduğunu savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kant'ın bilgi felsefesinde duyularımızla deneyimlediğimiz görüngüler dünyasına ____ adı verilir.",
+                  "options": [
+                    "fenomen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fenomen, insan zihninin duyular yoluyla algıladığı dış dünyanın görünen yüzüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Alman İdealizminin kurucu filozofu Immanuel Kant'ın en önemli bilgi kuramı eseri 'Saf Aklın ____' adını taşır.",
+                  "options": [
+                    "Eleştirisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kant, insan aklının sınırlarını ve imkanlarını incelediği temel eserine 'Saf Aklın Eleştirisi' adını vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kant'ın ahlak anlayışında eylemin temelini oluşturan koşulsuz buyruğa ____ imperatif denir.",
+                  "options": [
+                    "kategorik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kategorik imperatif, hiçbir şarta bağlı olmaksızın uyulması gereken ahlaki zorunluluğu ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kant, bilginin yalnızca duyumlar yoluyla dış dünyadan geldiğini savunarak saf bir empirist olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kant saf bir empirist değildir; rasyonalizm ile empirizmi sentezleyerek bilginin hem deneyle başladığını hem de zihindeki apriori formlara ihtiyaç duyduğunu savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hegel'e göre tarih, Mutlak Ruh'un (Geist) kendini bilinseksel olarak tanıması ve özgürleşmesi sürecidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hegel felsefesinde tarih, Mutlak Ruh'un diyalektik bir süreç içinde kendini gerçekleştirme ve bilinç kazanma serüvenidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kant'ın ödev ahlakında, bir eylemin ahlaki değeri o eylemin doğurduğu sonuçların iyiliğine bağlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kant'ın ödev ahlakında sonuçlar önemli değildir; önemli olan eylemin hangi niyetle ve sadece ödev bilinciyle yapıldığıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kant felsefesinde 'nomen' kavramı, zihnin kategorileriyle bilinebilen nesneler dünyasını ifade eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nomen, zihnin kategorileriyle bilinemeyen, kendinde şey olan nesneler alanıdır. Bilinebilen alan ise fenomendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Alman İdealizmi, Aydınlanma döneminin akılcı geleneklerini takip ederek gerçekliği düşünce ve fikir temelinde açıklamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alman İdealizmi (Kant, Fichte, Schelling, Hegel), gerçeğin özünün madde değil düşünce, töz veya akıl olduğunu savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Pozitivizm ve Marksizm",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Pozitivizmin kurucusu olan ve olguculuk akımını başlatan 19. yüzyıl filozofu kimdir?",
+                  "answer": "Auguste Comte"
+                },
+                {
+                  "question": "Karl Marx ve Friedrich Engels tarafından geliştirilen, tarihi sınıf savaşlarıyla açıklayan felsefi yaklaşım nedir?",
+                  "answer": "Marksizm"
+                },
+                {
+                  "question": "Auguste Comte'un insan zihninin gelişimini açıkladığı üç hal yasasının son aşaması hangisidir?",
+                  "answer": "Pozitif hal"
+                },
+                {
+                  "question": "Karl Marx'ın Hegel'den etkilenerek geliştirdiği, değişimin temeline maddeyi ve çelişkiyi koyan yöntem nedir?",
+                  "answer": "Diyalektik materyalizm"
+                },
+                {
+                  "question": "Pozitivizme göre bilginin tek kaynağı ne olmalıdır?",
+                  "answer": "Olgular"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Auguste Comte'un üç hal yasasına göre, insan zihninin olayları tanrılar ve doğaüstü güçlerle açıkladığı ilk aşama aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bilimsel hal",
+                    "Teolojik hal",
+                    "Metafizik hal",
+                    "Pozitif hal"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Comte'a göre üç hal yasasının ilk aşaması teolojik haldir ve bu dönemde olaylar tanrınsal güçlerle açıklanır. İkinci aşama metafizik, son aşama ise pozitif haldir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karl Marx'ın felsefesinde, üretim araçlarına sahip olan ve artı değere el koyan egemen sınıf aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Proletarya",
+                    "Aristokrasi",
+                    "Burjuvazi",
+                    "Köylülük"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Marksist felsefede üretim araçlarını elinde bulunduran ve işçi sınıfını sömüren sınıf burjuvazidir. Üretim araçlarından yoksun olan işçi sınıfı ise proletaryadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Auguste Comte'un savunduğu pozitivist düşüncenin temel özelliklerinden biri değildir?",
+                  "options": [
+                    "Metafizik soruların reddedilmesi",
+                    "Toplumsal olayların da doğa olayları gibi yasalarla incelenmesi",
+                    "Bilginin deney ve gözleme dayandırılması",
+                    "Olguların ardındaki mutlak özün aranması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Pozitivizm, metafiziksel ve mutlak öz arayışlarını reddeder; bunun yerine gözlenebilir olgulara ve bunlar arasındaki değişmez yasalara odaklanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karl Marx'ın tarih anlayışını şekillendiren temel ilke aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İdealist bir evrim süreci",
+                    "Tarihsel materyalizm",
+                    "Dinsel dogmaların egemenliği",
+                    "Bireysel iradenin üstünlüğü"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Marx, tarihi ve toplumsal değişimi fikirlerle değil, maddi üretim ilişkileriyle açıklar; buna tarihsel materyalizm denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "18. ve 19. yüzyıl felsefesinde bilimsel yöntemi toplumsal yaşama uyarlayarak sosyolojinin kurucusu kabul edilen filozof kimdir?",
+                  "options": [
+                    "Georg Wilhelm Friedrich Hegel",
+                    "Karl Marx",
+                    "Immanuel Kant",
+                    "Auguste Comte"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Auguste Comte, pozitivist anlayışı topluma uyarlayarak sosyoloji bilminin temellerini atmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Auguste Comte'un insanlığın gelişimini açıkladığı yasaya ____ yasası denir.",
+                  "options": [
+                    "üç hal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte, insan zihninin ve toplumların teolojik, metafizik ve pozitif olmak üzere üç farklı aşamadan geçtiğini savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Marx'ın eserlerinde kapitalist düzenin eleştirisini yaparken odaklandığı temel kavramlardan biri ____ sınıfıdır.",
+                  "options": [
+                    "proletarya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Proletarya, Marksist teoride üretim araçlarına sahip olmayan ve emeğini satarak geçinen işçi sınıfını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Pozitivizm akımına göre, metafizik iddialar anlamlı değildir çünkü ____ edilemezler.",
+                  "options": [
+                    "test"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitivizm olguculuğu savunur; gözlemlenemeyen ve test edilemeyen her türlü metafizik iddia bilim dışı kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Marx'ın Hegel'den devralıp baş aşağı çevirdiğini belirttiği yöntem ____ yöntemidir.",
+                  "options": [
+                    "diyalektik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Marx, Hegel'in idealist diyalektigini ele alarak onu materyalist bir temele oturtmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Auguste Comte'a göre toplumun yeniden düzenlenmesini sağlayacak olan pozitif bilimlerin en gelişmişi ____ bilimidir.",
+                  "options": [
+                    "sosyoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte, toplum fiziksel yasalar gibi incelenebilir diyerek sosyolojiyi en üst kategoriye yerleştirmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Auguste Comte, metafizik açıklamaları bilimin ilerlemesi için gerekli ve vazgeçilmez bir basamak olarak görür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Comte, metafizik dönemi teolojik ile pozitif arasında geçici bir evre olarak görür ancak pozitif döneme geçildiğinde metafizik tamamen terk edilmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karl Marx'a göre toplumların tarihi, sınıflar arasındaki mücadelelerin bir tarihidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Komünist Manifesto'nun da girişinde belirtildiği gibi Marx, tüm yazılı tarihin sınıf savaşımına dayandığını savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Pozitivizm, olguların arkasındaki görünmeyen tözleri ve tanrısal iradeleri inceleme alanı olarak kabul eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pozitivizm, görünmeyen tözleri veya tanrısal iradeleri reddeder; yalnızca duyularla algılanabilen olguları inceler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Marksizm, ekonomik alt yapının toplumun üst yapısını (hukuk, din, siyaset) belirlediğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarihsel materyalizme göre üretim ilişkileri ve ekonomik temel, toplumun kültürel ve siyasal üst yapısını şekillendirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Auguste Comte, toplumsal düzen ve ilerleme kavramlarını pozitivist sosyolojinin merkezine koymuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte için sosyolojinin iki temel anahtarı vardır: Düzen ve ilerleme.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "20. Yüzyıl Felsefesi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fenomenoloji ve Varoluşçuluk",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Analitik Felsefe ve Bilim Felsefesi",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

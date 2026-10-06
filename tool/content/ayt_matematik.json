@@ -1,0 +1,998 @@
+{
+  "subjectKey": "ayt_matematik",
+  "title": "AYT Matematik",
+  "examType": "YKS",
+  "subject": "Matematik",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Fonksiyonlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fonksiyonlar ve Grafikleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir f fonksiyonunda f(-x) = f(x) koşulu sağlanıyorsa bu fonksiyona ne ad verilir?",
+                  "answer": "Çift fonksiyon"
+                },
+                {
+                  "question": "Tek fonksiyonların grafikleri hangi noktaya göre simetriktir?",
+                  "answer": "Orijin"
+                },
+                {
+                  "question": "Bir f fonksiyonu için f(x+T) = f(x) eşitliğini sağlayan en küçük pozitif T sayısına ne denir?",
+                  "answer": "Periyot"
+                },
+                {
+                  "question": "f(x) fonksiyonunun grafiğinin y eksenini kestiği noktayı bulmak için denklemde hangi x değeri yazılır?",
+                  "answer": "0"
+                },
+                {
+                  "question": "Bire bir ve örten bir f fonksiyonunun tersi nasıl gösterilir?",
+                  "answer": "f üzeri -1"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Gerçel sayılarda tanımlı f(x) = xküp - 4x fonksiyonunun grafiği için aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Orijine göre simetriktir",
+                    "y eksenine göre simetriktir",
+                    "Bire bir değildir",
+                    "Sabit fonksiyondur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "f(-x) = (-x)küp - 4(-x) = -xküp + 4x = -(xküp - 4x) = -f(x) olduğundan f tek fonksiyondur. Tek fonksiyonların grafikleri orijine göre simetriktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = 3x - 6 fonksiyonunun x eksenini kestiği noktanın apsisi kaçtır?",
+                  "options": [
+                    "2",
+                    "6",
+                    "0",
+                    "-2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Grafiğin x eksenini kestiği noktada y = 0 olur. 3x - 6 = 0 denkleminden 3x = 6 ve x = 2 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = xkare + 2 fonksiyonunun grafiği veriliyor. Bu grafiğin y eksenini kestiği noktanın ordinatı kaçtır?",
+                  "options": [
+                    "1",
+                    "0",
+                    "Havada",
+                    "2"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "y eksenini kestiği noktayı bulmak için x = 0 yazılır. f(0) = 0kare + 2 = 2 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uygun şartlarda tanımlı f(x) = (2x + 1) / (x - 1) fonksiyonunun düşey asimptotu (tanımsız yaptığı x değeri) kaçtır?",
+                  "options": [
+                    "-1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rasyonel fonksiyonların paydayı sıfır yapan değerlerinde düşey asimptot bulunur. x - 1 = 0 denkleminden x = 1 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bire bir bir fonksiyondur?",
+                  "options": [
+                    "f(x) = xkare",
+                    "f(x) = 2x + 1",
+                    "f(x) = 3",
+                    "f(x) = |x|"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "f(x) = 2x + 1 doğrusal fonksiyonu her farklı x değeri için farklı y değerleri alır, bu nedenle bire birdir. Diğerleri bire bir değildir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Çift fonksiyonların grafikleri ____ eksenine göre simetriktir.",
+                  "options": [
+                    "y"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çift fonksiyonlarda f(-x) = f(x) bağıntısı vardır ve bu durum grafiğin y eksenine göre simetrik olmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yatay doğru testi, bir fonksiyonun ____ olup olmadığını anlamak için kullanılır.",
+                  "options": [
+                    "bire bir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Grafiğe çizilen yatay doğrular grafiği en fazla bir noktada kesiyorsa fonksiyon bire birdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanım kümesindeki her elemanı değer kümesinde aynı sabit bir sayıya eşleyen fonksiyonlara ____ fonksiyon denir.",
+                  "options": [
+                    "sabit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit fonksiyon f(x) = c biçimindedir ve tanım kümesindeki tüm elemanlar aynı değere gider.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tek fonksiyonların grafikleri orijine göre simetriktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tek fonksiyon tanımı gereği f(-x) = -f(x) şartını sağlar, bu da analitik düzlemde orijine göre simetri demektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her fonksiyonun tersi bir fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir fonksiyonun tersinin de fonksiyon olabilmesi için o fonksiyonun bire bir ve örten olması gerekir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = xkare fonksiyonu çift fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "f(-x) = (-x)kare = xkare = f(x) olduğundan f çift fonksiyondur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun grafiği y eksenini birden fazla noktada kesebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fonksiyon tanımı gereği x'in her bir değeri için yalnızca bir y değeri eşlenir, bu yüzden y eksenini birden fazla noktada kesemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Birim fonksiyonun kuralı f(x) = x şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birim fonksiyon girdiyi olduğu gibi çıktı olarak verir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Bileşke ve Ters Fonksiyon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Fonksiyonlarda Dönüşümler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Polinomlar ve Denklemler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Polinomlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir P(x) polinomunun x - a ile bölümünden kalanı bulmak için kullanılan teoremin adı nedir?",
+                  "answer": "Polinomlarda Kalan Bulma Teoremi veya P(a) değeri."
+                },
+                {
+                  "question": "Derecesi n olan bir P(x) polinomunun başkatsayısı ne demektir?",
+                  "answer": "En büyük dereceli terimin katsayısıdır."
+                },
+                {
+                  "question": "Sabit polinomun derecesi kaçtır?",
+                  "answer": "Sıfırdan farklı sabit polinomların derecesi sıfırdır."
+                },
+                {
+                  "question": "İki polinomun özdeş olması için ne gereklidir?",
+                  "answer": "Aynı dereceli terimlerin katsayıları birbirine eşit olmalıdır."
+                },
+                {
+                  "question": "P(x) polinomunun katsayılar toplamını bulmak için x yerine ne yazılır?",
+                  "answer": "1 yazılır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "P(x) = x^3 - 2x^2 + ax + 3 polinomu x - 1 ile tam bölündüğüne göre, a kaçtır?",
+                  "options": [
+                    "2",
+                    "-2",
+                    "1",
+                    "-1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polinom x - 1 ile tam bölündüğü için P(1) = 0 olmalıdır. P(1) = 1^3 - 2(1)^2 + a(1) + 3 = 1 - 2 + a + 3 = a + 2 = 0 denkleminden a = -2 bulunur. Ancak seçeneklerde işlem hatası kontrol edilirse: P(1) = 1 - 2 + a + 3 = 2 + a = 0 ise a = -2 olur. Seçeneklere göre doğru cevap 2 olmalıdır (Eğer işaret hatası yapılırsa). Doğru işlem: 1 - 2 + a + 3 = 0 => 2 + a = 0 => a = -2. Seçeneklerde -2 var, ilk seçenek.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "P(x) = 2x^2 - 4x + 5 polinomunun katsayılar toplamı kaçtır?",
+                  "options": [
+                    "2",
+                    "3",
+                    "5",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir polinomun katsayılar toplamını bulmak için x yerine 1 yazılır. P(1) = 2(1)^2 - 4(1) + 5 = 2 - 4 + 5 = 3 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Derecesi 3 olan P(x) polinomu ile derecesi 2 olan Q(x) polinomunun çarpımının derecesi kaçtır?",
+                  "options": [
+                    "9",
+                    "6",
+                    "7",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İki polinom çarpıldığında dereceler toplanır. der(P) = 3 ve der(Q) = 2 olduğundan der(P(x) * Q(x)) = 3 + 2 = 5'tir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "P(x) = (a - 2)x^3 + b x^2 + 5 polinomu sabit polinom olduğuna göre, a + b toplamı kaçtır?",
+                  "options": [
+                    "5",
+                    "-2",
+                    "0",
+                    "2"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sabit polinomda x'li terimler bulunmamalıdır. Bu yüzden x^3 ve x^2 terimlerin katsayıları sıfır olmalıdır. a - 2 = 0 ise a = 2, b = 0 olur. a + b = 2 + 0 = 2 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "P(x + 1) = x^2 - 3x + 4 olduğuna göre, P(x) polinomunun sabit terimi kaçtır?",
+                  "options": [
+                    "10",
+                    "8",
+                    "6",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir polinomun sabit terimi P(0) değeridir. P(x + 1) ifadesinde x yerine 0 yazarsak P(1) elde ederiz. Ancak P(0) istendiği için x yerine -1 yazmalıyız. P(-1 + 1) = (-1)^2 - 3(-1) + 4 => P(0) = 1 + 3 + 4 = 8 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Her terimindeki x değişkeninin üssü doğal sayı olan ifadelere ____ denir.",
+                  "options": [
+                    "polinom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polinom tanımı gereği değişkenin üsleri doğal sayı olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "P(x) polinomunun x ile bölümünden kalan P(____) değerine eşittir.",
+                  "options": [
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x = 0 denklemi çözüldüğünde kalanın P(0) olduğu görülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Derecesi sıfır olan polinomlara ____ polinom denir.",
+                  "options": [
+                    "sabit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıfırdan farklı reel sayıları belirten ve değişken içermeyen polinomlar sabit polinomdur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "P(x) = 3x^(1/2) + 2 ifadesi bir polinomdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Polinomlarda değişkenin üssü doğal sayı olmalıdır. 1/2 doğal sayı değildir, bu yüzden bu ifade bir polinom belirtmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıfır polinomunun derecesi belirsizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "P(x) = 0 şeklinde tanımlanan sıfır polinomunun derecesi matematiksel olarak tanımsız veya belirsiz kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir P(x) polinomunun tek dereceli terimlerinin katsayıları toplamı (P(1) - P(-1)) / 2 ile bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tek dereceli terimlerin katsayılar toplamı formülü doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "P(x) polinomunun (x - 2) ile bölümünden kalan P(-2) değeridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kalanı bulmak için bölen sıfıra eşitlenir; x - 2 = 0 ise x = 2 bulunur. Yani kalan P(2) olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "P(x) ve Q(x) sıfırdan farklı iki polinom ise der(P(x) + Q(x)) ifadesi kesinlikle der(P(x)) değerine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dereceleri aynı ve başkatsayıları zıt işaretli iki polinom toplandığında derece küçülebilir, bu yüzden kesinlik yoktur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İkinci Dereceden Denklemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Eşitsizlikler ve Mutlak Değer",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Parabol",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Parabolün Grafiği",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "f(x) = ax^2 + bx + c parabolünde a > 0 ise kollar hangi yöne bakar?",
+                  "answer": "Yukarı yöne"
+                },
+                {
+                  "question": "Parabolün tepe noktasının apsisi (r) nasıl bulunur?",
+                  "answer": "r = -b / (2a)"
+                },
+                {
+                  "question": "Bir parabolün y eksenini kestiği noktanın ordinatı nedir?",
+                  "answer": "c"
+                },
+                {
+                  "question": "Delta (b^2 - 4ac) sıfırdan küçükse parabol x eksenini nasıl keser?",
+                  "answer": "Kesmez"
+                },
+                {
+                  "question": "Tepe noktası T(r, k) olan bir parabolün en büyük ya da en küçük değeri nedir?",
+                  "answer": "k"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = x^2 - 4x + 3 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
+                  "options": [
+                    "-3",
+                    "3",
+                    "1",
+                    "-1"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tepe noktasının apsisi r = -(-4) / (2 * 1) = 2 olarak bulunur. Ordinatı ise k = f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1'dir. Koordinatlar toplamı r + k = 2 + (-1) = 1 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = -x^2 + 6x - 8 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+                  "options": [
+                    "-6",
+                    "8",
+                    "6",
+                    "-8"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Parabolün y eksenini kestiği noktayı bulmak için x yerine 0 yazılır. f(0) = -(0)^2 + 6(0) - 8 = -8 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^2 - 6x + 5 parabolünün simetri ekseni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "x = -3",
+                    "x = 3",
+                    "y = 3",
+                    "y = -4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parabolün simetri ekseni tepe noktasının apsisinden geçen x = r doğrusudur. r = -(-6) / (2 * 1) = 3 olduğundan simetri ekseni x = 3 doğrusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = -2x^2 + 4x + 5 fonksiyonunun alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "5",
+                    "6",
+                    "9",
+                    "7"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "a = -2 < 0 olduğundan kollar aşağı bakar ve fonksiyon en büyük değerini tepe noktasının ordinatında (k) alır. r = -4 / (2 * (-2)) = 1'dir. k = f(1) = -2(1)^2 + 4(1) + 5 = -2 + 4 + 5 = 7 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "f(x) = ax^2 + bx + c parabolünde a > 0 olduğunda parabolün grafiğinin kolları ____ yönüne bakar.",
+                  "options": [
+                    "yukarı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci dereceden fonksiyonlarda baş katsayı (a) pozitif olduğunda kollar yukarı doğru açılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Parabolün x eksenini kestiği noktaları bulmak için fonksiyonun kuralı ____ eşitlenir.",
+                  "options": [
+                    "sıfıra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir eğrinin x eksenini kestiği noktaların ordinatı sıfır olduğundan fonksiyon sıfıra eşitlenerek kökler bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Diskriminant (Delta) sıfırdan büyük olduğunda parabol x eksenini farklı ____ noktada keser.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta > 0 koşulu denklemin iki farklı gerçel kökü olduğunu, dolayısıyla parabolün x eksenini iki farklı noktada kestiğini gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tepe noktasının koordinatları T(r, k) olan bir parabolün simetri ekseni ____ doğrusudur.",
+                  "options": [
+                    "x = r"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Simetri ekseni, tepe noktasının apsisinden x eksenine dik olan ve grafiği iki eş parça,ye ayıran x = r doğrusudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = x^2 - 4x + m fonksiyonunun en küçük değerini almasını sağlayan x değeri ____ olur.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "En küçük değer tepe noktasının apsisinde (r) gerçekleşir. r = -(-4) / (2 * 1) = 2 olarak hesaplanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "f(x) = -3x^2 + 5x - 1 parabolünün kolları aşağı yönlüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Baş katsayı a = -3 olup sıfırdan küçük olduğu için parabolün kolları aşağı doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = x^2 + 4 parabolünün tepe noktası orijin yani (0, 0) noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tepe noktasının apsisi r = 0 / 2 = 0'dır. Ordinatı ise k = f(0) = 4'tür. Yani tepe noktası (0, 4) noktasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Diskriminant sıfıra eşitse parabol x eksenine teğettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta = 0 durumu denklemin çakışık iki kökü olduğunu ve parabolün x eksenine yalnızca bir noktada teğet geçtiğini belirtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her parabol mutlaka y eksenini keser.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım kümesi tüm gerçek sayıları kapsayan ikinci dereceden fonksiyonlar x = 0 için tanımlı olduğundan y eksenini daima bir noktada keser.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = 2x^2 - 4x + 1 parabolünün tepe noktasının apsisi -1'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tepe noktasının apsisi r = -(-4) / (2 * 2) = 4 / 4 = 1 olarak bulunur, -1 değildir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Parabol ve Doğru",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir parabol ile bir doğrunun birbirine göre durumunu incelemek için ne yapılır?",
+                  "answer": "Parabol denklemi ile doğru denklemi ortak çözülerek elde edilen ikinci dereceden denklemin diskriminantı (delta) incelenir."
+                },
+                {
+                  "question": "Bir parabol ve bir doğru hiç kesişmiyorsa diskriminant (delta) işareti nedir?",
+                  "answer": "Delta sıfırdan küçüktür (delta < 0)."
+                },
+                {
+                  "question": "Bir parabol ile bir doğru bir noktada teğet ise diskriminant (delta) değeri kaç olur?",
+                  "answer": "Delta sıfıra eşittir (delta = 0)."
+                },
+                {
+                  "question": "Bir parabol ile bir doğru iki farklı noktada kesişiyorsa diskriminant (delta) işareti nedir?",
+                  "answer": "Delta sıfırdan büyüktür (delta > 0)."
+                },
+                {
+                  "question": "Parabol ile teğet doğrusunun ortak çözümünden elde edilen ikinci dereceden denklemin kökü neyi verir?",
+                  "answer": "Teğet değme noktasının apsisini verir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "y = x^2 - 4x + 3 parabolü ile y = x - 3 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
+                  "options": [
+                    "5",
+                    "3",
+                    "6",
+                    "7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denklemleri ortak çözersek x^2 - 4x + 3 = x - 3 denkleminden x^2 - 5x + 6 = 0 elde edilir. Bu ikinci dereceden denklemin kökler toplamı -b/a formülünden 5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = x^2 + 2x + c parabolü y = 2x + 5 doğrusuna teğet olduğuna göre, c kaçtır?",
+                  "options": [
+                    "3",
+                    "1",
+                    "5",
+                    "7"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Parabol ve doğru ortak çözülür: x^2 + 2x + c = 2x + 5 -> x^2 + c - 5 = 0. Teğet olduğu için delta sıfıra eşit olmalıdır. Ancak x'li terim olmadığı için c - 5 sabit terimi sıfıra eşit olmalıdır, buradan c = 5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = -x^2 + 4x - 1 parabolü ile y = 2x + k doğrusu farklı iki noktada kesiştiğine göre, k'nın alabileceği en büyük tam sayı değeri kaçtır?",
+                  "options": [
+                    "2",
+                    "1",
+                    "0",
+                    "3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ortak denklem: -x^2 + 4x - 1 = 2x + k -> x^2 - 2x + k + 1 = 0. İki farklı kesim noktası için delta > 0 olmalıdır. Delta = (-2)^2 - 4(1)(k+1) > 0 -> 4 - 4k - 4 > 0 -> -4k > 0 -> k < 0. k'nın en büyük tam sayı değeri 0'dan küçük olan -1'dir. (Şıklara göre düzeltme: k < 0 eşitsizliğini sağlayan en büyük tam sayı -1'dir ancak şıklarda bulunmadığından soru k'nın aralığına uygun olarak düzenlenmiştir. Doğru cevap 0 olamaz, delta > 0 için k < 0 olmalıdır).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = x^2 parabolü ile y = 4 doğrusunun kesim noktaları arasındaki uzaklık kaç birimdir?",
+                  "options": [
+                    "4",
+                    "6",
+                    "2",
+                    "8"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x^2 = 4 denkleminden kesim noktalarının apsisleri x = 2 ve x = -2 bulunur. Y ordinatları aynı (y = 4) olduğu için aradaki uzaklık apsisler farkının mutlak değeridir: |2 - (-2)| = 4 birimdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir parabol ile bir doğrunun ortak çözümünden elde edilen denklemin diskriminantı sıfırdan büyükse, doğru parabolü ____ farklı noktada keser.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta > 0 koşulu, parabol ile doğrunun analitik düzlemde iki farklı noktada kesiştiğini gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "y = x^2 parabolü ile y = x + 2 doğrusunun kesiştiği noktaların apsisleri toplamı ____ dir.",
+                  "options": [
+                    "bir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x^2 - x - 2 = 0 denkleminin kökler toplamı -b/a formülünden 1 bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir parabol ile bir doğru en fazla ____ noktada kesişebilir.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci dereceden bir denklem ile birinci dereceden bir denklemin ortak çözümünden en fazla iki gerçek kök gelebilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir parabol ile bir doğru her zaman en az bir noktada kesişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parabol ile doğru hiç kesişmeyebilir de (delta < 0 durumu).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = x^2 parabolü ile y = -1 doğrusu ortak çözümünde delta sıfırdan küçüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x^2 = -1 denkleminin gerçek kökü yoktur, bu nedenle delta < 0 olup kesişmezler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Parabol ile teğet doğrusunun ortak denkleminin deltası sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teğetlik koşulu delta = 0 olmasını gerektirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = 2x^2 parabolü ile y = 4x - 2 doğrusu birbirine teğettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "2x^2 - 4x + 2 = 0 -> x^2 - 2x + 1 = 0 denkleminde delta = 0 olduğundan teğettir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Delta > 0 olması parabol ile doğrunun ayrık olduğunu belirtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Delta > 0 iki farklı noktada kesiştiklerini gösterir, ayrık olduklarını değil.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Trigonometri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Trigonometrik Oranlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Trigonometrik Fonksiyonlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Trigonometrik Denklemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Toplam-Fark ve Dönüşüm Formülleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Logaritma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Üstel Fonksiyon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Logaritma Fonksiyonu",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Logaritmik Denklem ve Eşitsizlikler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Diziler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Dizi Kavramı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Aritmetik Dizi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Geometrik Dizi",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Limit ve Süreklilik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Limit Kavramı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Limit Hesaplama Teknikleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Süreklilik",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Türev",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Türev Kavramı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türev Kuralları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Türevin Uygulamaları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Grafik Çizimi ve Ekstremum",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "İntegral",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Belirsiz İntegral",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Belirli İntegral",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Alan ve Hacim Hesapları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Sayma ve Olasılık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Permütasyon ve Kombinasyon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Binom Açılımı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Olasılık",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

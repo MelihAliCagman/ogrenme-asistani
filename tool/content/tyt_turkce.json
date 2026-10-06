@@ -1,0 +1,3221 @@
+{
+  "subjectKey": "tyt_turkce",
+  "title": "TYT Türkçe",
+  "examType": "YKS",
+  "subject": "Türkçe",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Sözcükte Anlam",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sözcüğün Anlamı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gerçek anlam nedir?",
+                  "answer": "Bir sözcüğün akla gelen ilk temel anlamıdır."
+                },
+                {
+                  "question": "Mecaz anlam nedir?",
+                  "answer": "Bir sözcüğün gerçek anlamından tamamen uzaklaşarak kazandığı yeni anlamdır."
+                },
+                {
+                  "question": "Terim anlam nedir?",
+                  "answer": "Bir sözcüğün bilim, sanat, spor veya meslek dalıyla ilgili özel bir kavramı karşılamasıdır."
+                },
+                {
+                  "question": "Yan anlam nedir?",
+                  "answer": "Bir sözcüğün gerçek anlamıyla olan bağını koparmadan şekil veya görev benzerliğiyle kazandığı diğer anlamdır."
+                },
+                {
+                  "question": "Somut anlam nedir?",
+                  "answer": "Beş duyu organımızdan en az biriyle algılayabildiğimiz varlıkları karşılayan anlamdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'tatlı' sözcüğü mecaz anlamda kullanılmıştır?",
+                  "options": [
+                    "Çocuğun tatlı gülümsemesi bütün salonu neşeyle doldurdu.",
+                    "Bu sıcak yaz günlerinde soğuk ve tatlı bir karpuz iyi gider.",
+                    "Fırından yeni çıkan tatlı kurabiyeleri herkes çok beğendi.",
+                    "Yemeğin ardından ikram edilen tatlı yediden yetmişe herkesin favorisiydi."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Tatlı' sözcüğü b seçeneğinde sevimli, hoş anlamında mecaz anlamda kullanılmıştır. Diğer seçeneklerde tat alma duyusuyla ilgilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde terim anlamlı bir sözcük vardır?",
+                  "options": [
+                    "Sanatçı, yeni romanında toplumsal sorunları ele almış.",
+                    "Okulun bahçesindeki ulu çınar, yazın gölge veriyordu.",
+                    "Matematik sınavındaki ikinci sorunun kökü oldukça uzundu.",
+                    "Şair, bu şiirinde uyak ve rediflere çok önem vermişti."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Uyak' ve 'redif' sözcükleri edebiyat terimi olduğundan cümlede terim anlamıyla kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde somut anlamlı bir sözcük soyut anlamda kullanılmıştır?",
+                  "options": [
+                    "Yıllardır sakladığı bu acı sırrı sonunda en yakın arkadaşına anlattı.",
+                    "Masada duran ekmeği kesmek için keskin bir bıçak aldı.",
+                    "Pencereden dışarıya baktığında havanın oldukça soğuk olduğunu gördü.",
+                    "Denizden esen sert rüzgar, kıyıdaki ağaçları şiddetle sallıyordu."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Acı' sözcüğü normalde tatma duyusuyla algılanan somut bir anlamdayken cümlede üzücü, sıkıntılı durumu belirterek soyutlaşmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'kırmak' sözcüğü 'incitmek, üzmek' anlamında kullanılmıştır?",
+                  "options": [
+                    "Bahçedeki ağacın kurumuş dalını dikkatsizlik sonucu kırdı.",
+                    "Sert hareketleriyle çocukların kalbini istemeden de olsa kırdı.",
+                    "Sıcak havalardan dolayı su şişesini düşürüp taşa çarparak kırdı.",
+                    "Kilidi açmak için kapının anahtarını yuvasında biraz fazla kırdı."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Kırmak' sözcüğü b seçeneğinde kişileri üzmek, incitmek anlamında mecaz bir kullanım kazanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde yan anlamlı bir sözcük kullanılmıştır?",
+                  "options": [
+                    "Uçağın kanatları kalkış sırasında güçlü rüzgardan etkilendi.",
+                    "Dolabın gözünde kalan eski defterleri tek tek inceledi.",
+                    "Öğretmen tahtaya kalkarak yeni konuyu ayrıntılı bir şekilde anlattı.",
+                    "Bina, deprem yönetmeliğine uygun olarak baştan aşağı yenilendi."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Kanat' sözcüğü kuşların organı olan gerçek anlamından uzaklaşarak şekil benzerliğiyle uçağın bir parçası için kullanılmış ve yan anlam kazanmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir sözcüğün akla gelen ilk temel anlamına ____ anlam denir.",
+                  "options": [
+                    "gerçek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sözcüğün ilk ve temel anlamı 'gerçek anlam' olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Beş duyu organımızdan hiçbiriyle algılayamadığımız kavramları karşılayan sözcüklere ____ anlamlı sözcükler denir.",
+                  "options": [
+                    "soyut"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Duyu organlarıyla algılanamayan kavramlar soyut anlam ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün temel anlamından tamamen koparak kazandığı yeni anlamlara ____ anlam denir.",
+                  "options": [
+                    "mecaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gerçek anlamdan tamamen uzaklaşılan yeni anlam mecaz anlamdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün şekil ve görev benzerliğiyle temel anlamından kopmadan kazandığı yeni anlam ____ anlamdır.",
+                  "options": [
+                    "yan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şekil veya görev benzerliğiyle oluşan anlam kaymaları yan anlamı oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilim, sanat ve spor dallarıyla ilgili özel kavramları karşılayan sözcükler ____ anlam taşır.",
+                  "options": [
+                    "terim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belirli bir uzmanlık alanına özgü kavramlar terim anlamlıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "'Rüzgar saçlarımı okşuyordu.' cümlesinde 'okşamak' sözcüğü mecaz anlamda kullanılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Okşamak eylemi gerçekte fiziksel bir dokunma gerektirir; rüzgarın saçlara teması insani bir özellik verilerek mecazlaştırılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Tahta' sözcüğü bütün cümlelerde mutlaka terim anlamlı olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tahta sözcüğü gerçek anlamda bir malzeme olabileceği gibi okulda kullanılan yazı tahtası anlamında da gelebilir; her cümlede terim olması gerekmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soyut anlamlı sözcükler beş duyu organımızdan herhangi biriyle algılanabilen varlıkları karşılar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Beş duyu organıyla algılanabilen varlıklar somut anlamlıdır; soyut anlamlılar duyu organlarıyla algılanamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Dolabın gözü' ifadesinde 'göz' sözcüğü yan anlamda kullanılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dolabın gözü ifadesindeki göz, şekil ve işlev benzerliğiyle insandaki gözden türediği için yan anlam değil, yan anlam kabul edilir. Doğrudur, bu bir yan anlam örneğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mecaz anlamlı sözcükler genellikle kelimeler arası anlam kayması yoluyla oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mecaz anlam, sözcüğün kendi anlam sınırlarının dışına çıkarak başka bir kavramın yerini almasıyla oluşur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Gerçek, Mecaz ve Terim Anlam",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gerçek anlam nedir?",
+                  "answer": "Bir sözcüğün akla gelen ilk ve temel anlamıdır."
+                },
+                {
+                  "question": "Mecaz anlam nedir?",
+                  "answer": "Bir sözcüğün gerçek anlamından tamamen uzaklaşarak başka bir anlamda kullanılmasıdır."
+                },
+                {
+                  "question": "Terim anlam nedir?",
+                  "answer": "Bilim, sanat, spor veya meslek dalıyla ilgili özel bir kavramı karşılayan sözcük anlamıdır."
+                },
+                {
+                  "question": "\"Sıcak çorba içimizi ısıttı.\" cümlesindeki \"sıcak\" sözcüğü hangi anlamdadır?",
+                  "answer": "Gerçek anlam"
+                },
+                {
+                  "question": "\"Bu tatlı sözlerle bizi kandıramazsın.\" cümlesindeki \"tatlı\" sözcüğü hangi anlamdadır?",
+                  "answer": "Mecaz anlam"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde \"boş\" sözcüğü terim anlamda kullanılmıştır?",
+                  "options": [
+                    "Tiyatro oyununda sahneye boş bir tabut kondu.",
+                    "Salonun ortasındaki boş kutuyu kaldırdı.",
+                    "Şair, bu şiirinde \"uaf\" ölçüsünün beşinci beytindeki boşluğu doldurmuştu.",
+                    "Bugün bütün derslerim boş geçti."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "D seçeneğinde geçen \"uaf\" veya aruz ölçüsü bağlamındaki \"boşluk\" terim anlamda kullanılmıştır. Diğer seçeneklerde günlük anlamlar söz konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Ağır\" sözcüğü aşağıdaki cümlelerin hangisinde mecaz anlamda kullanılmıştır?",
+                  "options": [
+                    "Pazardan aldığı ağır torbaları eve zor getirdi.",
+                    "Kardeşim, bugünlerde bana karşı çok ağır konuşuyor.",
+                    "Yolcular ağır adımlarla vagona doğru ilerledi.",
+                    "Elindeki ağır paketi merdivenlerden çıkardı."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "B seçeneğindeki \"ağır konuşmak\" deyimi kırıcı, incitici anlamına gelir ve mecazdır. Diğerlerinde fiziksel ağırlık ifade edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde \"perde\" sözcüğü terim anlamıyla kullanılmıştır?",
+                  "options": [
+                    "Salonun pencerelerine yeni mavi perdeler takıldı.",
+                    "Oyunun ikinci perdesi seyirciden büyük alkış aldı.",
+                    "Gözündeki perde ameliyatla başarılı bir şekilde alındı.",
+                    "Otomobilin camındaki perde güneşi engelliyordu."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "B seçeneğinde tiyatro terimi olan \"perde\" sözcüğü kullanılmıştır. A ve D'de ev eşyası, C'de ise tıp terimi gibi görünse de gözdeki hastalık tablosu terim anlam sınırındadır ancak B en net tiyatro terimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Keskin\" sözcüğü aşağıdaki cümlelerin hangisinde gerçek anlamda kullanılmıştır?",
+                  "options": [
+                    "Mutfaktaki keskin bıçakla ekmekleri dilimledi.",
+                    "Keskin zekasıyla tüm soruları zahmetsizce çözdü.",
+                    "Keskin bir rüzgar yüzümüzü donduruyordu.",
+                    "Keskin bir koku bütün odayı sarıp sarmalamıştı."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "C seçeneğinde bıçağın kesme özelliğini belirten keskin sözcüğü temel (gerçek) anlamındadır. Diğerlerinde soyut veya mecazdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamlıdır?",
+                  "options": [
+                    "Yüksek dağların tepesinde karlar erimeye başladı.",
+                    "Soğuk sudan elleri kıpkırmızı olmuştu.",
+                    "Bahçedeki kuru dalları bir araya getirip yaktı.",
+                    "Sınavı kazanamayınca bütün umutları suya düştü."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "\"Umutların suya düşmesi\" deyimi gerçekleşmeme, boşa çıkma anlamında mecazdır. Diğerlerinde sözcükler gerçek anlamda kullanılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir sözcüğün akla gelen ilk anlamına ____ anlam denir.",
+                  "options": [
+                    "gerçek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sözcüğün ilk ve temel anlamı gerçek anlam olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün bilim veya sanat dalıyla ilgili özel kavramları karşılamasına ____ anlam denir.",
+                  "options": [
+                    "terim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özel alan kavramlarını bildiren anlam çeşidine terim anlam denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "\"Zamanla bu soğuk tavırlarından vazgeçti.\" cümlesindeki \"soğuk\" sözcüğü ____ anlamlıdır.",
+                  "options": [
+                    "mecaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Burada samimiyetsiz, itici anlamı katıldığı için sözcük mecaz anlamlıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Futbol maçında hakem kaleciye kırmızı ____ gösterdi.",
+                  "options": [
+                    "kart"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Futbol terimi olan kart kelimesi boşluğa gelmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "\"Çocuk, tahtadaki harfleri tek tek okudu.\" cümlesinde geçen \"okumak\" sözcüğü ____ anlamdadır.",
+                  "options": [
+                    "gerçek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Harfleri seslendirme eylemi temel anlamda kullanılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Terim anlamlı sözcükler yalnızca bilim dallarında kullanılır, sanatta kullanılmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Terimler bilim, sanat, spor ve meslek dallarının hepsinde yer alabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mecaz anlam, bir sözcüğün gerçek anlamından tamamen koparak yeni bir anlam kazanmasıyla oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mecaz anlam temel anlamdan uzaklaşılarak yapılan anlam aktarmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her sözcük her bağlamda mutlaka terim anlam kazanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Her sözcük terim anlamlı olamaz; sadece ilgili alanda özel anlam kazananlar terimdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Kök\" sözcüğü matematik dersinde terim anlamda kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matematikte denklem kökü gibi kullanımlarıyla terim anlam kazanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gerçek anlamlı bir sözcük cümlede kesinlikle mecaz anlama gelemez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sözcükler cümle içerisindeki bağlama göre gerçek veya mecaz anlam kazanabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Çok Anlamlılık ve Eş Sesli Sözcükler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Çok anlamlılık nedir?",
+                  "answer": "Bir sözcüğün temel anlamından kopmadan zamanla yeni ve farklı yan anlamlar kazanmasıdır."
+                },
+                {
+                  "question": "Eş sesli (sesteş) sözcük ne demektir?",
+                  "answer": "Yazılışları ve okunuşları aynı, ancak anlamları tamamen farklı olan sözcüklerdir."
+                },
+                {
+                  "question": "\"Düş\" sözcüğü sesteş midir?",
+                  "answer": "Evet, hem rüya anlamı hem de düşmek eyleminin kökü olarak sesteştir."
+                },
+                {
+                  "question": "Yan anlamın temel anlamla ilişkisi nasıldır?",
+                  "answer": "Yan anlam, sözcüğün temel anlamına şekil veya görev yönüyle benzerlik göstererek yaklaşmasıyla oluşur."
+                },
+                {
+                  "question": "\"Yüz\" sözcüğünün sesteşlik durumuna iki örnek veriniz.",
+                  "answer": "İnsan yüzü (çehre) ve sayı olan yüz (100)."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde \"atmak\" sözcüğü \"vermek, iletmek\" anlamında kullanılmıştır?",
+                  "options": [
+                    "Çöpleri dışarıdaki büyük kutuya attı.",
+                    "Öğretmene dün gönderdiğim maile henüz bir imza attım.",
+                    "Önemli bir karar almadan önce onlara da bir mesaj attı.",
+                    "Kardeşi elindeki taşı sertçe denize fırlattı."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "\"Mesaj atmak\" kalıbında \"atmak\" sözcüğü mesaj iletmek, göndermek anlamında kullanılmıştır. Diğer seçeneklerde fırlatmak veya imza koymak anlamlarındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sözcük çiftlerinden hangisi sesteş (eş sesli) değildir?",
+                  "options": [
+                    "Gül",
+                    "Kitap",
+                    "Yol",
+                    "Yaz"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "\"Kitap\" sözcüğünün başka bir anlamı yoktur, bu yüzden sesteş değildir. Yaz, gül ve yol sözcüklerinin birden fazla anlamı vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde \"ince\" sözcüğü mecaz anlamda kullanılmıştır?",
+                  "options": [
+                    "İnce ipi makasla dikkatlice ikiye kesti.",
+                    "İnce tahtaları dikkatlice üst üste dizdi.",
+                    "İnce yapraklı defteri çantasına koydu.",
+                    "Bu konuda oldukça ince eleyip sık dokuyor."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "\"İnce eleyip sık dokumak\" deyimi detaylıca düşünmek, titiz davranmak anlamında mecaz anlamda kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Çıkmak\" sözcüğü aşağıdaki cümlelerin hangisinde \"erişmek, varmak\" anlamında kullanılmıştır?",
+                  "options": [
+                    "Merdivenleri çıkarken nefesi kesildi.",
+                    "Toplantıdan erken saatlerde ayrılıp evine gitti.",
+                    "Sonunda istedikleri dağın zirvesine çıktılar.",
+                    "Bu kumaşın rengi yıkandıkça çıkıyor."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "\"Dağın zirvesine çıkmak\" ifadesi oraya ulaşmak, erişmek anlamını vermektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi hem bitki adı hem de gülmek eylemi olarak sesteş kabul edilir?",
+                  "options": [
+                    "Çiçek",
+                    "Papatya",
+                    "Gül",
+                    "Lale"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "\"Gül\" sözcüğü hem bitki olan gül hem de gülümsemek fiilinin emri olarak sesteş özellik gösterir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yazılışları aynı, anlamları tamamen farklı olan sözcüklere ____ sözcükler denir.",
+                  "options": [
+                    "eş sesli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eş sesli (sesteş) sözcükler yazılışı aynı ama anlamı farklı olan kelimelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün akla gelen ilk anlamı ____ anlam olarak adlandırılır.",
+                  "options": [
+                    "temel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Temel anlam, sözcüğün sözlükteki ilk ve en yaygın anlamıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sözcüğün temel anlamından tamamen uzaklaşarak kazandığı yeni anlamaya ____ anlam denir.",
+                  "options": [
+                    "mecaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mecaz anlam, kelimenin gerçek anlamından tamamen koparak kazandığı yeni anlamdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün temel anlamıyla olan benzerlik ilgisiyle kazandığı ikinci anlamlara ____ anlam denir.",
+                  "options": [
+                    "yan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yan anlam, temel anlamın şekil veya görev benzerliğiyle genişlemesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eş sesli sözcüklerin aralarında anlam bakımından hiçbir ____ bulunmaz.",
+                  "options": [
+                    "bağ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sesteş sözcükler tesadüfen aynı yazılır, aralarında anlamsal bir ilişki veya bağ yoktur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her sözcüğün mutlaka birden fazla anlamı vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bazı sözcükler tek anlamlıdır ve çok anlamlılık göstermez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eş sesli sözcüklerin yazılışları aynı ama anlamları farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sesteş kelimelerin temel özelliği yazılış aynı iken anlamların tamamen farklı olmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mecaz anlam, sözcüğün gerçek anlamından tamamen kopmasıyla oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mecaz anlamda sözcük gerçek anlamını yitirir ve yepyeni bir anlam kazanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Temel anlam ile yan anlam arasında hiçbir benzerlik ilişkisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yan anlam, temel anlam ile şekil veya görev benzerliğine dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Yüz\" sözcüğü hem sayı hem çehre anlamında sesteştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüz sözcüğü sesteş kelimelere örnek olarak gösterilebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Eş Anlamlı ve Zıt Anlamlı Sözcükler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yazılışları ve okunuşları farklı, anlamları aynı olan sözcüklere ne denir?",
+                  "answer": "Eş anlamlı (anlamdaş) sözcükler"
+                },
+                {
+                  "question": "Anlamca birbirinin karşıtı olan, birbirinin zıddını bildiren sözcüklere ne denir?",
+                  "answer": "Zıt (karşıt) anlamlı sözcükler"
+                },
+                {
+                  "question": "Bir sözcüğün olumsuzu, o sözcüğün zıt anlamlısı mıdır?",
+                  "answer": "Hayır, bir sözcüğün olumsuzu ile zıttı aynı şey değildir."
+                },
+                {
+                  "question": "Gerçek anlamda birbirinin zıttı olan sözcükler, mecaz anlamda kullanıldıklarında zıt anlamlılık özelliğini kaybedebilir mi?",
+                  "answer": "Evet, kaybedebilir."
+                },
+                {
+                  "question": "\"Kara\" sözcüğünün eş anlamlısı nedir?",
+                  "answer": "Siyah"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde zıt anlamlı sözcükler bir arada verilmemiştir?",
+                  "options": [
+                    "Bu işin iyi yanlarını da kötü yanlarını da düşünmeliyiz.",
+                    "İçeri girmek için dışarıda uzun süre bekledi.",
+                    "Ağır ağır çıkan bu yokuştan hızlıca indi.",
+                    "Büyük binanın önündeki küçük bahçeyi suladı."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "\"Ağır ağır\" ikileme olup burada zıt anlamlı değil, pekiştirme ve durum anlamı katmaktadır. Diğer seçeneklerde iyi-kötü, içeri-dışarı, büyük-küçük gibi zıt anlamlı sözcükler bir arada kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Yaş\" sözcüğü aşağıdaki cümlelerin hangisinde zıt anlamlısı olan 'kuru' sözcüğüyle birlikte zıt anlamlı çift oluşturur?",
+                  "options": [
+                    "Elimdeki yaş çamaşırları balkona asmalısın.",
+                    "Çocuk, geçirdiği bu zor yıllarla bir hayli yaş almıştı.",
+                    "Bütün bu olaylar yaşlandıkça daha çok kafama takılıyor.",
+                    "Yaşasın, sonunda sınavı kazandım!"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "\"Yaş\" sözcüğü ilk seçenekte \"kuru\"nun zıttı olan gerçek anlamında kullanılmıştır. Diğer seçeneklerde ise yaşlanmak veya ünlem anlamlarıyla kullanıldığı için zıt anlam ilişkisi aranmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sözcük çiftlerinden hangisi eş anlamlılık ilişkisi bakımından diğerlerinden farklıdır?",
+                  "options": [
+                    "Hekim - Doktor",
+                    "Misafir - Konuk",
+                    "Fakir - Zengin",
+                    "Kırmızı - Al"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "\"Fakir\" ve \"zengin\" sözcükleri eş anlamlı değil, zıt anlamlı sözcüklerdir. Diğer seçeneklerdeki sözcük çiftleri eş anlamlıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde altı çizili sözcüğün zıttı yanlış verilmiştir?",
+                  "options": [
+                    "Bu dar (geniş) yolda yürümek oldukça zordu.",
+                    "Sıcak (soğuk) çorbayı içince biraz kendine geldi.",
+                    "Erken (geç) kalkan yol alır derler.",
+                    "Tatlı (acı) dille her kapıyı açabilirsin."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu cümlede \"tatlı\" sözcüğü gerçek anlamında değil, mecaz anlamda (güzel, hoş) kullanılmıştır. Mecaz anlamlı sözcüklerin zıttı aranırken gerçek anlamdaki zıttı (acı) alınamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Geniş\" sözcüğünün zıt anlamlısı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Dar",
+                    "Uzak",
+                    "Derin",
+                    "Büyük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "\"Geniş\" sözcüğünün ifade ettiği alanın tersini belirten zıt anlamlı karşılığı \"dar\" sözcüğüdür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yazılışları farklı olmasına rağmen anlamları aynı olan sözcüklere ____ sözcükler denir.",
+                  "options": [
+                    "eş anlamlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazılışları farklı ama aynı anlamı veren sözcükler 'eş anlamlı' veya 'anlamdaş' olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün olumsuzu, o sözcüğün ____ anlamlısı değildir.",
+                  "options": [
+                    "zıt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin 'gelmek' fiilinin olumsuzu 'gelmemek'tir; ancak zıt anlamlısı 'gitmek'tir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mecaz anlam kazanmış sözcüklerin ____ anlamlısı aranırken dikkatli olunmalıdır.",
+                  "options": [
+                    "zıt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sözcükler mecaz anlamda kullanıldığında temel (gerçek) anlamlarındaki zıtlıkları ortadan kalkabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkçede yabancı kökenli sözcüklerle Türkçe karşılıklarının bir arada kullanılması ____ anlamdaşlık yaratabilir.",
+                  "options": [
+                    "anlamdaş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dilimizde aynı anlamı veren öz Türkçe ve alıntı kelimeler eş anlamlı ilişkisi kurar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Siyah sözcüğünün eş anlamlısı ____ sözcüğüdür.",
+                  "options": [
+                    "kara"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kara ve siyah sözcükleri aynı rengi ifade eden eş anlamlı sözcüklerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her sözcüğün mutlaka bir zıt anlamlısı vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Her sözcüğün zıt anlamlısı olması gerekmez; özellikle varlık adlarının çoğu zıt anlamlıya sahip değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eş anlamlı sözcükler cümle içinde birbirinin yerine kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anlamdaş sözcükler genel olarak cümle içinde birbirlerinin yerine aktarıldığında cümlenin temel anlamı bozulmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Gelmek\" sözcüğünün zıt anlamlısı \"gelmemektir\".",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "\"Gelmemek\" kelimesi gelmek eyleminin olumsuzudur. Gelmek sözcüğünün zıt anlamlısı \"gitmek\"tir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zıt anlamlı sözcükler birbirinin karşıtı olan durumları veya kavramları ifade eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zıt anlamlılık, anlamca birbirinin tersi olan durumları karşı karşıya getirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nitelik bildiren sözcüklerin birçoğunun zıt anlamlısı bulunmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyi-kötü, büyük-küçük, güzel-çirkin gibi nitelik bildiren sıfatların zıt anlamlısı sıklıkla görülür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Deyimler ve Atasözleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hem gerçek hem mecaz anlamda kullanılabilen, kalıplaşmış söz öbeğine ne denir?",
+                  "answer": "Deyim"
+                },
+                {
+                  "question": "Uzun gözlem ve deneyimler sonucu oluşmuş, öğüt veren kalıplaşmış sözlere ne denir?",
+                  "answer": "Atasözü"
+                },
+                {
+                  "question": "Deyimler genellikle kaç sözcükten oluşan bir yapıdır?",
+                  "answer": "En az iki sözcükten oluşan söz öbeğidir."
+                },
+                {
+                  "question": "Atasözleri mecaz anlamlı mıdır?",
+                  "answer": "Çoğu mecaz anlamlıdır ancak gerçek anlam taşıyanları da vardır."
+                },
+                {
+                  "question": "Deyimler cümle şeklinde mi yoksa söz öbeği şeklinde mi kurulur?",
+                  "answer": "Genellikle söz öbeği şeklindedir, nadiren cümle biçiminde de bulunabilir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde kullanılan deyim açıklamasıyla birlikte verilmemiştir?",
+                  "options": [
+                    "Ağzı kulaklarına varmak, çok sevinmek anlamında kullanılmıştı.",
+                    "İçine kurt düşmek, içine bir şüphe ve kuku girmek demektir.",
+                    "Etekleri zil çalmak, duyduğu bir haberle telâşlanıp korkmak anlamına gelir.",
+                    "Gözden düşmek, eskisi kadar ilgi ve değer görmez olmak demektir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Etekleri zil çalmak deyimi korkmak veya telaşlanmak anlamına gelmez, aksine çok sevinmek, neşelenmek demektir. Bu nedenle yanlış verilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki atasözlerinden hangisi 'birlik ve beraberliğin gücü'nü vurgulamaz?",
+                  "options": [
+                    "Ağaç yaşken eğilir.",
+                    "Nerde birlik, orada dirlik.",
+                    "Yalnız taş duvar olmaz.",
+                    "Birlikten kuvvet doğurur."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ağaç yaşken eğilir atasözü çocukların küçük yaşta eğitilmesinin kolay olduğunu vurgular. Diğer üç seçenek birlik ve beraberliği ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki deyimlerden hangisinin anlamı yanlış açıklanmıştır?",
+                  "options": [
+                    "Çam devirmek: Farkında olmadan karşıdakini gücendirecek söz söylemek.",
+                    "İpe un sermek: İşi yokuşa sürmek, bahaneler uydurarak işi yapmaktan kaçınmak.",
+                    "Burnundan kıl aldırmamak: Çok titiz ve temizliğe düşkün olmak.",
+                    "Küp bineği: Çok uyuyan, uykuyu seven kimse."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Burnundan kıl aldırmamak deyimi temizlikle ilgili değildir; kimseye kusur yakıştırmayan, kendinden ödün vermeyen, gururlu ve kibirli kimseler için kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki atasözlerinin hangisi mecaz anlam içermez?",
+                  "options": [
+                    "Dost ile ye, iç, alışveriş etme.",
+                    "Görünen köy kılavuz istemez.",
+                    "Sakın samanı, gelir zamanı.",
+                    "Ateş düştüğü yeri yakar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Dost ile ye, iç, alışveriş etme' atasözü gerçek anlamlıdır ve dostluk ilişkilerinin ticari ilişkilerle bozulmaması gerektiğini doğrudan öğütler. Diğerleri mecazlıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde deyim yanlış anlamda kullanılmıştır?",
+                  "options": [
+                    "Sınavı kazandığını duyunca ağzı kulaklarına vardı.",
+                    "Adamın yaptıklarını görünce adeta kanı dondu.",
+                    "Çocuğun başarılarıyla gurur duyuyor, boy ölçüşüyordu.",
+                    "Bütün gün çalışmaktan burnunun direği sızladı."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Boy ölçüşmek' yarışmak, rekabet etmek demektir. Çocuğun başarısıyla gurur duymakla uyuşmaz. Diğer deyimler bağlama uygundur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Atasözleri halkın ortak ürünü olduğu için ____ niteliği taşır.",
+                  "options": [
+                    "anonim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atasözlerini kimin söylediği belli değildir, bu yüzden halkın ortak malı yani anonimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deyimler genellikle mastar hâlinde yani ____ ekiyle biter.",
+                  "options": [
+                    "-mek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deyimlerin sözlükte yer alırken sonuna -mek/-mak mastar eki getirilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir duruma veya olaya şaşılıp kalındığını ifade etmek için kullanılan deyim 'baka ____ kalmak' şeklindedir.",
+                  "options": [
+                    "kalmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki boşluğa 'kalmak' sözcüğü getirilerek 'baka kalmak' deyimi oluşturulur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deneyimlere dayanarak yol gösteren ve kalıplaşmış olan cümle şeklindeki ifadelere ____ denir.",
+                  "options": [
+                    "atasözü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanımda verilen özellikler doğrudan atasözünün tanımıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deyimler cümle olmaktan ziyade bir ____ şeklindedir.",
+                  "options": [
+                    "söz öbeği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deyimler tek başına cümle kurmaz, genellikle isim veya fiil öbeği niteliğindedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Atasözleri ve deyimler kim tarafından söylenildiği belli olan sözlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atasözleri ve deyimler anonimdir, yani söyleyeni bilinmemektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Deyimler anlık bir durumu veya kavramı çekici bir şekilde belirtmek için kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deyimler kavramları ve durumları tasvir ederken mecazlı ve etkileyici bir anlatım sunar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün atasözleri kesinlikle mecaz anlam içermek zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bazı atasözleri gerçek anlam taşır ve doğrudan öğüt verir, örneğin 'Bugünün işini yarına bırakma'.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Deyimlerin sözcüklerinin yeri değiştirilebilir veya eş anlamlıları ile bertaraf edilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Deyimler kalıplaşmış sözlerdir; sözcüklerin yeri değiştirilemez ve eş anlamlılarıyla bile değiştirilemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Atasözleri genellikle kural ve öğüt niteliği taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atasözleri topluma yol gösteren, ders ve öğüt veren kalıplaşmış yargılardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Cümlede Anlam",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Cümle Yorumlama",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Cümle yorumlamada 'yakın anlamlı cümleler' ne anlama gelir?",
+                  "answer": "Farklı sözcüklerle kurulmuş olmasına rağmen aynı temel düşünceyi veya mesajı veren cümlelerdir."
+                },
+                {
+                  "question": "Bir cümlede 'öznel anlatım' neyi ifade eder?",
+                  "answer": "Doğruluğu ya da yanlışlığı kişiden kişiye değişen, kanıtlanamayan, yazarın kişisel görüşlerini içeren anlatımdır."
+                },
+                {
+                  "question": "Cümleler arası 'neden-sonuç' ilişkisi nasıl tespit edilir?",
+                  "answer": "Yargılardan birinin gerekçe, diğerinin ise o gerekçeye bağlı olarak gerçekleşen sonuç durumunda olmasıyla tespit edilir."
+                },
+                {
+                  "question": "Doğrudan anlatım ile dolaylı anlatım arasındaki temel fark nedir?",
+                  "answer": "Doğrudan anlatımda başkasının sözü hiç değiştirilmeden aktarılırken, dolaylı anlatımda yazarın kendi sözleriyle aktarılır."
+                },
+                {
+                  "question": "'Varsayım' anlamı taşıyan cümleler genellikle hangi sözcüklerle başlar?",
+                  "answer": "Diyelim ki, tut ki, farz edelim ki, düşün ki gibi ifadelerle başlar."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'ön yargı' (peşin hüküm) söz konusudur?",
+                  "options": [
+                    "Bu romanın son bölümünü okuyucular kesinlikle beğenmeyecektir.",
+                    "Yazar, bu eserinde akıcı ve sade bir dil kullanmayı tercih etmiş.",
+                    "Sanatçı, yeni kitabının imza günü için yarın şehrimize gelecek.",
+                    "Geçen hafta yayımlanan makale, edebiyat dünyasında büyük ses getirdi."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir durum ya da eser hakkında henüz yaşanmadan veya yeterli bilgi sahibi olunmadan olumlu ya da olumsuz kanaat belirtmeye ön yargı denir. A seçeneğinde henüz okunmamış bir bölüm için kesin bir beğenmeme yargısı öne sürülmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde bir 'tasarı' (gelecekle ilgili plan) söz konusudur?",
+                  "options": [
+                    "Yaz tatilinde Ege kıyılarındaki antik kentleri gezmeyi planlıyorum.",
+                    "Çocukluğumun geçtiği bu sessiz kasabayı her zaman çok özlerim.",
+                    "Şair, şiirlerinde toplumsal sorunları ele almaktan kaçınmamıştır.",
+                    "Bu kütüphane, mahalledeki gençlerin en uğrak yeri haline geldi."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tasarı, gelecekte yapılması planlanan işleri ifade eder. A seçeneğinde tatilde yapılacak gezinin planlandığı açıkça belirtilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'amaç-sonuç' ilişkisi vardır?",
+                  "options": [
+                    "Sınavı kazanmak için her gün düzenli olarak paragraf çözüyor.",
+                    "Hava sıcaklığı aniden arttığı için sokaklar bomboş kaldı.",
+                    "Erken yattığına rağmen sabah uyanmakta oldukça zorlandı.",
+                    "Yazar, bu romanını yazmak için iki yıl boyunca arşiv çalışması yaptı."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amaç-sonuç cümlelerinde 'hangi amaçla' sorusuna yanıt alınır. A seçeneğinde 'sınavı kazanmak amacıyla' her gün paragraf çözüldüğü ifade edilmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'yakınma' (şikayet) anlamı vardır?",
+                  "options": [
+                    "Romanın baş kahramanı olaylar karşısında soğukkanlılığını koruyor.",
+                    "Bu yılki tiyatro festivaline Türkiye'nin dört bir yanından katılım oldu.",
+                    "Yıllardır bu mahallede oturuyoruz ama kimse komşuluk nedir bilmiyor.",
+                    "Sanatçı, son albümünde geleneksel halk melodilerine yer vermiş."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yakınma, bir durumdan duyulan rahatsızlığın dile getirilmesidir. A seçeneğinde komşuluk bilincinin olmamasından duyulan şikayet vurgulanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'karşılaştırma' yapılmıştır?",
+                  "options": [
+                    "Ahmet Haşim de Yahya Kemal gibi şiirde saf Türkçe anlayışını savunmuştur.",
+                    "Yazarın son kitabı, okuyucuya sürprizlerle dolu bir dünya sunuyor.",
+                    "Edebiyatımızın engebeli yollarını yürümek her kalemin harcı değildir.",
+                    "Şair, bu dizelerinde yalnızlık temasını ustalıkla işlemeyi başarmış."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karşılaştırma, iki kavram, varlık veya durum arasındaki benzerlik veya farklılıkları ortaya koymaktır. A seçeneğinde Ahmet Haşim ile Yahya Kemal aynı düşünceyi savunma bakımından karşılaştırılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğruluğu ya da yanlışlığı kişiden kişiye değişmeyen, herkesçe kabul görebilen cümleler ____ anlatımlı cümlelerdir.",
+                  "options": [
+                    "nesnel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nesnel anlatım, kişisel görüş içermeyen, kanıtlanabilir yargılardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir durumun veya olayın gerçekleşmesinin başka bir olaya bağlandığı cümleler ____ sonuç cümleleridir.",
+                  "options": [
+                    "koşul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koşul (şart) sonuç cümlelerinde bir eylemin gerçekleşmesi belli bir şarta bağlanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gerçekleşmemiş bir beklentinin veya umudun dile getirildiği cümlelere ____ cümleleri denir.",
+                  "options": [
+                    "beklenti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beklenti cümlelerinde umulan veya hedeflenen durumun gerçekleşmediği vurgulanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Konuşmacının kendi duygularını veya düşüncelerini başkasına hak ettirme amacı güttüğü cümleler ____ anlamı taşıyan cümlelerdir.",
+                  "options": [
+                    "öz eleştiri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kişinin kendi davranışlarını eleştirmesi öz eleştiri olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gerçekte var olmayan bir durumu ya da olayı bir süre boyunca var gibi kabul etmeye ____ denir.",
+                  "options": [
+                    "varsayım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Varsayım, henüz gerçekleşmemiş veya hayali bir durumu gerçekleşmiş gibi kabul etmektir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tanım cümleleri 'Bu nedir?' ya da 'Bu kimdir?' sorularına yanıt verir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım, bir kavramın ya da varlığın belirgin özellikleriyle ne olduğunu açıklama işidir ve ilgili sorulara yanıt verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Öznel cümlelerde yazarın kişisel görüşlerine ve yorumlarına yer verilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öznel yargılar kişisel düşünce barındırdığı için kanıtlanamaz niteliktedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Amaç-sonuç cümleleri ile neden-sonuç cümleleri birbirinin aynısıdır ve hiç farkları yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Neden-sonuç cümlelerinde gerçekleşmiş bir gerekçe ve sonuç varken, amaç-sonuç cümlelerinde henüz gerçekleşmemiş bir hedef söz konusudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğrudan anlatımlı cümlelerde başkasının sözü değiştirilmeden tırnak içinde veya virgülle aktarılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudan aktarımlarda sözün orijinal yapısı bozulmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir cümlede hem eleştiri hem de övgü aynı anda bulunamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümleler hem olumlu hem olumsuz yönleri aynı anda barındıran değerlendirmeler (eleştiri/övgü karması) içerebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Açıklayıcı anlatım nedir?",
+                  "answer": "Okuyucuya bilgi vermeyi, bir konuyu öğretmeyi amaçlayan anlatım biçimidir."
+                },
+                {
+                  "question": "Tartışmacı anlatımın temel amacı nedir?",
+                  "answer": "Yazarın kendi düşüncesini savunarak okuyucunun inandığı düşünceyi değiştirmektir."
+                },
+                {
+                  "question": "Örneklendirme düşünceyi geliştirme yolu ne amaçla kullanılır?",
+                  "answer": "Soyut bir düşünceyi somutlaştırmak ve daha anlaşılır kılmak için."
+                },
+                {
+                  "question": "Tanımlama hangi soruya yanıt verir?",
+                  "answer": "Bu nedir ya da kimdir?"
+                },
+                {
+                  "question": "Karşılaştırma yapılırken hangi kavramlardan yararlanılır?",
+                  "answer": "Benzerlikler ve farklılıklar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir konuyu ya da kavramı, okuyucunun zihninde canlandıracak şekilde kelimelerle resmetme amacı güden anlatım biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Betimleme",
+                    "Öyküleme",
+                    "Açıklama",
+                    "Tartışma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Betimleme (tasvir etme), varlıkların ayırt edici özelliklerini kelimelerle okuyucunun gözünde canlandıracak şekilde anlatmaktır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki düşünceyi geliştirme yollarından hangisi, ileri sürülen bir düşüncenin doğruluğunu kanıtlamak için rakam ve istatistiksel verilerden yararlanma işidir?",
+                  "options": [
+                    "Sayısal verilerden yararlanma",
+                    "Benzetme",
+                    "Örneklendirme",
+                    "Tanımlama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstatistikler, oranlar ve rakamlar sayısal verilerden yararlanma düşünceyi geliştirme yolunun göstergesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Olay, kişi, zaman ve mekân unsurlarının bir akış içinde verilmesine dayanan anlatım biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Betimleme",
+                    "Tartışma",
+                    "Açıklama",
+                    "Öyküleme"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Öyküleme (hikâye etme), olayların belli bir zaman akışı içinde verilmesi esasına dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Düşüncelerin somutlaştırılması amacıyla aralarında ortak yön bulunan iki kavramdan zayıf olanın güçlü olana benzetilmesi hangi düşünceyi geliştirme yoludur?",
+                  "options": [
+                    "Benzetme",
+                    "Karşılaştırma",
+                    "Tanımlama",
+                    "Tanık gösterme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzetme, anlatımı güçlendirmek için aralarında ilgi kurulan iki unsura başvurulmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yazarın kendi görüşünü savunduğu, karşısındakinin fikrini çürütmeye çalıştığı ve sanki karşılıklı konuşma havası içinde geçen anlatım biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tartışma",
+                    "Betimleme",
+                    "Açıklama",
+                    "Öyküleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tartışmacı anlatımda yazar kendi doğrusunu kabul ettirmek için eleştirel bir üslup kullanır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir kavramın veya varlığın ne olduğunu belirten cümlelere ____ denir.",
+                  "options": [
+                    "tanımlama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanımlama cümleleri 'Bu nedir?' sorusuna yanıt verir ve özne ile tanım unsurlarını barındırır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Birden fazla varlık veya kavramın benzer ya da farklı yönlerini ortaya koymak için kullanılan düşünceyi geliştirme yoluna ____ denir.",
+                  "options": [
+                    "karşılaştırma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karşılaştırma, en az iki unsur arasındaki benzerlik veya farkları kıyaslama yöntemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazarın kendi düşüncesine geçerlilik kazandırmak için alanında uzman bir kişinin sözünü doğrudan veya dolaylı yoldan aktarmasına ____ denir.",
+                  "options": [
+                    "tanık gösterme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanık göstermede, söylenen sözün kime ait olduğu belirtilir ve o kişi o alanda otorite olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Olay, zaman, mekân ve kişi unsurlarını barındıran anlatım biçimi ____ olarak adlandırılır.",
+                  "options": [
+                    "öyküleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öyküleme, olay eksenli metinlerde kullanılan temel anlatım biçimidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilgi vermek, bir konuyu öğretmek amacıyla duru ve anlaşılır bir dille oluşturulan anlatım biçimi ____ anlatımdır.",
+                  "options": [
+                    "açıklayıcı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Açıklayıcı anlatım, bilgilendirme amacı güden makale ve ders kitabı gibi metinlerde yaygındır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Betimleme, olayların zaman içerisindeki akışını aktaran bir anlatım biçimidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Olayların zaman içindeki akışını aktaran anlatım biçimi öykülemedir; betimleme ise durgun bir tablo sunar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tanık gösterme düşünceyi geliştirme yolunda, alıntı yapılan kişinin adının verilmesi ve o alanda tanınmış olması şarttır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanık göstermede kişiye yer verilmezse o ifade alıntı yapma veya doğrudan anlatım olur, tanık gösterme sayılmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tartışmacı anlatımda yazar, kendi görüşünü kabul ettirmek için karşısındaki kişinin fikirlerini çürütmeye çalışır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tartışma, yazarın kendi tezini savunup antitezini eleştirdiği bir anlatım biçimidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Örneklendirme, soyut kavramları somutlaştırmak ve anlaşılır kılmak için kullanılan bir düşünceyi geliştirme yoludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneklendirme sayesinde anlaşılması zor kurallar veya soyut düşünceler günlük hayattan örneklerle somutlaşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Açıklayıcı anlatımda yazar, okuyucunun duygularına hitap etmeyi ve onda estetik bir zevk uyandırmayı hedefler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Açıklayıcı anlatımın temel amacı estetik zevk uyandırmak değil, nesnel bilgi aktarmaktır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Neden-Sonuç ve Amaç-Sonuç Cümleleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Neden-sonuç cümlelerinde yükleme sorulan hangi soru yargının gerekçesini buldurur?",
+                  "answer": "Neden / Niçin"
+                },
+                {
+                  "question": "Amaç-sonuç cümleleri genellikle yükleme sorulan hangi soruya yanıt verir?",
+                  "answer": "Hangi amaçla / Ne amaçla"
+                },
+                {
+                  "question": "Bir cümlede eylemin hangi amaçla yapıldığını bildiren ifadeler hangi ek veya sözcüklerle kurulur?",
+                  "answer": "-mek için, üzere, maksadıyla"
+                },
+                {
+                  "question": "Neden-sonuç ilişkisinde, birinci yargı gerçekleşmiş mi olmalıdır?",
+                  "answer": "Evet, neden ve sonuç iki yargının da gerçekleştiği durumlardır."
+                },
+                {
+                  "question": "Amaç-sonuç cümlelerinde amaç gerçekleşmiş kesin bir durum mudur?",
+                  "answer": "Hayır, amaç henüz gerçekleşmemiştir; geleceğe yöneliktir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
+                  "options": [
+                    "Sınavı kazanmak için sabah akşam çalışıyordu.",
+                    "Yağmur yağdığı için pikniğimiz ertelendi.",
+                    "Daha iyi anlamak üzere metni bir kez daha okudu.",
+                    "Kitap almak amacıyla kırtasiyeye gitti."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "B seçeneğinde yağmurun yağması gerçekleşmiş bir durumdur ve pikniğin ertelenmesinin nedenidir. Diğer seçeneklerde amaç-sonuç ilişkisi bulunmaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde amaç-sonuç anlamı söz konusudur?",
+                  "options": [
+                    "Uykusuz kaldığından sabah uyanamadı.",
+                    "Hava karardığı için sokak lambaları yandı.",
+                    "Projeyi bitirmek üzere masanın başına oturdu.",
+                    "Trafiğe kaldığından toplantıya geç kaldı."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "C seçeneğinde projenin bitirilmesi henüz gerçekleşmemiş bir amaçtır, masaya oturma gerekçesini (amaç) verir. Diğerleri neden-sonuç bildirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Yorgun olduğundan erken yatmayı tercih etti.\" cümlesinin anlam özelliği aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Koşul-sonuç",
+                    "Amaç-sonuç",
+                    "Karşılaştırma",
+                    "Neden-sonuç"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Cümlede kişinin erken yatmasının nedeni 'yorgun olması'dır. İki olay da gerçekleşmiştir, bu nedenle neden-sonuç ilişkisi vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki dizelerin hangisinde amaç-sonuç ilişkisi vardır?",
+                  "options": [
+                    "Gurbet elde başım yastığa düştü / Hastayım, derdimi bilenim yoktur.",
+                    "Kuşlar ötüyor bahar geldi diye / Gönlüm neşeyle doluyor.",
+                    "Memleketim diye inlerim / Bülbül gül için ağlarmış.",
+                    "Seni görmek umuduyla yollara düştüm / Dağları, tepeleri aştım."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "D seçeneğinde 'seni görmek umuduyla' ifadesi dağları aşmanın amacını belirtmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde verilen yargı gerekçesiyle birlikte verilmemiştir?",
+                  "options": [
+                    "Gecikeceğini bildiğinden taksiye bindi.",
+                    "Sıcak havalardan ötürü sular kesildi.",
+                    "Deniz kenarında yürümek pek hoşuma gitmez.",
+                    "Derse geç kalmasın diye erkenden uyandı."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "B seçeneğindeki cümle nesnel bir yargı veya durum bildirir, herhangi bir neden ya da amaç içermez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Eylemin hangi gerekçeyle gerçekleştiğini bildiren cümlelere ____ cümlesi denir.",
+                  "options": [
+                    "neden-sonuç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Neden-sonuç cümleleri, bir eylemin hangi sebeple yapıldığını veya gerçekleştiğini açıklayan cümlelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eylemin hangi amaçla yapıldığını anlatan cümlelerde genellikle '-mek ____' kalıbı kullanılır.",
+                  "options": [
+                    "için"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'-mek için' eki/edat öbeği amaç-sonuç ilişkisi kurmada en sık kullanılan yapıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Neden-sonuç cümlelerinde sebep ile sonuç yargılarının ikisi de ____.",
+                  "options": [
+                    "gerçekleşmiştir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Neden-sonuç ilişkisinde hem neden hem de sonuç yaşanmış veya tamamlanmış olaylardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Amaç-sonuç cümlelerinde amaç gerçekleştiği kesin olarak ____.",
+                  "options": [
+                    "bilinmez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amaç geleceğe dönük bir tasarı olduğu için cümlenin söylendiği anda amaç kısmının gerçekleşip gerçekleşmediği kesin değildir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir cümlede gerekçe bildiren ifadeyi bulmak için yükleme '____ için' sorusu sorulabilir.",
+                  "options": [
+                    "neden"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yükleme sorulan 'neden' veya 'niçin' soruları bize cümledeki neden-sonuç ilişkisini buldurur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Neden-sonuç cümlelerinde yükleme 'Hangi amaçla?' sorusu sorulur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yükleme 'Hangi amaçla?' sorusu amaç-sonuç cümlelerini bulmak için sorulur; neden-sonuç için 'Neden?' sorusu sorulmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Amaç-sonuç cümlelerinde, amaç henüz gerçekleşmemiş bir tasarı veya hedeftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amaç-sonuç ilişkisinde eylemin yapılma hedefi geleceğe dönüktür ve cümlenin söylendiği anda gerçekleşip gerçekleşmediği belli değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Akşamki toplantıya katılmak üzere yola çıktı.' cümlesi amaç-sonuç bildirir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yola çıkış amacı toplantıya katılmaktır ve '-mek üzere' kalıbı amaç anlamı katmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Hava soğuk olduğu için kalın giyindi.' cümlesinde eylemin amacı belirtilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu cümle amaç değil neden-sonuç bildirir. Hava soğuk olduğu için (neden), kalın giyindi (sonuç).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Neden-sonuç cümlelerinde hem neden hem de sonuç yargısı kesin olarak gerçekleşmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Neden-sonuç ilişkisinin temel özelliklerinden biri, iki durumun da geçmişte yaşanmış veya kesinlikle var olmuş olmasıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Koşul, Karşılaştırma ve Örnekleme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Koşul (şart) cümlesi nedir?",
+                  "answer": "Bir eylemin gerçekleşmesinin başka bir eyleme bağlı olduğunu belirten cümlelerdir."
+                },
+                {
+                  "question": "Karşılaştırma anlamı hangi temel sözcüklerle daha sık sağlanır?",
+                  "answer": "Daha, en, kadar, göre, ise gibi ifadelerle sağlanır."
+                },
+                {
+                  "question": "Örnekleme cümlesinin amacı nedir?",
+                  "answer": "Soyut ya da genel olarak anlatılmak istenen düşünceyi somutlaştırmak veya daha anlaşılır kılmak."
+                },
+                {
+                  "question": "Koşul cümlelerinde en sık kullanılan ek hangisidir?",
+                  "answer": "-se / -sa şart eki."
+                },
+                {
+                  "question": "Örnekleme cümlelerinde genellikle hangi kalıplar kullanılır?",
+                  "answer": "Örneğin, söz gelişi, meselâ, gibi ifadeler."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde koşul (şart) anlamı vardır?",
+                  "options": [
+                    "Hava sıcak olduğu için parkta uzun süre yürüdük.",
+                    "Ödevlerini zamanında bitirirsen dışarı çıkabilirsin.",
+                    "Sınava çalışmak amacıyla kütüphaneye kapandı.",
+                    "Romanı bitirdiğini, hatta ikinciye başladığını söyledi."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "B seçeneğinde dışarı çıkma eylemi, ödevlerin bitirilmesi koşuluna bağlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde karşılaştırma yapılmıştır?",
+                  "options": [
+                    "Sabah kahvesini içmeden güne asla başlamazdı.",
+                    "Yazarın son kitabı, önceki eserine göre çok daha sade bir dille yazılmış.",
+                    "Tarihî romanları okumaktan büyük bir keyif alıyordu.",
+                    "Şehrin gürültüsünden kaçmak için dağ evine taşındılar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "B seçeneğinde son kitap ile önceki eser dil sadeliği bakımından karşılaştırılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde bir düşünce örneklemiştir?",
+                  "options": [
+                    "Akşamüstü esen hafif rüzgâr herkesi ferahlatmıştı.",
+                    "Bazı yazarlar kalemiyle topluma yön verir; örneğin Yaşar Kemal, Çukurova'yı tanıtmıştır.",
+                    "Doğa, insanlara her mevsim ayrı bir güzellik sunar.",
+                    "Küçük çocuk, elindeki kırmızı balonla neşeyle koşuyordu."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "C seçeneğinde topluma yön veren yazarlara Yaşar Kemal örneği verilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'koşul' anlamı yoktur?",
+                  "options": [
+                    "Beni dinlersen bu sorunun üstesinden kolayca gelebilirsin.",
+                    "Yeter ki sen iste, bu projeyi hemen yarın tamamlarız.",
+                    "Erken kalkmak şartıyla yarınki geziye gelebilirsin.",
+                    "Hava yağmurlu olduğu için pikniği iptal etmek zorunda kaldık."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "D seçeneğinde koşul değil, neden-sonuç (gerekçe) ilişkisi vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde 'karşılaştırma' söz konusudur?",
+                  "options": [
+                    "Ahmet de en az kardeşi kadar başarılı bir öğrenciydi.",
+                    "Yarınki toplantı için tüm hazırlıkları tamamladık.",
+                    "Güneşli havalarda yürüyüş yapmayı çok severdi.",
+                    "Kitaplığındaki tüm eserleri titizlikle düzenledi."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "A seçeneğinde Ahmet ile kardeşi başarı bakımından karşılaştırılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir eylemin gerçekleşmesinin başka bir duruma bağlı olduğunu belirten cümlelere ____ cümlesi denir.",
+                  "options": [
+                    "koşul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümlede koşul (şart) anlamının tanımı yapılmaktadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki varlık veya kavram arasındaki benzerlik ya da farklılıkların ifade edilmesine ____ denir.",
+                  "options": [
+                    "karşılaştırma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanımı verilen kavram karşılaştırmadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Soyut bir düşünceyi somutlaştırmak ve anlaşılır kılmak için yapılan açıklamalara ____ adı verilir.",
+                  "options": [
+                    "örnekleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düşüncelerin somutlaştırılması amacıyla verilen detaylar örneklemedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Koşul anlamı veren eklerden biri de sözcüklere gelen ____ ekidir.",
+                  "options": [
+                    "-se"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şart eki -se / -sa koşul bildirmede temel unsurdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Örnekleme cümlelerinin başında genellikle 'örneğin', 'söz gelişi' ve ____ gibi ifadeler yer alır.",
+                  "options": [
+                    "meselâ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu sözcükler örnekleme yapıldığını gösteren yaygın ipuçlarındandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Koşul cümlelerinde eylemin gerçekleşmesi bir şarta bağlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur, koşul cümlelerinin temel özelliği bir şart içermesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karşılaştırma yapılması için cümlelerde mutlaka en az üç varlık kıyaslanmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; karşılaştırma için iki varlık veya kavramın kıyaslanması yeterlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Örnekleme cümleleri, genel bir yargıyı somut örneklerle desteklemek amacıyla kurulur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur, örneklemenin temel amacı anlatımı somutlaştırmaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her -se eki alan cümle kesinlikle koşul anlamı taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; -se eki zaman veya dilek anlamı da katabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karşılaştırma cümlelerinde 'daha', 'en', 'göre' gibi sözcükler sıklıkla kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur, bu sözcükler karşılaştırma ilişkisi kuran temel unsurlardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Öznel ve Nesnel Yargılar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Öznel yargı nedir?",
+                  "answer": "Kişiden kişiye değişen, kanıtlanamayan yargılardır."
+                },
+                {
+                  "question": "Nesnel yargı nedir?",
+                  "answer": "Kişiden kişiye değişmeyen, kanıtlanabilen yargılardır."
+                },
+                {
+                  "question": "Öznel cümlelerde genellikle hangi tür kelimeler ağır basar?",
+                  "answer": "Beğeni, duygu ve yorum bildiren ifadeler ağır basar."
+                },
+                {
+                  "question": "Nesnel bir yargının doğruluğu ya da yanlışlığı nasıl anlaşılır?",
+                  "answer": "Verilerle, belgelerle veya gözlemlerle test edilerek anlaşılır."
+                },
+                {
+                  "question": "Bir cümlede \"bana göre\" ifadesi geçiyorsa bu cümle genellikle hangi türdedir?",
+                  "answer": "Öznel yargılı bir cümledir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde öznel bir yargı söz konusudur?",
+                  "options": [
+                    "Okulun kütüphanesinde dört bin kitap bulunmaktadır.",
+                    "Şair, bu şiirinde akıcı ve etkileyici bir dil kullanmıştır.",
+                    "Yazarın son romanı üç bölümden oluşmaktadır.",
+                    "Mavi renkli bu mont, iki bin yirmi dört yılında üretilmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "\"Akıcı ve etkileyici\" ifadeleri göreceli olup kişiden kişiye değiştiği için bu yargı özneldir. Diğer seçenekler ise kanıtlanabilir nesnel bilgilerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde nesnel bir anlatım tercih edilmiştir?",
+                  "options": [
+                    "Bu resim sergisi sanatseverleri adeta büyüliyor.",
+                    "Yılın en heyecan verici filmi bu hafta vizyona girdi.",
+                    "Romanın ana karakteri, İstanbul'un eski bir semtinde yaşamaktadır.",
+                    "Sıcak havalarda insanı en çok ferahlatan içecektir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Romanın ana karakterinin hangi semtte yaşadığı esere bakılarak kanıtlanabilir, bu nedenle nesneldir. Diğerleri ise kişisel yorum içerir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde nesnel ve öznel yargı bir arada verilmiştir?",
+                  "options": [
+                    "Yazar, yüz sayfalık bu kitabında sıradan olayları akıcı bir üslupla anlatmış.",
+                    "Şiir kitabı geçen ay yayımlandı ve beş baskı yaptı.",
+                    "Toplantıya katılanların sayısı salonun kapasitesinden fazlaydı.",
+                    "Öğrenciler sınavda başarılı olmak için saatlerce ders çalıştılar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "\"Yüz sayfalık bu kitap\" nesnel bir bilgiyken, \"akıcı bir üslup\" kişisel bir beğeni yani öznel yargıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi kanıtlanabilirlik açısından diğerlerinden farklıdır?",
+                  "options": [
+                    "Metindeki olaylar güneydoğu Anadolu bölgesinde geçmektedir.",
+                    "Türkiye'nin başkenti Ankara'dır.",
+                    "Dünya, güneş etrafındaki turunu bir yılda tamamlar.",
+                    "Yazarın bu eseri edebiyat tarihinin en kusursuz romanıdır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Cümledeki \"en kusursuz roman\" ifadesi özneldir. Diğer seçenekler ise herkesçe bilinen ve kanıtlanabilen nesnel yargılardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde \"beğeni\" bildiren öznel bir yargı vardır?",
+                  "options": [
+                    "Yazar, eserinde sade ve anlaşılır bir dil kullanmıştır.",
+                    "Yarışmaya toplamda yirmi okul katılmıştır.",
+                    "Salonun tabanı parke kaplıdır ve pencereleri büyüktür.",
+                    "Tiyatro oyunu iki perde olarak sahnelenmektedir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dilde sadelik ve anlaşılırlık kişisel bir beğeni ve yorumdur, bu yüzden cümle özneldir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kişiden kişiye değişmeyen, doğruluğu veya yanlışlığı belgelenebilen yargılara ____ yargı denir.",
+                  "options": [
+                    "nesnel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanıtlanabilir ve herkes için aynı olan yargılar nesnel olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir cümlede yazarın kişisel görüşleri, duyguları ve beğenileri yer alıyorsa o cümle ____ yargılıdır.",
+                  "options": [
+                    "öznel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kişisel duygu ve yorum içeren ifadeler öznel yargı oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "\"Bu tablo, evinizin duvarına çok yakışacak.\" cümlesi kanıtlanabilirlik açısından ____ bir yargıdır.",
+                  "options": [
+                    "öznel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yakışıp yakışmadığı kişiden kişiye değişeceği için bu yargı özneldir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "\"Kitabın yazarı bin dokuz yüz yetmiş beş yılında doğmuştur.\" cümlesi niteliği bakımından ____ bir cümledir.",
+                  "options": [
+                    "nesnel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğum tarihi resmi kayıtlarla kanıtlanabileceği için nesneldir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Öznel anlatımlarda nesnellikten farklı olarak kişisel ____ ön plandadır.",
+                  "options": [
+                    "yorum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öznel yargıların temelinde kişilerin olaylara veya nesnelere kattığı yorumlar yatar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Öznel yargılar bilimsel araştırmalarda kanıt olarak kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Öznel yargılar kişisel görüş bildirdiği için bilimsel kanıt olarak kabul edilemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nesnel bir cümlenin doğruluğu herkes için aynıdır ve değişmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nesnel yargılar kanıtlanabilir olduğundan tüm insanlar için geçerliliği aynıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Bu romandaki olaylar bir köyde geçmektedir.\" cümlesi kişisel yorum içerdiği için özneldir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Olayların nerede geçtiği romandan okunarak kanıtlanabilir, bu yüzden nesneldir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Öznel yargılar genellikle \"bana göre\", \"en güzel\" gibi ifadelerle desteklenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tür ifadeler yargının kişiselliğini ve öznel olduğunu gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nesnel yargılarda duygulara yer verilirken öznel yargılarda veriler esas alınır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade tam tersidir; nesnel yargılarda veriler, öznel yargılarda ise duygular esas alınır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Paragraf",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ana Düşünce ve Konu",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Paragrafın konusu nedir?",
+                  "answer": "Paragrafta üzerinde durulan, ele alınan olay, durum veya kavramdır."
+                },
+                {
+                  "question": "Ana düşünce neyi ifade eder?",
+                  "answer": "Yazarın okuyucuya aktarmak istediği temel mesajı veya yargıyı ifade eder."
+                },
+                {
+                  "question": "Paragraf sorularında 'Bu parçada asıl anlatılmak istenen nedir?' sorusu neyi arar?",
+                  "answer": "Ana düşünceyi arar."
+                },
+                {
+                  "question": "Konu bulunurken hangi soruya yanıt aranır?",
+                  "answer": "Paragraf ne hakkında yazılmıştır? sorusuna yanıt aranır."
+                },
+                {
+                  "question": "Ana düşünce cümlesinde bulunması gereken özellik nedir?",
+                  "answer": "Yargı bildirmesi ve paragrafın genelini kapsaması gerekir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sanatçı, eserlerinde sıradan insanların yaşamını gözler önüne sererken onların iç dünyalarındaki zenginliği de yansıtmayı ihmal etmiyor. Bu sayede okur, her gün sokakta gördüğü ama dikkat etmediği bu insanlarla adeta yeniden tanışıyor. Bu parçanın konusu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sıradan insanları anlatan eserlerin okur üzerindeki etkisi",
+                    "Sanatçının eserlerinde ele aldığı kişileri işleyiş biçimi",
+                    "Toplumsal gerçeklerin edebiyata yansıtılma zorunluluğu",
+                    "Okuyucunun yeni insanlarla tanışmasını sağlayan romanlar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parçada sanatçının sıradan insanları anlatırken onların iç dünyasını da yansıtması ve okuru onlarla tanıştırması ele alınmaktadır. Bu durum sanatçının kişileri işleyiş biçimini verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kitap okuma alışkanlığı, bireyin hayal gücünü geliştirdiği gibi onun olaylara farklı açılardan bakmasını da sağlar. Okunan her yeni sayfa, insanın zihninde yeni pencereler açarak empati yeteneğini güçlendirir. Bu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kitap okumak insanın zihinsel ve ruhsal gelişimine katkı sağlar.",
+                    "Kitaplar insanlara yeni bilgiler öğretir.",
+                    "Empati kurmak sadece kitap okuyarak kazanılır.",
+                    "Hayal gücü gelişen bireyler daha çok kitap okur."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Parçada kitap okumanın hayal gücünü geliştirmesi, farklı bakış açısı kazandırması ve empatiyi güçlendirmesi gibi genel katkıları vurgulandığından ana düşünce budur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Geleneksel el sanatları, bir milletin hafızasıdır; geçmişin izlerini bugüne taşıyan sessiz tanıklardır. Bu sanatların unutulması, o toplumun kültürel köklerinden kopması anlamına gelir. Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "El sanatları ekonomik kazanç sağlamak için yapılmalıdır.",
+                    "Kültürel değerlerin yaşatılmasında geleneksel el sanatlarının hayati önemi vardır.",
+                    "Geçmişin izleri sadece müzelerde saklanabilir.",
+                    "Toplumlar zamanla eski geleneklerini unutmaya mahkûmdur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parça, el sanatlarının milletin hafızası olduğunu ve unutulmasının köklerden kopmak demek olduğunu belirterek kültürel devamlılıktaki önemini vurgular.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Teknolojinin hayatımızın her alanına girmesiyle birlikte iletişim biçimlerimiz de kökten değişti. Artık yüz yüze yapılan sohbetlerin yerini dijital mesajlar aldı. Bu durum insanları birbirine yaklaştırıyor gibi görünse de aslında aralarında görünmez duvarlar örüyor. Bu parçanın konusu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Teknolojinin iletişim üzerindeki olumsuz etkileri",
+                    "Yüz yüze iletişimin dijital iletişimden üstün olması",
+                    "Gelecekte teknolojinin hayatımızı tamamen ele geçireceği",
+                    "İnsanların dijitalleşme sürecine ayak uyduramaması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metinde teknolojinin iletişimi değiştirdiği ve insanları birbirine yakınlaştırırken aslında uzaklaştırdığı, yani teknoloji ve iletişimin olumsuz yönü konu edinilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Başarılı bir yazar, okuyucunun elinden tutup onu bilinmeyen dünyalara götüren değil, okuyucunun kendi içindeki keşfedilmemiş yönleri bulmasını sağlayan kişidir. Bu cümlede vurgulanmak istenen düşünce aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Yazarlar okuyuculara yeni dünyalar tanıtmalıdır.",
+                    "İyi bir yazar okurun kendi iç dünyasını keşfetmesine öncülük eder.",
+                    "Okumak insanı dış dünyadan soyutlayan bir eylemdir.",
+                    "Yaratıcı yazarlık zorlu bir süreç gerektirir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümlede yazarın temel işlevinin okura dış dünyayı değil, kendi içindeki keşfedilmemiş yönleri buldurmak olduğu vurgulanmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Paragrafın genelinde ele alınan, sınırları çizen duruma veya kavrama ____ denir.",
+                  "options": [
+                    "konu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir paragrafın ne hakkında olduğunu belirten kavram konudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazarın okuyucuya vermek istediği mesaj veya ana fikir ____ olarak adlandırılır.",
+                  "options": [
+                    "ana düşünce"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın taşıdığı temel yargı ve mesaj ana düşüncedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ana düşünce cümleleri, konuyu açıklayan ve yargı bildiren ____ niteliğindedir.",
+                  "options": [
+                    "cümle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana düşünce mutlaka bir yargı taşımalı ve konuyu sonuca bağlamalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragraf sorularında 'Bu parçada vurgulanan düşünce nedir?' sorusu doğrudan ____ arar.",
+                  "options": [
+                    "ana düşünce"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vurgulanan düşünce ifadesi ana düşüncenin eş anlamlısıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Konu, paragrafın tamamını kuşatmalı ve dar bir cümleyle ____ edilmelidir.",
+                  "options": [
+                    "ifade"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konu genellikle kısa bir söz öbeği veya isim tamlaması şeklinde ifade edilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Paragrafın konusu bulunurken 'Bu parça ne hakkında yazılmıştır?' sorusu sorulur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu soru kökü doğrudan metnin konusunu bulmaya yönelik temel yöntemdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ana düşünce, paragrafın sadece ilk cümlesinde yer alır ve diğer cümlelerle ilişkisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ana düşünce paragrafın bütününün özeti niteliğindedir ve tüm paragrafa yayılabilir, sadece ilk cümlede olmak zorunda değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir paragrafta birden fazla ana düşünce bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir paragrafın yalnızca tek bir ana düşüncesi olur; yardımcı düşünceler ise ana düşünceyi destekler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Konu, ana düşünceye göre daha dar kapsamlı ve sınırlı bir ifadedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konu metnin çerçevesini çizerken, ana düşünce o çerçeveden çıkarılacak temel yargıyı verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yardımcı düşünceler, ana düşünceyi kanıtlamaya veya açıklamaya hizmet eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yardımcı düşünceler ana düşüncenin anlaşılmasını kolaylaştıran unsurlardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yardımcı Düşünce",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yardımcı düşünce sorularında ana düşünce ile ilişki nasıldır?",
+                  "answer": "Yardımcı düşünceler ana düşünceyi kanıtlar, açıklar ve destekler."
+                },
+                {
+                  "question": "Paragrafta hangi ifadelere genellikle ulaşılamaz?",
+                  "answer": "Kesinlik bildiren, aşırı genelleme içeren veya metinde geçmeyen yargılara ulaşılamaz."
+                },
+                {
+                  "question": "Olumsuz köklü yardımcı düşünce sorularında izlenecek ilk adım nedir?",
+                  "answer": "Önce seçenekler okunarak metinde aranacak ipuçları belirlenmelidir."
+                },
+                {
+                  "question": "Yardımcı düşünce sorularında 'değinilmemiştir' ne anlama gelir?",
+                  "answer": "Metinde o konudan hiç bahsedilmediği anlamına gelir."
+                },
+                {
+                  "question": "Paragrafta akışı bozan cümle ile yardımcı düşünce arasındaki fark nedir?",
+                  "answer": "Akışı bozan cümle konu bütünlüğünü bozar, yardımcı düşünce ise ana düşünceye hizmet eder."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi yardımcı düşünce sorularının çözülürken dikkat edilmesi gerekenlerden biri değildir?",
+                  "options": [
+                    "Önce metni, ardından soruları dikkatlice okumak",
+                    "Paragrafta geçen 'değinilmemiştir' veya 'çıkarılamaz' ifadelerine dikkat etmek",
+                    "Seçeneklerdeki anahtar kelimeleri metin üzerinde aramak",
+                    "Kendi kişisel görüşlerimizi metne yansıtmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Paragraf soruları kişisel bilgilere göre değil, tamamen metinde verilen bilgilere göre çözülmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Paragrafta yardımcı düşüncelerle ilgili olarak aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Yalnızca giriş cümlelerinde yer alır.",
+                    "Ana düşüncenin sınırlarını daraltarak onu somutlaştırır.",
+                    "Metnin ana fikrinin tam zıddını savunur.",
+                    "Paragrafın ana düşüncesiyle hiçbir bağı yoktur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yardımcı düşünceler, ana düşünceyi destekleyen ve onun anlaşılmasını kolaylaştıran unsurlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir paragrafta 'değinilmemiştir' sorusu çözerken yapılan en yaygın hata nedir?",
+                  "options": [
+                    "Metni dikkatle okuyup ana düşünceyi bulmak",
+                    "Seçenekleri okumadan doğrudan metne dalmak",
+                    "Seçeneklerdeki anahtar kelimeleri metinde eşleştirmek",
+                    "Metinde geçen yazarın düşüncelerini dikkate almak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önce seçenekleri okumak, metinde aranacak ifadeleri önceden bilmeyi sağlar; bu kuralı atlamak hataya yol açar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'çıkarılamaz' sorusunun çözümü için doğru bir yaklaşımdır?",
+                  "options": [
+                    "Metinde açıkça yazmasa bile mantıken kesinlikle doğru olan her şeyi kabul etmek",
+                    "Yalnızca metinde verilen bilgilerden hareketle sonuca varmak",
+                    "Kendi genel kültür bilgimizle metni yorumlamak",
+                    "Yazarın vermediği ama doğru olabilecek bilgileri üretmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paragraf sorularında metin dışına çıkılamaz, yalnızca verilen bilgiler değerlendirilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yardımcı düşünceyi bulma sorularında 'değinilmiştir' ifadesi neyi ifade eder?",
+                  "options": [
+                    "Metinde o konu hakkında en az bir bilgi bulunduğunu",
+                    "Konunun paragrafın ana fikri olduğunu",
+                    "Yazarın o konuyu eleştirdiğini",
+                    "Metnin yanlış bir sav içerdiğini"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Değinilmiştir' demek, ilgili yargının metinde geçtiği veya dolaylı olarak aktarıldığı anlamına gelir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Paragrafta ana düşünceyi destekleyen ve açıklayan düşüncelere ____ düşünce denir.",
+                  "options": [
+                    "yardımcı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana düşünceyi çevreleyen, onu detaylandıran unsurlara yardımcı düşünce adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Olumsuz yardımcı düşünce sorularında seçeneklerde aranan ifade metinde ____.",
+                  "options": [
+                    "yoktur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulaşılamaz veya değinilmemiştir sorularında doğru seçenek metinde yer almayan bilgidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yardımcı düşünce sorularını çözerken önce ____ okunmalıdır.",
+                  "options": [
+                    "soru"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önce soru kökünün ve seçeneklerin okunması metni daha bilinçli okumayı sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragrafta geçen bir yargının metinden kesin olarak çıkarılabilmesi için o bilginin metinde açıkça verilmiş veya ____ olması gerekir.",
+                  "options": [
+                    "anlamca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudan verilmese bile anlamca eşdeğer ifadeler de metinden çıkarılabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yardımcı düşünceler paragrafın ____ yapısını oluşturur.",
+                  "options": [
+                    "gövde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana düşünce çatı ise yardımcı düşünceler bu çatıyı ayakta tutan gövde unsurlarıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yardımcı düşünce sorularında kendi kişisel görüşlerimize göre cevap vermeliyiz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paragraf soruları tamamen metne bağlı olarak çözülür, kişisel yorum katılamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir paragrafta birden fazla yardımcı düşünce bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragraflar genellikle ana düşünceyi destekleyen birkaç yardımcı düşünceden oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Değinilmemiştir sorularında aranan bilgi metinde kesinlikle geçmemelidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Değinilmemiştir demek o konudan hiç bahsedilmemiştir demektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yardımcı düşünce, ana düşünceyle çelişen ifadeler içerebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yardımcı düşünceler ana düşünceyi destekler, asla onunla çelişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Önce soruları okumak paragraf metnini daha hızlı anlamamıza yardımcı olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sorulardaki anahtar kelimeleri bilmek metni okurken odaklanmayı artırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Paragrafın Yapısı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Paragrafın giriş cümlesinde hangi bağlayıcı unsurlar yer almaz?",
+                  "answer": "Oysa, bu nedenle, çünkü, kısacası gibi önceki cümlelerle bağlantı kuran ögeler."
+                },
+                {
+                  "question": "Paragrafın akışını bozan cümle nedir?",
+                  "answer": "Paragraftaki ana düşünceyle veya konuyla uyumlu olmayan, farklı bir konudan bahsetyen cümle."
+                },
+                {
+                  "question": "Bir paragraf ikiye bölünmek istendiğinde ikinci paragraf nereden başlar?",
+                  "answer": "Yazarın konuyu ele alış açısının değiştiği veya farklı bir alt konuya geçtiği yerden."
+                },
+                {
+                  "question": "Düşüncenin akışına göre boş bırakılan yere getirilecek cümle neye dikkat edilerek seçilir?",
+                  "answer": "Öncesindeki ve sonrasındaki cümlelerin anlam, mantık ve yapı bütünlüğüne."
+                },
+                {
+                  "question": "Paragrafta 'yer değiştirme' sorularında temel amaç nedir?",
+                  "answer": "Anlam akışını ve mantık sırasını bozan iki cümlenin yerini değiştirerek metni anlamlı kılmak."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "(I) Kitap okumak insanın zihinsel dünyasını zenginleştirir. (II) Her yeni kitap farklı hayatları tanımamızı sağlar. (III) Bu durum yazarların da daha çok eser vermesine yol açar. (IV) Okuma alışkanlığı kazanan bireylerin kelime dağarcığı da genişler. Bu paragrafta numaralandırılmış cümlelerin hangisi düşüncenin akışını bozmaktadır?",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "I, II ve IV numaralı cümleler bireysel olarak kitap okumanın okuyucuya sağladığı faydalardan bahsederken; III numaralı cümle yazarların eser vermesine değinerek anlam akışını bozmaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir paragrafın giriş cümlesiyle ilgili aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Kendinden önceki bir yargıyla ilgili olduğu izlenimi uyandırmaz.",
+                    "Genellikle konuyu tanıtıcı ve genel niteliklidir.",
+                    "Bağlayıcı ögelerle başlar.",
+                    "Kendi içinde yargı bildiren bağımsız bir cümledir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Giriş cümleleri 'oysa, bu yüzden, ayrıca' gibi bağlayıcı ögelerle başlamaz; çünkü bu sözcükler kendinden önce başka cümleler olduğunu sezdirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Sanatçı, eserinde yerel ögelere sıkça yer vermiştir. (II) Romanın kahramanları Ege bölgesinin bir köyünde yaşamaktadır. (III) Masallar çocukların hayal gücünü doğrudan etkiler. (IV) Yazar, yöresel ağzı ustalıkla yansıtmayı başarmıştır. Bu metinde numaralanmış cümlelerden hangi ikisi yer değiştirdiğinde paragrafın anlam akışı düzelir?",
+                  "options": [
+                    "I ve II",
+                    "II ve III",
+                    "III ve IV",
+                    "I ve IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "III numaralı cümle genel olarak masallardan bahsettiği için roman hakkındaki diğer cümlelerin arasına girdiğinde anlam akışını bozmaktadır. Yer değiştirmesi gereken cümle III numarasıdır ancak seçeneklerde ikili yer değiştirme sorulduğunda III numaralı cümlenin akışı bozduğu net olarak görülür. Sorunun kurgusu gereği III numaralı cümle dışarıda bırakıldığında akış düzelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bir paragrafın sonuç cümlesi olmaya en uygundur?",
+                  "options": [
+                    "Bununla birlikte, teknolojinin zararları da göz ardı edilemez.",
+                    "Özetle, düzenli spor yapmak sağlıklı bir yaşamın en temel şartıdır.",
+                    "İlk olarak, sabah erken kalkmanın faydalarını inceleyelim.",
+                    "Çünkü insanlar doğayla olan bağlarını her geçen gün koparmaktadır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Özetle' sözcüğü ve toparlayıcı yargı, bu cümlenin paragrafı sonuçlandırmak için en uygun seçenek olduğunu göstermektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Paragrafı iki paragrafa ayırmak isteyen bir yazar, ikinci paragrafı hangi cümleyle başlatmalıdır? (I) Roman türü, edebiyatımızda hızla gelişmektedir. (II) Son yıllarda yayımlanan eser sayısı oldukça fazladır. (III) Ancak bu eserlerin hepsinin nitelikli olduğunu söylemek yanlıştır. (IV) Çoğu roman ne yazık ki sanat kaygısından uzaktır.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "I ve II numaralı cümlelerde romanların niceliğinden (sayıca fazlalığından) bahsetmişken, III numaralı cümleyle birlikte konunun açısı değişerek nitelik sorununa geçilmiştir. Bu nedenle ikinci paragraf III numaralı cümleyle başlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Paragrafın anlam ve yapı yönünden kendinden önceki cümleyle bağını kuran ögelere ____ denir.",
+                  "options": [
+                    "bağlayıcı ögeler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağlayıcı ögeler (bu nedenle, çünkü, oysa vb.) cümleler arası geçişi sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir metnin ilk cümlesi olan ve kendinden önce cümle izlenimi uyandırmayan cümleye ____ cümlesi denir.",
+                  "options": [
+                    "giriş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Giriş cümlesi bağımsızdır ve paragrafın konusunu belirler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragrafta konunun işleniş biçiminin ya da bakış açısının değiştiği yerde metni ____ gerekir.",
+                  "options": [
+                    "bölmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı bir alt konuya geçildiğinde paragraf ikiye bölünür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragrafın akışını bozan cümle, metnin ____ bütünlüğünü zedeler.",
+                  "options": [
+                    "anlam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akışı bozan cümle farklı bir konudan bahsettiği için anlam bütünlüğünü bozar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Düşüncenin akışına göre boş bırakılan yere getirilecek cümle, hem önceki hem de sonraki cümlelerle ____ olmalıdır.",
+                  "options": [
+                    "uyumlu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boşluk doldurma sorularında bağlamın ve mantık uyumunun yakalanması şarttır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Paragrafın giriş cümlesinde 'bu yüzden, oysa, kısacası' gibi geçiş ve bağlantı ifadeleri yer almaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Giriş cümleleri kendinden önceki bir yargıya bağlanmadığı için bu tür bağlayıcı sözcüklerle başlayamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragrafın akışını bozan cümle, genellikle aynı konuyu farklı bir bakış açısıyla detaylandıran cümledir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Akışı bozan cümle aynı konuyu detaylandırmaz, konu dışına çıkar ya da farklı bir konudan bahseder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir paragraf ikiye bölünmek istendiğinde, ikinci paragraf yeni bir düşüncenin veya alt konunun işlenmeye başladığı cümleyle başlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazarın bakış açısı değiştiğinde ya da farklı bir alt konuya geçildiğinde yeni bir paragraf oluşturulur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sonuç cümleleri genellikle kendinden önceki yargıları özetler veya genel bir yargıya varır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sonuç cümleleri konuyu bağlamak ve ana düşünceyi pekiştirmek için özetleyici nitelik taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragraf oluşturma sorularında cümlelerin sıralaması yapılırken ilk olarak sonuç cümlesi bulunmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paragraf sıralaması yapılırken önce giriş cümlesi bulunur, ardından diğer cümleler anlam akışına göre dizilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Paragraf Tamamlama ve Bölme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Paragraf tamamlama sorularında boş bırakılan yer genellikle hangi konumda bulunur?",
+                  "answer": "Genellikle paragrafın başında, ortasında veya sonunda yer alır."
+                },
+                {
+                  "question": "Paragrafı ikiye bölme sorularında ikinci paragraf hangi özellik ile başlamalıdır?",
+                  "answer": "Yeni bir düşünceye geçişi belirten farklı bir ana fikir veya konu odağıyla başlamalıdır."
+                },
+                {
+                  "question": "Paragrafın akışını bozan cümle ile paragraf bölme arasındaki temel fark nedir?",
+                  "answer": "Akışı bozan cümle tek bir uyumsuz cümleyi bulmayı amaçlar, bölme ise metni iki mantıklı parçaya ayırır."
+                },
+                {
+                  "question": "Paragraf tamamlama sorularında en önemli ipucu nedir?",
+                  "answer": "Boşluktan önceki ve sonraki cümleler arasındaki anlam ve yapı bağlarıdır."
+                },
+                {
+                  "question": "Bir paragraf ikiye bölünürken geçiş cümleleri hangi paragrafta kalmalıdır?",
+                  "answer": "Geçiş cümleleri genellikle ikinci paragrafın başında yer alarak yeni konuya zemin hazırlar."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sanatçı, eserlerinde her zaman halkın içinden gelen gerçekçi karakterlere yer vermiştir. ____. Bu durum, onun okuyucusuyla kurduğu bağın hiçbir zaman kopmamasını sağlamıştır. Paragrafta boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?",
+                  "options": [
+                    "Ancak günümüz edebiyatında bu tarz yazarlar pek ilgi görmemektedir.",
+                    "Çünkü onların dilini, sevincini ve acılarını en saf hâliyle yansıtmıştır.",
+                    "Fakat eleştirmenler onun bu tavrını uzun süre görmezden gelmiştir.",
+                    "Romanlarında sıklıkla süslü ve anlaşılmaz bir dil kullanmayı tercih etmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boşluktan önceki cümlede gerçekçi karakterlere yer verdiği belirtilmiştir. Sonraki cümlede ise okuyucuyla bağın kopmadığı söylenmektedir. A şıkkı, bu iki durumu mantıksal olarak birbirine bağlayan en uygun ifadedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Kitap okuma alışkanlığı, bireyin zihinsel dünyasını zenginleştiren en önemli unsurlardan biridir. (II) Okuyan insan, olaylara tek bir açıdan bakmak yerine farklı pencerelerden bakabilir. (III) Günümüzde dijitalleşmenin hızı her geçen gün artmaktadır. (IV) Bu da onun empati yeteneğini geliştirir ve sosyal ilişkilerini olumlu yönde etkiler. Bu paragraf ikiye bölünmek istenirse ikinci paragraf hangi numaralı cümleyle başlar?",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "I, II ve IV numaralı cümleler kitap okumanın zihinsel ve kişisel faydalarından bahsederken, III numaralı cümle konuyu değiştirerek dijitalleşme hızına geçmektedir. Bu nedenle III numaralı cümle yeni paragrafın başlangıcı olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dijital çağda bilgiye ulaşmak oldukça kolaylaşmıştır. ____. Ne var ki bu bilgi yoğunluğu, doğru bilgiye erişimi zorlaştırmakta ve bireylerde dikkat dağınıklığına yol açmaktadır. Bu parçada boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?",
+                  "options": [
+                    "İnternet sayesinde dünyanın öbür ucundaki bir kaynağa saniyeler içinde erişebiliyoruz.",
+                    "Okullar artık kütüphaneler yerine dijital arşivleri tercih etmektedir.",
+                    "Kitaplar tarihe karışacak ve kâğıt kullanımı tamamen bitecektir.",
+                    "Bilgisayar oyunları gençlerin vakit geçirdiği en popüler alanlardan biridir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boşluktan önce bilgiye ulaşmanın kolaylaştığı söylenmiş, boşluktan sonra ise bu durumun yol açtığı bilgi yoğunluğu ele alınmıştır. A şıkkı, bilgiye ulaşmanın kolaylığına somut bir örnek vererek akışı destekler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Doğa yürüyüşleri, modern şehir hayatının stresinden uzaklaşmak için harika bir fırsattır. (II) Ormanda yürürken duyulan kuş sesleri ve yaprak hışırtıları insana huzur verir. (III) Şehir merkezlerinde trafik yoğunluğu her geçen yıl artış göstermektedir. (IV) Temiz hava almak bedensel sağlığı desteklerken zihinsel olarak da yenilenmemizi sağlar. Bu paragraf ikiye bölünmek istenirse ikinci paragraf hangi numaralı cümleyle başlar?",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "I, II ve IV numaralı cümleler doğa yürüyüşlerinin insan üzerindeki olumlu ve huzur verici etkilerini anlatmaktadır. III numaralı cümle ise konuyu şehir içi trafik yoğunluğuna çevirdiği için yeni paragrafın başlangıcı olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tiyatro, seyirci ile oyuncunun aynı anda aynı mekânı paylaştığı yaşayan bir sanattır. ____. Bu özelliğiyle sinemadan ayrılır ve izleyicisine her defasında eşsiz bir deneyim sunar.",
+                  "options": [
+                    "Senaryo yazımı edebiyat dünyasında ayrı bir uzmanlık alanı gerektirir.",
+                    "Seyirciler salonu doldurmadığında oyunlar iptal edilmek zorunda kalır.",
+                    "Perde açıldığı andan itibaren her temsil kendine hastır ve tekrar edilemez.",
+                    "Oyuncular sahneye çıkmadan önce uzun süre prova yapmak zorundadır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Boşluktan sonra tiyatronun sinemadan ayrılan ve her defasında eşsiz bir deneyim sunan bir sanat olduğu vurgulanmıştır. A şıkkı, bu eşsizliğin ve tekrar edilemezliğin temel nedenini açıklar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Paragraf tamamlama sorularında boş bırakılan yerin öncesi ve sonrası arasındaki anlam bütünlüğünü sağlamak için ____ öğelerine dikkat edilmelidir.",
+                  "options": [
+                    "geçiş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın akışını ve bütünlüğünü korumak için geçiş ve bağlantı unsurları (ancak, fakat, bu nedenle vb.) büyük önem taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragrafı ikiye bölme sorularında, metnin akışını değiştiren cümle genellikle yeni konunun veya farklı bir ____ açısının başlangıcıdır.",
+                  "options": [
+                    "bakış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metin ikiye bölünürken konu aynı kalabilir ancak konuya yaklaşım açısı veya odak noktası değişir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragrafta boş bırakılan bir yeri tamamlarken cümlenin yapısal ve ____ uyumuna mutlaka bakılmalıdır.",
+                  "options": [
+                    "anlam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümleler arasında hem dil bilgisel uyum hem de mantıksal anlam uyumu eksiksiz olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragraf bölme sorularında metnin anlam akışındaki kopmayı bulmak için yazarın konuyu ele alış ____ incelenmelidir.",
+                  "options": [
+                    "biçimi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazarın konuyu işleyiş biçimi veya odaklandığı alt tema değiştiğinde paragraf ikiye bölünür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paragraf tamamlamada boşluğa getirilecek ifade, parçanın ____ fikriyle tam bir uyum içinde olmalıdır.",
+                  "options": [
+                    "ana"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafı tamamlayan cümle, metnin genelinde savunulan ana düşünceye hizmet etmelidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Paragraf tamamlama sorularında sadece boşluktan önceki cümleye bakmak doğru çözümü bulmak için yeterlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğru çözüm için hem boşluktan önceki hem de sonraki cümlelerin anlam ve yapı bağları birlikte incelenmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragrafı ikiye bölme sorularında yeni paragraf, genellikle konunun farklı bir yönüne geçilen cümleyle başlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazar konunun odağını değiştirdiğinde veya yeni bir alt konuya geçtiğinde metin mantıksal olarak ikiye bölünür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragraf tamamlama sorularında çeldiriciler genellikle metnin ana düşüncesine tamamen zıt anlamlar içermez, konuya kısmen değinip bütüne uymaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çeldirici şıklar genellikle konuyla ilgili gibi görünür ancak paragrafın özel akışına veya mantığına uyum sağlamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragrafı ikiye bölme sorularında her iki paragrafın konu sınırları tamamen birbirinden bağımsız olmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İki paragraf aynı ana düşünce etrafında birleşebilir; önemli olan alt konunun veya bakış açısının değişmesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paragraf tamamlama sorularında 'bu nedenle', 'oysa', 'kısacası' gibi bağlayıcı ifadeler ipucu olarak kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tür geçiş ve bağlam unsurları, boşluğa gelebilecek cümlenin niteliğini doğrudan belirleyen en güçlü ipuçlarıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Anlatım Teknikleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Ses Bilgisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ünlü ve Ünsüz Uyumları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Ses Olayları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Hece ve Vurgu",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Yazım Kuralları",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Büyük Harflerin Kullanımı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Birleşik Sözcüklerin Yazımı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "de, ki, mi Yazımı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Sayıların ve Kısaltmaların Yazımı",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Noktalama İşaretleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Nokta, Virgül, Noktalı Virgül",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İki Nokta, Üç Nokta, Soru ve Ünlem İşaretleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Tırnak, Parantez, Kesme ve Tire",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Sözcük Türleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İsimler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Sıfatlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Zamirler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Zarflar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Edat, Bağlaç ve Ünlem",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Fiiller",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Fiilde Kip ve Kişi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node8",
+          "order": 8,
+          "title": "Fiilde Çatı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node9",
+          "order": 9,
+          "title": "Fiilimsiler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node10",
+          "order": 10,
+          "title": "Ek Fiil",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Sözcükte Yapı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kök ve Ekler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yapım Ekleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Çekim Ekleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Basit, Türemiş ve Birleşik Sözcükler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Cümlenin Ögeleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Yüklem",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Özne",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Nesne",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Dolaylı Tümleç ve Zarf Tümleci",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Cümle Vurgusu ve Ögelerin Yeri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Cümle Türleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Yüklemin Türüne Göre Cümleler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yapısına Göre Cümleler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Anlamına Göre Cümleler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit11",
+      "order": 11,
+      "title": "Anlatım Bozuklukları",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anlama Dayalı Bozukluklar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yapıya Dayalı Bozukluklar",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

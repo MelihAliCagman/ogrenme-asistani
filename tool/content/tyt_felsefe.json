@@ -1,0 +1,2753 @@
+{
+  "subjectKey": "tyt_felsefe",
+  "title": "TYT Felsefe",
+  "examType": "YKS",
+  "subject": "Felsefe",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Felsefeyi Tanıma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Felsefenin Konusu ve Alanı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefe kelimesinin kökeni hangi dilden gelmektedir ve anlamı nedir?",
+                  "answer": "Yunanca philia (sevgi) ve sophia (bilgi/bilgelik) sözcüklerinin birleşmesinden oluşur, 'bilgelik sevgisi' anlamına gelir."
+                },
+                {
+                  "question": "Felsefi düşüncenin en temel özelliklerinden biri olan yığılımlı ilerleme ne anlama gelir?",
+                  "answer": "Filozofların görüşlerinin tarih boyunca birikerek ilerlemesi, bilimdeki gibi kesin bir birikim ve ilerleme olmaması demektir."
+                },
+                {
+                  "question": "Felsefede 'refleksif olmak' kavramı neyi ifade eder?",
+                  "answer": "Düşüncenin kendi üzerine dönmesi, düşünceyi yeniden ele alması ve sorgulaması anlamına gelir."
+                },
+                {
+                  "question": "Felsefi soruların en belirgin özelliği nedir?",
+                  "answer": "Genel, kuşatıcı, öznel ve sorunun kendisinin cevabından daha önemli olmasıdır."
+                },
+                {
+                  "question": "İlk filozof olarak kabul edilen ve felsefenin başlangıcı sayılan isim kimdir?",
+                  "answer": "Thales'tir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi felsefenin özelliklerinden biri değildir?",
+                  "options": [
+                    "Refleksif bir nitelik taşıması",
+                    "Evrensel konuları ele alması",
+                    "Sorgulayıcı ve eleştirel olması",
+                    "Kesin ve bitmiş sonuçlar ortaya koyması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Felsefede bilimdeki gibi kesin ve herkesçe kabul edilen bitmiş sonuçlar yoktur; sorular her zaman açık uçludur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi düşüncenin temelini oluşturan ve 'hayret etme' kavramını ilk kez felsefenin başlangıcı sayan filozof kimdir?",
+                  "options": [
+                    "Aristoteles",
+                    "Platon",
+                    "Thales",
+                    "Descartes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles, insanların merak ettikleri ve hayret ettikleri için felsefe yapmaya başladıklarını belirtmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sorulardan hangisi felsefi bir soru niteliği taşır?",
+                  "options": [
+                    "Su kaç derecede kaynar?",
+                    "Adalet nedir?",
+                    "Türkiye'nin başkenti neresidir?",
+                    "İnsan kaç kemikle doğar?"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Adalet nedir?' sorusu evrensel, öznel ve üzerinde uzlaşılamayan felsefi bir sorudur; diğerleri pozitif bilimlerin konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi bir görüşün kendi içinde çelişmemesi, akla ve mantığa uygun olması onun hangi özelliğini vurgular?",
+                  "options": [
+                    "Dogmatik olmasını",
+                    "Tutarlı olmasını",
+                    "Yığılımlı olmasını",
+                    "Evrensel olmasını"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir sistemin ögelerinin birbirini desteklemesi ve çelişki barındırmaması tutarlılık olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefenin doğuşunda ve gelişiminde en önemli etken aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ekonomik çıkarlar",
+                    "Merak ve sorgulama isteği",
+                    "Ezberlenen dogmalar",
+                    "Pratik kaygılar ve araç üretimi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefe, insanın evreni ve yaşamı anlamlandırma çabasından doğan saf merak ve sorgulama isteğine dayanır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Felsefe kelimesini ilk kullanan ve kendisini filozof değil 'bilgelik dostu' olarak tanımlayan antik çağ düşünürü ____.",
+                  "options": [
+                    "Pythagoras"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pythagoras (Pisagor), bilgeliğin yalnızca tanrılara mahsus olduğunu, insanın ise sadece bilgelik dostu olabileceğini savunmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Düşüncenin kendi üzerine dönerek onu ele almasına felsefede ____ denir.",
+                  "options": [
+                    "refleksivite"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refleksivite, felsefi bilginin ayırt edici özelliklerinden biri olup zihnin kendi düşüncelerini denetlemesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi düşüncenin sonuçlarının kesin ve inanca dayalı olmaması, onun ____ olmasından kaynaklanır.",
+                  "options": [
+                    "rasyonel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rasyonellik akla dayanma demektir; felsefe akıl süzgecinden geçen argümanlar üretir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefenin konularından biri olan varlığı inceleyen alt disipline ____ denir.",
+                  "options": [
+                    "ontoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ontoloji, varlık felsefesidir ve var olanı varlık olması bakımından inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi soruların cevaplarından ziyade ____ önemlidir.",
+                  "options": [
+                    "sorunun kendisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefede net yanıtlar yerine sorgulama süreci ve sorunun getirdiği bakış açısı ön plandadır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi bilgiler bilimsel bilgiler gibi deney ve gözleme dayalı olarak kesin bir şekilde doğrulanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefi bilgiler olgusal değil mantıksaldır, bu nedenle deneyle doğrulanamazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefe yapmak, sorulara dogmatik cevaplar aramak yerine sürekli bir arayış içinde olmaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefe bitmiş dogmaları kabul etmez, eleştirel bir yolda sürekli sorgulama faaliyetidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi düşünce evrenseldir çünkü insanı ve evreni genel bir bakış açısıyla ele alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefenin sorduğu sorular ve ürettiği cevaplar tüm insanlığı ilgilendirdiği için evrenseldir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi sistemler kurulurken filozoflar kendinden önceki düşüncelerden hiç etkilenmezler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefe yığılımlı ilerler; her filozof kendinden önceki birikimi eleştirir veya geliştirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Refleksif düşünce, zihnin başka bir nesneyi değil, bizzat kendi düşüncesini konu edinmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refleksiflik, düşüncenin kendi üzerine düşünmesi anlamına gelen temel bir felsefi özelliktir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Felsefenin Özellikleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefe kelimesinin kökeni nedir?",
+                  "answer": "Yunanca sevgi ve bilgi/bilgelik kelimelerinin birleşiminden oluşan bilgelik sevgisi anlamına gelir."
+                },
+                {
+                  "question": "Felsefi düşüncenin en temel ayırt edici özelliklerinden biri nedir?",
+                  "answer": "Sorgulayıcı ve eleştirel olmasıdır."
+                },
+                {
+                  "question": "Felsefede soruların cevaplardan daha önemli olmasının nedeni nedir?",
+                  "answer": "Felsefenin yolda olmak, yani araştırmayı ve düşünmeyi sürekli kılmak olmasıdır."
+                },
+                {
+                  "question": "Filozofun konuya yaklaşımında öznel olması ne anlama gelir?",
+                  "answer": "Görüşlerin filozofun kişisel birikimi ve akıl yürütmelerine dayanmasıdır."
+                },
+                {
+                  "question": "Felsefi bilginin evrensel olması neyi ifade eder?",
+                  "answer": "Tüm insanlığı ilgilendiren ortak sorulara yönelmesini ifade eder."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi felsefi bilginin özelliklerinden biri değildir?",
+                  "options": [
+                    "Refleksif olması",
+                    "Sorgulayıcı olması",
+                    "Yığılmalı olması",
+                    "Dogmatik olması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Felsefi bilgi eleştireldir ve asla dogmatik (bağnaz, sorgulanmadan kabul edilen) olamaz; tam aksine her bilgiyi sorgular.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Filozofun daha önce ortaya konmuş bir felsefi düşünceyi ya da kendi düşüncesini yeniden ele alıp üzerine düşünmesine ne ad verilir?",
+                  "options": [
+                    "Tutarlılık",
+                    "Kümülatiflik",
+                    "Refleksivite",
+                    "Evrensellik"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Refleksivite (düşünümsellik), düşüncenin kendi üzerine dönmesi ve felsefi düşünceyi konu edinmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi bilgilerin yüzyıllar boyunca filozoflar tarafından birikerek çoğalması felsefenin hangi özelliğini vurgular?",
+                  "options": [
+                    "Öznel olmasını",
+                    "Kesin sonuçlar vermesini",
+                    "Sistematik olmasını",
+                    "Yığılmalı (kümülatif) olmasını"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kümülatiflik, felsefi birikimin üst üste yığılarak ilerlemesi anlamına gelir; çünkü felsefede bilgi yok olmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi sistemin kendi içinde çelişkisiz, akla ve mantığa uygun bir bütün oluşturması hangi kavramla ifade edilir?",
+                  "options": [
+                    "Tutarlılık",
+                    "Evrensellik",
+                    "Subjektiflik",
+                    "Olgusallık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tutarlılık, öne sürülen önermelerin birbirini desteklemesi ve mantıksal çelişki barındırmamasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefenin sorularının tüm insanlığı ilgilendiren 'hakikat', 'iyi', 'adalet' gibi konuları kapsadığı belirtildiğinde felsefenin hangi niteliği vurgulanmış olur?",
+                  "options": [
+                    "Öznellik",
+                    "Denysel olma",
+                    "Olgusallık",
+                    "Evrensellik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Felsefi sorular ve cevaplar yerel veya ulusal değil, tüm insanlığı ilgilendirdiği için evrenseldir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Felsefi düşüncenin sonuçlarının kesin ve bitmiş olmaması, onun ____ bir yapıya sahip olduğunu gösterir.",
+                  "options": [
+                    "açık uçlu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefede tek ve mutlak bir son cevap yoktur, sorular sürekli yeniden tartışılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefe, olanı olduğu gibi incelemek yerine olması gerekeni de sorguladığı için ____ bir disiplindir.",
+                  "options": [
+                    "normatif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Normatif (kural koyucu/değerlendirici) olma özelliği felsefenin ahlak ve sanat gibi alanlarında değerleri incelemesiyle ilgilidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her filozofun görüşünün kendine ait olması felsefi bilginin ____ olmasından kaynaklanır.",
+                  "options": [
+                    "öznel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öznellik (subjektivite), felsefi görüşlerin filozofun kişisel akıl yürütme tarzını yansıtmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi sistemin kendi içinde mantıksal bir bağlama sahip olması ____ şartını gerektirir.",
+                  "options": [
+                    "tutarlılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tutarlılık, filozofun kullandığı kavramların ve savunduğu fikirlerin birbiriyle çelişmemesini sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefe tarihi boyunca biriken düşüncelerin birbirini etkileyerek ilerlemesi felsefenin ____ özelliğini gösterir.",
+                  "options": [
+                    "yığılmalı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kümülatif yani yığılmalı olma, felsefi birikimin nesilden nesile aktarılarak birikmesini ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi sorular zamanla değişime uğramaz ve her dönem aynı şekilde yanıtlanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefi sorular zamansızdır ancak bunlara verilen yanıtlar dönemin koşullarına ve filozofun bakış açısına göre değişebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi düşünce eleştireldir çünkü sunulan hiçbir bilgiyi olduğu gibi kabul etmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eleştirellik, bilgilerin temellerini ve dayanaklarını sorgulamayı gerektirir; bu felsefenin temel özelliklerindendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi bilgi tıpkı bilimsel bilgi gibi deney ve gözlem yöntemleriyle doğrulanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefe olgusal değil mantıksal ve kavramsal temellere dayanır, bu nedenle deney ve gözlem yöntemi kullanılmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Refleksif düşünce, insanın kendi düşünceleri veya felsefi bir görüş üzerine tekrar düşünmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refleksivite, felsefenin en ayırt edici niteliklerinden biri olup düşüncenin kendi üzerine yönelmesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefede amaç mutlak ve son doğruya ulaşarak tüm tartışmaları bitirmektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefede amaç sonuca ulaşmak değil yolda olmak, yani sürekli bir arayış ve sorgulama içinde kalmaktır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Felsefe İle Düşünme",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Felsefeyle Düşünme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefede akıl ilkelerine dayalı, kendi içinde çelişmeyen düşünce üretmeye ne ad verilir?",
+                  "answer": "Tutarlılık"
+                },
+                {
+                  "question": "Bir argümanda öncüllerin sonuca mantıksal bir zorunlulukla destek vermesi hangi kavramla ifade edilir?",
+                  "answer": "Geçerlilik"
+                },
+                {
+                  "question": "Verilen bilgileri veya iddiaları olduğu gibi kabul etmeyip inceleme ve sorgulama sürecine ne denir?",
+                  "answer": "Eleştirel düşünme"
+                },
+                {
+                  "question": "Felsefi bir argümanda varılan sonuca dayanak oluşturan önermelere ne denir?",
+                  "answer": "Öncül"
+                },
+                {
+                  "question": "Düşüncenin kendi üzerine dönerek onu yeniden incelemesi sürecine ne denir?",
+                  "answer": "Refleksiyon"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi felsefi düşüncenin temel özelliklerinden biri değildir?",
+                  "options": [
+                    "Dogmatik olması",
+                    "Refleksif olması",
+                    "Tutarlı olması",
+                    "Evrensel olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefi düşünce dogmatik değil, aksine sorgulayıcı ve eleştireldir. Dogmatizm, sunulan bilgileri tartışmasız kabul etmek demektir ki bu felsefeye tamamen aykırıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Düşüncenin kendi üzerine yönelmesi, zihnin kendi üretimlerini ya da düşünme faaliyetini tekrar ele alması anlamına gelen kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Refleksiyon",
+                    "Tümdengelim",
+                    "Argümantasyon",
+                    "Tümevarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refleksiyon, felsefenin en temel özelliklerinden biridir ve düşüncenin düşünceyi ya da zihnin kendi etkinliğini konu edinmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir görüşü veya iddiayı desteklemek amacıyla öne sürülen, öncüllerden ve sonuçtan oluşan akıl yürütme formuna ne ad verilir?",
+                  "options": [
+                    "Argüman",
+                    "Sezgi",
+                    "Tümevarım",
+                    "Safsata"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Argüman, belirli öncüllerden hareketle bir sonuca ulaşma iddiası taşıyan akıl yürütmeler bütünüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki akıl yürütme türlerinin hangisinde özelden genele veya özelden özele bir hareket söz konusudur?",
+                  "options": [
+                    "Tümevarım",
+                    "Tümdengelim",
+                    "Analoji",
+                    "Kıyas"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Analoji (benzetme), benzerliklere dayanarak özelden özele yapılan bir akıl yürütme biçimidir. Tümevarım ise özelden genele gider.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi bir metinde ileri sürülen görüşlerin birbiriyle çelişmemesi ve mantıksal bir bütünlük arz etmesi hangi kavramla ifade edilir?",
+                  "options": [
+                    "Empirizm",
+                    "Tutarlılık",
+                    "Objektiflik",
+                    "Kümülatiflik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tutarlılık, düşüncelerin kendi içinde veya bir sistemin ögelerinin birbirleriyle çelişmemesi durumudur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Felsefede düşüncenin düşünceyi konu edinmesi sürecine ____ denir.",
+                  "options": [
+                    "refleksiyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refleksiyon, felsefi tavrın en belirgin özelliklerinden biri olup zihnin kendi üzerine dönmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir argümanın mantıksal kurallara uygun olarak öncüllerden sonuç çıkarma özelliğine ____ denir.",
+                  "options": [
+                    "geçerlilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçerlilik, argümanın formel yapısının kurallara uygunluğunu ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Genel bir kuraldan özel bir duruma doğru yapılan akıl yürütme biçimine ____ denir.",
+                  "options": [
+                    "tümdengelim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümdengelim (dedüksiyon), genel öncüllerden hareketle özel sonuçlar çıkaran akıl yürütme yoludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İleri sürülen iddiaların doğruluğunu kanıtlamak ya da desteklemek için sunulan dayanaklara ____ adı verilir.",
+                  "options": [
+                    "öncül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öncüller, argüman içinde sonucu desteklemek amacıyla kullanılan temel önermelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Özel olay veya durumlardan genel yasalara ulaşma işlemine ____ denir.",
+                  "options": [
+                    "tümevarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümevarım (indüksiyon), tek tek gözlemlerden genel yargılara varan bir akıl yürütme yöntemidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi düşüncede sorular, cevaplardan daha önemlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefe yolda olmaktır; bu nedenle kesin yanıtlar yerine sürekli soruşturma ve sorgulama süreci ön plandadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Refleksif düşünce yalnızca bilimsel araştırmalarda geçerli olan deneysel bir yöntemdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Refleksiyon felsefi bir düşünme biçimidir ve zihnin kendi üzerine yönelmesini ifade eder, salt deneysel bir bilim yöntemi değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Argümanlar öncül ve sonuç adı verilen önerme gruplarından oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir argüman en az bir öncül ve bir sonuç önermesinden meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Analoji, genel ilkelerden yola çıkarak özel sonuçlara varma akıl yürütme türüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Genel ilkelerden özel sonuçlara varma yöntemi tümdengelimdir; analoji ise benzerliklere dayalı özelden özele akıl yürütmedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tutarlılık, öne sürülen fikirlerin birbiriyle çelişmemesi durumunu ifade eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefi argümanların geçerli ve ikna edici olabilmesi için tuterli olması şarttır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Felsefi Yöntem",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefi yöntemin temel amacı nedir?",
+                  "answer": "Doğru bilgiye ulaşmak ve kavramları akılsal bir temele oturtmaktır."
+                },
+                {
+                  "question": "Sokrates'in kullandığı karşılıklı konuşmaya dayalı yöntemin adı nedir?",
+                  "answer": "Mayotik (doğurtma) ve ironi."
+                },
+                {
+                  "question": "Diyalektik yöntem Hegel ve Marx'ta hangi aşamalardan oluşur?",
+                  "answer": "Tez, antitez ve sentez."
+                },
+                {
+                  "question": "Fenomenoloji yönteminde paranteze alma (epoche) ne anlama gelir?",
+                  "answer": "Ön yargılardan ve nesnenin varoluş kabulünden soyutlanarak özüne yönelmedir."
+                },
+                {
+                  "question": "Analitik felsefe yöntemi hangi alan üzerine yoğunlaşır?",
+                  "answer": "Dilin analizi ve mantıksal çözümlemesi."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sokrates'in insan zihnindeki bilgileri açığa çıkarmak için kullandığı, soru-cevap temelli yönteme ne ad verilir?",
+                  "options": [
+                    "Analiz",
+                    "Fenomenoloji",
+                    "Diyalektik",
+                    "Mayotik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sokrates, doğurtma anlamına gelen mayotik yöntemi ile kişinin zihninde saklı olan bilgileri soru sorarak ortaya çıkarmayı hedefler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi felsefi bir yöntemde bulunması gereken özelliklerden biri değildir?",
+                  "options": [
+                    "Akla dayanmak",
+                    "Tutarlı olmak",
+                    "Sistematik olmak",
+                    "Kuşkuya yer vermemek"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Felsefe sürekli sorgulama ve kuşkulanma üzerine kuruludur; bu nedenle felsefi yöntem kuşkuyu dışlamaz, aksine temel bir araç olarak kullanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hegel'in felsefesinde çelişkiler yoluyla ilerleyen ve tez-antitez-sentez basamaklarından oluşan yöntem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sezgicilik yöntemi",
+                    "Analitik yöntem",
+                    "Fenomenolojik yöntem",
+                    "Diyalektik yöntem"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Diyalektik, zıtlıkların çatışması ve birleşmesi yoluyla bilginin ve gerçeğin gelişimini açıklayan Hegelci ve Marksist bir yöntemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Edmund Husserl'in kurucusu olduğu, görünenin arkasındaki özü yakalamayı amaçlayan yöntem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Fenomenoloji",
+                    "Pragmatizm",
+                    "Empirizm",
+                    "Rasyonalizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fenomenoloji, nesnelerin görünen kısımlarını bir kenara bırakarak (özü askıya alarak) onların saf özüne ulaşmayı amaçlayan bir yöntemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefede dilin mantıksal çözümlemesini yaparak kavramsal kargaşaları gidermeyi amaçlayan yöntem hangi akımla öne çıkmıştır?",
+                  "options": [
+                    "Varoluşçuluk",
+                    "Analitik Felsefe",
+                    "Skolastik Felsefe",
+                    "Entüisyonizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Analitik felsefe, felsefi problemlerin çoğunun dildeki yanlış kullanımlardan kaynaklandığını savunarak dil analizi yöntemini benimser.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sokrates'in bildiğini zanneden kişinin aslında bilmediğini fark ettirmesine dayanan yöntemsel adı ____ olarak geçer.",
+                  "options": [
+                    "ironi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İroni, Sokrates'in cehaleti bilme aşamasıdır ve karşısındakinin çelişkilerini göstererek bilgiye hazırlık yapmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fenomenoloji yönteminde nesnenin geçici ve aldatıcı özelliklerini bir kenara koyma işlemine ____ adı verilir.",
+                  "options": [
+                    "epoche"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Epoche, paranteze alma anlamına gelir ve fenomenolojide ön yargılardan arınmak için kullanılan temel bir adımdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Diyalektik yöntemde mevcut duruma karşı öne sürülen karşı sav ____ olarak adlandırılır.",
+                  "options": [
+                    "antitez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tez savına karşı geliştirilen çelişik sav antitezdir ve senteze ulaşmada köprü görevi görür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefede doğruya ulaşırken izlenen düzenli yola ve ilkelere ____ denir.",
+                  "options": [
+                    "yöntem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yöntem, belirli bir amaca ulaşmak için izlenen sistemli yol ve düzen demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bergson'un felsefesinde doğru bilgiye akıl ile değil ____ ile ulaşılabileceği savunulur.",
+                  "options": [
+                    "sezgi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Entüisyonizm (sezgicilik), doğrunun dolaysız bir kavrayış olan sezgi ile elde edileceğini öne sürer.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi yöntemler bilimsel yöntemler gibi deney ve laboratuvar ölçümlerine dayanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefi yöntemler mantıksal argümanlara, kavramsal analize ve düşünce deneylerine dayanır; deneysel ölçüm yapmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sokrates'in mayotik yöntemi, bilginin insan zihninde doğuştan var olduğunu ve açığa çıkarılması gerektiğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mayotik (doğurtma) yöntemi, ebelik metaforu üzerinden zihindeki gizli bilgilerin açığa çıkarılmasını amaçlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fenomenoloji yöntemi dış dünyadaki nesnelerin varlığını kesin bir inançla peşinen kabul ederek yola çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fenomenoloji, nesnelerin varlık kabulünü ve önyargıları paranteze alır (epoche yapar), böylece saf özü incelemeye odaklanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Diyalektik yöntem tez, antitez ve sentez aşamalarıyla düşüncenin gelişimini açıklar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Diyalektik süreç, bir fikrin (tez) karşıtıyla (antitez) çatışmasından yeni bir üst aşama (sentez) doğurması prensibine dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Analitik felsefe yönteminde amaç, dilin mantıksal çözümlemesini yaparak anlam bulanıklıklarını ortadan kaldırmaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Analitik felsefe, felsefe sorunlarının dilin yanlış kullanımından doğduğunu savunarak kavramları ve önermeleri çözümlemeyi amaçlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Felsefenin Temel Konuları ve Problemleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Bilgi Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bilgi felsefesinin diğer adı nedir?",
+                  "answer": "Epistemoloji"
+                },
+                {
+                  "question": "Doğru bilginin mümkün olmadığını savunan felsefi akım hangisidir?",
+                  "answer": "Sekisizm veya Agnostisizm"
+                },
+                {
+                  "question": "Bilginin kaynağında sadece aklı gören yaklaşımın adı nedir?",
+                  "answer": "Rasyonalizm"
+                },
+                {
+                  "question": "Bilginin kaynağını duyu ve deneyim olarak kabul eden akım hangisidir?",
+                  "answer": "Empirizm"
+                },
+                {
+                  "question": "Rasyonalizm ile empirizmi sentezleyen filozof kimdir?",
+                  "answer": "Immanuel Kant"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bilgi felsefesinin temel kavramlarından biri değildir?",
+                  "options": [
+                    "Dogmatizm",
+                    "Ontoloji",
+                    "Subje",
+                    "Rasyonalizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ontoloji varlık felsefesidir; dogmatizm, subje ve rasyonalizm ise bilgi felsefesinin temel kavramları ve akımları arasında yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bilginin doğuştan geldiğini savunan rasyonalist filozofların en önemli temsilcilerinden biri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Auguste Comte",
+                    "Platon",
+                    "David Hume",
+                    "John Locke"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Platon, bu dünyadaki bilgilerin aslında ruhun anımsaması olduğunu savunarak rasyonalizmin öncüsü olmuştur. John Locke ve David Hume ise empiristtir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsan zihninin dünyaya gelmeden önce boş bir levha (tabula rasa) olduğunu savunan akım hangisidir?",
+                  "options": [
+                    "Rasyonalizm",
+                    "Empirizm",
+                    "Entüisyonizm",
+                    "Kritisizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Empirizm (deneycilik), zihnin doğuştan boş olduğunu ve tüm bilgilerin duyular aracılığıyla sonradan kazanıldığını savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hangi felsefi akım, doğru bilginin hem aklın süzgecinden geçerek hem de duyularla elde edilen verilerin birleşmesiyle oluştuğunu savunur?",
+                  "options": [
+                    "Kritisizm",
+                    "Entüisyonizm",
+                    "Pozitivizm",
+                    "Septisizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kritisizm (eleştiricilik), Kant'ın temsil ettiği ve hem aklı hem de duyuyu bilgi üretiminde gerekli gören görüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bilginin temelinde sezgiyi (içgüdüsel kavrayışı) bularak gerçeğe bu yolla ulaşılabileceğini savunan akım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Fenomenoloji",
+                    "Entüisyonizm",
+                    "Pragmatizm",
+                    "Dogmatizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Entüisyonizm (sezgicilik), özellikle Henri Bergson ile bilginin temel kaynağının sezgi olduğunu savunan yaklaşımdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bilgi felsefesinde bilginin öznesi olan insan ile nesnesi olan varlık arasındaki bağa ____ denir.",
+                  "options": [
+                    "bilgi aktı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özne ile nesne arasındaki ilişkiyi kuran ve bilginin oluşmasını sağlayan zihinsel süreçlere bilgi aktı adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her türlü bilgiden şüphe eden ve şüpheyi amaç haline getiren felsefi akıma ____ denir.",
+                  "options": [
+                    "septisizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Septisizm, doğru bilgiye ulaşılamayacağını savunarak her konuda şüphe eden felsefi görüştür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fayda sağlayan bilginin doğru bilgi olduğunu savunan pratik felsefi akıma ____ denir.",
+                  "options": [
+                    "pragmatizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pragmatizm (faydacılık), bir bilginin doğruluk ölçütünü onun günlük hayatta sağladığı fayda ile ölçer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Özün bilgisine ulaşmak için fenomenleri (görünenleri) paranteze alma yöntemini kullanan akım ____ olarak adlandırılır.",
+                  "options": [
+                    "fenomenoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Husserl'in kurucusu olduğu fenomenoloji, nesnelerin özünü kavramak için ön kabullerden arınma yöntemini savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Olgusal olanla sınırlı kalıp metafizik bilgileri reddeden, deney ve gözleme dayanan bilgi anlayışına ____ denir.",
+                  "options": [
+                    "pozitivizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitivizm, sadece deney ve gözlemlenebilen olguların bilimsel ve doğru bilgi sağlayabileceğini savunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Epistemoloji, varlığın ne olduğunu ve varlık türlerini inceleyen felsefe dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Varlığı inceleyen felsefe dalı ontolojidir; epistemoloji ise bilgi felsefesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Empirizm akımının temel savunucularından biri John Locke'tur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "John Locke, insan zihninin tabula rasa olduğunu söyleyerek empirizmin en önemli temsilcileri arasında yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dogmatizm, her türlü bilgi iddiasından şüphe duyan ve kesin bilgiyi reddeden bir akımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dogmatizm şüphe duymadan, verilmiş bilgileri olduğu gibi kabul eden anlayıştır; şüphe eden akım septisizmdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kritisizm, bilginin kaynağında hem aklın hem de duyuların birlikte rol oynadığını savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kant'ın kurduğu kritisizm akımı, 'deneyle başlar ama deneyden doğmaz' diyerek akıl ve duyuyu birleştirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Pragmatizm, doğruluk ölçütü olarak bireye sağladığı faydayı esas alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pragmatist felsefede bir düşünce veya bilgi işe yaradığı, fayda sağladığı ölçüde doğru kabul edilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Varlık Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ontoloji ne anlama gelir?",
+                  "answer": "Varlık felsefesi demektir."
+                },
+                {
+                  "question": "Varlığın niceliği konusunda her şeyin maddeden oluştuğunu savunan görüş nedir?",
+                  "answer": "Materyalizm"
+                },
+                {
+                  "question": "Hem madde hem ruh olmak üzere iki tözü kabul eden görüşe ne denir?",
+                  "answer": "Düalizm"
+                },
+                {
+                  "question": "Farisî kökenli ünlü İslam filozofu Farabi'nin varlık sınıflandırmasında zorunlu varlık kime aittir?",
+                  "answer": "Tanrı"
+                },
+                {
+                  "question": "Varlığın olmadığını ya da bilinemeyeceğini savunan felsefi akım hangisidir?",
+                  "answer": "Nihilizm"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi varlık felsefesinin (ontolojinin) temel sorularından biridir?",
+                  "options": [
+                    "Doğru bilginin kaynağı nedir?",
+                    "Güzelin ölçütü var mıdır?",
+                    "Ahlaki eylemin amacı nedir?",
+                    "Varlığın ilk nedeni (arkhesi) nedir?"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ontoloji doğrudan varlığı ve varlığın kökenini inceler. Diğer seçenekler epistemoloji, estetik ve etik alanlarına girer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Herakleitos ve Lao Tse gibi düşünürlerin varlık anlayışında temel vurgu hangi kavram üzerinedir?",
+                  "options": [
+                    "Değişme ve oluş",
+                    "Mutlak durağanlık",
+                    "Sadece maddi ögeler",
+                    "Yalnızca tinsel töz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Oluş felsefesine göre varlık sürekli bir değişim halindedir, duran bir varlık yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Descartes'ın hem düşünceyi (ruh) hem de uzayı (madde) ayrı iki temel töz olarak kabul etmesi hangi akımla ifade edilir?",
+                  "options": [
+                    "Nihilizm",
+                    "Düalizm",
+                    "Plüralizm",
+                    "Monizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İki tözü kabul eden görüş düalizm (ikicilik) olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Varlığın temelinde 'idea' veya 'ruh' gibi tinsel bir öz bulunduğunu savunan felsefi akım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Pragmatizm",
+                    "İdealizm",
+                    "Materyalizm",
+                    "Pozitivizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İdealizm, gerçek varlığın maddi değil düşünsel (tinsel) olduğunu savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki düşünürlerden hangisi varlığı 'oluş' olarak tanımlayan ve 'aynı nehirde iki kez yıkanılmaz' diyen filozoftur?",
+                  "options": [
+                    "Parmenides",
+                    "Demokritos",
+                    "Descartes",
+                    "Herakleitos"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Herakleitos, evrendeki her şeyin sürekli bir değişim ve akış içinde olduğunu savunmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Varlığın niceliği bakımından tek bir tözü kabul eden yaklaşım ____ olarak adlandırılır.",
+                  "options": [
+                    "monizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Monizm, evrenin ya da varlığın tek bir temel ilkeden veya tözden oluştuğunu savunan görüştür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hiççilik anlamına gelen ve varlığı reddeden felsefi akım ____ olarak bilinir.",
+                  "options": [
+                    "nihilizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nihilizm, her türlü varlık ve değer sistemini reddeden felsefi görüştür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Demokritos'un evrenin temel yapı taşı olarak öne sürdüğü bölünemez küçük zerreler ____ adını alır.",
+                  "options": [
+                    "atom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Demokritos'un materyalist görüşünde varlığın kökeni atomlara ve boşluğa dayanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Marx ve Friedrich Engels'in savunduğu, varlığın temelini maddeye dayandıran çağdaş akım ____ materyalizmdir.",
+                  "options": [
+                    "diyalektik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Diyalektik materyalizm, maddesel değişimi tez, antitez ve sentez süreciyle açıklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Varlığın niceliği konusunda ikiden fazla tözü kabul eden anlayışa ____ denir.",
+                  "options": [
+                    "plüralizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plüralizm (çokçuluk), varlığın açıklanmasında ikiden fazla ilkeyi temel alan görüştür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Ontoloji ile metafizik terimleri felsefede tamamen aynı anlama gelir ve hiçbir farkları yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ontoloji varlığı sadece var olması bakımından incelerken, metafizik ontolojiyi de kapsayarak evrenin ve ruhun ilk nedenleri gibi aşkın konuları da ele alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Materyalizm, varlığın temelinde maddenin bulunduğunu ve her şeyin maddeden türediğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Materyalist felsefe, gerçeğin temelinin madde olduğunu ve tinsel varlıkların da maddeye dayandığını kabul eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Parmenides'e göre evrende sürekli bir değişim ve oluş vardır, hiçbir şey aynı kalmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parmenides tam aksine değişimin bir illüzyon olduğunu, varlığın durağan, değişmez ve bir olduğunu savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Farabi, varlıkları 'mümkün varlık' ve 'zorunlu varlık' olarak ikiye ayırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi, Tanrı'yı varlığı kendinden olan zorunlu varlık, diğer yaratılanları ise mümkün varlık olarak sınıflandırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fenomenoloji (görüntü bilimi), Edmund Husserl tarafından kurulmuş ve paranteze alma yöntemini benimsemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fenomenoloji, nesnelerin zihindeki görünen özüne ulaşmak için ön kabulleri askıya alma (paranteze alma) yöntemini kullanır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Ahlak Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ahlak felsefesinin diğer adı nedir?",
+                  "answer": "Etiktir."
+                },
+                {
+                  "question": "İnsanın eylemlerinde kendi kararlarını verebilme gücüne ne ad verilir?",
+                  "answer": "Özgürlük"
+                },
+                {
+                  "question": "Ahlaki eylemin amacının 'mutluluk' olduğunu savunan görüşe ne denir?",
+                  "answer": "Hedonizm veya Eudaimonizm"
+                },
+                {
+                  "question": "Kant'ın ödev ahlakında her koşulda geçerli olan koşulsuz buyruğa ne denir?",
+                  "answer": "Kategorik imperatif"
+                },
+                {
+                  "question": "Evrensel ahlak yasasının varlığını reddeden felsefi akım hangisidir?",
+                  "answer": "Entüisyonizm veya Egoizm"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi ahlak felsefesinin (etiğin) temel kavramlarından biri değildir?",
+                  "options": [
+                    "Özgürlük",
+                    "Sorumluluk",
+                    "Vicdan",
+                    "Entropi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Entropi felsefenin değil, fizik ve termodinamiğin bir kavramıdır. Vicdan, özgürlük ve sorumluluk ahlak felsefesinin temel konularıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "'Ahlaki eylemin amacı hazdır' görüşünü savunan ve bireysel hazza odaklanan felsefi akım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Faydacılık",
+                    "Hedonizm",
+                    "Ödev ahlakı",
+                    "Determinizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hedonizm (hazcılık), eylemlerin temel amacının haz sağlamak olduğunu savunur. Faydacılık ise toplumsal faydayı gözetir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsanın ahlaki eylemlerinde tamamen özgür olduğunu savunan görüş aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İndeterminizm",
+                    "Determinizm",
+                    "Otodeterminizm",
+                    "Fatalizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İndeterminizm, insanın eylemlerinde hiçbir dış etkenin baskısı altında olmadığını, iradenin tamamen özgür olduğunu savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kant'ın ahlak anlayışında bir eylemin ahlaki değerini belirleyen temel ölçüt nedir?",
+                  "options": [
+                    "Eylemin getirdiği mutluluk",
+                    "Eylemin sağladığı fayda",
+                    "İyi niyet ve ödev duygusu",
+                    "Toplumun geleneklerine uygunluk"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kant'a göre bir eylem sadece 'iyi niyet'le ve 'ödev' bilinciyle yapıldığında ahlaki bir değer taşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi evrensel ahlak yasasının varlığını reddeden filozoflardan biridir?",
+                  "options": [
+                    "Friedrich Nietzsche",
+                    "Sokrat",
+                    "Immanuel Kant",
+                    "Platon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nietzsche geleneksel ahlakı ve evrensel ahlak yasalarını reddederek 'üst insan' ve güç istencini savunmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Ahlaki eylemlerin temel amacının toplumsal fayda olduğunu savunan görüşe ____ denir.",
+                  "options": [
+                    "utilitarizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Utilitarizm (faydacılık), eylemin sonucunda en çok sayıda insana en büyük faydayı sağlamasını ahlaki ölçüt kabul eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanın ahlaki kararlarını kendi kişisel kişiliği ve iradesiyle belirleyebileceğini savunan özgürlük anlayışı ____ olarak adlandırılır.",
+                  "options": [
+                    "otodeterminizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Otodeterminizme göre irade özgürdür ancak bu özgürlük kişinin kendi gelişimi ve bilgisi ile mümkündür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin kendi çıkarlarını her şeyin üstünde tutması gerektiğin savunan ahlak anlayışı ____ olarak bilinir.",
+                  "options": [
+                    "egoizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Egoizm (bencillik), kişinin temel ahlaki motivasyonunun kendi çıkarı olduğunu savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Herhangi bir baskı veya ön koşul olmaksızın, doğrudan doğruya 'yap' şeklinde verilen buyruğa Kant ____ buyruk adını verir.",
+                  "options": [
+                    "kategorik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kategorik imperatif (koşulsuz buyruk), hiçbir çıkar gözetmeksizin sadece ödev bilinciyle yerine getirilmesi gereken kuraldır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ahlak felsefesinin teorik olarak neyin iyi ve kötü olduğunu inceleyen dalına ____ denir.",
+                  "options": [
+                    "etik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etik, ahlak felsefesinin diğer adı olup ahlaki eylemlerin özünü ve temellerini sorgular.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Ahlak ile etik kelimeleri felsefede tamamen aynı anlama gelir ve hiçbir farkları yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahlak, toplum içinde yaşanan kurallar bütünüdür; etik ise bu kuralları ve ahlaki eylemleri felsefi olarak inceleyen disiplindir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fatalizm (kadercilik), insanın ahlaki eylemlerinde tamamen özgür olduğunu savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fatalizm, her şeyin önceden tanrı veya doğa tarafından belirlendiğini, insanın kaderini değiştiremeyeceğini savunur; dolayısıyla özgürlüğü reddeder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sokrat'a göre hiçbir insan bilerek ve isteyerek kötü bir şey yapmaz; kötülük bilgisizlikten kaynaklanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sokrat'ın entelektüel ahlak anlayışına göre erdem bilgidir ve insan neyin iyi olduğunu bildiğinde kötü olanı seçmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Utilitarizm (faydacılık) anlayışında eylemin ahlaki değeri sağladığı faydaya göre belirlenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Faydacılık akımı, en çok sayıda insana en yüksek faydayı (mutluluğu) getiren eylemin ahlaki açıdan doğru olduğunu kabul eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Egoizm, evrensel ahlak yasasının varlığını savunan temel felsefi akımlardan biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Egoizm kişisel çıkara dayandığı için evrensel bir ahlak yasasını reddeder; herkes için geçerli tek bir yasa olmadığını savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Sanat Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sanat felsefesinin diğer adı nedir?",
+                  "answer": "Estetik"
+                },
+                {
+                  "question": "Sanat filozoflarının ortaklaşa aradığı 'güzel' kavramı kime göre değişir?",
+                  "answer": "Özneye göre"
+                },
+                {
+                  "question": "Sanatın temel amacı nedir?",
+                  "answer": "Estetik haz uyandırmak"
+                },
+                {
+                  "question": "Aristoteles'e göre sanat nedir?",
+                  "answer": "Bir mimesis yani taklittir"
+                },
+                {
+                  "question": "Sanatçının doğada olmayan yeni bir biçim ortaya koymasına ne ad verilir?",
+                  "answer": "Yaratma"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi sanat felsefesinin temel problemlerinden biri değildir?",
+                  "options": [
+                    "Bilginin kaynağı nedir?",
+                    "Güzelin ölçütleri nelerdir?",
+                    "Sanat eseri özgün müdür?",
+                    "Sanat nedir?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilginin kaynağı problemi epistemolojinin (bilgi felsefesinin) konusudur, sanat felsefesinin değil.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanatı 'doğanın bir taklidi' olarak gören sanat anlayışı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Taklit olarak sanat",
+                    "Oyun olarak sanat",
+                    "İfade olarak sanat",
+                    "Yaratma olarak sanat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antik Yunan felsefesinden beri savunulan mimesis (taklit) anlayışı, sanatın doğayı kopyaladığını savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki filozoflardan hangisi sanatın bir oyun olduğunu savunmuştur?",
+                  "options": [
+                    "Friedrich Schiller",
+                    "Platon",
+                    "Aristoteles",
+                    "Immanuel Kant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Friedrich Schiller, insanin estetik eğitiminde oyun kuramını geliştirmiş ve sanat ile oyun arasında bağ kurmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanat eserini diğer nesnelerden ayıran en temel özellik aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bilimsel gerçekleri kanıtlaması",
+                    "Faydalı bir amaç güütmesi",
+                    "Estetik kaygı ve özgünlük barındırması",
+                    "Seri üretimle çoğaltılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sanat eseri pratik bir fayda gözetmez, estetik bir amaç taşır ve benzersiz (özgün) bir yapıya sahiptir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanatı 'insanın iç dünyasının, duygularının dışa vurumu' olarak tanımlayan yaklaşım hangisidir?",
+                  "options": [
+                    "Yarar olarak sanat",
+                    "İfade olarak sanat",
+                    "Zanaat olarak sanat",
+                    "Taklit olarak sanat"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İfade olarak sanat kuramı, sanatçının duygularını ve ruh halini eserine yansıttığını savunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sanat felsefesinde 'güzel' kavramını inceleyen ve sorgulayan disipline ____ denir.",
+                  "options": [
+                    "estetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Estetik, genel olarak güzeli felsefi açıdan ele alan disiplindir ve sanat felsefesini de kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanatçının doğayı veya nesneleri olduğu gibi kopyalamak yerine onları yeniden yorumlamasına ____ denir.",
+                  "options": [
+                    "yaratma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaratma, sanatçının sıfırdan veya özgün bir biçimde yeni bir estetik nesne ortaya koyması sürecidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Antik Yunan'da sanatın doğanın bir ____ olduğunu öne süren görüş mimesis olarak adlandırılır.",
+                  "options": [
+                    "taklidi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mimesis kavramı, özellikle Platon ve Aristoteles tarafından sanatın doğayı taklit etmesi anlamında kullanılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ortak estetik yargıların olmadığını, güzelliğin kişiden kişiye değiştiğini savunan anlayışa ____ denir.",
+                  "options": [
+                    "öznelcilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öznelcilik, güzelliğin nesnenin kendisinde değil, bakan kişinin beğenisinde olduğunu savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Estetik bir objenin insanda uyandırdığı hoşnutluk ve coşku duygusuna ____ haz denir.",
+                  "options": [
+                    "estetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Estetik haz, bireyin bir sanat eserini veya güzel bir manzarayı izlerken duyduğu zihinsel ve ruhsal doyumdur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sanat felsefesi, güzele ve sanat eserine yönelik felsefi sorgulamalar yapar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanat felsefesinin ana odak noktası sanat eserinin doğası ve güzelin ne olduğudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her nesne bir sanat eseri olarak kabul edilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir nesnenin sanat eseri olabilmesi için estetik kaygı, özgünlük ve insan eliyle yapılmış olma gibi özellikler taşıması gerekir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Platon'a göre sanat, idealar dünyasının bir kopyası olduğu için gerçeğin bilgisine ulaşmada değerlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Platon'a göre sanat, duyusal dünyanın taklididir; duyusal dünya da ideaların kopyası olduğundan, sanat hakikatin kopyasının kopyasıdır ve değerlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ortak estetik yargıların varlığını savunan filozoflar 'güzel'in nesnel olduğunu kabul ederler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nesnelci görüş, güzelliğin nesnenin kendisinde bulunduğunu ve bu nedenle herkes için geçerli olabileceğini savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zanaat ile sanat eseri arasındaki en temel fark, zanaatın günlük bir ihtiyacı karşılamaya yönelik pratik bir amaç güütmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zanaat fayda ve faydalı nesneler üretmeyi amaçlarken, sanat eseri estetik haz ve özgünlük odaklıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Din Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Din felsefesi nedir?",
+                  "answer": "Dini, felsefi bir bakış açısıyla ele alan, dinin temel kavramlarını ve iddialarını akıl yoluyla sorgulayan felsefe dalıdır."
+                },
+                {
+                  "question": "Din felsefesi ile teoloji (kelam) arasındaki temel fark nedir?",
+                  "answer": "Teoloji belirli bir dini temel alarak onu savunur ve dogmatiktir; din felsefesi ise tüm dinlere eşit mesafede durur ve eleştireldir."
+                },
+                {
+                  "question": "Tanrı'nın varlığını kabul eden ancak evrene müdahale etmediğini savunan görüş hangisidir?",
+                  "answer": "Deizm"
+                },
+                {
+                  "question": "Tanrı'nın varlığının ya da yokluğunun bilinemeyeceğini savunan felsefi görüş nedir?",
+                  "answer": "Agnostisizm"
+                },
+                {
+                  "question": "Panteizm ile Panenteizm arasındaki temel fark nedir?",
+                  "answer": "Panteizmde Tanrı ve evren tamamen aynı şeydir; Panenteizmde ise Tanrı evreni aşkındır ancak evren O'nun içindedir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi din felsefesinin temel problemlerinden biri değildir?",
+                  "options": [
+                    "Kutsal kitapların basım teknikleri",
+                    "Tanrı'nın varlığının kanıtlanması",
+                    "Vahyin imkanı sorunu",
+                    "Ölüm sonrası yaşam düşüncesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din felsefesi dinlerin inanç esaslarını, vahyi ve Tanrı'nın varlığını sorgular; kutsal kitapların basım teknikleri gibi teknik ve pratik konular felsefenin alanı dışındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tanrı'nın varlığını reddeden ancak O'nun yerine doğayı veya evreni koyan felsefi görüş aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Agnostisizm",
+                    "Teizm",
+                    "Ateizm",
+                    "Deizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ateizm, Tanrı'nın varlığını açıkça reddeden görüştür. Diğer seçenekler Tanrı'nın varlığını kabul eder ya da askıya alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hem teizmi hem de ateizmi reddederek 'Tanrı'nın varlığı ya da yokluğu bilinemez' diyen düşünür hangi akımı temsil eder?",
+                  "options": [
+                    "Fatalizm",
+                    "Düalizm",
+                    "Agnostisizm",
+                    "Politeizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Agnostisizm (bilinemezcilik), insan zihninin mutlak varlığı kavrayamayacağını savunarak bu konuda kesin bir yargıya varılamayacağını belirtir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tanrı'nın evreni yarattıktan sonra onu kendi yasalarına bıraktığını, peygamber ve kitap göndermediğini savunan görüş hangisidir?",
+                  "options": [
+                    "Teizm",
+                    "Deizm",
+                    "Panteizm",
+                    "Panenteizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Deizm, yaratıcı bir Tanrı'yı kabul eder ancak vahiy, mucize ve dini kurumları reddeder; evrenin kendi işleyişine bırakıldığını savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi teizm inancının temel özelliklerinden biridir?",
+                  "options": [
+                    "Tanrı'nın evreni yarattıktan sonra ona karışmadığı inancı",
+                    "Tanrı ile evrenin aynı şey olduğu inancı",
+                    "Tanrı'nın varlığının kanıtlanamayacağı düşüncesi",
+                    "Tanrı'nın evreni yarattığı, vahiy gönderdiği ve evrene müdahale ettiği inancı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Teizm, kişisel bir Tanrı inancına dayanır; O'nun evreni yarattığını, evrenle sürekli ilişki içinde olduğunu ve peygamberler aracılığıyla buyruklar gönderdiğini kabul eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Din felsefesi dini olgulara karşı dogmatik değil, ____ bir tavır takınır.",
+                  "options": [
+                    "eleştirel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din felsefesi inançları körü körüne kabul etmez, onları akıl süzgecinden geçirerek eleştirel bir yaklaşımla inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanrı'nın varlığını reddeden felsefi görüşe ____ denir.",
+                  "options": [
+                    "ateizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ateizm kelime anlamı olarak tanrıtanımazlık demektir ve Tanrı'nın var olmadığını savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanrı ile evreni bir ve aynı kabul eden düşünce sistemine ____ adı verilir.",
+                  "options": [
+                    "panteizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Panteizmde her şey Tanrı'dır ve Tanrı doğanın kendisidir; ayrı bir yaratıcı varlık kabul edilmez.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsan zihninin Tanrı'nın varlığını ya da yokluğunu bilemeyeceğini savunan görüş ____ olarak adlandırılır.",
+                  "options": [
+                    "agnostisizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Agnostisizm, bilgi sınırlarının bu konuda yetersiz olduğunu öne sürer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanrı'nın evreni yaratıp onu kendi yasalarına terk ettiğini savunan anlayış ____ olarak bilinir.",
+                  "options": [
+                    "deizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deizm, müdahaleci olmayan bir yaratıcı anlayışını savunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Din felsefesi, özel bir dinin propagandasını yapmak amacıyla kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Din felsefesi herhangi bir dini savunmaz; tüm dinlere ve inançsızlık biçimlerine eşit mesafede yaklaşarak felsefi analiz yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Agnostisizm, Tanrı'nın varlığının bilinemeyeceğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Agnostisizmin temel iddiası, insan aklının Yaratıcı'nın varlığı ya da yokluğu hakkında kesin bilgiye ulaşamayacağıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Panteizm ve panenteizm kavramları tamamen aynı anlamı taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Panteizmde Tanrı ile evren özdeştir; panenteizmde ise Tanrı evreni aşar ve evren O'nun içinde yer alır, yani aralarında bir ayrım bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Teizm, Tanrı'nın evrene müdahale ettiğini ve vahiy gönderdiğini kabul eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teizm inancına göre Tanrı evrenle aktiftir, peygamberler ve kutsal kitaplar aracılığıyla insanlara rehberlik eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Din felsefesi ile teoloji tamamen aynı yöntem ve amaçlara sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Teoloji inanca dayalı ve dogmatiktir; din felsefesi ise akla dayalı ve eleştireldir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Siyaset Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Siyaset felsefesinin temel kavramları nelerdir?",
+                  "answer": "İktidar, meşruiyet, devlet, egemenlik, yasa, hak ve adalet."
+                },
+                {
+                  "question": "Meşruiyet nedir?",
+                  "answer": "İktidarın, halkın rızasına ve hukuka dayalı olması, haklı ve geçerli kabul edilmesidir."
+                },
+                {
+                  "question": "Devletin doğası hakkında 'doğal bir kurum' görüşünü savunan filozof kimdir?",
+                  "answer": "Aristoteles"
+                },
+                {
+                  "question": "Thomas Hobbes, devletin çıkış noktasını hangi kavramla açıklar?",
+                  "answer": "Toplum sözleşmesi"
+                },
+                {
+                  "question": "Ütopyalar kaça ayrılır ve türleri nelerdir?",
+                  "answer": "İkiye ayrılır: İstenilen (kurgusal) ütopyalar ve korku (distopya) ütopyaları."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi siyaset felsefesinin sorularından biri değildir?",
+                  "options": [
+                    "Maddenin özü nedir?",
+                    "İktidarın kaynağı nedir?",
+                    "İdeal bir düzen mümkün müdür?",
+                    "Devlet nasıl ortaya çıkmıştır?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maddenin özü nedir sorusu siyaset felsefesinin değil, varlık felsefesinin (ontoloji) temel sorularından biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Thomas Hobbes'a göre insanların devlet öncesi doğa durumunda birbiriyle savaş halinde olmasının temel sebebi nedir?",
+                  "options": [
+                    "İnsanın doğası gereği kötü ve bencil olması",
+                    "İnsanlar arasında eşitlik olmaması",
+                    "Toprakların yetersiz olması",
+                    "Yasaların yetersiz kalması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hobbes, 'İnsan insanın kurdudur' anlayışıyla insanın doğuştan bencil ve çıkar odaklı olduğunu savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bir distopya (korku ütopyası) örneğidir?",
+                  "options": [
+                    "Platon'un Devlet'i",
+                    "Thomas More'un Ütopya'sı",
+                    "George Orwell'ın 1984'ü",
+                    "Campanella'nın Güneş Ülkesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "George Orwell'ın 1984 romanı, gelecekteki baskıcı ve totaliter rejimleri eleştiren önemli bir distopya örneğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki filozoflardan hangisi devletin yapay bir kurum olduğunu ve toplum sözleşmesine dayandığını savunur?",
+                  "options": [
+                    "Aristoteles",
+                    "Farabi",
+                    "Jean-Jacques Rousseau",
+                    "Platon"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Rousseau, Hobbes ve Locke gibi düşünürler devletin doğal değil, insanların ortak iradesiyle kurulan yapay bir sözleşme ürünü olduğunu savunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Meşruiyetin ölçütünü hukuka ve halkın ortak iradesine dayandıran bir yönetim anlayışında aşağıdakilerden hangisi beklenir?",
+                  "options": [
+                    "Baskıcı ve merkeziyetçi uygulamalar",
+                    "Demokratik değerlerin ve insan haklarının korunması",
+                    "Tüm yetkinin tek bir kişide toplanması",
+                    "Yasaların kişiye göre esnetilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hukuka ve halkın iradesine dayanan meşru yönetimlerde insan hakları, özgürlükler ve demokrasi temel esastır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Devletin doğasını açıklarken onu bir aile gibi gören ve 'doğal bir kurum' olduğunu savunan antik çağ filozofu ____ dir.",
+                  "options": [
+                    "Aristoteles"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles insanı siyasi bir hayvan olarak tanımlar ve devletin ailenin büyümesiyle doğal olarak ortaya çıktığını savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İktidarın gücünü kullanırken halkın rızasına ve yasaya dayanmasına ____ denir.",
+                  "options": [
+                    "meşruiyet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Meşruiyet, iktidarın hukuki ve ahlaki olarak geçerli, kabul edilebilir olması durumudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gerçekleşmesi imkansız olan, geleceğe yönelik ideal toplum tasarımlarına ____ adı verilir.",
+                  "options": [
+                    "ütopya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ütopyalar, mevcut düzenin eleştirisini yaparak ideal bir toplum modeli çizen kurgusal tasarımlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Thomas More tarafından kaleme alınan ve ilk ütopya kabul edilen eserin adı ____ dir.",
+                  "options": [
+                    "Ütopya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Thomas More'un 1516 yılında yazdığı 'Ütopya' adlı eseri bu türün ilk örneğidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İktidarın kaynağını ilahi iradeye dayandıran yönetim anlayışına ____ denir.",
+                  "options": [
+                    "teokrasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teokrasi, din kurallarına dayanan ve yöneticilerin yetkisini Tanrı'dan aldığını savunan yönetim biçimidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Siyaset felsefesi, mevcut devlet biçimlerini incelemekle birlikte 'İdeal düzen nasıl olmalıdır?' sorusuna da yanıt arar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Siyaset felsefesi yalnızca var olanı ele almakla kalmaz, aynı zamanda değerler üzerine düşünerek ideal olanı da sorgular.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Liberalizm akımı, bireyin özgürlüğünü ve devletin ekonomiye müdahalesinin en üst düzeyde olmasını savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Liberalizm bireysel özgürlüğü savunur ancak devletin ekonomiye müdahalesinin minimum düzeyde olmasını (serbest piyasa ekonomisi) öngörür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Farabi'ye göre ideal devlet (Erdemli Şehir), insan mutluluğunu amaçlayan ve bilgiye dayanan bir yapıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi'nin Medinetül Fazıla (Erdemli Şehir) adlı eseri, mutluluğun bilgiyle ve erdemle sağlanacağı ideal devleti anlatır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Anarşizm, devletin ve otoritenin her türlüsünün gerekli ve vazgeçilmez olduğunu savunan bir felsefi görüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Anarşizm devletin ve her türlü otoritenin gereksiz, hatta zararlı olduğunu savunarak reddeder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplum sözleşmesi teorisyenleri, devletin doğuştan gelen ve değiştirilemez ilahi bir hakka dayandığını savunurlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplum sözleşmesi teorisyenleri (Hobbes, Locke, Rousseau) devletin ilahi bir hakla değil, bireylerin kendi iradeleriyle yaptıkları sözleşmeyle kurulduğunu savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Bilim Felsefesi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bilimi, var olanı açıklama ve anlama çabası olarak gören, onu bir birikim süreci olarak tanımlayan anlayış hangisidir?",
+                  "answer": "Ürün olarak bilim (geleneksel görüş)"
+                },
+                {
+                  "question": "Bilimi, bilim insanlarının oluşturduğu topluluğun etkinliği ve bir süreç olarak ele alan yaklaşım hangisidir?",
+                  "answer": "Etkinlik olarak bilim (modern görüş)"
+                },
+                {
+                  "question": "Thomas Kuhn'un bilim felsefesine kazandırdığı, bilim insanlarının ortak inanç ve yöntemler bütününe ne ad verilir?",
+                  "answer": "Paradigma"
+                },
+                {
+                  "question": "Karl Popper'ın bilimsel kuramların doğrulanabilir olmadığını, aksine yanlışlanabilir olması gerektiğini savunan görüşü nedir?",
+                  "answer": "Yanlışlanabilirlik"
+                },
+                {
+                  "question": "Bilimsel çalışmalarda tek bir yöntemin olmadığını, her türlü kuralın ihlal edilebileceğini savuran anarşist bilim felsefecisi kimdir?",
+                  "answer": "Paul Feyerabend"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bilim felsefesinin temel problemlerinden biri değildir?",
+                  "options": [
+                    "Bilimsel bilginin ayırt edici özelliği nedir?",
+                    "Bilimsel yöntem nasıl işler?",
+                    "Ahlaki eylemin amacı nedir?",
+                    "Bilim tarihi nasıl bir gelişim izler?"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ahlaki eylemin amacı felsefenin alt dalı olan etiket (ahlak felsefesi) konusudur. Diğer seçenekler bilim felsefesinin temel problemlerindendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Geleneksel bilim anlayışına göre bilimsel bilgi hangi temel ölçüte dayanarak kurulur?",
+                  "options": [
+                    "Doğrulanabilirlik",
+                    "Anarşizm",
+                    "Paradigma değişimi",
+                    "Sezgi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geleneksel görüş, bir önermenin bilimsel olabilmesi için olgusal olarak doğrulanabilir olmasını şart koşar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karl Popper'a göre bir önermenin ya da teorinin bilimsel sayılabilmesi için hangi özelliği taşıması gerekir?",
+                  "options": [
+                    "Hiçbir zaman yanlışlanamaması",
+                    "Yanlışlanabilir olması",
+                    "Mutlak doğruyu içermesi",
+                    "Duygulara hitap etmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Popper, tümevarımın yetersizliğini görerek bilimin ölçütü olarak doğrulanmayı değil, yanlışlanabilirliği savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Thomas Kuhn'un bilim anlayışında mevcut paradigmanın bunalıma girip yıkılması ve yerine yenisinin gelmesi sürecine ne denir?",
+                  "options": [
+                    "Kümülasyon",
+                    "Bilimsel devrim",
+                    "Metafizik",
+                    "Dogmatizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuhn'a göre bilim kesintisiz birikmez; olağan bilim dönemleri bunalımlarla kesilir ve bilimsel devrimler yoluyla yeni paradigma kurulur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bilimi olgusal dünya ile bağdaşan, duyusal verilerle test edilen bir etkinlik olarak gören yaklaşım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ontoloji",
+                    "İdealizm",
+                    "Rasyonalizm",
+                    "Olgucluk (Pozitivizm)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Pozitivizm ve mantıkçı pozitivizm, bilimin temelini olgulara ve deneylenebilir verilere dayandırır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bilim insanlarının ortak kabulleri, teorileri ve yöntemleri içeren çerçeveye ____ denir.",
+                  "options": [
+                    "paradigma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paradigma kavramı Thomas Kuhn tarafından bilim felsefesine kazandırılmış olup bilim topluluğunun ortak dünya görüşünü ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Popper'ın bilimsel bilgiyi ayırt etmek için öne sürdüğü temel ölçüt ____ ilkesidir.",
+                  "options": [
+                    "yanlışlanabilirlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Popper'a göre bir kuramın bilimsel olabilmesi için çürütülebilir (yanlışlanabilir) kapıya sahip olması gerekir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geleneksel bilim felsefesinde bilim, ürün olarak ele alınırken, modern felsefede ____ olarak ele alınır.",
+                  "options": [
+                    "etkinlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etkinlik olarak bilim anlayışı, bilimi sadece sonuçlarıyla değil, bilim insanlarının toplumsal ve kurumsal süreciyle birlikte inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilimsel bilginin birikimli olarak, üst üste eklenerek ilerlediğini savunan görüşe ____ denir.",
+                  "options": [
+                    "kümülasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kümülasyon birikim demektir ve geleneksel bilim anlayışının doğrusal ilerleme tezini açıklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Paul Feyerabend'in her türlü yöntemsel kurala karşı çıkarak savunduğu bilim felsefesi yaklaşımı ____ olarak adlandırılır.",
+                  "options": [
+                    "anarşizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yöntemsel anarşizm, bilimde tek bir doğru yöntem olmadığını, her şeyin mubah olduğunu savunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Geleneksel bilim anlayışına göre bilim, doğrusal ve birikimli olarak ilerleyen bir süreçtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ürün olarak bilim anlayışı, yeni bilgilerin eskilerin üzerine eklenerek büyüdüğünü savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Thomas Kuhn, bilimin her zaman tarafsız bir birikimle geliştiğini ve devrimlere gerek olmadığını savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuhn bilimin kesintisiz birikmediğini, olağan dönemlerin bunalımlar ve bilimsel devrimlerle kesintiye uğradığını savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karl Popper, doğrulanabilirlik ilkesini yetersiz bularak yerine yanlışlanabilirlik ilkesini getirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Popper, hiçbir sonlu gözlemin tümevarımla evrensel bir doğruyu tam olarak doğrulamayacağını öne sürerek yanlışlanabilirliği savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paul Feyerabend, bilimde tek bir evrensel bilimsel yöntemin var olduğunu ve herkesin buna uyması gerektiğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Feyerabend tam tersine epistemik anarşizmi savunarak tek bir yöntemin olmadığını belirtmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bilim felsefesi, bilimin doğasını, yöntemini, kavramlarını ve temel kabullerini eleştirel bir gözle inceleyen felsefe dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tanım bilim felsefesinin temel tanımıdır ve onun sorgulayıcı doğasını özetler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Felsefi Okuma ve Yazma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Felsefi Metin Okuma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefi metin okumada yazarın savını desteklemek için kullandığı dayanaklara ne ad verilir?",
+                  "answer": "Gerekçe veya argüman"
+                },
+                {
+                  "question": "Felsefi bir metni doğru anlamak için metnin hangi özelliğine dikkat edilmelidir?",
+                  "answer": "Kavramsal tutarlılık ve mantıksal örüntü"
+                },
+                {
+                  "question": "Felsefi okuma yaparken metindeki kavramların anlamlarını belirlemek neden önemlidir?",
+                  "answer": "Çünkü felsefede her filozof kavramları kendine özgü bir bağlamda kullanabilir."
+                },
+                {
+                  "question": "Bir felsefi metnin eleştirisinde ilk aşama nedir?",
+                  "answer": "Metni önyargısız ve tarafsız bir şekilde anlamaya çalışmak."
+                },
+                {
+                  "question": "Felsefi yazmada ana düşünceyi desteklemek için kullanılan temel yapı taşı nedir?",
+                  "answer": "Argüman"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Felsefi bir metin okunurken aşağıdakilerden hangisinin yapılması beklenmez?",
+                  "options": [
+                    "Metindeki temel argümanların tespit edilmesi",
+                    "Kavramların yazarın bağlamında nasıl kullanıldığının anlaşılması",
+                    "Metindeki savların sadece kişisel duygu ve beğenilere göre reddedilmesi",
+                    "Yazarın varmak istediği sonucun irdelenmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Felsefi okuma, duygusal tepkilerle değil, mantıksal temellendirme ve eleştirel süzgeçten geçirme ile yapılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi bir metin analizi sırasında yazarın kullandığı kavramların netleştirilmesi aşağıdakilerden hangisini sağlar?",
+                  "options": [
+                    "Felsefi sorgulamayı sonlandırmayı",
+                    "Yazarın ne demek istediğini doğru kavramayı",
+                    "Metnin anlamını daraltmayı",
+                    "Metni ezberlemeyi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kavram analizi, metnin doğru anlaşılması ve yanlış anlamaların önlenmesi için ilk adımdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi felsefi metin okumanın temel amaçlarından biridir?",
+                  "options": [
+                    "Metinde geçen olayları kronolojik olaraksıralamak",
+                    "Metindeki edebi sanatları incelemek",
+                    "Yazarın ortaya koyduğu problemleri ve çözüm yollarını anlamak",
+                    "Yazarın tüm fikirlerini hiçbir eleştiri getirmeden kabul etmek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Felsefi okuma, yazarın ele aldığı problemleri ve bu problemlere sunduğu argümanları kavramayı amaçlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir felsefi metnin inandırıcılığı öncelikle aşağıdakilerden hangisine dayanır?",
+                  "options": [
+                    "Kullanılan argümanların tutarlılığına ve dayanaklarına",
+                    "Metnin uzunluğuna",
+                    "Yazıldığı dönemin sanat anlayışına",
+                    "Yazarın popülaritesine"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefede metnin değeri, içerdiği argümanların sağlamlığı ve tutarlılığı ile ölçülür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi yazma sürecinde bir iddianın doğruluğunu kanıtlamak için sunulan önermeler dizisine ne denir?",
+                  "options": [
+                    "Sezgi",
+                    "Argüman",
+                    "Metafor",
+                    "Hipotez"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Argüman, öncüllerden sonuca giden mantıksal akıl yürütme zinciridir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Felsefi metin okurken yazarın ileri sürdüğü düşünceyi temellendirmek için kullandığı önermelere ____ denir.",
+                  "options": [
+                    "öncül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öncüller, argümanı oluşturan ve sonucu destekleyen temel önermelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi bir metni çözümleme sürecinde metnin arkasındaki gizli varsayımları ortaya çıkarmaya ____ analizi denir.",
+                  "options": [
+                    "kavram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavram analizi metnin dilini ve anlam dünyasını anlamada kilit rol oynar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi yazma çalışmalarında yazarın kendi görüşünü savunmak için karşı görüşleri çürütmesine ____ adı verilir.",
+                  "options": [
+                    "refütasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karşı görüşün çürütülmesi veya eleştirilmesi felsefi argümantasyonun önemli bir parçasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi metinlerde yazarın ulaştığı sonuca ____ denir.",
+                  "options": [
+                    "yargı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yargı, argümanların sonunda ulaşılan nihai iddiadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi okuma yapılırken metne önyargısız yaklaşma tutumuna ____ denir.",
+                  "options": [
+                    "objektiflik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Objektif okuma, metnin kendi bağlamı içinde değerlendirilmesini sağlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi metin okunurken yazarın duygularından çok, sunduğu akıl yürütmelere odaklanılmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefe akla ve mantıksal temellendirmeye dayanır, bu nedenle duygusal değil mantıksal analiz esastır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi yazma çalışmasında ana savın hiçbir gerekçeye dayanması gerekmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefi iddialar mutlaka gerekçelerle ve argümanlarla desteklenmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kavramların anlamı her filozofta aynı olduğu için felsefi metinlerde kavram analizi gereksizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Filozoflar kavramlara farklı anlamlar yükleyebilir, bu yüzden kavram analizi şarttır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi metin okuması, metnin yüzeysel anlamından ziyade derinlemesine bir anlam arayışını içerir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefi okuma, metnin satır aralarındaki mantıksal yapıları ve temel problemleri kavramayı amaçlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir felsefi metni eleştirirken öncelikle yazarın savunduğu tezlerin tutarlılığı incelenmelidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tutarlılık analizi, felsefi metin eleştirisinin temel ve ilk adımlarından biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Felsefi Yazma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Felsefi yazının temel amacı nedir?",
+                  "answer": "Bir düşünceyi mantıksal tutarlılık içinde savunmak ve temellendirmek."
+                },
+                {
+                  "question": "Felsefi bir metinde argüman ne anlama gelir?",
+                  "answer": "Bir iddianın önermelerle desteklenerek kanıtlanmaya çalışılması süreci."
+                },
+                {
+                  "question": "Felsefi okuma sırasında öncelikle ne aranmalıdır?",
+                  "answer": "Yazarın ana savı ve bu savı destekleyen dayanaklar."
+                },
+                {
+                  "question": "Felsefi yazmada kullanılan kavramsal analiz nedir?",
+                  "answer": "Kullanılan temel terimlerin anlam sınırlarının netleştirilmesi."
+                },
+                {
+                  "question": "Felsefi yazım dilinde hangi özellik ön plandadır?",
+                  "answer": "Nesnellik, açıklık ve mantıksal tutarlılık."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Felsefi bir yazıda aşağıdakilerden hangisinin bulunması en az beklenir?",
+                  "options": [
+                    "Öznelliğe dayalı kesin hükümler",
+                    "Kavramsal netlik",
+                    "Temellendirilmiş argümanlar",
+                    "Mantıksal tutarlılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefi yazılar kişisel kanaatleri kesin birer doğruymuş gibi sunmaz; aksine mantıksal dayanaklara ve argümanlara dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi metin okuma sürecinde yazarın argümanlarını anlamak için ilk olarak ne yapılmalıdır?",
+                  "options": [
+                    "Yazarın biyografisi incelenmelidir",
+                    "Yazının yazıldığı tarih araştırılmalıdır",
+                    "Metindeki tüm kelimeler ezberlenmelidir",
+                    "Metnin ana problemi tespit edilmelidir"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Felsefi okumada doğru analiz yapabilmek için öncelikle yazarın hangi probleme çözüm aradığını veya hangi soruyu yanıtladığını bulmak gerekir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi yazma sürecinde 'temellendirme' kavramı aşağıdakilerden hangisini ifade eder?",
+                  "options": [
+                    "Yalnızca kendi inançlarını yineleme",
+                    "İddiaları gerekçelendirme ve dayanak sunma",
+                    "Metni süslü ve edebi sanatlarla donatma",
+                    "Farklı görüşleri tamamen reddetme"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Temellendirme, ileri sürülen bir görüşün dayanaklarını ve mantıksal gerekçelerini ortaya koyma işlemidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir felsefe metnini eleştirel okurken aşağıdakilerden hangisine dikkat edilmelidir?",
+                  "options": [
+                    "Önermelerin kendi içinde çelişip çelişmediğine",
+                    "Yazarın kullandığı fontun uygunluğuna",
+                    "Metnin sayfa sayısının fazlalığına",
+                    "Yazının güncel popüler kültürle ilişkisine"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eleştirel okuma, metnin iç tutarlılığını ve kullanılan önermeler arasındaki mantıksal bağları sorgulamayı gerektirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Felsefi metin yazımında 'kavramsal analiz' neden önemlidir?",
+                  "options": [
+                    "Kelimelerin anlam karışıklığını önlemek için",
+                    "Yazıyı uzun ve okunmaz hale getirmek için",
+                    "Sadece edebi bir üslup yakalamak için",
+                    "Bilimsel formüller üretmek için"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Felsefede kavramlar argümanların yapı taşlarıdır; bu yüzden terimlerin ne anlama geldiğinin netleştirilmesi yanlış anlamaları önler.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Felsefi bir yazıda öne sürülen düşüncenin dayanaklarını gösterme işlemine ____ denir.",
+                  "options": [
+                    "temellendirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Temellendirme, bir yargının doğruluğunu gerekçeler ve kanıtlarla destekleme sürecidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi metinlerin en belirgin özelliklerinden biri, önermelerin kendi aralarında çelişmemesi yani ____ olmasıdır.",
+                  "options": [
+                    "tutarlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tutarlılık, felsefi akıl yürütmenin geçerliliği için temel bir zorunluluktur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi okuma sürecinde yazarın iletmek istediği temel düşünceyi bulmak için ____ analizi yapılmalıdır.",
+                  "options": [
+                    "argüman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Argüman analizi, yazarın iddialarını hangi kanıtlara dayandırdığını görmek için yapılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi yazma çalışmasında kullanılan terimlerin anlamlarını belirleme sürecine kavramsal ____ adı verilir.",
+                  "options": [
+                    "analiz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramsal analiz, felsefi metinlerdeki kavramların sınırlarını ve ne anlama geldiğini açıklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Felsefi bir görüşü savunurken dayanak oluşturan önermelere ____ denir.",
+                  "options": [
+                    "öncül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öncüller, sonucu desteklemek için kullanılan temel önermelerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Felsefi yazılar yalnızca şairane bir üslup taşımalı ve mantıksal tutarlılık aranmamalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefi yazılar edebi metinlerden farklı olarak duygusal ifadelere değil, mantıksal tutarlılığa ve argümanlara dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi metin okumasında yazarın öne sürdüğü savların gerekçeleri incelenmelidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyi bir felsefi okuma, yazarın argümanlarını ve bu argümanların dayandığı gerekçeleri anlamayı hedefler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kavramsal analiz, felsefi yazılarda kavramların anlam karışıklığını gidermek için yapılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramların doğru ve net kullanılması felsefi iletişimin ve tutarlılığın temel koşuludur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Felsefi yazmada iddia edilen düşüncelerin temellendirilmesine gerek yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Felsefede her iddia gerekçelendirilmek ve temellendirilmek zorundadır; temellendirilmemiş görüşler felsefi değer taşımaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eleştirel okuma, felsefi metindeki argümanların geçerliliğini sorgulamayı kapsar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eleştirel okuyucu, metni doğrudan kabul etmek yerine mantıksal hataları ve güçlü yönleri analiz eder.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

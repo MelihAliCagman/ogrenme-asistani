@@ -1,0 +1,2655 @@
+{
+  "subjectKey": "tyt_fizik",
+  "title": "TYT Fizik",
+  "examType": "YKS",
+  "subject": "Fizik",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Fizik Bilimine Giriş",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fizik Biliminin Önemi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fizik kelimesinin kökeni hangi dilden gelmektedir?",
+                  "answer": "Gözlem ve doğa anlamına gelen Grekçe 'physika' kelimesinden gelmektedir."
+                },
+                {
+                  "question": "Fizik bilimi neyi inceler?",
+                  "answer": "Madde ve enerji arasındaki ilişkileri, evrendeki doğal olayları ve bu olayların arkasındaki yasaları inceler."
+                },
+                {
+                  "question": "Fizigin alt dallarından ikisi nedir?",
+                  "answer": "Mekanik ve termodinamik."
+                },
+                {
+                  "question": "Fizik biliminin teknolojinin gelişimine katkısı nedir?",
+                  "answer": "Keşfedilen yasalar ve prensipler, yeni cihazların ve mühendislik sistemlerinin üretilmesine temel oluşturur."
+                },
+                {
+                  "question": "Fizik diğer bilim dallarıyla ilişkili midir?",
+                  "answer": "Evet, kimya, biyoloji, astronomi ve mühendislik gibi birçok disiplinle doğrudan ilişkilidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi fizik biliminin inceleme alanına girmez?",
+                  "options": [
+                    "Işığın yayılması ve kırılması",
+                    "Canlıların kalıtsal özelliklerinin nesilden nesile aktarılması",
+                    "Gezegenlerin hareketleri ve çekim kuvveti",
+                    "Elektrik akımı ve mıknatıslanma"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Canlıların kalıtsal özelliklerini ve genetik yapısını biyoloji bilimi inceler, fizik biliminin doğrudan inceleme alanına girmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fizik bilimi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Doğadaki olayları anlamaya çalışır.",
+                    "Ulaştığı sonuçlar zamanla değişmez ve mutlak olarak asla güncellenmez.",
+                    "Gözlem ve deneye dayalı bir bilim dalıdır.",
+                    "Teknolojik gelişmelerin temelini oluşturur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fizik bilimi dinamiktir; elde edilen yeni deney ve gözlem sonuçlarıyla teoriler güncellenebilir veya değiştirilebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki meslek gruplarından hangisi doğrudan fizik bilimi ilkelerinden en az yararlanır?",
+                  "options": [
+                    "İnşaat mühendisliği",
+                    "Astronomi",
+                    "Moda tasarımı",
+                    "Tıbbi görüntüleme uzmanlığı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Moda tasarımı estetik ve tekstil odaklıdır; inşaat, astronomi ve tıbbi görüntüleme ise fizik prensiplerini yoğun olarak kullanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fizik biliminin temel amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sadece ekonomik kazanç sağlayan ürünler üretmek",
+                    "Geçmişteki tarihi olayları incelemek",
+                    "Evrendeki olayları kurallara bağlamak ve açıklamak",
+                    "Canlı türlerini sınıflandırmak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fizik, doğadaki olayları gözlem ve deney yoluyla inceleyerek evreni yöneten temel yasaları bulmayı amaçlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki fizik alt dallarından hangisi kuvvet, hareket ve denge konularını inceler?",
+                  "options": [
+                    "Optik",
+                    "Mekanik",
+                    "Atom fiziği",
+                    "Termodinamik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mekanik, kuvvet etkisi altındaki cisimlerin hareketini ve dengesini inceleyen fizik alt dalıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Madde ve enerji arasındaki etkileşimi inceleyen, doğa olaylarına akılcı açıklamalar getiren temel bilim dalına ____ denir.",
+                  "options": [
+                    "fizik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik, madde, enerji ve bunların arasındaki ilişkiyi inceleyen temel pozitif bilimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Teknolojinin temelini oluşturan cihazların ve makinelerin geliştirilmesinde ____ biliminden büyük ölçüde yararlanılır.",
+                  "options": [
+                    "fizik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik yasaları, mühendislik ve teknolojide kullanılan araçların çalışma prensiplerini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fizik kelimesi köken olarak doğa anlamına gelen ____ kelimesinden türetilmiştir.",
+                  "options": [
+                    "physika"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik teriminin kökeni Grekçe doğa ve doğasal anlamına gelen physika sözcüğüne dayanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fizik bilimi yalnızca laboratuvar ortamında yapılan çalışmalarla sınırlıdır ve günlük hayatta karşılığı yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fizik günlük hayatımızın her alanında (yürümekten araba kullanmaya kadar) karşımıza çıkar, sadece laboratuvarla sınırlı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fizik bilimi elde ettiği sonuçları deney ve gözlemlerle test edilebilir kılmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik pozitif bir bilimdir ve ortaya koyduğu teoriler deneylerle sınanabilir ve doğrulanabilir olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fizik bilimi diğer bilim dallarından tamamen bağımsızdır ve hiçbir ortak çalışma alanı yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fizik; kimya, biyoloji, tıp ve coğrafya gibi pek çok bilim dalıyla yakın ilişki içerisindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gelişen fizik bilgileri, yeni teknolojilerin ve hayatı kolaylaştıran buluşların ortaya çıkmasını sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizikteki teorik ve deneysel gelişmeler doğrudan teknolojiye aktarılarak yeni ürünlerin geliştirilmesine öncülük eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fizik biliminin ulaştığı yasalar zamanla değişemez, ilk konulduğu haliyle mutlak ve son halidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bilimsel bilgi dinamiktir; yeni teknoloji ve deneylerle mevcut yasalar güncellenebilir veya kapsamı genişletilebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Fiziğin Uygulama Alanları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fiziğin alt dallarından optik hangi temel konuyu inceler?",
+                  "answer": "Işık, ışık olayları ve görme olayını inceler."
+                },
+                {
+                  "question": "Mekanik alt dalı hangi konularla ilgilenir?",
+                  "answer": "Kuvvet, hareket ve denge konularıyla ilgilenir."
+                },
+                {
+                  "question": "Termodinamik alt dalı neleri inceler?",
+                  "answer": "Isı, sıcaklık ve enerji alışverişini inceler."
+                },
+                {
+                  "question": "Elektromanyetizma alt dalının ana inceleme alanları nelerdir?",
+                  "answer": "Elektrik, manyetizma ve bu ikisinin ilişkisini inceler."
+                },
+                {
+                  "question": "Atom fiziği neyi inceler?",
+                  "answer": "Atomların yapısını, enerji düzeylerini ve atomlar arası bağları inceler."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi fiziğin alt dallarından biri değildir?",
+                  "options": [
+                    "Sitoloji",
+                    "Termodinamik",
+                    "Mekanik",
+                    "Optik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sitoloji biyolojinin alt dalıdır (hücre bilimi). Mekanik, optik ve termodinamik ise fiziğin alt dallarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gökdelenlerin ve köprülerin dayanıklılığı fiziğin hangi alt dalının ilgi alanına girer?",
+                  "options": [
+                    "Mekanik",
+                    "Nükleer Fizik",
+                    "Optik",
+                    "Atom Fiziği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet, hareket ve denge ile ilgilenen mekanik, yapıların dayanıklılığı ve statik hesaplamalarında doğrudan kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki olaylardan hangisi optik alt dalının inceleme alanına girer?",
+                  "options": [
+                    "Mıknatısların demiri çekmesi",
+                    "Klimaların çalışma prensibi",
+                    "Radyoaktif bozunumlar",
+                    "Gökkuşağının oluşumu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Gökkuşağı ışığın kırılması, yansıması ve renklerine ayrılması olayları ile ilgilidir, bu da optiğin konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akıllı telefonların dokunmatik ekranları ve yarı iletken teknolojisi fiziğin hangi alt dalı ile doğrudan ilişkilidir?",
+                  "options": [
+                    "Katıhal Fiziği",
+                    "Termodinamik",
+                    "Mekanik",
+                    "Yüksek Enerji ve Plazma Fiziği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katıhal fiziği, kristal yapıdaki maddelerin ve yarı iletken malzemelerin elektronik özelliklerini inceler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Güneş'in içindeki enerji üretim mekanizmaları ve çekirdek tepkimeleri fiziğin hangi alt dalının konusudur?",
+                  "options": [
+                    "Optik",
+                    "Nükleer Fizik",
+                    "Termodinamik",
+                    "Mekanik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atom çekirdeğinin yapısını ve çekirdek tepkimelerini inceleyen alt dal nükleer fiziktir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Isı, sıcaklık ve ısı enerjisinin madde ile etkileşimini inceleyen fizik alt dalına ____ denir.",
+                  "options": [
+                    "Termodinamik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Termodinamik, ısı ve sıcaklık olaylarını, enerji dönüşümlerini inceleyen fizik dalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Lazer teknolojisi, fiber optik kablolar ve merceklerin çalışması fiziğin ____ alt dalı kapsamındadır.",
+                  "options": [
+                    "Optik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Optik, ışığın doğasını ve yayılmasını inceleyerek bu teknolojilerin gelişimine öncülük eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gezegenlerin hareketleri, uydu yörüngeleri ve makinelerin çalışma ilkeleri ____ alt dalı ile açıklanır.",
+                  "options": [
+                    "Mekanik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mekanik, hareket ve kuvvet yasalarını incelediği için astronomi ve mühendislikte sıkça kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Maddenin plazma halini ve evrendeki yüksek enerjili süreçleri inceleyen dal ____ fiziğidir.",
+                  "options": [
+                    "Plazma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüksek enerji ve plazma fiziği, iyonize olmuş gaz halini ve evrenin ilk anlarını inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Doğada gerçekleşen olayların temelinde fizik, kimya ve biyoloji gibi ____ bilimler yer alır.",
+                  "options": [
+                    "Temel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik, kimya ve biyoloji doğa bilimlerinin temelini oluşturan üç ana disiplindir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fizik bilimi yalnız laboratuvarda yapılan deneylerle sınırlıdır, günlük hayatla ilgisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fizik bilimi günlük hayatımızdaki neredeyse tüm doğa olayları ve teknolojilerle doğrudan ilişkilidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Katıhal fiziği, elektronik malzemelerin ve nano teknolojinin gelişmesinde önemli rol oynar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katıhal fiziği kristal yapılı maddelerin mikroskobik özelliklerini inceleyerek yarı iletken ve nano teknolojilere katkı sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nükleer fizik, sadece atomun elektron bulutuyla ilgilenir, çekirdeği incelemez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atomun çekirdeğini nükleer fizik inceler; elektron bulutu ve enerji düzeyleri ise atom fiziğinin konusudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fizik, diğer disiplinlerle (biyoloji, kimya, coğrafya vb.) ortak çalışmalar yürüten merkezi bir bilim dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizik diğer bilim dallarına temel oluşturur; örneğin biyofizik veya jeofizik gibi ortak alanlar bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Termodinamik alt dalı sadece soğuk hava depolarını inceler, sıcaklıkla ilgilenmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Termodinamik hem ısı hem sıcaklık kavramlarını ve bunların maddeyle etkileşimini geniş bir şekilde inceler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Fiziksel Niceliklerin Sınıflandırılması",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fiziksel nicelikler temel ve türetilmiş olarak kaç gruba ayrılır?",
+                  "answer": "İki gruba ayrılır: Temel büyüklükler ve türetilmiş büyüklükler."
+                },
+                {
+                  "question": "SI birim sisteminde temel büyüklük olan akım şiddetinin birimi nedir?",
+                  "answer": "Amper"
+                },
+                {
+                  "question": "Kütle büyüklüğü skaler midir yoksa vektörel midir?",
+                  "answer": "Skaler büyüklüktür."
+                },
+                {
+                  "question": "Türetilmiş büyüklüklere örnek olarak verilen kuvvetin SI birimi nedir?",
+                  "answer": "Newton"
+                },
+                {
+                  "question": "Işık şiddetinin SI birimi nedir?",
+                  "answer": "Kandela"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki fiziksel niceliklerden hangisi temel büyüklüktür?",
+                  "options": [
+                    "Kuvvet",
+                    "Enerji",
+                    "Sıcaklık",
+                    "Hız"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sıcaklık, SI birim sisteminde temel büyüklükler arasında yer alır. Kuvvet, hız ve enerji ise türetilmiş büyüklüklerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi türetilmiş bir büyüklüktür?",
+                  "options": [
+                    "Zaman",
+                    "Basınç",
+                    "Kütle",
+                    "Madde miktarı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Basınç, kuvvet ve yüzey alanı gibi temel büyüklükler kullanılarak türetilmiştir. Kütle, zaman ve madde miktarı temel büyüklüklerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uluslararası Birim Sistemi'nde (SI) uzunluk birimi olarak aşağıdakilerden hangisi kullanılır?",
+                  "options": [
+                    "Kilogram",
+                    "Kelvin",
+                    "Metre",
+                    "Saniye"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "SI birim sisteminde uzunluğun birimi metre, kütlenin kilogram, zamanın saniye ve sıcaklığın birimi kelvindir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki fiziksel nicelik ve birim eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Zaman - Saniye",
+                    "Akım şiddeti - Amper",
+                    "Işık şiddeti - Lümen",
+                    "Sıcaklık - Kelvin"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Işık şiddetinin SI birimi Kandela'dır. Lümen akı birimidir. Diğer eşleştirmeler doğrudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki niceliklerden hangisi hem skaler hem de türetilmiş bir büyüklüktür?",
+                  "options": [
+                    "Yer değiştirme",
+                    "Sürat",
+                    "Kuvvet",
+                    "Hız"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürat, alınan yolun zamana bölünmesiyle bulunur ve türetilmiş bir büyüklüktür; yönü olmadığı için skalerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tek başına anlam ifade eden ve başka büyüklüklerin yardımıyla ifade edilmeyen büyüklüklere ____ büyüklük denir.",
+                  "options": [
+                    "temel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği başka büyüklüklere ihtiyaç duymayan nicelikler temel büyüklük olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kütle, SI birim sisteminde ____ birimiyle ifade edilir.",
+                  "options": [
+                    "kilogram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "SI birim sisteminde kütle birimi kilogramdır ve kısaltması kg'dır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yönü, doğrusu, başlangıç noktası ve şiddeti olan büyüklüklere ____ büyüklük denir.",
+                  "options": [
+                    "vektörel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sadece sayı ve birimle ifade edilemeyen, yönü de olan nicelikler vektörel büyüklüklerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hacim büyüklüğü, uzunluk ölçüleri kullanılarak elde edildiği için ____ bir büyüklüktür.",
+                  "options": [
+                    "türetilmiş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacim, temel büyüklük olan uzunluğun küpü alınarak türetilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zaman ölçmek için kullanılan SI birim sistemindeki araç saniye birimini veren ____ tür.",
+                  "options": [
+                    "kronometre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zamanın SI birimi saniyedir ve laboratuvarda süre ölçümü için kronometre kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kuvvet, skaler bir büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuvvetin yönü olduğu için vektörel bir büyüklüktür, skaler değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akım şiddeti temel bir büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akım şiddeti, SI birim sistemindeki yedi temel büyüklükten biridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hız, türetilmiş ve vektörel bir büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hız, yer değiştirmenin zamana oranıyla türetilir ve yönlü bir niceliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıcaklık birimi olarak günlük hayatta kullanılan Celsius, SI birim sistemindeki temel birimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "SI birim sisteminde sıcaklık için temel birim Kelvin'dir, Celsius değil.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm temel büyüklükler aynı zamanda skaler büyüklüklerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yedi temel büyüklüğün hiçbiri yön içermez; bu nedenle hepsi skalerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Bilim Araştırma Merkezleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'deki nükleer enerji ve nükleer teknoloji çalışmaları yürüten başlıca kurum hangisidir?",
+                  "answer": "TÜMAS"
+                },
+                {
+                  "question": "Avrupa Nükleer Araştırma Merkezi'nin kısaltılmış uluslararası adı nedir?",
+                  "answer": "CERN"
+                },
+                {
+                  "question": "ABD'de uzay ve havacılık çalışmaları yürüten merkezi araştırma kuruluşu hangisidir?",
+                  "answer": "NASA"
+                },
+                {
+                  "question": "Türkiye'nin uzay teknolojileri alanında araştırmalar yapan ve uydular üreten kurumu hangisidir?",
+                  "answer": "TÜBİTAK UZAY"
+                },
+                {
+                  "question": "Avrupa Uzay Ajansı'nın kısaltılmış uluslararası adı nedir?",
+                  "answer": "ESA"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Türkiye'de bilim ve teknoloji alanında ar-ge faaliyetlerini destekleyen ve koordine eden temel kuruluştur?",
+                  "options": [
+                    "NASA",
+                    "CERN",
+                    "TAEK",
+                    "TÜBİTAK"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK), ülkemizde bilim ve teknoloji politikalarını belirleyen ve araştırmaları destekleyen ana kurumdur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünyanın en büyük parça hızlandırıcısına ev sahipliği yapan ve parçacık fiziği araştırmaları yürüten CERN hangi ülkenin sınırları içerisindedir?",
+                  "options": [
+                    "İngiltere",
+                    "ABD",
+                    "Fransa ve İsviçre sınırında",
+                    "Almanya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "CERN, Fransa ve İsviçre sınırına yakın bir bölgede Cenevre yakınlarında yer almaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki araştırma merkezlerinden hangisi uzay ve havacılık alanında çalışmalar yapmaz?",
+                  "options": [
+                    "ESA",
+                    "TÜBİTAK UZAY",
+                    "NASA",
+                    "CERN"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "CERN bir nükleer araştırma merkezidir ve parçacık fiziği üzerine çalışır; NASA, ESA ve TÜBİTAK UZAY ise uzay araştırmaları yapar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin ilk yerli gözlem uydularından olan RASAT ve GÖKTÜRK gibi projelerde rol oynayan ve uzay teknolojileri üreten araştırma merkezi hangisidir?",
+                  "options": [
+                    "CERN",
+                    "TAEK",
+                    "TENMAK",
+                    "TÜBİTAK UZAY"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "TÜBİTAK UZAY, Türkiye'nin uydu teknolojileri ve uzay araştırmaları konusunda öncü araştırma enstitüsüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bilim araştırma merkezlerinin temel amaçları arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Ülkelerin stratejik bilim politikalarına katkı sağlamak",
+                    "Teknolojik yenilikler yapmak",
+                    "Sadece ticari ürün satarak kar elde etmek",
+                    "Bilimsel bilgiyi üretmek ve geliştirmek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bilim araştırma merkezleri ticari kar amacı gütmeyen, bilimsel ve teknolojik gelişmeyi hedefleyen kurumlardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Parçacık fiziği üzerine araştırmalar yapmak amacıyla kurulan uluslararası laboratuvar ____ olarak adlandırılır.",
+                  "options": [
+                    "CERN"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "CERN, evrenin yapısını anlamak için yüksek enerjili parçacık çarpışmaları yapan uluslararası bir araştırma merkezidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de nükleer enerji ve maden teknolojileri alanında faaliyet gösteren güncel kurum ____ merkezidir.",
+                  "options": [
+                    "TENMAK"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye Nükleer Enerji, Maden ve Teknolojileri Kurumu (TENMAK), ilgili alanda araştırmalar yürüten ulusal bir kurumdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uzay ve havacılık alanındaki çalışmalarıyla bilinen ABD merkezli ajans ____ kısaltmasıyla tanınır.",
+                  "options": [
+                    "NASA"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NASA, Amerika Birleşik Devletleri'nin uzay programından sorumlu resmi devlet ajansıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "CERN yalnızca Türkiye'nin ortaklığıyla kurulmuş ulusal bir nükleer araştırma merkezidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "CERN çok sayıda üye ülkenin katılımıyla kurulmuş uluslararası bir araştırma merkezidir, sadece Türkiye'ye ait değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "NASA, uzay ve havacılık alanında araştırmalar yürüten bir Amerikan devlet kurumudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NASA, ABD'nin uzay ve havacılık programlarını yürüten resmi federal ajansıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bilim araştırma merkezleri sadece bireysel evsel kullanıcılar için günlük eşyalar tasarlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bilim araştırma merkezleri evsel eşya tasarımı yerine temel bilimler, teknoloji ve evrenin sırları gibi büyük ölçekli araştırmalar yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "TÜBİTAK UZAY, Türkiye'nin uydu ve uzay teknolojileri geliştiren araştırma enstitülerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "TÜBİTAK UZAY, ülkemizin uydu projelerini yürüten ve uzay teknolojileri geliştiren köklü bir kurumdur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm bilim araştırma merkezleri yalnızca askeri silah üretimi amacıyla faaliyet gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bilim araştırma merkezlerinin temel amacı askeri üretim değil, evrensel bilimi ve barışçıl teknolojileri geliştirmektir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Madde ve Özellikleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Madde ve Özkütle",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Maddenin ortak özellikleri nelerdir?",
+                  "answer": "Kütle, hacm, eylemsizlik ve tanecikli yapı."
+                },
+                {
+                  "question": "Özkütle (yoğunluk) hangi harfle gösterilir ve birimi nedir?",
+                  "answer": "d veya rho harfi ile gösterilir, SI birimi kilogram/metreküptür."
+                },
+                {
+                  "question": "Sıcaklığı artırılan bir katının özkütlesi genellikle nasıl değişir?",
+                  "answer": "Hacmi arttığı için özkütlesi genellikle azalır."
+                },
+                {
+                  "question": "Kütle ve hacim grafiğinin eğimi neyi verir?",
+                  "answer": "Özkütleyi verir."
+                },
+                {
+                  "question": "Ortak özellikler ile ayırt edici özellikler arasındaki temel fark nedir?",
+                  "answer": "Ortak özellikler tüm maddelerde bulunurken, ayırt edici özellikler maddeleri birbirinden ayırır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sabit sıcaklık ve basınç altında bulunan saf bir X maddesinin kütlesi artırılırsa, özkütlesi nasıl değişir?",
+                  "options": [
+                    "Artar",
+                    "Azalır",
+                    "Değişmez",
+                    "Önce artar sonra azalır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Saf maddelerin özkütlesi, sabit sıcaklık ve basınçta kütle veya hacim değişiminden etkilenmez, sabit kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi maddeler için ayırt edici bir özelliktir?",
+                  "options": [
+                    "Eylemsizlik",
+                    "Özkütle",
+                    "Kütle",
+                    "Hacim"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kütle, hacim ve eylemsizlik tüm maddelerin ortak özellikleriyken, özkütle maddeler için ayırt edici bir özelliktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kütlesi 60 gram ve hacmi 20 santimetreküp olan saf bir sıvının özkütlesi kaç gram/santimetreküp olur?",
+                  "options": [
+                    "3",
+                    "1200",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özkütle formülü d = m / V şeklindedir. Değerler yerine konulduğunda d = 60 / 20 = 3 gram/santimetreküp bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hangi haldeki maddelerin belirli bir şekli olmasa da belirli bir hacmi vardır?",
+                  "options": [
+                    "Gaz",
+                    "Katı",
+                    "Sıvı",
+                    "Plazma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sıvılar akışkan olduklarından belirli bir şekilleri yoktur ancak konuldukları kabın bir kısmını doldurarak belirli bir hacme sahip olurlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kaptaki sıvının sıcaklığı artırıldığında hacmi 40 santimetreküpten 50 santimetreküpe çıkıyor. Bu olay sırasında sıvının kütlesi değişmediğine göre özkütlesi için ne söylenebilir?",
+                  "options": [
+                    "Artmıştır",
+                    "Azalmıştır",
+                    "Değişmemiştir",
+                    "Önce azalmış sonra artmıştır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kütle sabit kalırken hacim arttığı için d = m / V bağıntısına göre özkütle değeri azalmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Birim hacimdeki madde miktarına ____ denir.",
+                  "options": [
+                    "özkütle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özkütle tanımı gereği birim hacme düşen kütle miktarı olarak ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Katı maddelerin molekülleri arasındaki boşluklar sıvı ve gazlara göre yok denecek kadar ____.",
+                  "options": [
+                    "azdır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katı maddelerde tanecikler birbirine çok yakın olduğundan aralarındaki boşluk minimum düzeydedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Saf maddelerin özkütlesi ayırt edici bir ____ özelliktir.",
+                  "options": [
+                    "fiziksel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özkütle, maddenin kimliğini değiştirmeyen fiziksel ve ayırt edici bir özelliktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uluslararası birim sisteminde (SI) özkütle birimi kilogram bölü metreküp olarak ifade ____.",
+                  "options": [
+                    "edilir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "SI birim sisteminde kütle birimi kg, hacim birimi m3 olduğu için özkütle kg/m3 olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bütün maddelerin ortak özelliklerinden biri de eylemsizliktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylemsizlik, kütlesi olan tüm maddelerin ortak özelliklerinden biridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Özkütle sadece katı maddeler için ayırt edici bir özelliktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Özkütle katıların yanı sıra sıvılar ve gazlar için de ayırt edici bir özelliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sabit sıcaklıktaki bir maddenin kütlesi iki katına çıkarsa hacmi de iki katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit sıcaklık ve basınçta özkütle sabit kaldığı için kütle ile hacim doğru orantılı olarak artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazların belirli bir şekli ve belirli bir hacmi vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gazların ne belirli bir şekli ne de belirli bir hacmi vardır; içinde bulundukları kabı tamamen doldururlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kütle, maddeler için ayırt edici bir özellik değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kütle tüm maddelerde bulunan ortak bir özelliktir, bu yüzden ayırt edici değildir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dayanıklılık",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dayanıklılık kavramı hangi tür kuvvetlere karşı gösterilen direnci ifade eder?",
+                  "answer": "Dış etkilere ve kopmaya karşı gösterilen dirençtir."
+                },
+                {
+                  "question": "Düzgün geometrik şekle sahip katı cisimlerde dayanıklılık formülü nedir?",
+                  "answer": "Kesit alanının hacme oranı veya 1 / h (yükseklik)."
+                },
+                {
+                  "question": "Bir küpün kenar uzunluğu 2 katına çıkarılırsa dayanıklılığı nasıl değişir?",
+                  "answer": "Yarıya iner."
+                },
+                {
+                  "question": "Boyutları aynı oranda artırılan benzer katı cisimlerde dayanıklılık artar mı, azalır mı?",
+                  "answer": "Azalır."
+                },
+                {
+                  "question": "Katıların dayanıklılığı cismin yapıldığı maddenin cinsine bağlı mıdır?",
+                  "answer": "Evet, maddenin sağlamlık özelliğine bağlıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Boyutları artırılan katı bir cismin dayanıklılığı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Boyutlar büyüdükçe dayanıklılık azalır.",
+                    "Boyutlar büyüdükçe dayanıklılık artar.",
+                    "Boyutlar değiştikçe dayanıklılık sabit kalır.",
+                    "Dayanıklılık yalnızca sıcaklığa bağlıdır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düzgün geometrik cisimlerde dayanıklılık 1 / h ile ifade edilir. Cisim büyüdükçe yüksekliği (h) artacağından dayanıklılık azalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüksekliği h olan silindir şeklindeki bir katı cismin dayanıklılığı D'dir. Bu cismin yüksekliği 3h yapılırsa dayanıklılığı kaç D olur?",
+                  "options": [
+                    "D / 3",
+                    "9D",
+                    "3D",
+                    "D / 9"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dayanıklılık yükseklikle ters orantılıdır. Yükseklik 3 katına çıktığında dayanıklılık üçte birine iner ve D / 3 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi katı cisimlerde dayanıklılığı hesaplarken kullanılan orandır?",
+                  "options": [
+                    "Ağırlık / Özkütle",
+                    "Kesit alanı / Hacim",
+                    "Kütle / Hacim",
+                    "Hacim / Kesit alanı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Katıların dayanıklılığı, cismin kesit alanının hacmine oranlanmasıyla bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunluğu a olan küp şeklindeki bir cismin dayanıklılığı D'dir. Aynı maddeden yapılmış kenar uzunluğu 2a olan küpün dayanıklılığı kaç D olur?",
+                  "options": [
+                    "D / 2",
+                    "2D",
+                    "D / 4",
+                    "4D"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küpün dayanıklılığı 1 / a bağıntısı ile bulunur. Kenar uzunluğu 2 katına çıkarsa dayanıklılık 1 / 2 oranında azalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Canlıların boyutları ile dayanıklılıkları arasındaki ilişki göz önüne alındığında, fil ile karınca karşılaştırıldığında hangisi söylenebilir?",
+                  "options": [
+                    "Filin dayanıklılığı karıncanınkinden büyüktür.",
+                    "Karıncanın dayanıklılığı filinkinden büyüktür.",
+                    "Karınca kendi ağırlığını taşıyamaz.",
+                    "İkisinin dayanıklılığı eşittir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boyutları küçük olan canlıların kesit alanı/hacim oranı büyük olduğu için dayanıklılıkları daha fazladır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Düzgün geometrik şekilli katı cisimlerde dayanıklılık cismin yüksekliği ile ____ orantılıdır.",
+                  "options": [
+                    "ters"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dayanıklılık bağıntısı 1 / h olduğu için yükseklik arttıkça dayanıklılık azalır, yani ters orantılıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Katıların dış etkilere karşı gösterdiği dirence ____ denir.",
+                  "options": [
+                    "dayanıklılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği katı cisimlerin kopmaya ve dış etkilere karşı gösterdiği direnç dayanıklılık olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Boyutları büyütülen benzer cisimlerde hacim kesit alanına göre daha ____ artar.",
+                  "options": [
+                    "hızlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacim üç boyutlu, kesit alanı iki boyutlu büyüdüğü için boyutlar arttıkça hacim kesit alanından daha hızlı artar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Silindir şeklindeki bir cismin kesit alanı taban ____ eşittir.",
+                  "options": [
+                    "alanına"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düzgün geometrik cisimlerde kesit alanı yere temas eden taban alanına eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Canlılar aleminde küçük canlıların büyük canlılara göre dayanıklılıkları ____.",
+                  "options": [
+                    "fazladır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küçük canlıların kesit alanı/hacim oranı büyük olduğu için dayanıklılıkları daha fazladır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Katı cisimlerin dayanıklılığı kesit alanının hacme oranı ile bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dayanıklılık temel olarak Kesit Alanı / Hacim bağıntısı ile ifade edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir binanın yüksekliği iki katına çıkarıldığında dayanıklılığı da iki katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dayanıklılık yükseklik ile ters orantılıdır. Yükseklik artarsa dayanıklılık azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küçük boyutlu canlılar kendi ağırlıklarının çok katı ağırlıkları taşıyabilirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küçük canlıların dayanıklılıkları yüksek olduğu için kendi ağırlıklarının kat kat fazlasını taşıyabilirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küp şeklindeki bir cismin boyutu artırıldığında kesit alanı hacminden daha hızlı artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boyutlar artırıldığında hacim (küpü oranında) kesit alanından (karesi oranında) daha hızlı artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı maddeden yapılmış benzer silindirlerden kısa olanın dayanıklılığı uzun olanından daha fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kısa olan silindirin yüksekliği az olduğu için dayanıklılığı daha büyüktür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Yapışma ve Birbirini Tutma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Aynı cins moleküllerin birbirini tutma eğilimine ne denir?",
+                  "answer": "Kohezyon (birbirini tutma)"
+                },
+                {
+                  "question": "Farklı cins moleküllerin birbirine yapışma eğilimine ne denir?",
+                  "answer": "Adhezyon (yapışma)"
+                },
+                {
+                  "question": "Su damlasının yaprağın üzerinde küresel şekle yakın durması hangi kuvvetin etkisidir?",
+                  "answer": "Kohezyon kuvveti"
+                },
+                {
+                  "question": "Boyanın duvara tutunmasını sağlayan temel fiziksel etki nedir?",
+                  "answer": "Adhezyon kuvveti"
+                },
+                {
+                  "question": "Çay bardağının tabağına dökülen çayın bardağı kaldırdığında tabağı da yukarı çekmesinin sebebi nedir?",
+                  "answer": "Adhezyon ve kohezyon kuvvetleri"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki olaylardan hangisi adhezyon (yapışma) kuvveti ile doğrudan açıklanamaz?",
+                  "options": [
+                    "Yazı tahtasına tebeşir tozlarının yapışması",
+                    "Boyanın fırçadan duvara geçmesi",
+                    "Su yüzeyinde küçük böceklerin batmadan yürüyebilmesi",
+                    "Su damlalarının cam yüzeye tutunması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Su yüzeyinde böceklerin batmadan yürümesi kohezyon kuvvetinin oluşturduğu yüzey gerilimi ile ilgilidir, adhezyon ile değil.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kare şeklindeki bir cam kaptaki suyun kenarlarının yukarı doğru kıvrılması hangi kuvvetin baskın olduğunu gösterir?",
+                  "options": [
+                    "Kohezyon kuvvetinin adhezyon kuvvetinden büyük olması",
+                    "Adhezyon kuvvetinin kohezyon kuvvetinden büyük olması",
+                    "Sadece kohezyon kuvveti",
+                    "Sadece adhezyon kuvveti"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıvıların boru veya kap çeperlerinde yukarı kıvrılması, sıvı ile kap arasındaki adhezyonun, sıvı moleküllerinin kohezyonundan büyük olduğunu gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki durumların hangisinde kohezyon kuvveti adhezyon kuvvetinden büyüktür?",
+                  "options": [
+                    "Cıva damlasının cam masa üzerinde küresel kalması",
+                    "Suyun temiz cam boru içinde yükselmesi",
+                    "Boyanın duvara tamamen yayılması",
+                    "Su damlasının parmak ucundan kolayca ayrılmaması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cıva moleküllerinin birbirini tutma isteği camla olan etkileşiminden çok daha fazla olduğu için cıva küresel durur; yani kohezyon adhezyondan büyüktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Musluktan damlamakta olan su damlasının kopmadan önce uzaması hangi iki kuvvetin mücadelesi sonucudur?",
+                  "options": [
+                    "Adhezyon ve kohezyon",
+                    "Kohezyon ve yerçekimi",
+                    "Sürtünme ve kohezyon",
+                    "Yerçekimi ve adhezyon"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Damlanın musluğa tutunmasını sağlayan adhezyon, kopmamasını sağlayan moleküller arası bağlar yani kohezyon, aşağı çeken ise yerçekimidir. Uzama kohezyon ile yerçekimi arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kılcallık olayı incelenirken boru içerisindeki sıvının hareketini sağlayan temel kuvvetler aşağıdakilerin hangisinde doğru verilmiştir?",
+                  "options": [
+                    "Yalnız kohezyon",
+                    "Adhezyon ve kohezyon birlikte",
+                    "Kaldırma kuvveti ve basınç",
+                    "Yalnız adhezyon"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kılcal borularda sıvının yükselmesi veya alçalması hem sıvının boruya tutunması (adhezyon) hem de kendi moleküllerini çekmesi (kohezyon) ile gerçekleşir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Farklı cins moleküller arasındaki çekim kuvvetine ____ denir.",
+                  "options": [
+                    "adhezyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı tür maddelerin moleküllerinin birbirine tutunması adhezyon (yapışma) olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı cins moleküllerin birbirini çekmesine ____ denir.",
+                  "options": [
+                    "kohezyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı tür moleküller arasındaki bağlar kohezyon kuvvetini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cıva damlasının cam yüzey üzerinde yayılmayıp daire şekline yakın durmasında ____ kuvveti etkilidir.",
+                  "options": [
+                    "kohezyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cıvada kohezyon kuvveti adhezyondan büyük olduğu için sıvı dağılmaz, küresel kalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yağmur damlalarının camda iz bırakarak aşağı kayması ____ kuvvetinin varlığını gösterir.",
+                  "options": [
+                    "adhezyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su ile cam arasındaki yapışma kuvveti adhezyon olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıvıların kılcal borularda yükselmesi veya alçalması olayı ____ olarak adlandırılır.",
+                  "options": [
+                    "kılcallık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Adhezyon ve kohezyon etkisiyle ince borularda sıvının hareket etmesi kılcallık adını alır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kohezyon kuvveti sadece katı maddelerde görülen bir özelliktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kohezyon kuvveti sıvı ve katı maddelerde görülür, özellikle sıvılarda yüzey gerilimi gibi olaylarda çok etkindir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Adhezyon kuvveti farklı cins moleküller arasında meydana gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği adhezyon farklı maddelerin moleküllerinin birbirine yapışmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su damlasının tahta masa üzerinde yayılması, su ile tahta arasındaki adhezyon kuvvetinin kohezyondan büyük olmasındandır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eğer sıvı yüzeye yayılıyorsa adhezyon kuvveti kohezyon kuvvetinden büyüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cıva cam borularda daima kılcallık etkisiyle yükselir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cıva kohezyonu çok yüksek bir sıvıdır ve cam borularda kılcallık etkisiyle yükselmez, aksine alçalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir su damlasının küresel biçim alması kohezyon kuvvetinin sonucudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su moleküllerinin birbirini en az yüzey alanını oluşturacak şekilde çekmesi kohezyon sayesinde olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Hareket ve Kuvvet",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Hareket",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kuvvet",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Temel büyüklüklerden biri olan kuvvetin SI birim sistemindeki birimi nedir?",
+                  "answer": "Newton (N)"
+                },
+                {
+                  "question": "Doğada görülen temel kuvvetler güçlü nükleer kuvvet, zayıf nükleer kuvvet, elektromanyetik kuvvet ve hangisidir?",
+                  "answer": "Kütle çekim kuvveti"
+                },
+                {
+                  "question": "Temas gerektirmeyen kuvvetlere örnek olarak mıknatısların birbirine uyguladığı kuvvet ve hangisi verilebilir?",
+                  "answer": "Kütle çekim kuvveti"
+                },
+                {
+                  "question": "Bir cisme etki eden net kuvvet sıfır ise cismin hareket durumu nasıldır?",
+                  "answer": "Durgundur ya da sabit hızla hareket eder"
+                },
+                {
+                  "question": "Dinamik kurallarını inceleyen temel yasa hangi fizikçi tarafından ortaya konulmuştur?",
+                  "answer": "Isaac Newton"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi temas gerektiren bir kuvvet çeşididir?",
+                  "options": [
+                    "Sürtünme kuvveti",
+                    "Manyetik kuvvet",
+                    "Kütle çekim kuvveti",
+                    "Elektriksel kuvvet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti, yüzeylerin birbirine temas etmesiyle ortaya çıkar. Diğer kuvvetler ise cisimler arasında fiziksel temas gerektirmeyen alan kuvvetleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Newton'un hareket yasalarından eylemsizlik ilkesine göre, bir cisme etki eden net kuvvet sıfır ise cisim için aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sürekli hızlanır",
+                    "İvmesi sıfırdır",
+                    "Yavaşlayarak durur",
+                    "Düzgün çembersel hareket yapar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Net kuvvetin sıfır olduğu durumda F = m.a denkleminden ötürü ivme de sıfır olur. Cismin hızı değişmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sürtünmesiz yatay düzlemde durmakta olan 2 kilogram kütleli bir cisme 10 Newton büyüklüğünde yatay bir net kuvvet uygulanıyor. Bu cismin ivmesi kaç metre/saniye kare olur?",
+                  "options": [
+                    "10",
+                    "5",
+                    "2",
+                    "20"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Newton'un ikinci yasası olan F = m.a formülü kullanılır. 10 = 2 . a işleminden a = 5 m/s kare bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kuvvetlerden hangisi doğadaki dört temel kuvvetten biri değildir?",
+                  "options": [
+                    "Güçlü nükleer kuvvet",
+                    "Kütle çekim kuvveti",
+                    "Zayıf nükleer kuvvet",
+                    "Merkezcil kuvvet"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Merkezcil kuvvet temel bir kuvvet olmayıp, dairesel hareket yapan cisimlerde net kuvvetin özel bir bileşenidir. Temel kuvvetler güçlü nükleer, zayıf nükleer, elektromanyetik ve kütle çekimdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sürtünmeli yatay bir yolda durmakta olan cisme uygulanan itme kuvveti yavaşça artırılıyor. Cisim hareket etmeye başladığı an etki eden sürtünme kuvveti ile ilgili ne söylenebilir?",
+                  "options": [
+                    "Değeri sıfırdır",
+                    "Statik sürtünme kuvvetinin maksimum değerindedir",
+                    "Kinetik sürtünme kuvvetinin minimum değerindedir",
+                    "Yüzeyin alanına bağlı olarak değişir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cisim henüz harekete geçmek üzereyken sürtünme kuvveti en büyük değerini alır ve bu statik sürtünmenin maksimum sınırıdır. Harekete geçtikten sonra kinetik sürtünmeye dönüşür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cisimlerin hareket durumundaki değişikliklere veya şekil değişikliklerine neden olan etkiye ____ denir.",
+                  "options": [
+                    "kuvvet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet, duran cisimleri hareket ettiren, hareketlileri durduran ve şekil değiştiren fiziksel bir etkindir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kuvvetin büyüklüğünü ölçmek için ____ adı verilen alet kullanılır.",
+                  "options": [
+                    "dinamometre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dinamometreler içindeki esnek yaylar sayesinde kuvvet ölçümü yapar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Newton'un ikinci yasasına göre bir cismin kütlesi ile ivmesinin çarpımı cisme etki eden ____ kuvvete eşittir.",
+                  "options": [
+                    "net"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Temel yasa formülü F_net = m . a şeklindedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kuvvet türetilmiş bir büyüklüktür ve vektörel bir yapıya sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet, temel büyüklükler yardımıyla ifade edildiği için türetilmiştir ve yönü, doğrultusu olduğu için vektöreldir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kütle ve ağırlık aynı kavramlar olup birimleri kilogramdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kütle skaler bir büyüklük olup birimi kilogramdır, ağırlık ise vektörel bir kuvvet olup birimi Newton'dur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sürtünme kuvveti sadece katı yüzeyler arasında oluşur, sıvı ve gazlarda sürtünme olmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıvı ve gazların da cisimlere karşı direnç gösterdiği viskozite ve hava direnci gibi sürtünme türleri vardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Etki tepki kuvvetleri daima aynı cisim üzerinde etki eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Etki ve tepki kuvvetleri farklı cisimler üzerindedir, bu yüzden birbirlerini dengelemezler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dinamometreler yayların esneklik özelliğinden yararlanılarak yapılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dinamometrelerin yapısında esnek yay bulunur ve uzama miktarı uygulanan kuvvetle doğru orantılıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Newton’ın Hareket Yasaları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Newton'ın birinci hareket yasası hangi isimle anılır?",
+                  "answer": "Eylemsizlik yasası"
+                },
+                {
+                  "question": "Etki ve tepki kuvvetleri farklı cisimler üzerine mi etki eder, yoksa aynı cisim üzerine mi?",
+                  "answer": "Farklı cisimler üzerine"
+                },
+                {
+                  "question": "Sürtünmesiz yatay düzlemde duran bir cisme yatay net kuvvet sıfırdan farklı uygulanırsa cisim nasıl hareket eder?",
+                  "answer": "İvmeli hareket yapar"
+                },
+                {
+                  "question": "Net kuvvetin sıfır olduğu durumda cismin ivmesi kaç m/s kare olur?",
+                  "answer": "Sıfır"
+                },
+                {
+                  "question": "Kütle ile ivme arasındaki ilişki nasıldır?",
+                  "answer": "Ters orantılıdır"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz yatay bir düzlemde durmakta olan m kütleli cisme yatay bir F kuvveti uygulanmaktadır. Cismin kütlesi yarıya indirilip kuvvet iki katına çıkarılırsa ivmesi nasıl değişir?",
+                  "options": [
+                    "4 katına çıkar",
+                    "Yarıya iner",
+                    "Değişmez",
+                    "2 katına çıkar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İvme formülü a = F / m şeklindedir. Kuvvet 2 katına çıkıp kütle yarıya inerse ivme ilk durumun 4 katı olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Newton'ın hareket yasalarından biri değildir?",
+                  "options": [
+                    "Temel yasa",
+                    "Eylemsizlik yasası",
+                    "Enerjinin korunumu yasası",
+                    "Etki-tepki yasası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Newton'ın hareket yasaları Eylemsizlik, Temel Yasa (F=ma) ve Etki-Tepki yasasıdır. Enerjinin korunumu mekanik bir yasadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yatay sürtünmeli bir masada duran bir cisme uygulanan yatay kuvvet, statik sürtünme kuvvetinin maksimum değerinden küçükse cismin hareketi nasıl olur?",
+                  "options": [
+                    "Cisim hızlanan hareket yapar",
+                    "Cisim sabit hızla hareket eder",
+                    "Cisim durmaya devam eder",
+                    "Cisim yavaşlayan hareket yapar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Uygulanan kuvvet maksimum statik sürtünme kuvvetini geçemediği sürece cisim harekete geçmez ve durmaya devam eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Etki ve tepki kuvvetleri ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Büyüklükleri eşit, yönleri zttır",
+                    "Yönleri aynı, büyüklükleri eşittir",
+                    "Aynı cisim üzerine etki ederler",
+                    "Biri diğerinden her zaman büyüktür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etki ve tepki kuvvetleri eşit büyüklükte ve zıt yönlüdür, ancak farklı cisimler üzerindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir cisme etki eden net kuvvet sıfır ise, cismin hareket durumu için aşağıdakilerden hangisi kesinlikle söylenebilir?",
+                  "options": [
+                    "Cisim yavaşlamaktadır",
+                    "Cisim kesinlikle durmaktadır",
+                    "Cismin ivmesi sıfırdır",
+                    "Cisim sabit ivmeli hareket yapar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Newton'ın birinci yasasına göre net kuvvetin sıfır olduğu yerde ivme de sıfırdır. Cisim duruyor ya da sabit hızla gidiyor olabilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cisimlerin hareket durumlarındaki değişikliklere karşı direncine ____ denir.",
+                  "options": [
+                    "eylemsizlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylemsizlik, maddelerin hareket durumlarını koruma eğilimidir ve kütle ile ölçülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dinamik kelimesinin temelini oluşturan ve net kuvvet ile ivme arasındaki ilişkiyi veren bağıntı F = ____ şeklindedir.",
+                  "options": [
+                    "m.a"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Net kuvvet kütle ile ivmenin çarpımına eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüzeyin cisme uyguladığı tepki kuvveti her zaman yüzeye ____ yöneliktir.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tepki kuvveti temas yüzeyine daima dik olarak etki eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Temas gerektiren bir kuvvete örnek olarak ____ kuvveti verilebilir.",
+                  "options": [
+                    "sürtünme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvvetinin oluşması için iki yüzeyin temas etmesi gerekir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Etki ve tepki kuvvetlerinin bileşkesi sıfırdır çünkü aynı cisim üzerindedirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Etki ve tepki kuvvetleri farklı cisimler üzerine etki ettiği için bileşkeleri alınmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dengelenmiş kuvvetlerin etkisindeki bir cisim sabit hızla hareket edebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Net kuvvetin sıfır olduğu (dengelenmiş kuvvetler) durumlarda cisim ya durur ya da sabit hızla hareketine devam eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kinetik sürtünme kuvveti, statik sürtünme kuvvetinin maksimum değerinden her zaman büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Maksimum statik sürtünme kuvveti kinetik sürtünme kuvvetinden her zaman biraz daha büyüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir cismin kütlesi dünyada ne kadarsa ayda da o kadardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kütle değişmeyen madde miktarıdır, yer çekimine göre değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İvmesiz hareket yapan bir cisme etki eden net kuvvet sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İvme sıfır ise F=ma bağıntısına göre net kuvvet de sıfır olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Sürtünme Kuvveti",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sürtünme kuvvetinin yönü hareket durumuna nasıldır?",
+                  "answer": "Her zaman cismin hareketine veya hareket etme eğilimine zıt yöndedir."
+                },
+                {
+                  "question": "Statik sürtünme kuvveti ile kinetik sürtünme kuvveti arasındaki büyüklük ilişkisi nasıldır?",
+                  "answer": "Statik sürtünme kuvveti genellikle kinetik sürtünme kuvvetinden büyüktür."
+                },
+                {
+                  "question": "Sürtünme kuvveti hangi yüzeylerde daha fazladır?",
+                  "answer": "Pürüzlü yüzeylerde daha fazladır."
+                },
+                {
+                  "question": "Sürtünme kuvvetinin formülü nedir?",
+                  "answer": "Fs = k * N (k: sürtünme katsayısı, N: tepki kuvveti)."
+                },
+                {
+                  "question": "Sürtünme kuvveti temas yüzeyinin büyüklüğüne bağlı mıdır?",
+                  "answer": "Hayır, temas yüzeyinin büyüklüğüne bağlı değildir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yatay bir yolda durmakta olan cisme uygulanan yatay kuvvet artırıldığında cisim bir süre hareket etmiyor. Bu sürede cisme etki eden sürtünme kuvveti nasıl değişir?",
+                  "options": [
+                    "Uygulanan kuvvetle doğru orantılı olarak artar",
+                    "Sıfır olur",
+                    "Azalır",
+                    "Sabit kalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisim durmaya devam ettiği sürece cisme etki eden statik sürtünme kuvveti, uygulanan kuvvete eşit büyüklükte artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sürtünmeli yatay düzlemde F kuvveti ile çekilen bir cismin ivmesini artırmak için aşağıdakilerden hangisi yapılmalıdır?",
+                  "options": [
+                    "Uygulanan F kuvvetini artırmak",
+                    "Cismin kütlesini artırmak",
+                    "Cismin temas yüzeyini küçültmek",
+                    "Yüzeyin sürtünme katsayısını artırmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "F net = m * a bağıntısına göre ivmeyi artırmak için net kuvvet artırılmalıdır. F kuvvetinin artırılması net kuvveti artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kinetik sürtünme katsayısının büyüklüğü neye bağlıdır?",
+                  "options": [
+                    "Cismin hızına",
+                    "Yüzeylerin cinsine",
+                    "Cismin ağırlığına",
+                    "Temas yüzeyinin alanına"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürtünme katsayısı, sürtünen yüzeylerin cinsine ve pürüzlülüğüne bağlı bir özelliktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi sürtünme kuvvetinin günlük hayattaki olumlu etkilerinden biridir?",
+                  "options": [
+                    "Makinelerin parçalarının aşınması",
+                    "Otomobillerin fren yapınca durabilmesi",
+                    "Yürürken ayağın kayması",
+                    "Havada giden uçakların yakıt tüketiminin artması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Otomobillerin tekerleği ile yol arasındaki sürtünme fren yapıldığında güvenli bir şekilde durmayı sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yatay sürtünmesiz olduğu zannedilen bir masada duran cisme yatay F kuvveti uygulanıyor. Masada aslında sürtünme varsa ve cisim hareket etmiyorsa, cisme etki eden sürtünme kuvveti için ne söylenebilir?",
+                  "options": [
+                    "F kuvvetinden büyüktür",
+                    "Maksimum kinetik sürtünmeye eşittir",
+                    "F kuvvetine eşittir",
+                    "Sıfırdır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Durgun cisimler için etki eden statik sürtünme kuvveti, uygulanan net kuvvete (F) büyüklük olarak eşittir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cisimlerin hareket etmesini engelleyen ya da zorlaştıran kuvvete ____ denir.",
+                  "options": [
+                    "sürtünme kuvveti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti temas eden yüzeyler arasında oluşur ve harekete karşı direnç gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Durgun haldeki bir cisme harekete geçmesi için uygulanan en büyük statik sürtünme kuvveti, cisim hareket ettikten sonraki sürtünme kuvvetinden ____.",
+                  "options": [
+                    "büyüktür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Statik sürtünme katsayısı kinetik sürtünme katsayısından genellikle büyük olduğu için maksimum statik sürtünme de büyüktür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünme kuvvetinin yönü, cismin hareket yönüne her zaman ____ yöndedir.",
+                  "options": [
+                    "zıt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti hareketin veya hareket eğiliminin her zaman tersi yönünde etki eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünme kuvveti, yüzeye dik olan normal kuvvet ile sürtünme ____ çarpımına eşittir.",
+                  "options": [
+                    "katsayısının"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Formül gereği Fs = k * N ifadesindeki k harfi sürtünme katsayısını temsil eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Havadaki cisimlere etki eden sürtünme kuvvetine genellikle ____ denir.",
+                  "options": [
+                    "hava direnci"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akışkanların (hava ve su) hareketli cisimlere uyguladığı direnç kuvveti akışkan sürtünmesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sürtünme kuvveti sadece katı cisimler arasında oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıvı ve gazlar gibi akışkanlar da cisimlere karşı sürtünme (direnç) kuvveti uygular.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sürtünme kuvveti, cismin temas yüzeyinin alanına bağlı değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti sadece normal kuvvet ve sürtünme katsayısına bağlıdır, yüzey alanına bağlı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kinetik sürtünme kuvveti, hareket halindeki cismə etki eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisim hareket ederken etki eden sürtünme kuvveti türü kinetik sürtünmedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sürtünme kuvveti her zaman enerji kaybına neden olur ve yararlı bir yönü yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yürümek, yazmak ve araçların fren yapabilmesi sürtünme sayesinde olur, yani yararlı yönleri de vardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sürtünme katsayısının birimi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme katsayısı iki kuvvetin oranından geldiği için boyutu ve birimi olmayan bir sayıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Enerji",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İş, Enerji ve Güç",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fiziksel anlamda iş yapılabilmesi için cisme uygulanan kuvvet ile cismin yer değiştirmesi hangi doğrultuda olmalıdır?",
+                  "answer": "Kuvvet ile yer değiştirme aynı doğrultuda olmalıdır."
+                },
+                {
+                  "question": "Bir cismin hızından dolayı sahip olduğu enerji türü nedir?",
+                  "answer": "Kinetik enerji"
+                },
+                {
+                  "question": "Yerden belirli bir yüksekte bulunan cismin sahip olduğu enerji türü nedir?",
+                  "answer": "Yer çekimi potansiyel enerjisi"
+                },
+                {
+                  "question": "Birim zamanda harcanan veya yapılan işe ne ad verilir?",
+                  "answer": "Güç"
+                },
+                {
+                  "question": "Sistemde sürtünme yoksa mekanik enerji nasıl değişir?",
+                  "answer": "Mekanik enerji korunur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz yatay düzlemde durmakta olan bir cisme uygulanan net kuvvet, cisimle aynı doğrultudadır ve yola paraleldir. Bu kuvvetin yaptığı iş ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Cismin mekanik enerjisini azaltır.",
+                    "Cismin kinetik enerjisini artırır.",
+                    "Cismin potansiyel enerjisini artırır.",
+                    "Cisme negatif iş yapar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürtünmesiz yatay düzlemde hareket eden cisme uygulanan net kuvvet pozitif iş yapar ve bu iş cismin kinetik enerjisindeki değişim kadar olur, yani kinetik enerji artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi fiziksel anlamda iş yapılmasına örnek olarak gösterilebilir?",
+                  "options": [
+                    "Elindeki çanta ile yatay yolda sabit hızla yürüyen öğrenci",
+                    "Halteri yerden kaldırıp başının üstünde sabit tutan sporcu",
+                    "Düşey yukarı fırlatılan ve yükselmekte olan taş",
+                    "Duvara yatay doğrultuda kuvvet uygulayan ancak duvarı hareket ettiremeyen kişi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fiziksel iş için kuvvet ve yer değiştirme aynı doğrultuda olmalıdır. Yükselmekte olan taşa yer çekimi kuvvetine zıt yönde net kuvvet uygulanır ve düşeyde yer değiştirme olur, bu nedenle fiziksel iş yapılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Güç kavramı ile ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+                  "options": [
+                    "Skaler bir büyüklüktür.",
+                    "Birim zamandaki iş miktarıdır.",
+                    "SI birim sistemindeki birimi Joule'dür.",
+                    "İş yapabilme hızını gösterir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gücün SI birim sistemindeki birimi Watt'tır. Joule işin veya enerjinin birimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Esneklik potansiyel enerjisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Yalnızca yayın cinsi ile değişir.",
+                    "Yayın sıkışma veya uzama miktarının karesi ile doğru orantılıdır.",
+                    "Yayın boyu ile doğru orantılıdır.",
+                    "Yayın uyguladığı kuvvet ile ters orantılıdır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Esneklik potansiyel enerjisi formülü Ep = 1/2 * k * x^2 şeklindedir. Enerji, sıkışma veya uzama miktarının (x) karesi ile doğru orantılıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yerden yukarı doğru düşey olarak atılan bir cisim için hava direnci önemsenmediğine göre aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Kinetik enerjisi sürekli artar.",
+                    "Potansiyel enerjisi sürekli azalır.",
+                    "Mekanik enerjisi sabittir.",
+                    "Mekanik enerjisi artar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hava direncinin önemsenmediği ortamlarda mekanik enerji korunur. Cisim yükselirken kinetik enerji potansiyele dönüşür ancak toplam mekanik enerji sabit kalır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "SI birim sisteminde işin birimi ____ olarak ifade edilir.",
+                  "options": [
+                    "Joule"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet birimi Newton ve yer değiştirme birimi metre olduğunda, yapılan işin birimi Joule olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünmesiz sistemlerde kinetik enerji ile potansiyel enerjinin toplamına ____ enerji denir.",
+                  "options": [
+                    "mekanik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik enerji ve potansiyel enerjinin toplamı sistemin mekanik enerjisini verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gücün SI birim sistemindeki birimi ____ olarak adlandırılır.",
+                  "options": [
+                    "Watt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güç, işin zamana oranıdır ve birimi Watt (W) sembolü ile gösterilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yayların sıkışması veya gerilmesi sonucunda depolanan enerjiye ____ potansiyel enerjisi denir.",
+                  "options": [
+                    "esneklik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Esnek cisimlerin şekil değiştirmesi sonucu depolanan enerji esneklik potansiyel enerjisidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fiziksel anlamda iş bir vektörel büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İş, iki vektörün (kuvvet ve yer değiştirme) skaler çarpımı ile elde edildiği için skaler bir büyüklüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cisme uygulanan kuvvet ile yer değiştirme birbirine dik ise yapılan iş sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet ile yer değiştirme vektörleri birbirine dik olduğunda (90 derece) yapılan iş sıfır kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hava direncinin olduğu bir ortamda serbest bırakılan cismin mekanik enerjisi korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hava direnci sürtünmeli bir kuvvet olduğu için mekanik enerjinin bir kısmını ısı enerjisine dönüştürür ve mekanik enerji korunmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güç, birim zamanda yapılan iş miktarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güç formülü P = W / t şeklindedir ve birim zamandaki işi ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir cismin hızı iki katına çıkarsa, kinetik enerjisi de iki katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kinetik enerji hızın karesi ile orantılıdır (Ek = 1/2 * m * v^2). Hız iki katına çıkarsa kinetik enerji dört katına çıkar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Mekanik Enerji",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mekanik enerji hangi iki enerjinin toplamına eşittir?",
+                  "answer": "Kinetik enerji ve potansiyel enerji"
+                },
+                {
+                  "question": "Sürtünmesiz sistemlerde mekanik enerji korunur mu?",
+                  "answer": "Evet, sürtünmesiz sistemlerde toplam mekanik enerji korunur."
+                },
+                {
+                  "question": "Kinetik enerjinin formülü nedir?",
+                  "answer": "E_k = (1/2) * m * v^2"
+                },
+                {
+                  "question": "Yer çekimi potansiyel enerjisi hangi niceliklere bağlıdır?",
+                  "answer": "Cismin kütlesi, yer çekimi ivmesi ve yerden yüksekliği"
+                },
+                {
+                  "question": "Sürtünmeli yüzeylerde mekanik enerji nereye dönüşür?",
+                  "answer": "Isı enerjisine dönüşür."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Kütlesi 2 kg olan bir cisim yerden 5 metre yüksekte durmaktadır. Buna göre bu cismin yere göre potansiyel enerjisi kaç jouledür? (g = 10 m/s^2 alın)",
+                  "options": [
+                    "50 J",
+                    "250 J",
+                    "100 J",
+                    "200 J"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Potansiyel enerji E_p = m * g * h formülü ile bulunur. Verilenler: m = 2 kg, g = 10 m/s^2, h = 5 m. E_p = 2 * 10 * 5 = 100 J bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sürtünmesiz yatay düzlemde hareket eden bir cisme dışarıdan net bir kuvvet etki etmediğinde aşağıdakilerden hangisi kesinlikle sabit kalır?",
+                  "options": [
+                    "Yalnızca kinetik enerji",
+                    "Mekanik enerji ve hız büyüklüğü",
+                    "Yalnızca mekanik enerji",
+                    "Yalnızca potansiyel enerji"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürtünmesiz yatay düzlemde yükseklik değişmediği için potansiyel enerji sıfırdır ve sabittir. Net kuvvet sıfır olduğundan hız değişmez, dolayısıyla kinetik enerji de sabit kalır. Bu durumda toplam mekanik enerji de sabit kalmış olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Serbest bırakılan bir cisim hava direncinin önemsenmediği bir ortamda yukarıdan aşağıya düşerken aşağıdakilerden hangisi gerçekleşir?",
+                  "options": [
+                    "Mekanik enerji sürekli artar.",
+                    "Kinetik enerji artar, potansiyel enerji azalır.",
+                    "Mekanik enerji sürekli azalır.",
+                    "Kinetik enerji azalır, potansiyel enerji artar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cisim aşağı düştükçe yerden yüksekliği azalır, bu nedenle potansiyel enerjisi azalır. Enerjinin korunumu gereği azalan potansiyel enerji kinetik enerjiye dönüşür ve kinetik enerji artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yerden yukarı doğru düşey olarak fırlatılan bir cisim için mekanik enerjinin zamana göre değişimi hakkında ne söylenebilir? (Hava direnci önemsizdir.)",
+                  "options": [
+                    "Sürekli artar",
+                    "Sürekli azalır",
+                    "Değişmez, sabit kalır",
+                    "Önce azalır sonra artar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hava direncinin önemsenmediği ortamlarda sistem dışarıdan kuvvet almadığı için toplam mekanik enerji korunur ve zamanla değişmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cismin kütlesi iki katına çıkarıldığında, hız sabit kalmak koşuluyla kinetik enerjisi de ____ katına çıkar.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik enerji kütle ile doğru orantılıdır. Kütle iki katına çıkarsa kinetik enerji de iki katına çıkar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yerden yüksekte duran bir cismin sahip olduğu enerji türü yer çekimi ____ enerjisidir.",
+                  "options": [
+                    "potansiyel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yerden yükseklik kazanan cisimler konumları gereği yer çekimi potansiyel enerjisine sahip olurlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mekanik enerji, kinetik enerji ile ____ enerjisinin toplamıdır.",
+                  "options": [
+                    "potansiyel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mekanik enerji tanımı gereği kinetik ve potansiyel enerjilerin toplamından oluşur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz bir yolda hareket eden cismin mekanik enerjisi zamanla artabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürtünmesiz sistemlerde mekanik enerji sabittir, artmaz ya da azalmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kinetik enerji skaler bir büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik enerji yönü olmayan, skaler bir fiziksel niceliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yerden yukarı fırlatılan bir cismin yukarı çıkarken mekanik enerjisi azalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hava direnci ihmal edildiğinde cismin mekanik enerjisi hareket boyunca sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yerden yüksekliği artan bir cismin potansiyel enerjisi artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Potansiyel enerji yükseklik (h) ile doğru orantılıdır, yükseklik arttıkça enerji de artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hava direncinin olduğu bir ortamda düşen bir cismin toplam mekanik enerjisi korunmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hava direnci bir sürtünme kuvveti olduğundan mekanik enerjinin bir kısmı ısıya dönüşür ve mekanik enerji korunmaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Enerjinin Korunumu ve Enerji Dönüşümleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Verim",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Enerji Kaynakları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Isı ve Sıcaklık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Isı ve Sıcaklık",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Hâl Değişimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Isıl Denge",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Enerji İletim Yolları ve Enerji İletim Hızı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Genleşme",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Elektrostatik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Elektrik Yükleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Elektrik ve Manyetizma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Elektrik Akımı, Potansiyel Farkı ve Direnç",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Elektrik Devreleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Mıknatıs ve Manyetik Alan",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Akım ve Manyetik Alan",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Basınç ve Kaldırma Kuvveti",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Basınç",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kaldırma Kuvveti",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Dalgalar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Dalgalar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yay Dalgası",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Su Dalgası",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Ses Dalgası",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Deprem Dalgası",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Optik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Aydınlanma",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Gölge",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Yansıma",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Düzlem Ayna",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Küresel Aynalar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Kırılma",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Mercekler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node8",
+          "order": 8,
+          "title": "Prizmalar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node9",
+          "order": 9,
+          "title": "Renk",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

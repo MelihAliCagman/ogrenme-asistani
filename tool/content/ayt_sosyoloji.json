@@ -1,0 +1,1917 @@
+{
+  "subjectKey": "ayt_sosyoloji",
+  "title": "AYT Sosyoloji",
+  "examType": "YKS",
+  "subject": "Sosyoloji",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Sosyolojiye Giriş",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sosyolojinin Doğuşu",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sosyoloji kelimesini ilk kez kullanan ve bu bilim dalının kurucusu kabul edilen düşünür kimdir?",
+                  "answer": "Auguste Comte"
+                },
+                {
+                  "question": "Sosyolojinin doğuşunda en büyük paya sahip olan, geleneksel toplumdan modern topluma geçişi tetikleyen iki büyük dönüşüm nedir?",
+                  "answer": "Fransız İhtilali ve Sanayi Devrimi"
+                },
+                {
+                  "question": "Auguste Comte'un insan zihninin ve toplumların gelişimini açıkladığı üç hal yasası sırasıyla hangi aşamalardan oluşur?",
+                  "answer": "Teolojik, metafizik ve pozitif aşama"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte köylerden kentlere yapılan göçler sonucunda sosyolojinin inceleme odağı haline gelen temel sosyal sorun nedir?",
+                  "answer": "Kentleşme ve yabancılaşma (anomi)"
+                },
+                {
+                  "question": "Pozitivizm anlayışının sosyolojiye temel katkısı nedir?",
+                  "answer": "Toplumsal olayları doğa bilimlerinde olduğu gibi gözlem ve deney yoluyla, olgusal temelde incelemektir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi sosyolojinin 19. yüzyılda Batı Avrupa'da bir bilim dalı olarak doğmasının temel nedenlerinden biridir?",
+                  "options": [
+                    "Sanayi Devrimi ve Fransız İhtilali'nin yarattığı toplumsal değişimler",
+                    "Orta Çağ'daki skolastik düşüncenin yeniden canlanması",
+                    "Coğrafi keşifler sonucunda yeni kıtaların keşfedilmesi",
+                    "İmparatorlukların merkeziyetçi yönetimlerini güçlendirmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sosyoloji, Sanayi Devrimi ve Fransız İhtilali'nin getirdiği ekonomik, siyasi ve toplumsal sarsıntılara çözüm bulma ihtiyacıyla 19. yüzyılda doğmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Auguste Comte'a göre sosyolojinin temel amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bireylerin psikolojik sorunlarını çözmek",
+                    "Toplumsal düzen ve ilerlemeyi bilimsel yollarla sağlamak",
+                    "Geçmişteki imparatorlukların tarihini incelemek",
+                    "Ekonomik krizleri önlemek için para politikaları geliştirmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Comte, pozitif bilim anlayışıyla toplumsal düzeni korumayı ve toplumsal ilerlemeyi gerçekleştirmeyi sosyolojinin ana hedefi olarak belirlemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki düşünürlerden hangisi pozitivist yaklaşımı sosyolojiye uyarlayan ilk isimdir?",
+                  "options": [
+                    "Auguste Comte",
+                    "Emile Durkheim",
+                    "Karl Marx",
+                    "Max Weber"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Auguste Comte, sosyolojinin isim babasıdır ve bilimi pozitivist felsefe üzerine kurarak bu disiplinin temellerini atmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanayi Devrimi sonrasında ortaya çıkan fabrikaleşme süreci, sosyolojide özellikle hangi alanın önem kazanmasına yol açmıştır?",
+                  "options": [
+                    "Sınıf çatışmaları ve işçi sorunları",
+                    "Tarım tekniklerinin geliştirilmesi",
+                    "Kırsal yaşamın geleneksel yapısı",
+                    "Hanedanlık soy kütükleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi Devrimi ile birlikte burjuvazi ve işçi sınıfı ortaya çıkmış, bu durum sınıf çatışmaları ve işçi sorunlarının sosyolojik olarak incelenmesini zorunlu kılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fransız İhtilali'nin sosyolojinin doğuşuna olan en belirgin etkisi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ulusu oluşturan birey, özgürlük, eşitlik ve milliyetçilik gibi kavramların tartışmaya açılması",
+                    "Mutlak monarşilerin tüm dünyada kalıcı hale gelmesi",
+                    "Feodal düzenin daha da güçlenmesi",
+                    "Din adamlarının siyasi yetkilerinin artması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fransız İhtilali; özgürlük, eşitlik ve ulus devlet gibi kavramları öne çıkararak geleneksel otoriteyi sarsmış ve toplumsal yapının yeniden ele alınmasına neden olmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sosyoloji kelimesi Latince socius ve Yunanca logos kelimelerinin birleşiminden türetilmiş olup ____ bilimi anlamına gelir.",
+                  "options": [
+                    "toplum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sosyoloji, kelime kökeni olarak toplum bilimi demektir ve sosyal olanı incelemeyi hedefler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Auguste Comte'un insanlığın entelektüel gelişimini açıkladığı yasaya ____ yasası denir.",
+                  "options": [
+                    "üç hal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üç hal yasası; teolojik, metafizik ve pozitif aşamalardan oluşan toplumsal evrim teorisidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "19. yüzyılda köylerden şehirlere yapılan göçler ve fabrikalaşma sürecine ____ Devrimi adı verilir.",
+                  "options": [
+                    "Sanayi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi Devrimi, makineleşme ile birlikte üretim biçimini değiştirerek modern toplumun ve sosyolojinin doğuşuna zemin hazırlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumsal olayları doğa bilimlerinin yöntemleriyle inceleme yaklaşımına ____ adı verilir.",
+                  "options": [
+                    "pozitivizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitivizm, olgulara dayanan, gözlem ve deneyi esas alan bilimsel yaklaşımı ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransız İhtilali ile birlikte siyasal alanda krallıkların gücü sarsılmış ve ____ düşüncesi güç kazanmıştır.",
+                  "options": [
+                    "demokrasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fransız İhtilali halk egemenliği ve demokrasi gibi modern siyasal değerlerin yayılmasını sağlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sosyoloji, Antik Çağ'dan beri bağımsız bir bilim dalı olarak varlığını sürdürmektedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sosyoloji, 19. yüzyılda modernleşme süreciyle birlikte doğmuş nispeten yeni bir bilim dalıdır, Antik Çağ'da bağımsız bir disiplin değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi, geleneksel tarım toplumundan modern sanayi toplumuna geçişi hızlandırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi Devrimi ile birlikte üretim biçimi değişmiş, köylerden kentlere göç artmış ve modern sanayi toplumu ortaya çıkmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Auguste Comte sosyolojinin isim babasıdır ve bu bilimi kuran kişidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Auguste Comte, 'sosyoloji' terimini ilk kez kullanan ve bu alanı sistematik bir bilim olarak kuran düşünürdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fransız İhtilali yalnızca Fransa'yı etkilemiş, evrensel nitelikte toplumsal sonuçlar doğurmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fransız İhtilali yaydığı milliyetçilik, özgürlük ve insan hakları gibi ilkelerle tüm dünyayı ve modern sosyolojinin gelişimini derinden etkilemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Pozitivist yaklaşım, toplumsal olayların doğa bilimlerindeki gibi nesnel yöntemlerle incelenmesini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitivizm, sosyal bilimlerde de tıpkı fen bilimlerinde olduğu gibi gözlenebilir olguların ve nesnel yöntemlerin esas alınması gerektiğini savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Sosyolojinin Konusu ve Yöntemi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sosyoloji kelimesinin kökeni hangi dillerden gelmektedir?",
+                  "answer": "Latince socius (toplum) ve Yunanca logos (bilim) kelimelerinin birleşiminden oluşmuştur."
+                },
+                {
+                  "question": "Sosyolojinin kurucusu olarak kabul edilen Fransız filozof kimdir?",
+                  "answer": "Auguste Comte"
+                },
+                {
+                  "question": "Sosyoloji diğer sosyal bilimlerden hangi yönüyle ayrılır?",
+                  "answer": "Toplumsal olgu ve olayları bütünsel bir yaklaşımla, başka olaylarla ilişkisi içinde incelemesiyle ayrılır."
+                },
+                {
+                  "question": "Sosyolojide kullanılan temel veri toplama yöntemlerinden ikisi nelerdir?",
+                  "answer": "Anket ve gözlem"
+                },
+                {
+                  "question": "Toplumsal olay ile toplumsal olgu arasındaki temel fark nedir?",
+                  "answer": "Olay somut ve süreli, olgu ise soyut ve süreklidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi sosyolojinin inceleme alanına giren toplumsal olgulardan biridir?",
+                  "options": [
+                    "1999 Marmara Depremi",
+                    "Fransız İhtilali",
+                    "Kentleşme",
+                    "Atatürk'ün Samsun'a çıkışı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fransız İhtilali, 1999 Depremi ve Samsun'a çıkış birer toplumsal 'olay'dır. Kentleşme ise zaman içinde sürekli var olan ve genel bir süreci ifade eden toplumsal bir 'olgu'dur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sosyolojinin kurucusu kabul edilen Auguste Comte, bilimin gelişim aşamalarını üç hâl yasasıyla açıklarken en son aşama olarak hangisini belirtmiştir?",
+                  "options": [
+                    "Pozitif aşama",
+                    "Metafizik aşama",
+                    "Teolojik aşama",
+                    "Dogmatik aşama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte'a göre insan düşüncesi sırasıyla teolojik, metafizik ve en son olarak bilimsel verilerin temel alındığı pozitif aşamadan geçer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi sosyolojinin yöntem özelliklerinden biri değildir?",
+                  "options": [
+                    "Değer yargılarından bağımsız olmaya çalışması",
+                    "Olgusal (ampirik) olması",
+                    "Toplumsal olayları tek bir nedene indirgemesi",
+                    "Genellemelere ulaşmayı hedeflemesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sosyoloji toplumsal olayların çok sayıda nedeni olabileceğini bilir, bu yüzden olayları tek bir nedene indirgemez, çok yönlü inceler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sosyoloğun toplumdaki suç oranlarını incelerken kendi kişisel önyargılarını bir kenara bırakıp sadece verilere odaklanması hangi ilke ile ilgilidir?",
+                  "options": [
+                    "Olguculuk",
+                    "Subjektiflik",
+                    "Tümevarım",
+                    "Nesnellik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Araştırmacının kişisel değer ve yargılarını sürece katmadan inceleme yapması nesnellik (objektiflik) ilkesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal olaya örnektir?",
+                  "options": [
+                    "Suç",
+                    "Savaş",
+                    "Evlilik",
+                    "Göç"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Evlilik, göç ve suç birer toplumsal olgudur. Savaş ise belirli bir zamanda ve yerde gerçekleşip biten somut bir toplumsal olaydır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Toplumsal yaşamı, kurumları ve grupları bilimsel yöntemlerle inceleyen bilim dalına ____ denir.",
+                  "options": [
+                    "sosyoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sosyoloji, toplum bilimdir ve toplumsal ilişkileri inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Belli bir zaman ve mekânda meydana gelen somut ve başlangıcı-bitişi olan gelişmeler ____ olarak adlandırılır.",
+                  "options": [
+                    "toplumsal olay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Somut ve süreli olanlar toplumsal olay, soyut ve genel olanlar ise toplumsal olgu olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sosyoloji araştırmalarında bireylere soru listeleri dağıtarak veri toplama yöntemine ____ denir.",
+                  "options": [
+                    "anket"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anket, nicel araştırmalarda sıklıkla kullanılan bir veri toplama aracıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Auguste Comte'un insan düşüncesinin evriminde ilk sırada yer alan aşama ____ aşamadır.",
+                  "options": [
+                    "teolojik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte'a göre zihinsel evrim teolojik (dini) dönemle başlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sosyolojinin olayları olduğu gibi incelemesi, 'ne olmalıdır' sorusundan ziyade 'ne andadır' sorusuna odaklanması onun ____ olmasını gerektirir.",
+                  "options": [
+                    "nesnel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sosyoloji kural koyucu değil, olanı inceleyen açıklayıcı bir bilimdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sosyoloji, bireylerin içsel ve psikolojik süreçlerini inceleyen temel bilim dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bireylerin içsel ve psikolojik süreçlerini inceleyen bilim dalı sosyoloji değil psikolojidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplumsal olgu, soyut ve süreklilik arz eden durumları ifade eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Olgular soyuttur, geneldir ve zaman içinde süreklilik gösterir (örneğin göç, kentleşme).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Auguste Comte, sosyoloji terimini ilk kez kullanan ve bu bilimin kurucusu olan bilim insanıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Comte, pozitif felsefe anlayışıyla sosyoloji biliminin temellerini atmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sosyoloji, toplumları ele alırken diğer sosyal bilimlerin bulgularından ve verilerinden yararlanmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sosyoloji diğer sosyal bilimlerle (tarih, ekonomi, psikoloji vb.) sürekli etkileşim içindedir ve verilerinden yararlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sosyolojide nesnellik, araştırmacının kişisel değerlerini ve inançlarını araştırmaya karıştırmaması anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilimsel tarafsızlık ve nesnellik, sübjektif yargılardan uzak durmayı gerektirir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Birey ve Toplum",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Toplumsallaşma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsallaşma nedir?",
+                  "answer": "Bireyin içinde yaşadığı toplumun kültürünü, değerlerini, normlarını ve kurallarını öğrenerek o toplumun bir üyesi haline gelmesi sürecidir."
+                },
+                {
+                  "question": "Birincil sosyalleşme hangi kurumla başlar?",
+                  "answer": "Aile"
+                },
+                {
+                  "question": "İkincil toplumsallaşmanın temel araçları nelerdir?",
+                  "answer": "Okul, akran grupları, kitle iletişim araçları ve iş yeri."
+                },
+                {
+                  "question": "Toplumsal kontrol nedir?",
+                  "answer": "Bireylerin toplumun kurallarına uymasını sağlamak amacıyla uygulanan yaptırımlar ve denetim mekanizmalarıdır."
+                },
+                {
+                  "question": "Yeniden sosyalleşme ne anlama gelir?",
+                  "answer": "Bireyin daha önce edindiği değer ve alışkanlıkları bırakarak yeni bir yaşam tarzı ve kültürü öğrenmesi sürecidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi birincil toplumsallaşma ajanları arasında yer alır?",
+                  "options": [
+                    "Üniversite",
+                    "Sendikalar",
+                    "Kitle iletişim araçları",
+                    "Aile"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Aile, bireyin doğduğu andan itibaren içine doğduğu ve ilk sosyal etkileşimleri yaşadığı birincil toplumsallaşma kurumudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bireyin hayatının ilerleyen aşamalarında meslek değiştirmesi, göç etmesi veya hapishaneye girmesi gibi durumlarda eski değerlerini bırakıp yeni kuralları öğrenmesine ne ad verilir?",
+                  "options": [
+                    "Sosyal hareketlilik",
+                    "Toplumsal tabakalaşma",
+                    "Kültürel yozlaşma",
+                    "Yeniden sosyalleşme"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bireyin eski normları terk edip yeni bir çevreye uyum sağlamak için yeni normlar edinmesi yeniden sosyalleşme olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsallaşma sürecinin birey açısından temel işlevlerinden biri değildir?",
+                  "options": [
+                    "Bireye kimlik kazandırılması",
+                    "Kültürel mirasın aktarılması",
+                    "Biyolojik evrimin tamamlanması",
+                    "Toplumsal düzenin sürdürülmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Toplumsallaşma kültürel ve psikolojik bir süreçtir; biyolojik evrimle doğrudan bir ilişkisi bulunmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Okul ve akran grupları sosyalleşme sürecinde hangi kategoriye girer?",
+                  "options": [
+                    "Informal denetim",
+                    "İkincil sosyalleşme",
+                    "Birincil sosyalleşme",
+                    "Biyolojik sosyalleşme"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aile dışındaki okul, iş yeri ve akran grupları ikincil sosyalleşme kurumları arasında yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bireyin içinde bulunduğu grubun normlarına uyma eğilimi göstermesi sosyolojide ne olarak tanımlanır?",
+                  "options": [
+                    "Anomi",
+                    "Yabancılaşma",
+                    "Sapma",
+                    "Konformizm"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Konformizm, bireyin grup beklentilerine ve toplumsal normlara uyum sağlaması durumudur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireyin doğuştan getirdiği özellikleriyle değil, toplum içinde öğrenerek kazandığı kimliğe ____ kimlik denir.",
+                  "options": [
+                    "kazanılmış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazanılmış kimlik, bireyin kendi çabası, eğitimi veya tercihleriyle sonradan elde ettiği statüleri kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumsallaşma sürecinde bireylere toplumun kurallarını öğreten ilk ve en önemli kurum ____ kurumudur.",
+                  "options": [
+                    "aile"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aile, bireyin ilk sosyal tecrübelerini edindiği birincil sosyalleşme alanıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin toplumun kurallarına uymasını sağlamak için kullanılan yazılı olmayan yaptırımlara ____ kontrol denir.",
+                  "options": [
+                    "informal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelenek, görenek ve kamuoyu gibi yazılı olmayan kurallara dayanan denetim informal toplumsal kontroldür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı yaş grubundaki ve benzer ilgi alanlarına sahip bireylerin oluşturduğu gruplara ____ grubu denir.",
+                  "options": [
+                    "akran"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akran grupları, özellikle gençlik döneminde sosyalleşme üzerinde büyük bir etkiye sahiptir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumsal normların zayıfladığı veya ortadan kalktığı durumları ifade eden kavram ____ olarak adlandırılır.",
+                  "options": [
+                    "anomi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anomi kavramı, kuralsızlık durumunu ifade eder ve toplumsal düzenin sarsıldığı dönemlerde ortaya çıkar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Toplumsallaşma süreci yalnızca çocukluk döneminde gerçekleşir ve yetişkinlikte sona erer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplumsallaşma doğumdan ölüme kadar devam eden yaşam boyu süren bir süreçtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aile, bireyin toplumsallaşmasında birincil sosyalleşme ajanı olarak görev yapar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aile, bireyin ilk sosyal ilişkileri kurduğu ve temel değerleri öğrendiği birincil kurumdur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kitle iletişim araçları günümüzde toplumsallaşma üzerinde etkisizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Televizyon, internet ve sosyal medya gibi kitle iletişim araçları modern dönemde toplumsallaşmada oldukça etkindir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yeniden sosyalleşme, bireyin eski değerlerini bırakıp yeni bir kültürel ortama uyum sağlamasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Göç veya meslek değişimi gibi durumlarda yaşanan bu süreç yeniden sosyalleşme olarak tanımlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hukuk kuralları, toplumsal kontrolün informal araçları arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hukuk kuralları yazılı ve resmi kurallar olduğundan formal toplumsal kontrol araçları arasındadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Toplumsal Roller ve Statüler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsal statü nedir?",
+                  "answer": "Bir bireyin toplum içindeki yeri veya konumudur."
+                },
+                {
+                  "question": "Verilmiş (atfedilmiş) statüye örnek nedir?",
+                  "answer": "Cinsiyet veya yaş."
+                },
+                {
+                  "question": "Kazanılmış statü nedir?",
+                  "answer": "Bireyin kendi çabası, yeteneği ve başarısıyla elde ettiği statüdür."
+                },
+                {
+                  "question": "Toplumsal rol nedir?",
+                  "answer": "Bir statünün gereklerini yerine getirme biçimi ve bireye yüklenen görevlerdir."
+                },
+                {
+                  "question": "Rol çatışması nedir?",
+                  "answer": "Bireyin sahip olduğu birden fazla rolün gereklerinin birbiriyle çelişmesidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bireyin çabasıyla elde ettiği kazanılmış statülerden biridir?",
+                  "options": [
+                    "Prens olmak",
+                    "Doktor olmak",
+                    "Evlat olmak",
+                    "Kadın olmak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doktor olmak bireyin eğitim ve kişisel çabasıyla elde ettiği kazanılmış bir statüdür; diğerleri ise doğuştan gelen atfedilmiş statülerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki durumlardan hangisi 'rol çatışması'na örnek oluşturur?",
+                  "options": [
+                    "Ahmet Bey'in hem iyi bir baba hem de okul müdürü olması nedeniyle akşam okul toplantısı ile çocuğunun veli toplantısının aynı saate denk gelmesi",
+                    "Ayşe Hanım'ın emekli olduktan sonra evde dinlenmeyi tercih etmesi",
+                    "Mehmet'in üniversite sınavını kazanıp başka bir şehre taşınması",
+                    "Zeynep'in yeni iş yerinde mesai arkadaşlarıyla hızlıca uyum sağlaması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı anda hem yönetici hem de baba rollerinin sorumluluklarını yerine getirmeye çalışan bireyin yaşadığı bu durum rol çatışmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir bireyin sahip olduğu birden fazla statüden toplum gözünde en baskın olanına ne ad verilir?",
+                  "options": [
+                    "Ana statü",
+                    "Edilgen statü",
+                    "Rol beklentisi",
+                    "Statü sembolü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana statü (ana konum), bireyin toplumdaki diğer statüleri arasından sıyrılarak en çok ön plana çıkan ve kimliğini en çok belirleyen statüsüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi atfedilmiş (verilmiş) statülerin özelliklerinden biridir?",
+                  "options": [
+                    "Bireyin bireysel çabalarıyla kazanılması",
+                    "Eğitim süreci sonucunda elde edilmesi",
+                    "Doğuştan gelmesi ve kişinin iradesi dışında oluşması",
+                    "Zaman içinde değiştirilebilir olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Atfedilmiş statüler bireyin iradesi dışında, doğumla birlikte ya da sonradan biyolojik veya toplumsal zorunluluklarla kazandığı konumlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumun bir statüye sahip kişiden beklediği davranış kalıpları bütünlüğüne ne denir?",
+                  "options": [
+                    "Rol beklentisi",
+                    "Rol çatışması",
+                    "Rol karmaşası",
+                    "Rol pekişmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rol beklentisi, toplumun belli bir statüdeki bireyden nasıl davranmasını beklediğini ifade eden normatif kurallar bütünüdür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireyin doğuştan sahip olduğu veya iradesi dışında kazandığı statülere ____ statü denir.",
+                  "options": [
+                    "atfedilmiş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atfedilmiş statüler kişinin kendi çabası olmadan, doğumla veya biyolojik özelliklerle sahip olduğu konumlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin toplumdaki yeri nedeniyle sahip olduğu hak ve görevlerin bütününe ____ denir.",
+                  "options": [
+                    "statü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Statü, bireyin toplumsal yapıda işgal ettiği konumun adıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kimsenin mesleği, eğitimi veya ekonomik başarısı sonucunda elde ettiği statüler ____ statü olarak adlandırılır.",
+                  "options": [
+                    "kazanılmış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazanılmış statüler bireyin kişisel çabası ve yetenekleri doğrultusunda sonradan elde ettiği konumlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumun bir statüden diğerine geçişi kolaylaştıran veya zorlaştıran kurallarına ____ denir.",
+                  "options": [
+                    "roller"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Statülerin gerekleri olan roller, bireylerin toplum içindeki işleyişini düzenler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin birden fazla rolün gereklerini yerine getirirken zorlanması durumuna ____ denir.",
+                  "options": [
+                    "rol çatışması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rol çatışması, çelişen rol beklentilerinin aynı anda bireyden istenmesiyle ortaya çıkar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Atfedilmiş statüler bireyin kendi çabası ve başarıları sonucunda elde edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atfedilmiş statüler doğuştan gelir; çaba ile elde edilenler kazanılmış statülerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her toplumsal statünün mutlaka bir toplumsal rolü vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Statü ve rol bir madalyonun iki yüzü gibidir; statü konumu belirtirken rol o konumun gereklerini yerine getirmeyi ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rol pekişmesi, bireyin sahip olduğu rollerin birbiriyle uyum içinde olması ve birbirini kolaylaştırması durumudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rol pekişmesi, bir rolün gereklerini yerine getirmenin diğer bir rolü oynamayı kolaylaştırdığı durumlarda görülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cinsiyet ve yaş, kazanılmış statülere örnek olarak gösterilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cinsiyet ve yaş biyolojik temelli olduğu için atfedilmiş statülerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ana statü, bireyin toplumda taşıdığı roller arasından en baskın olanıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana statü bireyin toplumdaki genel kimliğini ve tanınırlığını en çok belirleyen statüsüdür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Toplumsal Yapı ve Kurumlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Toplumsal Yapı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsal yapı nedir?",
+                  "answer": "Toplumu oluşturan kurumlar, gruplar, statüler ve roller arasındaki ilişkilerin oluşturduğu düzenli ve istikrarlı bütün."
+                },
+                {
+                  "question": "Toplumsal kurum kavramı neyi ifade eder?",
+                  "answer": "Toplumun temel ihtiyaçlarını karşılamak üzere ortaya çıkmış kurallar, normlar ve örgütlenmeler bütünü."
+                },
+                {
+                  "question": "Mekanik dayanışma hangi tip toplumlarda görülür?",
+                  "answer": "Geleneksel, tarım toplumlarında; benzerlik bilincine ve ortak değerlere dayalı toplumsal dayanışma türü."
+                },
+                {
+                  "question": "Organik dayanışma neyi ifade eder?",
+                  "answer": "Modern, sanayi toplumlarında; iş bölümü ve uzmanlaşmaya dayalı karşılıklı bağımlılık."
+                },
+                {
+                  "question": "Toplumsal statü çeşitleri nelerdir?",
+                  "answer": "Verilmiş (doğanla kazanılan) statüler ve kazanılmış (çaba ile elde edilen) statüler."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal yapının temel unsurlarından biri değildir?",
+                  "options": [
+                    "Toplumsal gruplar",
+                    "Statü ve roller",
+                    "Toplumsal kurumlar",
+                    "Coğrafi iklim koşulları"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Toplumsal yapı; kurumlar, gruplar, statü ve roller gibi sosyal unsurlardan oluşur. Coğrafi iklim dışsal bir etken olup yapının doğrudan iç unsuru değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Emile Durkheim'a göre modern sanayi toplumlarında görülen, iş bölümüne dayalı dayanışma biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Birincil dayanışma",
+                    "Mekanik dayanışma",
+                    "Geleneksel dayanışma",
+                    "Organik dayanışma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Durkheim, iş bölümünün geliştiği modern toplumları organlara benzeterek bu dayanışmaya organik dayanışma adını vermiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bireyin doğumla birlikte sahip olduğu, kendi çabasıyla elde edemediği statü türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Verilmiş statü",
+                    "Kazanılmış statü",
+                    "Mesleki statü",
+                    "Eğitsel statü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cinsiyet, soy ve ırk gibi doğuştan gelen ve bireyin çabasıyla değişmeyen statüler verilmiş statü olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal kurumların genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Toplumdan topluma farklılık gösterebilirler",
+                    "Zamanla değişmez, mutlak ve sabittirler",
+                    "Birbirleriyle etkileşim içindedirler",
+                    "Temel toplumsal ihtiyaçları karşılarlar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplumsal kurumlar dinamiktir ve zaman içinde toplumsal değişmelere bağlı olarak dönüşebilirler, mutlak ve sabit değildirler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Geleneksel toplumdan modern topluma geçiş sürecini inceleyen Ferdinand Tönnies'in, kişisel ilişkilerin baskın olduğu geleneksel toplulukları tanımlamak için kullandığı kavram hangisidir?",
+                  "options": [
+                    "Metropol",
+                    "Gesellschaft (Cemiyet)",
+                    "Bürokrasi",
+                    "Gemeinschaft (Cemaat)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tönnies, duygusal ve geleneksel bağların güçlü olduğu küçük birimleri Gemeinschaft (cemaat), rasyonel ve çıkara dayalı modern toplumları ise Gesellschaft (cemiyet) olarak adlandırmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Toplumun üyelerine rol ve statülerine uygun davranış kalıplarını öğreten kurallar bütününe ____ adı verilir.",
+                  "options": [
+                    "toplumsal norm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal normlar, bireylerin toplum içindeki davranışlarını yönlendiren yazılı olan veya olmayan kurallardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin sahip olduğu statünün gerektirdiği hak ve sorumlulukları yerine getirmesine ____ denir.",
+                  "options": [
+                    "rol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rol, bir statünün dışa vurumu ve o statüden beklenen davranış kalıplarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Benzerlik bilincine dayalı, iş bölümünün az olduğu geleneksel toplumlardaki dayanışma türü ____ dayanışmadır.",
+                  "options": [
+                    "mekanik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mekanik dayanışma, ortak değerlerin ve benzerliklerin toplumu bir arada tuttuğu geleneksel yapıların özelliğidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğitim, din, aile ve ekonomi gibi yapılar birer toplumsal ____ olarak adlandırılır.",
+                  "options": [
+                    "kurum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal kurumlar, toplumun sürekliliğini sağlayan organize olmuş inanç ve davranış sistemleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin eğitim veya yetenekleri sayesinde sonradan elde ettiği statülere ____ statü denir.",
+                  "options": [
+                    "kazanılmış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazanılmış statüler, bireyin kendi çabası, başarısı ve yetenekleri doğrultusunda elde ettiği konumları ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Toplumsal yapıyı oluşturan unsurlar zaman içinde hiç değişmeden kalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplumsal yapı dinamiktir; nüfus, teknoloji ve ekonomik gelişmelere bağlı olarak zamanla değişim gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Verilmiş statüler bireyin kendi çabaları ve yetenekleri sonucunda sonradan elde ettiği konumlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kendi çabalarımızla elde ettiğimiz statüler 'kazanılmış statü' olarak adlandırılır; verilmiş statüler doğumla gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplumsal kurumlar birbirleriyle karşılıklı bağımlılık ilişkisi içerisindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin ekonomi kurumundaki bir değişim, aile veya eğitim kurumunu doğrudan etkileyebilir; kurumlar bir sistem oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mekanik dayanışma, iş bölümünün ve uzmanlaşmanın gelişmiş olduğu sanayi toplumlarının özelliğidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İş bölümü ve uzmanlaşmanın gelişmiş olduğu sanayi toplumlarında görülen dayanışma türü 'organik dayanışma'dır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rol çatışması, bireyin sahip olduğu birden fazla statünün gerekliliklerinin birbiriyle çelişmesi durumudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin hem çalışan bir anne hem de yönetici olan bir kişinin rollerinin zaman ve sorumluluk açısından çakışması rol çatışmasına örnektir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Toplumsal Kurumlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsal kurum nedir?",
+                  "answer": "Bireylerin temel ihtiyaçlarını karşılamak üzere ortaya çıkan, kuralları ve rolleri belli ögeler bütünüdür."
+                },
+                {
+                  "question": "Aile kurumunun temel işlevleri nelerdir?",
+                  "answer": "Yeni neslin üretilmesi, toplumsallaşma ve duygusal destek sağlamadır."
+                },
+                {
+                  "question": "Eğitim kurumunun gizil (örtük) işlevi nedir?",
+                  "answer": "Resmi program dışı değer, tutum ve davranışların kazandırılmasıdır."
+                },
+                {
+                  "question": "Ekonomi kurumu neyi inceler?",
+                  "answer": "Mal ve hizmetlerin üretimi, dağıtımı ve tüketimi süreçlerini inceler."
+                },
+                {
+                  "question": "Siyaset kurumunun temel amacı nedir?",
+                  "answer": "Toplumsal düzeni sağlamak ve iktidarın meşru kullanımını düzenlemektir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal kurumların genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Tarihsel süreçte değişmezler",
+                    "Belli kuralları ve normları vardır",
+                    "Bireylerin temel ihtiyaçlarını karşılar",
+                    "Toplumsal bütünleşmeyi sağlarlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal kurumlar statik olmayıp zamanla toplumsal değişmelere paralel olarak değişim gösterirler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kurumlardan hangisi toplumsallaşma sürecinde birincil derecede etkilidir?",
+                  "options": [
+                    "Aile",
+                    "Meslek örgütleri",
+                    "Kitle iletişim araçları",
+                    "Okul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aile, bireyin doğduğu andan itibaren içinde bulunduğu ve ilk toplumsallaşmayı edindiği birincil kurumdur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumda ekonomik faaliyetlerin üretim, dağıtım ve tüketim boyutlarını inceleyen kurum aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Din",
+                    "Siyaset",
+                    "Ekonomi",
+                    "Hukuk"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ekonomi kurumu, kıt kaynakların kullanımı ile mal ve hizmetlerin üretim, dağıtım ve tüketimini düzenler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Devletin yasama, yürütme ve yargı erkleriyle yapılandığı temel toplumsal kurum hangisidir?",
+                  "options": [
+                    "Eğitim",
+                    "Aile",
+                    "Siyaset",
+                    "Din"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Siyaset kurumu, iktidar ilişkilerini ve otoritenin kullanımını düzenleyen temel kurumdur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi din kurumunun toplumsal işlevleri arasında yer almaz?",
+                  "options": [
+                    "Bireylere ahlaki değerler kazandırma",
+                    "Bilimsel teorilerin doğruluğunu kanıtlama",
+                    "Yaşamın anlamını sorgulamada rehberlik etme",
+                    "Toplumsal dayanışmayı güçlendirme"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Din kurumu bilimsel teorileri kanıtlamakla görevli değildir; temel işlevleri manevi ve ahlaki boyuttadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireylerin temel ihtiyaçlarını karşılayan, birbirine bağlı roller ve kurallar sistemine ____ denir.",
+                  "options": [
+                    "toplumsal kurum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanımda ifade edilen kavram toplumsal kurumdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğitim kurumunun okullarda resmi olarak planlanmış programlar aracılığıyla bilgi aktarmasına ____ işlev denir.",
+                  "options": [
+                    "açık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Okulların müfredat dahilinde bilgi ve beceri kazandırması açık işlevdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ekonomik sistemde üretilen mal ve hizmetlerin halka ulaştırılması sürecine ____ denir.",
+                  "options": [
+                    "dağıtım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üretim ile tüketim arasındaki köprü dağıtım aşamasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Siyaset kurumunun merkezinde yer alan, kararları aldırma ve uygulatma gücüne ____ denir.",
+                  "options": [
+                    "iktidar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Siyasetin temel odak noktası iktidar ve otoritedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumsal normların yazılı hale getirilmiş ve yaptırıma bağlanmış biçimine ____ denir.",
+                  "options": [
+                    "hukuk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazılı kurallar bütünü hukuk kurumunu oluşturur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Toplumsal kurumlar birbirinden tamamen bağımsız olarak işlev görür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplumsal kurumlar birbiriyle etkileşim halindedir ve biri diğerini doğrudan etkiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aile kurumu, toplumsallaşmanın ilk gerçekleştiği birincil gruptur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birey hayata aile içinde başlar ve ilk temel değerleri burada öğrenir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eğitim yalnızca okullarda gerçekleşen örgün bir süreçtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eğitim örgün olabileceği gibi yaygın eğitim yoluyla hayatın her aşamasında devam eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekonomi kurumu kıt kaynakların verimli kullanılması sorununa çözüm arar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekonominin temel temelinde kıtlık ve bu kıtlığın yönetilmesi yatar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Din kurumu toplumsal kontrolü sağlayan manevi yaptırımlara sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din, inanç ve değerler sistemi aracılığıyla bireylerin davranışlarını kontrol eder.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Toplumsal Tabakalaşma",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsal tabakalaşma nedir?",
+                  "answer": "Toplumdaki bireylerin ve grupların zenginlik, güç ve prestij gibi değerlere eşitsiz bir şekilde sahip olması durumudur."
+                },
+                {
+                  "question": "Kapalı sınıf tabakalaşma sistemine en bilinen tarihsel örnek hangisidir?",
+                  "answer": "Hindistan'daki kast sistemi."
+                },
+                {
+                  "question": "Açık sınıf tabakalaşma sisteminin temel özelliği nedir?",
+                  "answer": "Bireylere dikey hareketlilik imkanı tanıması ve konumun doğuştan değil, başarıya bağlı olmasıdır."
+                },
+                {
+                  "question": "Karl Marx'ın tabakalaşma analizinde temel ölçütü nedir?",
+                  "answer": "Üretim araçlarına sahiplik (mülkiyet) durumudur."
+                },
+                {
+                  "question": "Max Weber'in tabakalaşma modelindeki üç temel boyut nelerdir?",
+                  "answer": "Sınıf (ekonomik), statü (prestij) ve parti (siyasi güç)."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal tabakalaşma sistemlerinden biri olan 'kast sistemi'nin temel özelliklerinden biridir?",
+                  "options": [
+                    "Bireylerin yeteneklerine göre sınıf değiştirebilmesi",
+                    "Evliliklerin genellikle aynı kast üyeleri arasında gerçekleşmesi",
+                    "Üretim araçlarının özel mülkiyete dayalı olması",
+                    "Siyasi gücün demokratik seçimlerle belirlenmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kast sisteminde tabakalar arası geçiş kapalıdır ve endogami (kast içi evlilik) kuralı geçerlidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karl Marx'ın tabakalaşma teorisinde burjuvazi ve proletarya olarak iki temel sınıfa ayrılmanın temel sebebi nedir?",
+                  "options": [
+                    "Kültürel değerlere bağlılık derecesi",
+                    "Üretim araçlarına sahip olup olmama durumu",
+                    "Eğitim seviyelerinin farklı olması",
+                    "Toplumsal prestijin paylaştırılması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Marx, toplumsal sınıfların oluşumunda ekonomik altyapıyı ve üretim araçlarının mülkiyetini temel alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir bireyin ya da grubun bir tabakadan diğerine (yukarıya veya aşağıya) geçmesine ne ad verilir?",
+                  "options": [
+                    "Toplumsal hareketlilik",
+                    "Toplumsal çözümleme",
+                    "Kültürel yozlaşma",
+                    "Statü sembolü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal hareketlilik, bireylerin veya grupların tabakalar arasındaki yer değiştirmesini ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Max Weber tabakalaşmayı incelerken ekonomik boyutu 'sınıf' olarak adlandırmış, prestij ve saygınlık boyutunu ise hangi kavramla açıklamıştır?",
+                  "options": [
+                    "Statü",
+                    "Otorite",
+                    "Parti",
+                    "Bürokrasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Weber'e göre toplumsal onur ve prestij 'statü' grubunu oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi modern sanayi toplumlarında görülen açık sınıf sisteminin özelliklerinden biridir?",
+                  "options": [
+                    "Dikey hareketliliğin tamamen imkansız olması",
+                    "Meslek seçimlerinin babadan oğula kesin kurallarla aktarılması",
+                    "Toplumsal konumların tamamen doğumla belirlenmesi",
+                    "Hukuki olarak bireylerin eşit haklara sahip olması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Açık sınıf sisteminde yasal ve hukuki olarak bireyler eşit kabul edilir ve çalışarak konum değiştirebilirler.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Toplumda mülkiyet, gelir ve servet gibi ekonomik unsurlara dayanan tabakalaşma biçimi genellikle ____ olarak adlandırılır.",
+                  "options": [
+                    "sınıf"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekonomik eşitsizlikleri ve üretim ilişkilerini temel alan tabakalaşma biçimi sınıftır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tabakalar arası geçişin tamamen yasak olduğu ve dinî kurallarla sert bir şekilde belirlendiği sisteme ____ sistemi denir.",
+                  "options": [
+                    "kast"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kast sistemi, geçişlerin yasak olduğu kapalı bir tabakalaşma türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin veya grubun aynı tabaka içinde yatay düzlemde yer değiştirmesi ____ hareketlilik olarak tanımlanır.",
+                  "options": [
+                    "yatay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Statü veya sınıf seviyesi değişmeden yapılan cozoğrafi veya mesleki yer değiştirmeler yatay hareketliliktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Feodal toplum düzeninde görülen, toprak mülkiyetine dayanan ve soylular ile köylüleri içeren tabakalaşma sistemi ____ düzeni olarak bilinir.",
+                  "options": [
+                    "zümre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Çağ Avrupa'sında görülen yarı kapalı tabakalaşma zümre (üyük) sistemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Max Weber'in çok boyutlu tabakalaşma modelinde siyasi gücü temsil eden unsura ____ adı verilir.",
+                  "options": [
+                    "parti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Weber tabakalaşmayı sınıf, statü ve parti olmak üzere üç boyutta ele almıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kast sisteminde bireylerin yetenekleri sayesinde üst sınıflara çıkması mümkündür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kast sistemi en kapalı tabakalaşma türüdür; doğulan kast değiştirilemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Açık sınıf tabakalaşması, sanayileşme ve modernleşme süreçleriyle birlikte yaygınlaşmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi toplumu ile birlikte ekonomik yapının değişmesi açık sınıf ve dikey hareketliliği artırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yatay hareketlilik, bireyin ekonomik veya toplumsal statüsünde yukarı ya da aşağı yönlü bir değişme anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Statü değişikliği olmaksızın yapılan yer değiştirmeler yatay hareketliliktir; statü değişimi dikey hareketliliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karl Marx'a göre kapitalist toplumda proletarya sınıfı üretim araçlarına sahip olan kesimi oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Proletarya üretim araçlarına sahip olmayan ve emeğini satan işçi sınıfıdır; üretim araçlarına sahip olan burjuvazidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplumsal tabakalaşma, tüm toplumlarda görülen evrensel bir eşitsizlik biçimidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarih boyunca hemen hemen tüm toplumlarda kıt kaynakların eşitsiz dağılımına dayanan tabakalaşma görülmüştür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Kültür ve Değişme",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Toplum ve Kültür",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kültürün maddi unsurları nelerdir?",
+                  "answer": "Bir toplumun ürettiği her türlü araç-gereç, binalar, sanat eserleri ve teknolojik ürünler maddi kültürü oluşturur."
+                },
+                {
+                  "question": "Kültürün manevi unsurları nelerdir?",
+                  "answer": "Dil, din, ahlak kuralları, örf, adet, gelenekler ve değerler manevi kültürü oluşturur."
+                },
+                {
+                  "question": "Kültürleşme nedir?",
+                  "answer": "Farklı kültürlerin karşılıklı etkileşimi sonucunda birbirlerinden öğeler alması ve kültür alışverişinde bulunmasıdır."
+                },
+                {
+                  "question": "Kültürel yozlaşma ne anlama gelir?",
+                  "answer": "Bir toplumun kendi kültür değerlerini yitirmesi ve yabancı kültürlerin olumsuz etkileri altında bozulmasıdır."
+                },
+                {
+                  "question": "Kültür emperyalizmi nedir?",
+                  "answer": "Güçlü ekonomik ve siyasi yapıya sahip devletlerin kendi kültürlerini diğer toplumlar üzerine baskıyla dayatmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi kültürün manevi ögeleri arasında yer almaz?",
+                  "options": [
+                    "Gelenekler",
+                    "Ahlak kuralları",
+                    "Değer yargıları",
+                    "Tarihi binalar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tarihi binalar somut ve gözle görülebilir nitelikte olduğundan maddi kültür ögeleri arasında yer alır; diğer seçenekler manevi kültürdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir bireyin kendi kültürünü ya da bir başka kültürü üstün veya aşağı görme eğilimine ne ad verilir?",
+                  "options": [
+                    "Kültürel yayılma",
+                    "Kültürleşme",
+                    "Kültür şoku",
+                    "Etnosentrizm"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Etnosentrizm, bireylerin kendi kültürünü merkeze alarak diğer kültürleri kendi kültür ölçütlerine göre değerlendirmesi ve yargılamasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Farklı kültürlerin bir arada barış içinde, kendi kimliklerini koruyarak yaşaması durumunu ifade eden kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kültürel yozlaşma",
+                    "Kültürel asimilasyon",
+                    "Kültürel çoğulculuk",
+                    "Etnosentrizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kültürel çoğulculuk, farklı kültürel kimliklerin ve grupların toplum içinde özgürce var olabilmesini ve korunmasını ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumun maddi ögelerinin değişme hızı ile manevi ögelerinin değişme hızı arasındaki uyumsuzluk durumunu açıklayan kavram hangisidir?",
+                  "options": [
+                    "Kültür gecikmesi",
+                    "Kültürel yayılma",
+                    "Kültür şoku",
+                    "Kültürel asimilasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültür gecikmesi, maddi kültürdeki hızlı değişime manevi kültürün (değerler, kurumlar) ayak uyduramaması durumudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kültürün ait olduğu toplumdan başka toplumlara yayılması sürecine ne ad verilir?",
+                  "options": [
+                    "Kültürel özümseme",
+                    "Kültürleme",
+                    "Kültür emperyalizmi",
+                    "Kültürel yayılma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kültürel yayılma (difüzyon), bir kültür ögesinin veya kompleksinin yayılarak başka toplumlar tarafından benimsenmesi sürecidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Toplumun nesilden nesile aktardığı bilgi, inanç, sanat, ahlak, gelenek gibi özelliklerin tümüne ____ denir.",
+                  "options": [
+                    "kültür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültür, insan topluluklarının yarattığı maddi ve manevi birikimlerin bütünüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kendi kültüründen başka bir kültüre giden bireyin yaşadığı uyum zorluğu ve bunalım durumuna ____ denir.",
+                  "options": [
+                    "kültür şoku"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bireyin alışık olmadığı yeni bir kültürel çevreye girdiğinde yaşadığı bocalama durumu kültür şoku olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir azınlık grubun baskın olan çoğunluk kültürünün içinde erimesine ve kendi özelliklerini kaybetmesine ____ denir.",
+                  "options": [
+                    "asimilasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürel asimilasyon, bir grubun diğer kültüre benzemesi ve asıl kimliğini yitirmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumdaki bireylere toplumun kültürünün kasıtlı veya kasıtsız olarak kazandırılması sürecine ____ denir.",
+                  "options": [
+                    "kültürleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürleme, bireyin sosyalleşme süreciyle birlikte içine doğduğu toplumun kültürünü öğrenmesi ve benimsemesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Maddi kültür unsurları manevi kültür unsurlarına göre çok daha ____ bir değişim hızı gösterir.",
+                  "options": [
+                    "hızlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teknolojik ve maddi unsurlar hızla yenilenirken, değerler ve gelenekler gibi manevi unsurlar daha yavaş değişir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kültür, doğuştan gelen biyolojik özelliklerle nesilden nesile aktarılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kültür biyolojik kalıtımla değil, toplumsal öğrenme, eğitim ve sosyalleşme yoluyla aktarılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her toplumun kendine özgü bir kültürü vardır ve kültürler zamanla değişime uğrayabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültür dinamik bir yapıya sahiptir; toplumsal koşullara, zamana ve dış etkenlere bağlı olarak değişebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kültürel yayılma, kültürlerin birbirinden tamamen bağımsız ve yalıtılmış yaşaması durumudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kültürel yayılma, kültürlerin etkileşimde bulunarak ögelerini başka toplumlara aktarmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maddi kültür ögeleri değişkendir ancak manevi kültür ögelerine göre daha yavaş değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tam tersine, teknoloji ve araç-gereç gibi maddi kültür ögeleri çok daha hızlı değişirken, inanç ve değerler daha dirençlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Etnosentrizm, bireyin kendi kültürünü merkeze koyarak diğer kültürleri ona göre değerlendirmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etnosentrizm (özceketçilik), kendi kültürünü üstün görüp diğerlerini bu ölçüte göre eleştirme eğilimidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Toplumsal Değişme ve Gelişme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumsal değişme nedir?",
+                  "answer": "Toplumun yapısında, kurumlarında, değerlerinde ve ilişkilerinde zaman içinde meydana gelen farklılaşma sürecidir."
+                },
+                {
+                  "question": "Toplumsal gelişme ne anlama gelir?",
+                  "answer": "Toplumsal değişmenin genellikle olumlu yönde, refah, adalet ve yaşam kalitesinin artması şeklinde değerlendirilmesidir."
+                },
+                {
+                  "question": "Kültürel gecikme kavramını kim ortaya atmıştır?",
+                  "answer": "William Fielding Ogburn"
+                },
+                {
+                  "question": "Maddi kültür ile manevi kültür arasındaki uyumsuzluk ne olarak adlandırılır?",
+                  "answer": "Kültürel gecikme"
+                },
+                {
+                  "question": "Toplumsal değişmenin temel kaynaklarından biri olan teknolojik gelişme hangi kültür unsurunu doğrudan etkiler?",
+                  "answer": "Maddi kültür"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal değişmenin dışsal nedenleri arasında yer alır?",
+                  "options": [
+                    "Kültürel yayılma",
+                    "Ekonomik krizler",
+                    "Nüfus artışı",
+                    "İç göçler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürel yayılma (difüzyon), başka toplumlardan gelen öğelerin alınmasıyla oluştuğu için dışsal bir değişme nedenidir. Diğer seçenekler toplumun kendi iç dinamikleriyle ilgilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumsal yapıda ve kurumlarda daha planlı, bilinçli ve niceliksel-niteliksel iyileşmeyi ifade eden kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Toplumsal yozlaşma",
+                    "Kültürleme",
+                    "Toplumsal gelişme",
+                    "Kültürel gecikme"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Toplumsal gelişme, toplumun daha iyi bir duruma doğru planlı ve ilerlemeci bir değişim geçirmesini ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Teknolojideki hızlı gelişmeye karşılık ahlak, hukuk veya değerler gibi alanların bu hıza ayak uyduramaması durumu aşağıdakilerden hangisiyle açıklanır?",
+                  "options": [
+                    "Kültürel gecikme",
+                    "Kültür şoku",
+                    "Asimilasyon",
+                    "Kültürel yozlaşma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maddi kültürün manevi kültürden daha hızlı değişmesi sonucu ortaya çıkan uyumsuzluk kültürel gecikme olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi toplumsal değişmeyi hızlandıran etkenlerden biri değildir?",
+                  "options": [
+                    "Ulaşım ağlarının gelişmesi",
+                    "Bilimsel keşifler",
+                    "Kitle iletişim araçları",
+                    "Coğrafi izolasyon"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Coğrafi izolasyon (dış dünyadan soyutlanmış olma), toplumların dış etkileşimini engellediği için toplumsal değişmeyi yavaşlatır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Farklı kültürlere sahip iki grubun uzun süreli doğrudan teması sonucunda karşılıklı kültür alışverişinde bulunmasına ne ad verilir?",
+                  "options": [
+                    "Kültürel emperyalizm",
+                    "Kültürel yayılma",
+                    "Kültürleşme",
+                    "Etnosentrizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kültürleşme, farklı kültürlerin karşılıklı etkileşim ve alışveriş sürecini ifade eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Toplumsal yapının maddi unsurlarındaki değişimin, manevi unsurlarındaki değişimden daha hızlı olması durumuna ____ denir.",
+                  "options": [
+                    "kültürel gecikme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ogburn tarafından ortaya atılan bu kavram, maddi ve manevi kültür arasındaki değişim hızı farkını açıklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumların kendi iç dinamiklerinin yanı sıra başka toplumlarla etkileşimi sonucu kültür unsurlarının yayılmasına ____ adı verilir.",
+                  "options": [
+                    "kültürel yayılma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürel yayılma veya difüzyon, bir kültür öğesinin başka toplumlara yayılma sürecidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumsal değişmenin planlı, bilinçli ve kalkınma odaklı olan olumlu yönüne ____ denir.",
+                  "options": [
+                    "toplumsal gelişme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal gelişme, değişimin ilerleme ve kalkınma boyutunu vurgular.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir bireyin ya da grubun başka bir kültürel ortama uyum sağlama sürecine ____ denir.",
+                  "options": [
+                    "kültürlenme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürlenme, bireyin içine doğduğu veya sonradan katıldığı kültürün özelliklerini öğrenme ve benimseme sürecidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumdaki nüfus artışı, kentleşme ve sanayileşme gibi olgular toplumsal değişmenin ____ nedenleri arasında yer alır.",
+                  "options": [
+                    "içsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tür etkenler toplumun kendi iç işleyişinden ve yapısından kaynaklandığı için içsel nedenler olarak sınıflandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Toplumsal değişme her toplumda aynı hızda ve aynı yönde gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplumsal değişimin hızı ve yönü toplumdan topluma coğrafi, ekonomik ve kültürel etkenlere bağlı olarak değişiklik gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Teknolojik gelişmeler, toplumsal değişmeyi hızlandıran en önemli etkenlerden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teknolojideki yenilikler hem maddi hem de manevi kültürü etkileyerek değişimi doğrudan ve hızla tetikler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kültürel gecikme kavramı manevi kültürün maddi kültürden daha hızlı değiştiğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, maddi kültür daha hızlı değişir ve manevi kültür bu değişimin gerisinde kalarak gecikme yaşar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplumsal değişme olgusunda hem olumlu hem de olumsuz yönde gelişmeler yaşanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumsal değişme nötr bir kavramdır; yıkıcı sonuçlar doğurabileceği gibi ilerleme ve gelişme de sağlayabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Savaşlar ve göçler toplumsal değişmeye neden olan dışsal etkenler arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dışarıdan gelen müdahaleler ve nüfus hareketleri toplum yapısını dışarıdan etkileyerek değişimi zorunlu kılar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

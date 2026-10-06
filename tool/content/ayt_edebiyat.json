@@ -1,0 +1,2257 @@
+{
+  "subjectKey": "ayt_edebiyat",
+  "title": "AYT Edebiyat",
+  "examType": "YKS",
+  "subject": "Edebiyat",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Edebiyatın Temelleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Güzel Sanatlar ve Edebiyat",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Güzel sanatlar tablosunda edebiyat hangi grupta yer alır?",
+                  "answer": "Sözel (fonetik) sanatlar"
+                },
+                {
+                  "question": "Edebiyatın malzemesi nedir?",
+                  "answer": "Dil"
+                },
+                {
+                  "question": "Güzel sanatların sınıflandırılmasında ölçüt nedir?",
+                  "answer": "Kullanılan malzeme ve duyu organları"
+                },
+                {
+                  "question": "Plastik (görsel) sanatlara iki örnek veriniz.",
+                  "answer": "Resim ve heykel"
+                },
+                {
+                  "question": "Fonetik sanatların işitsel olmasının temel sebebi nedir?",
+                  "answer": "Malzemesinin ses ve kelimeler olması"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi güzel sanatların sınıflandırılmasında 'fonetik sanatlar' arasında yer alır?",
+                  "options": [
+                    "Resim",
+                    "Müzik",
+                    "Mimari",
+                    "Tiyatro"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Müzik ve edebiyat malzemesi ses/kelime olduğu için işitsel (fonetik) sanatlar grubuna girer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Edebiyatın diğer güzel sanatlardan en temel ayrımı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kalıcı eserler bırakması",
+                    "Malzemesinin dil olması",
+                    "Estetik zevk uyandırması",
+                    "İnsan duygularına hitap etmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Resim boya, müzik ses, heykel taş/kil kullanırken edebiyat yalnızca dili malzeme olarak kullanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'plastik (görsel) sanatlar' grubuna girer?",
+                  "options": [
+                    "Şiir",
+                    "Türkü",
+                    "Heykel",
+                    "Roman"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Heykel ve resim gibi sanatlar göze hitap ettiği için plastik sanatlar kategorisindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Güzel sanatların sınıflandırılması genel olarak kaç ana gruba ayrılır?",
+                  "options": [
+                    "Dört",
+                    "Beş",
+                    "Üç",
+                    "İki"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Güzel sanatlar; görsel (plastik), işitsel (fonetik) ve dramatik (ritmik) sanatlar olmak üzere üç gruba ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ritmik (dramatik) sanatlar arasında gösterilebilir?",
+                  "options": [
+                    "Heykel",
+                    "Grafik",
+                    "Tiyatro",
+                    "Roman"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tiyatro, bale, sinema gibi sanat dalları hareket ve eyleme dayandığı için dramatik sanatlar içindedir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Edebiyat kelimesinin kökeni Arapçadaki edeb kavramına dayanır ve güzel sanatlar içinde ____ sanatlar grubunda yer alır.",
+                  "options": [
+                    "fonetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edebiyat ses ve kelimelerle yapıldığı için fonetik (işitsel) sanatlar sınıfına dahildir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Resim ve heykel gibi göze ve maddene dayanan sanatlar ____ sanatlar olarak adlandırılır.",
+                  "options": [
+                    "plastik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plastik sanatlar maddene şekil verme esasına dayanan görsel sanat kollarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güzel sanatların temel amacı insanlarda ____ duygu ve heyecan uyandırmaktır.",
+                  "options": [
+                    "estetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanatın temelinde estetik zevk kazandırma ve güzellik algısı oluşturma gayesi vardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tiyatro, dans ve sinema gibi hareket unsuru içeren sanatlar ____ sanatlar olarak sınıflandırılır.",
+                  "options": [
+                    "ritmik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ritmik ve dramatik sanatlar hareketi, eylemi ve sergilemeyi temel alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Edebiyatın güzel sanatlar içindeki en temel malzemesi ____ ögesidir.",
+                  "options": [
+                    "dil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edebiyatın ham maddesi ve tek aracı dildir, yazar veya şair duygu ve düşüncelerini dille aktarır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Edebiyat, fonetik sanatlar grubu içerisinde incelenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edebiyatın malzemesi dil olduğundan fonetik (işitsel) sanatlar arasında yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mimari, işitsel sanatlar sınıfına giren bir güzel sanat dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mimari göze ve mekana hitap ettiği için plastik (görsel) sanatlar grubundadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güzel sanatların sınıflandırılmasında kullanılan temel ölçütlerden biri de kullanılan malzemedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanat dalları boya, taş, ses veya dil gibi kullanılan malzemelere göre sınıflandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Heykel sanatı fonetik sanatların en gelişmiş örneklerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Heykel plastiktir; fonetik sanatlar ses ve sözcük temellidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Edebiyat, estetik zevk uyandırmak amacıyla dilin işlenmesiyle oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edebî metinler estetik bir kaygı ile dilin sanatsal kullanımı sonucu ortaya çıkar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Metinlerin Sınıflandırılması",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Metinler temel olarak hangi iki büyük gruba ayrılır?",
+                  "answer": "Edebi (sanatsal) metinler ve öğretici metinler"
+                },
+                {
+                  "question": "Edebi metinlerin yazılışındaki temel amaç nedir?",
+                  "answer": "Okurda estetik zevk uyandırmak, sanatsal bir etki yaratmak"
+                },
+                {
+                  "question": "Öğretici metinler hangi amaçla kaleme alınır?",
+                  "answer": "Bilgi vermek, haber aktarmak, bir düşünceyi kanıtlamak veya yönlendirmek"
+                },
+                {
+                  "question": "Edebi metinlerde kullanılan dil hangi işlevde kullanılır?",
+                  "answer": "Şiirsel (sanatsal) işlevde"
+                },
+                {
+                  "question": "Öğretici metinlerde dil genellikle hangi işleviyle kullanılır?",
+                  "answer": "Göndergesel işlevde"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi edebi (sanatsal) metinlerin özelliklerinden biri değildir?",
+                  "options": [
+                    "Kelimelerin yan ve mecaz anlam değerlerinin yüksek olması",
+                    "Gerçekliğin değiştirilerek, kurmaca bir dünyada sunulması",
+                    "Amacın okuyucuya doğrudan nesnel bilgi aktarmak olması",
+                    "Anlatımda kişisel bir bakış açısının ve öznelliğin hâkim olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Edebi metinlerin amacı doğrudan nesnel bilgi aktarmak değildir; nesnel bilgi aktarımı öğretici metinlerin özelliğidir. Edebi metinler kurmaca ve estetik kaygıyla yazılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki metin türlerinden hangisi 'öğretici metinler' sınıfı içinde yer almaz?",
+                  "options": [
+                    "Makale",
+                    "Trajedi",
+                    "Fıkra",
+                    "Biyografi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Trajedi, coşku ve heyecana bağlı metinler veya tiyatro kapsamında değerlendirilen sanat metinlerindendir. Makale, fıkra ve biyografi ise öğretici metin türlerindendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Metinlerin sınıflandırılmasında aşağıdakilerden hangisi temel ölçütlerden biri olarak kullanılmaz?",
+                  "options": [
+                    "Yazılış amacı",
+                    "Gerçeklikle kurduğu ilişki",
+                    "Yazarın yaşı",
+                    "Kullanılan dilin işlevi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Metinler sınıflandırılırken yazılış amacı, hedef kitle, gerçeklikle ilişki, anlatım biçimleri ve dilin işlevi gibi ölçütler kullanılır; yazarın yaşı bir sınıflandırma ölçütü değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi coşku ve heyecanı dile getiren metinler (şiir) grubuna dahildir?",
+                  "options": [
+                    "Eleştiri",
+                    "Haber yazısı",
+                    "Lirik şiir",
+                    "Anı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Lirik şiir, coşku ve heyecanı dile getiren metinler grubunun temel örneğidir. Eleştiri, anı ve haber yazısı öğretici metinler sınıfına girer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Öğretici metinler ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Gerçeklik tamamen kurmaca bir süzgeçten geçirilerek yeniden üretilir.",
+                    "Yazarın temel hedefi estetik bir heyecan uyandırmaktır.",
+                    "Çok anlamlılık ve yoruma açıklık esastır.",
+                    "Bilgiler kanıtlanabilir ya da mantıksal bir tutarlılıkla sunulur."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Öğretici metinlerde bilgiler nesnel veya mantıksal tutarlılıkla sunulur. Diğer seçenekler edebi metinlerin özellikleridir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Metinler; yazılış amaçları, gerçeklikle ilişkileri ve dilin işlevleri dikkate alınarak edebi metinler ve ____ metinler olarak ikiye ayrılır.",
+                  "options": [
+                    "öğretici"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metinlerin sınıflandırılması genel olarak edebi (sanatsal) ve öğretici metinler olmak üzere iki ana kola ayrılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Edebi metinlerin en belirgin özelliklerinden biri, gerçeğin yazar tarafından değiştirilerek yeniden üretilmesi yani ____ bir nitelik taşımasıdır.",
+                  "options": [
+                    "kurmaca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanatsal metinler gerçekliği olduğu gibi değil, kurgusal bir dünyada estetik süzgeçten geçirerek yansıtır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Makale, fıkra, eleştiri ve sohbet gibi türler ____ metinler sınıfı içinde yer alır.",
+                  "options": [
+                    "öğretici"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu türler bilgi vermek, düşünceyi kanıtlamak ve okuru aydınlatmak amacıyla yazıldığı için öğretici metinler grubundadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Öğretici metinlerde dil, genellikle nesnel bilgilendirme yapabilmek için ____ işlevde kullanılır.",
+                  "options": [
+                    "göndergesel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Göndergesel işlev, dilin bilgi aktarma amacıyla kullanıldığı temel işlevdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tiyatro metinleri, olay çevresinde oluşan edebi metinler içinde yer alıp ____ yoluyla aktarılan metinlerdir.",
+                  "options": [
+                    "gösterge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tiyatro eserleri, yazılı metnin sahnede oyuncular tarafından canlandırılmasıyla seyirciye aktarılan gösterge temelli metinlerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Edebi metinlerde kelimeler genellikle yan ve mecaz anlamlarıyla kullanılarak okurda farklı çağrışımlar uyandırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanatsal metinlerde sanatçı, dilin imgelem gücünden yararlanarak kelimeleri yan ve mecaz anlamlarda bolca kullanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Öğretici metinlerin temel hedefi, okuyucuda estetik bir tat bırakmak ve duygusal bir dönüşüm sağlamaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Öğretici metinlerin hedefi estetik tat bırakmak değil, bilgi vermek veya düşünceyi aktarmaktır. Estetik tat bırakmak edebi metinlerin özelliğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Metinlerin sınıflandırılmasında kullanılan en önemli ölçütlerden biri yazarın metni hangi amaçla kaleme aldığıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazılış amacı, metinlerin edebi veya öğretici olarak sınıflandırılmasında temel kriterlerin başında gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Haber metinleri, kişisel yorumların ve öznel yargıların yoğun olarak yer aldığı edebi metinler sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Haber metinleri nesnel bilgi aktaran ve öğretici metinler grubunda yer alan metinlerdir, edebi metin değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Coşku ve heyecanı dile getiren metinler, şiir türünü ve bu türün barındırdığı yapı unsurlarını kapsar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coşku ve heyecanı dile getiren metinler temel olarak şiir sanatını ve lirik anlatımı ifade eder.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Anlam ve Söz Sanatları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Söz sanatları (edebi sanatlar) genel olarak kaç ana gruba ayrılır?",
+                  "answer": "İki ana gruba ayrılır: Anlam sanatları (mânâ) ve söz sanatları (lafız)."
+                },
+                {
+                  "question": "Benzetme (teşbih) sanatının temel dört unsuru nedir?",
+                  "answer": "Benzeyen, kendisine benzetilen, benzetme yönü ve benzetme edatıdır."
+                },
+                {
+                  "question": "İstiare (eğretileme) sanatı temel olarak kaça ayrılır?",
+                  "answer": "İkiye ayrılır: Açık istiare ve kapalı istiare."
+                },
+                {
+                  "question": "Mecazımürsel (ad aktarımı) ne demektir?",
+                  "answer": "Benzetme amacı gütmeden bir sözcüğün başka bir sözcük yerine kullanılmasıdır."
+                },
+                {
+                  "question": "Tezat (zıtlık) sanatı nedir?",
+                  "answer": "Birbirine zıt iki kavramın, duygunun veya durumun aynı dizede veya beyitte bir arada kullanılmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki dizelerin hangisinde bir söz sanatı olarak 'teşbih' (benzetme) yapılmıştır?",
+                  "options": [
+                    "Bütün gün okulun yolunu gözledim.",
+                    "Ağlayan bu çınar eski günlerini özlemiş.",
+                    "Kömür gözlerinle beni derinden yaraladın.",
+                    "Cennet gibi güzel bir vatanda yaşıyoruz."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Cennet gibi güzel bir vatanda' ifadesinde vatan (benzeyen) cennete (kendisine benzetilen) benzetilmiş, 'gibi' benzetme edatıdır. Diğer seçeneklerde açık istiare, kapalı istiare ve mecazımürsel örnekleri vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki dizelerin hangisinde 'kapalı istiare' vardır?",
+                  "options": [
+                    "Bakarsın turnalar da iner yere.",
+                    "Bir hilal uğruna ya Rab, ne güneşler batıyor.",
+                    "Çatık kaşlı dağlar başın bağlamış.",
+                    "Kurban olam kömür gözlü sahinime."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Dağlar' insan gibi düşünülüp başı bağlanmış olarak gösterilmiştir ancak kendisine benzetilen (insan) söylenmemiştir; bu durum kapalı istiaredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sözcüğün benzetme amacı gütmeden başka bir sözcük yerine kullanılmasına ne ad verilir?",
+                  "options": [
+                    "Kinaye",
+                    "Tecahüliarif",
+                    "Mecazımürsel",
+                    "Teşbih"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Benzetme amacı güdülmeden parça-bütün, iç-dış, yer-yönetim gibi ilişkilerle yapılan aktarmaya mecazımürsel (ad aktarımı) denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki dizelerin hangisinde 'tezat' (zıtlık) sanatına yer verilmiştir?",
+                  "options": [
+                    "Ağlarım çaresiz, gülmez yüzüm hiç.",
+                    "Karlar etrafı beyaz bir karanlığa gömdü.",
+                    "Ey bu topraklar için toprağa düşmüş asker!",
+                    "Gül hasretinle yollara baksın."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı dizede veya ifadede yer alan 'ağlarım' ve 'gülmez' sözcükleriyle tezat (zıtlık) sanatı yapılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bildiği bir gerçeği bilmemezlikten gelerek edebî bir nükte yaratma sanatına ne ad verilir?",
+                  "options": [
+                    "hüsnütalil",
+                    "tecnis",
+                    "tecahüliarif",
+                    "tevriye"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Şairin bildiği bir konuyu bilmezlikten gelerek güzel bir neden bağlaması veya şaşkınlık bildirmesi tecahüliarif sanatıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Benzeyen ve kendisine benzetilen unsurlarından sadece biriyle yapılan benzetmeye ____ denir.",
+                  "options": [
+                    "istiare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sadece benzeyen veya sadece kendisine benzetilen kullanılarak yapılan söz sanatı istiaredir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aralarında ilgi bulunan iki kavramdan birini benzetme amacı gütmeden diğerinin yerine kullanmaya ____ denir.",
+                  "options": [
+                    "mecazımürsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ad aktarımı olarak da bilinen bu sanat mecazımürseldir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözün hem gerçek hem de mecaz anlamını düşündürecek şekilde kullanılmasına ____ denir.",
+                  "options": [
+                    "tevriye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevriye, iki anlamlılık demektir ve genellikle yakın anlam söylenip uzak anlam kastedilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Herhangi bir olayın gerçek nedenini bir kenara bırakıp güzel ve hayali bir nedene bağlama sanatına ____ denir.",
+                  "options": [
+                    "hüsnütalil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güzel neden bulma sanatı hüsnütalil olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazılışları ve okunuşları aynı, anlamları farklı sözcüklerin bir arada kullanılması sanatına ____ denir.",
+                  "options": [
+                    "cinas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cinasta sesteş sözcükler farklı anlamlarda bir arada kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Teşbih-i beliğ, sadece benzenen ve kendisine benzetilen ile yapılan tam bir benzetmedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzetme yönü ve edatı kullanılmadan yapılan teşbihe teşbih-i beliğ denir ve doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kinaye, bir sözün hem gerçek hem mecaz anlamda aynı anda kullanılmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kinaye, bir sözün genellikle mecaz anlamının kastedilmesi, gerçek anlamın ise düşündürülmesi durumudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tecahüliarif sanatı 'bilmezlikten gelme' anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şairin bildiği bir durumu bilmezlikten gelerek şiire estetik katması tecahüliarif sanatıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mecazımürsel ile istiare tamamen aynı anlama gelen eş anlamlı iki terimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mecazımürsel benzetme amacı gütmeden yapılır, istiare ise özünde benzetme temeline dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İntak sanatı, insan dışındaki varlıkların konuşturulması esasına dayanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İntak, teşhis (kişileştirme) sanatının bir ileri aşaması olup konuşturma sanatıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Şiir Bilgisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Nazım Biçimleri ve Ölçü",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Divan edebiyatında mahlasların kullanıldığı ve şiirin ana konurunun işlendiği son beyte ne ad verilir?",
+                  "answer": "Taç beyit"
+                },
+                {
+                  "question": "Halk edebiyatında yarım kafiye ile zengin kafiyeyi ayıran temel ölçüt nedir?",
+                  "answer": "Ses benzerliği sayısı"
+                },
+                {
+                  "question": "Kafiye düzeni abab biçiminde olan ve genellikle dörder mısralı kıtalardan oluşan nazım birimi hangisidir?",
+                  "answer": "Dörtlük"
+                },
+                {
+                  "question": "Aruz ölçüsünde uzun ünlülerin gösterildiği terim nedir?",
+                  "answer": "Med"
+                },
+                {
+                  "question": "Gazel ve kasidelerde şairin adının geçtiği beytin adı nedir?",
+                  "answer": "Makta"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi halk edebiyatı nazım biçimlerinden biri değildir?",
+                  "options": [
+                    "Varsağı",
+                    "Tuyuğ",
+                    "Koşma",
+                    "Semai"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tuyuğ, Türk edebiyatına divan edebiyatının kazandırdığı bir nazım biçimidir; halk edebiyatında bulunmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan edebiyatında genellikle aşk, ayrılık ve hasret konularının işlendiği, aa, ba, ca şeklinde kafiyelenen nazım biçimi hangisidir?",
+                  "options": [
+                    "Gazel",
+                    "Rubai",
+                    "Murabba",
+                    "Kaside"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazel, divan edebiyatında lirik konuların işlendiği ve ilk beyti kendi içinde, diğer beyitleri ise ilk beyit ile uyaklı olan nazım biçimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aruz ölçüsüyle ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Arabi ve Farisi kelimelerin Türkçeye uydurulmasıyla zenginleşmiştir.",
+                    "Med kuralı ile bazı heceler uzatılarak okunabilir.",
+                    "Açık heceler düz çizgi ile, kapalı heceler nokta ile gösterilir.",
+                    "Hece sayılarına değil, seslerin uzunluk ve kısalığına dayanır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aruz ölçüsünde açık heceler nokta (.) veya 'u' işaretiyle, kapalı heceler ise düz çizgi (-) işaretiyle gösterilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İslamiyet öncesi Türk edebiyatı nazım biçimlerinden biridir?",
+                  "options": [
+                    "Mstezad",
+                    "Koşuk",
+                    "Şarkı",
+                    "Mersiye"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Koşuk, İslamiyet öncesi dönemde kopuz eşliğinde söylenen ve yiğitlik, doğa, aşk konularını işleyen nazım biçimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dört mısradan oluşan ve a, a, a, a ya da a, a, a, b şeklinde kafiyelenen halk edebiyatı nazım biçimi hangisidir?",
+                  "options": [
+                    "Semai",
+                    "Maniler",
+                    "Varsağı",
+                    "Destan"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mani, tek dörtlükten oluşan ve aaxa şeklinde kafiyelenen anonim halk edebiyatı nazım biçimidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Divan edebiyatında devlet büyüklerini övmek veya yergi amacıyla yazılan nazım biçimine ____ denir.",
+                  "options": [
+                    "kaside"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaside, divan edebiyatında din ve devlet büyüklerini övmek ya da eleştirmek amacıyla yazılan uzun şiirlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hece ölçüsünde duraklar genellikle kelime ____ denk gelecek şekilde ayarlanır.",
+                  "options": [
+                    "sonuna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hece ölçüsünde okumayı kolaylaştırmak için yapılan duraklamalar, kelimelerin ortasında değil bitiminde yapılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan edebiyatında dörder mısralı bentlerden oluşan ve her bendin son mısrasının vasıta beytiyle bağlandığı nazım biçimi ____ adını alır.",
+                  "options": [
+                    "muhammes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Muhammes, beşli bentlerden oluşan ve divan edebiyatında sıkça kullanılan bir nazım biçimidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Halk edebiyatında şairlerin şiirlerinde kullandığı takma adlara ____ denir.",
+                  "options": [
+                    "mahlas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mahlas, divan şairlerinin şiirlerinde kullandığı takma adı ifade eder; halk edebiyatında ise buna 'tapşırma' denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aruz ölçüsünde bir ünlü ile biten heceler ____ hece olarak kabul edilir.",
+                  "options": [
+                    "açık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aruz ölçüsünde sessiz harfle biten heceler kapalı (uzun), sesli harfle biten heceler ise açık (kısa) hece sayılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Divan edebiyatında bentlerle kurulan nazım biçimlerinden biri de gazeldir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gazel beyitlerle kurulan bir nazım biçimidir, bentlerle kurulmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hece ölçüsü, mısralardaki hece sayı اینکه eşitliğine dayanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hece ölçüsünün temel kuralı, şiirdeki mısraların hece sayı bakımından birbirine eşit olmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tuyuğ nazım biçimi Türklerin divan edebiyatına kazandırdığı formlardan biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuyuğ ve şarkı, Türklerin divan edebiyatına armağan ettiği iki nazım biçimidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kaside nazım biçiminde en güzel beyte 'şah beyit' adı verilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kasidelerde şairin ustalığını konuşturduğu ve anlamın en üst seviyeye çıktığı beyit şah beyit olarak adlandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Koşma nazım biçimi yalnızca divan edebiyatında ve aruz ölçüsüyle yazılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Koşma, halk edebiyatına ait bir nazım biçimidir ve genellikle hece ölçüsüyle yazılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Uyak ve Redif",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Redif nedir?",
+                  "answer": "Mısra sonlarında yazılışları, görevleri ve anlamları aynı olan eklerin veya kelimelerin tekrarıdır."
+                },
+                {
+                  "question": "Uyak (kafiye) kaça ayrılır?",
+                  "answer": "Yarım, zengin, tam, tunç ve cinaslı uyak olmak üzere beşe ayrılır."
+                },
+                {
+                  "question": "Yarım uyak nedir?",
+                  "answer": "Tek sesli veya tek sessiz harfin benzeşmesiyle oluşan uyaktır."
+                },
+                {
+                  "question": "Tam uyak nedir?",
+                  "answer": "Bir sesli ve bir sessiz harfin (iki sesin) benzeşmesiyle oluşan uyaktır."
+                },
+                {
+                  "question": "Zengin uyak nedir?",
+                  "answer": "Üç veya daha fazla sesin benzeşmesiyle oluşan uyaktır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki beyitlerin hangisinde redif kullanılmamıştır?",
+                  "options": [
+                    "Bülbülün çilesidir gül koklamak / Gönlün muradıdır yâri saklamak",
+                    "Gün doğar, dağlar boyanır sarıya / Hasret kaldım o vefasız yâreye",
+                    "Ayrılıktan zor gelir bu göçüm / Kalmasın arkamda benim uçum",
+                    "Güllerin rengi soldu bahar bitti / Bu garip gönlümün hasreti yetti"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "D seçeneğinde 'sarıya' ve 'yâreye' kelimelerinde -a yönelme hâl eki ve -ye kaynaştırma ünsüzü vardır ancak kelime köklerindeki ses uyumu farklıdır; redif bulunmamaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Gök kubbenin altında yatan erler / Vatan için toprağa düşen serler\" dizelerinde hangi uyak çeşidi vardır?",
+                  "options": [
+                    "Tam uyak",
+                    "Zengin uyak",
+                    "Yarım uyak",
+                    "Cinaslı uyak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "‘Erler’ ve ‘serler’ kelimelerinde '-ler' ekleri rediftir. Kalan ‘er’ ile ‘ser’ sözcüklerinde ‘e’ sesli, ‘r’ sessiz harf olmak üzere iki ses benzerliği olduğundan tam uyaktır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Yollar ki uzun, yollar ki ince / Yolumuz dağlara düştü gidince\" dizelerinde uyak oluşturan sesler aşağıdakilerden hangisidir?",
+                  "options": [
+                    "n-c-e",
+                    "ince - gidince",
+                    "c-e",
+                    "e"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "‘İnce’ ve ‘gidince’ kelimelerinde -nce zarf-fiil ekleri görevdeş olduğu için rediftir. Kalan ‘in’ ile ‘id’ köklerindeki ‘c’ ve ‘e’ sesleri iki ses benzeşmesi yaratarak tam uyak oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yazılışları ve okunuşları aynı, anlamları ayrı olan sözcüklerin mısra sonunda uyak oluşturmasıyla ortaya çıkan kafiye türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Zengin uyak",
+                    "Tam uyak",
+                    "Yarım uyak",
+                    "Cinaslı uyak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yazılışı ve okunuşu aynı, anlamı farklı olan sözcüklerin oluşturduğu uyak türü cinaslı uyaktır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Bülbülün feryadı bağda duyulur / Aşığın çektiği dağda duyulur\" dizelerinde redif olan bölüm aşağıdakilerden hangisidir?",
+                  "options": [
+                    "duyulur",
+                    "uyulur",
+                    "ağda duyulur",
+                    "yulur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "‘Bağda duyulur’ ve ‘dağda duyulur’ mısralarında ‘duyulur’ sözcükleri aynen tekrar edilmiştir ve görevleri aynıdır, dolayısıyla rediftir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Mısra sonlarında tek bir sesin benzeşmesiyle oluşan uyak türüne ____ uyak denir.",
+                  "options": [
+                    "yarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tek ses benzerliğine dayanan kafiye çeşidi yarım uyaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mısra sonlarında yazılışları ve anlamları aynı olan kelimelerin veya eklerin tekrarına ____ denir.",
+                  "options": [
+                    "redif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı görev ve anlamdaki ek ya da kelimelerin tekrarı redif olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üç veya daha fazla sesin mısra sonunda benzeşmesiyle oluşan uyak çeşidi ____ uyaktır.",
+                  "options": [
+                    "zengin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zengin uyak en az üç sesin benzeşmesiyle kurulur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazılışları aynı, anlamları ayrı olan sözcüklerin oluşturduğu uyak ____ uyaktır.",
+                  "options": [
+                    "cinaslı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sesteş (sesteş) sözcüklerin mısra sonunda kullanılması cinaslı uyaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki sesin mısra sonunda benzeşmesiyle oluşan uyak türüne ____ uyak denir.",
+                  "options": [
+                    "tam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir sesli ve bir sessiz olmak üzere iki sesin benzeşmesi tam uyaktır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Redif, kafiyeden önce veya sonra yer alabilir; önemli olan aynı görevde ve anlamda olmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Redifler genellikle kafiyeden sonra gelir ancak bazı durumlarda kafiyeden önce de yer alabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cinaslı uyak, zengin uyak çeşitlerinden biridir ve anlamları aynı olan sözcüklerle yapılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cinaslı uyak, yazılışları aynı fakat anlamları tamamen farklı olan sözcüklerle yapılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir şiirde redif bulunması zorunlu bir kuraldır, redifsiz şiir yazılamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Redif şiirde ahengi artıran bir unsurdur ancak bulunması zorunlu değildir, sadece uyak ile de şiir yazılabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yarım uyakta sadece bir ses benzerliği aranır ve bu genellikle sessiz bir harftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yarım uyak, tek bir sesin (genellikle ünsüzün) benzeşmesine dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Farklı görevdeki ekler mısra sonunda aynı şekilde yazılsa bile redif kabul edilmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Redif olabilmesi için eklerin hem yazılışlarının hem de cümledeki görev ve anlamlarının aynı olması şarttır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Şiir Dili ve Söz Sanatları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Teşbih-i benlig nedir?",
+                  "answer": "Aralarında benzetme yönü bakımından ilgi bulunan iki unsura 'benzetilen' denilmeden, sadece 'benzezen' ile kurulan eğretilemedir."
+                },
+                {
+                  "question": "Hüsn-i talil sanatı ne anlama gelir?",
+                  "answer": "Güzel sebebe bağlama demektir; gerçekte bilinen bir olayı, olağan dışı ve güzel bir nedene bağlayarak açıklama sanatıdır."
+                },
+                {
+                  "question": "İstiare (eğretileme) kaça ayrılır?",
+                  "answer": "Açık istiare ve kapalı istiare olmak üzere ikiye ayrılır."
+                },
+                {
+                  "question": "Tecahül-i arif sanatının tanımı nedir?",
+                  "answer": "Bilineceği bilinen bir şeyi, bilmezlikten gelerek edebî bir etki yaratma sanatıdır."
+                },
+                {
+                  "question": "Tezat sanatı nedir?",
+                  "answer": "Birbirine zıt iki kavramın, düşüncenin veya duygunun bir arada kullanılması sanatıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Gözlerim yollarda kaldım günlerce, / Bir kurşun atımı mesafede / Bekledim seni gelmedin. dizelerinde aşağıdaki söz sanatlarından hangisi vardır?",
+                  "options": [
+                    "Tevriye",
+                    "İstifham",
+                    "Mübalağa",
+                    "Telmih"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Şair gözlerinin yollarda kalmasını ve mesafeyi aşırı derecede büyüterek anlatmıştır. Bu durum abartma yani mübalağa sanatını örneklendirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bülbülün feryadı güle kadardır, / Aşıkın ahı da yare kadardır. dizelerinde zengin olarak kullanılan söz sanatı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tecahül-i arif",
+                    "Leff ü neşir",
+                    "Tenasüp",
+                    "Hüsn-i talil"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bülbül, gül, aşık ve yar kelimeleri anlamca birbiriyle ilgili sözcükler olup şiirde bir arada kullanılarak tenasüp (uygunluk) sanatını oluşturmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gökyüzünde yıldızlar sanki birer elmas, / Parlıyor gecenin en karanlık anında. dizelerinde hangi benzetme ögelerine yer verilmiştir?",
+                  "options": [
+                    "Benzeyen, benzetilen ve benzetme yönü",
+                    "Yalnız benzeyen",
+                    "Benzeyen ve benzetilen",
+                    "Yalnız benzetilen"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yıldızlar 'benzeyen', elmas ise 'benzetilen'dir. Gibi edatının işlevini gören 'sanki' ile birlikte bu iki temel benzetme ögesi kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki dizelerin hangisinde tezat (zıtlık) sanatı vardır?",
+                  "options": [
+                    "Karlar etrafı beyaza boyuyor, / Kalbimde bir başka hüzün duyuyor.",
+                    "Ne efsunkar imişsin ey didar-ı tevhid, / Hepimizi ettin ilallah ile meftun.",
+                    "Ağlarım hatıra geldikçe gülüştüklerimiz.",
+                    "Ağlarım çaresizliğime her gece, / Gözyaşım dönüyor inci tanesine."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Son seçenekte geçen 'ağlamak' ve 'gülüşmek' fiilleri birbirine zıt kavramlar olduğundan şiirde tezat sanatı meydana gelmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sözü hem gerçek hem de uzak anlamını düşündürecek biçimde kullanmak, ancak uzak anlamı kastetmek hangi söz sanatıdır?",
+                  "options": [
+                    "Tevriye",
+                    "Tecahül-i arif",
+                    "İrsal-i mesel",
+                    "Tenasüp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki anlamlılık olarak da bilinen tevriye sanatında, sözcüğün yakın anlamı gerçeğe uygun gibi durur ancak asıl kastedilen uzak anlamdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir olayın gerçek nedenini bir tarafa bırakıp onu hayalî ve güzel bir sebebe bağlama sanatına ____ denir.",
+                  "options": [
+                    "hüsn-i talil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hüsn-i talil, edebiyatta doğa olaylarını veya sıradan durumları güzel bir nedene bağlayarak estetik değer katma sanatıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Benzeyen ve benzetilen olmak üzere sadece iki temel ögeyle yapılan benzetmeye ____ benzetme denir.",
+                  "options": [
+                    "teşbih-i belig"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzetme edatı ve benzetme yönü kullanılmadan, yalnızca güçlü benzetme ögeleri olan benzeyen ve benzetilenle yapılan sanat teşbih-i beligdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Söz arasında herkesçe bilinen tarihi veya mitolojik bir olaya, kişiye ya da söze işaret etme sanatına ____ denir.",
+                  "options": [
+                    "telmih"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Telmih, az sözle çok şey anlatmak amacıyla geçmişteki tanınmış bir olaya ya da isme gönderme yapılmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anlamı pekiştirmek, inanılırlığı artırmak amacıyla atasözü veya özdeyişlerin mısra içinde kullanılması sanatına ____ adı verilir.",
+                  "options": [
+                    "irsal-i mesel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şiirde söylenilen bir düşünceyi kanıtlamak veya etkisini artırmak için atasözü ya da özdeyiş kullanılması irsal-i mesel sanatıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözü benzetme amacı gütmeden, başka bir sözün yerine gerçek anlamı dışında kullanmaya ____ denir.",
+                  "options": [
+                    "mecaz-ı mürsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ad aktarması olarak da bilinen mecaz-ı mürsel, benzetme ilgisi olmaksızın parça-bütün, iç-dış gibi ilişkilerle sözcüğün başka bir anlamda kullanılmasıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kapalı istierede yalnızca benzetilen ögesi bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kapalı istierede sadece benzeyen bulunur, benzetilen bulunmaz. Açık istierede ise sadece benzetilen yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tecahül-i arif sanatında şair bildiği bir konuyu bilmezlikten gelerek okuyucuyu şaşırtır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şair, çok iyi bildiği bir gerçeği sanki hiç bilmiyormuş gibi sorular sorarak veya ifadeler kullanarak tecahül-i arif sanatını yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tenasüp, bir şiirde anlamca birbiriyle çelişen sözcüklerin bir arada kullanılmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tenasüp zıtlık değil, anlamca birbiriyle uyumlu ve ilgili sözcüklerin bir arada kullanılması sanatıdır. Çelişen sözcükler tezatı oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mecaz-ı mürsel sanatında sözcükler arasında benzetme ilgisi aranmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ad aktarması (mecaz-ı mürsel) yapılırken sözcükler arasında benzetme amacı güdülmez, parça-bütün ya da yer-yön gibi başka ilgi amaçlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstifham sanatı, soru sorma yoluyla duyguyu pekiştirmeyi amaçlar ve cevap alma beklentisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstifham (soru sorma) sanatında şair, okuyucunun dikkatini çekmek ve duyguyu güçlendirmek için soru sorar, asıl amaç bilgi almak değildir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Edebi Türler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Öğretici Metinler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Makale türünün Türk edebiyatındaki ilk örneği nedir?",
+                  "answer": "Tercümân-ı Ahvâl Mukaddimesi"
+                },
+                {
+                  "question": "Sohbet (söyleşi) türünün en önemli özelliklerinden biri nedir?",
+                  "answer": "Yazarın okuyucuyla karşılıklı konuşuyormuş gibi bir üslupla yazmasıdır."
+                },
+                {
+                  "question": "Fıkra (köşe yazısı) türünün en belirgin özelliği hangi zaman dilimine hitap etmesidir?",
+                  "answer": "Güncel olaylara hitap etmesidir."
+                },
+                {
+                  "question": "Anı (hatıra) türü hangi zaman diliminde kaleme alınır?",
+                  "answer": "Yazarın tanık olduğu veya yaşadığı olaylardan sonradır."
+                },
+                {
+                  "question": "Edebiyatımızda ilk eleştiri örneği olarak kabul edilen eser nedir?",
+                  "answer": "Tahrib-i Harâbât"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi öğretici metinlerin genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Açık, anlaşılır ve nesnel ya da öznel bir dil kullanılır.",
+                    "Bilgi vermek veya bir düşünceyi kanıtlamak amacı güderler.",
+                    "Sanatsal bir heyecan uyandırma ve estetik zevk verme amacı ön plandadır.",
+                    "Söz sanatlarına coşkulu şiirlere kıyasla daha az başvurulur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Öğretici metinlerin temel amacı bilgi aktarmak ya da düşünceyi savunmaktır; estetik zevk ve sanatsal heyecan uyandırmak edebî metinlerin (şiir, hikâye vb.) temel özelliğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yazarın herhangi bir konuda kesin sonuçlara varmadan, kişisel görüşlerini samimi bir dille okuyucuya aktardığı yazı türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Makale",
+                    "Deneme",
+                    "Röportaj",
+                    "Fıkra"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Deneme, yazarın herhangi bir kısıtlama olmaksızın kendi iç sesine göre yazdığı ve kanıtlama zorunluluğu duymadığı bir türdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi edebiyatımızda fıkra türündeki başarılı yazılarıyla tanınır?",
+                  "options": [
+                    "Ahmet Haşim",
+                    "Ahmet Rasim",
+                    "Nâmık Kemal",
+                    "Şinasi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahmet Rasim, Türk edebiyatında fıkra ve sohbet türünün en önemli isimlerinden biridir, günlük hayatı ustalıkla kaleme almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir yazarın kendi yaşamını, başından geçen olayları edebî bir tatla anlattığı tür aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Biyografi",
+                    "Mektup",
+                    "Günlük",
+                    "Otobiyografi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Otobiyografi, kişinin kendi hayatını kaleme aldığı öğretici metin türüdür; biyografi ise başkasının hayatını anlatır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan edebiyatındaki tezkire türü, günümüz edebiyatındaki hangi türün karşılığıdır?",
+                  "options": [
+                    "Deneme",
+                    "Biyografi",
+                    "Eleştiri",
+                    "Anı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan edebiyatında şairlerin hayatlarının ve eserlerinin anlatıldığı tezkireler, modern edebiyattaki biyografi türünün ilk örnekleridir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bilimsel, felsefi veya edebi bir konuyu kanıtlama amacı güderek ele alan öğretici metin türüne ____ denir.",
+                  "options": [
+                    "makale"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makale, tezli bir yazıdır ve yazar ileri sürdüğü düşünceyi belgelerle kanıtlamak zorundadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Günlük olayları toplumu ilgilendiren yönleriyle günü gününe kaleme alan köşe yazısı türüne ____ adı verilir.",
+                  "options": [
+                    "fıkra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fıkra (köşe yazısı), güncel konuları işler ve derinlemesine araştırmadan ziyade yazarın yorumuna dayanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kişinin başından geçen olayları, üzerinden belli bir zaman geçtikten sonra kaleme aldığı türe ____ denir.",
+                  "options": [
+                    "anı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anı (hatıra), geçmişteki olayları tanıkların gözünden aktaran önemli bir belge niteliğindeki öğretici metindir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazarın olayları ve kişileri yerinde inceleyerek, fotoğraflar ve belgelerle destekleyerek hazırladığı yazı dizisine ____ denir.",
+                  "options": [
+                    "röportaj"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Röportaj, araştırmaya, gezmeye ve incelemeye dayanan, soru-cevap veya anlatım teknikleriyle zenginleştirilen bir türdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir eserin hem olumlu hem de olumsuz yönlerini inceleyerek gerçek değerini ortaya koyan yazı türüne ____ denir.",
+                  "options": [
+                    "eleştiri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eleştiri (tenkit), bir sanat eserini ya da yazarı çeşitli yönleriyle değerlendirerek okura kılavuzluk eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Denemelerde yazar, anlattığı düşünceleri kanıtlamak için bilimsel verilere ve istatistiklere başvurmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denemede kanıtlama zorunluluğu yoktur; yazar düşüncelerini öznel bir şekilde, kanıtlama kaygısı gütmeden paylaşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tercümân-ı Ahvâl Mukaddimesi, edebiyatımızda ilk makale örneği kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şinasi tarafından 1860 yılında yazılan bu önsöz, Türk edebiyatının ilk makalesi olma özelliğini taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Biyografi, bir kişinin kendi hayatını anlattığı yazı türüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir kişinin kendi hayatını anlattığı tür otobiyografidir; biyografi ise başkasının hayatını anlatır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sohbet türünde yazar, karşısında biri oturuyormuş gibi samimi bir dille sorular sorarak yazar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sohbet yazılarının en belirgin özelliği karşılıklı konuşma havası taşıması ve samimi bir üslup kullanılmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gezi yazısı türünde yazar, gezip gördüğü yerlerin sadece coğrafi özelliklerini aktarır, kişisel izlenimlerine yer vermez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gezi yazılarında yazarın gözlemleri, duyguları ve kişisel izlenimleri önemli bir yer tutar; sadece kuru coğrafi bilgiler içermez.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Hikâye ve Roman",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hikâye türünün Türk edebiyatındaki ilk örneği nedir?",
+                  "answer": "Şemsettin Sami'nin yazdığı Taaşşuk-ı Talat ve Fitnat roman sayılır ancak ilk hikâye denemesi Ahmet Mithat Efendi'nin Letaif-i Rivayet adlı eseridir."
+                },
+                {
+                  "question": "Batılı anlamda ilk hikâye örneği hangi eserdir?",
+                  "answer": "Samipaşazade Sezai'nin yazdığı Küçük Şeyler adlı eseridir."
+                },
+                {
+                  "question": "Olay (Maupassant tarzı) hikâyesinin dünyadaki ve edebiyatımızdaki en önemli temsilcileri kimlerdir?",
+                  "answer": "Dünyada Guy de Maupassant, edebiyatımızda ise Ömer Seyfettin'dir."
+                },
+                {
+                  "question": "Durum (Çehov tarzı) hikâyesinin dünyadaki ve edebiyatımızdaki en önemli temsilcileri kimlerdir?",
+                  "answer": "Dünyada Anton Çehov, edebiyatımızda ise Sait Faik Abasıyanık ve Memduh Şevket Esendal'dır."
+                },
+                {
+                  "question": "Türk edebiyatındaki ilk roman örneği nedir?",
+                  "answer": "Şemsettin Sami'nin Taaşşuk-ı Talat ve Fitnat adlı eseridir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi olay (Maupassant tarzı) hikâyesinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Merak unsurunun ön planda tutulması",
+                    "Çarpıcı bir sonla okuyucunun şaşırtılması",
+                    "Seri, düğüm ve çözüm bölümlerine belirgin şekilde yer verilmesi",
+                    "Olayların günlük yaşamdan kesitlerle sınırlı tutulup sonlandırılmaması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Olay hikâyesinde olaylar bir sonuca bağlanır. Olayların sonlandırılmaması ve günlük yaşamdan kesitlerin sunulması durum (Çehov tarzı) hikâyesinin özelliğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Araba Sevdası - Recaizade Mahmut Ekrik",
+                    "Eylül - Mehmet Rauf",
+                    "İntibah - Namık Kemal",
+                    "Mai ve Siyah - Halit Ziya Uşaklıgil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Araba Sevdası romanının yazarı Recaizade Mahmut Ekrem'dir. Seçenekte yazarın soyadı yanlış yazılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türk edebiyatında ilk edebi roman kabul edilen eser aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Cezmi",
+                    "İntibah",
+                    "Taaşşuk-ı Talat ve Fitnat",
+                    "Araba Sevdası"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Namık Kemal'in yazdığı İntibah edebiyatımızın ilk edebi romanı kabul edilir. Taaşşuk-ı Talat ve Fitnat ilk yerli roman, Cezmi ise ilk tarihi romandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Batılı anlamda ilk hikâye olan 'Küçük Şeyler'in yazarıdır?",
+                  "options": [
+                    "Samipaşazade Sezai",
+                    "Halit Ziya Uşaklıgil",
+                    "Ahmet Mithat Efendi",
+                    "Ömer Seyfettin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küçük Şeyler adlı eser Samipaşazade Sezai tarafından yazılmış olup Batılı anlamdaki ilk hikâye kabul edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki akımlardan hangisi psikolojik tahlillere ve bilinç akışı tekniğine zemin hazırlayarak modern romanın gelişimini etkilemiştir?",
+                  "options": [
+                    "Parnasizm",
+                    "Realizm ve Natüralizm",
+                    "Romantizm",
+                    "Klasisizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Realizm ve Natüralizm akımları, gözleme, çevre tasvirine ve insanın iç dünyasının incelenmesine verdiği önemle modern romanın ve psikolojik romanın gelişimini doğrudan etkilemiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türk edebiyatındaki ilk tarihi roman denemesi Namık Kemal'in yazdığı ____ adlı eserdir.",
+                  "options": [
+                    "Cezmi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Namık Kemal tarafından kaleme alınan Cezmi, Türk edebiyatındaki ilk tarihi roman özelliğini taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türk edebiyatında ilk psikolojik roman örneği olan Eylül, ____ tarafından yazılmıştır.",
+                  "options": [
+                    "Mehmet Rauf"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mehmet Rauf'un kaleme aldığı Eylül romanı, Türk edebiyatındaki ilk psikolojik roman örneğidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Olay hikâyeciliğinin Türk edebiyatındaki en önemli ismi ____ olarak kabul edilir.",
+                  "options": [
+                    "Ömer Seyfettin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ömer Seyfettin, Maupassant tarzı (olay) hikâyenin Türk edebiyatındaki en önemli temsilcisidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Batılı anlamda ilk günlük gazete romanı sayılan ve sürgün konusunu işleyen Taassuk-ı Talat ve Fitnat dışındaki ilk realist roman ____ adlı eserdir.",
+                  "options": [
+                    "Araba Sevdası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Recaizade Mahmut Ekrem'in yazdığı Araba Sevdası, edebiyatımızın ilk realist romanı kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Durum hikâyesinin dünya edebiyatındaki en önemli temsilcisi Rus yazar ____dir.",
+                  "options": [
+                    "Anton Çehov"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anton Çehov, durum hikâyesi türünün dünyadaki kurucusu ve en önemli temsilcisi olarak bilinir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Taaşşuk-ı Talat ve Fitnat, Şemsettin Sami tarafından yazılmış olan Türk edebiyatının ilk yerli romanıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şemsettin Sami'nin bu eseri Türk edebiyatında yayımlanan ilk yerli roman olma özelliğini taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sait Faik Abasıyanık, olay hikâyesinin Türk edebiyatındaki kurucusu ve en büyük temsilcisidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sait Faik Abasıyanık olay hikâyesinin değil, durum (Çehov tarzı) hikâyesinin edebiyatımızdaki en önemli temsilcisidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahmet Mithat Efendi'nin yazdığı Letaif-i Rivayet, Türk edebiyatındaki ilk hikâye denemeleri arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Letaif-i Rivayet, yazarın çeşitli hikâyelerini topladığı ve edebiyatımızda bu alandaki ilk örneklerden biri olan eserdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Halit Ziya Uşaklıgil, Servet-i Fünun döneminde yazdığı Mai ve Siyah ve Aşk-ı Memnu romanlarıyla Batılı anlamda ilk olgun roman örneklerini vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halit Ziya Uşaklıgil, roman türünü teknik açıdan batılı seviyeye ulaştıran en önemli Servet-i Fünun romancısıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Namık Kemal'in İntibah romanı, edebiyatımızdaki ilk psikolojik roman olma özelliği taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İntibah ilk edebi romandır. İlk psikolojik roman ise Mehmet Rauf'un yazdığı Eylül adlı eserdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Tiyatro",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Tiyatroda olayların gülünç, düşündürücü yönlerini yansıtarak seyirciyi güldürmeyi amaçlayan tür hangisidir?",
+                  "answer": "Komedi"
+                },
+                {
+                  "question": "Geleneksel Türk tiyatrosunda yazılı bir metne dayanmayan, doğaçlama oynanan ana kollar nelerdir?",
+                  "answer": "Karagöz, orta oyunu, meddah, köy seyirlik oyunları"
+                },
+                {
+                  "question": "Dram türünün edebiyatımızda ilk sahnelenen örneği kimin hangi eseridir?",
+                  "answer": "Namık Kemal'in Vatan yahut Silistre eseri"
+                },
+                {
+                  "question": "Geleneksel Türk tiyatrosunda Karagöz oyununun oynatıldığı perdeye ne ad verilir?",
+                  "answer": "Aynalık"
+                },
+                {
+                  "question": "Tiyatroda kişilerin iç dünyasını, çatışmalarını ve acıklı olayları seyirciye aktararak acıma ve korku duyguları uyandırmayı amaçlayan tür nedir?",
+                  "answer": "Trajedi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi trajedi türünün özelliklerinden biri değildir?",
+                  "options": [
+                    "Konuların mitolojiden ve tarihten alınması",
+                    "Kahramanların tanrılar, soylular ve krallardan seçilmesi",
+                    "Üç birlik kuralına uyulması zorunluluğu",
+                    "Kötü ve çirkin olayların sahnede gösterilmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Trajedilerde seyircinin estetik duygusunu zedelememek için cinayet, yaralama gibi kaba ve çirkin olaylar sahnede gösterilmez, sahne arkasında gerçekleşir ve konuşmalar yoluyla duyurulur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi Türk tiyatrosunda ilk yerli tiyatro eseri olan 'Şair Evlenmesi'nin yazarıdır?",
+                  "options": [
+                    "Namık Kemal",
+                    "Şinasi",
+                    "Abdülhak Hamid Tarhan",
+                    "Ahmet Vefik Paşa"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şinasi tarafından yazılan Şair Evlenmesi, edebiyatımızda yazılan ilk Türkçe tiyatro eseri olma özelliği taşır ve bir töre komedisidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Geleneksel Türk tiyatrosundaki 'Orta Oyunu' ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Yazılı bir metne bağlı kalınarak profesyonelce sahnelenir.",
+                    "Mukaddime, fasıl, muhavere ve bitiş bölümlerinden oluşur.",
+                    "Asıl güldürü unsuru Kavuklu ile Pişekar'dır.",
+                    "Etrafı halkla çevrili açık bir alanda oynanır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta oyunu geleneksel bir seyirlik tiyatro türüdür ve yazılı bir metne dayanmaz, doğaçlama (tuluat) yoluyla sahnelenir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Acıklı ve gülünç olayları bir arada veren, yaşamın hem neşeli hem hüzünlü yönlerini yansıtan tiyatro türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Dram",
+                    "Komedi",
+                    "Trajedi",
+                    "Melodram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dram, hem trajedinin hem de komedinin unsurlarını barındırarak hayatın gerçekliğine uygun olarak acıklı ve gülünç olayları aynı eserde işler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karagöz oyununun en temel iki tipi olan Karagöz ve Hacivat'tan Karagöz hangi karakteri temsil eder?",
+                  "options": [
+                    "Halk adamı, saf ve okumamış tipi",
+                    "Kurnaz ve yabancı unsurları temsil eden tipi",
+                    "Mahallenin kabadayısı ve zorba tipini",
+                    "Okumuş, görgülü ve entelektüel tipi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacivat okumuş, bilgili ve yabancı sözcüklerle konuşan biriyken; Karagöz okumamış, halktan gelen, saf ve Hacivat'ın sözlerini yanlış anlayarak güldürü unsuru yaratan tiptir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tiyatroda olayların üç birlik kuralına göre yer, zaman ve ____ birliği olmak üzere kısıtlandığı tür trajedidir.",
+                  "options": [
+                    "olay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üç birlik kuralı, bir tiyatro eserinde olayların aynı yerde, 24 saatlik bir zaman diliminde ve tek bir ana olay ekseninde geçmesi kuralıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geleneksel Türk tiyatrosunda tek kişinin çeşitli tipleri taklit ederek anlattığı güldürü türüne ____ denir.",
+                  "options": [
+                    "meddah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Meddah, elinde asa ve boynunda mendil ile bir sandalyeye oturarak çeşitli ses taklitleri ve şivelerle hikayeler anlatan geleneksel bir tiyatro sanatçısıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanzimat Dönemi'nde Batılı anlamda ilk tiyatro binasını kurarak Moliere'den uyarlamalar yapan devlet adamı ____ Paşa'dır.",
+                  "options": [
+                    "Ahmet Vefik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Vefik Paşa, Bursa Valiliği sırasında bir tiyatro binası yaptırmış ve Moliere'in oyunlarını Türkçeye uyarlayarak tiyatronun halka sevilmesinde öncü olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karagöz oyununda oyunun sergilendiği, arkadan aydınlatılan beyzik veya pamuk kâğıttan yapılan perdeye ____ adı verilir.",
+                  "options": [
+                    "aynalık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynalık, Karagöz gölge oyununun yansıtıldığı ve tülbentten veya kâğıttan yapılan beyaz perdenin adıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cumhuriyet Dönemi'nde köy yaşamını, köylünün sorunlarını ve gelenekleri sahneye taşıyan 'Kebap' veya 'Köşe Kapmaca' gibi eserler yazan tiyatro yazarımız ____ Taner'dir.",
+                  "options": [
+                    "Haldun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haldun Taner, Türk tiyatrosunda epik tiyatronun öncüsüdür ve Keşanlı Ali Destanı gibi önemli oyunların da yazarıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Trajedilerde kaba ve çirkin olaylar, seyircinin estetik algısını bozmamak için sahnede gösterilmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Trajedi kurallarına göre öldürme ve yaralama gibi şiddet içeren sahneler sahnede canlandırılmaz, kulis arkasında gerçekleşir ve oyuncular tarafından aktarılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geleneksel Türk tiyatrosu türlerinden olan orta oyunu, yazılı bir metne bağlı kalınarak kesin kurallarla sahnelenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Orta oyunu ve diğer geleneksel Türk tiyatrosu türleri yazılı metne dayanmaz, tamamen tuluata (doğaçlama) dayalı olarak sahnelenir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şinasi'nin 'Şair Evlenmesi' adlı eseri, edebiyatımızda sahnelenen ilk tiyatro eseri olma özelliğini taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şair Evlenmesi yazılan ilk Türkçe tiyatrodur ancak sahnelenen ilk tiyatro eseri Namık Kemal'in Vatan yahut Silistre oyunudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dram türünde, trajedideki kurallara uyma zorunluluğu kalkmış; hem acıklı hem de neşeli olaylar bir arada işlenmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dram romantizm akımının etkisiyle ortaya çıkmış ve trajedinin katı kurallarını yıkarak hayatın tüm yönlerini sahneye taşımıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karagöz oyununun giriş bölümü olan 'muhavere' kısmında Karagöz ile Hacivat'ın karşılıklı atışmaları yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karagöz oyununun atışma ve tanışma bölümü 'muhavere'dir, giriş bölümü ise Hacivat'ın şarkı söyleyip perdeye gazel okuduğu 'mukaddime' kısmıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Deneme, Makale ve Eleştiri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Makale nedir?",
+                  "answer": "Herhangi bir konuda bilgi vermek, bir tezi kanıtlamak ya da savunmak amacıyla yazılan, nesnel anlatımlı düşünce yazısıdır."
+                },
+                {
+                  "question": "Denemenin kurucusu olarak kabul edilen Fransız yazar kimdir?",
+                  "answer": "Montaigne"
+                },
+                {
+                  "question": "Eleştiri (tenkit) türünün edebiyatımızdaki ilk önemli örneklerinden biri kime aittir?",
+                  "answer": "Namık Kemal (Tahrib-i Harabat)"
+                },
+                {
+                  "question": "Deneme ile makale arasındaki en temel fark nedir?",
+                  "answer": "Makalede savunan düşünce kanıtlanmak zorundadır ve nesneldir; denemede ise kanıtlama zorunluluğu yoktur ve öznel bir anlatım vardır."
+                },
+                {
+                  "question": "Edebiyatımızda 'Safahat' şairi olarak bilinen Mehmet Akif Ersoy'un makale türündeki yazılarının yayımlandığı dergi hangisidir?",
+                  "answer": "Sırat-ı Müstakim (Sebilürreşad)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi makalenin özelliklerinden biri değildir?",
+                  "options": [
+                    "Gazete ve dergilerde yayımlanan yazılardır.",
+                    "Öznel bir anlatım tercih edilir.",
+                    "Yazarın düşüncelerini kanıtlama zorunluluğu vardır.",
+                    "Bilimsel veya nesnel bir dil kullanılır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Makaleler nesnel anlatımla yazılır; öznel anlatım deneme türünün belirgin özelliğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi edebiyatımızda 'deneme' türünün usta isimlerinden biri olarak tanınmaz?",
+                  "options": [
+                    "Suut Kemal Yetkin",
+                    "Nurullah Ataç",
+                    "Salâh Birsel",
+                    "Ahmet Haşim"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ahmet Haşim daha çok şiir ve fıkra türündeki eserleriyle tanınır; edebiyatımızdaki ilk müstakil deneme kitapları Nurullah Ataç ile başlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sanat veya fikir eserini her yönüyle değerlendirerek anlaşılmasını sağlamak, zayıf ve güçlü yönlerini ortaya koymak amacıyla yazılan tür aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Fıkra",
+                    "Deneme",
+                    "Makale",
+                    "Eleştiri"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Eleştiri (tenkit), bir eserin hem sanat değeri hem de muhteva yönünden incelenerek değerlendirildiği türdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türk edebiyatında ilk eleştiri örneği olarak kabul edilen 'Tahrib-i Harabat' adlı eser kime aittir?",
+                  "options": [
+                    "Namık Kemal",
+                    "Muallim Naci",
+                    "Recaizade Mahmut Ekrem",
+                    "Ziya Paşa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Namık Kemal, Ziya Paşa'nın Harabat adlı antolojisine karşın Tahrib-i Harabat adlı eseri yazarak Türk edebiyatının ilk eleştiri kitabını ortaya koymuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi deneme türünün belirgin özelliklerinden biridir?",
+                  "options": [
+                    "Makale ile aynı kurallara sahip olup sadece daha kısa olması",
+                    "Yazarın 'ben' dilini kullanarak kendi kendisiyle konuşuyormuş gibi yazması",
+                    "Verilen bilgilerin istatistiksel verilerle kesin olarak belgelenmesi",
+                    "Yazarın ileri sürdüğü iddiaları mutlaka belgelerle ispatlaması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denemede yazar iç sesini okuyucuyla paylaşır, 'ben' merkezli ve sohbet havasında bir üslup benimser.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dünya edebiyatında deneme türünün ilk ve en önemli ismi Fransız yazar ____ türünün de isim babasıdır.",
+                  "options": [
+                    "Montaigne"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Montaigne, 'Essais' (Denemeler) adlı eseriyle bu türün temellerini atmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Edebiyatımızda ilk makale örneği olan 'Tercüman-ı Ahval Şartı' adlı yazıyı ____ kaleme almıştır.",
+                  "options": [
+                    "Şinasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şinasi'nin 1860 yılında yayımladığı Tercüman-ı Ahval Mukaddimesi (Şartı) ilk makale kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir eserin sadece kusurlarını ve eksik yönlerini bulan eleştiri anlayışına ____ eleştiri denir.",
+                  "options": [
+                    "yıkıcı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eserin sadece olumsuz yönlerini hedef alan eleştiriler yıkıcı tenkit olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türk edebiyatında 'Günlerin Getirdiği', 'Karalama Defteri' gibi önemli deneme kitapları yazan sanatçı ____ adıdır.",
+                  "options": [
+                    "Nurullah Ataç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nurullah Ataç, Türk edebiyatında deneme türünün estetiğini kuran ve bu türü sevdiren öncü yazardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Makaleler konularına göre bilimsel makaleler ve ____ makaleler olmak üzere ikiye ayrılır.",
+                  "options": [
+                    "edebi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makaleler işledikleri konuların niteliğine göre bilimsel ve edebi makale şeklinde sınıflandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Deneme yazarı, ele aldığı konuyu bilimsel bir kesinliğe ulaştırmak ve kanıtlamak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denemede kanıtlama zorunluluğu yoktur; yazar kişisel görüşlerini savunmadan, kanı olarak ortaya koyar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Makalelerde genellikle ciddi, nesnel, anlaşılır ve açıklayıcı bir anlatım dili tercih edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makale bilimsel bir temele dayandığı için nesnel ve açıklayıcı dil esastır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Namık Kemal'in 'İntibah' romanı edebiyatımızdaki ilk eleştiri örneği olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İlk eleştiri örneği İntibah değil, Namık Kemal'in yazdığı Tahrib-i Harabat ve Takip adlı eserlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nurullah Ataç, deneme türünün Türk edebiyatındaki en önemli savunucularından ve öncülerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nurullah Ataç deneme türünün yerleşmesinde ve tanınmasında kilit rol oynamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Edebi eleştiri sadece düz yazı türleri için yapılır, şiir ve tiyatro eleştiri konusu olamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eleştiri türü şiir, roman, tiyatro gibi edebiyatın bütün kollarında eser veren sanatçılara ve metinlere uygulanabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "İslamiyet Öncesi ve Geçiş Dönemi Türk Edebiyatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İslamiyet Öncesi Türk Edebiyatı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Geçiş Dönemi Eserleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Halk Edebiyatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anonim Halk Edebiyatı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Âşık Edebiyatı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Dinî-Tasavvufi Halk Edebiyatı",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Divan Edebiyatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Divan Şiiri ve Nazım Biçimleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Divan Şairleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Divan Nesri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Tanzimat ve Servet-i Fünun",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tanzimat Edebiyatı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Servet-i Fünun ve Fecr-i Ati",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Milli ve Cumhuriyet Dönemi Edebiyatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Milli Edebiyat Dönemi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Cumhuriyet Dönemi Şiiri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Cumhuriyet Dönemi Roman ve Hikâyesi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Cumhuriyet Dönemi Tiyatro ve Düşünce",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Edebi Akımlar ve Dünya Edebiyatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Batı Edebiyatı Akımları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dünya Edebiyatından Eserler",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

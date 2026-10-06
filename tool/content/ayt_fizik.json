@@ -1,0 +1,1792 @@
+{
+  "subjectKey": "ayt_fizik",
+  "title": "AYT Fizik",
+  "examType": "YKS",
+  "subject": "Fizik",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Kuvvet ve Hareket",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Vektörler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İki vektörün bileşkesinin en büyük değeri ne zaman elde edilir?",
+                  "answer": "Vektörler aynı yönlü ve aralarındaki açı sıfır derece olduğunda."
+                },
+                {
+                  "question": "Büyüklükleri eşit ve aralarındaki açı 120 derece olan iki vektörün bileşkesi hangi büyüklüktedir?",
+                  "answer": "Vektörlerden birinin büyüklüğüne eşittir."
+                },
+                {
+                  "question": "Bir vektörün negatif (-) ile çarpılması vektörün hangi özelliğini değiştirir?",
+                  "answer": "Yönünü tamamen ters çevirir, büyüklüğünü değiştirmez."
+                },
+                {
+                  "question": "Aynı düzlemdeki üç vektörün bileşkesinin sıfır olabilmesi için en az kaç olmalıdır?",
+                  "answer": "Vektör uç uca eklendiğinde kapalı bir üçgen oluşturmalıdırlar."
+                },
+                {
+                  "question": "Bileşenlerine ayrılan bir vektörün yatay bileşeni hangi trigonometrik fonksiyon ile bulunur?",
+                  "answer": "Kosinüs fonksiyonu ile bulunur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aynı düzlemde bulunan F1 ve F2 vektörlerinin büyüklükleri sırasıyla 6 N ve 8 N'dur. Bu iki vektörün aralarındaki açı 90 derece olduğuna göre, bileşke vektörün büyüklüğü kaç N'dur?",
+                  "options": [
+                    "2",
+                    "12",
+                    "14",
+                    "10"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Dik kesişen vektörlerde bileşke pisagor teoremi ile bulunur. R = karekök(6 kare + 8 kare) = karekök(36 + 64) = karekök(100) = 10 N bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Büyüklükleri 5 N ve 12 N olan iki vektörün aralarındaki açı değiştirilerek bileşke elde ediliyor. Buna göre bu iki vektörün bileşkesinin alabileceği en küçük değer kaç N'dur?",
+                  "options": [
+                    "13",
+                    "0",
+                    "7",
+                    "17"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İki vektörün bileşkesinin en küçük değeri aralarındaki açının 180 derece olduğu durumda, vektörlerin büyüklüklerinin farkı ile bulunur. R = 12 - 5 = 7 N.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Büyüklükleri eşit ve F kadar olan iki vektör arasındaki açı 60 derece olduğunda bileşke vektörün büyüklüğü ne olur?",
+                  "options": [
+                    "F bölü 2",
+                    "F",
+                    "2F",
+                    "F çarpı karekök 3"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Aralarındaki açı 60 derece olan eşit büyüklükteki iki vektörün bileşkesi, vektörlerden birinin karekök 3 katına eşittir. R = F çarpı karekök 3.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yatay düzlemde bulunan bir F vektörünün X ekseni ile yaptığı açı 37 derece ve cos(37) = 0,8 olduğuna göre, vektörün yatay bileşeni 16 N ise F vektörünün büyüklüğü kaç N'dur?",
+                  "options": [
+                    "10",
+                    "25",
+                    "12",
+                    "20"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yatay bileşen Fx = F çarpı cos(37) formülü ile bulunur. 16 = F çarpı 0,8 ise F = 16 / 0,8 = 20 N olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uç uca ekleme yöntemiyle toplanan vektörlerde bileşke vektör nereden nereye çizilir?",
+                  "options": [
+                    "İlk vektörün başlangıcından son vektörün bitişine",
+                    "Tüm vektörlerin orta noktalarını birleştiren doğruya",
+                    "İkinci vektörün bitişinden ilk vektörün başlangıcına",
+                    "İlk vektörün bitişinden son vektörün başlangıcına"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uç uca ekleme yönteminde bileşke vektör, ilk vektörün başlangıç noktasından başlayıp son vektörün bitiş noktasında biter.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hem şiddeti hem de doğrultusu ve yönü olan büyüklüklere ____ büyüklük denir.",
+                  "options": [
+                    "vektörel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizikte yönü, doğrultusu ve başlangıç noktası olan nicelikler vektörel büyüklükler olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki vektörün skaler çarpımı sonucunda elde edilen büyüklük ____ bir sayıdır.",
+                  "options": [
+                    "skaler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vektörlerin skaler çarpımı (nokta çarpım) yönü olmayan, sadece sayısal değeri olan skaler bir sonuç verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Başlangıç noktaları aynı olan iki vektörün bileşkesi ____ yöntemiyle bulunur.",
+                  "options": [
+                    "paralelkenar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı noktadan başlayan vektörlerin toplanmasında paralelkenar metodu sıklıkla tercih edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yalnızca sayı ve birimle ifade edilen büyüklüklere ____ büyüklük denir.",
+                  "options": [
+                    "skaler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yön bilgisine ihtiyaç duyulmayan, sadece sayı ve birimden oluşan nicelikler skalerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Vektörlerin toplanmasında değişme özelliği vardır yani A + B eşittir B + A bağıntısı geçerlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vektörel toplama işleminde sıranın önemi yoktur, değişme özelliği sağlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki vektörün vektörel çarpımı sonucunda elde edilen yeni vektör, ilk iki vektörün oluşturduğu düzleme paraleldir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Vektörel çarpım (çapraz çarpım) sonucu elde edilen vektör, çarpan vektörlerin oluşturduğu düzleme diktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir vektörün yönü değiştirilmeden sadece boyu iki katına çıkarılırsa bileşke üzerindeki etkisi değişmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir vektörün boyunun iki katına çıkarılması onun büyüklüğünü ve dolayısıyla fiziksel etkisini değiştirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zıt yönlü iki vektörün çıkarılması işlemi, çıkan vektörün tersinin toplanması ile aynı sonucu verir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vektörlerde çıkarma işlemi aslında çıkan vektörün ters çevrilerek toplanması demektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Skaler bir sayı ile bir vektör çarpıldığında oluşan yeni vektörün yönü her zaman orijinal vektörle aynıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eğer çarpan skaler sayı negatif ise yeni vektörün yönü orijinal vektörün tam tersi olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Bağıl Hareket",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bağıl hız formülü vektörel olarak nasıl ifade edilir?",
+                  "answer": "V_bağıl = V_cisim - V_gözlemci"
+                },
+                {
+                  "question": "Bir gözlemci, kendisiyle aynı yönde ve aynı hızla giden bir aracı nasıl görür?",
+                  "answer": "Durgun olarak görür."
+                },
+                {
+                  "question": "Nehir problemlerinde suya göre hız ile yere göre hız arasındaki ilişkiyi yazınız.",
+                  "answer": "V_yere = V_suya + V_akıntı"
+                },
+                {
+                  "question": "Bağıl hareket hangi referans sistemine bağlıdır?",
+                  "answer": "Gözlemcinin referans sistemine"
+                },
+                {
+                  "question": "Doğuya doğru 20 m/s hızla giden bir araçtaki gözlemci, batıya 10 m/s hızla giden aracı hangi hızla görür?",
+                  "answer": "30 m/s doğuya"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Doğu yönünde 15 m/s hızla hareket eden K aracı, batı yönünde 10 m/s hızla hareket eden L aracını hangi hızla ve hangi yönde hareket ediyor görür?",
+                  "options": [
+                    "5 m/s batı",
+                    "25 m/s batı",
+                    "5 m/s doğu",
+                    "25 m/s doğu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bağıl hız V_bağıl = V_K - V_L formülüyle bulunur. Doğuyu pozitif kabul edersek, V_K = +15 ve V_L = -10 olur. V_bağıl = (+15) - (-10) = +25 m/s bulunur. Bu durum, L aracının K aracına göre 25 m/s hızla doğu yönünde hareket ettiğini gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akıntı hızının sabit ve 3 m/s olduğu bir nehirde, suya göre hızı 4 m/s olan bir motor akıntıya dik olarak nehre girmektedir. Motorun yere göre hızı kaç m/s olur?",
+                  "options": [
+                    "5",
+                    "7",
+                    "1",
+                    "12"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yere göre hız, motorun suya göre hızı ile akıntı hızının vektörel toplamıdır. Hızlar birbirine dik olduğundan pisagor bağıntısı kullanılır: V_yere = kök içinde (4 ün karesi + 3 ün karesi) = 5 m/s bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yargılardan hangisi bağıl hareket için daima doğrudur?",
+                  "options": [
+                    "Bağıl hızın büyüklüğü gözlemcinin hızından daima büyüktür.",
+                    "Bağıl hareket, gözlemcinin seçilen referans sistemine göre değişiklik gösterir.",
+                    "Durgun bir gözlemci için bağıl hız sıfırdır.",
+                    "Aynı yönde giden iki aracın bağıl hızı her zaman sıfırdır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bağıl hareket ve hız, ölçümü yapan gözlemcinin bulunduğu referans sistemine göre farklı değerler alabilir. Bu nedenle referans sistemi seçimi bağıl hareketin temelini oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aralarındaki mesafe azalmakta olan iki araç için aşağıdakilerden hangisi kesinlikle söylenebilir?",
+                  "options": [
+                    "İki araç da zıt yönde gitmektedir.",
+                    "Araçların birbirine göre bağıl hızının yönü aralarındaki mesafeyi azaltacak yöndedir.",
+                    "Araçların yere göre hızları eşittir.",
+                    "İki araç da aynı yönde gitmektedir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İki araç arasındaki mesafenin azalması, bağıl hız vektörünün konum vektörüne zıt yönde olduğunu veya araçların birbirine yaklaştığını gösterir. Bu durum araçların hareket yönlerinden bağımsız olarak birbirlerine yaklaşma eğiliminde olduklarını kanıtlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Farklı referans sistemlerindeki gözlemcilerin, hareketli bir cismi farklı hızlarda görmesine ____ hareketi denir.",
+                  "options": [
+                    "bağıl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisimlerin hareketlerinin gözlemcinin referans sistemine göre incelenmesine bağıl hareket denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Nehir problemlerinde karşı kıyıya çıkma süresini belirleyen, kıyıya dik olan ____ hız bileşenidir.",
+                  "options": [
+                    "suya göre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karşı kıyıya varış süresi sadece nehir genişliğinin, nehre girilen yöndeki hız bileşenine oranıyla bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bağıl hız hesaplamalarında işlem yapılırken hızlar ____ olarak toplanır veya çıkarılır.",
+                  "options": [
+                    "vektörel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hız bir vektörel büyüklük olduğu için işlemler vektörlerin yön ve doğrultuları dikkate alınarak yapılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hızları eşit ve aynı yöne olan iki aracın birbirine göre bağıl hızı ____ büyüklüğündedir.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı hız ve yöne sahip araçlar birbirlerini durgun olarak görürler, bu nedenle bağıl hız sıfırdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bağıl hız hesaplanırken gözlemcinin hızı, cismin hızından vektörel olarak çıkarılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Formül gereği V_bağıl = V_cisim - V_gözlemci bağıntısı uygulanır, yani gözlemcinin hızı çıkarılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akıntılı bir nehirde suya göre yüzen bir yüzücünün yere göre hızı daima suya göre hızına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yere göre hız, suya göre hız ile akıntı hızının vektörel toplamıdır; akıntı sıfır olmadıkça bu iki hız eşit olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Durgun bir gözlemciye göre ölçülen hız, o cismin yere göre gerçek hızını verir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Durgun referans sistemindeki (yer) gözlemci, cismin gerçek hızını doğrudan ölçmüş olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki hareketlinin bağıl hızı sıfır ise bu hareketliler uzayda daima durgun haldedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bağıl hızın sıfır olması sadece hızlarının büyüklük ve yön olarak eşit olduğunu gösterir; her iki araç da ortak bir hızla hareket ediyor olabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Newton’ın Hareket Yasaları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Newton'ın birinci hareket yasası hangi isimle de anılır?",
+                  "answer": "Eylemsizlik yasası"
+                },
+                {
+                  "question": "Net kuvvetin sıfır olduğu durumda cismin ivmesi ne olur?",
+                  "answer": "Sıfır"
+                },
+                {
+                  "question": "F = m . a bağıntısındaki m harfi neyi temsil eder?",
+                  "answer": "Kütle"
+                },
+                {
+                  "question": "Etki tepki kuvvetleri aynı cisme mi yoksa farklı cisimlere mi etki eder?",
+                  "answer": "Farklı cisimlere"
+                },
+                {
+                  "question": "Kinetik sürtünme kuvveti statik sürtünme kuvvetinden genellikle büyük müdür, küçük müdür?",
+                  "answer": "Küçüktür"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz yatay düzlemde durmakta olan 2 kg kütleli bir cisme 10 N büyüklüğündeki net yatay kuvvet uygulanıyor. Buna göre cismin ivmesi kaç m/s kare olur?",
+                  "options": [
+                    "2",
+                    "10",
+                    "5",
+                    "20"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Newton'ın ikinci yasasına göre ivme a = F / m formülüyle bulunur. Verilen değerler yerine yazıldığında a = 10 / 2 = 5 m/s kare bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Newton'ın hareket yasalarından biri olan etki-tepki kuvvetlerinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Etki ve tepki kuvvetlerinin büyüklükleri eşittir.",
+                    "Etki ve tepki kuvvetleri aynı anda ortaya çıkar.",
+                    "Etki ve tepki kuvvetleri zıt yönlüdür.",
+                    "Etki ve tepki kuvvetleri aynı cisme etki eder."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Etki ve tepki kuvvetleri aynı cisme değil, daima farklı iki cisme etki ederler. Bu nedenle yanlış olan seçenek ikincisidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kütlesi 4 kg olan bir cisme yatay doğrultuda 20 N'lık kuvvet uygulanıyor. Cisim ile yüzey arasındaki kinetik sürtünme katsayısı 0,2 olduğuna göre cismin ivmesi kaç m/s kare olur? (Yer çekimi ivmesini 10 m/s kare alınız)",
+                  "options": [
+                    "4",
+                    "3",
+                    "5",
+                    "2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önce sürtünme kuvveti hesaplanır: Fs = k . m . g = 0,2 . 4 . 10 = 8 N. Net kuvvet Fnet = F - Fs = 20 - 8 = 12 N olur. İvme a = Fnet / m = 12 / 4 = 3 m/s kare bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir otobüs ani olarak fren yaptığında ayakta duran yolcuların öne doğru savrulmasının temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Eylemsizlik",
+                    "Kinetik sürtünme kuvveti",
+                    "Yer çekimi kuvveti",
+                    "Etki-tepki prensibi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisimlerin hareket durumlarını koruma eğilimine eylemsizlik denir. Otobüs ani fren yaptığında yolcunun vücudu sahip olduğu hızı korumak isteyeceğinden öne doğru savrulur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cisimlerin hareket durumlarını korumak istemesi özelliğine ____ denir.",
+                  "options": [
+                    "eylemsizlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylemsizlik, cisimlerin üzerlerine etki eden net kuvvet sıfır olduğu sürece mevcut durumlarını koruma eğilimidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Durgun bir cismi harekete geçirmek veya hareketli bir cismin hızını değiştirmek için kullanılan temel yasa Newton'ın ____ yasasıdır.",
+                  "options": [
+                    "ikinci"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Newton'ın ikinci yasası F = m . a bağıntısı ile ifade edilir ve kuvvet ile ivme arasındaki ilişkiyi inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünmesiz yüzeylerde cisimlerin hareketine zıt yönde oluşan ve hareketi zorlaştıran kuvvete ____ denir.",
+                  "options": [
+                    "sürtünme kuvveti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti, temas eden yüzeylerin pürüzlülüğünden kaynaklanan ve hareket zıt yönde oluşan direnç kuvvetidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Etki kuvvetinin büyüklüğü ile tepki kuvvetinin büyüklüğü birbirine ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Newton'ın üçüncü yasasına göre her etkiye karşılık eşit büyüklükte ve zıt yönlü bir tepki kuvveti bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir masanın üzerinde duran kitaba etki eden yer çekimi kuvvetine karşılık masanın kitaba uyguladığı kuvvet ____ kuvvetidir.",
+                  "options": [
+                    "tepki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Masanın cisme uyguladığı yüzey normali kuvveti, yer çekiminin oluşturduğu etkiye karşılık gelen tepki kuvvetidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Net kuvvetin sıfır olduğu bir cisim kesinlikle durmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Net kuvvetin sıfır olduğu bir cisim duruyor olabilir ancak sabit hızla düzgün doğrusal hareket de yapıyor olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Newton'ın üçüncü hareket yasası etki ve tepki kuvvetleri prensibidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçüncü yasa doğadaki her etkiye karşılık eşit ve zıt yönlü bir tepki bulunduğunu ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kinetik sürtünme katsayısı statik sürtünme katsayısından daima büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kinetik sürtünme katsayısı statik sürtünme katsayısından genellikle küçüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir cisme uygulanan net kuvvet sıfırdan farklı ise cisim kesinlikle ivmeli hareket yapar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "F = m . a bağıntısına göre net kuvvetin sıfırdan farklı olması kütle sabitken cismin ivmeli hareket yapmasını zorunlu kılar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Etki ve tepki kuvvetleri aynı doğrultuludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etki ve tepki kuvvetleri aynı doğrultuda fakat zıt yönlü iki kuvvettir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Bir Boyutta Sabit İvmeli Hareket",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "İki Boyutta Hareket",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İki boyutta sabit ivmeli hareket eden bir cismin yatay ve düşey hareketleri birbirinden bağımsız mıdır?",
+                  "answer": "Evet, yatay ve düşey hareketler birbirine bağlı değildir ve ayrı ayrı incelenir."
+                },
+                {
+                  "question": "Yerden yatay atılan bir cismin yataydaki hız bileşeni hareket süresince nasıl değişir?",
+                  "answer": "Hava direnci ihmal edildiğinde yatay hız bileşeni sabittir."
+                },
+                {
+                  "question": "Eğik atış hareketinde cismin maksimum yükseklikteki düşey hızı kaç m/s olur?",
+                  "answer": "Maksimum yükseklikte düşey hız sıfır olur."
+                },
+                {
+                  "question": "Nehir problemlerinde akıntı hızı, suya göre hız ile toplanarak hangi hızı verir?",
+                  "answer": "Yere göre hızı verir."
+                },
+                {
+                  "question": "Eğik atışta cismin uçuş süresini belirleyen temel bileşen hangisidir?",
+                  "answer": "Düşey hız bileşenidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yerden 30 m/s hızla düşeyle 37 derece açı yapacak şekilde atılan bir cismin ilk hızının yatay bileşeni kaç m/s'dir? (sin(37) = 0,6; cos(37) = 0,8 alınız)",
+                  "options": [
+                    "40",
+                    "24",
+                    "30",
+                    "18"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yatay hız bileşeni Vx = V * cos(37) formülüyle bulunur. Vx = 30 * 0,8 = 24 m/s olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Nehirde suya göre 4 m/s hızla yüzen bir yüzücü, akıntı hızının 3 m/s olduğu nehirde kıyıya dik olarak karşı kıyıya yüzmektedir. Yüzücünün yere göre hızı kaç m/s'dir?",
+                  "options": [
+                    "4",
+                    "3",
+                    "7",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yere göre hız, suya göre hız ile akıntı hızının vektörel toplamıdır. Kıyıya dik oldukları için pisagor bağıntısı kurulur: V_yer = karekök(4 kare + 3 kare) = 5 m/s bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eğik atış hareketi yapan bir cisim için aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Maksimum yükseklikte hız sıfırdır.",
+                    "Yatay hız sabittir.",
+                    "İvme sabittir ve yer çekimi ivmesine eşittir.",
+                    "Uçuş süresi düşey hız bileşenine bağlıdır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maksimum yükseklikte cismin düşey hızı sıfır olur ancak yatay hızı sıfır olmaz. Bu nedenle toplam hız sıfır değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hava direncinin önemsenmediği bir ortamda yatay olarak atılan bir cismin ivmesinin yönü hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Düşey yukarı yönlü",
+                    "Düşey aşağı yönlü",
+                    "Yatay ve hareket yönüne zıt",
+                    "Yatay ve hareket yönü ile aynı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cismin hareketine etki eden tek kuvvet yer çekimi kuvvetidir ve bu kuvvet daima düşey aşağı yönlüdür. Dolayısıyla ivme de düşey aşağı yönlüdür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yerden yatay atılan cisimlerin hareketinde yataydaki hızın değişmemesinin nedeni hava direncinin ____ kabul edilmesidir.",
+                  "options": [
+                    "ihmal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hava direnci ihmal edildiğinde yatayda etki eden net kuvvet sıfır olur, bu yüzden yatay hız sabit kalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki boyutlu hareket eden cisimlerde düşey doğrultudaki hareket ____ ivmeli harekettir.",
+                  "options": [
+                    "sabit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düşey doğrultuda etki eden yer çekimi ivmesi sabit olduğu için hareket sabit ivmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğik atış hareketinde cismin yörüngesinin en tepesinde sadece ____ hız bileşeni kalır.",
+                  "options": [
+                    "yatay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tepe noktasında düşey hız sıfır olduğundan sadece yatay hız bileşeni kalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Nehir problemlerinde suya göre hız ile akıntı hızının vektörel toplamı ____ hızı verir.",
+                  "options": [
+                    "yere göre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yere göre hız, gözlemcinin kıyıdan gördüğü hızdır ve suya göre hız ile akıntı hızının toplamına eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğik atışta çıkış süresi iniş süresine ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı seviyeden atılıp aynı seviyeye düşen cisimlerde çıkış süresi iniş süresine eşittir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yerden yatay atılan bir cismin yere çarpma süresi sadece atıldığı yüksekliğe bağlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düşeydeki serbest düşme hareketi yüksekliğe bağlı olduğundan, yere çarpma süresini belirleyen temel etken yüksekliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eğik atış hareketinde cismin ivmesi yörüngenin tepe noktasında sıfır olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cismin ivmesi hareketin hiçbir anında sıfır olmaz; daima yer çekimi ivmesine eşittir ve yönü aşağı doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nehirde karşı kıyıya geçiş süresi sadece nehre paralel olan akıntı hızına bağlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karşı kıyıya geçiş süresi, nehre dik olan hız bileşenine ve nehrin genişliğine bağlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki boyutta hareket eden cisimler hem yatayda hem de düşeyde aynı anda hareket ederler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki boyutlu hareket, yatay ve düşey doğrultudaki iki bağımsız hareketin aynı anda gerçekleşmesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hava direncinin olduğu bir ortamda yatay atış yapan cismin yatay hızı zamanla artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hava direnci harekete zıt yönlü bir kuvvet oluşturduğu için yatay hızı zamanla azaltır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Enerji ve Hareket",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İşin (W) birimi SI birim sisteminde nedir?",
+                  "answer": "Joule"
+                },
+                {
+                  "question": "Kinetik enerji (Ek) hangi bağıntı ile hesaplanır?",
+                  "answer": "Ek = 1/2 * m * v^2"
+                },
+                {
+                  "question": "Yerçekimi potansiyel enerjisi nelere bağlıdır?",
+                  "answer": "Cütin kütlesine, yerçekimi ivmesine ve yüksekliğe"
+                },
+                {
+                  "question": "Mekanik enerji hangi iki enerjinin toplamıdır?",
+                  "answer": "Kinetik enerji ve potansiyel enerji"
+                },
+                {
+                  "question": "Güç (P) birim zamanda yapılan neyi ifade eder?",
+                  "answer": "İşi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yatay ve sürtünmesiz bir düzlemde durmakta olan 2 kg kütleli bir cisme yatay 10 N büyüklüğünde bir kuvvet 4 m boyunca uygulanıyor. Cismin kazandığı son kinetik enerji kaç Joule olur?",
+                  "options": [
+                    "40",
+                    "80",
+                    "20",
+                    "100"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yapılan net iş, cisme kinetik enerji olarak aktarılır. W = F * x bağıntısından W = 10 N * 4 m = 40 Joule olur. Cisim durduğu için ilk enerjisi sıfırdır, dolayısıyla son kinetik enerji 40 Joule'dür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi skaler bir fiziksel büyüklüktür?",
+                  "options": [
+                    "Hız",
+                    "İvme",
+                    "Kuvvet",
+                    "İş"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İş, yönü olmayan ve sadece büyüklüğü ile ifade edilen skaler bir büyüklüktür. Kuvvet, ivme ve hız ise vektörel büyüklüklerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sürtünmesiz sistemde serbest bırakılan bir cisim aşağı doğru düşerken mekanik enerjisi için ne söylenebilir?",
+                  "options": [
+                    "Sürekli artar",
+                    "Sürekli azalır",
+                    "Önce artar sonra azalır",
+                    "Değişmez"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sürtünmesiz ortamlarda dışarıdan yapılan net bir kuvvet yoksa mekanik enerji korunur. Potansiyel enerji azalırken kinetik enerji aynı miktarda artar ve toplam mekanik enerji sabit kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir motor 500 J'lük işi 5 saniyede yaparsa, bu motorun gücü kaç Watt olur?",
+                  "options": [
+                    "2500",
+                    "100",
+                    "500",
+                    "50"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Güç, yapılan işin zamana oranıdır (P = W / t). P = 500 J / 5 s = 100 Watt bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Esneklik potansiyel enerjisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Yay sabiti ile ters orantılıdır",
+                    "Sıkışan yayda potansiyel enerji sıfır olur",
+                    "Sadece yayın boyuna bağlıdır",
+                    "Yaydaki uzama miktarının karesi ile doğru orantılıdır"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Esneklik potansiyel enerjisi Ep = 1/2 * k * x^2 bağıntısı ile bulunur. Bu ifadeye göre enerji, yay sabiti ve uzama miktarının karesi ile doğru orantılıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz yatay düzlemde sabit hızla hareket eden bir cisme etki eden net kuvvetin yaptığı iş ____ değerindedir.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisim sabit hızla hareket ediyorsa ivmesi sıfırdır, dolayısıyla cisme etki eden net kuvvet sıfırdır. F = 0 olduğu için yapılan iş de sıfır olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yerden yukarı doğru düşey olarak fırlatılan bir cismin tepe noktasında hızı sıfır olduğundan, kinetik enerjisi ____ olur.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cisim tepe noktasında anlık olarak durur; hızı sıfır olduğu için bu andaki kinetik enerjisi de sıfır değerini alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kinetik enerji, cismin kütlesi ile hızının ____ doğru orantılıdır.",
+                  "options": [
+                    "karesiyle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik enerji formülü Ek = 1/2 * m * v^2 şeklindedir. Buradan da görüleceği üzere enerji, hızın karesi ile doğru orantılıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünmeli yüzeylerde hareket eden bir cismin mekanik enerjisi ısı enerjisine dönüşerek ____.",
+                  "options": [
+                    "azalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürtünme kuvveti mekanik enerjinin bir kısmını ısıya dönüştürür. Bu nedenle sürtünmeli sistemlerde toplam mekanik enerji zamanla azalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Birim zamandaki iş miktarına ____ denir.",
+                  "options": [
+                    "güç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güç, yapılan işin bu işin gerçekleşmesi için geçen süreye bölümü olarak tanımlanır ve SI'daki birimi Watt'tır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İş yapabilme yeteneğine enerji denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Enerjinin temel fiziksel tanımı iş yapabilme yeteneği veya kapasitesi olmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Skaler bir nicelik olan işin birimi Newton'dur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İşin SI birimi Joule'dür. Newton ise kuvvet birimidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yerden h kadar yükseklikteki m kütleli bir cismin potansiyel enerjisi m, g ve h niceliklerinin çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yerçekimi potansiyel enerjisi Ep = m * g * h formülü ile hesaplanır ve bu üç niceliğin çarpımıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sürtünmeli yüzeylerde mekanik enerji her zaman korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürtünmeli yüzeylerde mekanik enerjinin bir kısmı ısıya dönüştüğü için mekanik enerji korunmaz, azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güç, birim zamanda harcanan ya da yapılan enerjidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güç, enerji değişiminin veya yapılan işin zamana oranını belirttiği için bu ifade doğrudur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "İtme ve Çizgisel Momentum",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İtme vektörel bir nicelik midir?",
+                  "answer": "Evet, itme vektörel bir niceliktir ve yönü uygulanan kuvvetin yönü ile aynıdır."
+                },
+                {
+                  "question": "Çizgisel momentumun SI birimi nedir?",
+                  "answer": "Kilogram çarpı metre bölü saniye (kg.m/s)"
+                },
+                {
+                  "question": "İtme ile momentum değişimi arasındaki ilişki nedir?",
+                  "answer": "Bir cismi etkileyen net itme, cismin çizgisel momentumundaki değişim eşittir."
+                },
+                {
+                  "question": "Momentum-zaman grafiğinin eğimi neyi verir?",
+                  "answer": "Cisme etki eden net kuvveti verir."
+                },
+                {
+                  "question": "Esnek olmayan merkezi çarpışmalarda ne korunur?",
+                  "answer": "Toplam çizgisel momentum korunur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Sürtünmesiz yatay düzlemde durmakta olan 2 kg kütleli bir cisme 10 N büyüklüğündeki yatay net kuvvet 4 saniye boyunca uygulanmaktadır. Buna göre, cismin momentumundaki değişim kaç kg.m/s olur?",
+                  "options": [
+                    "40",
+                    "80",
+                    "20",
+                    "60"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İtme kuvvet ile zamanın çarpımıdır: I = F çarpı t. I = 10 N çarpı 4 s = 40 N.s olur. İtme momentum değişimine eşit olduğundan momentum değişimi 40 kg.m/s'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki fiziksel niceliklerden hangisinin birimi Newton çarpı saniye (N.s) olarak ifade edilir?",
+                  "options": [
+                    "İtme",
+                    "İvme",
+                    "Enerji",
+                    "Kuvvet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İtme, F çarpı t formülüyle bulunur. Kuvvet birimi Newton (N), zaman birimi saniyedir (s). Bu nedenle itmenin birimi N.s'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir cismin hız vektörü ile çizgisel momentum vektörü için aşağıdakilerden hangisi daima doğrudur?",
+                  "options": [
+                    "Birimleri aynıdır",
+                    "Zıt yönlüdürler",
+                    "Aynı yönlüdürler",
+                    "Büyüklükleri birbirine eşittir"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çizgisel momentum P = m çarpı v formülüyle bulunur. Kütle skaler ve pozitif bir sayı olduğundan momentum vektörü hız vektörü ile daima aynı yönlüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yatay ve sürtünmesiz bir yolda hareket etmekte olan bir cisme, hareket yönüne zıt yönde net bir kuvvet uygulanıyor. Buna göre, cismin çizgisel momentumunun büyüklüğü ve yönü için ne söylenebilir?",
+                  "options": [
+                    "Büyüklüğü azalır, yönü değişmez",
+                    "Büyüklüğü artar, yönü değişir",
+                    "Büyüklüğü ve yönü değişmez",
+                    "Büyüklüğü azalır, yönü ters döner"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haraket yönüne zıt kuvvet yavaşlatıcı etki yapar; bu nedenle momentumun büyüklüğü azalır ancak cisim henüz durmadığı için hareket yönü ve dolayısıyla momentumun yönü aynı kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İki cismin katıldığı bir çarpışmada dış kuvvetlerin toplamı sıfır ise, sistemin toplam çizgisel momentumu için aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sürekli artar",
+                    "Önce artar sonra azalır",
+                    "Korunur",
+                    "Sürekli azalır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fizik yasalarına göre, bir sisteme dışarıdan etki eden net kuvvet sıfır ise sistemin toplam çizgisel momentumu korunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kuvvet-zaman grafiğinin altında kalan alan bize ____ verir.",
+                  "options": [
+                    "itmeyi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "F-t grafiğinde grafiğin zaman ekseniyle arasında kalan alan, uygulanan itme değerini verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sürtünmesiz yatay düzlemde gerçekleşen esnek çarpışmalarda toplam momentum ile toplam ____ korunur.",
+                  "options": [
+                    "enerji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tam esnek çarpışmalarda hem toplam çizgisel momentum hem de toplam mekanik enerji korunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Momentum-zaman grafiğinin herhangi bir anındaki eğimi bize o anki net ____ verir.",
+                  "options": [
+                    "kuvveti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Momentumun zamana göre türevi veya grafiğin eğimi net kuvveti tanımlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İtme ve çizgisel momentum aynı boyutlu niceliklerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İtme N.s (kg.m/s), momentum ise kg.m/s birimine sahip olduğundan boyutları aynıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Duran bir cismin çizgisel momentumu sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hızı sıfır olan bir cismin momentumu da P = m çarpı 0 formülünden sıfır olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çarpışmalarda sadece esnek çarpışmalarda momentum korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Momentumun korunması için çarpışmanın esnek olması gerekmez; dış kuvvet yoksa her türlü çarpışmada momentum korunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kütlesi ve hızı artan bir cismin çizgisel momentumu da artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Momentum kütle ile hızın çarpımıdır; her iki niceliğin artması momentumun büyüklüğünü artırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İtme birimi ile enerji birimi birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İtme birimi N.s, enerji birimi ise Joule yani N.m'dir; bu nedenle birimleri farklıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node8",
+          "order": 8,
+          "title": "Tork",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Tork nedir?",
+                  "answer": "Kuvvetin bir eksen etrafında döndürme etkisidir."
+                },
+                {
+                  "question": "Torkun yönü hangi kural ile bulunur?",
+                  "answer": "Sağ el kuralı ile bulunur."
+                },
+                {
+                  "question": "Tork vektörel bir büyüklük müdür?",
+                  "answer": "Evet, vektörel bir büyüklüktür."
+                },
+                {
+                  "question": "Torkun birimi SI sisteminde nedir?",
+                  "answer": "Newton metre (N.m)"
+                },
+                {
+                  "question": "Kuvvetin doğruldugu dönme noktasından geçiyorsa torku ne olur?",
+                  "answer": "Sıfır olur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Büyüklüğü 10 N olan bir kuvvet, dönme noktasına 2 metre uzaklıktaki bir çubuğa dik olarak uygulanmaktadır. Bu kuvvetin oluşturduğu torkun büyüklüğü kaç N.m'dir?",
+                  "options": [
+                    "10",
+                    "40",
+                    "5",
+                    "20"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tork formülü Tau = F çarpı d şeklindedir. Kuvvet 10 N ve dik uzaklık 2 metre olduğundan tork 10 çarpı 2 eşittir 20 N.m bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi tork birimidir?",
+                  "options": [
+                    "Watt",
+                    "Newton çarpı metre",
+                    "Joule",
+                    "Newton"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tork, kuvvet ile dik uzaklığın çarpımıdır. Kuvvet birimi Newton, uzaklık birimi metre olduğu için tork birimi Newton çarpı metredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şekildeki bir cismin üzerine uygulanan kuvvetin dönme eksenine olan dik uzaklığı yarıya indirilirse, kuvvetin torku ilk durumuna göre nasıl değişir?",
+                  "options": [
+                    "Yarıya düşer",
+                    "İki katına çıkar",
+                    "Değişmez",
+                    "Dört katına çıkar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tork, kuvvet ile dik uzaklıkla doğru orantılıdır. Dik uzaklık yarıya indirilirse tork da doğru orantılı olarak yarıya düşer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kapıyı açmak için menteşeye en uzak noktadan kuvvet uygulamak hangisini kolaylaştırır?",
+                  "options": [
+                    "Kuvvetin torkunu büyütmeyi",
+                    "Kuvvetin yönünü değiştirmeyi",
+                    "Sürtünmeyi artırmayı",
+                    "İş yapmamayı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Menteşeye uzaklık torku artırır. Aynı kuvvetle daha büyük tork elde edilerek kapı daha kolay açılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yönü sayfa düzleminden içeri doğru olan bir tork vektörü için sağ el kuralı uygulandığında parmakların bükülme yönü neyi gösterir?",
+                  "options": [
+                    "Saat yönünün tersini",
+                    "Saat yönünü",
+                    "Öteleme yönünü",
+                    "Doğrusal hareketi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sağ elin dört parmağı saat yönünde döndürüldüğünde baş parmak sayfa düzleminden içeri doğru gösterir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kuvvetin bir eksen etrafında döndürme etkisine ____ denir.",
+                  "options": [
+                    "tork"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizikte cisimleri bir eksen etrafında döndüren etkiye tork adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tork vektörünün yönünü bulmak için ____ kuralı kullanılır.",
+                  "options": [
+                    "sağ el"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Torkun yönü üç boyutlu uzayda sağ el kuralı yardımıyla belirlenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dönme eksenine göre torkun birimi SI birim sisteminde ____ şeklindedir.",
+                  "options": [
+                    "Newton metre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Torkun birimi kuvvetin birimi olan Newton ile uzunluk birimi olan metrenin çarpımıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uygulanan kuvvetin doğrultusu dönme noktasından geçiyorsa torkun değeri ____ olur.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvetin uzantısı dönme noktasından geçiyorsa dik uzaklık sıfır olacağından tork da sıfır olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tork, kuvvet ile dönme noktası arasındaki ____ uzaklığın çarpımıdır.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tork hesaplanırken kuvvet vektörünün dönme noktasına olan dik uzaklığı hesaba katılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tork skaler bir büyüklüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tork yönü ve büyüklüğü olan vektörel bir büyüklüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuvvetin dönme noktasına olan dik uzaklığı sıfır ise tork da sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik uzaklığın sıfır olması tork formülündeki mesafeyi sıfırlayacağı için tork oluşmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Torkun SI birimi Joule'dür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Joule iş ve enerji birimidir. Torkun SI birimi Newton metredir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sağ el kuralında baş parmak tork vektörünün yönünü gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sağ elin dört parmağı dönme yönünü gösterdiğinde açılan baş parmak torkun yönünü gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı kuvvet daha büyük dik uzaklığa uygulanırsa tork artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tork, kuvvet ile dik uzaklığın çarpımı olduğundan mesafe artarsa tork da artar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node9",
+          "order": 9,
+          "title": "Denge ve Denge Şartları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir cismin dengede olabilmesi için net kuvvetin sıfır olması yanında hangi şartı da sağlaması gerekir?",
+                  "answer": "Net torkun sıfır olması gerekir."
+                },
+                {
+                  "question": "Üzerine etki eden kuvvetlerin doğrultuları tek bir noktada kesişen cisimlere ne denir?",
+                  "answer": "Noktasal cisim"
+                },
+                {
+                  "question": "Bir sistemde torkun yönünü bulmak için hangi kural kullanılır?",
+                  "answer": "Sağ el kuralı"
+                },
+                {
+                  "question": "Kütle merkezine etki eden yer çekimi kuvvetinin uygulama noktasına ne denir?",
+                  "answer": "Ağırlık merkezi"
+                },
+                {
+                  "question": "Destek üzerindeki bir cismin devrilmeden dengede kalabilmesi için ağırlık merkezinin izdüşümü nereden geçmelidir?",
+                  "answer": "Destek yüzeyinden"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir cismin mekanik dengede olabilmesi için gerekli olan birinci ve ikinci denge şartları sırasıyla aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Net kuvvet sıfır olmalı, hız sıfır olmalı",
+                    "Net kuvvet sıfır olmalı, net tork sıfır olmalı",
+                    "Net ivme maksimum olmalı, net tork sıfır olmalı",
+                    "Net tork sıfır olmalı, net kuvvet sıfır olmalı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir cismin dengede olabilmesi için üzerine etki eden net kuvvet sıfır olmalı (öteleme dengesi) ve herhangi bir noktaya göre net tork sıfır olmalıdır (dönme dengesi).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şekildeki gibi asılan düzgün ve türdeş bir çubuk yatay dengededir. Çubuğun ipin asıldığı noktaya göre torku nedir?",
+                  "options": [
+                    "Çubuğun ağırlığına eşittir",
+                    "Sıfırdır",
+                    "İpin gerilmesine eşittir",
+                    "Çubuğun boyuna bağlıdır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dengede olan bir cismin herhangi bir dönme eksenine göre net torku sıfırdır. İpin asıldığı nokta dönme ekseni alındığında tork sıfır olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi dengelenmiş kuvvetlerin etkisinde olan bir cismin özelliklerinden biridir?",
+                  "options": [
+                    "Hızının sürekli artması",
+                    "Sabit hızla hareket etmesi veya durması",
+                    "Üzerindeki net kuvvetin sıfırdan farklı olması",
+                    "İvmesinin sıfırdan farklı olması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dengelenmiş kuvvetlerin etkisindeki bir cisim Newton'un birinci hareket kanununa göre ya duruyordur ya da sabit hızla hareket ediyordur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir cismin destek üzerinde devrilmeden dengede kalabilmesi için gerekli temel şart nedir?",
+                  "options": [
+                    "Ağırlık merkezinin düşey izdüşümünün destek tabanı içinde olması",
+                    "Cisme etki eden toplam kuvvetin sıfır olması",
+                    "Cismin kütlesinin çok küçük olması",
+                    "Yüzey sürtünmesinin sıfır olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cismin devrilmemesi için ağırlık merkezinin yere dik izdüşümünün destek yüzeyi içinde kalması şarttır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Üzerine etkiyen net kuvvetin sıfır olduğu cisimlerin yaptığı hareketsizlik veya sabit hızla hareket etme durumuna ____ denir.",
+                  "options": [
+                    "denge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Net kuvvetin sıfır olduğu durumlarda cisimler mekanik denge halindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kuvvetin cismi bir eksen etrafında döndürme etkisine ____ denir.",
+                  "options": [
+                    "tork"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tork, kuvvetin dönme eksenine olan dik uzaklığı ile çarpımıyla bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Düzgün ve türdeş geometrik cisimlerin ağırlık merkezleri, onların ____ noktalarıdır.",
+                  "options": [
+                    "geometrik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Homojen ve türdeş cisimlerde kütle merkezi ve ağırlık merkezi geometrik merkezle çakışır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dengedeki bir cismin kesinlikle hızı sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dengede olan bir cisim duruyor olabilir (statik denge) ancak sabit hızla hareket de ediyor olabilir (dinamik denge).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir kuvvetin oluşturduğu torkun yönü sağ el kuralı ile bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sağ elin dört parmağı dönme yönünü gösterdiğinde başparmak tork vektörünün yönünü gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ağırlık merkezi cismin geometrik alanı içinde olmak zorunda değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin halka veya simit gibi şekillerin ağırlık merkezi cismin maddesel alanı dışındaki boşlukta olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Destek noktasına göre tork alan bir sistemde kuvvetin doğrultusu destekten geçiyorsa torku sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvetin doğrultusu dönme ekseninden (destekten) geçiyorsa dik uzaklık sıfır olacağı için tork da sıfır olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir cismin üç boyutlu uzayda dengede kalabilmesi için sadece x ve y eksenlerindeki kuvvetlerin sıfır olması yeterlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üç boyutlu uzayda tam bir denge için x, y ve z eksenlerindeki tüm kuvvetlerin ve bu eksenlere ait torkların ayrı ayrı sıfır olması gerekir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node10",
+          "order": 10,
+          "title": "Basit Makineler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Elektrik ve Manyetizma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Elektriksel Kuvvet ve Elektrik Alan",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Elektriksel Potansiyel",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Düzgün Elektrik Alan ve Sığa",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Manyetizma ve Elektromanyetik İndüklenme",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Alternatif Akım",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Transformatörler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Çembersel Hareket",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Düzgün Çembersel Hareket",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dönerek Öteleme Hareketi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Açısal Momentum",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Kütle Çekim Kuvveti",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Kepler Kanunları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Basit Harmonik Hareket",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Basit Harmonik Hareket",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Dalga Mekaniği",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Dalgalarda Kırınım, Girişim ve Doppler Olayı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Elektromanyetik Dalgalar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Atom Fiziğine Giriş ve Radyoaktivite",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Atom Kavramının Tarihsel Gelişimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Büyük Patlama ve Evrenin Oluşumu",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Radyoaktivite",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Modern Fizik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Özel Görelilik",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kuantum Fiziğine Giriş",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Fotoelektrik Olayı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Compton Saçılması ve de Broglie Dalga Boyu",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Görüntüleme Teknolojileri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yarı İletken Teknolojisi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Süper İletkenler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Nanoteknoloji",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Laser Işınları",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}
