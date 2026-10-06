@@ -475,7 +475,7 @@ final _turkishLetters = RegExp('[çğıöşüÇĞİÖŞÜâîû]');
 /// A long text with none of the Turkish-specific letters is almost certainly
 /// ASCII-folded ("hucre", "gore"...).
 bool _folded(String s, bool english) =>
-    !english && s.length >= 30 && !_turkishLetters.hasMatch(s);
+    !english && s.length >= 70 && !_turkishLetters.hasMatch(s);
 
 /// Returns the node fields (flashcards / multipleChoice / fillBlank /
 /// trueFalse) or null, filling [problems] with why it was rejected.
@@ -511,7 +511,7 @@ Map<String, dynamic>? _validateAndBuild(
   for (final c in cards.take(5)) {
     final q = s(c['question']), a = s(c['answer']);
     if (bad(q) || bad(a)) {
-      problems.add('kart metni bozuk');
+      problems.add('kart metni bozuk: ${q.length > 60 ? q.substring(0, 60) : q} | ${a.length > 40 ? a.substring(0, 40) : a}');
       return null;
     }
     cardOut.add({'question': q, 'answer': a});
@@ -526,7 +526,7 @@ Map<String, dynamic>? _validateAndBuild(
     final correct = (m['correctIndex'] as num?)?.toInt() ?? -1;
     final expl = s(m['explanation']);
     if (bad(q) || badExpl(expl) || options.length != 4 || options.any(bad)) {
-      problems.add('test sorusu bozuk');
+      problems.add('test sorusu bozuk: ${q.length > 60 ? q.substring(0, 60) : q} / ${expl.length > 50 ? expl.substring(0, 50) : expl}');
       return null;
     }
     if (options.toSet().length != 4 || correct < 0 || correct > 3) {
@@ -580,7 +580,7 @@ Map<String, dynamic>? _validateAndBuild(
     final q = s(t['statement']), expl = s(t['explanation']);
     final isTrue = t['isTrue'];
     if (bad(q) || badExpl(expl) || isTrue is! bool) {
-      problems.add('doğru/yanlış bozuk');
+      problems.add('doğru/yanlış bozuk: ${q.length > 60 ? q.substring(0, 60) : q} / ${expl.length > 50 ? expl.substring(0, 50) : expl}');
       return null;
     }
     if (isTrue) trueCount++;

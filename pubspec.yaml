@@ -60,15 +60,15 @@ dev_dependencies:
   googleapis_auth: ^2.3.3
 
 flutter_native_splash:
-  color: "#673AB7"
+  color: "#1B1240"
   image: assets/branding/logo.png
-  color_dark: "#1F1235"
+  color_dark: "#1B1240"
   image_dark: assets/branding/logo.png
   android_12:
     image: assets/branding/logo.png
-    icon_background_color: "#673AB7"
+    icon_background_color: "#1B1240"
     image_dark: assets/branding/logo.png
-    icon_background_color_dark: "#1F1235"
+    icon_background_color_dark: "#1B1240"
   android: true
   ios: false
   web: false
