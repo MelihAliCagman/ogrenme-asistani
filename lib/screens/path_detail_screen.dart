@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ogrenme_asistani/config/dev_flags.dart';
+import 'package:ogrenme_asistani/config/subject_style.dart';
 import 'package:ogrenme_asistani/models/curriculum_path.dart';
 import 'package:ogrenme_asistani/models/flashcard_set.dart';
 import 'package:ogrenme_asistani/models/path_progress.dart';
@@ -88,12 +89,20 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
   String? _defaultExpandedUnitId(CurriculumPath path, PathProgress progress) {
     CurriculumUnit? lastWithContent;
     for (final unit in path.units) {
-      if (unit.isComingSoon) continue;
+      if (!unit.hasContent) continue;
       lastWithContent = unit;
-      final allDone = unit.nodes.every(progress.isNodeCompleted);
+      final allDone = unit.nodes
+          .where((n) => n.hasAnyContent)
+          .every(progress.isNodeCompleted);
       if (!allDone) return unit.id;
     }
-    return lastWithContent?.id;
+    if (lastWithContent != null) return lastWithContent.id;
+    // Outline-only path (no questions written yet): open the first unit so
+    // the screen doesn't greet the user with a wall of collapsed headers.
+    for (final unit in path.units) {
+      if (!unit.isComingSoon) return unit.id;
+    }
+    return null;
   }
 
   /// Horizontal px offset for a node's circle, alternating left/right so
@@ -356,7 +365,8 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
     final progress = _progress;
     final allNodes = path.allNodes;
     var flatIndex = 0;
-    final children = <Widget>[];
+    final children = <Widget>[_PathSummaryCard(path: path, progress: progress)];
+    children.add(const SizedBox(height: 16));
     for (var unitIndex = 0; unitIndex < path.units.length; unitIndex++) {
       final unit = path.units[unitIndex];
       final isExpanded = _expandedUnitIds.contains(unit.id);
@@ -388,9 +398,22 @@ class _PathDetailScreenState extends State<PathDetailScreen> {
         final index = flatIndex;
         flatIndex++;
         if (!isExpanded) continue;
+        if (!node.hasAnyContent) {
+          // Outline-only topic: listed for the müfredat, no questions yet.
+          children.add(_OutlineNodeTile(node: node));
+          continue;
+        }
         final isCompleted = progress?.isNodeCompleted(node) ?? false;
+        // Unlocked once the closest earlier topic that actually has
+        // content is completed (outline-only topics never block).
+        var previousWithContent = index - 1;
+        while (previousWithContent >= 0 &&
+            !allNodes[previousWithContent].hasAnyContent) {
+          previousWithContent--;
+        }
         final isUnlocked = kDevUnlockAllNodes ||
-            index == 0 || (progress?.isNodeCompleted(allNodes[index - 1]) ?? false);
+            previousWithContent < 0 ||
+            (progress?.isNodeCompleted(allNodes[previousWithContent]) ?? false);
         final isLast = i == unit.nodes.length - 1;
         children.add(
           _NodeTile(
@@ -449,12 +472,15 @@ class _UnitBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final isComingSoon = unit.isComingSoon;
-    final foreground = isComingSoon
-        ? colorScheme.onSurfaceVariant
+    final isOutlineOnly = !isComingSoon && !unit.hasContent;
+    final foreground = isComingSoon || isOutlineOnly
+        ? colorScheme.onSurface
         : colorScheme.onPrimaryContainer;
     return Material(
       color: isComingSoon
-          ? colorScheme.surfaceContainerHighest
+          ? colorScheme.surfaceContainerHighest.withValues(alpha: 0.5)
+          : isOutlineOnly
+          ? colorScheme.surfaceContainerHigh.withValues(alpha: 0.7)
           : colorScheme.primaryContainer,
       borderRadius: BorderRadius.circular(14),
       child: InkWell(
@@ -479,7 +505,9 @@ class _UnitBanner extends StatelessWidget {
                     if (!isComingSoon) ...[
                       const SizedBox(height: 2),
                       Text(
-                        '$completedCount/${unit.nodes.length} tamamlandı',
+                        isOutlineOnly
+                            ? '${unit.nodes.length} konu · içerik hazırlanıyor'
+                            : '$completedCount/${unit.contentNodeCount} tamamlandı',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
                           color: foreground.withValues(alpha: 0.85),
                         ),
@@ -845,6 +873,150 @@ class _ContentKindTile extends StatelessWidget {
               color: completed ? Colors.green : colorScheme.outlineVariant,
             ),
       onTap: onTap,
+    );
+  }
+}
+
+/// Header card of a path: the ders' identity (icon/color), how big it is
+/// and, when it has questions, overall progress.
+class _PathSummaryCard extends StatelessWidget {
+  const _PathSummaryCard({required this.path, required this.progress});
+
+  final CurriculumPath path;
+  final PathProgress? progress;
+
+  @override
+  Widget build(BuildContext context) {
+    final subject = path.title.split(' ').skip(1).join(' ');
+    final style = subjectStyleFor(subject);
+    final scheme = Theme.of(context).colorScheme;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final contentNodes = path.allNodes.where((n) => n.hasAnyContent).toList();
+    final completed = contentNodes
+        .where((n) => progress?.isNodeCompleted(n) ?? false)
+        .length;
+    final totalNodes = path.allNodes.length;
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(22),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            style.color.withValues(alpha: isDark ? 0.38 : 0.26),
+            style.color.withValues(alpha: isDark ? 0.10 : 0.06),
+          ],
+        ),
+        border: Border.all(color: style.color.withValues(alpha: 0.45)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 52,
+                height: 52,
+                decoration: BoxDecoration(
+                  color: style.color.withValues(alpha: 0.9),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Icon(style.icon, color: Colors.white, size: 30),
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      path.title,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                    Text(
+                      '${path.units.length} ünite · $totalNodes konu',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: scheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 14),
+          if (contentNodes.isEmpty)
+            Row(
+              children: [
+                Icon(Icons.hourglass_top_rounded, size: 18, color: scheme.onSurfaceVariant),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Bu dersin soruları hazırlanıyor. Konu listesini şimdiden inceleyebilirsin.',
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                ),
+              ],
+            )
+          else ...[
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: LinearProgressIndicator(
+                value: completed / contentNodes.length,
+                minHeight: 8,
+                backgroundColor: scheme.onSurface.withValues(alpha: 0.12),
+                color: style.color,
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              '$completed/${contentNodes.length} konu tamamlandı',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+/// A topic that is part of the müfredat but has no questions yet.
+class _OutlineNodeTile extends StatelessWidget {
+  const _OutlineNodeTile({required this.node});
+
+  final CurriculumNode node;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 3),
+      child: ListTile(
+        dense: true,
+        leading: CircleAvatar(
+          radius: 15,
+          backgroundColor: scheme.onSurface.withValues(alpha: 0.10),
+          child: Text(
+            '${node.order}',
+            style: Theme.of(context).textTheme.labelMedium,
+          ),
+        ),
+        title: Text(node.title),
+        trailing: Text(
+          'Yakında',
+          style: Theme.of(context).textTheme.labelSmall?.copyWith(
+            color: scheme.onSurfaceVariant,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        onTap: () {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Bu konunun içeriği hazırlanıyor.')),
+          );
+        },
+      ),
     );
   }
 }

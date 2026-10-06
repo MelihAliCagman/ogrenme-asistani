@@ -133,13 +133,22 @@ class CurriculumNode {
 
   bool hasContent(PathContentKind kind) => partCountFor(kind) > 0;
 
+  /// Whether this node has any authored content at all. Outline-only
+  /// nodes (a topic listed in the YKS müfredat whose questions are not
+  /// written yet) have none and show as "Yakında".
+  bool get hasAnyContent => PathContentKind.values.any(hasContent);
+
   /// A node is fully completed once every content kind it actually has
   /// content for is completed in [progress] — a kind the node has no
   /// content for (e.g. a future phase's nodes before their fill-blank
-  /// set is authored) never blocks completion.
-  bool isFullyCompleted(NodeProgress progress) => PathContentKind.values
-      .where(hasContent)
-      .every((kind) => progress.isKindCompleted(kind, partCountFor(kind)));
+  /// set is authored) never blocks completion. A node with no content at
+  /// all is never completed: otherwise an empty outline topic would count
+  /// as done and unlock the next one.
+  bool isFullyCompleted(NodeProgress progress) =>
+      hasAnyContent &&
+      PathContentKind.values
+          .where(hasContent)
+          .every((kind) => progress.isKindCompleted(kind, partCountFor(kind)));
 }
 
 /// A unit ("ünite") — an ordered group of [CurriculumNode]s. Units seeded
@@ -175,6 +184,13 @@ class CurriculumUnit {
   final List<CurriculumNode> nodes;
 
   bool get isComingSoon => nodes.isEmpty;
+
+  /// Whether at least one topic of this unit has authored content.
+  bool get hasContent => nodes.any((n) => n.hasAnyContent);
+
+  /// Topics of this unit that have content — the ones that count toward
+  /// the unit's progress.
+  int get contentNodeCount => nodes.where((n) => n.hasAnyContent).length;
 }
 
 /// The full "Ders Yolu" (skill path) for one subject — a public,
