@@ -9,69 +9,43 @@
 //                                             unitCount, nodeCount}
 //   curriculum_paths/{key}/units/{unitN}  -> {order, title, nodes: [...]}
 //
-// Nodes carry no flashcards/quizzes, so the app treats them as "coming
-// soon". Paths that already have real content (tyt_biyoloji) are not in the
-// outline file and are never touched.
+// WARNING: this REPLACES the unit documents, including any questions that
+// were seeded for them. Dersler that already have content must be re-seeded
+// with tool/seed_content_admin.dart instead; pass --only to limit the paths.
 //
 // Usage:
-//   dart run tool/seed_yks_outline_admin.dart --dry-run   # only print counts
-//   dart run tool/seed_yks_outline_admin.dart             # write to Firestore
+//   dart run tool/seed_yks_outline_admin.dart --dry-run          # only counts
+//   dart run tool/seed_yks_outline_admin.dart                    # all dersler
+//   dart run tool/seed_yks_outline_admin.dart --only tyt_turkce  # one ders
 //
 // Needs tool/service-account.json (gitignored), like the other admin seeders.
 
-import 'dart:convert';
 import 'dart:io';
 
-import 'package:googleapis_auth/auth_io.dart';
+import 'firestore_admin.dart';
+import 'yks_outline_parser.dart';
 
-const _keyPath = 'tool/service-account.json';
 const _outlinePath = 'tool/yks_outline.txt';
 const _collection = 'curriculum_paths';
 
-class _Path {
-  _Path(this.key, this.subject);
-  final String key;
-  final String subject;
-  final List<({String title, List<String> topics})> units = [];
-
-  String get stage => key.split('_').first.toUpperCase();
-  String get title => '$stage $subject';
-  int get nodeCount => units.fold(0, (sum, u) => sum + u.topics.length);
-}
-
-List<_Path> _parseOutline(String text) {
-  final paths = <_Path>[];
-  String? pendingUnit;
-  for (final raw in text.split('\n')) {
-    final line = raw.trim();
-    if (line.isEmpty || line.startsWith('#') && !line.startsWith('# ')) {
-      continue;
-    }
-    if (line.startsWith('@')) {
-      final parts = line.substring(1).split('|');
-      paths.add(_Path(parts[0].trim(), parts[1].trim()));
-      pendingUnit = null;
-    } else if (line.startsWith('# ')) {
-      // Header comments at the top of the file also start with "# " but
-      // appear before the first "@" path, so they are skipped here.
-      if (paths.isEmpty) continue;
-      pendingUnit = line.substring(2).trim();
-    } else if (pendingUnit != null && paths.isNotEmpty) {
-      final topics = line
-          .split('|')
-          .map((t) => t.trim())
-          .where((t) => t.isNotEmpty)
-          .toList();
-      paths.last.units.add((title: pendingUnit, topics: topics));
-      pendingUnit = null;
-    }
-  }
-  return paths;
-}
-
 Future<void> main(List<String> args) async {
   final dryRun = args.contains('--dry-run');
-  final paths = _parseOutline(File(_outlinePath).readAsStringSync());
+  final onlyIndex = args.indexOf('--only');
+  final only = onlyIndex == -1 ? null : args[onlyIndex + 1];
+  final force = args.contains('--force');
+  final paths = parseOutline(File(_outlinePath).readAsStringSync())
+      .where((p) => only == null || p.key == only)
+      .where((p) {
+        // A ders with generated content must be seeded with
+        // tool/seed_content_admin.dart; writing only its outline here would
+        // wipe the questions already in Firestore.
+        final hasContentFile = File('tool/content/${p.key}.json').existsSync();
+        if (hasContentFile && !force) {
+          stdout.writeln('↷ ${p.key}: içerik dosyası var, atlandı (--force ile zorla).');
+        }
+        return !hasContentFile || force;
+      })
+      .toList();
 
   var totalUnits = 0, totalNodes = 0;
   for (final p in paths) {
@@ -91,25 +65,10 @@ Future<void> main(List<String> args) async {
     return;
   }
 
-  final keyFile = File(_keyPath);
-  if (!keyFile.existsSync()) {
-    stderr.writeln('Servis hesabı anahtarı bulunamadı: $_keyPath');
-    exit(1);
-  }
-  final credentialsJson = keyFile.readAsStringSync();
-  final projectId =
-      (jsonDecode(credentialsJson) as Map<String, dynamic>)['project_id']
-          as String;
-  final client = await clientViaServiceAccount(
-    ServiceAccountCredentials.fromJson(credentialsJson),
-    ['https://www.googleapis.com/auth/datastore'],
-  );
-
+  final session = await openAdminSession();
   try {
-    final base =
-        'https://firestore.googleapis.com/v1/projects/$projectId/databases/(default)/documents/$_collection';
     for (final p in paths) {
-      await _patch(client, '$base/${p.key}', {
+      await patchDocument(session, '$_collection/${p.key}', {
         'title': p.title,
         'examType': 'YKS',
         'subject': p.subject,
@@ -119,7 +78,7 @@ Future<void> main(List<String> args) async {
       });
       for (var u = 0; u < p.units.length; u++) {
         final unit = p.units[u];
-        await _patch(client, '$base/${p.key}/units/unit${u + 1}', {
+        await patchDocument(session, '$_collection/${p.key}/units/unit${u + 1}', {
           'order': u + 1,
           'title': unit.title,
           'nodes': [
@@ -137,43 +96,6 @@ Future<void> main(List<String> args) async {
     }
     stdout.writeln('Tamamlandı.');
   } finally {
-    client.close();
+    session.close();
   }
-}
-
-Future<void> _patch(
-  AuthClient client,
-  String url,
-  Map<String, dynamic> fields,
-) async {
-  final response = await client.patch(
-    Uri.parse(url),
-    headers: {'Content-Type': 'application/json'},
-    body: jsonEncode({'fields': _toFields(fields)}),
-  );
-  if (response.statusCode != 200) {
-    throw Exception('HTTP ${response.statusCode} $url\n${response.body}');
-  }
-}
-
-Map<String, dynamic> _toFields(Map<String, dynamic> map) => {
-  for (final e in map.entries) e.key: _toValue(e.value),
-};
-
-Map<String, dynamic> _toValue(dynamic v) {
-  if (v == null) return {'nullValue': null};
-  if (v is String) return {'stringValue': v};
-  if (v is bool) return {'booleanValue': v};
-  if (v is int) return {'integerValue': v.toString()};
-  if (v is List) {
-    return {
-      'arrayValue': {'values': v.map(_toValue).toList()},
-    };
-  }
-  if (v is Map) {
-    return {
-      'mapValue': {'fields': _toFields(Map<String, dynamic>.from(v))},
-    };
-  }
-  throw ArgumentError('Desteklenmeyen tür: ${v.runtimeType}');
 }

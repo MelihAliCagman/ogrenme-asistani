@@ -13,6 +13,7 @@ class CurriculumPathSummary {
     required this.hasContent,
     required this.unitCount,
     required this.nodeCount,
+    required this.contentNodeCount,
   });
 
   final String subjectKey;
@@ -25,6 +26,13 @@ class CurriculumPathSummary {
   final bool hasContent;
   final int unitCount;
   final int nodeCount;
+
+  /// How many of [nodeCount] topics already have questions.
+  final int contentNodeCount;
+
+  /// 0-100: share of topics that have questions.
+  int get readyPercent =>
+      nodeCount == 0 ? 0 : (contentNodeCount * 100 / nodeCount).round();
 
   /// "TYT", "AYT" or "YDT" — the first segment of [subjectKey]
   /// (`tyt_turkce` -> `TYT`).
@@ -59,6 +67,7 @@ class CurriculumPathRepository {
         hasContent: data['hasContent'] as bool? ?? false,
         unitCount: (data['unitCount'] as num?)?.toInt() ?? 0,
         nodeCount: (data['nodeCount'] as num?)?.toInt() ?? 0,
+        contentNodeCount: (data['contentNodeCount'] as num?)?.toInt() ?? 0,
       );
     }).toList();
   }
