@@ -203,151 +203,93 @@ class _ProfileScreenState extends State<ProfileScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
-              padding: const EdgeInsets.all(24),
+              padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
               children: [
-                Center(
-                  child: Column(
-                    children: [
-                      InkWell(
-                        onTap: _editAvatar,
-                        customBorder: const CircleBorder(),
-                        child: Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 40,
-                              backgroundColor: profile?.avatarColor,
-                              child: Icon(
-                                profile?.avatarIcon ?? Icons.person,
-                                size: 40,
-                                color: Colors.white,
-                              ),
-                            ),
-                            Positioned(
-                              right: 0,
-                              bottom: 0,
-                              child: CircleAvatar(
-                                radius: 12,
-                                backgroundColor: Theme.of(
-                                  context,
-                                ).colorScheme.surface,
-                                child: const Icon(Icons.edit, size: 14),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      InkWell(
-                        onTap: _editName,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 4,
-                          ),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Text(
-                                profile?.name ?? 'Kullanıcı',
-                                style: Theme.of(context).textTheme.titleLarge,
-                              ),
-                              const SizedBox(width: 6),
-                              const Icon(Icons.edit, size: 16),
-                            ],
-                          ),
-                        ),
-                      ),
-                      if (accountLabel != null) ...[
-                        const SizedBox(height: 4),
-                        Text(
-                          accountLabel,
-                          style: Theme.of(context).textTheme.bodySmall,
-                        ),
-                      ],
-                    ],
-                  ),
+                _ProfileHeader(
+                  profile: profile,
+                  accountLabel: accountLabel,
+                  streak: _stats?.currentStreak ?? 0,
+                  onEditAvatar: _editAvatar,
+                  onEditName: _editName,
                 ),
-                const SizedBox(height: 24),
-                _StreakBadge(stats: _stats),
                 const SizedBox(height: 16),
                 _StatsGrid(stats: _stats),
                 const SizedBox(height: 16),
                 Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.emoji_events_outlined),
-                    title: const Text('Rozetlerim'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              AchievementsScreen(stats: _stats),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-                const SizedBox(height: 16),
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.flag_outlined),
-                    title: const Text('Hedeflerim'),
-                    subtitle: const Text('Sınav hedeflerini ve tarihlerini yönet'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const ExamGoalsScreen(),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-                const SizedBox(height: 16),
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.cake_outlined),
-                    title: const Text('Yaş'),
-                    subtitle: Text(
-                      profile?.age != null
-                          ? '${profile!.age}'
-                          : 'Belirtilmedi (opsiyonel)',
-                    ),
-                    trailing: const Icon(Icons.edit_outlined),
-                    onTap: _editAge,
-                  ),
-                ),
-                const SizedBox(height: 16),
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.auto_awesome_outlined),
-                    title: const Text('Asistanı Özelleştir'),
-                    subtitle: const Text(
-                      'Asistanının adını ve karakterini değiştir',
-                    ),
-                    onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => AvatarSelectionScreen(
-                            onSaved: (_) => Navigator.of(context).pop(),
-                          ),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-                const SizedBox(height: 16),
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.settings_outlined),
-                    title: const Text('Ayarlar'),
-                    onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const SettingsScreen(),
-                        ),
-                      );
-                    },
+                  margin: EdgeInsets.zero,
+                  clipBehavior: Clip.antiAlias,
+                  child: Column(
+                    children: [
+                      _MenuTile(
+                        icon: Icons.emoji_events_rounded,
+                        color: const Color(0xFFFFB300),
+                        title: 'Rozetlerim',
+                        subtitle: 'Kazandığın başarımlar',
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  AchievementsScreen(stats: _stats),
+                            ),
+                          );
+                        },
+                      ),
+                      const Divider(height: 1, indent: 64),
+                      _MenuTile(
+                        icon: Icons.flag_rounded,
+                        color: const Color(0xFF66BB6A),
+                        title: 'Hedeflerim',
+                        subtitle: 'Sınav hedeflerini ve tarihlerini yönet',
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => const ExamGoalsScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                      const Divider(height: 1, indent: 64),
+                      _MenuTile(
+                        icon: Icons.cake_rounded,
+                        color: const Color(0xFFEC407A),
+                        title: 'Yaş',
+                        subtitle: profile?.age != null
+                            ? '${profile!.age}'
+                            : 'Belirtilmedi (opsiyonel)',
+                        trailing: const Icon(Icons.edit_outlined, size: 20),
+                        onTap: _editAge,
+                      ),
+                      const Divider(height: 1, indent: 64),
+                      _MenuTile(
+                        icon: Icons.auto_awesome_rounded,
+                        color: const Color(0xFF7C4DFF),
+                        title: 'Asistanı Özelleştir',
+                        subtitle: 'Asistanının adını ve karakterini değiştir',
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => AvatarSelectionScreen(
+                                onSaved: (_) => Navigator.of(context).pop(),
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                      const Divider(height: 1, indent: 64),
+                      _MenuTile(
+                        icon: Icons.settings_rounded,
+                        color: const Color(0xFF78909C),
+                        title: 'Ayarlar',
+                        subtitle: 'Tema, yazı boyutu, hesap',
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => const SettingsScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
                   ),
                 ),
               ],
@@ -356,46 +298,169 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 }
 
-class _StreakBadge extends StatelessWidget {
-  const _StreakBadge({required this.stats});
+/// Gradient identity card: avatar, name, account and the current streak.
+class _ProfileHeader extends StatelessWidget {
+  const _ProfileHeader({
+    required this.profile,
+    required this.accountLabel,
+    required this.streak,
+    required this.onEditAvatar,
+    required this.onEditName,
+  });
 
-  final ProfileStats? stats;
+  final UserProfile? profile;
+  final String? accountLabel;
+  final int streak;
+  final VoidCallback onEditAvatar;
+  final VoidCallback onEditName;
 
   @override
   Widget build(BuildContext context) {
-    final current = stats?.currentStreak ?? 0;
-    final longest = stats?.longestStreak ?? 0;
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Row(
-          children: [
-            const Text('🔥', style: TextStyle(fontSize: 28)),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    current > 0
-                        ? '$current gün üst üste çalışıyorsun'
-                        : 'Bugün çalışarak bir seri başlat!',
-                    style: Theme.of(context).textTheme.bodyLarge,
-                  ),
-                  if (longest > 0) ...[
-                    const SizedBox(height: 2),
-                    Text(
-                      'En uzun serin: $longest gün',
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
-                  ],
-                ],
-              ),
-            ),
-          ],
+    return Container(
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(24),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [Color(0xFF7C4DFF), Color(0xFF4F46E5)],
         ),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF7C4DFF).withValues(alpha: 0.30),
+            blurRadius: 22,
+            offset: const Offset(0, 10),
+          ),
+        ],
       ),
+      child: Row(
+        children: [
+          InkWell(
+            onTap: onEditAvatar,
+            customBorder: const CircleBorder(),
+            child: Stack(
+              children: [
+                CircleAvatar(
+                  radius: 36,
+                  backgroundColor: profile?.avatarColor ?? Colors.white24,
+                  child: Icon(
+                    profile?.avatarIcon ?? Icons.person,
+                    size: 36,
+                    color: Colors.white,
+                  ),
+                ),
+                Positioned(
+                  right: 0,
+                  bottom: 0,
+                  child: CircleAvatar(
+                    radius: 12,
+                    backgroundColor: Colors.white,
+                    child: const Icon(
+                      Icons.edit,
+                      size: 14,
+                      color: Color(0xFF4F46E5),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                InkWell(
+                  onTap: onEditName,
+                  child: Row(
+                    children: [
+                      Flexible(
+                        child: Text(
+                          profile?.name ?? 'Kullanıcı',
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context).textTheme.titleLarge
+                              ?.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 6),
+                      const Icon(Icons.edit, size: 16, color: Colors.white70),
+                    ],
+                  ),
+                ),
+                if (accountLabel != null)
+                  Text(
+                    accountLabel!,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(color: Colors.white70, fontSize: 13),
+                  ),
+                const SizedBox(height: 10),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 5,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withValues(alpha: 0.18),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Text(
+                    streak > 0
+                        ? '🔥 $streak gün seri'
+                        : '🔥 Bugün bir seri başlat',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 13,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MenuTile extends StatelessWidget {
+  const _MenuTile({
+    required this.icon,
+    required this.color,
+    required this.title,
+    required this.subtitle,
+    required this.onTap,
+    this.trailing,
+  });
+
+  final IconData icon;
+  final Color color;
+  final String title;
+  final String subtitle;
+  final VoidCallback onTap;
+  final Widget? trailing;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      onTap: onTap,
+      leading: Container(
+        width: 40,
+        height: 40,
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.18),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Icon(icon, color: color, size: 22),
+      ),
+      title: Text(title, style: const TextStyle(fontWeight: FontWeight.w700)),
+      subtitle: Text(subtitle),
+      trailing: trailing ?? const Icon(Icons.chevron_right),
     );
   }
 }
@@ -410,22 +475,26 @@ class _StatsGrid extends StatelessWidget {
     final averageScore = stats?.averageQuizScorePercent;
     final tiles = [
       (
-        icon: Icons.chat_bubble_outline,
+        icon: Icons.chat_bubble_rounded,
+        color: const Color(0xFF29B6F6),
         label: 'Toplam Sohbet',
         value: '${stats?.totalChats ?? 0}',
       ),
       (
-        icon: Icons.style_outlined,
+        icon: Icons.style_rounded,
+        color: const Color(0xFFFFA726),
         label: 'Toplam Set',
         value: '${stats?.totalSets ?? 0}',
       ),
       (
-        icon: Icons.emoji_events_outlined,
+        icon: Icons.emoji_events_rounded,
+        color: const Color(0xFF66BB6A),
         label: 'Ort. Test Başarısı',
         value: averageScore == null ? '—' : '%${averageScore.round()}',
       ),
       (
-        icon: Icons.local_fire_department_outlined,
+        icon: Icons.local_fire_department_rounded,
+        color: const Color(0xFFFF7043),
         label: 'En Uzun Seri',
         value: '${stats?.longestStreak ?? 0} gün',
       ),
@@ -436,38 +505,44 @@ class _StatsGrid extends StatelessWidget {
         crossAxisCount: 2,
         mainAxisSpacing: 12,
         crossAxisSpacing: 12,
-        mainAxisExtent: 76,
+        mainAxisExtent: 84,
       ),
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       children: [
         for (final tile in tiles)
           Card(
+            margin: EdgeInsets.zero,
             child: Padding(
               padding: const EdgeInsets.all(12),
               child: Row(
                 children: [
-                  Icon(
-                    tile.icon,
-                    color: Theme.of(context).colorScheme.primary,
+                  Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: tile.color.withValues(alpha: 0.18),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Icon(tile.icon, color: tile.color, size: 22),
                   ),
                   const SizedBox(width: 10),
                   Expanded(
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
                           tile.value,
                           style: Theme.of(context).textTheme.titleMedium
-                              ?.copyWith(fontWeight: FontWeight.bold),
+                              ?.copyWith(fontWeight: FontWeight.w800),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
                         Text(
                           tile.label,
                           style: Theme.of(context).textTheme.bodySmall,
-                          maxLines: 1,
+                          maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                         ),
                       ],
