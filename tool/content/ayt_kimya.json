@@ -1,0 +1,1903 @@
+{
+  "subjectKey": "ayt_kimya",
+  "title": "AYT Kimya",
+  "examType": "YKS",
+  "subject": "Kimya",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Modern Atom Teorisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Atomun Kuantum Modeli",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Baş kuantum sayısı (n) neyi ifade eder?",
+                  "answer": "Orbitalin baş kuantum sayısı, elektronun çekirdeğe olan ortalama uzaklığını ve temel enerji düzeyini (katmanı) ifade eder."
+                },
+                {
+                  "question": "Açısal momentum kuantum sayısı (l) hangi orbitalleri temsil eder?",
+                  "answer": "l sayısı orbitallerin türünü (s, p, d, f) ve orbitalin geometrik şeklini temsil eder."
+                },
+                {
+                  "question": "Manyetik kuantum sayısı (ml) neyi belirtir?",
+                  "answer": "ml, orbitalin uzaydaki yönelimini ve alt enerji düzeyindeki orbital sayısını belirtir."
+                },
+                {
+                  "question": "Spin kuantum sayısı (ms) hangi değere sahip olabilir?",
+                  "answer": "ms değeri +1/2 veya -1/2 olabilir ve elektronun kendi ekseni etrafındaki dönme yönünü gösterir."
+                },
+                {
+                  "question": "Pauli Dışlama İlkesi nedir?",
+                  "answer": "Bir atomdaki iki elektronun dört kuantum sayısı da aynı olamaz; en fazla iki elektron aynı orbitalde zıt spinli olarak bulunabilir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Baş kuantum sayısı n = 3 olan bir temel enerji düzeyinde bulunabilecek toplam orbital sayısı kaçtır?",
+                  "options": [
+                    "9",
+                    "6",
+                    "3",
+                    "18"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir enerji düzeyindeki toplam orbital sayısı n kare formülü ile bulunur. n = 3 için 3ün karesi 9 orbital bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kuantum sayıları çiftlerinden hangisi olamaz?",
+                  "options": [
+                    "n = 5, l = 0",
+                    "n = 3, l = 2",
+                    "n = 4, l = 4",
+                    "n = 2, l = 1"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Açısal momentum kuantum sayısı l, 0 ile (n - 1) arasında değer alabilir. n = 4 için l en fazla 3 olabilir, bu yüzden l = 4 olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Alüminyum (Z = 13) atomunun temel hâl elektron dizilimindeki en yüksek enerjili orbitalin baş kuantum sayısı (n) ve açısal momentum kuantum sayısı (l) değerleri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "n = 2, l = 1",
+                    "n = 3, l = 0",
+                    "n = 3, l = 2",
+                    "n = 3, l = 1"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Al-13 atomunun elektron dizilimi 1s2 2s2 2p6 3s2 3p1 şeklindedir. En yüksek enerjili orbital 3p orbitalidir. 3p için n = 3 ve p orbitalinin l değeri 1dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Manyetik kuantum sayısı ml = 0 olan bir orbital için açısal momentum kuantum sayısı l aşağıdakilerden hangisi olamaz?",
+                  "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "Her l değerinde ml = 0 orbitali vardır"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tüm orbital türlerinde (s, p, d, f) ml = 0 değerine sahip bir orbital mutlaka bulunur. Çünkü l ne olursa olsun ml aralığı -l den +l ye kadardır ve sıfırı kapsar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hund Kuralı'na göre eş enerjili orbitallere elektronlar yerleşirken aşağıdakilerden hangisi gerçekleşir?",
+                  "options": [
+                    "Önce zıt spinli olarak aynı orbital doldurulur.",
+                    "Elektronlar rastgele yerleşir.",
+                    "Önce elektronlar aynı spinli olarak ayrı ayrı orbitallere yerleşir.",
+                    "Önce en düşük enerjili d orbitalleri dolar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hund kuralına göre eş enerjili orbitallere elektronlar önce aynı spinli olarak tek tek yerleşir, ardından çiftleşme gerçekleşir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Elektronların çekirdek etrafında bulunma olasılığının en yüksek olduğu bölgelere ____ denir.",
+                  "options": [
+                    "orbital"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Modern atom teorisinde elektronların kesin yerleri bilinemez, bulunma ihtimalinin yüksek olduğu hacimsel bölgeler orbital olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı enerji düzeyindeki eş enerjili orbitallere ____ orbitaller denir.",
+                  "options": [
+                    "dejenere"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Baş kuantum sayıları ve enerjileri aynı olan orbitallere dejenere (eş enerjili) orbitaller denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir elementin atom numarasının bulunmasında temel alınan, elektronların düşük enerjiden yüksek enerjiye doğru yerleştiği kurala ____ İlkesi denir.",
+                  "options": [
+                    "Aufbau"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aufbau kuralına göre elektronlar orbitallere en düşük enerjiden başlayarak sırasıyla yerleşirler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atomda baş kuantum sayısı n = 4 olan bir katmanda bulunabilecek maksimum elektron sayısı ____ dir.",
+                  "options": [
+                    "32"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir enerji düzeyindeki maksimum elektron sayısı 2n kare formülü ile bulunur. n = 4 için 2 çarpı 4ün karesi 32 eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Manyetik kuantum sayısı ml, -l ile +l arasında toplam ____ tane değer alır.",
+                  "options": [
+                    "2l + 1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Manyetik kuantum sayısı bir alt enerji düzeyindeki orbital sayısını verir ve formülü 2l + 1 dir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "p orbitallerinin açısal momentum kuantum sayısı l = 1 dir ve uzayda 3 farklı yönelimi vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "p orbitali için l = 1 dir. ml değerleri -1, 0, +1 olmak üzere 3 tanedir ve uzayda 3 farklı yönelimi bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "s orbitallerinin tamamının küresel simetrik özelliği vardır ve baş kuantum sayısı arttıkça hacimleri küçülür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "s orbitalleri küresel simetriktir ancak baş kuantum sayısı (n) arttıkça orbitalin hacmi ve çapı büyür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küre biçimindeki s orbitalleri en fazla 2 elektron alabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her tür orbital Pauli ilkesi gereği zıt spinli olmak koşuluyla en fazla 2 elektron alabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir atomun temel hâl elektron diziliminde 3d orbitali 4s orbitalinden önce dolar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Enerji sıralamasına (n + l değerlerine) göre 4s orbitalinin enerjisi 3d orbitalinden düşüktür, bu yüzden önce 4s orbitali dolar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küre simetrisi gösteren atomların son orbital türü tam dolu veya yarı doludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atomda en dış orbital türünün tamamen dolu (ns2, np6, nd10 vb.) veya yarı dolu (ns1, np3, nd5 vb.) olması küresel simetri özelliği kazandırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Periyodik Sistem ve Elektron Dizilimleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Baş kuantum sayısı (n) neyi ifade eder?",
+                  "answer": "Orbitalin bulunduğu enerji düzeyini (kabuğunu) ifade eder."
+                },
+                {
+                  "question": "Açısal momentum kuantum sayısı (l) hangi orbital türlerini gösterir?",
+                  "answer": "s, p, d, f orbital türlerini gösterir."
+                },
+                {
+                  "question": "Manyetik kuantum sayısı (ml) neyi belirtir?",
+                  "answer": "Orbitallerin uzaydaki yönelimlerini ve alt enerji düzeyindeki orbital sayısını belirtir."
+                },
+                {
+                  "question": "Spin kuantum sayısı (ms) hangi değeri alabilir?",
+                  "answer": "+1/2 ve -1/2 değerlerini alabilir."
+                },
+                {
+                  "question": "Hund Kuralı nedir?",
+                  "answer": "Eş enerjili orbitallere elektronlar önce aynı spinli olarak tek tek yerleşir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki kuantum sayılarından hangisi yanlıştır?",
+                  "options": [
+                    "n = 3",
+                    "ms = +1/2",
+                    "ml = -3",
+                    "l = 2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "l = 2 değeri d orbitalini gösterir ve ml değerleri -2 ile +2 arasında yer alır. ml = -3 olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Nötr X atomunun temel hâldeki elektron dizilimi 1s2 2s2 2p6 3s2 3p3 ile bitmektedir. Buna göre X atomunun atom numarası kaçtır?",
+                  "options": [
+                    "19",
+                    "15",
+                    "17",
+                    "13"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Elektron sayıları toplanırsa 2+2+6+2+3 = 15 bulunur. Nötr atomda proton sayısı elektron sayısına eşit olduğundan atom numarası 15'tir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Periyodik sistemin 4. periyodunda bulunan bir elementin en yüksek enerjili orbitalinin baş kuantum sayısı (n) kaçtır?",
+                  "options": [
+                    "3",
+                    "1",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Periyodik sistemde periyot numarası, o elementin baş kuantum sayısına (n) eşittir. Bu nedenle 4. periyottaki bir elementin en yüksek n değeri 4'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki iyonlardan hangisi soy gaz elektron düzenine sahiptir?",
+                  "options": [
+                    "Na+",
+                    "Al2+",
+                    "Cl2-",
+                    "Mg+"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Na atomunun atom numarası 11'dir. Na+ iyonunun 10 elektronu kalır ve Ne soy gazının elektron düzenine ulaşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki orbital türlerinden hangisinde l kuantum sayısı 1'e eşittir?",
+                  "options": [
+                    "s",
+                    "p",
+                    "f",
+                    "d"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "l kuantum sayısı s için 0, p için 1, d için 2, f için 3 değerini alır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Elektronların orbitallere düşük enerjiden yüksek enerjiye doğru yerleştiğini belirten ilke ____ ilkesidir.",
+                  "options": [
+                    "Aufbau"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aufbau kuralına göre elektronlar en düşük enerjili orbitalden başlayarak sırasıyla yerleşirler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı atomda hiçbir elektronun dört kuantum sayısı da aynı olamaz kuralına ____ dışarlama ilkesi denir.",
+                  "options": [
+                    "Pauli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pauli Dışarlama İlkesi'ne göre bir orbitalde en fazla iki elektron bulunabilir ve bu elektronlar zıt spinli olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "n = 3 ve l = 2 değerlerine sahip bir orbital ____ orbitali olarak adlandırılır.",
+                  "options": [
+                    "3d"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Baş kuantum sayısı 3 ve l = 2 (d) olduğundan orbital 3d'dir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "p orbitallerinin en fazla alabileceği elektron sayısı 6'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "p orbitalleri 3 tanedir ve her biri en fazla 2 elektron alabileceğinden toplamda 6 elektron alabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Temel hâldeki tüm elementlerin elektron dizilimleri Hund kuralına uymak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kararlı ve temel hâldeki elektron dağılımları Aufbau, Pauli ve Hund kurallarına uymak zorundadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "d orbitalleri 3. enerji düzeyinden itibaren başlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "n = 3 düzeyinde l = 2 (d) değeri gelebilir, bu nedenle d orbitalleri 3. enerji düzeyinden başlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir atomun baş kuantum sayısı 2 olan enerji düzeyinde toplam 8 orbital bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "n = 2 düzeyinde 2s (1 orbital) ve 2p (3 orbital) olmak üzere toplam 4 orbital bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küre biçiminde olan ve her enerji düzeyinde 1 tane bulunan orbital türü s orbitalidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "s orbitalleri küresel simetriktir ve her baş kuantum sayısında 1 adet s orbitali bulunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Periyodik Özellikler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Periyodik sistemde aynı periyotta soldan sağa gidildikçe atom yarıçapı genellikle nasıl değişir?",
+                  "answer": "Azalır."
+                },
+                {
+                  "question": "Aynı grupta yukarıdan aşağıya inildikçe elektronegatiflik nasıl değişir?",
+                  "answer": "Azalır."
+                },
+                {
+                  "question": "Elektron ilgisi en yüksek olan element hangisidir?",
+                  "answer": "Klor"
+                },
+                {
+                  "question": "Katyonların çapı, nötr haldeki atomun çapına göre nasıldır?",
+                  "answer": "Daha küçüktür."
+                },
+                {
+                  "question": "Periyodik tabloda 1A grubunun özel adı nedir?",
+                  "answer": "Alkali metaller"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki elementlerden hangisinin birinci iyonlaşma enerjisi aynı periyottaki 2A grubu elementinden daha büyüktür?",
+                  "options": [
+                    "3A grubu",
+                    "1A grubu",
+                    "4A grubu",
+                    "5A grubu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Küresel simetri özelliği nedeniyle 3A grubu elementlerinin birinci iyonlaşma enerjisi 2A grubundakilerden küçük, 5A grubundakiler ise 4A grubundakilerden büyüktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki taneciklerden hangisinin yarıçapı nötr atomunun yarıçapından büyüktür?",
+                  "options": [
+                    "Mg2+",
+                    "Al3+",
+                    "Na+",
+                    "Cl-"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Atomlar elektron aldığında çekirdeğin elektron başına düşen çekim gücü azalır ve tanecik çapı büyüür. Cl- anyon olduğu için yarıçapı nötr Cl atomundan büyüktür, diğerleri katyondur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Periyodik sistemde elektronegatiflik kavramı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Bağ elektronlarını çekme yeteneğidir.",
+                    "Ölçülebilir doğrudan bir fiziksel niceliktir.",
+                    "Aynı periyotta soldan sağa doğru genellikle artar.",
+                    "En yüksek elektronegatifliğe sahip element Flor'dur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Elektronegatiflik doğrudan deneysel olarak ölçülen bir fiziksel nicelik değil, Pauling ve diğerleri tarafından bağıl olarak hesaplanan bir özelliktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki element çiftlerinden hangisinin kimyasal özellikleri birbirine en benzerdir?",
+                  "options": [
+                    "6C ile 7N",
+                    "9F ile 17Cl",
+                    "1H ile 2He",
+                    "11Na ile 12Mg"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "9F ve 17Cl elementleri periyodik tablonun aynı grubunda (7A, halojenler) yer aldıkları için kimyasal özellikleri benzerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gaz halindeki nötr bir atomdan bir elektron koparmak için gereken enerjiye ____ iyonlaşma enerjisi denir.",
+                  "options": [
+                    "birinci"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nötr ve gaz halindeki bir atomdan en dıştaki elektronu koparmak için verilen enerji birinci iyonlaşma enerjisidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Periyodik tablonun en aktif ametali ve elektronegatifliği en yüksek olan elementi ____ elementidir.",
+                  "options": [
+                    "Flor"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Flor, periyodik sistemde elektronegatifliği en yüksek olan ve 7A grubunda yer alan elementtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Proton sayıları aynı, elektron sayıları farklı olan taneciklere ____ denir.",
+                  "options": [
+                    "iyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nötr bir atom elektron aldığında ya da verdiğinde proton sayısı değişmez ancak elektron sayısı değişerek iyon halini alır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Aynı grupta yukarıdan aşağıya inildikçe atom yarıçapı artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yukarıdan aşağıya inildikçe katman sayısı arttığı için atomun çapı da büyür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soygazların tamamının birinci iyonlaşma enerjisi gruptaki diğer elementlerden küçüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soygazlar kararlı yapıda olduklarından periyotlarındaki en yüksek birinci iyonlaşma enerjisine sahip elementlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İzoelektronik taneciklerden proton sayısı büyük olanın yarıçapı daha küçüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İzoelektronik taneciklerde elektron sayıları aynıdır; proton sayısı arttıkça çekirdeğin elektronlara uyguladığı çekim kuvveti artar ve çap küçülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asitlik özellik gösteren oksitlerin oksijen sayısı arttıkça genellikle asitlik kuvveti artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ametallerin oksijence zengin bileşikleri suda daha güçlü asidik özellik gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Periyodik tabloda 2A grubunun birinci iyonlaşma enerjisi her zaman 3A grubundan küçüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "2A grubu küresel simetri gösterdiği için 3A grubundan daha yüksek birinci iyonlaşma enerjisine sahiptir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Elementleri Tanıyalım",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Yükseltgenme Basamakları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Serbest hâldeki nötr atomların yükseltgenme basamağı kaçtır?",
+                  "answer": "Sıfırdır."
+                },
+                {
+                  "question": "Bileşiklerinde flor (F) elementinin aldığı yükseltgenme basamağı her zaman kaçtır?",
+                  "answer": "-1 değerini alır."
+                },
+                {
+                  "question": "Hidrojen (H) elementinin metallerle yaptığı bileşiklerdeki yükseltgenme basamağı kaçtır?",
+                  "answer": "-1 değerini alır."
+                },
+                {
+                  "question": "Bir kökteki elementlerin yükseltgenme basamakları toplamı neye eşittir?",
+                  "answer": "Kökün üzerindeki yüke eşittir."
+                },
+                {
+                  "question": "Amasız ve fakatsiz, bileşiklerde oksijen atomu genellikle kaç basamaklıdır?",
+                  "answer": "-2 değerini alır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "SO4 2- kökürü kükürt (S) atomunun yükseltgenme basamağı kaçtır?",
+                  "options": [
+                    "-2",
+                    "+4",
+                    "+2",
+                    "+6"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Oksijen genellikle -2 alır. 4 tane oksijen -8 yapar. Kökün toplam yükü -2 olduğundan kükürt +6 olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bileşiklerin hangisinde klor (Cl) atomunun yükseltgenme basamağı en yüksektir?",
+                  "options": [
+                    "HClO3",
+                    "HClO",
+                    "HClO4",
+                    "HCl"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "HClO4 bileşiğinde H (+1) ve O (-2) kullanıldığında Cl atomu +7 yükseltgenme basamağına sahip olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "KMnO4 bileşiğinde mangan (Mn) elementinin yükseltgenme basamağı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "+5",
+                    "+7",
+                    "+3",
+                    "+2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "K (+1) ve 4 adet O (-2 = -8) toplamı sıfıra eşitlenirse Mn +7 değerini alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "NaH bileşiğinde hidrojenin yükseltgenme basamağı kaçtır?",
+                  "options": [
+                    "-1",
+                    "+2",
+                    "+1",
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen, 1A grubundaki aktif metallerle oluşturduğu hidrür bileşiklerinde -1 yükseltgenme basamağına sahip olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "H2O2 bileşiğinde oksijenin yükseltgenme basamağı nedir?",
+                  "options": [
+                    "-2",
+                    "+1",
+                    "+2",
+                    "-1"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Peroksitlerde oksijen -1 yükseltgenme basamağına sahiptir. H +1 olduğundan 2 tane O -2 yük paylaşır, bir tanesi -1 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Nötr bir bileşikteki tüm atomların yükseltgenme basamakları toplamı ____ eşittir.",
+                  "options": [
+                    "sıfıra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nötr bileşiklerin toplam net yükü sıfır olduğu için atomların basamakları toplamı da sıfır olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1A grubu elementleri bileşiklerinde sadece ____ yükseltgenme basamağına sahiptir.",
+                  "options": [
+                    "+1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alkali metaller (1A) bileşiklerinde daima +1 değerlik alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Flor elementi sadece ____ yükseltgenme basamağını alır.",
+                  "options": [
+                    "-1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Flor elektronegatifliği en yüksek element olduğundan bileşiklerinde daima -1 değerliktedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Oksijen atomu flor ile yaptığı OF2 bileşiğinde ____ yükseltgenme basamağına sahiptir.",
+                  "options": [
+                    "+2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Flor -1 olduğundan, OF2 bileşiğinde oksijen +2 basamağını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "H2SO4 bileşiğinde kükürt atomunun yükseltgenme basamağı ____ değerindedir.",
+                  "options": [
+                    "+6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "H (+1 x 2) ve O (-2 x 4) hesaplandığında S atomu +6 bulunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "O2 gazının yapısındaki oksijen atomlarının yükseltgenme basamağı sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı cins atomlardan oluşan elementel moleküllerde atomların yükseltgenme basamağı sıfır kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "CaH2 bileşiğinde kalsiyumun yükseltgenme basamağı -2'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kalsiyum 2A grubu metalidir ve bileşiklerinde sadece +2 değerlik alır. Hidrojen burada -1'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Köklerin içindeki atomların yükseltgenme basamakları toplamı kök yükünü verir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çok atomlu iyonlarda (köklerde) toplam yük, atomların yükseltgenme basamakları toplamına eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geçiş metalleri bileşiklerinde yalnızca tek bir pozitif yükseltgenme basamağına sahip olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Geçiş metalleri (B grubu) birden fazla farklı pozitif yükseltgenme basamağı alabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "HNO3 bileşiğinde azot (N) atomunun yükseltgenme basamağı +5'tir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "H (+1) ve 3 tane O (-6) hesaba katıldığında N atomuna +5 kalır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Gazlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Gazların Özellikleri ve Gaz Yasaları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Boyle-Mariotte Yasası'na göre sabit sıcaklıkta bir gazın basıncı ile hacmi arasındaki ilişki nasıldır?",
+                  "answer": "Ters orantılıdır (P x V = Sabit)."
+                },
+                {
+                  "question": "Charles Yasası'na göre sabit basınçta gazın hacmi hangi sıcaklık birimiyle doğru orantılıdır?",
+                  "answer": "Kelvin (mutlak sıcaklık)."
+                },
+                {
+                  "question": "Gay-Lussac Yasası hangi iki değişken arasındaki ilişkiyi inceler?",
+                  "answer": "Basınç ve sıcaklık."
+                },
+                {
+                  "question": "Avogadro Yasası'na göre aynı koşullardaki gazların eşit hacimleri neyi içerir?",
+                  "answer": "Eşit sayıda tanecik (mol)."
+                },
+                {
+                  "question": "İdeal gaz denklemi formülü nedir?",
+                  "answer": "P x V = n x R x T"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi ideal gazların özelliklerinden biri değildir?",
+                  "options": [
+                    "Düşük sıcaklık ve yüksek basınçta ideallikten uzaklaşırlar.",
+                    "Tanecikleri arasındaki çekim kuvvetleri ihmal edilir.",
+                    "Kendi öz hacimleri kapladıkları hacim yanında sıfır kabul edilir.",
+                    "Tanecikleri esnek olmayan çarpışmalar yapar."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İdeal gaz tanecikleri birbiriyle ve kap çeperleriyle tamamen esnek çarpışmalar yaparlar, yani enerji kaybı olmaz. Bu nedenle d seçeneği yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabit basınç altında bulunan bir miktar ideal gazın mutlak sıcaklığı 2 katına çıkarılırsa, gazın hacmi nasıl değişir?",
+                  "options": [
+                    "Yarıya düşer",
+                    "2 katına çıkar",
+                    "Değişmez",
+                    "4 katına çıkar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Charles Yasası'na göre sabit basınçta hacim ile Kelvin sıcaklığı doğru orantılıdır. Sıcaklık 2 katına çıktığında hacim de 2 katına çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Normal koşullarda (NKA) 11,2 litre hacim kaplayan bir miktar ideal gaz kaç moldür?",
+                  "options": [
+                    "0,5 mol",
+                    "0,25 mol",
+                    "1 mol",
+                    "2 mol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Normal koşullarda (0 santigrat derece ve 1 atm) tüm ideal gazların 1 molü 22,4 litre hacim kaplar. 11,2 litre hacim kaplayan gaz ise 11,2 / 22,4 = 0,5 moldür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki gazlardan hangisinin aynı koşullarda difüzyon hızı en yüksektir? (H: 1, He: 4, C: 12, O: 16)",
+                  "options": [
+                    "CH4",
+                    "H2",
+                    "He",
+                    "O2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Graham Difüzyon Yasası'na göre gazların difüzyon hızı mol karesinin karekökü ile ters orantılıdır. Mol kütlesi en küçük olan H2 gazının hızı en yüksektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabit hacimli kapalı bir kapta bulunan bir miktar ideal gazın sıcaklığı artırılırsa aşağıdakilerden hangisi gerçekleşmez?",
+                  "options": [
+                    "Ortalama kinetik enerji artar.",
+                    "Basınç artar.",
+                    "Birim zamanda yüzeye çarpan tanecik sayısı artar.",
+                    "Gaz yoğunluğu artar."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sabit hacimli kapta kütle ve hacim değişmediği için gaz yoğunluğu (d = m/V) sabit kalır. Sıcaklık artışı basıncı, kinetik enerjiyi ve çarpışma sayısını artırır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gaz taneciklerinin boşlukta yayılması olayına ____ denir.",
+                  "options": [
+                    "difüzyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz taneciklerinin çok yoğun ortamdan az yoğun ortama doğru yayılmasına difüzyon adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gerçek gazların ideallikten en uzak olduğu durumlar ____ sıcaklık ve yüksek basınç koşullarıdır.",
+                  "options": [
+                    "düşük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazlar düşük sıcaklıkta ve yüksek basınçta sıvılaşmaya yaklaştıkları için tanecikler arası çekim kuvvetleri artar ve ideallikten saparlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklık birimi olarak kullanılan ve 0 santigrat derecenin karşılığı olan Kelvin değeri ____ K'dir.",
+                  "options": [
+                    "273"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Santigrat sıcaklığı Kelvin'e çevirmek için değere 273 eklenir (0 + 273 = 273 K).",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sabit sıcaklıkta bir gazın basıncı ile hacminin çarpımı sabittir kuralı ____ Yasası olarak bilinir.",
+                  "options": [
+                    "Boyle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boyle-Mariotte Yasası sabit sıcaklıkta P ve V ters orantısını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir gazın öz kütlesi, basınç ile doğru, mutlak sıcaklık ile ____ orantılıdır.",
+                  "options": [
+                    "ters"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İdeal gaz denkleminden türetilen d = P MA / R T bağıntısına göre yoğunluk sıcaklıkla ters orantılıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mutlak sıcaklık birimi olarak kullanılan Kelvin sıcaklığı asla negatif değer alamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kelvin ölçeği mutlak sıfır noktasından (-273,15 santigrat) başlar ve teorik olarak en düşük sıcaklıktır, negatif olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı koşullarda bulunan tüm gazların ortalama kinetik enerjileri birbirinden farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gazların ortalama kinetik enerjisi sadece mutlak sıcaklığa bağlıdır. Aynı sıcaklıktaki tüm gazların ortalama kinetik enerjileri eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Avogadro hipotezine göre aynı koşullarda eşit hacimli gazlar eşit sayıda molekül içerir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Basınç ve sıcaklıkları aynı olan farklı gazların eşit hacimleri eşit sayıda tanecik (mol) içerir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mol kütlesi büyük olan gazlar, mol kütlesi küçük olan gazlara göre daha hızlı difüzyona uğrar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Difüzyon hızı mol kütlesinin karekökü ile ters orantılıdır; bu nedenle hafif gazlar daha hızlı yayılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gerçek gazlar yüksek sıcaklık ve düşük basınç altında ideal davranışa yaklaşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüksek sıcaklık ve düşük basınçta gaz tanecikleri arasındaki mesafeler çok artar ve tanecik arası etkileşimler ihmal edilebilir düzeye iner.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "İdeal Gaz Yasası",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İdeal gaz yasasını ifade eden temel matematiksel bağıntı nedir?",
+                  "answer": "P * V = n * R * T"
+                },
+                {
+                  "question": "İdeal gaz denkleminde yer alan R harfi neyi temsil eder?",
+                  "answer": "Evrensel gaz sabitini"
+                },
+                {
+                  "question": "Normal koşullarda (NKA) 1 mol ideal gaz kaç litre hacim kaplar?",
+                  "answer": "22,4 litre"
+                },
+                {
+                  "question": "Mutlak sıcaklık birimi olarak kullanılan ve ideal gaz denkleminde zorunlu olan birim hangisidir?",
+                  "answer": "Kelvin"
+                },
+                {
+                  "question": "Gerçek gazların ideale en yakın olduğu sıcaklık ve basınç koşulları nasıldır?",
+                  "answer": "Yüksek sıcaklık ve düşük basınç"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "0 derecede ve 1 atmosfer basınç altında bulunan 1 mol ideal gazın kapladığı hacim kaç litredir?",
+                  "options": [
+                    "44,8",
+                    "11,2",
+                    "22,4",
+                    "33,6"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Normal koşullarda (0 C ve 1 atm) bütün ideal gazların 1 molü 22,4 litre hacim kaplar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İdeal gaz denklemi olan P * V = n * R * T bağıntısına göre, mutlak sıcaklık T iki katına çıkarıldığında ve hacim yarıya indirildiğinde basınç P nasıl değişir?",
+                  "options": [
+                    "Yarıya iner",
+                    "Değişmez",
+                    "2 katına çıkar",
+                    "4 katına çıkar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "P = (n * R * T) / V formülünden sıcaklık 2 katına çıkıp hacim 1/2'ye inerse basınç 4 katına çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki gazlardan hangisinin aynı koşullarda ideal gaza en yakın davranması beklenir?",
+                  "options": [
+                    "NH3",
+                    "CO2",
+                    "H2O",
+                    "He"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Helyum (He) soy gaz olduğu ve moleküller arası etkileşimleri çok zayıf olduğu için ideale en yakın davranan gazdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabit hacimli kapalı bir kapta bulunan bir miktar ideal gazın sıcaklığı Kelvin cinsinden üç katına çıkarılırsa gazın basıncı nasıl değişir?",
+                  "options": [
+                    "1/3 katına iner",
+                    "Değişmez",
+                    "3 katına çıkar",
+                    "9 katına çıkar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hacim ve mol sayısı sabitken basınç sıcaklıkla doğru orantılıdır; sıcaklık 3 katına çıkarsa basınç da 3 katına çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İdeal gazlarla ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+                  "options": [
+                    "Her sıcaklık ve basınçta ideal gaz denklemine uyarlar",
+                    "Tanecikler arası esnek olmayan çarpışmalar yaparlar",
+                    "Tanecikler arası çekim kuvvetleri sıfır kabul edilir",
+                    "Gaz taneciklerinin öz hacimleri toplam hacim yanında ihmal edilir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İdeal gaz tanecikleri birbirleriyle ve kabın çeperleriyle tam esnek çarpışmalar yaparlar, esnek olmayan değil.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İdeal gaz denklemindeki sıcaklık birimi olan Kelvin'i bulmak için Celsius cinsinden verilen değere ____ eklenir.",
+                  "options": [
+                    "273"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Celsius sıcaklığını Kelvin birimine çevirmek için değere 273 eklenmesi gerekir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gazların tanecikler arası boşlukların çok fazla ve öz hacimlerinin ihmal edilebilir olduğu varsayılan teorik modellere ____ gaz denir.",
+                  "options": [
+                    "ideal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanecik arası etkileşimin ve öz hacmin ihmal edildiği varsayımsal gazlara ideal gaz denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Normal koşullarda 0 derece sıcaklık ve 1 ____ basınç şartları geçerlidir.",
+                  "options": [
+                    "atm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Normal koşullar kısaltması olan NKA için basınç 1 atmosfer (atm) olarak alınır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "P * V = n * R * T bağıntısındaki n harfi gazın ____ sayısını ifade eder.",
+                  "options": [
+                    "mol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Formüldeki n sembolü mol sayısını temsil eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İdeal gaz yasası, düşük basınç ve yüksek sıcaklıkta gerçek gazlara uygulanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gerçek gazlar bu koşullarda ideal gaza en yakın davranışı sergiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm gazlar her türlü sıcaklık ve basınç koşulunda tam olarak ideal gaz yasasına uyar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gerçek gazlar yüksek basınç ve düşük sıcaklıkta ideal davranıştan sapma gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İdeal gaz denklemi P * V = n * R * T formülü ile ifade edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu denklem basınç, hacim, mol sayısı, gaz sabiti ve mutlak sıcaklık arasındaki ilişkiyi gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İdeal gaz tanecikleri arasında hiçbir çekim veya itme kuvveti olmadığı varsayılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik teoriye göre ideal gaz tanecikleri arasında potansiyel enerji yaratan etkileşimler yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı koşullarda bulunan tüm ideal gazların 1 molünün kapladığı hacimler birbirinden farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Avogadro hipotezine göre aynı koşullarda eşit mol sayıdaki tüm ideal gazlar aynı hacmi kaplar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Gazlarda Kinetik Teori",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gaz taneciklerinin ortalama kinetik enerjisi neye bağlıdır?",
+                  "answer": "Mutlak sıcaklığa (T)"
+                },
+                {
+                  "question": "Aynı sıcaklıktaki iki farklı gazın ortalama kinetik enerjileri nasıldır?",
+                  "answer": "Eşittir"
+                },
+                {
+                  "question": "Hangi formül gazların yayılma hızının molekül kütlesi ile ilişkisini verir?",
+                  "answer": "Graham Difüzyon Kanunu"
+                },
+                {
+                  "question": "Sıcaklık arttıkça gaz moleküllerinin ortalama hızı nasıl değişir?",
+                  "answer": "Artar"
+                },
+                {
+                  "question": "Molekül kütlesi büyük olan bir gaz, küçük olana göre nasıl yayılır?",
+                  "answer": "Daha yavaş yayılır"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aynı koşullarda bulunan He ve SO2 gazları için aşağıdakilerden hangisi yanlıştır? (He: 4 g/mol, SO2: 64 g/mol)",
+                  "options": [
+                    "Sıcaklıkları aynıdır.",
+                    "He gazının yayılma hızı SO2 gazının yayılma hızının 4 katıdır.",
+                    "Ortalama hızları eşittir.",
+                    "Ortalama kinetik enerjileri eşittir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aynı sıcaklıktaki gazların ortalama kinetik enerjileri eşit olur ancak molekül kütlesi küçük olan He gazının hızı SO2 gazından büyüktür, bu yüzden ortalama hızları eşit olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mutlak sıcaklığı 2 katına çıkarılan bir ideal gazın ortalama kinetik enerjisi nasıl değişir?",
+                  "options": [
+                    "Değişmez",
+                    "2 katına çıkar",
+                    "Yarıya düşer",
+                    "4 katına çıkar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ortalama kinetik enerji sadece mutlak sıcaklıkla doğru orantılıdır. Sıcaklık 2 katına çıkarsa kinetik enerji de 2 katına çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir gazın difüzyon hızı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Mutlak sıcaklığın karekökü ile ters orantılıdır.",
+                    "Basınç ile ters orantılıdır.",
+                    "Molekül kütlesi ile doğru orantılıdır.",
+                    "Molekül kütlesinin karekökü ile ters orantılıdır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Graham Difüzyon Kanunu'na göre gazın yayılma hızı, molekül kütlesinin karekökü ile ters orantılıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aynı sıcaklıktaki CH4 ve O2 gazlarının yayılma hızları oranı (v(CH4) / v(O2)) kaçtır? (CH4: 16 g/mol, O2: 32 g/mol)",
+                  "options": [
+                    "4",
+                    "Kök 2",
+                    "2",
+                    "Kök 3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yayılma hızı molekül kütlesinin karekökü ile ters orantılıdır. v(CH4)/v(O2) = karekök(32/16) = karekök(2) olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kinetik teoriye göre ideal gazlar için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Taneciklerin kendi öz hacimleri bulundukları kabın hacmine göre ihmal edilir.",
+                    "Sıcaklık sıfır Kelvin olduğunda tanecikler durmaz.",
+                    "Gaz tanecikleri arasında çekim kuvvetleri çok fazladır.",
+                    "Çarpışmalar esnek değildir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İdeal gaz varsayımlarından biri gaz taneciklerinin öz hacminin kabın hacmi yanında ihmal edilecek kadar küçük olmasıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gaz taneciklerinin boşlukta yayılmasına difüzyon, bir delikten dışarı çıkmasına ise ____ denir.",
+                  "options": [
+                    "efüzyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazların bir delikten vakuma veya düşük basınçlı ortama kaçmasına efüzyon adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gazların yayılma hızı, molekül kütlesinin karekökü ile ____ orantılıdır.",
+                  "options": [
+                    "ters"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Graham Kanunu gereği hafif gazlar hızlı, ağır gazlar yavaş yayılır ve bu durum molekül kütlesi ile ters orantılıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı sıcaklıktaki bütün gazların ortalama ____ enerjileri eşittir.",
+                  "options": [
+                    "kinetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik teoriye göre sıcaklık sadece ortalama kinetik enerjinin bir ölçüsüdür ve aynı sıcaklıkta tüm gazlarınki eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gaz taneciklerinin yaptığı çarpışmalar ____ çarpışmalardır, yani toplam enerji korunur.",
+                  "options": [
+                    "esnek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İdeal gazlarda taneciklerin kabın çeperleriyle ve kendi aralarındaki çarpışmaları tam esnektir, enerji kaybı olmaz.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sıcaklığı artırılan bir gazın birim zamanda birim yüzeye yaptığı çarpmaların sayısı ve şiddeti artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık artışı gaz taneciklerinin hızını artırır, bu da çarpışma sayısı ve şiddetini doğrudan artırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Molekül ağırlığı büyük olan gazların ortalama kinetik enerjisi, molekül ağırlığı küçük olanlardan daha fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ortalama kinetik enerji molekül kütlesine bağlı değildir, yalnızca mutlak sıcaklığa bağlıdır ve aynı sıcaklıkta eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Graham Difüzyon Kanunu'na göre gazların hızı mutlak sıcaklığın karekökü ile doğru orantılıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazların hızı mutlak sıcaklığın karekökü ile doğru, molekül kütlesinin karekökü ile ters orantılıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İdeal gaz taneciklerinin öz hacimleri, bulundukları kabın hacminden büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İdeal gaz taneciklerinin öz hacmi, bulundukları kabın hacmi yanında çok küçük olduğu için ihmal edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gaz molekülleri sabit ve öteleme hareketi yaparken sürekli zikzaklı hareket (Brown hareketi) gösterirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz tanecikleri boşlukta doğrusal yörüngelerde hareket ederken birbirleriyle ve kabın duvarıyla çarpışarak rastgele (zikzaklı) yön değiştirirler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Gaz Karışımları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gaz karışımlarında Daltonun Kısmi Basınçlar Yasasına göre bir gazın kısmi basıncı nasıl bulunur?",
+                  "answer": "Gazın mol kesri ile toplam basıncın çarpılmasıyla bulunur."
+                },
+                {
+                  "question": "İdeal iki gaz aynı kapta reaksiyona girmeden karıştırıldığında toplam basınç nasıl hesaplanır?",
+                  "answer": "Kaba konulan gazların kısmi basınçları toplamına eşittir."
+                },
+                {
+                  "question": "Mol kesri nedir ve bir gaz karışımındaki tüm gazların mol kesirleri toplamı kaçtır?",
+                  "answer": "Bir gazın mol sayısının toplam mol sayısına oranıdır ve toplamları bire eşittir."
+                },
+                {
+                  "question": "Bir gaz karışımı su üzerinde toplandığında kaptaki toplam basınç hangi iki basıncın toplamına eşittir?",
+                  "answer": "Kuru gazın kısmi basıncı ile suyun buhar basıncının toplamına eşittir."
+                },
+                {
+                  "question": "Sabit sıcaklıkta ve hacimde muslukla birbirine bağlı iki kapta gazlar karıştırıldığında son basınç hangi bağıntıyla bulunur?",
+                  "answer": "P1V1 + P2V2 = PsonVson bağıntısıyla bulunur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Şekildeki kapta bulunan 2 mol He ve 3 mol CH4 gazlarının toplam basıncı 5 atmosferdir. Buna göre He gazının kısmi basıncı kaç atmosferdir?",
+                  "options": [
+                    "2",
+                    "5",
+                    "3",
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "He gazının mol kesri 2 / (2 + 3) = 2/5 tir. Toplam basınç 5 atm olduğuna göre He gazının kısmi basıncı (2/5) x 5 = 2 atm olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aynı sıcaklıkta sabit hacimli bir kapta bulunan 1 mol N2 ve 3 mol O2 gazlarının toplam basıncı 800 mmHgdir. Buna göre O2 gazının kısmi basıncı kaç mmHgdir?",
+                  "options": [
+                    "600",
+                    "400",
+                    "800",
+                    "200"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "O2 gazının mol kesri 3 / (1 + 3) = 3/4 tür. O2 gazının kısmi basıncı (3/4) x 800 = 600 mmHg dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aralarında musluk bulunan iki özdeş kaptan birinci kapta 2 atm basınç yapan ideal X gazı, ikinci kapta ise 4 atm basınç yapan ideal Y gazı aynı sıcaklıkta bulunmaktadır. Sabit sıcaklıkta musluk açılıp gazlar karıştırıldığında kaptaki toplam basınç kaç atm olur?",
+                  "options": [
+                    "3",
+                    "6",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kap hacimleri eşit ve V olsun. P1V1 + P2V2 = PsonVson formülünden 2 x V + 4 x V = Pson x 2V yazılır. 6V = Pson x 2V buradan Pson = 3 atm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir gaz karışımında X gazının mol sayısı 1 mol, Y gazının mol sayısı ise 3 moldür. Bu karışımın toplam basıncı 400 kPa olduğuna göre Y gazının mol kesri kaçtır?",
+                  "options": [
+                    "0.25",
+                    "1.00",
+                    "0.50",
+                    "0.75"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Toplam mol sayısı 1 + 3 = 4 moldür. Y gazının mol kesri 3 / 4 = 0.75 olarak hesaplanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Su üzerinde toplanan bir O2 gazının toplam basıncı 760 mmHgdir. O anki sıcaklıkta suyun buhar basıncı 40 mmHg olduğuna göre kuru O2 gazının kısmi basıncı kaç mmHgdir?",
+                  "options": [
+                    "800",
+                    "720",
+                    "740",
+                    "760"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplam basınç, kuru gazın kısmi basıncı ile suyun buhar basıncının toplamıdır. Ptoplam = PO2 + Psu ise 760 = PO2 + 40 ve buradan PO2 = 720 mmHg bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İdeal gaz karışımlarında her bir gazın tek başına kabın hacmini doldurduğunda uygulayacağı basınca ____ basınç denir.",
+                  "options": [
+                    "kısmi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir gaz karışımındaki her bir gazın diğerlerinden bağımsız olarak uyguladığı basınca kısmi basınç adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir gazın mol sayısının karışımdaki toplam mol sayısına oranına ____ denir.",
+                  "options": [
+                    "mol kesri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mol kesri, bir bileşenin mol sayısının sistemdeki tüm bileşenlerin toplam mol sayısına oranıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Su üzerinde toplanan gazlar ____ gaz olarak adlandırılır ve hacim hesabında su buharı dikkate alınır.",
+                  "options": [
+                    "ıslak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su üzerinde toplanan gazlar su buharı ile birlikte bulunduğu için ıslak gaz olarak nitelendirilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı sıcaklıkta ve farklı kaplarda bulunan gazlar karıştırıldığında toplam basınç ve son hacim ilişkisi ____ yasası ile çözülür.",
+                  "options": [
+                    "Boyle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit sıcaklıkta gazların karıştırılması ve basınç değişimleri Boyle kanunu prensipleri kullanılarak hesaplanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gaz karışımlarında her bir gazın kısmi basıncı, o gazın mol kesri ile toplam basıncın çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Daltonun Kısmi Basınçlar Yasasına göre bir gazın kısmi basıncı mol kesri ile toplam basıncın çarpımıyla bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir gaz karışımını oluşturan tüm gazların mol kesirleri toplamı sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir gaz karışımındaki tüm gazların mol kesirlerinin toplamı daima bire eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su üzerinde toplanan bir gazın kısmi basıncı hesaplanırken toplam basınçtan suyun buhar basıncı çıkarılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ptoplam = Pgaz + Psu bağımlılığından dolayı kuru gazın kısmi basıncını bulmak için toplam basınçtan suyun buhar basıncı çıkarılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki ideal gaz karıştırıldığında kapta reaksiyon olmasa bile gazların molekül hacimleri toplam hacimde önemli yer tutar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İdeal gaz tanımı gereği gaz moleküllerinin öz hacmi kabın hacmi yanında ihmal edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı sıcaklıkta sabit hacimli bir kaba başka bir ideal gaz eklendiğinde gazların kısmi basınçları değişmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kaba yeni bir gaz eklendiğinde toplam mol sayısı ve dolayısıyla toplam basınç artar, bu durum diğer gazların kısmi basınçlarını da etkiler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Gerçek Gazlar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Sıvı Çözeltiler ve Çözünürlük",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Çözücü Çözünen Etkileşimleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Derişim Birimleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Koligatif Özellikler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Çözünürlük",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Çözünürlüğe Etki Eden Faktörler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Kimyasal Tepkimelerde Enerji",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tepkimelerde Isı Değişimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Oluşum Entalpisi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Bağ Enerjileri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Tepkime Isılarının Toplanabilirliği",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Kimyasal Tepkimelerde Hız",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tepkime Hızları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Tepkime Hızını Etkileyen Faktörler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Kimyasal Tepkimelerde Denge",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kimyasal Denge",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dengeyi Etkileyen Faktörler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Sulu Çözelti Dengeleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Kimya ve Elektrik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İndirgenme-Yükseltgenme Tepkimelerinde Elektrik Akımı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Elektrotlar ve Elektrokimyasal Hücreler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Elektrot Potansiyelleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Kimyasallardan Elektrik Üretimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Elektroliz",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Korozyon",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Karbon Kimyasına Giriş",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anorganik ve Organik Bileşikler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Basit Formül ve Molekül Formülü",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Doğada Karbon",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Lewis Formülleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Hibritleşme-Molekül Geometrileri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Organik Bileşikler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Hidrokarbonlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Fonksiyonel Gruplar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Alkoller",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Eterler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Karbonil Bileşikleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Karboksilik Asitler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Esterler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Enerji Kaynakları ve Bilimsel Gelişmeler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fosil Yakıtlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Alternatif Enerji Kaynakları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Sürdürülebilirlik",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Nanoteknoloji",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

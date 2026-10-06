@@ -1,0 +1,2197 @@
+{
+  "subjectKey": "tyt_kimya",
+  "title": "TYT Kimya",
+  "examType": "YKS",
+  "subject": "Kimya",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Kimya Bilimi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Simyadan Kimyaya",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Simya nedir?",
+                  "answer": "Değersiz madenleri altına çevirme ve ölümsüzlük iksiri bulma uğraşıdır."
+                },
+                {
+                  "question": "Simyanın bilim olmamasının temel sebebi nedir?",
+                  "answer": "Teorik temellere dayanmaması ve deneme-yanılma yöntemiyle yapılmasıdır."
+                },
+                {
+                  "question": "İmbat aleti hangi amaçla kullanılır?",
+                  "answer": "Damıtma işlemlerinde kullanılır."
+                },
+                {
+                  "question": "Kral suyu neyi çözer?",
+                  "answer": "Altın ve platin gibi soy metalleri çözer."
+                },
+                {
+                  "question": "Robert Boyle'un kimya bilimine en büyük katkısı nedir?",
+                  "answer": "Element kavramını modern anlamda tanımlamıştır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi simya döneminde keşfedilen maddelerden biri değildir?",
+                  "options": [
+                    "Plastik",
+                    "Kükürt",
+                    "Şap",
+                    "Mürekkep"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plastik, modern kimya döneminde sentezlenen petrol türevi bir üründür; simya döneminde bilinmiyordu.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki Türk-İslam bilginlerinden hangisi kimya bilimine katkılarıyla tanınır?",
+                  "options": [
+                    "İbn-i Sina",
+                    "Cabir bin Hayyan",
+                    "Isaac Newton",
+                    "Aristoteles"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cabir bin Hayyan, damıtma tekniklerini geliştiren ve kimyanın babası kabul edilen İslam bilginidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi simyacıların kullandığı yöntemlerden biri değildir?",
+                  "options": [
+                    "Kristallendirme",
+                    "Mayalama",
+                    "Kütlenin korunumu kanunu",
+                    "Damıtma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kütlenin korunumu kanunu modern kimya dönemine aittir, simyacılar teorik yasalardan habersizdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Robert Boyle tarafından yapılan element tanımına uygundur?",
+                  "options": [
+                    "Kendinden daha basit maddelere ayrıştırılamayan saf madde",
+                    "Farklı tür atomların bir araya gelmesiyle oluşan madde",
+                    "Simyacıların laboratuvarda elde ettiği karışım",
+                    "Doğada sadece bileşik hâlde bulunan madde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boyle, kendinden daha basit maddelere kimyasal yollarla ayrıştırılamayan saf maddeyi element olarak tanımlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi simya döneminde ilaç ve boyar madde olarak kullanılmıştır?",
+                  "options": [
+                    "Kıbrıs taşı",
+                    "Tuz ruhu",
+                    "Naylon",
+                    "Glikoz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıbrıs taşı (demir(II) sülfat) simya döneminde boyamacılık ve tıp alanında kullanılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Değersiz madenleri altına çevirme çalışmalarına ____ denir.",
+                  "options": [
+                    "simya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Simya, değersiz metalleri altına dönüştürme ve ölümsüzlük iksiri arama çalışmalarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Modern kimyanın temellerini atan ve element tanımını yapan bilim insanı Robert ____'dur.",
+                  "options": [
+                    "Boyle"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Robert Boyle, kimyayı simyadan ayıran ve elemente modern tanım getiren kişidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Simyacıların laboratuvarda kullandığı, günümüzdeki damıtma düzeneğinin atası olan cihaza ____ denir.",
+                  "options": [
+                    "imbik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İmbik, sıvıların damıtılması amacıyla simyacılar tarafından yoğun olarak kullanılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tuz ruhu ve kezzap karışımından oluşan, altınları bile çözebilen sıvıya ____ suyu denir.",
+                  "options": [
+                    "kral"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kral suyu, hidroklorik asit ve nitrik asit karışımıdır ve soy metalleri çözer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Maddelerin kütlesinin korunumu kanununu bularak modern kimyanın öncülüğünü yapan bilim insanı Antoine ____'dir.",
+                  "options": [
+                    "Lavoisier"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lavoisier, kütlenin korunumu kanununu bularak kimyayı nicel bir bilim haline getirmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Simya, sistematik bilgi birikimi içerdiği için bir bilim dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Simya deneme-yanılmaya dayalıdır, teorik temelleri yoktur ve bu nedenle bilim dalı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cabir bin Hayyan damıtma işleminde kullanılan imbiği geliştirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cabir bin Hayyan, damıtma tekniklerini ve imbik aletini geliştirerek kimyaya büyük katkı sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Simyacılar aradıkları maddeleri bulamasa da günümüz kimyasına laboratuvar araç gereçleri ve teknikleri kazandırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Simya döneminde geliştirilen süzme, damıtma, kavurma gibi teknikler modern kimyada hala kullanılmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aristo'ya göre evren ateş, hava, su ve toprak olmak üzere dört temel elementten oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristo element kavramını bu dört nitelik (sıcak, soğuk, kuru, ıslak) üzerinden tanımlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kükürt ve tuz simya döneminde hiç bilinmeyen maddelerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kükürt ve tuz gibi maddeler simyacılar tarafından biliniyor ve çeşitli işlemler için kullanılıyordu.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kimya Disiplinleri ve Kimyacıların Çalışma Alanları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlaç hammaddelerinin sentezi, geliştirilmesi ve özelliklerinin incelenmesiyle ilgilenen kimya disiplini hangisidir?",
+                  "answer": "Farmasötik kimya"
+                },
+                {
+                  "question": "Canlı organizmalardaki kimyasal süreçleri inceleyen kimya disiplini nedir?",
+                  "answer": "Biyokimya"
+                },
+                {
+                  "question": "Maddelerin kimyasal bileşenlerinin nitel ve nicel olarak incelenmesini sağlayan disiplin hangisidir?",
+                  "answer": "Analitik kimya"
+                },
+                {
+                  "question": "Petrokimya ürünlerinin üretimi ve sanayi süreçlerini inceleyen kimya alt dalı nedir?",
+                  "answer": "Endüstriyel kimya"
+                },
+                {
+                  "question": "Karbon temelli bileşiklerin yapılarını, özelliklerini ve tepkimelerini inceleyen disiplin hangisidir?",
+                  "answer": "Organik kimya"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi kimya disiplinleri arasında yer almaz?",
+                  "options": [
+                    "Analitik kimya",
+                    "Fizokimya",
+                    "Astrakimya",
+                    "Organik kimya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Astrakimya MEB müfredatında temel kimya disiplinleri arasında sayılmamaktadır. Analitik kimya, fizokimya ve organik kimya temel kimya alt disiplinleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Plastik, boya ve tekstil gibi ürünlerin hammaddelerinin üretimi ve kalite kontrolü hangi kimya disiplininin çalışma alanına girer?",
+                  "options": [
+                    "Nükleer kimya",
+                    "Biyokimya",
+                    "Organik kimya",
+                    "Endüstriyel kimya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sanayi ölçeğinde kimyasal maddelerin üretimi, geliştirilmesi ve kalitesi endüstriyel kimyanın (kimya mühendisliğinin temelini oluşturan alanın) konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir su numunesindeki klor miktarının hassas bir şekilde tayin edilmesi hangi kimya disiplininin alanına girer?",
+                  "options": [
+                    "Fizokimya",
+                    "Polimer kimyası",
+                    "Organik kimya",
+                    "Analitik kimya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Maddelerin miktarını (nicel) ve bileşenlerini (nitel) inceleyen analiz çalışmaları analitik kimyanın kapsamındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Radyoaktif elementlerin yaptığı ışımalar ve çekirdek tepkimeleri ile ilgilenen kimya dalı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Biyokimya",
+                    "Anorganik kimya",
+                    "Termokimya",
+                    "Nükleer kimya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Atom çekirdeğinin kararsızlığı, radyoaktivite ve çekirdek tepkimeleri nükleer kimyanın (radyokimya) çalışma alanıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Petrol ve petrol türevlerinden elde edilen maddelerin yapılarını inceleyen kimya disiplini temel olarak hangi alanla doğrudan ilişkilidir?",
+                  "options": [
+                    "Anorganik kimya",
+                    "Biyokimya",
+                    "Analitik kimya",
+                    "Organik kimya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Petrol ürünleri hidrokarbon türevleri olduğu için karbon temelli bileşikleri inceleyen organik kimya disiplini kapsamına girer.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Karbon temelli olmayan asit, baz, tuz ve minerallerin özelliklerini inceleyen kimya disiplinine ____ kimya denir.",
+                  "options": [
+                    "anorganik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anorganik kimya, genellikle karbon dışındaki elementlerin oluşturduğu bileşiklerin yapısını ve özelliklerini inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklık, basınç ve derişimin kimyasal tepkimeler üzerindeki etkilerini inceleyen kimya alt disiplini ____ olarak adlandırılır.",
+                  "options": [
+                    "fizokimya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizokimya, kimyasal sistemlerde fiziksel faktörlerin (sıcaklık, basınç vb.) etkisini ve enerji değişimlerini inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kan, idrar ve doku örneklerinin analizini yaparak hastalıkların teşhisine katkı sağlayan kimya alanı ____ disiplinidir.",
+                  "options": [
+                    "biyokimya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Biyokimya canlı organizmaların kimyasal yapısını ve biyolojik süreçlerini incelediği için tıp alanına da destek olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kauçuk, naylon ve plastik gibi çok sayıda küçük molekülün birleşmesiyle oluşan maddeleri inceleyen alan ____ kimyasıdır.",
+                  "options": [
+                    "polimer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polimer kimyası, makromoleküllerin sentezini ve özelliklerini inceleyen kimya alt dalıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Analitik kimya, maddelerin hem nitel (bileşenleri) hem de nicel (miktarları) olarak incelenmesini sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Analitik kimya maddelerin kimyasal bileşimini hem tanımak (nitel) hem de ölçmek (nicel) amacıyla çalışır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Biyokimya sadece cansız doğadaki elementlerin etkileşimlerini inceler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Biyokimya canlı organizmalarda gerçekleşen kimyasal olayları inceler, cansız doğa biyokimyanın doğrudan odak noktası değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Organik kimya temel olarak karbon elementinin bileşikleri ile ilgilenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Organik kimya karbon temelli bileşiklerin yapı, özellik ve tepkimelerini inceleyen kimya disiplinidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Endüstriyel kimya, kimyasal maddelerin laboratuvarda gram düzeyinde üretimiyle sınırlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Endüstriyel kimya laboratuvar ölçeğinde değil, fabrika ve tesislerde tonlarca hammadde ile yapılan seri üretim süreçlerini inceler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fizokimya disiplini kimyasal olaylarda enerji, ısı ve iş dönüşümleri ile ilgilenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fizokimya, kimyasal sistemlerdeki enerji alışverişini, hızları ve termodinamik özellikleri inceler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Kimyanın Sembolik Dili",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sodyum elementinin kimyasal sembolü nedir?",
+                  "answer": "Na"
+                },
+                {
+                  "question": "Simya döneminde bulunan ve tuz ruhu olarak bilinen asidin formülü nedir?",
+                  "answer": "HCl"
+                },
+                {
+                  "question": "Kalsiyum elementinin sembolü nedir?",
+                  "answer": "Ca"
+                },
+                {
+                  "question": "Halk arasında kezzap olarak bilinen bileşiğin formülü nedir?",
+                  "answer": "HNO3"
+                },
+                {
+                  "question": "Potasyum elementinin kimyasal sembolü nedir?",
+                  "answer": "K"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki elementlerden hangisinin sembolü tek harfle gösterilir?",
+                  "options": [
+                    "Karbon",
+                    "Sodyum",
+                    "Demir",
+                    "Kalsiyum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karbon elementinin sembolü C harfidir ve tek harfle gösterilir. Sodyum Na, Kalsiyum Ca, Demir ise Fe sembolüne sahiptir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bileşiklerden hangisinin yaygın adı yanlış verilmiştir?",
+                  "options": [
+                    "NaOH - Sud kostik",
+                    "H2SO4 - Zaç yağı",
+                    "CaCO3 - Sönmüş kireç",
+                    "HCl - Tuz ruhu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "CaCO3 bileşiğinin yaygın adı kireç taşıdır. Sönmüş kireç formülü Ca(OH)2 şeklindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki element-sembol eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Potasyum - P",
+                    "Bakır - Cu",
+                    "Cıva - Hg",
+                    "Demir - Fe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Potasyum elementinin sembolü K'dir. P harfi Fosfor elementini temsil eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ev temizliğinde kullanılan çamaşır suyunun formülü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "NH3",
+                    "CH3COOH",
+                    "NaCl",
+                    "NaClO"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Çamaşır suyunun yaygın adı sodyum hipoklorit olup formülü NaClO şeklindedir. NaCl yemek tuzu, NH3 amonyak, CH3COOH ise sirke asididir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Simya döneminde keşfedilip günümüzde de kullanılan maddelerden biri olan sirke asidinin formülü nedir?",
+                  "options": [
+                    "CH3COOH",
+                    "CO2",
+                    "CaO",
+                    "H2O"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sirke asidinin (asetik asit) formülü CH3COOH şeklindedir. H2O su, CaO sönmemiş kireç, CO2 ise karbondioksittir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Günlük hayatta kostik soda olarak bilinen bazın kimyasal formülü ____ şeklindedir.",
+                  "options": [
+                    "NaOH"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kostik soda olarak bilinen sodyum hidroksit bileşiğinin formülü NaOH'tir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Altın elementinin Latince kökeninden gelen kimyasal sembolü ____ harfleridir.",
+                  "options": [
+                    "Au"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Altın elementi Latince aurum kelimesinden gelmektedir ve sembolü Au'dur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Simya döneminde tuz ruhu olarak adlandırılan bileşiğin formülünde bulunan hidrojen ve klor atomlarının sayıları eşittir ve formülü ____ şeklindedir.",
+                  "options": [
+                    "HCl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuz ruhu hidroklorik asittir ve bir adet hidrojen ile bir adet klor atomundan oluşan HCl formülüne sahiptir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Halk arasında yemek tuzu olarak bilinen bileşiğin sistematik adı sodyum klorür, formülü ise ____ şeklindedir.",
+                  "options": [
+                    "NaCl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yemek tuzu sodyum ve klor elementlerinin birleşmesiyle oluşan NaCl formüllü iyonik bir bileşiktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Endüstride zaç yağı olarak bilinen kuvvetli asidin formülü ____ şeklindedir.",
+                  "options": [
+                    "H2SO4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaç yağı olarak bilinen sülfürik asidin kimyasal formülü H2SO4'tür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bütün elementlerin sembolleri adlarının baş harfinden başlanarak tek büyük harfle yazılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Element sembolleri tek büyük harfle ya da ilk harf büyük ikinci harf küçük olacak şekilde iki harfle yazılır; örneğin Kalsiyum Ca şeklindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Amonyak bileşiğinin formülü NH3 tür ve yapısında azot ile hidrojen atomları bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amonyak bir azot ve üç hidrojen atomundan oluşan polar koovalent bağlı bir bileşiktir ve formülü NH3'tür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kükürt elementinin sembolü K harfidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kükürt elementinin sembolü S'dir. K harfi ise potasyum elementini simgeler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Saf maddeler elementler ve bileşikler olmak üzere ikiye ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimya bilimine göre tüm saf maddeler ya aynı tür atomlardan oluşan elementler ya da farklı tür atomların belirli oranlarda birleşmesiyle oluşan bileşiklerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su bileşiğinin yaygın adı yanı sıra formülü H2O olarak ifade edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su bileşiği iki hidrojen ve bir oksijen atomundan oluşan H2O formülüne sahiptir ve yaygın adı sudur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Kimya Uygulamalarında İş Sağlığı ve Güvenliği",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kimya laboratuvarında çalışırken gözleri korumak için ne kullanılmalıdır?",
+                  "answer": "Koruyucu gözlük"
+                },
+                {
+                  "question": "Üzerinde insan kafatası ve kemikleri sembolü bulunan güvenlik uyarı işareti ne anlama gelir?",
+                  "answer": "Zehirli (Toksik) madde"
+                },
+                {
+                  "question": "Derişik asitler ciltle temas ettiğinde ilk yapılması gereken işlem nedir?",
+                  "answer": "Bol su ile yıkamak"
+                },
+                {
+                  "question": "Alev sembolü taşıyan kimyasal maddeler hangi özellikteki maddelerdir?",
+                  "answer": "Yanıcı madde"
+                },
+                {
+                  "question": "Laboratuvar kazalarında kullanılan ve üzerine basıldığında su fışkırtarak gözü yıkayan sistemin adı nedir?",
+                  "answer": "Göz duşu"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Laboratuvarda çalışırken aşağıdakilerden hangisinin yapılması kesinlikle yanlıştır?",
+                  "options": [
+                    "Eldiven kullanmak",
+                    "Önlük giymek",
+                    "Saçları toplamak",
+                    "Kimyasal maddeleri tatmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kimyasal maddelerin tadına bakmak veya koklamak zehirlenmelere yol açabileceği için laboratuvar güvenlik kurallarına kesinlikle aykırıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Üzerinde birbirine paralel iki tüpten bir ele damlayan sıvı ve aşınan el/metal görseli bulunan güvenlik işareti neyi ifade eder?",
+                  "options": [
+                    "Radyoaktif",
+                    "Aşındandırıcı (Korozif)",
+                    "Oksitleyici",
+                    "Tahriş edici"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Korozif (aşındandırıcı) maddeler ciltte ve metallerde tahribat yaratır; görselde el ve malzemenin aşındığı sembol yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi laboratuvarda uyulması gereken kurallardan biridir?",
+                  "options": [
+                    "Deniz suyu içmek",
+                    "Deniz suyu şişelerine asit koymak",
+                    "Cam malzemeleri ısıtırken doğrudan el ile tutmak",
+                    "Atıkları lavaboya dökmek yerine öğretmen talimatına uymak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kimyasal atıklar çevreye ve tesisata zarar vermemesi için lavaboya dökülmemeli, öğretmen veya kurum talimatlarına göre bertaraf edilmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kimyasallardan hangisinin ambalajı üzerinde patlayıcı (bomba patlaması) sembolü yer alması beklenir?",
+                  "options": [
+                    "Sofra tuzu",
+                    "Şeker",
+                    "Saf su",
+                    "TNT"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "TNT güçlü bir patlayıcı maddedir ve ambalajında patlayıcı madde güvenlik uyarı işareti bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kimya laboratuvarında çalışırken giyilen önlükler genellikle hangi kumaştan olmalıdır?",
+                  "options": [
+                    "Sentetik",
+                    "Kolay tutuşan",
+                    "Naylon",
+                    "Pamuklu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Pamuklu önlükler alev aldığında hemen eriyip cilde yapışmadığı için laboratuvarda daha güvenlidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kimya laboratuvarında kullanılan laboratuvar önlüğü genellikle ____ kumaştan üretilmelidir.",
+                  "options": [
+                    "pamuklu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pamuklu kumaşlar sentetik kumaşlara göre ateşe karşı daha dirençlidir ve eriyip cilde yapışmaz.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çevreye zararlı maddeleri belirtmek için kullanılan güvenlik uyarı işaretinde ölmüş balık ve ____ ağacı figürü bulunur.",
+                  "options": [
+                    "kurumuş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çevre için tehlikeli maddelerin ambalajında genellikle ölü balık ve kurumuş ağaç görseli yer alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deri ile temas ettiğinde alerjik reaksiyonlara veya kızarıklıklara neden olabilen maddeler ____ edici olarak sınıflandırılır.",
+                  "options": [
+                    "tahriş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tahriş edici maddeler cilde temas ettiğinde kızarıklık ve kaşıntı gibi etkiler gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Asit ile çalışırken sıçrama riskine karşı mutlaka ____ takılmalıdır.",
+                  "options": [
+                    "gözlük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gözleri asit sıçramalarından korumak için koruyucu gözlük kullanımı zorunludur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kimya laboratuvarında yiyecek ve içecek tüketmek yasaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Laboratuvardaki kimyasalların gıdalara bulaşarak zehirlenmelere yol açmasını önlemek için yemek yemek yasaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asit üzerine su eklemek doğru bir seyreltme yöntemidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Asit üzerine su eklenirse ısı açığa çıkarak sıçramaya yol açar; her zaman suyun üzerine asit yavaşça eklenmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Radyoaktif maddelerin ambalajında üç yapraklı yonca simgesi bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Radyoaktif tehlikeyi belirten uluslararası uyarı işareti üç yapraklı yonca sembolüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kırık veya çatlak cam malzemeler ısıtma işleminde güvenle kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çatlak camlar ısı etkisiyle ani olarak kırılabilir ve kazalara neden olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toksik maddeler vücuda solunum, sindirim veya deriden emilme yoluyla girebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zehirli (toksik) maddeler bu yollarla vücuda girerek ciddi sağlık sorunlarına yol açabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Atom ve Periyodik Sistem",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Atom Modelleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Atomun Yapısı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Periyodik Sistem",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Periyodik tabloda dikey sütunlara ne ad verilir?",
+                  "answer": "Grup"
+                },
+                {
+                  "question": "Periyodik tabloda yatay satırlara ne ad verilir?",
+                  "answer": "Periyot"
+                },
+                {
+                  "question": "A grubu elementlerine genel olarak ne ad verilir?",
+                  "answer": "Baş grup elementleri"
+                },
+                {
+                  "question": "Periyodik sistemde elementler hangi özelliğin artışına göre sıralanmıştır?",
+                  "answer": "Atom numarası"
+                },
+                {
+                  "question": "8A grubunda yer alan elementlerin genel adı nedir?",
+                  "answer": "Soygazlar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki elementlerden hangisi periyodik sistemin 1A grubunda (alkali metaller) yer almaz?",
+                  "options": [
+                    "Potasyum",
+                    "Sodyum",
+                    "Kalsiyum",
+                    "Lityum"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kalsiyum atom numarası 20 olan ve 2A grubunda yer alan bir toprak alkali metaldir. Sodyum, potasyum ve lityum ise 1A grubu elementleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Periyodik sistemin 7A grubunda bulunan flor, klor, brom ve iyot elementlerinin genel sınıf adı nedir?",
+                  "options": [
+                    "Halojenler",
+                    "Soygazlar",
+                    "Toprak metalleri",
+                    "Geçiş metalleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "7A grubu elementleri tuz oluşturan anlamındaki halojenler sınıfında yer alır. Soygazlar 8A, geçiş metalleri ise B grubunda bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Modern periyodik sistemin oluşturulmasında elementlerin hangi özelliği temel alınmıştır?",
+                  "options": [
+                    "Atom kütlesi",
+                    "Atom numarası",
+                    "Nötron sayısı",
+                    "Kütle numarası"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Moseley tarafından geliştirilen modern periyodik sistem, elementlerin proton sayısı yani atom numarasının artışına göre düzenlenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki elementlerden hangisi oda koşullarında gaz halindedir ve soygaz sınıfındadır?",
+                  "options": [
+                    "Cıva",
+                    "Helyum",
+                    "Kükürt",
+                    "Demir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Helyum 8A grubunda bulunan ve oda koşullarında tek atomlu gaz halinde olan bir soygazdır. Demir ve cıva metal, kükürt ise ametaldir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe aşağıdakilerden hangisi genellikle artar?",
+                  "options": [
+                    "Metalik aktiflik",
+                    "Atom numarası",
+                    "Elektron verme eğilimi",
+                    "Atom yarıçapı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aynı periyotta soldan sağa doğru gidildikçe atom numarası ve proton sayısı artar. Atom yarıçapı ve metalik özellik ise genellikle azalır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Periyodik sistemde yatay satırlara periyot, dikey sütunlara ise ____ denir.",
+                  "options": [
+                    "grup"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Periyodik tabloda dikey sütunlar grup olarak adlandırılır ve toplam 18 grup bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Modern periyodik tabloyu elementlerin proton sayılarına göre düzenleyen bilim insanı Henry ____ dir.",
+                  "options": [
+                    "Moseley"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Henry Moseley X ışınları ile yaptığı deneyler sonucunda elementlerin atom numaralarını bulmuş ve modern periyodik sistemi oluşturmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Periyodik tablonun 8A grubunda yer alan kimyasal tepkimeye geme eğilimi en az olan elementler ____ olarak adlandırılır.",
+                  "options": [
+                    "soygaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soygazlar kararlı elektron düzenine sahip olduklarından doğada serbest ve tek atomlu gaz halinde bulunurlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1A grubu elementlerine hidrojen hariç ____ metaller adı verilir.",
+                  "options": [
+                    "alkali"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen bir ametal olmasına rağmen 1A grubunun en üstünde yer alır. Diğer tüm 1A grubu elementleri alkali metallerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Periyodik sistemde aynı periyotta bulunan elementlerin temel katman sayıları eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir elementin periyot numarası, o atomun katman (enerji seviyesi) sayısını verir. Aynı periyottaki tüm elementlerin katman sayıları aynıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Helyum elementi 8A grubunda yer almasına rağmen son katmanında 2 elektron bulundurur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Helyumun toplam 2 elektronu vardır ve tek katmanı doludur. Bu nedenle 8A grubunda yer almasına rağmen oktet değil dublet kuralına uyar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı grupta yukarıdan aşağıya doğru inildikçe metalik aktiflik genellikle azalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aynı grupta yukarıdan aşağıya doğru inildikçe atom çapı büyür ve elektron vermek kolaylaşır, bu nedenle metaller için aktiflik artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geçiş metalleri periyodik tablonun B gruplarında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçiş elementleri veya geçiş metalleri periyodik tablonun ortasında yer alan B grubu elementleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ametal atomları kendi aralarında kovalent bağlı bileşik oluşturabilirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ametaller kendi aralarında elektron ortaklaşması yoluyla kovalent bağ içeren moleküler yapılı bileşikler oluşturur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Kimyasal Türler Arası Etkileşimler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kimyasal Tür",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kimyasal tür nedir?",
+                  "answer": "Maddenin özelliklerini gösteren en küçük yapı taşları olan atom, molekül, iyon ve radikal gibi taneciklerin genel adıdır."
+                },
+                {
+                  "question": "Atom nedir?",
+                  "answer": "Elementlerin fiziksel ve kimyasal tüm özelliklerini taşıyan en küçük yapı taşıdır."
+                },
+                {
+                  "question": "Molekül nedir?",
+                  "answer": "Aynı veya farklı tür atomların kovalent bağlarla bir araya gelerek oluşturduğu nötr yapıtaşlarıdır."
+                },
+                {
+                  "question": "İyon nedir?",
+                  "answer": "Elektron almış veya vermiş, net bir elektriksel yüke sahip olan atom veya atom gruplarıdır."
+                },
+                {
+                  "question": "Radikal nedir?",
+                  "answer": "Yapısında eşleşmemiş tek elektron bulunduran ve genellikle çok aktif olan kimyasal türlerdir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi kimyasal tür çeşitlerinden biri değildir?",
+                  "options": [
+                    "İyon",
+                    "Kütle",
+                    "Molekül",
+                    "Atom"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kimyasal türler atom, molekül, iyon ve radikal olarak sınıflandırılır. Kütle ise maddenin ortak özelliklerinden biridir, kimyasal tür değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi moleküler yapıya sahiptir?",
+                  "options": [
+                    "Mg",
+                    "H2O",
+                    "NaCl",
+                    "Fe"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "H2O ametal atomlarının kovalent bağla oluşturduğu bir moleküldür. NaCl iyonik, Fe ve Mg ise metalik yapılıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki taneciklerden hangisi iyon sınıfına girer?",
+                  "options": [
+                    "He",
+                    "CO2",
+                    "O2",
+                    "SO4(2-)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "SO4(2-) yüklü bir atom grubudur ve iyon olarak adlandırılır. He atom, O2 ve CO2 moleküldür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki elementlerden hangisi doğada tek atomlu (atomik) halde bulunur?",
+                  "options": [
+                    "Hidrojen",
+                    "Azot",
+                    "Helyum",
+                    "Oksijen"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Helyum bir soygazdır ve doğada kararlı olmak için tek atomlu halde bulunur. Oksijen, azot ve hidrojen ise iki atomlu moleküler yapudadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kimyasal tür çiftlerinden hangisi yanlış sınıflandırılmıştır?",
+                  "options": [
+                    "Ne - Molekül",
+                    "Na(+) - İyon",
+                    "CO2 - Molekül",
+                    "Fe - Atom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ne (Neon) bir soygazdır ve atomik yapidadır, molekül değildir. Diğer sınıflandırmalar doğrudur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Elektron almış ya da vermiş atom veya atom gruplarına ____ denir.",
+                  "options": [
+                    "iyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Net elektrik yüküne sahip tanecikler iyon olarak adlandırılır, katyon ve anyon olmak üzere ikiye ayrılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Demir (Fe) ve bakır (Cu) gibi metaller doğada ____ yapıda bulunurlar.",
+                  "options": [
+                    "atomik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metaller tek atomlu tanecikler halinde bulunarak katı hâlde metalik örgü oluştururlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yapısında en az bir tane ortaklanmamış elektron bulunduran yüksek enerjili türlere ____ denir.",
+                  "options": [
+                    "radikal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Radikaller oldukça reaktif ve kararsız kimyasal türlerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Helyum (He) gazı doğada moleküler yapıda bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soygazlar olan He, Ne, Ar gibi elementler doğada atomik yapıda bulunur, molekül oluşturmazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İyonlar, elektron alışverişi sonucunda oluşan yüklü kimyasal türlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atomlar elektron vererek katyon, elektron alarak anyon oluşturur ve bu yüklü türlere iyon denir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su (H2O) maddesi moleküler yapıya sahip bir kimyasal türdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen ve oksijen ametalleri kovalent bağla birleşerek su molekülünü oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm moleküller aynı cins atomlardan oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Moleküller aynı cins atomlardan (O2 gibi) oluşabileceği gibi farklı cins atomlardan da (H2O gibi) oluşabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Atomik yapılı maddelerin en küçük birimi tek bir atomdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atomik yapılı elementler (soygazlar ve metaller) bağımsız tek atomlar halinde bulunurlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kimyasal Türler Arası Etkileşimlerin Sınıflandırılması",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kimyasal türler nelerdir?",
+                  "answer": "Atom, molekül, iyon ve radikal."
+                },
+                {
+                  "question": "Güçlü etkileşimler hangi bağları kapsar?",
+                  "answer": "İyonik bağ, kovalent bağ ve metalik bağ."
+                },
+                {
+                  "question": "Zayıf etkileşimler hangi kuvvetleri kapsar?",
+                  "answer": "Hidrojen bağları ve van der Waals kuvvetleri."
+                },
+                {
+                  "question": "Güçlü ve zayıf etkileşimleri birbirinden ayıran genel enerji sınırı kaç kJ/mol'dür?",
+                  "answer": "40 kJ/mol"
+                },
+                {
+                  "question": "Fiziksel değişimler sırasında hangi tür etkileşimler kopar veya oluşur?",
+                  "answer": "Zayıf etkileşimler."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki kimyasal tür çiftlerinden hangisi karşısında verilen adla yanlış eşleştirilmiştir?",
+                  "options": [
+                    "CO2 - İyon",
+                    "He - Atom",
+                    "Na+ - İyon",
+                    "H2O - Molekül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "CO2 nötr bir bileşiktir ve moleküler yapıdadır; iyon değildir. He atomik, H2O moleküler, Na+ ise katyon (iyon) türündedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki etkileşim türlerinden hangisi güçlü etkileşimler sınıfına girer?",
+                  "options": [
+                    "İyonik bağ",
+                    "London kuvvetleri",
+                    "Hidrojen bağı",
+                    "Dipol-dipol etkileşimi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyonik bağ, atomlar veya iyonlar arası güçlü etkileşimler (kimyasal bağ) sınıfındadır. Diğer seçenekler zayıf etkileşimlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kimyasal türler arası etkileşimlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Etkileşimler genellikle 40 kJ/mol enerji sınırına göre güçlü ve zayıf olarak sınıflandırılır.",
+                    "Güçlü etkileşimlerin kopması veya oluşması sonucunda yeni kimyasal maddeler oluşur.",
+                    "Zayıf etkileşimlerin tamamı moleküller arası gerçekleşir.",
+                    "Fiziksel değişimlerde genellikle zayıf etkileşimler kopar veya oluşur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Zayıf etkileşimlerin bir kısmı (örneğin soygaz atomları arasındaki London kuvvetleri) atomlar arasında da görülebilir, tamamı moleküller arası değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi kimyasal bir tür olan 'molekül' örneğidir?",
+                  "options": [
+                    "Fe",
+                    "NaCl",
+                    "NH3",
+                    "Ca2+"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "NH3 ametal atomlarından oluşan kovalent bağlı bir moleküldür. Fe atom, NaCl iyonik bileşik formülü, Ca2+ ise iyondur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Su (H2O) sıvısının buharlaşması olayında öncelikli olarak hangi tür etkileşimler kopar?",
+                  "options": [
+                    "İyonik bağ",
+                    "Kovalent bağ",
+                    "Hidrojen bağı",
+                    "Metalik bağ"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Buharlaşma fiziksel bir olaydır ve sıvı haldeki su molekülleri arasındaki zayıf etkileşimlerden biri olan hidrojen bağlarının kopmasını gerektirir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Güçlü etkileşimler, kimyasal bağların oluşumunda ve kopmasında rol oynadığı için ____ değişimlere neden olur.",
+                  "options": [
+                    "kimyasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güçlü etkileşimler (iyonik, kovalent, metalik) maddelerin kimliğini değiştirir ve kimyasal değişimlere yol açar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tek bir atomdan oluşan ve soygazlarda görülen kimyasal tür ____ olarak adlandırılır.",
+                  "options": [
+                    "atom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soygazlar (He, Ne, Ar vb.) doğada tek atomlu (atomik) halde bulunur ve temel kimyasal türlerden biri atomdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zayıf etkileşimlerin koptuğu veya oluştuğu olaylar genellikle ____ değişimler olarak sınıflandırılır.",
+                  "options": [
+                    "fiziksel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erime, kaynama, buharlaşma gibi hal değişimlerinde zayıf etkileşimler rol oynar ve bu olaylar fiziksel değişimlerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İyonik bağlar ve kovalent bağlar güçlü etkileşimler sınıfında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyonik, kovalent ve metalik bağlar atomlar arası güçlü etkileşimlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zayıf etkileşimlerin kopması sonucu maddenin kimlik özellikleri tamamen değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zayıf etkileşimlerin kopması fiziksel değişimlere yol açar, maddenin kimliği değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soygaz atomları oda koşullarında moleküler yapıdadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soygazlar kararlı yapıda olduklarından doğada tek atomlu (atomik) halde bulunur, moleküler değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güçlü ve zayıf etkileşimleri birbirinden ayırırken temel alınan enerji değeri yaklaşık 40 kJ/mol'dür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Etkileşim enerjisi 40 kJ/mol'den büyük olanlar güçlü, küçük olanlar zayıf etkileşim olarak kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su molekülündeki hidrojen ve oksijen atomları arasındaki bağlar zayıf etkileşimlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "H2O içindeki H ve O atomları polar kovalent bağlarla bağlıdır ve kovalent bağ güçlü etkileşimdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Güçlü Etkileşimler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Güçlü etkileşimler kaça ayrılır ve nelerdir?",
+                  "answer": "Üç sınıfa ayrılır: İyonik bağ, kovalent bağ ve metalik bağ."
+                },
+                {
+                  "question": "İyonik bağ hangi tür atomlar arasında oluşur?",
+                  "answer": "Metal ile ametal atomları arasında elektron alışverişiyle oluşur."
+                },
+                {
+                  "question": "Apolar kovalent bağ hangi tür atomlar arasında görülür?",
+                  "answer": "Aynı cins ametal atomları arasında görülür."
+                },
+                {
+                  "question": "Metalik bağ nedir?",
+                  "answer": "Pozitif metal iyonları ile elektron denizi arasındaki elektrostatik çekim kuvvetidir."
+                },
+                {
+                  "question": "Kovalent bağ hangi tür atomlar arasında elektron ortaklaşmasıyla oluşur?",
+                  "answer": "Ametal ile ametal atomları arasında oluşur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki bileşiklerden hangisinde iyonik bağ bulunur?",
+                  "options": [
+                    "H2O",
+                    "NaCl",
+                    "CO2",
+                    "NH3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "NaCl (Sodyum klorür) bileşiği Na (metal) ve Cl (ametal) atomları arasında elektron alışverişi ile oluştuğu için iyonik yapılıdır. Diğer seçenekler ametal-ametal içerdiği için kovalent bağlıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki moleküllerin hangisinde polar kovalent bağ bulunur?",
+                  "options": [
+                    "N2",
+                    "HCl",
+                    "O2",
+                    "H2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "HCl molekülü farklı cins ametal atomları (H ve Cl) arasında oluştuğu için polar kovalent bağ içerir. H2, N2 ve O2 aynı cins atomlardan oluştuğu için apolar kovalent bağ içerir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki element çiftlerinden hangisi arasında güçlü etkileşim sınıfından kovalent bağ oluşması beklenir?",
+                  "options": [
+                    "C ve O",
+                    "K ve F",
+                    "Mg ve O",
+                    "Na ve Cl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "C (karbon) ve O (oksijen) ametal elementleridir. Ametal-ametal atomları arasında elektron ortaklaşması ile kovalent bağ oluşur. Diğer seçeneklerde metal-ametal iyonik bağ oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Metalik bağ ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Katı ve sıvı halde elektriği iletirler.",
+                    "Elektron denizi modeli ile açıklanır.",
+                    "Pozitif metal iyonları ile serbest elektronlar arasındadır.",
+                    "Moleküler yapıya sahiptirler."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Metaller kristal örgü yapısına sahiptir, moleküler yapı oluşturmazlar. Katı/sıvı halde elektrik iletme, elektron denizi ve pozitif iyon etkileşimi metalik bağın özellikleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin katı hali elektriği iletir?",
+                  "options": [
+                    "CO2 katısı",
+                    "H2O buz",
+                    "NaCl katısı",
+                    "Cu metali"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Cu (bakır) bir metaldir ve metalik bağ içeren katı hali serbest hareket eden elektronlar sayesinde elektriği iletir. İyonik ve kovalent katılar katı halde elektriği iletmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Metal atomları ile ametal atomları arasındaki elektron alışverişi ile oluşan güçlü etkileşime ____ bağ denir.",
+                  "options": [
+                    "iyonik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyonik bağ, elektron alışverişi sonucunda zıt yüklü iyonların birbirini çekmesiyle metal ve ametal arasında oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kovalent bağlar elektron ____ yoluyla oluşur.",
+                  "options": [
+                    "ortaklaşması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kovalent bağ, ametal atomlarının son yörüngelerindeki elektronları ortaklaşa kullanmasıyla meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı cins ametal atomları arasında oluşan kovalent bağlara ____ kovalent bağ denir.",
+                  "options": [
+                    "apolar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elektron yük yoğunluğu simetrik olduğundan, aynı cins ametal atomları arasındaki bağlar apolar (kutupsuz) kovalent bağ olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Metallerin ısı ve elektriği iletmesi yapısındaki ____ denizi modeli ile açıklanır.",
+                  "options": [
+                    "elektron"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metal katyonları etrafında serbestçe hareket edebilen değerlik elektronları 'elektron denizi' modelini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Farklı cins ametal atomları arasında oluşan kovalent bağlar ____ kovalent bağ olarak adlandırılır.",
+                  "options": [
+                    "polar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı elektronegatifliğe sahip ametal atomlarının elektronları farklı çekmesiyle polar (kutuplu) kovalent bağ oluşur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İyonik bağlı bileşikler katı halde elektriği iletir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İyonik bağlı katılar iyonları sabit olduğu için katı halde elektriği iletmez, ancak sıvı halleri ve sulu çözeltileri iyon hareketinden dolayı elektriği iletir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kovalent bağlar sadece ametal atomları arasında görülür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kovalent bağlar, elektron ortaklaşmasına dayandığı için yalnızca ametal atomları arasında gerçekleşir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Metalik bağ güçlü etkileşimler sınıfında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyonik, kovalent ve metalik bağlar atomlar arası bağlar olup güçlü etkileşimler (kimyasal bağlar) olarak sınıflandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "H2O molekülünde bağlar apolar kovalenttir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "H2O molekülünde H ve O farklı cins ametal atomları olduğu için bağlar polar kovalenttir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Apolar kovalent bağ içeren moleküllerde atomlar arasındaki elektronegatiflik farkı sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı cins ametal atomları arasında bağ oluştuğunda atomların elektronegatiflikleri aynı olduğu için fark sıfırdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Zayıf Etkileşimler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hidrojen bağı oluşması için hidrojen atomunun hangi elektronegatif elementlere bağlı olması gerekir?",
+                  "answer": "F, O, N (Flor, Oksijen, Azot)"
+                },
+                {
+                  "question": "Apolar moleküller arasında hangi tür zayıf etkileşim görülür?",
+                  "answer": "London kuvvetleri"
+                },
+                {
+                  "question": "Dipol-dipol etkileşimi hangi tür moleküller arasında gerçekleşir?",
+                  "answer": "Polar moleküller arasında"
+                },
+                {
+                  "question": "İyon-dipol etkileşimi hangi maddelerin karışımında gözlenir?",
+                  "answer": "İyonik katıların polar sıvılarda (örneğin su) çözünmesiyle"
+                },
+                {
+                  "question": "Zayıf etkileşimlerin sınıflandırılmasında fiziksel hal değişimlerinde sınır değer olarak genellikle kaç kJ/mol kullanılır?",
+                  "answer": "40 kJ/mol"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki moleküllerden hangisinde moleküller arası etkin etkileşim türü London kuvvetleridir?",
+                  "options": [
+                    "CH4",
+                    "HCl",
+                    "NH3",
+                    "H2O"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "CH4 apolar bir moleküldür ve apolar moleküller arasında sadece London kuvvetleri etkindir. H2O ve NH3 moleküllerinde hidrojen bağı, HCl molekülünde ise dipol-dipol etkileşimi görülür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin yoğun fazlarında moleküller arası hidrojen bağı gözlenmez?",
+                  "options": [
+                    "H2S",
+                    "CH3OH",
+                    "HF",
+                    "H2O"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen bağının oluşması için H atomunun F, O veya N elementlerinden birine bağlı olması gerekir. H2S molekülünde H atomu kükürt (S) atomuna bağlı olduğundan hidrojen bağı içermez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ikililerden hangisi arasında iyon-dipol etkileşimi gerçekleşir?",
+                  "options": [
+                    "NaCl katısı ile H2O sıvıı",
+                    "NH3 gazı ile HCl gazı",
+                    "He gazı ile Ne gazı",
+                    "CO2 gazı ile H2O sıvısı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyon-dipol etkileşimi, iyonik bir bileşik (NaCl) ile polar bir molekül (H2O) arasında gerçekleşir. Diğer seçeneklerde farklı etkileşim türleri söz konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "H2O sıvısının kaynama noktasının aynı gruptaki H2S sıvısına göre çok yüksek olmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kovalent bağlarının daha sağlam olması",
+                    "London kuvvetlerinin daha güçlü olması",
+                    "Molekülleri arasında hidrojen bağı bulunması",
+                    "Molekül kütlesinin daha büyük olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Su moleküllerinin kendi aralarında güçlü hidrojen bağları oluşturması, kaynama noktasını ve erime noktasını aynı gruptaki diğer bileşiklere göre oldukça yükseltir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki etkileşim türlerinden hangisi güçlü etkileşimler sınıfına girer?",
+                  "options": [
+                    "Dipol-dipol etkileşimi",
+                    "İyonik bağ",
+                    "London kuvvetleri",
+                    "Hidrojen bağı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İyonik bağ atomlar veya iyonlar arasında elektron alışverişiyle oluşan güçlü bir etkileşimdir. Diğer seçenekler (hidrojen bağı, dipol-dipol ve London) zayıf etkileşimler sınıfındadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Soy gazların yoğun fazlarında atomlarını bir arada tutan zayıf etkileşim türü ____ kuvvetleridir.",
+                  "options": [
+                    "London"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soy gazlar tek atomlu apolar yapıda olduklarından aralarındaki tek zayıf etkileşim London kuvvetleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fiziksel bağlar olarak da bilinen bağlar ____ etkileşimler olarak adlandırılır.",
+                  "options": [
+                    "zayıf"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Moleküller arası etkileşimler, fiziksel hal değişimlerinde rol oynadığı için zayıf etkileşimler veya fiziksel bağlar olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "HF molekülünün moleküller arası etkin etkileşim türü ____ bağıdır.",
+                  "options": [
+                    "hidrojen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen atomunun elektronegatifliği yüksek flor (F) atomuna bağlı olduğu HF moleküllerinde etkin zayıf etkileşim hidrojen bağıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Hidrojen bağları, dipol-dipol etkileşimlerinin özel ve daha güçlü bir halidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrojen bağı, F, O, N elementlerine bağlı H atomlarının oluşturduğu polar etkileşimlerin en güçlü özel türüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zayıf etkileşimlerin kopması veya oluşması sırasında yeni maddeler oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zayıf etkileşimler fiziksel olaylardır; hal değişimlerinde kimlik değişmez, sadece moleküller arası mesafeler değişir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Apör moleküller arasında dipol-dipol etkileşimi gözlenmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dipol-dipol etkileşimi sadece kalıcı kutuplara sahip polar moleküller arasında görülür; apolar moleküllerde London kuvvetleri etkindir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İyonik bağlar zayıf etkileşimler sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İyonik bağlar, kovalent ve metalik bağlar ile birlikte güçlü etkileşimler (kimyasal bağlar) sınıfında yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soy gazların kaynama noktalarının genel olarak çok düşük olmasının nedeni zayıf London kuvvetlerine sahip olmalarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soy gazlar tek atomlu apolar yapıda olduğundan aralarında sadece çok zayıf London kuvvetleri bulunur, bu nedenle kaynama noktaları düşüktür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Fiziksel ve Kimyasal Değişimler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fiziksel değişimler sırasında maddelerin hangi özellikleri değişir?",
+                  "answer": "Maddenin sadece dış görünüşü, boyutu ve hâli değişir, kimlik özelliği değişmez."
+                },
+                {
+                  "question": "Kimyasal değişimler sonucunda maddelerin neleri değişir?",
+                  "answer": "Maddenin kimlik özellikleri, iç yapısı ve atomlar arası bağları değişir, yeni maddeler oluşur."
+                },
+                {
+                  "question": "Mumun erimesi fiziksel mi yoksa kimyasal bir değişim midir?",
+                  "answer": "Fiziksel bir değişimdir, çünkü sadece katı hâlden sıvı hâle geçiş gerçekleşir."
+                },
+                {
+                  "question": "Demirin paslanması olayı fiziksel mi yoksa kimyasal mıdır?",
+                  "answer": "Kimyasal bir değişimdir, çünkü demir oksijenle tepkimeye girerek yeni bir madde oluşturur."
+                },
+                {
+                  "question": "Fiziksel ve kimyasal değişimlerde toplam kütle her zaman korunur mu?",
+                  "answer": "Evet, hem fiziksel hem de kimyasal değişimlerde kütlenin korunumu kanunu geçerlidir ve toplam kütle değişmez."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki olaylardan hangisi diğerlerinden farklı bir türde değişimdir?",
+                  "options": [
+                    "Camın kırılması",
+                    "Demirin paslanması",
+                    "Yodun süblimleşmesi",
+                    "Suyun donması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Demirin paslanması kimyasal bir değişimdir. Suyun donması, camın kırılması ve yodun süblimleşmesi ise fiziksel değişimlere örnektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki olayların hangisinde maddenin iç yapısı (kimliği) değişir?",
+                  "options": [
+                    "Sütün ekşimesi",
+                    "Petrolün damıtılması",
+                    "Şekerin suda çözünmesi",
+                    "Mumun erimesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sütün ekşimesi fermantasyon yani kimyasal bir süreçtir ve maddenin kimliği değişir. Diğer olaylar fiziksel değişimdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi fiziksel değişimler için daima geçerlidir?",
+                  "options": [
+                    "Atomlar arası bağlar kopar veya yeni bağlar oluşur.",
+                    "Maddenin hal değişimleri sadece ısı alarak gerçekleşir.",
+                    "Zayıf etkileşimler kopabilir veya oluşabilir, güçlü etkileşimler değişmez.",
+                    "Yeni kimyasal türler oluşur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fiziksel değişimlerde genellikle zayıf etkileşimler kırılır veya oluşur, güçlü etkileşimler (atomlar arası bağlar) korunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yemek tuzunun suda çözünmesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Kimyasal bir değişimdir çünkü tuz gözden kaybolur.",
+                    "Fiziksel bir değişimdir çünkü tuzun kimyasal yapısı değişmez.",
+                    "Çözünme sonucunda yeni maddeler oluşur.",
+                    "Zayıf ve güçlü etkileşimlerin hepsi tamamen kopar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yemek tuzunun suda çözünmesi fiziksel bir olaydır. Su molekülleri ile iyonlar arasında etkileşim olur ancak tuzun kimliği değişmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki olayların hangisinde hem fiziksel hem de kimyasal değişim bir arada bulunur?",
+                  "options": [
+                    "Kağıdın yırtılması",
+                    "Mumun yanması",
+                    "Alkolün buharlaşması",
+                    "Demirin erimesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mum yanarken önce ısı etkisiyle erir (fiziksel değişim), ardından fitildeki mum oksijenle tepkimeye girerek yanar (kimyasal değişim).",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Maddenin kimliğini değiştirmeden sadece görünümünü veya hâlini değiştiren olaylara ____ değişim denir.",
+                  "options": [
+                    "fiziksel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fiziksel değişimlerde maddenin iç yapısı değişmez, sadece dış özellikleri veya fiziksel hâli farklılaşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kömürün yüksek sıcaklıkta havayla tepkimeye girerek yanması ____ bir değişimdir.",
+                  "options": [
+                    "kimyasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yanma olayları maddenin oksijenle tepkimeye girmesiyle oluştuğu için kimyasal değişim sınıfına girer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Na ve Cl atomları arasında güçlü etkileşimler sonucu sofra tuzunun oluşması ____ değişime örnektir.",
+                  "options": [
+                    "kimyasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elementlerin bir araya gelerek yeni özelliklere sahip bileşik oluşturması kimyasal bir değişimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Suyun elektroliz yöntemiyle hidrojen ve oksijen gazlarına ayrışması ____ bir olaydır.",
+                  "options": [
+                    "kimyasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elektroliz gibi yöntemlerle bir maddenin daha basit bileşenlerine ayrışması kimyasal değişimdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fiziksel değişimlerde atomların türü ve sayısı korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fiziksel değişimde yeni bir madde oluşmadığı için atomların türü ve sayısı daima sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kimyasal değişimler sırasında toplam kütle her zaman korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kütlenin Korunumu Kanunu'na göre kapalı sistemlerdeki kimyasal tepkimelerde toplam kütle değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Na katısının suda çözünmesi tamamen fiziksel bir olaydır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sodyum (Na) metali su ile şiddetli kimyasal tepkime vererek hidrojen gazı açığa çıkarır, bu nedenle sadece çözünme değil kimyasal değişim de gerçekleşir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fiziksel değişimler sonucunda maddelerin kimyasal özellikleri tamamen değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fiziksel değişimlerde maddenin kimyasal özellikleri değişmez; bu durum kimyasal değişimler için geçerlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Betonun donması ve sertleşmesi süreci kimyasal değişim içerir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Betonun su ile zamanla gerçekleştirdiği hidratasyon (sertleşme) tepkimeleri kimyasal bir süreçtir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Maddenin Hâlleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Maddenin Fiziksel Hâlleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Katılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Sıvılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Gazlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Plazma",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Doğa ve Kimya",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Su ve Hayat",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Çevre Kimyası",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kimyanın Temel Kanunları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Mol Kavramı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Kimyasal Tepkimeler ve Denklemler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Kimyasal Tepkimelerde Hesaplamalar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Karışımlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Homojen ve Heterojen Karışımlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Ayırma ve Saflaştırma Teknikleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Asitler, Bazlar ve Tuzlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Asitler ve Bazlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Asitlerin ve Bazların Tepkimeleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Hayatımızda Asitler ve Bazlar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Tuzlar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Kimya Her Yerde",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Yaygın Günlük Hayat Kimyasalları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Gıdalar",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

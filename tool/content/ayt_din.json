@@ -1,0 +1,1965 @@
+{
+  "subjectKey": "ayt_din",
+  "title": "AYT Din Kültürü",
+  "examType": "YKS",
+  "subject": "Din Kültürü",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Dünya ve Ahiret",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Dünya ve Ahiret",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ahiret ne anlama gelir?",
+                  "answer": "Sonra gelen, son, dünya hayatından sonra başlayacak olan ebedi hayat demektir."
+                },
+                {
+                  "question": "Ba's ne demektir?",
+                  "answer": "Ölümden sonra yeniden diriltilmek anlamına gelir."
+                },
+                {
+                  "question": "Mizan nedir?",
+                  "answer": "Ahirette amellerin tartılacağı adalet terazisidir."
+                },
+                {
+                  "question": "Kıyamet sözlük anlamı nedir?",
+                  "answer": "Kalkmak, dikilmek, ayağa kalkmak ve dirilmek demektir."
+                },
+                {
+                  "question": "Haşir ne anlama gelir?",
+                  "answer": "Yeniden diriltilenlerin mahşer yerinde toplanmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi ahiret hayatının aşamalarından biri değildir?",
+                  "options": [
+                    "Mizan",
+                    "Berzah",
+                    "Sırat",
+                    "Nirvana"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Nirvana, İslam inancında ahiret aşamalarından biri olmayıp Uzak Doğu dinlerine ait bir kavramdır. Berzah, Mizan ve Sırat İslam inancındaki ahiret aşamalarındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya hayatı ile ahiret hayatı arasındaki ilişkiyi en iyi özetleyen ifade hangisidir?",
+                  "options": [
+                    "Dünya ahiretin tarlasıdır.",
+                    "Ahiret dünyada tamamen unutulmalıdır.",
+                    "Dünya sadece eğlence için yaratılmıştır.",
+                    "Ahiret hayatı dünyadaki amellerden bağımsızdır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam inancına göre dünya, ahiretin tarlasıdır; dünyada ne ekilirse ahirette o biçilir. Ameller ahiret hayatını doğrudan etkiler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ölüm ile kıyamet arasında ruhların bekleyiş süresini ifade eden kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Cennet",
+                    "Berzah",
+                    "Haşir",
+                    "Cehennem"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Berzah, dünya ile ahiret arasında kalan kabir hayatını ve ruhların kıyamete kadar bekleyeceği alemi ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi kıyamet kopması ve sonrasıyla ilgili inanç esaslarındandır?",
+                  "options": [
+                    "Reenkarnasyon",
+                    "Nirvana'ya ulaşma",
+                    "Tenasüh",
+                    "Ba's ve Haşir"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İslam inancına göre ölümden sonra dirilme (ba's) ve mahşerde toplanma (haşir) ahiret inancının temel aşamalarındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Amellerin tartıldığı adalet terazisini ifade eden kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Araf",
+                    "Kevser",
+                    "Sırat",
+                    "Mizan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mizan, ahirette insanların iyilik ve kötülüklerinin tartıldığı ilahi adalet terazisidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dünya hayatının geçici, ahiret hayatının ise kalıcı ve ebedi olmasına inanca ____ inancı denir.",
+                  "options": [
+                    "ahiret"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam'ın inanç esaslarından biri de öldükten sonraki hayata yani ahiret gününe iman etmektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ölen insanların ruhlarının kıyamete kadar bekleyeceği ara döneme ____ alemi denir.",
+                  "options": [
+                    "berzah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Berzah, dünya ile ahiret arasında yer alan kabir hayatını kapsayan geçiş dönemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeniden diriltilenlerin toplanacağı alana mahşer, bu toplanma olayına ise ____ denir.",
+                  "options": [
+                    "haşir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haşir, kıyamet kopup insanlar diriltildikten sonra hesap vermek üzere bir araya toplanmalarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cennet ile cehennem üzerine kurulmuş olan köprüye ____ denir.",
+                  "options": [
+                    "sırat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sırat köprüsü, cehennem üzerine kurulmuş olup insanların üzerinden geçeceği köprüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanın dünyada yaptığı işlerin kaydedildiği defterlere ____ defteri denir.",
+                  "options": [
+                    "amel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amel defterleri, insanın dünya hayatında yaptığı tüm iyilik ve kötülüklerin melekler tarafından kaydedildiği sayfalardır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dünya hayatı imtihan yeri, ahiret ise bu imtihanın karşılığının alınacağı yerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam inancına göre dünya geçici bir imtihan alanı, ahiret ise bu imtihanın sonucuna göre mükâfat veya ceza görülecek ebedi yurttur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Berzah alemi, kıyamet koptuktan sonra başlayacak olan sonsuzluk yurdudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Berzah alemi kıyametten sonra değil, ölümle başlayıp kıyamete kadar süren kabir hayatıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mizan, ahirette insanların amellerinin tartılacağı adalet terazisidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mizan kavramı Kur'an'da ve hadislerde amellerin tartılması için kurulacak ilahi adalet terazisi olarak geçer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahiret inancı insanın dünya hayatındaki davranışlarına çeki düzen vermesinde etkisizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahiret inancı insanın sorumluluk bilincini artırır, kötülükten uzak durmasını ve iyilik yapmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kıyamet, evrendeki düzenin bozulması ve dünya hayatının sona ermesi anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyamet, Allah'ın takdir ettiği zaman geldiğinde evrendeki nizamın alt üst olması ve hayatın son bulması olayıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Kur’an’a Göre Hz. Muhammed",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kur’an’a Göre Hz. Muhammed",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hz. Muhammed’in beşerî yönü nedir?",
+                  "answer": "Diğer insanlar gibi yiyip içmesi, çarşıda pazarda dolaşması, evlenmesi ve bir insan olmasıdır."
+                },
+                {
+                  "question": "Hz. Muhammed’in resullük ve nebîlik yönü hangi sıfatıyla ifade edilir?",
+                  "answer": "Elçilik görevi yani ilahi mesajları insanlara ulaştırma yönüdür."
+                },
+                {
+                  "question": "Kur’an-ı Kerim’de Hz. Muhammed’in örnek ahlakı hangi kavramla övülmüştür?",
+                  "answer": "Muazzam ahlak yani yüce ahlak (hulukun azim)."
+                },
+                {
+                  "question": "Üsve-i Hasene ne anlama gelmektedir?",
+                  "answer": "En güzel örnek demektir ve Hz. Muhammed'in müminler için örnek tutumunu ifade eder."
+                },
+                {
+                  "question": "Hz. Muhammed’in vahiy alması ve ilahi emirleri tebliğ etmesi onun hangi yönünü gösterir?",
+                  "answer": "Peygamberlik (risalet) yönünü."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Kur’an-ı Kerim’de Hz. Muhammed için aşağıdakilerden hangisi vurgulanmıştır?",
+                  "options": [
+                    "O, gaybı kesin olarak bilen bir varlıktır.",
+                    "O, ancak Allah’ın elçisi ve peygamberlerin sonuncusudur.",
+                    "O, insanların günahlarını affetme yetkisine sahiptir.",
+                    "O, meleklerden yaratılmış bir nurdur."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kur'an-ı Kerim'de Hz. Muhammed'in bir beşer ve Allah'ın elçisi olduğu, ayrıca hatemün nebiyyin (peygamberlerin sonuncusu) olduğu açıkça belirtilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Hz. Muhammed’in beşerî özelliklerinden biridir?",
+                  "options": [
+                    "Çarşıda pazarda dolaşması ve yemek yemesi",
+                    "Günahlardan arınmış (ma'sum) olması",
+                    "Vahiy alarak ilahi hükümleri bildirmesi",
+                    "Mucizeler gösterme gücüne sahip olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Muhammed'in yemek yemesi, çarşıda alışveriş yapması gibi insani haller onun beşerî yönünü gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ahzab Suresi 21. ayette geçen 'Üsve-i Hasene' kavramı neyi ifade eder?",
+                  "options": [
+                    "Peygamberin insanlara en güzel örnek olmasını",
+                    "Peygamberin doğuştan üstün yeteneklerle donatılmasını",
+                    "Peygamberin sadece ibadet alanında örnek alınmasını",
+                    "Peygamberin soyunun diğer insanlardan üstün olmasını"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üsve-i hasene, Müslümanlar için Hz. Muhammed'in her konuda en güzel örnek olduğunu ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kur’an’a göre Hz. Muhammed’in temel görevleri arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Kitabı ve hikmeti öğretmek",
+                    "Gelecekte yaşanacak olayların tarihlerini bildirmek",
+                    "Ayetleri okumak (tilavet)",
+                    "İnsanları eğitmek ve arındırmak (tezkiye)"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Peygamberin görevleri arasında gaybı veya gelecekteki tarihleri bildirmek yoktur; onun görevi tebliğ, tebyin ve tezkiyedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ayetlerde Hz. Muhammed için kullanılan 'De ki: Ben de ancak sizin gibi bir beşerim...' ifadesi neyi vurgulamaktadır?",
+                  "options": [
+                    "İlahi nitelik taşımadığını ve insan olduğunu",
+                    "Peygamberlik görevinden azledildiğini",
+                    "Diğer insanlardan hiçbir farkının bulunmadığını",
+                    "Sadece Arap toplumu için gönderildiğini"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ayet, Hz. Muhammed'in ilahi bir varlık olmadığını, diğer insanlar gibi bir insan (beşer) olduğunu ve kendisine vahiy geldiğini vurgular.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kur’an-ı Kerim’de Hz. Muhammed’in müminler için en güzel örnek olduğu ____ kavramıyla ifade edilir.",
+                  "options": [
+                    "üsve-i hasene"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahzab Suresi'nde geçen üsve-i hasene tabiri, Peygamberimizin ahlaki ve yaşantısal olarak mükemmel bir örnek olduğunu belirtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed’in insanlara ilahi mesajları eksiksiz bir şekilde ulaştırmasına ____ denir.",
+                  "options": [
+                    "tebliğ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tebliğ, peygamberlerin Allah'tan aldıkları vahyi insanlara hiçbir şey eksiltmeden aktarması görevidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed’in peygamberlik yönü yanında bir insan olması onun ____ yönünü oluşturur.",
+                  "options": [
+                    "beşerî"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beşerî yönü, onun da diğer insanlar gibi yeme, içme, uyuma ve evlenme gibi insani özelliklere sahip olmasını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kur'an'da Hz. Muhammed'in peygamberlerin sonuncusu olduğunu belirten ifade ____ olarak geçer.",
+                  "options": [
+                    "hatemünnebiyyin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahzab Suresi 40. ayette Hz. Muhammed'in hatemünnebiyyin yani son peygamber olduğu vurgulanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed’in Kur’an ayetlerini açıklayıp beyan etme görevine ____ denir.",
+                  "options": [
+                    "tebyin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tebyin, peygamberin Kur'an'daki kapalı veya genel hükümleri açıklayarak uygulamalı hale getirmesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kur’an’a göre Hz. Muhammed meleklerden yaratılmış bir nur olup beşerî özellik taşımamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Muhammed bir beşerdir; yemek yer, çarşıda gezer ve insanî özelliklere sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Muhammed’in en temel özelliklerinden biri, Allah’tan aldığı mesajları insanlara eksiksiz tebliğ etmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tebliğ görevi, peygamberlerin asli vazifelerindendir ve Kur'an'da sıkça vurgulanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kur’an-ı Kerim’de Hz. Muhammed’in güzel ahlak sahibi olduğu ve örnek alınması gerektiği bildirilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalem Suresi'nde onun yüce bir ahlaka sahip olduğu, Ahzab Suresi'nde ise örnek alınması gerektiği ifade edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Muhammed gelecekte yaşanacak tüm olayları önceden bilme yetkisine (gayb bilgisine) sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kur'an'da gaybı ancak Allah'ın bildirdiği, Hz. Muhammed dahil hiçbir peygamberin kendi başına gaybı bilemeyeceği açıkça belirtilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Muhammed’in risalet görevi, tüm insanlığa evrensel bir mesaj sunmasını kapsar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kur'an ayetlerine göre Hz. Muhammed bütün insanlığa gönderilmiş son peygamberdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Kur’an’da Bazı Kavramlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kur’an’da Bazı Kavramlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hidayet kelimesinin Kur'an'daki temel anlamı nedir?",
+                  "answer": "Doğru yolu bulmak, hak olan yola iletmek ve kurtuluşa ermektir."
+                },
+                {
+                  "question": "Takva kavramı terminolojik olarak ne anlama gelir?",
+                  "answer": "Allah'ın emirlerine uyup yasaklarından kaçınarak O'nun sevgisini ve rızasını kazanma bilincidir."
+                },
+                {
+                  "question": "İhlas kavramının dini terim olarak karşılığı nedir?",
+                  "answer": "Bütün ibadet ve davranışları hiçbir menfaat gözetmeden yalnızca Allah rızası için yapmak, samimiyettir."
+                },
+                {
+                  "question": "Cihad kelimesi İslam terminolojisinde hangi anlamları kapsar?",
+                  "answer": "Allah'ın rızasını kazanmak için maddi ve manevi her türlü çabayı göstermek, gayret etmektir."
+                },
+                {
+                  "question": "Tövbe kavramı hangi iki temel unsuru içerir?",
+                  "answer": "Günnahtan pişmanlık duyarak vazgeçmek ve bir daha işlememeye kesin karar vermektir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Kur'an'da geçen 'hidayet' kavramının kapsamına girmez?",
+                  "options": [
+                    "Peygamberler ve kitaplar aracılığıyla insanların uyarılması",
+                    "İnsana doğruyu ve yanlışı ayırt etme yeteneğinin verilmesi",
+                    "İnsanın iradesinden bağımsız olarak zorla imana mahkum edilmesi",
+                    "Allah'ın iyi kullarını başarıya ve cennete ulaştırması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İslam inancına göre hidayet Allah'tandır ancak insan iradesini doğru yönde kullandığı takdirde Allah ona hidayeti nasip eder. İnsan iradesi dışı zorla bir inanca mahkum edilme söz konusu değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir müslümanın günlük hayatında emir ve yasaklara karşı duyarlı olması, günahlardan sakınarak titizlik göstermesi Kur'an'daki hangi kavramla doğrudan ifade edilir?",
+                  "options": [
+                    "İnfak",
+                    "İhlas",
+                    "Takva",
+                    "Tövbe"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Takva kelimesi sözlükte korunmak anlamına gelir, dinî terim olarak ise Allah'ın emirlerine uyup yasaklarından sakınarak sorumluluk bilinciyle yaşamak demektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kur'an'da samimiyet, içtenlik ve ibadetlerde yalnız Allah'ın rızasını gözetmeyi ifade eden temel kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İhsan",
+                    "İtminan",
+                    "İhlas",
+                    "İstikamet"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İhlas, her türlü riyadan (gösterişten) ve çıkar ilişkisinden uzaklaşarak dini yalnız Allah'a has kılmak ve sadece O'nun rızasını gözetmektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'infak' kavramının anlamlarından biri değildir?",
+                  "options": [
+                    "Yoksulları gözeterek toplumsal yardımlaşmayı sağlamak",
+                    "Sadece farz olan zekat ibadetini yerine getirmek",
+                    "Maddi imkanları Allah yolunda harcamak",
+                    "İhtiyaç sahiplerine yardımda bulunmak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnfak geniş kapsamlı bir yardımlaşma kavramıdır; sadece farz olan zekatı değil, gönüllü olarak yapılan her türlü maddi ve manevi harcamayı kapsar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dinî terminolojide 'hak yol' veya 'doğruluk' üzere dosdoğru yaşamak, istikrar göstermek anlamına gelen Kur'anî kavram hangisidir?",
+                  "options": [
+                    "Tövbe",
+                    "İbadet",
+                    "Sabır",
+                    "İstikamet"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İstikamet, inançta ve ibadette doğruluk üzere olmak, her türlü aşırılıktan kaçınarak dosdoğru bir çizgi izlemek demektir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Allah yolunda yapılan her türlü harcamayı, maddi ve manevi yardımı ifade eden Kur'anî kavram ____ olarak adlandırılır.",
+                  "options": [
+                    "infak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnfak, kişinin Allah'ın rızasını kazanmak için kendi servetinden ihtiyaç sahiplerine harcama yapması demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanın işlediği günahlardan pişmanlık duyarak bir daha yapmamaya karar vermesine ____ denir.",
+                  "options": [
+                    "tövbe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tövbe, kulun hatasını anladığı an Allah'a yönelerek af dilemesi ve halini düzeltmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sözlükte 'korunmak' anlamına gelen ve dinî terim olarak Allah'a karşı gelmekten sakınma bilincini ifade eden kavram ____ kelimesidir.",
+                  "options": [
+                    "takva"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Takva sahibi mümin, Allah'ın emirlerine saygı duyup yasaklarından titizlikle kaçınan kişidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her türlü gösterişten ve çıkar duygusundan arınarak ibadetleri yalnızca Allah için yapmaya ____ denir.",
+                  "options": [
+                    "ihlas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İhlas, yapılan amellerin samimiyet ölçüsü olup kalbin sadece Allah'a bağlanmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam'da dinin ve adaletin egemen olması, iyiliğin yayılması için maddi ve manevi her türlü gayreti sarf etmeye ____ denir.",
+                  "options": [
+                    "cihad"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cihad, kulun Allah yolunda canıyla, malıyla ve bilgisiyle gösterdiği çaba ve mücadelenin genel adıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Hidayet kavramı, yalnızca insanın kendi iradesiyle ulaşabileceği ve Allah'ın müdahalesinin olmadığı bir süreçtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hidayet tamamen Allah'ın lütfu ve yaratmasıyla gerçekleşir; insan ise bu yola girmek için iradesini kullanarak niyet eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Takva sahibi bir insan, sorumluluk bilinciyle hareket ederek haramlardan kaçınır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Takva, Allah'ın emir ve yasaklarına karşı duyarlı olma ve sorumluluk bilinciyle yaşama halidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İhlas, yapılan ibadetlerin başkaları tarafından beğenilmesi için açıktan yapılması gerektiğini savunan bir kavramdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İhlas, gösterişten uzak olmayı ve ibadetleri sadece Allah rızası için gizli ya da açık ama samimi bir şekilde yapmayı ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İnfak kavramı sadece zenginlerin zekat vermesini zorunlu kılan dar kapsamlı bir ibadettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnfak hem zengin hem de dar gelirli her bireyin gücü oranında yapabileceği geniş kapsamlı bir yardımlaşma faaliyetidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cihad kelimesi sadece savaşmak anlamını taşır ve barış dönemlerinde geçerliliğini yitirir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cihad; nefsle mücadele, ilim öğrenme, insanlığa faydalı olma gibi çok geniş bir anlam alanına sahiptir ve her dönemde geçerlidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "İnançla İlgili Meseleler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İnançla İlgili Meseleler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam'da inanç esaslarının temel kaynağı nedir?",
+                  "answer": "Kur'an ve sünnettir."
+                },
+                {
+                  "question": "İmanın 6 şartından ilki nedir?",
+                  "answer": "Allah'a iman."
+                },
+                {
+                  "question": "Kaza ne anlama gelir?",
+                  "answer": "Allah'ın ezelde takdir ettiği şeylerin zamanı gelince yaratılmasıdır."
+                },
+                {
+                  "question": "İslam'da büyük günah işleyen bir kimsenin durumu hakkında Ehl-i sünnet görüşü nedir?",
+                  "answer": "İnkar etmediği sürece dinden çıkmaz, günahkar mümin sayılır."
+                },
+                {
+                  "question": "İman ile amelin ilişkisi nasıldır?",
+                  "answer": "İman kalbin tasdiki, amel ise imanın tamamlayıcısı ve meyvesidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam inanç esaslarının genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Zorlamaya dayalıdır",
+                    "Akıl ve nakil dengesine dayanır",
+                    "Bütündür, bölünmez",
+                    "Sade ve anlaşılırdır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam'da inanç esasları dinde zorlama yoktur ilkesi gereği hür iradeye dayanır, zorlama söz konusu değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Allah'ın ezelde her şeyi bilmesi ve takdir etmesi anlamına gelen kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tevhid",
+                    "Kader",
+                    "Kaza",
+                    "Nübüvvet"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kader, Allah'ın evrendeki her şeyi belli bir ölçü ve düzen içerisinde planlaması ve takdir etmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi inançla ilgili aşırı akımlardan biri olarak değerlendirilemez?",
+                  "options": [
+                    "Mürcie",
+                    "Mutezile",
+                    "Ehl-i Sünnet",
+                    "Cebriye"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ehl-i Sünnet, İslam inanç esaslarında aşırılıklardan uzak, dengeyi savunan ana akım mezheptir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İmanın kalp ile tasdik ve dil ile ikrar edilmesi tanımına göre, kalpteki imanın dışa vurumu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İkrar",
+                    "İsyan",
+                    "Şüphe",
+                    "Cebir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkrar, kişinin kalbiyle onayladığı imanı diliyle sözlü olarak ifade etmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnançta taklidin yerini tahkike bırakması aşağıdakilerden hangisini vurgular?",
+                  "options": [
+                    "İbadetlerin terk edilmesini",
+                    "Şüpheci yaklaşımı",
+                    "Körü körüne inanmayı",
+                    "Delile ve bilgiye dayalı inancı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tahkiki iman, kişinin araştırarak, delilleriyle ve bilerek inşaa ettiği sağlam inanç biçimidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Allah'ın varlığı ve birliği inancına İslam terminolojisinde ____ denir.",
+                  "options": [
+                    "tevhid"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevhid, Allah'ın bir ve tek olduğuna, O'ndan başka ilah bulunmadığına inanmak demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanın iradesini ve seçimlerini tamamen reddederek her şeyi ilahi iradeye bağlayan ekole ____ denir.",
+                  "options": [
+                    "Cebriye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cebriye mezhebi, insanın irade ve ihtiyar sahibi olmadığını, fiillerini mecburiyet altında gerçekleştirdiğini savunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilgi ve delile dayanmadan, çevrenin etkisiyle oluşan inanca ____ iman denir.",
+                  "options": [
+                    "taklidi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taklidi iman, bireyin araştırmadan, büyüklerini taklit ederek benimsediği inanç şeklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam inancına göre peygamberlerin sıfatlarından biri olan ve günahsız olmalarını ifade eden kavram ____ dir.",
+                  "options": [
+                    "ismet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İsmet, peygamberlerin günah işlemekten korunmuş olma özelliğini ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ahiret hayatının başlangıcı olan ve sura ilk kez üflenmesiyle gerçekleşen olay ____ olarak adlandırılır.",
+                  "options": [
+                    "kıyamet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyamet, dünya hayatının sona erip ahiret düzeninin kurulacağı geçiş aşamasıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam'da inanç esasları zamanla toplumsal şartlara göre değişebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam inanç esasları sabittir, zamana, mekana veya toplumsal şartlara göre değişiklik göstermez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tahkiki iman, delile ve bilgiye dayandığı için taklidi imana göre daha sağlamdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tahkiki iman akli ve nakli delillere dayandığı için şüphelerden uzak ve çok daha güçlüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam inancına göre insan, fiillerinde tamamen hürdür ve kendi kaderini kendi yaratır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam'da insan cüzi irade sahibidir ancak her şeyi yaratan ve takdir eden Yüce Allah'tır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mutezile mezhebi, akla büyük önem vermiş ve akıl ile nakil çatıştığında aklı öncelemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutezile kelam ekolü akılcı yönüyle bilinir ve akla atfettiği bu değerle öne çıkmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İman sadece kalple tasdikten ibarettir, dille söylenmesi şart değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ehl-i Sünnet'e göre iman kalp ile tasdik, dil ile ikrardır; imanın dışa yansıması için ikrar da gereklidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Yahudilik ve Hıristiyanlık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Yahudilik ve Hıristiyanlık",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yahudilikte inancın esaslarını belirleyen 13 maddelik ilkenin yazarı kimdir?",
+                  "answer": "Musa ibn Meymun (Maimonides)"
+                },
+                {
+                  "question": "Hz. İsa'nın doğumunu, yaşamını, çarmıha gerilişini ve dirilişini anlatan dört temel İncil hangileridir?",
+                  "answer": "Matta, Markos, Luka, Yuhanna"
+                },
+                {
+                  "question": "Yahudilikte ibadethanelere ne ad verilir?",
+                  "answer": "Sinagog veya Havra"
+                },
+                {
+                  "question": "Hıristiyanlıkta temel inanç esaslarını belirleyen ve Hz. İsa'nın tanrılığını vurgulayan ilk evrensel konsil hangisidir?",
+                  "answer": "İznik Konsili"
+                },
+                {
+                  "question": "Yahudiliğin temel kutsal kitabı olan Tora hangi kitaplardan oluşur?",
+                  "answer": "Yaratılış, Mısırdan Çıkış, Levililer, Sayılar ve Tekrarlanan Yasa"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Yahudiliğin temel inanç esaslarından biri olarak kabul edilmez?",
+                  "options": [
+                    "Hz. Muhammed'in son peygamber olduğuna inanmak",
+                    "Tanrı'nın birliğine inanmak",
+                    "Tora'nın ilahi kaynaklı olduğuna inanmak",
+                    "Mesih'in geleceğine inanmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yahudilikte Hz. Muhammed peygamber olarak kabul edilmez; dolayısıyla bu ilke Yahudiliğin inanç esasları arasında yer almaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hıristiyanlıkta aslî günah (Adem'in işlediği suç) inancını ortadan kaldırmak ve kişiyi arındırmak amacıyla yapılan temel sakrament (ayin) hangisidir?",
+                  "options": [
+                    "Komünyon",
+                    "Evlilik",
+                    "Vaftiz",
+                    "Günah Itirafı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Vaftiz, kişinin su ile yıkanarak aslî günahtan arındırılmasını ve kilise topluluğuna katılmasını simgeleyen temel bir sakramentstir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yahudilikte kutsal kabul edilen ve her hafta cumartesi günleri kutlanan dinlenme günü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Pesah",
+                    "Hanuka",
+                    "Yom Kipur",
+                    "Şabat"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Şabat, Yahudilikte haftanın yedinci günü olan cumartesi gününü ifade eder ve bu günde dinlenme emri uygulanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hıristiyan mezheplerinden Katolikliğin dini ve idari merkezi hangi şehirdir?",
+                  "options": [
+                    "İstanbul",
+                    "Londra",
+                    "Cenevre",
+                    "Vatikan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Katolik Kilisesi'nin ruhani lideri Papa'nın ikamet ettiği ve merkezi olan yer İtalya sınırları içindeki Vatikan'dır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hz. İsa'nın havarileri tarafından yazılan ve Hıristiyan kutsal kitabının Yeni Ahit bölümünü oluşturan metinlere ne ad verilir?",
+                  "options": [
+                    "İncil",
+                    "Talmud",
+                    "Zebur",
+                    "Tora"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeni Ahit'in ilk dört bölümünü oluşturan ve Hz. İsa'nın hayatını anlatan metinler İncil olarak adlandırılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yahudilerin kutsal kitabının ilk beş kitabından oluşan külliyata ____ denir.",
+                  "options": [
+                    "Tora"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tora, Yahudilikte Musa'ya verilen beş kitabı kapsayan yazılı yasadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hıristiyanlıkta ekmek ve şarabın Hz. İsa'nın bedenini ve kanını temsil ettiği ayine ____ denir.",
+                  "options": [
+                    "Komünyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Komünyon (Ekümenik Paylaşım ya da Efkaristiya), son akşam yemeğini anmak için yapılan temel bir Hıristiyanlık ayinidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yahudilikte Mısır'dan çıkış olayını ve esaretten kurtuluşu anmak için kutlanan bayrama ____ bayramı denir.",
+                  "options": [
+                    "Pesah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pesah, Yahudi halkının Mısır'daki kölelikten kurtuluşunu simgeleyen önemli bir bayramdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Protestanlık mezhebinin kurucusu olarak kabul edilen Alman din adamı ____ Luther'dir.",
+                  "options": [
+                    "Martin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Martin Luther, 16. yüzyılda Reform hareketini başlatarak Protestanlığın temellerini atan Alman teologdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. İsa'nın doğduğu yer olarak kabul edilen şehir ____ şehridir.",
+                  "options": [
+                    "Beytüllahim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hıristiyan inancına göre Hz. İsa Batı Şeria'daki Beytüllahim (Bethlehem) şehrinde dünyaya gelmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yahudilik, ırki temele dayanan ve genellikle ihtida (sonradan din değiştirme) yoluyla üye kabul etmeyen millî bir dindir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yahudilikte soy anneden geçer ve geleneksel olarak misyonerlik faaliyeti yapılmaz, bu nedenle millî bir din olarak kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ortodoksluk mezhebi, ruhani lider olarak Roma Papası'nı tanır ve Latin alçakgönüllülüğünü savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ortodoksluk mezhebi Papa'nın otoritesini reddeder; her ülkenin kendi patrikliği tarafından yönetilir ve merkezleri İstanbul'daki Fener Rum Patrikhanesi'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hıristiyan inancının merkezinde Tanrı'nın baba, oğul ve kutsal ruhtan oluşan üçlü birliğe (Teslis) sahip olduğu inancı yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teslis inancı, Hıristiyanlığın en temel dogmatik inanç esaslarından biridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Talmud, Yahudiliğin sadece yazılı yasalarından oluşan ve başka hiçbir yorum içermeyen tek kitaptır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Talmud, Tora'nın sözlü yorumlarını ve hahamların fıkhi tartışmalarını içeren geniş bir külliyattır, sadece yazılı yasadan ibaret değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Protestanlık, 16. yüzyıldaki Reform hareketleri sonucunda Katolik Kilisesi'ne tepki olarak ortaya çıkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Martin Luther öncülüğünde gelişen Reform süreci, Katolik Kilisesi'nin uygulamalarına karşı çıkarak Protestan mezhebinin doğmasına yol açmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "İslam ve Bilim",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İslam ve Bilim",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam medeniyetinde bilimsel çalışmaların temel motivasyonu nedir?",
+                  "answer": "Evreni anlamak, Allah'ın yarattığı ayetleri incelemek ve insanın dünya ile ahiret saadetini sağlamaktır."
+                },
+                {
+                  "question": "Müslüman bilginlerin bilgiye ulaşmada kullandığı en temel iki kaynak nedir?",
+                  "answer": "Nakil (vahiy) ve akıl (gözlem ve deney)."
+                },
+                {
+                  "question": "Endülüs'te yetişen ve Aristoteles felsefesini İslam dünyasına tanıtan ünlü filozof kimdir?",
+                  "answer": "İbn Rüşd"
+                },
+                {
+                  "question": "Optik biliminin kurucusu kabul edilen ve görme teorisini açıklayan İslam alimi kimdir?",
+                  "answer": "İbnül Heysem"
+                },
+                {
+                  "question": "Coğrafya alanında dünyanın çevresini hesaplayan ve haritacılığa katkı sağlayan alim kimdir?",
+                  "answer": "Biruni"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki İslam alimlerinden hangisi tıp alanında yazdığı 'El-Kanun fi't-Tıp' adlı eseriyle tanınır?",
+                  "options": [
+                    "Harezmi",
+                    "İbn Sina",
+                    "Farabi",
+                    "Kindi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İbn Sina, tıp alanındaki çalışmaları ve Batı'da 'Avicenna' olarak bilinen 'El-Kanun fi't-Tıp' eseriyle ün kazanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Matematikte 'sıfır' rakamını ve cebir bilimini sistemleştiren İslam alimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Biruni",
+                    "Harezmi",
+                    "İbn Haldun",
+                    "Razi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Harezmi, cebir kelimesini literatüre kazandırmış ve sıfır sayısının matematiksel kullanımını geliştirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam medeniyetinde bilimin gelişiminde kurumsal olarak ilk öncü rolü oynayan yapı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Rasathane",
+                    "Beytülhikme",
+                    "Medrese",
+                    "Darüşşifa"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bağdat'ta kurulan Beytülhikme, tercüme faaliyetlerinin merkezi olmuş ve İslam'da bilimsel çalışmaların kurumsallaşmasını sağlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İslam ve bilim ilişkisi hakkında söylenebilecek doğru bir ifadedir?",
+                  "options": [
+                    "Müslümanlar bilimsel faaliyetleri sadece batılı devletlerden etkilenerek başlatmıştır.",
+                    "İslam bilimi teşvik etmiş, bilgiye ulaşmada aklı ve gözlemi önemli birer araç saymıştır.",
+                    "İslam dini sadece dini ilimlerle ilgilenmeyi emreder, fen bilimlerini dışlar.",
+                    "Bilgi edinme yollarından biri olan deney ve gözlem İslam bilginleri tarafından reddedilmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam dini akıl yürütmeyi, düşünmeyi ve tabiatı incelemeyi teşvik ettiği için bilimsel çalışmalar İslam medeniyetinde büyük gelişme göstermiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sosyoloji ve tarih felsefesinin kurucusu kabul edilen, 'Mukaddime' adlı eserin yazarı olan İslam alimi kimdir?",
+                  "options": [
+                    "Maturidi",
+                    "Gazali",
+                    "Cabir bin Hayyan",
+                    "İbn Haldun"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İbn Haldun, toplumların doğuşunu, gelişmesini ve çöküşünü incelediği Mukaddime eseriyle sosyoloji biliminin öncüsü olmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Müslümanlarca astronomi alanında gözlem yapmak amacıyla kurulan bilim merkezlerine ____ denir.",
+                  "options": [
+                    "rasathane"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rasathane (Gözlemevi), gök cisimlerini incelemek ve astronomi araştırmaları yapmak için kurulan bilimsel tesistir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam medeniyetinde hastane anlamında kullanılan sağlık ve tedavi kurumlarına ____ adı verilmiştir.",
+                  "options": [
+                    "darüşşifa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Darüşşifalar, hem tıp eğitiminin verildiği hem de hastaların tedavi edildiği İslam hastaneleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kimya biliminin babası kabul edilen, deney ve laboratuvar metodunu geliştiren İslam alimi ____ bin Hayyan'dır.",
+                  "options": [
+                    "Cabir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cabir bin Hayyan, kimyada sistematik deney yöntemini kullanan ilk alimlerdendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kur'an-ı Kerim'de insanları evreni incelemeye ve düşünmeye yönlendiren ayetlerde sıkça geçen kavramlardan biri aklın kullanılması yani ____ edilmesidir.",
+                  "options": [
+                    "tefekkür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tefekkür, Allah'ın yarattığı kainatı ve varlıkları derinlemesine düşünerek ibret ve bilgi elde etmektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Optik alanındaki çalışmalarıyla bilinen ve fotoğraf makinesinin atası olan karanlık odayı bulan alim ____ Heysem'dir.",
+                  "options": [
+                    "İbnül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İbnül Heysem, ışığın yayılması ve görme olayı üzerine yaptığı deneylerle modern optiğin temellerini atmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam medeniyetinde bilim ve din asla çatışmamış, aksine birbirini destekleyen iki unsur olarak görülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam dini okumayı, araştırmayı ve akletmeyi emrettiği için bilgi ile din arasında bir çatışma olmamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Müslüman alimler bilimsel çalışmaları yalnızca kendi medeniyetleriyle sınırlı tutmuş, diğer kültürlerin birikimlerini reddetmişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Müslümanlar Hint, Yunan, Pers ve Mezopotamya medeniyetlerinin bilimsel birikimlerini tercüme ederek üzerine yeni katkılar yapmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Harezmi, sıfır rakamını matematik literatürüne kazandıran ve cebir alanında eser veren önemli bir İslam bilginidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Harezmi'nin cebir üzerine yazdığı eserler yüzyıllarca Avrupa üniversitelerinde ders kitabı olarak okutulmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam'da bilgi sadece dini bilgiden ibarettir; fen ve sosyal bilimlerle ilgilenmek dinen yasaklanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslamiyet faydalı olan her ilmi (fenni, sosyal, dini) teşvik etmiş ve ilim öğrenmenin kadın erkek her Müslümana farz olduğunu belirtmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Biruni, yer çekimi kanununu ve dünyanın kendi ekseni etrafında döndüğünü Newton'dan centuries önce tartışmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Biruni ve diğer bazı İslam alimleri yer çekimi ve dünyanın hareketi gibi konularda öncü fikirler ortaya koymuşlardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Anadolu’da İslam",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anadolu’da İslam",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Anadolu'nun Türkleşmesi ve İslamlaşmasında önemli rol oynayan Horasan erenlerinin öncülerinden biri kimdir?",
+                  "answer": "Ahmet Yesevi"
+                },
+                {
+                  "question": "Hacı Bektaş Veli'nin temel eserinin adı nedir?",
+                  "answer": "Makalat"
+                },
+                {
+                  "question": "Mevlana Celaleddin-i Rumi'nin mesnevisi hangi dilde kaleme alınmıştır?",
+                  "answer": "Farsça"
+                },
+                {
+                  "question": "Yunus Emre'nin şiirlerini topladığı ünlü eserinin adı nedir?",
+                  "answer": "Divan"
+                },
+                {
+                  "question": "Ahilik teşkilatının kurucusu ve piri olarak kabul edilen şahsiyet kimdir?",
+                  "answer": "Ahi Evran"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Anadolu'da İslamiyetin yayılmasında ve tasavvufi düşüncenin yerleşmesinde büyük katkısı olan, 'Makalat' adlı eserin yazarı olan Türk düşünür kimdir?",
+                  "options": [
+                    "Mevlana Celaleddin-i Rumi",
+                    "Hacı Bektaş Veli",
+                    "Yunus Emre",
+                    "Sarı Saltuk"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Makalat, tasavvufi düşüncenin Anadolu'da yayılmasında önemli bir kılavuz olan Hacı Bektaş Veli tarafından yazılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Esnaf ve sanatkarları ahlaki, dini ve mesleki açıdan eğiten, aynı zamanda sosyal dayanışmayı sağlayan teşkilat aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Medrese",
+                    "Ahilik",
+                    "Tekke",
+                    "İmarethane"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahi Evran tarafından kurulan Ahilik teşkilatı, esnaf ve sanatkarları hem mesleki hem de ahlaki yönden yetiştirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Anadolu'da tasavvuf anlayışının yayılmasına öncülük eden şahsiyetlerden biri değildir?",
+                  "options": [
+                    "Farabi",
+                    "Hacı Bayram-ı Veli",
+                    "Yunus Emre",
+                    "Mevlana"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi, İslam felsefesi alanında (Meşaiyye okulunda) öne çıkmış bir filozofdur; tasavvufi bir tarikat kurucusu veya Anadolu erenlerinden değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anadolu'nun manevi fethinde önemli rol oynayan ve şiirleriyle halkın gönlünde taht kuran 'Bizim Yunus' olarak bilinen halk ozanı kimdir?",
+                  "options": [
+                    "Yunus Emre",
+                    "Aşık Paşa",
+                    "Kaygusuz Abdal",
+                    "Pir Sultan Abdal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yunus Emre, tasavvufi halk şiirinin en önemli temsilcisi olup Türkçeyi sade ve etkili bir şekilde kullanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ahmed Yesevi'nin hikmetlerinin derlendiği ve Türk-İslam edebiyatının ilk örneklerinden kabul edilen eser hangisidir?",
+                  "options": [
+                    "Atabetü'l-Hakayık",
+                    "Divan-ı Hikmet",
+                    "Divan-ı Lügati't-Türk",
+                    "Kutadgu Bilig"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan-ı Hikmet, Ahmet Yesevi'nin şiirlerini ve tasavvufi görüşlerini içeren, Anadolu'daki tasavvufun temellerini oluşturan eserdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Anadolu'da tasavvuf kültürünün temellerini atan ve 'Hikmet' adı verilen şiirleriyle bilinen Türk düşünür Ahmet _____'dir.",
+                  "options": [
+                    "Yesevi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Yesevi, Yesi şehrinde yetişmiş ve düşünceleri öğrencileri vasıtasıyla Anadolu'ya taşınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mevlana Celaleddin-i Rumi'nin düşüncelerinin merkezinde yer alan ve ilahi aşkı simgeleyen kavram _____ olarak adlandırılır.",
+                  "options": [
+                    "segi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mevlana'nın öğretisi hoşgörü ve tüm insanlığı kucaklayan ilahi aşk temeline dayanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anadolu'da hem esnaf teşkilatlanmasını sağlayan hem de dürüstlük ve yardımseverliği ilke edinen kurum _____ teşkilatıdır.",
+                  "options": [
+                    "Ahilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahilik, ticari faaliyetlerin yanı sıra ahlaki ve sosyal dayanışmayı da esas almıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hacı Bektaş Veli'nin insanı sevmeyi, hoşgörüyü ve birliği öğütleyen düşünce sistemi ____ gelenegi içinde önemli bir yer tutar.",
+                  "options": [
+                    "Bektaşilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacı Bektaş Veli'nin öğretileri zamanla Bektaşilik tarikatının temelini oluşturmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yunus Emre'nin şiirlerinde işlediği en temel tema insan sevgisi ve Allah _____'dir.",
+                  "options": [
+                    "aşkı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yunus Emre şiirlerinde yaratılanı Yaradan'dan ötürü sevme anlayışını ve ilahi aşkı işlemiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Anadolu'nun İslamlaşmasında sadece askeri fetihler etkili olmuş, tasavvuf erlerinin ve dervişlerin hiçbir katkısı olmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Anadolu'nun İslamlaşmasında Horasan erenleri ve dervişlerin barışçıl tebliğ faaliyetleri en az askeri fetihler kadar etkili olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahilik teşkilatı, esnaf ve sanatkarların hem mesleki eğitim almasını hem de ahlaki olgunluğa ulaşmasını amaçlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahilik, el sanatları ile ahlaki değerleri birleştirerek örnek bir esnaf yapısı oluşturmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mevlana Celaleddin-i Rumi, eserlerini Arapça ve Farsça kaleme almış, Türkçeyi hiç kullanmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mevlana Farsça eserler yazmakla birlikte, şiirlerinde zaman zaman Türkçe kelimelere ve beyitlere de yer vermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hacı Bektaş Veli, Anadolu'da sevgi, birlik ve hoşgörü anlayışının yayılmasında önemli rol oynamış mutasavvıflardandır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacı Bektaş Veli, öğretileriyle Anadolu halkını birleştirmiş ve tasavvufi düşüncenin yayılmasını sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yunus Emre, Türk diliyle yazdığı ilahileri ve şiirleriyle tasavvuf düşüncesini halkın diline indirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yunus Emre, halkın konuştuğu sade Türkçeyi kullanarak tasavvufi kavramları herkesin anlayabileceği şekilde şiirleştirmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "İslam Düşüncesinde Tasavvufi Yorumlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İslam Düşüncesinde Tasavvufi Yorumlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Tasavvufi düşüncede Allah ile kul arasındaki ilişkinin temel temeli nedir?",
+                  "answer": "Sevgi"
+                },
+                {
+                  "question": "Yesevilik tarikatının kurucusu kimdir?",
+                  "answer": "Hoca Ahmed Yesevi"
+                },
+                {
+                  "question": "Mevlevilik tarikatının temelinde yer alan müzik ve hareketli zikir ritüeline ne ad verilir?",
+                  "answer": "Ayin"
+                },
+                {
+                  "question": "Anadolu'da tasavvufi düşüncenin yayılmasında ve Türkçe eserlerin yazılmasında önemli rol oynayan, Bektaşiliğin piratası kabul edilen şahsiyet kimdir?",
+                  "answer": "Hacı Bektaş Veli"
+                },
+                {
+                  "question": "Vahdet-i vücud anlayışını sistemleştiren en önemli mutasavvıf kimdir?",
+                  "answer": "İbn Arabi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi tasavvufi yorumların (tarikatların) temel amaçlarından biri değildir?",
+                  "options": [
+                    "Ahlakı güzelleştirmek",
+                    "Nefsi terbiye etmek",
+                    "Dünyevi çıkarları en üst düzeye çıkarmak",
+                    "Allah'ın rızasını kazanmak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tasavvufi düşünce dünyevi çıkarları değil, manevi olgunlaşmayı ve Allah sevgisini hedefler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Piri Türkistan olarak bilinen ve Orta Asya'da İslam'ın yayılmasında büyük rol oynayan mutasavvıf kimdir?",
+                  "options": [
+                    "Mevlana Celaleddin-i Rumi",
+                    "Hoca Ahmed Yesevi",
+                    "Yunus Emre",
+                    "Hacı Bektaş Veli"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hoca Ahmed Yesevi Piri Türkistan unvanıyla anılır ve Yesevilik tarikatının kurucusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mevlevilik tarikatının kurucusu ve Mesnevi'nin yazarı olan büyük mutasavvıf aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mevlana Celaleddin-i Rumi",
+                    "Sarı Saltuk",
+                    "Ahi Evran",
+                    "Yunus Emre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mevlana Celaleddin-i Rumi Mevleviliğin kurucusudur ve ünlü Mesnevi eserini kaleme almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anadolu'da esnaf ve sanatkârları ahlaki ve ekonomik açıdan teşkilatlandıran tasavvuf kökenli yapı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tekke",
+                    "Ahilik",
+                    "Medrese",
+                    "İmaret"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahilik teşkilatı, tasavvufi değerlerle mesleki ahlakı birleştiren ve Ahi Evran tarafından kurulan bir sistemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yaratıcı ile yaratılanın birliğini, her şeyin O'nun varlığının bir yansıması olduğunu savunan tasavvufi görüşün adı nedir?",
+                  "options": [
+                    "Vahdet-i vücud",
+                    "Kesret",
+                    "Cebriye",
+                    "Mutezile"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vahdet-i vücud, varlığın birliği anlamına gelir ve tasavvufta Allah'tan başka mutlak varlık olmadığını ifade eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Orta Asya'da Türklerin İslamiyet'i benimsemesinde ve Türk tasavvuf edebiyatının oluşmasında en önemli eserlerden biri Hoca Ahmed Yesevi'nin yazdığı ____ adlı kitaptır.",
+                  "options": [
+                    "Divan-ı Hikmet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hoca Ahmed Yesevi'nin hikmetlerini içeren Divan-ı Hikmet tasavvuf edebiyatının ilk örneklerindendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mevlevilikte dervişlerin sema töreninde giydikleri başlıklarına ____ denir.",
+                  "options": [
+                    "Sikke"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mevlevi dervişlerinin giydiği keçe külah sikke olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tasavvufta insanın nefsinin kötü arzularından arınıp ahlaken olgunlaşması sürecine ____ denir.",
+                  "options": [
+                    "Nefis terbiyesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nefis terbiyesi, tasavvufun temel pratiklerinden biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hacı Bektaş Veli'nin öğretilerinin temelini oluşturan ve insan sevgisini esas alan eseri ____ adını taşır.",
+                  "options": [
+                    "Makalat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makalat, Hacı Bektaş Veli'nin tasavvufi görüşlerini anlattığı en önemli eseridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tasavvufi halk şiirinin en önemli temsilcilerinden biri olan ve Türkçe şiirleriyle tanınan büyük ozan ____ Emre'dir.",
+                  "options": [
+                    "Yunus"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yunus Emre, tasavvuf felsefesini halk dili ve sevgi temasıyla işleyen en büyük Türk ozanıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tasavvuf, İslam'ın sadece şekilsel ibadetleriyle ilgilenir, ahlaki ve kalbi boyutunu önemsemez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tasavvuf tam aksine İslam'ın ihsan bilinciyle yaşanmasını, ahlakın ve kalbin arındırılmasını hedefler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hoca Ahmed Yesevi'nin görüşleri Yesevilik tarikatı vasıtasıyla Anadolu ve Balkanlar'a kadar yayılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yesevilik dervişleri Yesevi'nin öğretilerini Anadolu ve Balkanlar'a taşıyarak İslam'ın yayılmasında etkili olmuşlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahilik teşkilatı sadece askeri eğitimi hedefleyen bir kurumdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahilik esnaf ve sanatkârların hem mesleki hem de ahlaki eğitimini sağlayan bir tasavvuf kökenli esnaf teşkilatıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mevlana Celaleddin-i Rumi'nin öğretileri hoşgörü ve insan sevgisi üzerine kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mevlana 'Ne olursan ol yine gel' anlayışıyla tüm insanları kucaklayan evrensel bir sevgi ve hoşgörü felsefesine sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Vahdet-i vücud inancı, Allah ile kulun tamamen aynı varlık olduğunu ve aralarında hiçbir fark bulunmadığını savunan panteist bir görüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Vahdet-i vücud panteizmden farklıdır; yaratılanların varlığı Hak'tan birer yansıma (gölge varlık) olarak kabul edilir, hulul inancından ayrıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Güncel Dinî Meseleler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Güncel Dinî Meseleler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam dinine göre, tıbbi amaçlı organ nakli hangi şartla caiz görülmüştür?",
+                  "answer": "Zaruret hâli, bağışçının rızası ve tedavinin başka yöntemle mümkün olmaması şartıyla."
+                },
+                {
+                  "question": "Kişinin kendi iradesiyle hayatına son vermesi İslam'da hangi kavramla ifade edilir ve hükmü nedir?",
+                  "answer": "İntihar denir ve büyük günahlardan biri olarak kesinlikle haram kılınmıştır."
+                },
+                {
+                  "question": "Sigara ve uyuşturucu gibi maddelerin dinen yasaklanmasının temel gerekçesi nedir?",
+                  "answer": "Aklı ve bedeni uyuşturarak insan sağlığına ve hayatına zarar vermesidir."
+                },
+                {
+                  "question": "Günümüzde tıp etiği açısından beyin ölümünün gerçekleşmesi hangi durumun başlangıcı kabul edilir?",
+                  "answer": "Biyolojik ölümün gerçekleştiği ve tıbben hayatın sona erdiği an olarak kabul edilir."
+                },
+                {
+                  "question": "İslam'ın ekonomik hayatta faizi yasaklamasının temel hikmeti nedir?",
+                  "answer": "Emeksiz kazancı önlemek ve toplumsal adaleti, yardımlaşmayı sağlamaktır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam dinine göre tıbbi tedaviler kapsamında değerlendirilen ve meşru kabul edilen uygulamalardan biridir?",
+                  "options": [
+                    "Genetik yapıyı insan onurunu zedeleyecek şekilde değiştirmek",
+                    "Hayatı kurtarmak amacıyla yapılan organ nakli",
+                    "İnsanın ömrünü uzatmak için büyü ve benzeri batıl yollara başvurmak",
+                    "Tedavisi mümkün olmayan hastalıkta ötanazi talep etmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hayatı kurtarmak veya sağlığı yeniden kazandırmak amacıyla yapılan organ nakli, uzmanlarca gerekli görüldüğü takdirde dinen caizdir. Diğer seçenekler İslam ahlakına ve fıkhına aykırıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam ahlak ve hukukuna göre, sigara kullanımı için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Doğrudan helal kılınmıştır",
+                    "Zararları bilindiği için mekruh veya tahrimen mekruh kabul edilmiştir",
+                    "İbadetlerin kabulüne hiçbir etkisi yoktur",
+                    "Yalnızca yaz aylarında içilmesi yasaktır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sigaranın insan sağlığına verdiği zararlar tıp otoritelerince kanıtlandığı için İslam alimleri bunun tüketimini dinen sakıncalı (mekruh) veya harama yakın (tahrimen mekruh) görmüşlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi güncel dinî meseleler arasında yer alan tıp etiği konularından biri değildir?",
+                  "options": [
+                    "Zekatın bizzat fakirlere elden dağıtılması",
+                    "Kopya koyun üretimi ve insan klonlama",
+                    "Ötanazi ve yaşam destek ünitesinin durumu",
+                    "Tüp bebek uygulamaları ve üreme sağlığı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zekatın dağıtılması asırlardır süregelen klasik fıkhi ibadetlerdendir. Klonlama, ötanazi ve tüp bebek ise modern tıp ve teknolojinin getirdiği güncel meselelerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sigorta ve finans alanında kullanılan katılım bankacılığı sistemi, temel olarak hangi İslami ilkeye dayanır?",
+                  "options": [
+                    "Spekülatif borsa yatırımları",
+                    "Sabit faizli gelir garantisi",
+                    "Faizsiz kazanç ve kâr-zarar ortaklığı",
+                    "Yalnızca borç verme esası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Katılım bankacılığı faizsiz finans ilkelerine dayanır; paradan para kazanmak yerine ticaret, kâr-zarar ortaklığı ve reel ekonomi esastır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Genetik mühendisliğindeki gelişmelerle birlikte tartışılan insan klonlanması konusu, İslam fıkhı açısından neden reddedilmiştir?",
+                  "options": [
+                    "Teknolojinin pahalı olması",
+                    "İnsan onurunu, nesep bağlarını ve aile kurumunu zedelediği için",
+                    "Yalnızca bitkiler üzerinde uygulanabileceği için",
+                    "Yasal prosedürlerin uzun sürmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnsan klonlanması nesep karışıklığına yol açması, insan onurunu hiçe sayması ve fıtrata müdahale etmesi nedeniyle İslam alimleri tarafından uygun görülmemiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslam dininde kişinin hayatına kendi isteğiyle son vermesini ifade eden yasaklı fiile ____ denir.",
+                  "options": [
+                    "intihar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İntihar, kişinin kendi canına kıyması olup İslam'da büyük günahlar arasında yer alır ve kesinlikle yasaklanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tıbbi zorunluluklar dışında, insan üreme hücrelerinin korunması ve neslin muhafazası açısından ____ uygulaması dinen haram kabul edilmiştir.",
+                  "options": [
+                    "klonlama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnsan klonlama, nesep yapısını bozduğu ve etik dışı olduğu için İslam fıkhında kesin olarak yasaklanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sigara ve alkol gibi insanın aklını ve sağlığını olumsuz etkileyen maddelerin genel adı ____ olarak adlandırılır.",
+                  "options": [
+                    "bağımlılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağımlılık yapıcı maddeler bireyin hem bedenine hem de iradesine zarar verdiği için İslam'da sakındırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam finans sisteminde faizli işlemlerin yerine geçen ve ticaret ortaklığını esas alan sisteme ____ denir.",
+                  "options": [
+                    "katılım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katılım bankacılığı veya katılım finansı, faizsiz kazanç modelleriyle günümüzde yaygınlaşan bir sistemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tıbben iyileşme ümidi kalmamış bir hastanın hayatının ilaç verilerek sonlandırılması işlemine ____ adı verilir.",
+                  "options": [
+                    "ötanazi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ötanazi, aktif olarak hayatı sonlandırma anlamına geldiği için İslam'da cinayetle eşdeğer tutulmuş ve caiz görülmemiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam dinine göre organ nakli, hayat kurtarmak şartıyla ve belirli kurallar çerçevesinde caiz görülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaruret hâllerinde, bağışçının rızası ve maddi çıkar gözetilmemesi kaydıyla organ nakline izin verilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ötenazi, İslam fıkhına göre hastanın acılarını dindirmek için meşru bir hak olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ötenazi, hayatı sonlandırma anlamı taşıdığı ve 'kasten öldürme' hükmünde olduğu için İslam'da kesinlikle yasaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sigara ve benzeri tütün mamulleri, sağlığa zararlı olduğu bilindiği için dinen haram veya mekruh kategorisinde değerlendirilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beden sağlığını tehlikeye atmak dinen yasak olduğundan, sigara kullanımı zararları sebebiyle sakıncalı bulunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Genetik mühendisliği çalışmaları kapsamında hayvanlar üzerinde yapılan her türlü bilimsel araştırma İslam'da peşinen yasaklanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hayvanlar üzerinde insanlara şifa bulmak veya bilimsel ilerleme sağlamak amacıyla yapılan faydalı araştırmalar zulme varrmamak şartıyla caizdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Katılım bankacılığında esas olan, parasal fonların faizli sistem yerine ticaret ve üretim yoluyla değerlendirilmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katılım bankaları faizsiz finansal enstrümanlar kullanarak kâr-zarar ortaklığı prensibiyle faaliyet gösterir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Hint ve Çin Dinleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Hint ve Çin Dinleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

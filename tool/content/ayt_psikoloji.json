@@ -1,0 +1,1910 @@
+{
+  "subjectKey": "ayt_psikoloji",
+  "title": "AYT Psikoloji",
+  "examType": "YKS",
+  "subject": "Psikoloji",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Psikoloji Bilimine Giriş",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Psikolojinin Tarihi ve Alanları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Psikolojinin konusu nedir?",
+                  "answer": "İnsan ve hayvan davranışları ile zihinsel süreçlerdir."
+                },
+                {
+                  "question": "Yapısalcılık (Strüktüralizm) akımının kurucusu kimdir?",
+                  "answer": "Wilhelm Wundt"
+                },
+                {
+                  "question": "Psikolojide gözlemlenebilir davranışları inceleyen yaklaşım hangisidir?",
+                  "answer": "Davranışsal Yaklaşım (Behaviorizm)"
+                },
+                {
+                  "question": "Bireyin kendini gerçekleştirmesini savunan ekol hangisidir?",
+                  "answer": "Hümanist (Insancıl) Yaklaşım"
+                },
+                {
+                  "question": "Klinik psikoloji ile psikiyatri arasındaki temel fark nedir?",
+                  "answer": "Psikiyatristler tıp eğitimi almıştır ve ilaç yazabilir, klinik psikologlar ise psikoloji eğitimi almıştır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki yaklaşımlardan hangisi insan zihnini parçalara ayırarak incelemeyi ve bilincin yapısını 'içe bakış' yöntemiyle araştırmayı hedeflemiştir?",
+                  "options": [
+                    "Gestalt",
+                    "Hümanizm",
+                    "Yapısalcılık",
+                    "İşlevselcilik"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yapısalcılık (Strüktüralizm), Wundt ve Titchener öncülüğünde zihnin yapı taşlarını içe bakış yöntemiyle incelemeyi amaçlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bireyin davranışlarını açıklarken bilinçdışı süreçleri, çocukluk yaşantılarını ve bastırılmış dürtüleri temel alan yaklaşım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Davranışsal yaklaşım",
+                    "Psikoanalitik yaklaşım",
+                    "Biyolojik yaklaşım",
+                    "Bilişsel yaklaşım"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sigmund Freud'un kurucusu olduğu psikoanalitik yaklaşım, bilinçdışı ve çocukluk dönemi yaşantılarının insan davranışları üzerindeki etkisini vurgular.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir psikoloğun, bireylerin IQ testlerinden aldıkları puanlar ile akademik başarıları arasındaki ilişkiyi incelediği araştırma yöntemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Deney",
+                    "Korelasyon",
+                    "Doğal gözlem",
+                    "Vaka incelemesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Korelasyonel araştırma iki veya daha fazla değişken arasındaki ilişkiyi ve bu ilişkinin yönü ile miktarını incelemek için kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki psikoloji alt dallarından hangisi doğrudan bireyin çalışma yaşamı, iş verimliliği ve personel seçimi ile ilgilenir?",
+                  "options": [
+                    "Endüstri ve Örgüt psikolojisi",
+                    "Klinik psikoloji",
+                    "Sosyal psikoloji",
+                    "Gelişim psikolojisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Endüstri ve örgüt psikolojisi, iş yerindeki insan davranışlarını, çalışan verimliliğini, iş tatminini ve doğru personel seçimini inceler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gestalt psikolojisi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+                  "options": [
+                    "Bütün, parça toplamından farklı ve büyüktür.",
+                    "Önemli olan bilinçdışı çatışmalardır.",
+                    "Zihin doğuştan boş bir levhadır.",
+                    "Davranışlar sadece ödül ve ceza ile açıklanır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gestalt ekolü, bütünün parçaların toplamından ayrı bir anlamı olduğunu ve zihnin uyarıcıları bir bütün olarak algıladığını savunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Psikolojinin bir bilim dalı haline gelmesi, Wilhelm Wundt'un 1879 yılında ilk psikoloji ____ kurmasıyla gerçekleşmiştir.",
+                  "options": [
+                    "laboratuvarını"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Wilhelm Wundt, Leipzig Üniversitesinde ilk psikoloji laboratuvarını kurarak psikolojinin felsefeden ayrılarak bağımsız bir bilim olmasını sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uyarıcı ile tepki arasında bağ kurarak davranışı inceleyen, John Watson ve B.F. Skinner'ın öncülük ettiği akım ____ yaklaşımıdır.",
+                  "options": [
+                    "davranışsal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Davranışsal yaklaşım, gözlenebilir ve ölçülebilir davranışları incelemiş; öğrenmenin uyarıcı-tepki bağıyla gerçekleştiğini savunmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki değişken arasındaki artış veya azalış yönündeki birlikte değişimi inceleyen araştırma yöntemine ____ denir.",
+                  "options": [
+                    "korelasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Korelasyon, iki değişken arasında ilişki olup olmadığını gösterir ancak nedensellik ilişkisi kurmaz.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin doğum öncesinden ölümüne kadar geçirdiği fiziksel, bilişsel ve sosyal değişimleri inceleyen alt dal ____ psikolojisidir.",
+                  "options": [
+                    "gelişim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelişim psikolojisi, insan yaşam boyu gelişim evrelerini ve bu evrelerde görülen değişimleri inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Algı, bellek, düşünme ve problem çözme gibi zihinsel süreçleri inceleyen psikoloji yaklaşımı ____ yaklaşımdır.",
+                  "options": [
+                    "bilişsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilişsel yaklaşım, bireyin bilgiyi nasıl işlediğini, algıladığını ve hatırladığını inceleyen zihinsel süreçlere odaklanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Wilhelm Wundt tarafından kurulan yapısalcılık ekolü, 'içe bakış' yöntemini kullanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yapısalcılık ekolü, bireylerin kendi zihinsel süreçlerini inceleyip rapor etmelerini sağlayan içe bakış yöntemini benimsemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Korelasyonel araştırmalarda kesin bir neden-sonuç ilişkisi kurulabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Korelasyon sadece iki değişken arasındaki ilişkiyi gösterir; nedensellik kurmak için deney yöntemi kullanılmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hümanist yaklaşım, insanı makine gibi gören ve tamamen çevre tarafından kontrol edildiğini savunan bir ekoldür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hümanist yaklaşım insanı özgür iradeye sahip, kendine özgü ve potansiyeli olan bir varlık olarak görür; mekanistik görüşe karşı çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Biyolojik yaklaşım, davranışların temelinde beyin yapıları, sinir sistemi ve hormonların olduğunu savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Biyolojik yaklaşım nörolojik süreçlerin, genetiğin ve hormonların davranışlar üzerindeki etkisini inceler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eğitim psikolojisi, okul ortamındaki öğrenme süreçlerini ve öğrenci başarısını artırma yöntemlerini inceler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eğitim psikolojisi, eğitim ortamlarında öğrenmenin nasıl gerçekleştiğini ve öğrenme verimliliğini artırma yollarını araştırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Psikolojide Araştırma Yöntemleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Psikolojide bir değişkenin diğer değişken üzerindeki etkisini incelemek amacıyla kurulan, koşulların araştırmacı tarafından kontrol edildiği yöntem hangisidir?",
+                  "answer": "Deney yöntemi"
+                },
+                {
+                  "question": "İki veya daha fazla değişken arasındaki birlikte değişimi ve bu değişkenler arasındaki ilişkinin yönü ile miktarını gösteren istatistiksel yöntem hangisidir?",
+                  "answer": "Korelasyon (bağıntı)"
+                },
+                {
+                  "question": "Bireylerin günlük yaşam ortamlarında davranışlarının hiç müdahale edilmeden, dışarıdan izlenerek kaydedildiği araştırma yöntemi hangisidir?",
+                  "answer": "Doğal gözlem"
+                },
+                {
+                  "question": "Bir bireyin geçmişini, zihinsel durumunu, ailesini ve çevresini derinlemesine ve ayrıntılı olarak inceleyen araştırma yöntemi hangisidir?",
+                  "answer": "Örnek olay incelemesi (Vaka çalışması)"
+                },
+                {
+                  "question": "Araştırmacının kontrolü altında değişen, bağımlı değişkeni etkileyen ana etkene ne ad verilir?",
+                  "answer": "Bağımsız değişken"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir araştırmacı, uykusuzluğun öğrencilerin sınav başarıları üzerindeki etkisini incelemek istemektedir. Bu araştırmada bağımsız değişken aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Uykusuzluk süresi",
+                    "Öğrencilerin yaşları",
+                    "Sınavın zorluk derecesi",
+                    "Öğrencilerin sınav başarıları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Araştırmada etkisi incelenen, araştırmacının manipüle ettiği veya durumunu ele aldığı faktör bağımsız değişkendir. Burada başarıyı etkilemesi beklenen uykusuzluk süresi bağımsız değişkendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Korelasyon katsayısı +1.00 ile -1.00 arasında değerler alır. Aşağıdaki korelasyon değerlerinden hangisi iki değişken arasında en güçlü ters yönlü (negatif) ilişkiyi gösterir?",
+                  "options": [
+                    "-0.20",
+                    "0.00",
+                    "-0.90",
+                    "+0.85"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Korelasyon katsayısının mutlak değerce 1'e yaklaşması ilişkinin gücünü artırır; eksi (-) işareti ise ilişkinin ters yönlü olduğunu gösterir. Buna göre -0.90 en güçlü negatif ilişkidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki araştırma yöntemlerinden hangisi neden-sonuç ilişkisini doğrudan kanıtlamaya en elverişlidir?",
+                  "options": [
+                    "Doğal gözlem",
+                    "Anket",
+                    "Deney",
+                    "Korelasyon"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Deney yöntemi, değişkenlerin kontrol altında tutulması ve bağımsız değişkenin bağımlı değişken üzerindeki etkisinin doğrudan gözlenmesi nedeniyle neden-sonuç ilişkisini kurabilen tek yöntemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir araştırmada örneklemin evreni temsil edebilmesi için en önemli koşul aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Örneklem sayısının sabit tutulması",
+                    "Araştırmacının tanıdığı kişilerden oluşması",
+                    "Örneklem grubunun yansız (rastgele) olarak seçilmesi",
+                    "Gönüllü deneklerin sayıca az olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Evrenden seçilen örneklemin evrenin özelliklerini doğru yansıtabilmesi ve genelleme yapılabilmesi için bireylerin yansız (rastgele) yöntemle seçilmesi şarttır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Deney grubuna yeni bir öğretim yöntemi uygulanmış, kontrol grubuna ise hiçbir müdahalede bulunulmamıştır. Araştırma sonunda kontrol grubunun başarı düzeyinin de beklenenden yüksek çıktığı görülmüştür. Bu durum aşağıdakilerden hangisiyle açıklanabilir?",
+                  "options": [
+                    "Korelasyon katsayısı",
+                    "Plasebo etkisi",
+                    "Doğal gözlem",
+                    "Vaka çalışması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Deneyde yer aldığını bilen kontrol grubu üyelerinin kendilerine bir müdahale yapıldığı beklentisiyle performanslarında artış göstermesi plasebo etkisi olarak adlandırılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Deney grubunda bağımsız değişkenin etkisiyle ortaya çıkan veya değişen duruma ____ denir.",
+                  "options": [
+                    "bağımlı değişken"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağımlı değişken, bağımsız değişkene bağlı olarak değişen ve araştırmada ölçülmek istenen sonuçtur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Araştırmacının konuyla ilgili bireylere yazılı olarak sorular yönelterek bilgi topladığı yönteme ____ denir.",
+                  "options": [
+                    "anket"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anket, çok sayıda kişiden hızlı ve standart şekilde veri toplamak amacıyla hazırlanan soru listeleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aradaki ilişki miktarını gösteren korelasyon katsayısı '0.00' çıktığında değişkenler arasında ____ olmadığını gösterir.",
+                  "options": [
+                    "ilişki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıfır korelasyon, iki değişken arasında doğrusal bir ilişki bulunmadığı anlamına gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Evrenden belirli kurallara göre seçilen ve üzerinde araştırma yapılan küçük gruba ____ denir.",
+                  "options": [
+                    "örneklem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneklem, zaman ve maliyet tasarrufu için tüm evrenin özelliklerini temsil etmesi amacıyla seçilen alt gruptur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki değişkenin aynı yönde birlikte artması veya azalması durumunda ____ korelasyon görülür.",
+                  "options": [
+                    "pozitif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitif korelasyon, değişkenlerin birlikte aynı yönde değişim gösterdiğini ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Korelasyonel araştırmalar iki değişken arasında kesin bir neden-sonuç ilişkisi kurmamızı sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Korelasyon sadece birlikte değişim göstergelerini verir, bir değişkenin diğerine neden olduğunu kanıtlamaz; bunu sadece deney yöntemi sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğal gözlem yönteminde araştırmacı, incelenen bireylerin ortamına hiçbir müdahalede bulunmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal gözlemde bireyler doğal ortamlarında oldukları gibi, dışarıdan müdahale edilmeksizin izlenir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kontrol grubuna, bağımsız değişkenin etkisiyle ilgili herhangi bir uygulama yapılmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kontrol grubu, deney grubundaki değişimin etkisini kıyaslamak amacıyla bağımsız değişkene maruz bırakılmayan gruptur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Örneklem olay incelemelerinde elde edilen sonuçlar her zaman tüm insanlığa genellenebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Örnek olay incelemeleri tek bir birey veya olaya odaklandığı için elde edilen sonuçlar evrene genellenemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Negatif korelasyonda değişkenlerden biri artarken diğeri azalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Negatif (ters yönlü) korelasyonda değişkenler zıt yönlerde değişim gösterir; biri artarken diğeri azalır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Psikolojinin Temel Süreçleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Duyum, Algı ve Dikkat",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Duyum nedir?",
+                  "answer": "Duyu organlarının dış dünyadan ya da bedenin içinden gelen uyarıcılar tarafından uyarılması sürecidir."
+                },
+                {
+                  "question": "Algı nedir?",
+                  "answer": "Duyumlar yoluyla elde edilen verilerin zihin tarafından anlamlandırılması ve yorumlanması sürecidir."
+                },
+                {
+                  "question": "Mutlak eşik nedir?",
+                  "answer": "Bir duyu organının uyarıcılabilmesi için gereken en düşük uyarıcı şiddetidir."
+                },
+                {
+                  "question": "Algıda değişmezlik nedir?",
+                  "answer": "Uyarıcının koşulları değişmesine rağmen (uzaklık, ışık vb.) nesnenin zihnimizde aynı algılanmaya devam etmesidir."
+                },
+                {
+                  "question": "Duyusal uyum (adaptasyon) nedir?",
+                  "answer": "Aynı uyarıcıya uzun süre maruz kalındığında duyarlılığın azalması durumudur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi duyum ile algı arasındaki temel farkı en iyi açıklar?",
+                  "options": [
+                    "Duyum öğrenilmiş davranışlara dayanır, algı ise doğuştandır.",
+                    "Duyum fiziksel bir süreçtir, algı ise psikolojik bir anlamlandırma sürecidir.",
+                    "Algı uyarıcının alınmasıdır, duyum ise onun yorumlanmasıdır.",
+                    "Algı sadece göz ile gerçekleşir, duyum ise tüm vücudu kapsar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Duyum, duyu organlarının uyarıcıyı alması gibi fizyolojik temelli bir süreçtir; algı ise bu verinin beyin tarafından anlamlandırıldığı psikolojik bir süreçtir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karanlık bir sinema salonundan dışarı çıkıldığında gözlerin kamaşması ve bir süre sonra etrafın normal görülmeye başlaması hangi kavramla açıklanır?",
+                  "options": [
+                    "Algısal değişmezlik",
+                    "Duyusal uyum",
+                    "Figür-fon ilişkisi",
+                    "Algısal set"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aynı şiddetteki uyarıcıya sürekli maruz kalma sonucunda duyarlılığın değişmesi veya azalması duyusal uyum (adaptasyon) olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Okumakta olduğumuz bir kitaptaki harflerin arka plandaki kağıttan ayrı olarak dikkatimizi çekmesi hangi algı ilkesiyle ilgilidir?",
+                  "options": [
+                    "Benzerlik ilkesi",
+                    "Figür-fon ilişkisi",
+                    "Yakınlık ilkesi",
+                    "Tamamlama ilkesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Algıda örgütlenme ilkelerinden figür-fon (şekil-zemin) ilişkisi, odaklanılan nesnenin (figür) arka plandan (fon) ayırt edilmesini ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Biri bize doğru yaklaşırken boyunun kısaldığını değil, aynı kaldığını düşünmemiz hangi kavramla açıklanır?",
+                  "options": [
+                    "Derinlik algısı",
+                    "Algısal değişmezlik",
+                    "Duyusal eşik",
+                    "Göz yanılsaması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nesnelerin uzaklık, ışık veya açı değişimlerine rağmen zihnimizde aynı boyut, renk ve şekle sahip olarak algılanmaya devam etmesi algısal değişmezliktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir öğretmenin, başarılı olduğunu bildiği bir öğrencinin sınav kağıdını okurken hatalarını görmezden gelmesi hangi algısal durumu örnekler?",
+                  "options": [
+                    "Duyusal uyum",
+                    "Kinestetik duyu",
+                    "Mutlak eşik",
+                    "Algısal set (beklenti)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Geçmiş deneyimler, motivasyon ve beklentilerin algıyı yönlendirmesi durumu algısal set (beklenti) olarak tanımlanır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir duyu organının uyarılabilmesi için gerekli olan en düşük uyarıcı şiddetine ____ denir.",
+                  "options": [
+                    "mutlak eşik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak eşik, bir duyu organının uyarıcıyı fark edebilmesi için gereken minimum şiddet sınırıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Duyusal organlar aracılığıyla alınan hammaddelerin anlamlandırılması sürecine ____ adı verilir.",
+                  "options": [
+                    "algı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Algı, duyumlar yoluyla elde edilen verilerin beyin tarafından yorumlanarak anlamlı bütünler haline getirilmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı uyarıcıya uzun süre maruz kalındığında duyarlılığın azalması durumuna ____ denir.",
+                  "options": [
+                    "duyusal uyum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Duyusal uyum, sürekli aynı uyarıcıyı alan duyu reseptörlerinin bir süre sonra tepki vermeyi yavaşlatmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gestalt psikologlarına göre bireyin dikkatini yönelttiği nesne ____, geri kalan alan ise fon adını alır.",
+                  "options": [
+                    "figür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şekil-zemin ilişkisinde odaklanılan ana nesne figür, onun gerisinde kalan alan ise fon veya zemin olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geçmiş yaşantıların, beklentilerin ve motivasyonun algıyı etkilemesine ____ denir.",
+                  "options": [
+                    "algısal set"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Algısal set, bireyin önceki deneyimleri ve beklentileri doğrultusunda uyarıcıları belirli bir yönde algılamaya hazır olmasıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Duyum süreci sadece fizyolojik bir olayken, algı süreci psikolojik yorumlama içerir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Duyum duyu organlarının uyarılmasıyla sınırlı fiziksel/fizyolojik bir süreçtir, algı ise bu verinin beyinde anlam kazanmasıyla psikolojiktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mutlak eşiğin altındaki uyarıcılar birey tarafından kesinlikle fark edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mutlak eşiğin altındaki uyarıcılar duyu organları tarafından uyarı yaratsa bile bilinç düzeyinde fark edilemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Algısal değişmezlik sayesinde, uzaktaki bir insan bize küçük görünse de onun aslında küçük olmadığını biliriz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boyut değişmezliği ilkesi gereği, nesnelerin uzaklığı değişse bile zihnimiz onların gerçek boyutunu koruyarak algılar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Duyusal uyum gerçekleştiğinde bireyin o uyarıcıya karşı duyarlılığı artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Duyusal uyumda, aynı uyarıcıya uzun süre maruz kalındığı için duyarlılık artmaz aksine azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dikkat, sınırlı sayıda uyarıcıya odaklanmayı sağlayan seçici bir süreçtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zihnimiz çevredeki tüm uyarıcılara aynı anda odaklanamaz; dikkat sayesinde bunlardan bir kısmı seçilerek işleme alınır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Öğrenme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Öğrenme nedir?",
+                  "answer": "Yaşantı veya öğrenme ürünü olarak organizmanın davranışlarında meydana gelen nispeten kalıcı izli değişmelerdir."
+                },
+                {
+                  "question": "Klasik koşullanma yoluyla öğrenmenin en önemli öncüsü kimdir?",
+                  "answer": "İvan Pavlov"
+                },
+                {
+                  "question": "Edimsel koşullanma kavramını psikolojiye kazandıran bilim insanı kimdir?",
+                  "answer": "B. F. Skinner"
+                },
+                {
+                  "question": "Gözlem yoluyla öğrenme diğer adıyla ne olarak adlandırılır?",
+                  "answer": "Sosyal öğrenme"
+                },
+                {
+                  "question": "Sönme nedir?",
+                  "answer": "Koşullu uyarıcının tek başına verilmeye devam edilmesi sonucunda, koşullu tepkinin zamanla zayıflaması ve ortadan kalkmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir köpeğin başlangıçta sadece et gördüğünde salya akıtırken, etle birlikte zil sesini duyduktan bir süre sonra sadece zil sesine de salya akıtmaya başlaması hangi öğrenme türüdür?",
+                  "options": [
+                    "Klasik koşullanma",
+                    "Gizil öğrenme",
+                    "Edimsel koşullanma",
+                    "Deneme-yanılma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Klasik koşullanma, nötr bir uyarıcının (zil) koysal bir uyarıcıyla (et) eşleştirilmesi sonucu doğal tepkiye benzer bir tepki ortaya çıkarması sürecidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi öğrenilmiş bir davranış olarak kabul edilemez?",
+                  "options": [
+                    "Göz bebeklerinin ışıkta küçülmesi",
+                    "Karanlıktan korkmak",
+                    "Yabancı bir dil konuşmak",
+                    "Bisiklet sürmeyi öğrenmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Göz bebeklerinin ışıkta küçülmesi öğrenmeyle kazanılan bir davranış değil, doğuştan gelen refleksif bir tepkidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir farenin kafesteki mandala basarak yiyecek elde etmeyi zamanla öğrenmesi hangi öğrenme kuramıyla açıklanır?",
+                  "options": [
+                    "Bilişsel öğrenme",
+                    "Edimsel koşullanma",
+                    "Klasik koşullanma",
+                    "Model alarak öğrenme"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Edimsel koşullanma, organizmanın çevreye gösterdiği edimlerin sonuçlarından (ödül veya ceza) etkilenerek davranışta bulunma olasılığının değişmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Trafik kurallarını hiç uygulama fırsatı bulmamış bir kişinin, arabayı ilk kez kullandığında kuralları bildiğini göstermesi hangi öğrenme türüdür?",
+                  "options": [
+                    "Klasik koşullanma",
+                    "Gizil öğrenme",
+                    "Edimsel koşullanma",
+                    "Klasik edim"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gizil (saklı) öğrenme, organizmanın açıkça bir pekiştirme almadan ve davranışa dönüştürmeden çevredeki bilgileri zihnine kaydetmesi durumudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Albert Bandura'nın Bobbe bebek deneyinde çocukların saldırgan yetişkinleri gözlemleyerek benzer davranışlar sergilemesi hangi öğrenme kuramını destekler?",
+                  "options": [
+                    "Bilişsel harita kuramı",
+                    "Edimsel koşullanma kuramı",
+                    "Klasik koşullanma kuramı",
+                    "Sosyal öğrenme kuramı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sosyal öğrenme kuramı, bireylerin başkalarını gözlemleyerek, taklit ederek veya model alarak yeni davranışlar öğrendiğini savunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Pavlov'un deneyinde köpeğin salya akıtmasına sebep olan et doğal olarak bir ____ uyarıcıdır.",
+                  "options": [
+                    "koşulsuz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Et, organizmada herhangi bir öğrenme süreci gerektirmeden doğal olarak tepki oluşturan koşulsuz bir uyarıcıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir davranışın yapılma sıklığını artıran uyarıcılara ____ denir.",
+                  "options": [
+                    "pekiştireç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pekiştireç, davranışın gelecekte tekrarlanma olasılığını ve gücünü artıran uyarıcılardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Daha önce öğrenilen bir bilginin yeni bir bilginin öğrenilmesini zorlaştırmasına ____ engelleme denir.",
+                  "options": [
+                    "geriye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeni öğrenilen bilgilerin eski bilgileri hatırlamayı zorlaştırması geriye dönük engelleme olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Öğrenmenin gerçekleştiğini gösteren ve organizmanın sergilediği davranışa ____ denir.",
+                  "options": [
+                    "tepki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uyarıcılara karşı organizmanın gösterdiği her türlü gözlenebilir ya da ölçülebilir yanıta tepki adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin kendi kendine yeni bir beceriyi tekrar tekrar deneyerek ve hatalarını eleyerek öğrenmesine ____ yoluyla öğrenme denir.",
+                  "options": [
+                    "deneme-yanılma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deneme-yanılma yoluyla öğrenme, Thorndike tarafından vurgulanan, çözüme ulaşana kadar çeşitli hareketlerin denenmesi sürecidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yorgunluk, hastalık veya ilaç alımı gibi geçici durumlar sonucunda davranışlarda görülen değişimler öğrenme olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Öğrenmenin tanımında yer alan değişikliklerin nispeten kalıcı izli olması gerekir; yorgunluk ve hastalık gibi geçici durumlar öğrenme değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Klasik koşullanmada organizma pasifken, edimsel koşullanmada organizma aktiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Klasik koşullanmada uyarıcı tepkiden önce gelir ve birey pasiftir; edimsel koşullanmada ise birey çevreye müdahale eder ve aktiftir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sönme gerçekleştikten sonra koşullu uyarıcı tek başına verilmeye devam edilirse kendiliğinden geri gelme asla görülmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sönmeden bir süre sonra koşullu uyarıcı verilirse, sönen tepki zayıf da olsa yeniden ortaya çıkabilir; buna kendiliğinden geri gelme denir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Genelleme, organizmanın benzer uyarıcılara aynı ya da benzer tepkileri vermesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uyarıcı genellemesi, bireyin koşullandığı uyarıcıya benzeyen diğer uyarıcılara da aynı tepkiyi göstermesi durumudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ceza, istenmeyen davranışı ortadan kaldırmak için kullanılır ve her zaman davranışı tamamen söndürür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ceza davranışı kalıcı olarak yok etmez, sadece geçici olarak baskılar ve yanında çeşitli olumsuz yan etkiler getirebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Bellek",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bilgiyi ilk alan, çevreden gelen uyarıcıların anlık olarak toplandığı bellek türü nedir?",
+                  "answer": "Duyusal bellek"
+                },
+                {
+                  "question": "Kısa süreli belleğin kapasitesi yaklaşık olarak kaç birim bilgidir?",
+                  "answer": "Yedi artı eksi iki"
+                },
+                {
+                  "question": "Bilgilerin kalıcı olarak depolandığı, kapasitesi ve süresi sınırsız olan bellek sistemi hangisidir?",
+                  "answer": "Uzun süreli bellek"
+                },
+                {
+                  "question": "Bilginin uzun süreli belleğe aktarılmasını sağlayan, tekrar ve anlamlandırma işlemlerinin yapıldığı bellek aşaması nedir?",
+                  "answer": "Kısa süreli bellek"
+                },
+                {
+                  "question": "Anıların, geçmişteki yaşantıların ve kişisel deneyimlerin saklandığı uzun süreli bellek türü nedir?",
+                  "answer": "Anısal bellek"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Duyusal belleğe gelen bilgilerin sonraki aşamalara aktarılabilmesi için ilk olarak hangi süreçten geçmesi gerekir?",
+                  "options": [
+                    "Örgütleme",
+                    "Geri getirme",
+                    "Uzun süreli tekrar",
+                    "Dikkat ve algıda seçicilik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Duyusal bellekte çok kısa süre kalan uyarıcılardan sadece dikkati çekenler kısa süreli belleğe aktarılabilir. Bu nedenle ilk adım dikkattir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi uzun süreli belleğin alt türlerinden biri olan ve nasıl bisiklet binileceği gibi becerileri saklayan bellek türüdür?",
+                  "options": [
+                    "Anısal bellek",
+                    "Semantik bellek",
+                    "İşlemsel bellek",
+                    "Duyusal bellek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İşlemsel (prosedürel) bellek, motor becerilerin ve alışkanlıkların saklandığı uzun süreli bellek türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Telefon numarasını aklımızda tutmak için sürekli tekrar etmek hangi bellek türünü aktif olarak kullanır?",
+                  "options": [
+                    "Episodik bellek",
+                    "Kısa süreli bellek",
+                    "Duyusal bellek",
+                    "Örtük bellek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kısa süreli bellek, bilginin kısa süreli tutulduğu ve tekrar edilerek korunduğu yerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Daha önce öğrenilmiş bir bilginin yeni öğrenilen bir bilgiyi olumsuz yönde etkilemesi ve hatırlandırmayı zorlaştırması durumu nedir?",
+                  "options": [
+                    "İleriye doğru ket vurma",
+                    "Öne doğru ket vurma",
+                    "Kodlama hatası",
+                    "Geriye doğru ket vurma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eski bilginin yeni bilgiyi karıştırmasına ileriye doğru ket vurma denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bilgiyi uzun süreli bellekte kodlama yöntemlerinden biri değildir?",
+                  "options": [
+                    "Kodlama",
+                    "Gruplama",
+                    "Anlamlandırma",
+                    "Unutma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Unutma bir kodlama yöntemi değil, bilginin geri getirilememesi veya depodan silinmesi durumudur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Çevreden gelen uyarıcıların duyusal kayıttan sonra kısa süreli belleğe aktarılmasını sağlayan temel süreç ____ olarak adlandırılır.",
+                  "options": [
+                    "dikkat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Duyusal bellekteki devasa bilgi yığınından sadece dikkat edilenler bilinçli farkındalık alanı olan kısa süreli belleğe geçer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kısa süreli bellekteki bilgilerin kapasitesini artırmak için benzer bilgilerin gruplandırılması işlemine ____ denir.",
+                  "options": [
+                    "öbekleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öbekleme (chunking), ayrı ayrı duran unsurları anlamlı gruplar haline getirerek kısa süreli belleğin kapasitesini verimli kullanmayı sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünyanın bilgisi, kurallar, kavramlar ve genel kültürün depolandığı uzun süreli bellek türü ____ bellektir.",
+                  "options": [
+                    "anlamsal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anlamsal (semantik) bellek, dilin kuralları, anlamları ve genel bilgilerin saklandığı yerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeni öğrenilen bir bilginin, daha önce öğrenilmiş eski bir bilgiyi hatırlamayı zorlaştırmasına ____ ket vurma denir.",
+                  "options": [
+                    "geriye doğru"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sonradan öğrenilen bilginin eski bilgiyi engellemesi geriye doğru ket vurma olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uzun süreli bellekte depolanan bilgilerin tekrar bilinç düzeyine çıkarılması sürecine ____ denir.",
+                  "options": [
+                    "geri getirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Depolanan bilginin gerektiğinde hatırlanması ve yeniden kullanılabilmesi geri getirme süreciyle gerçekleşir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Duyusal belleğin kapasitesi sınırlı, süresi ise oldukça uzundur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Duyusal belleğin kapasitesi çok geniş olmasına rağmen süresi milisaniyeler düzeyinde oldukça kısadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kısa süreli bellek, bilginin işlendiği ve 'çalışma belleği' olarak da bilinen bir sistemdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kısa süreli bellek yalnızca depolama yapmaz, aynı zamanda bilginin işlenmesini sağladığı için çalışma belleği olarak da adlandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Anlamsal bellek, kişinin kendi hayatıyla ilgili kişisel anılarını ve olayları depolar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kişisel anıları ve olayları depolayan bellek türü anısal (episodik) bellektir, anlamsal bellek genel bilgileri depolar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uzun süreli belleğin kapasitesi ve bilgiyi saklama süresi sınırsız kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uzun süreli bellek teorik olarak sınırsız kapasiteye ve ömür boyu saklama süresine sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Unutma sadece bilginin uzun süreli bellekten silinmesiyle değil, bazen geri getirme ipuçlarının eksikliği nedeniyle de gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilgi bellekte duruyor olabilir ancak doğru ipucu veya anahtar kelime bulunamadığı için geri getirilemeyebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Düşünme ve Problem Çözme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Düşünme sürecinde kullanılan, bir nesneyi, olayı veya kavramı temsil eden zihinsel yapıya ne ad verilir?",
+                  "answer": "Kavram"
+                },
+                {
+                  "question": "Bir problemi çözmek için akla gelen tüm olası çözümleri sırayla deneme yöntemine ne denir?",
+                  "answer": "Deneme-yanılma"
+                },
+                {
+                  "question": "Mevcut bilgileri kullanarak tek ve doğru bir sonuca ulaşmaya odaklanan düşünme türü hangisidir?",
+                  "answer": "Iraksak olmayan (yakınsak) düşünme"
+                },
+                {
+                  "question": "Var olan kalıpların ve alışılmış çözüm yollarının dışına çıkarak özgün çözümler üretebilme becerisi nedir?",
+                  "answer": "Yaratıcı düşünme"
+                },
+                {
+                  "question": "Bir nesneyi veya aracı sadece klasik işleviyle kullanıp farklı bir amaç için kullanamama durumuna ne ad verilir?",
+                  "answer": "İşlevsel sabitlik"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi problem çözme süreçlerinden biri olan 'kuluçka evresi'nin temel özelliğidir?",
+                  "options": [
+                    "Problemin tüm boyutlarıyla ilk kez fark edilmesi",
+                    "Bilinçli çabanın durdurulup problemin bir süre bilinçaltında işlenmeye bırakılması",
+                    "En uygun çözüm yolunun mantıksal olarak test edilmesi",
+                    "Sonucun doğruluğunun kesin olarak değerlendirilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuluçka evresi, bireyin doğrudan çözüm bulamadığı durumlarda konuyu bir süre zihninden uzaklaştırması ve çözümün genellikle ani bir kavrayışla (ahha deneyimi) belirdiği aşamadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ustanın, tornavidası yanındayken sıkışmış bir somunu açmak için uygun boyutta madeni bir para bulup tornavida yerine kullanması hangi kavramla açıklanır?",
+                  "options": [
+                    "İşlevsel sabitlik",
+                    "Algıda seçicilik",
+                    "Yaratıcı düşünme",
+                    "Tümdengelim"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Parayı olağan işlevi dışında bir amaçla (tornavida gibi) kullanmak işlevsel sabitliği aştığını ve yaratıcı düşünme becerisini gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Genel bir kural veya ilkeden yola çıkarak özel durumlar hakkında sonuca varma akıl yürütme yolu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tümdengelim",
+                    "Benzeşim",
+                    "Tümevarım",
+                    "Sezgi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümdengelim (dedüksiyon), genel bir öncülden özel bir sonuca ulaşma sürecidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir problemin çözümünde bireyin daha önce başarılı olmuş bir yöntemi, yeni ve farklı yapıda bir probleme de aynen uygulamaya çalışması hangi engeli doğurur?",
+                  "options": [
+                    "Zihinsel set (alışkanlık)",
+                    "Iraksak düşünme",
+                    "Öngörü",
+                    "Kuluçka"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zihinsel set veya alışkanlık, bireyin geçmişteki başarılı deneyimlerine körü körüne bağlanması ve yeni durumlara uyum sağlamasını zorlaştırmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tek bir doğru yanıt yerine, bir sorun için olabildiğince çok sayıda farklı ve orijinal fikir üretmeyi içeren düşünme biçimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Analitik düşünme",
+                    "Yansıtıcı düşünme",
+                    "Iraksak düşünme",
+                    "Yakınsak düşünme"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Iraksak (dağılmaz) düşünme, yaratıcılığın temelini oluşturur ve tek bir doğru yerine çok sayıda alternatif fikir üretmeyi amaçlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Parçalardan veya özel durumlardan hareketle genel bir kurala ya da sonuca ulaşma sürecine ____ denir.",
+                  "options": [
+                    "tümevarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümevarım (endüksiyon), tekil gözlemlerden genel yasalara veya kurallara varma mantıksal akıl yürütme yoludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Düşünmenin en küçük yapı birimi olan ve zihinde genelleştirilmiş nesne veya olay kategorilerini temsil eden öğeye ____ denir.",
+                  "options": [
+                    "kavram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramlar, düşünme eyleminin temelini oluşturur ve dış dünyadaki benzer nesneleri zihnimizde gruplamamızı sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir problemin çözümünün uzun uğraşlar sonucunda ani ve belirgin bir şekilde zihinde belirmesine ____ kavrayış denir.",
+                  "options": [
+                    "içgörülü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İçgörülü öğrenme veya problem çözme, Gestalt psikolojisinde parçalar arasındaki ilişkinin aniden fark edilerek çözümün bulunmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin kendi düşünce süreçlerini fark etmesi, izlemesi ve yönetebilmesi becerisine ____ denir.",
+                  "options": [
+                    "üstbiliş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üstbiliş (metakognisyon), bireyin kendi öğrenme ve düşünme yollarının farkında olması ve bunları denetlemesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeni bir problem durumunda eski alışkanlıkların ve kalıpların dışına çıkamamaya zihinsel ____ adı verilir.",
+                  "options": [
+                    "set"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zihinsel set, geçmiş deneyimlerin yarattığı kalıplar yüzünden bireyin esnek davranamaması ve yeni çözümleri görememesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yaratıcı düşünme süreci sadece üstün zekâlı bireylere özgü olup sonradan geliştirilemez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yaratıcı düşünme doğuştan gelen bazı potansiyellere dayansa da uygun eğitim ve çevre koşullarıyla her bireyde geliştirilebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Algoritmik problem çözme yöntemleri her zaman kesin ve garantili bir sonuca ulaşmayı sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Algoritmalar, adım adım takip edilen kesin kurallar dizisidir ve doğru uygulandığında hatasız sonuca ulaştırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İşlevsel sabitlik, bireylerin yaratıcı problem çözme becerilerini olumlu yönde destekler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İşlevsel sabitlik, nesneleri sadece bilinen amaçlarıyla kullanma eğilimi yarattığı için yaratıcı düşünmeyi ve problem çözmeyi engeller.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kavramlar, dış dünyadaki nesne ve olayların zihnimizdeki soyut ve genelleştirilmiş temsilcileridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramlar sayesinde benzer özellik gösteren uyarıcıları tek bir kategori altında toplayarak zihinsel yükümüzü azaltırız.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Heuristik (sezgisel) yöntemler, karmaşık problemlerde kesin sonuca ulaşmayı garanti eden kurallardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Heuristikler kesin sonuç garantisi vermez; hızlı karar almayı ve tahminde bulunmayı sağlayan pratik yollardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Ruh Sağlığı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Gelişim Psikolojisi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Jean Piaget'nin zihinsel gelişim kuramında soyut işlemler dönemi hangi yaş aralığını kapsar?",
+                  "answer": "11 yaş ve üzeri"
+                },
+                {
+                  "question": "Erik Erikson'un psikososyal gelişim kuramına göre ergenlik döneminde hangi kriz yaşanır?",
+                  "answer": "Kimlik kazanmaya karşı rol karmaşası"
+                },
+                {
+                  "question": "Lawrence Kohlberg'e göre geleneksel öncesi düzeyin ilk evresinde birey neye göre karar verir?",
+                  "answer": "Cezadan kaçınma ve itaatsizlikten sakınma"
+                },
+                {
+                  "question": "John Bowlby'nin bağlanma kuramına göre bebeklerin bakım verenin yokluğunda aşırı tepki verdiği evre hangisidir?",
+                  "answer": "Ayrılık kaygısı"
+                },
+                {
+                  "question": "Lev Vygotsky'nin kuramında bireyin tek başına yapamayacağı ama bir yetişkin rehberliğinde yapabileceği alanı ifade eden kavram nedir?",
+                  "answer": "Yakınsal gelişim alanı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Jean Piaget'ye göre çocukların nesnelerin göz önünden kaybolduklarında bile var olmaya devam ettiğini anladığı bilişsel gelişim evresi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Dönem öncesi dönem",
+                    "Somut işlemler dönemi",
+                    "Duyusal motor dönem",
+                    "Soyut işlemler dönemi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Duyusal motor dönemde bebekler nesne sürekliliği kazanarak nesnelerin görünmeseler de var olduğunu kavrarlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Erik Erikson'un psikososyal gelişim kuramına göre, bebeklik döneminde (0-1 yaş) temel güven duygusunun kazanılmasında en kritik etken aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bakım verenle kurulan tutarlı ve güvenli ilişki",
+                    "Akran gruplarıyla sosyalleşmesi",
+                    "Çocuğun kendi kararlarını alabilmesi",
+                    "Soyut düşünme becerilerinin gelişmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bebeklik döneminde bakım verenin ihtiyaçları tutarlı şekilde karşılaması temel güven duygusunun temelini oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Lawrence Kohlberg'ün ahlak gelişim kuramına göre, toplumsal kurallara ve yasalara uymanın düzeni korumak için gerekli olduğu aşama hangi düzeyde yer alır?",
+                  "options": [
+                    "Geleneksel sonrası düzey",
+                    "Geleneksel öncesi düzey",
+                    "Ön-geleneksel düzey",
+                    "Geleneksel düzey"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kanun ve düzen eğilimi, geleneksel düzeyde yer alır ve toplumsal düzenin korunmasını amaçlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ainsworth'ün 'Yabancı Durum' deneyinde, annesi odadan çıktığında huzursuzlanan ancak annesi döndüğünde onunla kolayca sakinleşip yeniden oyun oynayan bebeklerin sergilediği bağlanma türü hangisidir?",
+                  "options": [
+                    "Güvensiz-kaçınan bağlanma",
+                    "Saplantılı bağlanma",
+                    "Güvensiz-dirençli bağlanma",
+                    "Güvenli bağlanma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Güvenli bağlanma gösteren çocuklar, annenin varlığında güvende hissedip ayrılıkta üzülseler de dönüşte kolayca rahatlarlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Lev Vygotsky'nin gelişim kuramında yer alan ve çocuğun bir yetişkin desteğiyle öğrenebileceği potansiyel düzeyi belirten kavram aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Nesne sürekliliği",
+                    "Korunum ilkesi",
+                    "Yakınsal gelişim alanı",
+                    "Benmerkezcilik"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yakınsal gelişim alanı, çocuğun tek başına yapamayacağı ama rehberlikle başarabileceği beceriler aralığını ifade eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Jean Piaget'nin bilişsel gelişim kuramında çocukların ağırlık, hacim ve uzunluk gibi özelliklerin biçim değiştirse bile korunduğunu anlaması ____ ilkesi olarak adlandırılır.",
+                  "options": [
+                    "korunum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Korunum ilkesi somut işlemler döneminde kazanılır ve maddenin miktarının şekil değiştirmekle değişmeyeceğini kavramaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Erik Erikson'a göre yaşlılık döneminde bireyin geçmişini değerlendirip hayatından memnun olması ____ duygusunu geliştirir.",
+                  "options": [
+                    "benlik bütünlüğü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaşlılık dönemi krizinde birey hayatını olumlu değerlendirirse benlik bütünlüğüne ulaşır, aksi takdirde umutsuzluk yaşar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "John Bowlby'ye göre bebeklerin anne ya da birincil bakım verenle kurduğu duygusal bağa ____ denir.",
+                  "options": [
+                    "bağlanma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağlanma, bebeğin bakım vereniyle kurduğu ve sonraki ilişkilerini etkileyen güçlü duygusal bağdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Piaget'nin erken çocukluk döneminde çocuğun her şeyi kendi bakış açısına göre değerlendirmesi durumuna ____ denir.",
+                  "options": [
+                    "benmerkezcilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benmerkezcilik, işlem öncesi dönemdeki çocuğun başkalarının da farklı bir bakış açısı olabileceğini anlayamamasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gelişim sürecinde biyolojik olarak programlanmış olan belirli davranışların ortaya çıkması için en uygun zaman dilimine ____ dönem denir.",
+                  "options": [
+                    "kritik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kritik dönem, bazı becerilerin kazanılması veya çevresel uyarıcılara duyarlılığın en yüksek olduğu zaman aralığıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Jean Piaget'ye göre nesne sürekliliği becerisi soyut işlemler döneminde kazanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nesne sürekliliği soyut işlemler döneminde değil, erken dönem olan duyusal motor dönemde kazanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Erik Erikson'un kuramında her gelişim döneminin atlatılması gereken psikososyal bir krizi vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erikson, yaşam boyu süren psikososyal gelişim kuramında her dönemin kendine özgü olumlu ve olumsuz bir kriz barındırdığını belirtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geleneksel düzey ahlak gelişiminde birey, kendi evrensel ahlak ilkelerine göre kararlar alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Evrensel ahlak ilkeleri geleneksel sonrası (post-konvansiyonel) düzeyde yer alır, geleneksel düzeyde ise toplumsal onay ve yasa önemlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Lev Vygotsky, bilişsel gelişimde sosyal çevrenin ve kültürün rolünü vurgulamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vygotsky, bilişsel gelişimin bireyler arası sosyal etkileşimler ve kültür aracılığıyla şekillendiğini savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Açlık ve susuzluk gibi biyolojik dürtüler gelişim psikolojisinde psiko-sosyal ihtiyaçlar olarak sınıflandırılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Açlık ve susuzluk biyolojik kökenli fizyolojik ihtiyaçlardır, psikososyal ihtiyaçlar ise sosyal çevreyle ilgilidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kişilik ve Motivasyon",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kişiliğin doğuştan gelen, biyolojik temelli ve mizaç ile yakın ilişkili yönü nedir?",
+                  "answer": "Karakterin biyolojik ve kalıtsal temeli mizaçtır."
+                },
+                {
+                  "question": "Maslow un İhtiyaçlar Hiyerarşisi nde en üst basamakta yer alan motivasyon türü nedir?",
+                  "answer": "Kendini gerçekleştirme"
+                },
+                {
+                  "question": "Bireyin dışarıdan bir ödül veya ceza beklentisi olmaksızın kendi içsel merakı ve ilgisiyle eylemde bulunması ne olarak adlandırılır?",
+                  "answer": "İçsel motivasyon"
+                },
+                {
+                  "question": "Freud un kişilik kuramında ahlaki değerleri ve vicdanı temsil eden yapı hangisidir?",
+                  "answer": "Süperego"
+                },
+                {
+                  "question": "Bireyin çevresine uyum sağlama sürecinde sergilediği tutum ve davranışların kendine özgü ve tutarlı bütününe ne denir?",
+                  "answer": "Kişilik"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Maslow un İhtiyaçlar Hiyerarşisi ne göre fizyolojik ihtiyaçlar arasında yer alır?",
+                  "options": [
+                    "Güvende hissetmek",
+                    "Su içmek",
+                    "Saygınlık kazanmak",
+                    "Kendini gerçekleştirmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fizyolojik ihtiyaçlar yemek, su, uyku gibi hayatta kalmayı doğrudan destekleyen temel biyolojik gereksinimlerdir. Güvenlik ikinci basamakta, saygınlık ve kendini gerçekleştirme ise üst basamaklarda yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sigmund Freud un kişilik kuramına göre gerçeklik ilkesine göre çalışan ve id ile süperego arasında denge kurmaya çalışan yapı hangisidir?",
+                  "options": [
+                    "Süperego",
+                    "Bilinçaltı",
+                    "Ego",
+                    "İd"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ego, dış dünyanın gerçekliklerine göre hareket eden, idin dürtüleri ile süperegonun ahlaki baskıları arasında uzlaşma sağlayan kişilik bileşenidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi içsel motivasyona örnek olarak gösterilebilir?",
+                  "options": [
+                    "Yüksek not almak için ders çalışmak",
+                    "Para kazanmak amacıyla çalışmak",
+                    "Sırf merak ettiği için bir konuyu araştırmak",
+                    "Ceza almamak için kurallara uymak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sırf merak ve öğrenme zevki için araştırma yapmak dışsal bir ödül veya baskı içermediği için içsel motivasyondur. Diğer seçenekler dışsal motivasyon örnekleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kişiliği bireyin doğuştan getirdiği özellikleri ile sonradan kazanılan ahlaki ve sosyal değerlerinin bir bütünü olarak ele alan yaklaşım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Biyolojik yaklaşım",
+                    "Özellik yaklaşımı",
+                    "Psikodinamik yaklaşım",
+                    "Genel kişilik kuramları"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kişilik kuramları, bireyin hem doğuştan gelen mizaç gibi yönlerini hem de sonradan kazandığı karakter özelliklerini bütüncül olarak inceler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi savunma mekanizmalarından biri olan mantığa bürünme (neden bulma) davranışını açıklar?",
+                  "options": [
+                    "Sorunu tamamen yok saymak",
+                    "Suçu başka birine atmak",
+                    "Yaşanan başarısızlığa kabul edilebilir ama gerçek dışı bahaneler üretmek",
+                    "Kabul edilemeyen dürtüleri tam tersi yönde ifade etmek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mantığa bürünme, bireyin başarısızlık ya da hatalı davranışlarını kabul edilebilir ve mantıklı bahanelerle açıklayarak benliğini koruma çabasıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireyin içinden gelen ve onu belirli bir amaca yönelten güç ve isteğe ____ denir.",
+                  "options": [
+                    "motivasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Motivasyon, insanları belirli bir hedefe doğru harekete geçiren, yönlendiren ve sürdüren içsel ya da dışsal güçlerin tümüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Freud un psikanalitik kuramına göre haz ilkesine göre çalışan ve en ilkel dürtüleri barındıran kişilik yapısı ____ olarak adlandırılır.",
+                  "options": [
+                    "id"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İd, doğuştan gelen ve anlık tatmin arayan, mantık kurallarını tanımayan en temel kişilik katmanıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Maslow un kuramında bireyin potansiyelini en üst düzeyde kullanıp geliştirmesine ____ gerçekleştirme denir.",
+                  "options": [
+                    "kendini"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kendini gerçekleştirme, bireyin sahip olduğu yetenek ve kapasiteyi en üst seviyede açığa çıkararak amacına ulaşmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kişiliğin öğrenme ve sosyal çevre yoluyla sonradan şekillenen ahlaki ve etik yönüne ____ denir.",
+                  "options": [
+                    "karakter"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karakter, bireyin toplumsal değerler, eğitim ve çevreyle etkileşimi sonucu sonradan kazandığı ayırt edici özellikleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bireyin kaygı uyandıran ve benliğe zarar veren durumlardan korunmak için kullandığı bilinçdışı stratejilere savunma ____ denir.",
+                  "options": [
+                    "mekanizmaları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Savunma mekanizmaları, egoyu kaygıdan korumak için kullanılan bilinç dışı psikolojik süreçlerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Motivasyon yalnızca biyolojik kökenli açlık ve susuzluk gibi dürtülerden oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Motivasyon sadece biyolojik dürtülerle sınırlı değildir; sosyal güdüler, psikolojik ihtiyaçlar ve bilişsel etkenler de motivasyonu önemli ölçüde etkiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Süperego, vicdan ve toplumsal ahlak kurallarını temsil eden kişilik bileşenidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Süperego, toplumun ve anne-babanın ahlak kurallarını içselleştirerek bireyin vicdanını oluşturur ve idin dürtülerini denetler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mizaç, çevresel etkenlerle sürekli değişebilen ve kişilikten tamamen bağımsız bir yapıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mizaç, doğuştan gelen ve biyolojik temelli bir yapı olup kişiliğin temelini oluşturur; çevreden etkilense de tamamen bağımsız değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İçsel motivasyona sahip bireyler eylemlerini dışarıdan bir ödül bekledikleri için gerçekleştirirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İçsel motivasyona sahip bireyler eylemi dışsal bir ödül için değil, etkinliğin kendisinden aldıkları keyif ve ilgi nedeniyle yaparlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Savunma mekanizmaları egoyu aşırı kaygıdan korumak için başvurulan bilinçdışı yollardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Savunma mekanizmaları, bireyin içsel çatışmalar ve kaygılarla başa çıkabilmesi için egonun kullandığı otomatik ve bilinçdışı stratejilerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Ruh Sağlığının Temelleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ruh sağlığı alanında normallik kavramı kaç farklı açıdan ele alınır?",
+                  "answer": "Normallik kavramı genellikle dört farklı açıdan ele alınır: İstatiksel, işlevsel, toplumsal ve tıbbi."
+                },
+                {
+                  "question": "Savunma mekanizmalarından 'bastırma' ne anlama gelir?",
+                  "answer": "Bireyin kaygı veren, kabul edilemeyen düşünce ve isteklerini bilinçaltına itmesi sürecidir."
+                },
+                {
+                  "question": "Savunma mekanizmalarının temel işlevi nedir?",
+                  "answer": "Bireyin içsel çatışmalarla baş etmesini sağlayarak kaygıyı azaltmak ve benliği korumaktır."
+                },
+                {
+                  "question": "Akıl sağlığını korumada stresle başa çıkma yöntemleri kaça ayrılır?",
+                  "answer": "Problem odaklı ve duygu odaklı başa çıkma yöntemleri olarak ikiye ayrılır."
+                },
+                {
+                  "question": "Ruh sağlığının temel ölçütlerinden biri olan uyum nedir?",
+                  "answer": "Bireyin iç dünyası ile çevresi arasında denge kurabilmesi ve değişen koşullara ayak uydurabilmesidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bireyin ruh sağlığının yerinde olduğunu gösteren temel ölçütlerden biri değildir?",
+                  "options": [
+                    "Gerçekçi bir benlik algısına sahip olma",
+                    "Çevreye uyum sağlayabilme ve üretken olabilme",
+                    "Yaşanan tüm olumsuz duyguları tamamen bastırma",
+                    "Kendiyle ve başkalarıyla olumlu ilişkiler kurabilme"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ruh sağlığı yerinde olan birey olumsuz duyguları bastırmaz, onları fark eder ve sağlıklı yöntemlerle başa çıkar. Bastırma savunma mekanizması geçici bir rahatlama sağlasa da tek başına ruh sağlığı ölçütü değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir bireyin başarısız olduğu bir sınavdan sonra 'Zaten bu sınav müfredata uygun değildi, kimse yapamamıştır' demesi hangi savunma mekanizmasına örnektir?",
+                  "options": [
+                    "Gerileme",
+                    "Özdeşim kurma",
+                    "Mantığa bürünme",
+                    "Yansıtma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bireyin başarısızlığına ya da hatalı davranışına mantıklı ve kabul edilebilir gerekçeler bulması 'mantığa bürünme' ya da bahane bulma savunma mekanizmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi psikolojide 'anormal' ya da 'patolojik' davranışı belirlemede kullanılan yaklaşımlardan biri değildir?",
+                  "options": [
+                    "Toplumsal normlara uygunluk",
+                    "Ekonomik başarı düzeyi",
+                    "İşlevsellik düzeyi",
+                    "İstatiksel yaklaşım"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ekonomik başarı düzeyi psikolojide ruh sağlığını veya normalliği belirleyen bilimsel kriterler arasında yer almaz. Normallik; istatistik, toplumsal kurallar, işlevsellik ve tıbbi ölçütlere göre değerlendirilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Öfkesini patronundan çıkaramayan bir çalışanın, eve gelip bu öfkeyi evcil hayvanına veya eşine yöneltmesi hangi savunma mekanizmasıyla açıklanır?",
+                  "options": [
+                    "Yön değiştirme",
+                    "Yüceltme",
+                    "Karşıt tepki kurma",
+                    "Ödünleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulaşılamayan ya da tepki gösterilemeyen asıl hedefe yöneltilemeyen duygunun, daha güvenli ve zayıf başka bir nesneye ya da kişiye aktarılması 'yön değiştirme' olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi stresle başa çıkmada kullanılan 'problem odaklı' yöntemlerden biridir?",
+                  "options": [
+                    "Stres yaratan durumdan kaçınma",
+                    "Yaşanan sorunu çözmek için eylem planı hazırlama",
+                    "Olumsuz duyguları bastırma",
+                    "Spor yaparak rahatlamaya çalışma"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Problem odaklı başa çıkma, doğrudan sorunun kaynağına yönelerek çözüm üretmeyi içerir. Plan yapmak ve eylem planı hazırlamak bu gruba girer; diğer seçenekler genellikle duygu odaklıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireyin kabul edemediği kendi kusur veya dürtülerini başkalarında var gibi göstermesine ____ denir.",
+                  "options": [
+                    "yansıtma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yansıtma mekanizmasında kişi, kendi içindeki olumsuz özellikleri karşısındakilere atfederek rahatlamaya çalışır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kabul edilemeyen saldırgan veya cinsel dürtülerin toplumca onaylanan sanat veya bilim gibi alanlara yönlendirilmesine ____ adı verilir.",
+                  "options": [
+                    "yüceltme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüceltme, en sağlıklı savunma mekanizmalarından biri kabul edilir çünkü toplumsal açıdan yararlı bir ürüne veya faaliyete dönüştürme sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ruh sağlığı alanında bireyin hem iç dünyasında hem de çevresiyle olan ilişkilerinde dengeli olmasına ____ denir.",
+                  "options": [
+                    "uyum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uyum, kişinin değişen çevre koşullarına karşı esneklik gösterebilmesi ve dengesini koruması anlamına gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kişinin tehlike veya kaygı yaratan durumlar karşısında kendisini korumak için gayri ihtiyari geliştirdiği bilinç dışı süreçlere ____ denir.",
+                  "options": [
+                    "savunma mekanizması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Savunma mekanizmaları egoyu korumak amacıyla bilinç dışı olarak işletilen psikolojik savunma hatlarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Normal kavramının çoğunluğun ortalama özelliklerine ve istatistiksel dağılımına dayanarak açıklanmasına ____ yaklaşım denir.",
+                  "options": [
+                    "istatistiksel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstatistiksel yaklaşım, ortalamadan çok sapan davranışları anormal olarak kabul eden kantitatif bir bakış açısı sunar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Savunma mekanizmaları bireyin ruh sağlığını tamamen kalıcı olarak iyileştirir ve sorunları kökten çözer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Savunma mekanizmaları sorunları kökten çözmez; yalnızca geçici olarak kaygıyı azaltır ve benliği korur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yüceltme savunma mekanizması, toplum tarafından olumlu karşılanan ve üretkenliğe katkı sağlayan tek savunma mekanizmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüceltme, ilkel dürtülerin toplumsal ve kültürel açıdan değerli alanlara kanalize edilmesini sağladığı için en sağlıklı mekanizma kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ruh sağlığı bozuk olan bireylerin toplum kurallarına her zaman kusursuz bir şekilde uyması beklenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ruh sağlığı bozulmuş bireyler toplumsal normlara uyum sağlamakta zorlanabilirler veya kurallara aykırı davranışlar sergileyebilirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Stres, her zaman bireyin ruh sağlığını olumsuz etkileyen ve mutlaka kaçınılması gereken zararlı bir durumdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Belirli bir düzeydeki stres (eustress) bireyi motive eder ve performansını artırır. Tamamen stresten arınmış bir yaşam da ruh sağlığı için uygun değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karşıt tepki kurma mekanizmasında birey, içindeki gerçek duyguların tam zıttı yönünde davranışlar sergiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kişi bilinçaltındaki kabul edilemeyen öfke veya nefreti gizlemek için aşırı bir sevgi veya kibarlık gösterebilir; bu durum karşıt tepki kurmadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

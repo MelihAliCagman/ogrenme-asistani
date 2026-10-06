@@ -1,0 +1,2194 @@
+{
+  "subjectKey": "ayt_cografya",
+  "title": "AYT Coğrafya",
+  "examType": "YKS",
+  "subject": "Coğrafya",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Ekosistem ve Biyoçeşitlilik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ekosistemin Yapısı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ekosistemi oluşturan canlı unsurlara ne ad verilir?",
+                  "answer": "Biyotik ögeler"
+                },
+                {
+                  "question": "Ekosistemi oluşturan cansız unsurlara ne ad verilir?",
+                  "answer": "Abiyotik ögeler"
+                },
+                {
+                  "question": "Işık enerjisini kullanarak organik madde üreten canlılara ne denir?",
+                  "answer": "Üreticiler (Ototrof)"
+                },
+                {
+                  "question": "Besin zincirinde üreticilerden sonra gelen, hazır beslenen canlılara ne ad verilir?",
+                  "answer": "Tüketiciler (Heterotrof)"
+                },
+                {
+                  "question": "Atık maddeleri ve ölü organizmaları parçalayarak inorganik maddelere dönüştüren canlılara ne denir?",
+                  "answer": "Ayrıştırıcılar (Saprofitler)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi ekosistemdeki abiyotik (cansız) faktörler arasında yer almaz?",
+                  "options": [
+                    "Işık şiddeti",
+                    "Bakteriler",
+                    "Sıcaklık",
+                    "Yağış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bakteriler canlı (biyotik) unsurlar sınıfına girerken; ışık, sıcaklık ve yağış gibi faktörler abiyotik unsurlardandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fotosentez yoluyla inorganik maddelerden organik madde sentezleyen canlı grubu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Karnivorlar",
+                    "Üreticiler",
+                    "Ayrıştırıcılar",
+                    "Herbivorlar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üreticiler (ototroflar), fotosentez veya kemosentez ile kendi besinini üretebilen canlılardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ekosistemde enerjinin temel kaynağı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Toprak",
+                    "Güneş",
+                    "Su",
+                    "Rüzgar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ekosistemlerdeki enerji akışının temel ve ilk kaynağı Güneş'tir. Üreticiler güneş enerjisini kimyasal bağ enerjisine dönüştürür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki canlılardan hangisi ekosistemde ayrıştırıcı (saprofit) görevi yapar?",
+                  "options": [
+                    "Aslan",
+                    "Çekirge",
+                    "Mantarlar",
+                    "Meşe ağacı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mantarlar ve bazı bakteriler doğadaki organik artıkları ayrıştırarak madde döngüsüne katkı sağlayan ayrıştırıcılardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ekosistemdeki besin zincirinin ilk halkasını oluşturan canlı grubu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Otçullar",
+                    "Etçiller",
+                    "Yeşil bitkiler",
+                    "Leşçiller"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Besin piramidinin ve zincirinin en alt tabanında (ilk halkasında) fotosentez yapan yeşil bitkiler yani üreticiler yer alır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Canlıların birbirleriyle ve çevreleriyle olan ilişkilerini inceleyen bilim dalına ____ denir.",
+                  "options": [
+                    "Ekoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekoloji, organizmaların çevreleriyle ve birbirleriyle olan karşılıklı ilişkilerini inceleyen bilim dalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeryüzünde canlıların yaşam sürdüğü, atmosfer, hidrosfer ve litosferin kesiştiği katmana ____ adı verilir.",
+                  "options": [
+                    "Biyosfer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Biyosfer, dünyadaki tüm canlıların oluşturduğu ortak yaşam katmanıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kendi besinini kendisi üretemeyen, besinini dışarıdan hazır alan canlılara ____ denir.",
+                  "options": [
+                    "Heterotrof"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Heterotrof (tüketici) canlılar besinlerini dışarıdan hazır olarak alırlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Canlıların kalıtsal özelliklerini ve yaşama şansını artıran uyum yeteneklerinin tümüne ____ denir.",
+                  "options": [
+                    "Adaptasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Adaptasyon, canlıların bulundukları ortama uyum sağlayarak hayatta kalma şansını artıran kalıtsal özelliklerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ekosistemde azot, karbon ve su gibi maddelerin doğadaki devridaim sürecine ____ döngüsü denir.",
+                  "options": [
+                    "Madde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Madde döngüleri, elementlerin ekosistemdeki canlı ve cansız unsurlar arasında süregelen dolaşımıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Ekosistemler sadece karasal ortamlardan oluşur, sucul alanlar ekosistem olarak kabul edilmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ekosistemler hem karasal (orman, çöl vb.) hem de sucul (deniz, göl, akarsu vb.) ortamlardan oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Üreticiler besin piramidinin en üst basamağında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üreticiler besin piramidinin en alt tabanında (temelinde) yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıcaklık ve nem, ekosistemdeki canlıların dağılımını etkileyen en önemli abiyotik faktörlerdendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İklim elemanları olan sıcaklık ve nem, yeryüzündeki biyomların ve canlı türlerinin dağılımını doğrudan belirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ayrıştırıcı canlılar madde döngüsünün kesintisiz devam etmesinde hayati öneme sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ayrıştırıcılar organik artıkları inorganik maddelere çevirerek üreticilerin kullanımına sunar ve döngüyü sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Besin zincirinde enerji akışı çift yönlü olarak gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ekosistemde enerji akışı tek yönlüdür; güneşten üreticilere ve oradan tüketicilere doğru bir kayıp yaşanarak akar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Madde Döngüleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fotosentez ve solunum olayları hangi temel madde döngüsünün merkezindedir?",
+                  "answer": "Karbon döngüsü"
+                },
+                {
+                  "question": "Atmosferdeki azot gazını doğrudan kullanamayan bitkiler, azotu hangi formda topraktan alır?",
+                  "answer": "Nitrat (NO3) ve amonyum (NH4)"
+                },
+                {
+                  "question": "Canlıların yapısındaki DNA, RNA ve ATP moleküllerinin yapısında bulunan temel element hangisidir?",
+                  "answer": "Fosfor"
+                },
+                {
+                  "question": "Atmosferde en çok bulunan gaz hangisidir ve canlılar bu gazı doğrudan hangi döngüyle kullanır?",
+                  "answer": "Azot gazı (%78), Azot döngüsü"
+                },
+                {
+                  "question": "Yeryüzündeki suyun sıvı halden gaz haline geçerek atmosfere karışmasını sağlayan bitkisel süreç nedir?",
+                  "answer": "Terleme (Transpirasyon)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki canlı gruplarından hangisi atmosferdeki serbest azot gazını toprağa bağlayarak (azot bağlayıcı olarak) döngüye doğrudan katkı sağlar?",
+                  "options": [
+                    "Ayrıştırıcı mantarlar",
+                    "Nitrifikasyon bakterileri",
+                    "Denitrifikasyon bakterileri",
+                    "Baklagillerin köklerinde yaşayan Rhizobium bakterileri"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Baklagillerin kök nodüllerinde yaşayan Rhizobium bakterileri, atmosferdeki serbest azotu bitkinin kullanabileceği amonyak formuna dönüştürür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karbon döngüsünde aşağıdakilerden hangisi atmosferdeki karbondioksit oranını artıran olaylardan biri değildir?",
+                  "options": [
+                    "Hayvanların hücresel solunum yapması",
+                    "Orman yangınları",
+                    "Denizlerde fitoplanktonların fotosentez yapması",
+                    "Fosil yakıtların yanması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fitoplanktonlar fotosentez yaparken atmosferden karbondioksit tüketirler, bu nedenle karbondioksit oranını artırmaz, aksine azaltırlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Azot döngüsünde amonyağın nitrit ve ardından nitrata dönüştürülmesi sürecine ne ad verilir?",
+                  "options": [
+                    "Ammonifikasyon",
+                    "Nitrifikasyon",
+                    "Fotoliz",
+                    "Denitrifikasyon"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Amonyağın önce nitrite, ardından nitrata dönüşümünü sağlayan kemosentetik bakterilerin gerçekleştirdiği sürece nitrifikasyon denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Su döngüsünde yeryüzündeki suların deniz ve okyanuslardan atmosfere geçişini sağlayan temel fiziksel olay aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Buharlaşma",
+                    "Yoğunlaşma",
+                    "Yağış",
+                    "Süzülme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su kaynaklarındaki suyun güneş enerjisiyle ısıtılarak gaz haline gelmesi buharlaşma olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fosfor döngüsünün diğer madde döngülerine kıyasla en önemli ayırt edici özelliği aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sadece sucul ekosistemlerde gerçekleşmesi",
+                    "Bakteriler tarafından kontrol edilmesi",
+                    "Sadece insanlar tarafından tüketilmesi",
+                    "Atmosferik evresinin bulunmaması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Fosforun gaz halinde atmosferik bir döngü evresi yoktur, döngüsü kayaçlar, toprak ve su arasında gerçekleşir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Atmosferdeki azot gazının bakteriler tarafından tekrar atmosfere geri verilmesi sürecine ____ denir.",
+                  "options": [
+                    "denitrifikasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denitrifikasyon bakterileri topraktaki nitratı serbest azot gazına dönüştürerek tekrar atmosfere kazandırır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Su döngüsünde suyun bitkiler aracılığıyla buharlaşarak atmosfere verilmesine ____ denir.",
+                  "options": [
+                    "transpirasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bitkilerin yapraklarındaki stomalardan suyun buhar şeklinde atılmasına transpirasyon adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ölü organik atıkların ayrıştırıcılar tarafından parçalanarak amonyağa dönüştürülmesi olayına ____ denir.",
+                  "options": [
+                    "ammonifikasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ayrıştırıcı canlılar protein ve benzeri organik artıkları parçalayarak amonyak açığa çıkarır, buna ammonifikasyon denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karbon döngüsünün en büyük yutak alanı (deposu) okyanuslar ve ____ tabakasıdır.",
+                  "options": [
+                    "kayaç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karbonun en büyük kısmı yer kabuğundaki karbonatlı kayaçlarda ve okyanuslarda çözünmüş halde bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fosfor döngüsünde fosforun temel kaynağı yer kabuğundaki fosfatlı ____ ve toprakktır.",
+                  "options": [
+                    "kayaçlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fosfor döngüsü tortul döngü olup temel kaynağı fosfatlı kayaçların ayrışmasıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Atmosferde en çok bulunan gaz azot olmasına rağmen canlıların büyük çoğunluğu bu gazı doğrudan kullanamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferin yaklaşık yüzde 78'i azottur, ancak canlılar bunu doğrudan alamaz; azot bağlayıcı bakterilere ihtiyaç duyarlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fosfor döngüsü, karbon ve azot döngüsü gibi belirgin ve büyük bir atmosferik aşamaya sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fosforun gaz formunda önemli bir atmosferik döngüsü yoktur, bu nedenle tortul bir döngü olarak kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hücresel solunum olayı, atmosferdeki karbondioksit miktarını artıran biyolojik süreçlerden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Canlılar solunum yaparken oksijen tüketir ve açığa karbondioksit çıkararak atmosfere verirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Denitrifikasyon bakterileri topraktaki azot miktarını artırarak bitkilerin gelişimini olumlu yönde destekler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denitrifikasyon bakterileri nitratı serbest azota çevirerek atmosfere verir, bu da topraktaki kullanılabilir azot miktarını azaltır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su döngüsü güneş enerjisi ve yer çekimi kuvvetinin etkisiyle kesintisiz olarak devam eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buharlaşma için güneş enerjisi, yağışların yeryüzüne düşmesi ve suyun hareket etmesi için yer çekimi temel etmendir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Biyoçeşitlilik",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Biyoçeşitlilik nedir?",
+                  "answer": "Yeryüzündeki genlerin, türlerin, ekosistemlerin ve ekolojik olayların oluşturduğu bütündür."
+                },
+                {
+                  "question": "Endemik tür ne demektir?",
+                  "answer": "Yeryüzünün sadece belirli bir bölgesinde yetişen ve başka yerde bulunmayan türlerdir."
+                },
+                {
+                  "question": "Tundranın biyoçeşitlilik bakımından durumu nasıldır?",
+                  "answer": "Düşük sıcaklıklar nedeniyle biyoçeşitlilik oldukça azdır."
+                },
+                {
+                  "question": "Türkiye neden yüksek biyoçeşitliliğe sahiptir?",
+                  "answer": "Üç kıtanın kesişim noktasında olması, farklı iklim tipleri ve yer şekillerinin çeşitliliği."
+                },
+                {
+                  "question": "Biyom kavramı neyi ifade eder?",
+                  "answer": "Benzer iklim koşullarına ve bitki örtüsüne sahip geniş ekosistem tipleridir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi biyoçeşitliliği oluşturan temel unsurlardan biri değildir?",
+                  "options": [
+                    "Gen çeşitliliği",
+                    "Tür çeşitliliği",
+                    "Ekosistem çeşitliliği",
+                    "Ekonomi çeşitliliği"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Biyoçeşitlilik gen, tür ve ekosistem çeşitliliği olmak üzere üç ana unsura ayrılır; ekonomi bunlardan biri değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölgelerin hangisinde biyoçeşitlilik diğerlerine göre daha fazladır?",
+                  "options": [
+                    "Tropikal Yağmur Ormanları",
+                    "Tundra Biyomu",
+                    "İğne Yapraklı Ormanlar",
+                    "Çöl Biyomu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tropikal yağmur ormanları, yıl boyu yüksek sıcaklık ve nem sayesinde dünyadaki en zengin biyoçeşitliliğe sahiptir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin endemik bitki türü bakımından zengin olmasında aşağıdakilerden hangisi etkili değildir?",
+                  "options": [
+                    "Farklı iklim tiplerinin görülmesi",
+                    "Yer şekillerinin kısa mesafelerde değişmesi",
+                    "Üç tarafının denizlerle çevrili olması",
+                    "Düz ve alçak platoların geniş yer kaplaması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye dağlık ve engebelidir; düz ve alçak platoların geniş yer kaplaması endemizm için temel bir sebep değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsan faaliyetlerinden hangisi biyoçeşitliliğin azalmasına neden olur?",
+                  "options": [
+                    "Milli parkların kurulması",
+                    "Ağaçlandırma çalışmaları",
+                    "Nesli tükenen türlerin korunması",
+                    "Sulak alanların kurutulması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sulak alanların kurutulması birçok canlı türünün yaşam alanını yok ederek biyoçeşitliliği azaltır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Canlıların yeryüzüne dağılışını etkileyen fiziki faktörler arasında aşağıdakilerden hangisi yer alır?",
+                  "options": [
+                    "Karayolu yapımı",
+                    "İklim",
+                    "Sanayileşme",
+                    "Tarım faaliyetleri"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İklim, yer şekilleri, toprak ve su kaynakları biyoçeşitliliği etkileyen fiziki faktörlerdendir. Diğerleri Beşeri faktördür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yeryüzünde sadece belirli bir bölgede yaşayan ve nesli tehlike altında olan türlere ____ tür denir.",
+                  "options": [
+                    "endemik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünyanın başka hiçbir yerinde yetişmeyen veya yaşayamayan türe endemik tür adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Benzer iklim ve bitki örtüsüne sahip büyük ekosistem tiplerine ____ adı verilir.",
+                  "options": [
+                    "biyom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geniş coğrafi alanlarda benzer iklim ve canlı topluluklarını içeren büyük ekosistemlere biyom denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ekvator'dan kutuplara doğru gidildikçe biyoçeşitlilik genellikle ____.",
+                  "options": [
+                    "azalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık ve yağış koşullarının elverişsizleşmesi nedeniyle kutuplara doğru biyoçeşitlilik azalma eğilimi gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de endemik bitki çeşitliliğinin en fazla olduğu coğrafi bölge ____ Bölgesidir.",
+                  "options": [
+                    "Akdeniz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akdeniz iklim özellikleri ve dağlık yapı nedeniyle Türkiye'de en çok endemik bitkinin bulunduğu bölgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Canlıların genetik yapısındaki çeşitliliği ifade eden kavrama ____ çeşitliliği denir.",
+                  "options": [
+                    "gen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı tür içerisindeki bireylerin kalıtsal farklılıklarını gen çeşitliliği oluşturur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tropikal yağmur ormanları biyomu, dünyadaki en zengin biyoçeşitliliğe sahip alandır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uygun sıcaklık ve nem koşulları sayesinde bu biyom çok sayıda bitki ve hayvan türüne ev sahipliği yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi faaliyetleri ve hızlı nüfus artışı biyoçeşitliliğin artmasını sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi ve nüfus artışı çevre kirliliğine yol açarak biyoçeşitliliğin azalmasına neden olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tundra biyomunda toprak yılın büyük bölümünde donmuş halde bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tundra ikliminin en belirgin özelliği permafrost adı verilen donmuş toprak yapısıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kıtaların kayması ve iklim değişiklikleri geçmişte biyoçeşitliliği etkileyen paleocoğrafya faktörlerindendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Jeolojik devirler boyunca gerçekleşen iklim değişimleri ve kıtaların hareketleri canlı dağılışını ve çeşitliliğini doğrudan etkilemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çöl biyomlarında su sıkıntısı olduğu için hiçbir canlı türü yaşayamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çöllerde biyoçeşitlilik azdır ancak kaktüsler, bazı sürüngenler ve kemirgenler gibi bu ortama uyum sağlamış canlılar yaşar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Nüfus ve Yerleşme",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Nüfus Politikaları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Nüfus politikası nedir?",
+                  "answer": "Devletlerin nüfusun miktarını, niteliğini ve dağılışını değiştirmek amacıyla izledikleri sistemli müdahalelerdir."
+                },
+                {
+                  "question": "Türkiye'de 1960'lı yıllara kadar izlenen nüfus politikası nasıldır?",
+                  "answer": "Nüfus artış hızını artırıcı (natalist) politikalardır."
+                },
+                {
+                  "question": "Nüfus artış hızını azaltıcı politika izleyen gelişmiş bir ülkeye örnek veriniz.",
+                  "answer": "Japonya"
+                },
+                {
+                  "question": "Çin'in uzun yıllar uyguladığı nüfus politikası nasıl adlandırılır?",
+                  "answer": "Tek çocuk politikası"
+                },
+                {
+                  "question": "Nüfusun niteliğini iyileştirmek ne anlama gelir?",
+                  "answer": "Eğitim seviyesini, sağlık hizmetlerini ve yaşam kalitesini artırmak demektir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye, Cumhuriyetin ilk yıllarından 1965 yılına kadar hangi nüfus politikasını izlemiştir?",
+                  "options": [
+                    "Nüfus artış hızını azaltıcı",
+                    "Nüfusun niteliğini düşürme",
+                    "Nüfus artış hızını artırıcı",
+                    "Nüfusu sabit tutma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye, savaşlar sonrası azalan nüfusu artırmak ve iş gücü sağlamak için 1965'e kadar artış hızı artırıcı politikalar uygulamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ülkelerden hangisi günümüzde nüfus artış hızını artırıcı (natalist) politika izlemektedir?",
+                  "options": [
+                    "Japonya",
+                    "Hindistan",
+                    "Çin",
+                    "Nijerya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Japonya, yaşlanan nüfus ve azalan doğum oranları nedeniyle nüfus artış hızını artırıcı politikalar uygulamaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çin Halk Cumhuriyeti'nin 1980 yılından itibaren uygulamaya başladığı ünlü nüfus politikası aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tek çocuk politikası",
+                    "Göçü teşvik politikası",
+                    "Nüfusu köylerde tutma politikası",
+                    "Zorunlu askerlik politikası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çin, hızlı nüfus artışını durdurmak için 1980'de tek çocuk politikasını resmi olarak yürürlüğe koymuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi nüfus artış hızını azaltmaya çalışan bir ülkenin alacağı önlemlerden biri olamaz?",
+                  "options": [
+                    "Çok çocuklu ailelere maddi teşvikler vermek",
+                    "Doğum kontrol yöntemlerini yaygınlaştırmak",
+                    "Aile planlaması eğitimleri vermek",
+                    "Evlenme yaşını yükseltmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çok çocuklu ailelere maddi teşvikler vermek, nüfus artış hızını artırıcı bir politikadır, azaltıcı bir önlem olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gelişmiş ülkelerde genel olarak nüfus politikalarıyla ilgili hangi durum gözlenir?",
+                  "options": [
+                    "Doğum oranları düşük olduğu için nüfusu artırıcı politikalar izlenir.",
+                    "Ölüm oranları çok yüksek olduğu için nüfus hızla azalır.",
+                    "Nüfusun tamamı kırsal alanda yaşamaya teşvik edilir.",
+                    "Nüfus politikalarına hiç gerek duyulmaz."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelişmiş ülkelerde doğurganlık hızı düştüğü ve nüfus yaşlandığı için genellikle artırıcı veya göçmen kabul edici politikalar izlenir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Devletlerin doğum oranlarını artırmak amacıyla uyguladığı politikalar ____ politikalar olarak adlandırılır.",
+                  "options": [
+                    "natalist"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Natalist kelimesi doğum yanlısı veya nüfus artırıcı politikaları ifade etmek için kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cumhuriyet döneminde Türkiye'de ilk kapsamlı nüfus planlaması kanunu ____ yılında çıkarılmıştır.",
+                  "options": [
+                    "1965"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1965 yılında çıkarılan kanunla nüfus artırıcı politikadan aile planlaması ve nüfus planlaması politikasına geçilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünyada en kalabalık iki ülke olan Çin ve Hindistan geçmişte nüfus artış hızını ____ politikalar izlemiştir.",
+                  "options": [
+                    "azaltıcı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ülkeler aşırı nüfus artışını ve kaynak yetersizliğini önlemek için azaltıcı politikalar benimsemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Nüfusun miktarından ziyade eğitim ve sağlık gibi özelliklerinin geliştirilmesi ____ iyileştirilmesi olarak tanımlanır.",
+                  "options": [
+                    "nitelik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nüfusun niceliği miktarını, niteliği ise kalitesini gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Avrupa'da nüfus artış hızının en düşük olduğu ülkelerden biri olan ve yaşlı nüfus oranı yüksek olan ülke ____ ülkesidir.",
+                  "options": [
+                    "Almanya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Almanya gibi batı avrupa ülkeleri düşük doğum ve yüksek yaşam standardı nedeniyle yaşlanan nüfusa sahiptir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de 1965 yılından sonra nüfus artış hızını artırıcı politikalardan vazgeçilerek nüfus planlaması politikalarına geçilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1965 kanunuyla birlikte annelerin ve çocukların sağlığını korumak amacıyla aile planlaması hizmetleri devlet eliyle sunulmaya başlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nüfus politikaları yalnızca gelişmiş ülkeler tarafından uygulanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nüfus politikaları hem gelişmiş hem de gelişmekte olan ülkeler tarafından ekonomik ve sosyal durumlara göre uygulanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hindistan, hızlı nüfus artışını yavaşlatmak için çeşitli aile planlaması kampanyaları yürütmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hindistan aşırı nüfus artışının yarattığı baskıyı azaltmak amacıyla nüfus planlaması projeleri uygulamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğum oranlarının düşük olduğu ülkelerde ortanca yaş genellikle düşüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğum oranlarının düşük ve yaşam süresinin uzun olduğu ülkelerde yaşlı nüfus fazla olduğu için ortanca yaş yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nüfus politikalarının temel amacı ülkelerin kalkınma planları ile nüfus özellikleri arasında denge kurmaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devletler kaynakları ile nüfus miktarı arasında uyum sağlamak için bu politikaları üretirler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Şehirlerin Fonksiyonları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Zonguldak'ın gelişiminde etkili olan temel fonksiyon nedir?",
+                  "answer": "Madencilik"
+                },
+                {
+                  "question": "Eğitim ve kültür fonksiyonuyla ön plana çıkan Dünya çapındaki üniversite şehirlerine örnek veriniz.",
+                  "answer": "Oxford, Cambridge"
+                },
+                {
+                  "question": "İdari fonksiyonuyla bilinen Türkiye'nin başkenti hangi şehirdir?",
+                  "answer": "Ankara"
+                },
+                {
+                  "question": "Liman özellikleri sayesinde ticaret ve ulaşım merkezi olan büyük şehirlere örnek veriniz.",
+                  "answer": "Rotterdam, İstanbul, Hamburg"
+                },
+                {
+                  "question": "Dini fonksiyonuyla öne çıkan ve her yıl milyonlarca müslümanın ziyaret ettiği şehirler hangileridir?",
+                  "answer": "Mekke, Medine"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki şehirlerden hangisi fonksiyonel özellikleri bakımından öncelikle bir 'sanayi şehri' olarak değerlendirilir?",
+                  "options": [
+                    "Detroit",
+                    "Mekke",
+                    "Bodrum",
+                    "Rize"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Detroit, ABD'de otomotiv sanayisinin merkezi olarak gelişmiş tipik bir sanayi şehridir. Rize çay tarımı, Mekke dini fonksiyon, Bodrum ise turizm fonksiyonuyla öne çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de sadece fonksiyonel açıdan değil, aynı zamanda uluslararası ticaret ve finans merkezi olması nedeniyle çok fonksiyonlu kabul edilen şehir aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Hakkâri",
+                    "Sinop",
+                    "İstanbul",
+                    "Bayburt"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İstanbul; ticaret, turizm, finans, ulaşım ve kültür gibi birçok fonksiyonu bünyesinde barındıran dünyanın önde gelen metropollerindendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki şehirlerden hangisinin gelişiminde 'askeri' fonksiyon diğerlerine göre daha baskındır?",
+                  "options": [
+                    "Eskişehir",
+                    "Antalya",
+                    "Gölcük",
+                    "Rize"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gölcük, donanma üssü olması nedeniyle askeri fonksiyonuyla ön plana çıkan bir yerleşmedir. Antalya turizm, Rize tarım, Eskişehir ise eğitim ve sanayi ile tanınır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yaz turizmi ve sahil turizmi açısından gelişen şehirlerin genel özellikleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Genellikle kıyı kesimlerde yer alırlar.",
+                    "Temel ekonomik faaliyetleri daima ağır sanayidir.",
+                    "Hizmet sektöründe çalışan oranı yüksektir.",
+                    "Yaz mevsiminde nüfuslarında belirgin bir artış görülür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Turizm şehirlerinin temel ekonomik faaliyeti hizmet ve turizm sektörüdür, ağır sanayi değildir. Diğer seçenekler turizm şehirlerinin genel özelliklerindendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kültür ve eğitim fonksiyonuyla bilinen Oxford ve Cambridge gibi şehirlerin Dünya genelinde tanınmasında temel etken aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Köklü ve prestijli üniversitelere ev sahipliği yapmaları",
+                    "Zengin petrol yataklarına sahip olmaları",
+                    "Önemli birer boğaz ve liman kenti olmaları",
+                    "Yoğun demir-çelik fabrikalarını barındırmaları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Oxford ve Cambridge, dünyaca ünlü köklü üniversiteleri sayesinde eğitim ve kültür fonksiyonuyla ön plana çıkmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Zonguldak şehrinin kurulup gelişmesinde ____ fonksiyonu belirleyici olmuştur.",
+                  "options": [
+                    "madencilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zonguldak ve çevresinde taş kömürünün bulunması, bu şehrin bir madencilik kenti olarak hızla büyümesini sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Devletlerin yönetim merkezleri olan başkentler, idari fonksiyonları gereği ____ şehri sınıfına girer.",
+                  "options": [
+                    "idari"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ankara, Londra, Washington gibi başkentler sahip oldukları yönetim merkezleri sayesinde idari fonksiyonlu şehirlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mekke ve Kudüs gibi şehirler sahip oldukları ____ özellikler nedeniyle milyonlarca insanı çeker.",
+                  "options": [
+                    "dini"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu şehirler inanç turizmi ve dini merkez olma özellikleri ile öne çıkmaktadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geniş plajları, otelleri ve yat limanlarıyla bilinen Bodrum, ____ fonksiyonuna sahip bir şehirdir.",
+                  "options": [
+                    "turizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bodrum yaz turizminin Türkiye'deki en önemli merkezlerinden biri olup turizm fonksiyonuyla gelişmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Almanya'daki Essen şehri, çevresindeki taş kömürü yataklarına bağlı olarak bir ____ şehri olarak gelişmiştir.",
+                  "options": [
+                    "sanayi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ruhr Havzası'nda yer alan Essen, ağır sanayi ve madencilik faaliyetleriyle bilinen tipik bir sanayi şehridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Şehirler sadece tek bir fonksiyona sahip olup zamanla bu özellikleri hiç değişmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şehirler zamanla yeni fonksiyonlar kazanabilir ve genellikle birden fazla fonksiyona sahip çok fonksiyonlu merkezler haline gelirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ankara, Türkiye'nin idari fonksiyonu en baskın olan şehridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye'nin başkenti olan Ankara, meclis ve bakanlıklar gibi devlet kurumlarını barındırdığı için idari fonksiyona sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mardin ve Şanlıurfa gibi şehirler sadece liman ve ticaret fonksiyonlarıyla küresel çapta tanınırlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu şehirler tarihi ve kültürel turizm ile tarım fonksiyonlarıyla ön plandadır, önemli uluslararası liman şehirleri değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rotterdam ve Singapur gibi şehirlerin gelişiminde liman ve ticaret fonksiyonları kritik rol oynamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu şehirler stratejik konumları ve gelişmiş limanları sayesinde küresel ticaretin merkezlerinden biri olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir şehirde maden çıkarılmaya başlanması o yerleşmenin tarım şehri olarak kalmasını sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Madencilik faaliyetleri tarım fonksiyonunu baskılayarak o yerleşmenin bir madencilik ve sanayi kenti olarak gelişmesine yol açar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Göçler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İç göç nedir?",
+                  "answer": "Ülke sınırları içinde, kişilerin veya toplulukların bir yerleşim yerinden diğerine yer değiştirmesidir."
+                },
+                {
+                  "question": "Dış göç nedir?",
+                  "answer": "Bir ülkenin vatandaşı olan kişilerin başka bir ülkeye kalıcı veya geçici olarak yerleşmesidir."
+                },
+                {
+                  "question": "Beyin göçü ne anlama gelir?",
+                  "answer": "Nitelikli ve iyi eğitimli uzman kişilerin daha iyi çalışma koşulları için gelişmiş ülkelere göç etmesidir."
+                },
+                {
+                  "question": "Mübadele göçü nedir?",
+                  "answer": "Devletler arası anlaşmalarla nüfusun karşılıklı olarak yer değiştirmesidir."
+                },
+                {
+                  "question": "Mevsimlik göçün temel nedeni nedir?",
+                  "answer": "Tarım, turizm veya hayvancılık gibi ekonomik faaliyetlerin dönemsel olarak gerçekleşmesidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Türkiye'de iç göçlerin en önemli ekonomik nedenidir?",
+                  "options": [
+                    "Tarımda makineleşme ve iş imkanlarının kısıtlı olması",
+                    "İklim değişiklikleri ve kuraklık",
+                    "Eğitim kurumlarının yetersizliği",
+                    "Geleneksel yaşam tarzı tercihleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye'de kırsal alanda tarımda makineleşmenin artması insan gücüne duyulan ihtiyacı azaltmış, bu durum iş aramak amacıyla şehirlere göçü tetiklemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tarihte yaşanan en büyük zorunlu dış göç örneklerinden biri olan \"Nüfus Mübadelesi\" hangi ülke ile Türkiye arasında gerçekleşmiştir?",
+                  "options": [
+                    "Suriye",
+                    "Bulgaristan",
+                    "Almanya",
+                    "Yunanistan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "1923 yılında Lozan Barış Antlaşması ek protokolü gereğince Türkiye ve Yunanistan arasında zorunlu nüfus mübadelesi gerçekleştirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1950'li yıllardan sonra Türkiye'de iç göçlerin yönü genellikle hangi yönde olmuştur?",
+                  "options": [
+                    "Kırsaldan kentlere",
+                    "İç kesimlerden kıyı bölgelerine",
+                    "Büyük kentlerden küçük kasabalara",
+                    "Doğudan batıya ve güneye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1950 sonrasında sanayileşme ve ulaşım ağlarının gelişmesiyle birlikte Türkiye'de temel göç hareketi kırsaldan kentlere doğru olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki göç türlerinden hangisi gönüllü göç kapsamında yer almaz?",
+                  "options": [
+                    "Mevsimlik işçi göçü",
+                    "Eğitim amaçlı göçler",
+                    "Mübadele göçü",
+                    "Emeklilik göçü"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mübadele göçü devletler arası anlaşmalara dayanan zorunlu bir göç türüdür; diğer seçenekler ise bireylerin kendi iradeleriyle yaptığı gönüllü göçlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1960'lı yıllardan sonra Türkiye'den dışarıya doğru en çok hangi ülkeye işçi göçü olmuştur?",
+                  "options": [
+                    "Fransa",
+                    "ABD",
+                    "İngiltere",
+                    "Almanya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye ile Almanya arasında 1961 yılında imzalanan işçi alımı anlaşması sonrasında en fazla dış göç Almanya'ya gerçekleşmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Savaş, baskı ve doğal afet gibi nedenlerle insanların kendi iradeleri dışında gerçekleşen göçlere ____ göçler denir.",
+                  "options": [
+                    "zorunlu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kişilerin kendi istekleri dışında dış baskılarla gerçekleştirmek zorunda kaldığı göçler zorunlu göç olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yaz aylarında hayvanlarını otlatmak amacıyla yüksek kesimlerdeki yaylalara çıkılması ____ göç türüne örnektir.",
+                  "options": [
+                    "mevsimlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yılın belirli dönemlerinde yapılan ve geri dönüşümlü olan bu tür göçler mevsimlik göç sınıfına girer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1960 sonrasında Türkiye'den dış ülkelere yönelik göçlerin temel sebebi ekonomik kazanç ve ____ bulma isteğidir.",
+                  "options": [
+                    "iş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde dışarıya verilen göçlerin ana motivasyonu işsizlik ve daha yüksek ücretli çalışma fırsatları yakalamaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırsal kesimde yaşayan nüfusun tarım dışı sektörlerde çalışmak üzere şehirlere gitmesi ____ göçleri oluşturur.",
+                  "options": [
+                    "iç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ülke sınırları içerisinde bir yerleşmeden diğerine yapılan bu tür hareketler iç göç olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gelişmiş ülkelere doğru nitelikli insan gücünün gitmesi olayına ____ göçü adı verilir.",
+                  "options": [
+                    "beyin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilim insanı, doktor ve mühendis gibi vasıflı kişilerin ülkelerinden ayrılması beyin göçü olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mevsimlik göçler kalıcı yerleşim değişimine neden olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mevsimlik göçler geçici niteliktedir ve belirli bir süre sonra göç edenler genellikle eski yerleşim yerlerine geri dönerler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Beyin göçü genellikle az gelişmiş ülkelerden gelişmiş ülkelere doğru gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyi imkanlar arayan nitelikli iş gücü, araştırma ve çalışma koşullarının daha iyi olduğu gelişmiş ülkelere göç etmektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de iç göçler sonucunda kırsal nüfus oranı zamanla artmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç göçler kırsaldan kente doğru olduğu için zamanla kent nüfus oranı artmış, kırsal nüfus oranı ise azalmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Savaşlar ve iç karışıklıklar uluslararası mülteci akınlarına yol açan zorunlu dış göç nedenlerindendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Can güvenliğinin kalmadığı durumlarda insanlar başka ülkelere sığınmak zorunda kalır ve bu durum zorunlu dış göçü doğurur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayileşmiş büyük şehirler sadece göç veren merkezlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayileşmiş büyük şehirler sundukları iş imkanları nedeniyle genellikle göç alan merkezler konumundadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Ekonomik Faaliyetler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tarım",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de tarımda verimi artırmak için uygulanan en önemli modern yöntem nedir?",
+                  "answer": "Sulama"
+                },
+                {
+                  "question": "İklim şartlarına bağımlılığı azaltmak amacıyla kapalı alanda yapılan tarım türü nedir?",
+                  "answer": "Sera tarımı"
+                },
+                {
+                  "question": "Doğu Anadolu Bölgesi'nde yaz yağışlarıyla yeşeren gür otlaklara dayalı ekonomik faaliyet hangisidir?",
+                  "answer": "Büyükbaş mera hayvancılığı"
+                },
+                {
+                  "question": "Akdeniz iklim bölgesinde yaz kuraklığına dayanıklı, kışları ılık geçen yerlerde yetişen tarım ürünlerine ne ad verilir?",
+                  "answer": "Akdeniz bitki örtüsü ve ürünleri"
+                },
+                {
+                  "question": "Toprağın aşırı sulanması ve buharlaşma sonucunda toprak yüzeyinde tuz birikmesine ne denir?",
+                  "answer": "Tuzlanma"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de tarım ürünlerinin çeşitlilik göstermesinde aşağıdakilerden hangisinin etkisi en azdır?",
+                  "options": [
+                    "Yer şekillerinin kısa mesafelerde değişmesi",
+                    "Farklı iklim özelliklerinin görülmesi",
+                    "Toprak tiplerinin çeşitlilik göstermesi",
+                    "Ülkenin yüz ölçümünün çok büyük olması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye'nin yüz ölçümü dünya genelinde çok büyük olmamasına rağmen, iklim, yer şekilleri ve toprak çeşitliliği oldukça fazladır. Bu durum tarım çeşitliliğini artıran temel etkenlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki tarım ürünlerinden hangisinin Doğu Karadeniz kıyı kesiminde yetişme imkanı bulması, bölgenin iklim özellikleri ile doğrudan ilgilidir?",
+                  "options": [
+                    "Pamuk",
+                    "İncir",
+                    "Zeytin",
+                    "Çay"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Çay, yıl boyunca bol yağış ve ılıman iklim isteyen bir üründür. Bu koşullar en iyi Doğu Karadeniz kıyılarında görülür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İç Anadolu Bölgesi'nde yaygın olarak yetişen ve kuraklığa dayanıklı olan tahıl ürünü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Fındık",
+                    "Pirinç",
+                    "Muz",
+                    "Buğday"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Buğday, yaz kuraklığı isteyen ve ilkbahar yağışlarıyla gelişen bir tahıldır. İç Anadolu'nun iklim koşullarına tam uyum sağlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerin hangisinde endüstri bitkisi olan pamuk üretimi daha azdır?",
+                  "options": [
+                    "Ordu",
+                    "Adana",
+                    "Şanlıurfa",
+                    "Aydın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ordu, Karadeniz bölgesinde yer alır ve yaz aylarında bol yağış alır. Pamuk ise olgunlaşma döneminde kuraklık ve sıcaklık ister, bu nedenle Ordu'da yetişmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tarımda modern yöntemlerin kullanılmasının sağladığı faydalar arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Yıllara göre dalgalanan rekolte miktarının sabitlenmesi",
+                    "Birim alandan alınan verimin artması",
+                    "İklim şartlarına bağımlılığın azalması",
+                    "Tarımda insan gücüne duyulan ihtiyacın artması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Modern tarım yöntemleri (makineleşme, gübreleme, sulama vb.) insan gücüne duyulan ihtiyacı azaltır, artırmaz.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Ege Bölgesi'nde kıyı kesimlerinde yaygın olarak yetişen ve yağ üretiminde kullanılan önemli bir tarım ürünü ____ bitkisidir.",
+                  "options": [
+                    "zeytin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zeytin, Akdeniz ikliminin karakteristik bitki örtüsünden biridir ve Ege kıyılarında ekonomik değeri çok yüksektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ülkemizde devlet kontrolünde üretilen ve sigara fabrikalarında ham madde olarak kullanılan tarım ürünü ____ bitkisidir.",
+                  "options": [
+                    "tütün"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tütün, kalitenin korunması amacıyla devlet kontrolünde üretilen stratejik bir üründür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yaz aylarında bol su ve sıcaklık isteyerek bataklık alanlarda tarımı yapılan tahıl ürünü ____ bitkisidir.",
+                  "options": [
+                    "pirinç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çeltik olarak da bilinen pirinç, su içinde yetişen ve sıtma riski nedeniyle devlet kontrolünde ekilen bir üründür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz ikliminin etkili olduğu kıyı kesimlerinde kış ılıklığı isteyen ____ tarımı yaygın olarak yapılır.",
+                  "options": [
+                    "seracılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Seracılık, kış sıcaklıklarının yüksek olduğu Akdeniz ve Ege kıyılarında örtü altı tarımı olarak gelişmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Muz üretimi Türkiye'de mikro klima etkisiyle en fazla ____ ilimizde yapılmaktadır.",
+                  "options": [
+                    "Antalya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antalya ve Mersin çevreleri, sıcaklık ortalamalarının yüksek olması nedeniyle muz tarımının yapıldığı alanlardır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de en fazla ekilen ve üretilen tarım ürünü buğdaydır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buğday, temel besin kaynağımız olması ve ülkenin geniş bir kesiminde yetişebilmesi nedeniyle en fazla ekilen tarım ürünüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karadeniz iklim koşulları pamuk tarımı için son derece uygundur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pamuk olgunlaşma döneminde kuraklık ister. Karadeniz ise her mevsim yağışlı olduğu için pamuk tarımına uygun değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İncir ve üzüm Türkiye'nin ihracatında önemli yer tutan başlıca kurutulmuş meyvelerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye kuru incir ve kuru üzüm üretiminde dünya liderleri arasındadır ve bu ürünleri ihraç eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mersin ve Antalya illerinde kış sıcaklıklarının yüksek olması seracılık faaliyetlerini olumsuz etkiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kış sıcaklıklarının yüksek olması seracılık için olumlu bir durumdur, ısıtma maliyetlerini düşürür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çay tarımı ülkemizde sadece Doğu Karadeniz Bölgesi'nin kıyı kesiminde yapılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çay bitkisi özel iklim şartları (yıl boyunca yüksek nem ve bol yağış) istediğinden ülkemizde sadece Doğu Karadeniz'de yetişir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Hayvancılık ve Ormancılık",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de ahır hayvancılığının en çok geliştiği bölge hangisidir?",
+                  "answer": "Marmara Bölgesi"
+                },
+                {
+                  "question": "Yılın her döneminde yeşil kalabilen gür çayır örtüsüne sahip olduğu için büyükbaş mer'a hayvancılığının en yaygın olduğu coğrafi bölgemiz hangisidir?",
+                  "answer": "Doğu Anadolu Bölgesi"
+                },
+                {
+                  "question": "Tiftik keçisi (Ankara keçisi) yetiştiriciliği Türkiye'de en çok hangi ilimizde yapılmaktadır?",
+                  "answer": "Ankara"
+                },
+                {
+                  "question": "Türkiye'de orman varlığının en fazla olduğu coğrafi bölge hangisidir?",
+                  "answer": "Karadeniz Bölgesi"
+                },
+                {
+                  "question": "İç Anadolu'da bozkır bitki örtüsünün yaygın olması hangi küçükbaş hayvan türünün beslenmesini ekonomik kılmaktadır?",
+                  "answer": "Koyun"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de büyükbaş mer'a hayvancılığının en fazla yapıldığı Erzurum-Kars bölümünde bu faaliyetin yaygın olmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sermaye birikiminin diğer bölgelerden fazla olması",
+                    "Tüketim merkezlerine çok yakın olması",
+                    "Ahır hayvancılığına devlet tarafından özel teşvik verilmesi",
+                    "Yaz aylarında yağışlarla yeşeren gür çayır örtüsünün bulunması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Erzurum-Kars bölümünde yaz yağışlarıyla yeşeren çayırlar, büyükbaş mer'a hayvancılığının temel besin kaynağını oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerin hangisinde ormancılık faaliyetlerinden elde edilen ekonomik gelir ve kereste üretimi diğerlerine göre daha azdır?",
+                  "options": [
+                    "Artvin",
+                    "Şanlıurfa",
+                    "Antalya",
+                    "Kastamonu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şanlıurfa kurak iklim şartları ve orman örtüsünün en az olduğu illerden biri olması nedeniyle ormancılık faaliyetlerinin en az geliştiği yerlerdendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Küçükbaş hayvancılık türlerinden olan tiftik keçisi (Ankara keçisi) Türkiye'de ekonomik olarak en yoğun hangi bölgede yetiştirilmektedir?",
+                  "options": [
+                    "Güneydoğu Anadolu",
+                    "Karadeniz",
+                    "Akdeniz",
+                    "İç Anadolu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tiftik keçisi, iklim ve bitki örtüsü koşullarının uygunluğu nedeniyle ağırlıklı olarak İç Anadolu Bölgesi'nde, özellikle Ankara ve çevresinde yetiştirilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mera hayvancılığı ile ilgili olarak aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Sene boyunca hayvanlar kapalı alanlarda özel yemlerle beslenir.",
+                    "Yıllar arasındaki üretim miktarında dalgalanmalar fazla olabilir.",
+                    "Besi ve ahır hayvancılığına göre et ve süt verimi daha düşüktür.",
+                    "İklim koşullarına bağımlılık oranı yüksektir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mera hayvancılığında hayvanlar kapalı alanlarda değil, doğal meralarda otlatılır. Kapalı alanlarda beslenme ahır hayvancılığının özelliğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de orman köylerinde yaşayan halkın ekonomik kalkınmasını sağlamak ve ormanları korumak amacıyla kurulan devlet kuruluşu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "ORKÖY",
+                    "TİGEM",
+                    "MTA",
+                    "DSİ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orman ve Köy İlişkileri Genel Müdürlüğü (ORKÖY), orman köylülerinin desteklenmesi ve kalkındırılması amacıyla faaliyet yürütür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yaz aylarının kurak geçtiği yerlerde meraların kuruması nedeniyle büyükbaş hayvanların kapalı alanlarda, kültür ırkı olarak beslendiği hayvancılık türü ____ hayvancılığıdır.",
+                  "options": [
+                    "ahır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahır hayvancılığı, iklime bağımlılığı azaltan ve modern yöntemlerle yapılan bir kapalı alan hayvancılık türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de il bazında orman alanının en fazla olduğu coğrafi bölge Karadeniz iken, orman varlığı yüzdesinin (oranının) en yüksek olduğu bölge yine ____ Bölgesi'dir.",
+                  "options": [
+                    "Karadeniz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi, hem toplam orman alanı hem de yüzölçümüne oranı bakımından orman varlığında ilk sıradadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kıl keçisi yetiştiriciliği Türkiye'de en yoğun olarak engebeli ve makilik alanların geniş yer kapladığı ____ Bölgesi'nde yapılır.",
+                  "options": [
+                    "Akdeniz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıl keçisi, Akdeniz Bölgesi'nin engebeli coğrafyasına ve maki bitki örtüsüne uyum sağlamış bir küçükbaş hayvan türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yapağı elde etmek amacıyla beslenen ve bozkır bitki örtüsüne en iyi uyum sağlayan küçükbaş hayvan türü ____ türüdür.",
+                  "options": [
+                    "koyun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koyun, Türkiye'de en çok beslenen küçükbaş hayvan olup bozkır iklimine ve otlaklarına mükemmel uyum sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ahır hayvancılığında et ve süt verimi yüksek olan özel hayvan cinslerine ____ ırkı denir.",
+                  "options": [
+                    "kültür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültür ırkı hayvanlar ıslah çalışmalarıyla elde edilmiş, verim kapasitesi yüksek olan hayvanlardır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mera hayvancılığında et ve süt üretiminde yıllara göre dalgalanmalar ahır hayvancılığına göre daha fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mera hayvancılığı doğal koşullara ve yağış miktarına bağlı olduğundan, kurak geçen yıllarda üretim düşer, yağışlı yıllarda artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İç Anadolu Bölgesi, küçükbaş hayvan sayısının Türkiye genelinde en az olduğu bölgedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç Anadolu Bölgesi geniş bozkır alanlarına sahip olduğu için küçükbaş hayvancılığın (özellikle koyun) en yoğun yapıldığı bölgelerdendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orman ürünleri sanayisi ülkemizde en çok Karadeniz ve Marmara bölgelerinde gelişmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orman varlığının fazla olması ve tüketim merkezlerine yakınlık nedeniyle kereste, kağıt ve mobilya sanayisi bu bölgelerde yoğunlaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tiftik keçisi yetiştiriciliği, iklim isteklerinden dolayı Güneydoğu Anadolu Bölgesi'nde birinci sıradadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tiftik keçisi yetiştiriciliği Güneydoğu Anadolu'da değil, İç Anadolu Bölgesi'nde (özellikle Ankara ve çevresinde) yoğunlaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kıl keçisi ormanlara zarar verdiği gerekçesiyle bir dönem orman kenarlarından uzaklaştırılmaya çalışılmış, ancak maki örtüsüyle uyumu göz önüne alınarak yeniden teşvik edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıl keçilerinin genç fidanları yemesi ormanlara zarar verse de, maki ve çalı temizliğinde ekolojik bir rolü olduğu bilinmektedir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Madencilik ve Enerji",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de demir madeninin en önemli yatakları hangi illerimizdedir?",
+                  "answer": "Sivas (Divriği) ve Malatya (Hekimhan)"
+                },
+                {
+                  "question": "Zonguldak havzasında çıkarılan ve termik santrallerde kullanılan başlıca enerji kaynağı nedir?",
+                  "answer": "Taşkömürü"
+                },
+                {
+                  "question": "Türkiye'de bor minerallerinin en büyük yatakları hangi bölgemizde bulunur?",
+                  "answer": "Marmara ve Ege (Balıkesir, Kütahya, Eskişehir, Bursa)"
+                },
+                {
+                  "question": "Elbistan (Kahramanmaraş) ve Afşin'de çıkarılan, termik santrallerde yakıt olarak kullanılan düşük kalorili kömür türü nedir?",
+                  "answer": "Linyit"
+                },
+                {
+                  "question": "Türkiye'de ilk güneş enerjisi santrallerinden biri olan ve en çok güneşlenme süresine sahip bölgemiz hangisidir?",
+                  "answer": "Güneydoğu Anadolu Bölgesi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de demir-çelik fabrikalarının kuruluş yerleri belirlenirken aşağıdakilerden hangisi öncelikli olarak hammaddeye yakınlık faktörüyle açıklanmaz?",
+                  "options": [
+                    "Karabük Demir-Çelik Fabrikası",
+                    "Ereğli Demir-Çelik Fabrikası",
+                    "İskenderun Demir-Çelik Fabrikası",
+                    "Sivas Divriği Tesisleri"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karadeniz Ereğli Demir-Çelik Fabrikası hammaddeye değil, taşkömürüne yakınlık ve liman özelliklerinden ötürü deniz kıyısında kurulmuştur. Diğerleri hammaddeye veya ulaşım kolaylığına dayanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki madenlerden hangisinin Türkiye'deki çıkarım alanı diğerlerine göre daha dar bir coğrafi yayılışa sahiptir?",
+                  "options": [
+                    "Linyit",
+                    "Krom",
+                    "Boksit",
+                    "Mermer"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Boksit (alüminyum hammaddesi) Türkiye'de başlıca Konya (Seydişehir), Antalya (Akseki) ve Hatay (İslahiye) çevresinde çıkarılır, bu nedenle yayılışı daha dardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki enerji kaynaklarından hangisi yenilenebilir enerji kaynakları arasında yer almaz?",
+                  "options": [
+                    "Hidroelektrik",
+                    "Doğalgaz",
+                    "Jeotermal",
+                    "Rüzgar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğalgaz fosil yakıtlar grubuna girer ve yenilenemez bir enerji kaynağıdır. Diğer seçenekler ise yenilenebilir enerji kaynaklarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de çıkarılan bor madeni ülke ekonomisi açısından çok önemlidir. Buna göre aşağıdakilerden hangisi bor madeninin kullanım alanlarından biri değildir?",
+                  "options": [
+                    "Otomotivde akaryakıt alternatifi",
+                    "Roket yakıtları ve jet yakıtı katkısı",
+                    "Cam ve seramik sanayisi",
+                    "Nükleer santrallerde koruyucu malzeme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bor madeni doğrudan otomotivde akaryakıt alternatifi olarak kullanılmaz. Cam, deterjan, roket yakıtı, tıp ve nükleer sanayide yaygın olarak kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisinde linyit yataklarına bağlı olarak çalışan bir termik santral bulunmaz?",
+                  "options": [
+                    "Kütahya",
+                    "Manisa",
+                    "Muğla",
+                    "Rize"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Rize ilinde linyit yatakları bulunmadığı için linyitle çalışan termik santral de yoktur. Manisa (Soma), Kütahya (Tunçbilek/Seyitömer) ve Muğla'da (Yatağan/Yeniköy) linyit santralleri vardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de çelik sanayisinin en temel hammaddesi olan ____ madeni en yoğun olarak Sivas Divriği'nde çıkarılmaktadır.",
+                  "options": [
+                    "demir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Demir, çelik üretiminin temel hammaddesidir ve ülkemizde Divriği ve Hekimhan çevresinde çıkarılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sondaj çalışmaları ile yeryüzüne çıkarılan ve Türkiye'nin elektrik üretiminde payı yüksek olan fosil yakıtlardan biri de ____ kaynaklı doğalgazdır.",
+                  "options": [
+                    "mavi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğalgaz, ülkemizde başlıca Hamitabat (Kırklareli) ve Akçakoca gibi alanlarda çıkarılmakta olup büyük kısmı ithal edilmektedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aydın (Sultanhisar) ve Denizli (Sarayköy) illerimiz ____ enerjisi üretimine en uygun alanlar arasında yer alır.",
+                  "options": [
+                    "jeotermal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ege Bölgesi fay hatlarının yoğun olduğu bir bölge olduğundan jeotermal enerji potansiyeli en yüksek alandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de demir-çelik endüstrisinin kurulmasında büyük rol oynayan enerji kaynağı ____ havzasından çıkarılan taşkömürüdür.",
+                  "options": [
+                    "Zonguldak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zonguldak ve çevresi ülkemizde taşkömürünün tek çıkarım alanıdır ve ağır sanayi için kritik öneme sahiptir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayide bor madeninin en fazla işlendiği tesisler Balıkesir (Bandırma) ve Eskişehir (____) illerinde bulunur.",
+                  "options": [
+                    "Kırka"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eskişehir Kırka ilçesi dünyadaki en büyük bor rezervlerine ve işleme tesislerine ev sahipliği yapar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye, bor madeni rezervleri bakımından dünya genelinde ilk sıralarda yer almaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye dünya bor rezervlerinin çok büyük bir kısmına sahiptir ve bu alanda lider ülkelerdendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye petrol ihtiyacının tamamını kendi iç üretiminden karşılayabilmektedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye petrol tüketiminin çok büyük bir kısmını dış ülkelerden ithal yoluyla karşılar, iç üretim talebinin çok altındadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hidroelektrik potansiyeli en yüksek olan coğrafi bölgemiz Doğu Anadolu Bölgesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Anadolu Bölgesi, en yüksek ve en engebeli bölge olması sebebiyle akarsuların akış hızı ve hidroelektrik potansiyeli en yüksek bölgedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Taşkömürü yatakları ülkemizde sadece Akdeniz Bölgesi'nde yaygın olarak bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Taşkömürü Akdeniz'de değil, Batı Karadeniz'de (Zonguldak havzasında) çıkarılmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rüzgar enerjisi santralleri en çok Ege ve Marmara bölgelerinin kıyı kesimlerinde kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rüzgarlı gün sayısının ve rüzgar hızının uygun olduğu Ege ve Marmara kıyıları rüzgar enerjisi yatırımlarında ilk sıradadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Sanayi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de ilk demir-çelik fabrikası hangi ilimizde kurulmuştur?",
+                  "answer": "Karabük"
+                },
+                {
+                  "question": "Ham maddesi orman ürünleri olan sanayi koluna ne ad verilir?",
+                  "answer": "Kereste ve kağıt sanayisi"
+                },
+                {
+                  "question": "Cumhuriyetin ilk yıllarında temeli atılan ve şeker üretimini hedefleyen ilk fabrika nerededir?",
+                  "answer": "Alpullu"
+                },
+                {
+                  "question": "Petrolün işlenerek farklı ürünlere dönüştürüldüğü tesisler genel olarak ne olarak adlandırılır?",
+                  "answer": "Rafineri"
+                },
+                {
+                  "question": "Marmara Bölgesi'nin sanayi merkezi olmasında en önemli beşeri etken nedir?",
+                  "answer": "Ulaşım ve pazara yakınlık"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de sanayi tesislerinin kuruluş yerinin seçiminde aşağıdakilerden hangisi genellikle ham maddeye yakınlık faktörüyle doğrudan ilişkilendirilemez?",
+                  "options": [
+                    "Otomotiv fabrikaları",
+                    "Konserve fabrikaları",
+                    "Şeker fabrikaları",
+                    "Çay fabrikaları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Otomotiv fabrikaları tarım veya maden ham maddesine doğrudan bağımlı değildir; daha çok kalifiye iş gücü, sermaye ve ulaşım/pazar ağlarına yakınlık gibi faktörlere göre kurulur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisi demir-çelik sanayisinin varlığıyla ön plana çıkmaktadır?",
+                  "options": [
+                    "Rize",
+                    "Ereğli",
+                    "Zonguldak",
+                    "İzmir"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zonguldak taş kömürü ile bilinir ancak Karabük ve Zonguldak/Ereğli demir-çelik fabrikalarıyla ün salmıştır. Seçenekler arasında Ereğli doğrudan demir-çelik üretim merkezidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de un ve unlu mamuller sanayisinin ülke geneline yaygın olmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İthalat imkanlarının kolay olması",
+                    "Enerji kaynaklarına yakın olması",
+                    "Tüketim pazarının yaygın ve buğdayın geniş alanda üretilmesi",
+                    "İş gücü maliyetinin düşük olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Buğday Türkiye'nin birçok bölgesinde tarımı yapılan bir üründür ve ekmek temel gıda maddesi olduğu için un sanayisi ülkeye yayılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sanayi kollarından hangisinin gelişimi iklim koşullarından doğrudan ve en fazla etkilenir?",
+                  "options": [
+                    "Makine",
+                    "Otomotiv",
+                    "Dokuma ve Tekstil",
+                    "Petrokimya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dokuma sanayisinin önemli bir kolu olan pamuklu dokuma, ham maddesi olan pamuğun yetiştiği iklim şartlarına doğrudan bağlıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Batman petrol rafinerisinin bu bölgede kurulmasının temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tüketici nüfusun fazla olması",
+                    "Yüksek teknoloji merkezlerine yakınlık",
+                    "Ham maddeye yakınlık",
+                    "Limana sahip olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Batman ve çevresinden petrol çıkarıldığı için rafineri ham maddeye yakınlık ilkesi gereği bu bölgede kurulmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de petrokimya sanayisinin en gelişmiş olduğu merkezlerden biri İzmir'deki Aliağa ____ tesisidir.",
+                  "options": [
+                    "rafinerisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Petrolün işlenerek petrokimya ürünlerine dönüştürüldüğü tesisler rafineri olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çabuk bozulabilen tarım ürünlerini işleyen ____ fabrikaları genellikle tarım alanlarına yakın yerlere kurulur.",
+                  "options": [
+                    "konserve"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ürünlerin bozulmadan işlenebilmesi için ham maddeye yakınlık esastır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zonguldak ve çevresinde demir-çelik sanayisinin kurulmasında temel enerji kaynağı olarak ____ kömürü etkili olmuştur.",
+                  "options": [
+                    "taş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Demir-çelik üretiminde yüksek ısı elde etmek için taş kömürüne ihtiyaç duyulur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul, Kocaeli ve Bursa illerini kapsayan bölge Türkiye'nin en büyük ____ alanı olarak öne çıkar.",
+                  "options": [
+                    "sanayi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu iller ulaşım ve pazar avantajları nedeniyle Türkiye'nin sanayi kalbini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ham maddesi selüloz olan ve kağıt üretimini gerçekleştiren tesisler genellikle ____ bölgelerine yakın kurulur.",
+                  "options": [
+                    "orman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kağıt sanayisi ağaç ve orman ürünlerini ham madde olarak kullandığı için orman varlığının zengin olduğu yerlerde yaygındır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de sanayi kolları içinde en fazla istihdam sağlayan sektörlerden biri tekstil ve konfeksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tekstil ve konfeksiyon sektörü Türkiye'de hem üretim hem de istihdam payı yüksek olan köklü sanayi kollarındandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Marmara Bölgesi'nde sanayi faaliyetlerinin gelişmesinde yer şekillerinin engebeli olması en önemli avantajdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Marmara Bölgesi'nin engebeli olması değil, aksine düzlüklerin ve ovaların yer alması, ayrıca ulaşım yolları üzerinde bulunması sanayiyi geliştirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şeker fabrikalarının ham maddeye yakın yerlerde kurulmasının sebebi pancarın çabuk bozulabilen bir ürün olmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeker pancarı söküldükten sonra hızla şeker oranını kaybettiği için fabrikalar tarım alanlarına yakın inşa edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de tüm illerde eşit oranda gelişmiş sanayi tesisleri bulunmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi tesisleri coğrafi koşullar, ulaşım, sermaye ve pazar gibi etkenler nedeniyle ülkeye dengeli dağılmamıştır, belirli bölgelerde yoğunlaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bursa, İnegöl ve çevresi mobilya ve otomotiv sanayisinin geliştiği önemli merkezler arasındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bursa ve ilçeleri hem otomotiv hem de mobilya sektöründe Türkiye'nin öncü üretim üslerinden biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Ticaret ve Ulaşım",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Turizm",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Doğal Afetler ve Çevre",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Doğal Afetler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Çevre Sorunları ve Politikalar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Küresel Ortam ve Jeopolitik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Jeopolitik ve Küresel Ortam",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Uluslararası Örgütler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Kültür Bölgeleri",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Türkiye'nin Bölgesel Coğrafyası",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Türkiye'nin Bölgeleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Ülkeler Arası Etkileşim",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

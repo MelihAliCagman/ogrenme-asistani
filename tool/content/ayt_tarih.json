@@ -1,0 +1,2283 @@
+{
+  "subjectKey": "ayt_tarih",
+  "title": "AYT Tarih",
+  "examType": "YKS",
+  "subject": "Tarih",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Beylikten Devlete Osmanlı Siyaseti (1302-1453)",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Osmanlı’nın Kuruluşu",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nin bağımsızlığını ilan ettiği kabul edilen 1302 yılındaki savaşın adı nedir?",
+                  "answer": "Bapheus (Koyunhisar) Savaşı"
+                },
+                {
+                  "question": "Osmanlı'nın Rumeli'deki ilk toprak parçası olan Çimpe Kalesi hangi padişah döneminde alınmıştır?",
+                  "answer": "Orhan Bey"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilk düzenli askeri birlik olan yaya ve müsellem ordusunu kim kurmuştur?",
+                  "answer": "Orhan Bey"
+                },
+                {
+                  "question": "Ankara Savaşı hangi yıl ve kimler arasında yapılmıştır?",
+                  "answer": "1402 yılında Yıldırım Bayezid ile Timur arasında"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin Balkanlardaki ilk büyük zaferi kabul edilen 1364 savaşı hangisidir?",
+                  "answer": "Sırpsındığı Savaşı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Beyliği'nin kısa sürede büyümesinde etkili olan faktörler arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Merkeziyetçi feodalite uygulamaları",
+                    "Bizans'ın siyasi ve ekonomik zayıflık içinde olması",
+                    "Uç beyliği konumunda olmasından ötürü gaza ve cihat politikasını izlemesi",
+                    "Yetenekli liderlerin başa geçmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti'nde Avrupa tarzı feodalite hiçbir zaman görülmemiştir; aksine merkeziyetçi bir tımar sistemi uygulanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Orhan Bey döneminde gerçekleşen gelişmelerden biri değildir?",
+                  "options": [
+                    "Divan teşkilatının kurulması",
+                    "İlk kez para basılması",
+                    "İznik'in fethedilerek başkent yapılması",
+                    "İstanbul'un ilk kez kuşatılması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İstanbul ilk kez Yıldırım Bayezid döneminde kuşatılmıştır, Orhan Bey döneminde kuşatma yapılmamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ankara Savaşı'ndan sonra Osmanlı Devleti'nin siyasi birliğinin bozulduğu ve taht kavgalarının yaşandığı döneme ne ad verilir?",
+                  "options": [
+                    "Tanzimat Dönemi",
+                    "Lale Devri",
+                    "Fetret Devri",
+                    "Nizam-ı Cedit"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "1402 Ankara Savaşı sonrasında Yıldırım Bayezid'in oğulları arasında geçen 11 yıllık taht kavgaları dönemi Fetret Devri olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Rumeli'ye geçişi kolaylaştıran ve Çimpe Kalesi'nin alınmasını sağlayan yardımlardan ötürü hangi devletle ilk resmi ilişkiler kurulmuştur?",
+                  "options": [
+                    "Ceneviz",
+                    "İmparatorlukta baskı gören Akhisar Rumları",
+                    "Karesioğulları",
+                    "Bizans"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orhan Bey, Karesioğulları Beyliği'ndeki taht kavgalarından yararlanarak bu beyliği Osmanlı'ya katmış ve donanmalarından yararlanarak Çimpe Kalesi'ni almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin balkanlardaki ilerleyişini durdurmak amacıyla Haçlılar ile yapılan 1389 I. Kosova Savaşı'nda şehit düşen Osmanlı padişahı kimdir?",
+                  "options": [
+                    "I. Murad",
+                    "I. Beyezid",
+                    "Orhan Bey",
+                    "I. Mehmed"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "I. Murad, I. Kosova Savaşı sonrasında savaş alanını gezerken bir Sırp milis tarafından hançerlenerek şehit edilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin Rumeli'de fethettiği yerlerde kalıcı olmak amacıyla uyguladığı yerleştirme politikasına ____ denir.",
+                  "options": [
+                    "iskan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İskan politikası, fethedilen bölgelerin Türkleşmesini ve İslamlaşmasını sağlamak amacıyla Anadolu'dan gelen göçebe Türkmenlerin bu bölgelere yerleştirilmesi esasına dayanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin kuruluş sürecinde ahi liderlerinin desteğini almak amacıyla Osman Bey, şeyh Edebali'nin kızıyla evlenmiştir ve bu durum ____ teopolitik desteğini sağlamıştır.",
+                  "options": [
+                    "ahilerin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahi teşkilatının desteği, hem ekonomik hem de askeri açıdan Osmanlı'nın bölgede güçlenmesinde kritik rol oynamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ankara Savaşı sonucunda Osmanlı'nın dağılma tehlikesi atlattığı bu dönemi sona erdiren ve devleti yeniden toparlayan I. Mehmed, ____ olarak kabul edilir.",
+                  "options": [
+                    "çelebi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "I. Mehmed (Çelebi Mehmet), Fetret Devri'ne son vererek devletin siyasi birliğini yeniden sağladığı için Osmanlı'nın ikinci kurucusu sayılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "I. Murad döneminde kurulan ve savaş esirlerinden oluşan askerlerin yetiştirildiği sisteme ____ sistemi denir.",
+                  "options": [
+                    "pençik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pençik sistemi, savaşta ele geçirilen esirlerin beşte birinin devlete ayrılarak asker yapılmasını öngören bir sistemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'nın Anadolu Türk siyasi birliğini sağlamak için ilk ele geçirdiği beylik ____ beyliğidir.",
+                  "options": [
+                    "karesioğulları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karesioğulları Beyliği'nin alınmasıyla Osmanlı donanma gücü elde etmiş ve denizcilik faaliyetlerine başlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti, kuruluş yıllarında diğer Türk beylikleriyle sürekli mücadele etmek yerine öncelikli olarak Bizans ve Balkan devletleriyle mücadele etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlılar ilk dönemde 'uc' beyliği olmanın avantajıyla gazâ politikasını benimsemiş ve Hıristiyan devletler üzerine yoğunlaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ankara Savaşı'nı Timur kazanmış ve bu savaş sonucunda Osmanlı Devleti yıkılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Timur savaşı kazanmıştır ancak Osmanlı Devleti yıkılmamış, sadece Fetret Devri adı verilen bir bunalım ve taht kavgaları dönemine girmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin Rumeli'ye geçişini kolaylaştıran en önemli olay Karesioğulları Beyliği'nin alınmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karesioğulları'nın alınmasıyla donanma gücü elde edilmiş ve bu sayede Çimpe Kalesi kolayca teslim alınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Varna ve II. Kosova savaşları ile Haçlılara karşı zaferler kazanılmış ve Osmanlı'nın Balkanlardaki egemenliği kesinleşmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "II. Murat dönemindeki bu savaşlar sonucunda Haçlıların Türkleri Balkanlardan atamayacağı kesinleşmiş ve Türk hakimiyeti pekişmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstanbul ilk kez II. Mehmed (Fatih) döneminde kuşatılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İstanbul daha önce Yıldırım Bayezid ve Musa Çelebi gibi isimler tarafından da kuşatılmıştır ancak fetih II. Mehmed döneminde gerçekleşmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Fetih ve Yükseliş",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osman Bey döneminde yapılan ilk bataryalı ve kale kuşatmasında etkili olan fetih hangisidir?",
+                  "answer": "Karacahisar"
+                },
+                {
+                  "question": "Orhan Bey döneminde Osmanlı Devleti'nin Rumeli'ye geçişini kolaylaştıran ilk üs hangisidir?",
+                  "answer": "Çimpe Kalesi"
+                },
+                {
+                  "question": "I. Murad döneminde Haçlılarla yapılan ilk resmi ve büyük savaş hangisidir?",
+                  "answer": "Sırpsındığı Savaşı"
+                },
+                {
+                  "question": "Ankara Savaşı'nda Yıldırım Bayezid'i mağlup eden Timur'un devleti hangisidir?",
+                  "answer": "Timur İmparatorluğu"
+                },
+                {
+                  "question": "İstanbul'u feth ederek Osmanlı'ya 'Fatih' unvanını kazandıran padişah kimdir?",
+                  "answer": "II. Mehmed"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin kuruluş sürecinde ele geçirdiği ilk önemli kale olan ve Bursa'nın fethine zemin hazırlayan yer aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bilecik",
+                    "Edirne",
+                    "Karacahisar",
+                    "İznik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilecik, Osman Bey döneminde fethedilerek bir süre beylik merkezi yapılmış ve bölgedeki stratejik üstünlük sağlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orhan Bey döneminde karesioğulları Beyliği'nin alınması Osmanlı Devleti'ne hangi alanda en büyük avantajı sağlamıştır?",
+                  "options": [
+                    "Donanma gücü ve Rumeli'ye geçiş",
+                    "Doğu ticaret yollarının denetimi",
+                    "İpek yolu'nun tamamen ele geçirilmesi",
+                    "Memlükler ile doğrudan komşu olunması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karesioğulları'nın alınmasıyla Osmanlı deniz gücüne kavuşmuş ve Rumeli'ye geçiş yolu açılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "I. Murad döneminde imzalanan Edirne-Çirmen veya savaşlar sonucu Balkanlar'da ilerleyen Osmanlı'ya karşı ilk büyük Haçlı ittifakı hangi savaşla sonuçlanmıştır?",
+                  "options": [
+                    "Niğbolu Savaşı",
+                    "Varna Savaşı",
+                    "Sırpsındığı Savaşı",
+                    "Kosova Savaşı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sırpsındığı Savaşı, Osmanlı'nın Haçlılarla yaptığı ilk savaştır ve zaferle sonuçlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ankara Savaşı'ndan sonra Osmanlı Devleti'nin siyasi birliğinin bozulduğu ve taht kavgalarının yaşandığı döneme ne ad verilir?",
+                  "options": [
+                    "Lale Devri",
+                    "Fetret Devri",
+                    "Tanzimat Dönemi",
+                    "Yükselme Dönemi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1402 Ankara Savaşı sonrasında Yıldırım Bayezid'in oğulları arasında taht kavgalarının yaşandığı 11 yıllık döneme Fetret Devri denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İstanbul'un fethi sonrasında Osmanlı Devleti'ne hangi unvanı kazandıran ve Doğu Roma'nın sonunu getiren padişah kimdir?",
+                  "options": [
+                    "I. Murad",
+                    "Yıldırım Bayezid",
+                    "II. Mehmed",
+                    "I. Selim"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "II. Mehmed, 1453 yılında İstanbul'u fethederek Fatih unvanını almış ve Bizans İmparatorluğu'na son vermiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin kurucusu olan ve beyliğe bağımsızlık kazandıran lider ____ Bey'dir.",
+                  "options": [
+                    "Osman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osman Bey, 1299 yılında bağımsızlığını ilan ederek Osmanlı Beyliği'nin kurucusu olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rumeli'de fetihleri kalıcı kılmak amacıyla uygulanan yerli Hristiyan halkın güvenini kazanma politikasına ____ denir.",
+                  "options": [
+                    "İskân"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İskân politikası, fethedilen Balkan topraklarına Anadolu'dan Türk ailelerin yerleştirilmesi ve uyumlu yaşamın sağlanmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anadolu Türk siyasi birliğini büyük ölçüde sağlayan ancak 1402'de Timur'a mağlup olan padişah ____ Bayezid'dir.",
+                  "options": [
+                    "Yıldırım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıldırım Bayezid, Ankara Savaşı'nda Timur'a yenilmiş ve bu durum Fetret Devri'ne yol açmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul'un fethinde Bizans'a denizden yardım gelmesini engellemek için inşa edilen yapı ____ Hisarı'dır.",
+                  "options": [
+                    "Rumeli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rumeli Hisarı (Boğazkesen), Fatih Sultan Mehmed tarafından İstanbul kuşatması öncesinde yaptırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1444 yılında Haçlılarla yapılan ____ Savaşı'nı II. Murad kazanmıştır.",
+                  "options": [
+                    "Varna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Varna Savaşı, genç padişah II. Murad döneminde Haçlılara karşı kazanılan önemli bir zaferdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti ilk kez Orhan Bey döneminde Rumeli'ye geçmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orhan Bey döneminde Çimpe Kalesi'nin alınmasıyla Osmanlı Devleti ilk kez Rumeli'ye toprak kazanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ankara Savaşı'nı kazanan taraf Yıldırım Bayezid olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ankara Savaşı'nı Timur kazanmış ve Yıldırım Bayezid esir düşmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstanbul'un fethi ile Orta Çağ kapanış, Yeni Çağ açılış dönemi başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstanbul'un fethi, dünya tarihi açısından bir dönüm noktası kabul edilerek Çağ değişimine yol açmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "I. Kosova Savaşı'nda Osmanlı padişahı savaş meydanında şehit edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "I. Murad, I. Kosova Savaşı sonrasında bir Sırp milis tarafından şehit edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fetret Devri, Osmanlı Devleti'nin en parlak ve en güçlü dönemidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fetret Devri, taht kavgaları ve otorite boşluğu nedeniyle Osmanlı'nın zayıfladığı bir kriz dönemidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Devletleşme Sürecinde Savaşçılar ve Askerler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Osmanlı Ordusu ve Savaş Teknikleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nin ilk düzenli ve daimi ordusu hangi padişah döneminde kurulmuştur?",
+                  "answer": "Orhan Bey"
+                },
+                {
+                  "question": "Acemi ocağından yetişen askerlerin kapıkulu birliklerine geçişine ne ad verilir?",
+                  "answer": "Cebecilik veya Kapıkulu Ocağına geçiş"
+                },
+                {
+                  "question": "Osmanlı ordusunda ordunun keşif ve haberleşme işlerinden sorumlu olan hafif süvari birlikleri hangileridir?",
+                  "answer": "Akıncılar"
+                },
+                {
+                  "question": "Tımarlı sipahilerin masraflarını karşılamak üzere devlet tarafından kendilerine verilen arazilerin gelirlerine ne denir?",
+                  "answer": "Dirlik"
+                },
+                {
+                  "question": "Osmanlı ordusunda top dökümü ve bakımı ile görevli olan sınıf hangisidir?",
+                  "answer": "Topçu Ocağı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde Kapıkulu Ocaklarının temelini oluşturan ve savaş esirlerinin beşte birinin devlete ayrılmasıyla oluşturulan sistem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İltizam Sistemi",
+                    "Mültezim Sistemi",
+                    "Devşirme Sistemi",
+                    "Pençik Sistemi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Pençik sistemi, savaş esirlerinin beşte birinin devlete ayrılarak asker yapılmasını öngören sistemdir ve Kapıkulu ocaklarının temelini oluşturmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi eyalet askerleri arasında yer alan ve tamamen Türk gençlerinden oluşan, barış zamanında tarımla uğraşıp savaş zamanında orduya katılan süvari birlikleridir?",
+                  "options": [
+                    "Tımarlı Sipahiler",
+                    "Yeniçeriler",
+                    "Lağımcılar",
+                    "Azebler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tımarlı sipahiler, dirlik sahipleri tarafından yetiştirilen ve eyalet askerlerinin en önemli kısmını oluşturan Türk kökenli süvari birlikleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı ordusunda kale kuşatmalarında tünel kazarak surları çökertmekle görevli olan sınıf aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Lağımcılar",
+                    "Cebeciler",
+                    "Bostancılar",
+                    "Humbaracılar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lağımcılar, kuşatmalarda surların altına tünel kazarak barut yerleştirmek ve surları patlatmakla görevli olan teknik sınıftır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı donanmasının komutanına verilen unvan aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Beylerbeyi",
+                    "Sancakbeyi",
+                    "Serasker",
+                    "Kaptan-ı Derya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Osmanlı Devleti'nde donanma komutanlarına ve denizcilikten sorumlu divan üyesine Kaptan-ı Derya denilmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Kapıkulu piyadeleri arasında yer almaz?",
+                  "options": [
+                    "Acemiler",
+                    "Sipahiler",
+                    "Topçular",
+                    "Yeniçeriler"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sipahiler, Kapıkulu süvarileri sınıfına dahildir; piyade yani yaya birlikleri arasında yer almazlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı ordusunda padişahın güvenliğini sağlamak ve başkentte düzeni korumakla görevli olan yaya kapıkulu ocağına ____ denir.",
+                  "options": [
+                    "Yeniçeri Ocağı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeniçeri Ocağı, başkentin ve padişahın güvenliğini sağlayan en önemli kapıkulu piyade ocağıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Savaşta en önde yer alan, düşmanın ana hatlarını bozmak ve ilk şoku yaratmakla görevli olan hafif yaya birliklerine ____ denir.",
+                  "options": [
+                    "Azebler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Azebler, genellikle bekar Türk gençlerinden oluşan ve savaşın başında düşmanla ilk teması kuran yaya birlikleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı ordusunda silahların bakımını, onarımını ve cephede dağıtılmasını sağlayan ocak ____ ocağıdır.",
+                  "options": [
+                    "Cebeci"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cebeciler, ordunun silah yapımı, bakımı ve cepheye ulaştırılması ile sorumlu olan askeri sınıftır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı deniz kuvvetlerinde görev yapan askerlere genel olarak ____ adı verilmiştir.",
+                  "options": [
+                    "Levend"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı donanmasında görev yapan deniz askerlerine levend ismi verilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tımarlı sipahilerin bağlı olduğu ve dirlik topraklarının denetimini sağlayan idari sistem ____ sistemi olarak adlandırılır.",
+                  "options": [
+                    "Tımar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tımar sistemi sayesinde hem tarımsal üretim süreklilik kazanmış hem de devlet hazineden para ödemeden büyük bir süvari ordusu beslemiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tımarlı sipahiler hazineden ulûfe adı verilen düzenli maaş alırlardı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tımarlı sipahiler maaş almazlar, geçimlerini ve asker masraflarını kendilerine verilen dirlik topraklarının gelirlerinden sağlarlardı. Maaş alanlar Kapıkulu askerleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Acemi Ocağı, Kapıkulu Ocaklarına asker yetiştirmek amacıyla kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Acemi Ocağı, devşirme veya pençik yoluyla gelen asker adaylarının Türk-İslam kültürünü öğrendiği ve askerî eğitim aldığı ilk ocaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akıncı birlikleri Osmanlı ordusunda top dökümü ve bakımı ile görevli olan teknik sınıftır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Akıncılar sınır boylarında keşif ve akın yapan hafif süvari birlikleridir. Top dökümünden sorumlu olan sınıf ise Topçu Ocağıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kapıkulu askerleri üç ayda bir 'ulufe' adı verilen maaş alırlardı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapıkulu ocaklarına mensup askerler her üç ayda bir düzenli olarak ulufe adı verilen maaş alırlardı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Donanma gücünün geliştirilmesinde Barbaros Hayrettin Paşa'nın Osmanlı hizmetine girmesi önemli bir dönüm noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Barbaros Hayrettin Paşa'nın Osmanlı'ya katılmasıyla Akdeniz'deki Osmanlı deniz üstünlüğü kesinleşmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kapıkulu Ocakları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kapıkulu Ocaklarının temeli hangi devirde atılmıştır?",
+                  "answer": "Birinci Murad devrindedir."
+                },
+                {
+                  "question": "Devşirme sistemi hangi ocak için asker temin eder?",
+                  "answer": "Kapıkulu Ocakları."
+                },
+                {
+                  "question": "Acemi ocağından sonra yaya askerlerin geçtiği ilk ocak hangisidir?",
+                  "answer": "Yeniçeri Ocağı."
+                },
+                {
+                  "question": "Kapıkulu Ocaklarının başındaki en yüksek komutan kimdir?",
+                  "answer": "Yeniçeri Ağası."
+                },
+                {
+                  "question": "Kapıkulu askerleri padişah değişikliğinde hangi bahşişi alır?",
+                  "answer": "Cülus bahşişi."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Kapıkulu Ocaklarına asker yetiştirmek amacıyla ilk kez Acemi Ocağını kuran Osmanlı padişahı kimdir?",
+                  "options": [
+                    "Fatih Sultan Mehmed",
+                    "Orhan Bey",
+                    "Osman Bey",
+                    "Birinci Murad"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kapıkulu sisteminin ve Acemi Ocağının temelleri Birinci Murad döneminde atılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Devşirme Kanununa göre, gayrimüslim çocukların Türk ailelerin yanına verilerek Türk-İslam kültürünü öğrenmesi hangi aşamada gerçekleşir?",
+                  "options": [
+                    "Türk ailelerin yanında staj",
+                    "Yeniçeri Ocağında",
+                    "Staj döneminde",
+                    "Acemi Ocağında"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devşirilen çocuklar Anadolu'daki Türk ailelerin yanına verilerek Türk dili ve İslam kültürü ile eğitilirlerdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Kapıkulu süvari ocaklarından biri değildir?",
+                  "options": [
+                    "Silahtar",
+                    "Yeniçeri",
+                    "Spahi",
+                    "Ulufe"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ulufe bir ocak adı değil, Kapıkulu askerlerine üç ayda bir ödenen maaşın adıdır. Silahtar ve sipahi süvari ocaklarındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yeniçeri Ocağının kaldırılması olayı Osmanlı tarihinde hangi isimle anılır?",
+                  "options": [
+                    "Vaka-i Hayriye",
+                    "Vaka-i Vakvakiye",
+                    "Alemdar Vakası",
+                    "Kuleli Vakası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci Mahmud döneminde 1826 yılında Yeniçeri Ocağının kaldırılması 'Hayırlı Olay' anlamına gelen Vaka-i Hayriye olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kapıkulu askerleri merkez ordusu olup doğrudan kime bağlıdırlar?",
+                  "options": [
+                    "Yeniçeri Ağasına",
+                    "Kazaskere",
+                    "Sadrazama",
+                    "Padişaha"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kapıkulu askerleri doğrudan padişaha bağlı kapı kulu askerleridir ve başkentte görev yaparlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kapıkulu askerlerine üç ayda bir ödenen maaşa ____ denir.",
+                  "options": [
+                    "ulufe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulufe, Kapıkulu askerlerinin üç ayda bir aldıkları maaşın adıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Pençik sistemi yerine daha düzenli asker temini için ____ sistemi uygulanmıştır.",
+                  "options": [
+                    "devşirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pençik sisteminin yetersiz kaldığı durumlarda devşirme sistemine geçilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeniçerilerin komutanına ____ denir.",
+                  "options": [
+                    "Yeniçeri Ağası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeniçeri Ocağının en yetkili komutanı Yeniçeri Ağası unvanını taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeniçeriler emekli olduklarında ____ adı verilen emeklilik maaşı alırlardı.",
+                  "options": [
+                    "oturak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaşlanan veya yaralanan yeniçerilere oturak maaşı bağlanırdı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kapıkulu ocaklarına asker ilk olarak ____ ocağından girerdi.",
+                  "options": [
+                    "Acemi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devşirilen çocuklar ilk olarak Acemi Ocağına alınarak eğitilirdi.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kapıkulu ocakları yaya ve süvari olmak üzere iki ana gruba ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapıkulu ordusu yaya ocakları (Yeniçeri vb.) ve süvari ocakları (Silahtar vb.) olarak ikiye ayrılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kapıkulu askerleri tarım ile uğraşır ve tımarlı sipahiler gibi toprak gelirleriyle geçinirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kapıkulu askerleri ulufe adı verilen nakit maaş alırlar ve şehirlerde kışlalarda yaşarlardı, toprakla uğraşmazlardı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Acemi Ocağında başarılı olan askerler Yeniçeri Ocağına geçiş yapardı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Acemi Ocağında eğitimini tamamlayan ve yetenekli bulunan askerler Kapıkulu ocağının temelini oluşturan Yeniçeri Ocağına sevk edilirdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yeniçerilerin evlenmeleri ve ticaretle uğraşmaları yasaktı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeniçerilerin askerlik dışında bir işle uğraşmaları ve evlenmeleri kanunen yasaklanmıştı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kapıkulu Ocakları ilk kez Kanuni Sultan Süleyman döneminde kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kapıkulu ocakları Kanuni döneminde değil, Birinci Murad döneminde kurulmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Beylikten Devlete Osmanlı Medeniyeti",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Yönetim Anlayışı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde padişahın emir ve kararnamelerine verilen ad nedir?",
+                  "answer": "Ferman"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde hükümdarın yetkilerini dinî ve hukuki kurallar çerçevesinde kullanmasını ifade eden temel ilke nedir?",
+                  "answer": "Şerî hukuk ve Adalet"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da nişancının görev alanı hangi konuları kapsar?",
+                  "answer": "Padişahın tuğrasını çekmek ve tımar topraklarının kaydını tutmak"
+                },
+                {
+                  "question": "Osmanlı'da eyalet yönetiminin başındaki askeri ve idari yetkiyle donatılmış yöneticilere ne denir?",
+                  "answer": "Beylerbeyi"
+                },
+                {
+                  "question": "Yönetenler sınıfının askeri zümresi içerisinde yer alan ve devlet adına vergi toplayan kişilere genel olarak ne ad verilir?",
+                  "answer": "Ehl-i Aşer veya Görevliler"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde padişahın mutlak otoritesini güçlendiren ve devletin devamı için kardeş katlini yasal hale getiren padişah kimdir?",
+                  "options": [
+                    "Fatih Sultan Mehmet",
+                    "Yıldırım Bayezid",
+                    "Kanuni Sultan Süleyman",
+                    "I. Murat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih Sultan Mehmet, Fatih Kanunnamesi (Tezkiretü'l-Bünyan/Kanunname-i Ali Osman) ile kardeş katlini yasal düzenlemeye bağlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da padişah adına alınan kararların şeriata ve örfe uygun olup olmadığını denetleyen divan üyesi kimdir?",
+                  "options": [
+                    "Defterdar",
+                    "Nişancı",
+                    "Reisülküttap",
+                    "Kazasker"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kazasker, divandaki büyük davalara bakar ve kadıların atamalarını yaparak kararların hukuki uygunluğunu denetlerdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı devlet yönetiminde 'Seyfiye' sınıfına mensup bir görevlidir?",
+                  "options": [
+                    "Şeyhülislam",
+                    "Nişancı",
+                    "Veziriazam",
+                    "Kazasker"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Veziriazam, kaptan-ı derya ve yeniçeri ağası seyfiye (yönetim ve askerlik) sınıfındandır. Nişancı kalemiye, kazasker ilmiye sınıfındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı merkez teşkilatında maliye işlerinden sorumlu olan ve bütçeyi yöneten Divan üyesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kazasker",
+                    "Nişancı",
+                    "Defterdar",
+                    "Yeniçeri Ağası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Defterdar, bütçenin hazırlanmasından ve devletin tüm mali işlerinin denetiminden sorumlu olan kalemiye sınıfı üyesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı yönetim anlayışında 'Kut' inancının yerini zamanla ne tür bir meşruiyet anlayışı almıştır?",
+                  "options": [
+                    "Teokratik ve merkeziyetçi gelenek",
+                    "Demokratik seçim sistemi",
+                    "Feodal derebeylik",
+                    "Anayasal monarşi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti İslamiyet'in kabulüyle birlikte eski Türk kut anlayışını İslami devlet gelenekleri ve merkeziyetçi yapıyla harmanlamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde padişahların tahta çıkarken onayladıkları ve adaletle yöneteceklerine dair söz verdikleri belgelere ____ denirdi.",
+                  "options": [
+                    "Cülusname"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cülusname, tahta çıkan her padişahın devletin yasalarına ve adalete bağlı kalacağını taahhüt ettiği belgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da yazışmaları yürüten ve dış politika belgelerini kaleme alan sınıfa ____ sınıfı adı verilirdi.",
+                  "options": [
+                    "Kalemiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalemiye sınıfı, bürokrasiyi yöneten, mali ve idari yazışmaları yürüten devlet görevlilerinden oluşurdu.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı yönetiminde taşra teşkilatının temel birimi olan sancakları yöneten kişilere ____ adı verilirdi.",
+                  "options": [
+                    "Sancakbeyi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sancakbeyi, eyaletlerin alt bölümleri olan sancaklarda askeri ve idari yetkileri elinde bulunduran yöneticidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan-ı Hümayun toplantılarında alınan kararların kaydedildiği defterlere ____ adı verilirdi.",
+                  "options": [
+                    "Mühimme Defteri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mühimme defterleri, Divan-ı Hümayun'da görüşülen önemli devlet meselelerinin ve alınan kararların kaydedildiği resmi kayıttır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilmiye sınıfının en üst düzey dini ve hukuki otoritesi ____ idi.",
+                  "options": [
+                    "Şeyhülislam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeyhülislam, divan kararlarının dine uygunluğuna dair fetva veren ilmiye sınıfının başıydı.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Divan-ı Hümayun bir karar organı olmayıp, Osmanlı yönetiminde sadece danışma meclisi niteliği taşımıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Divan-ı Hümayun son sözü söyleyen merci değil, padişaha danışmanlık yapan ve nihai kararın padişaha ait olduğu bir kuruldu.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde yönetenler sınıfı (askeriler) vergi öderken, yönetilenler sınıfı (reaya) vergi muafiyetine sahipti.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tam tersi geçerlidir; yönetenler sınıfı (askeriler) devlete hizmet karşılığı vergi ödemezken, üretici konumundaki reaya vergi öderdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet dönemine kadar Divan-ı Hümayun'a padişahlar başkanlık ederken, bu dönemden sonra veziriazamlar başkanlık etmeye başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih Kanunnamesi ile padişahlar kafes arkasından divanı izlemeye başlamış ve divana veziriazam başkanlık etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nişancı, tımarların dağıtımını yapar ve tahrir defterlerini tutarak arazilerin kaydını tutardı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nişancı, toprak kayıtlarını tutan ve dirliklerin dağıtımında birinci derece yetkili olan kalemiye sınıfı üyesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Seyfiye sınıfı üyeleri yalnızca eğitim ve adalet işleriyle ilgilenirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eğitim ve adalet işleri seyfiye sınıfının değil, ilmiye sınıfının görev alanına girer; seyfiye askeri ve idari bürokrasiyi kapsar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Kültür ve Sanat",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı devlet teşkilatında padişahın tuğra ve nişanını çeken görevliye ne ad verilir?",
+                  "answer": "Nişancı"
+                },
+                {
+                  "question": "Osmanlı'da saray eğitiminin verildiği en önemli kurum hangisidir?",
+                  "answer": "Enderun"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da tahrir defterlerini tutan ve mali işlerden sorumlu üye kimdir?",
+                  "answer": "Defterdar"
+                },
+                {
+                  "question": "Osmanlı mimarisinde ilk başkent olan hangi şehirde erken dönem eserleri yoğunlaşmıştır?",
+                  "answer": "Bursa"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet döneminde kurulan ve medrese seviyesinde eğitim veren yüksek okul grubu nedir?",
+                  "answer": "Sahn-ı Seman"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı devlet teşkilatında kalemiye sınıfına mensup görevlilerden biridir?",
+                  "options": [
+                    "Kazasker",
+                    "Beylerbeyi",
+                    "Yeniçeri Ağası",
+                    "Nişancı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Nişancı, kalemiye sınıfına ait olup Divan'da yazışmaları yönetir ve tuğra çekerdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı mimarisinde klasik dönemin en önemli baş mimarı kimdir?",
+                  "options": [
+                    "Mimar Hayrettin",
+                    "Davud Ağa",
+                    "Sedefkar Mehmet Ağa",
+                    "Mimar Sinan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mimar Sinan, Osmanlı klasik dönem mimarisinin en önemli ismidir ve Süleymaniye ile Selimiye gibi eserleri yapmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı'da divan toplantılarına başkanlık etme yetkisi Fatih Sultan Mehmet dönemine kadar kime aitken, daha sonra kime devredilmiştir?",
+                  "options": [
+                    "Padişaha - Veziriazama",
+                    "Veziriazama - Padişaha",
+                    "Kazaskere - Nişancıya",
+                    "Şeyhülislama - Sadrazama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih dönemine kadar divana padişahlar başkanlık ederken, bu dönemden sonra veziriazamlar başkanlık etmeye başlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde esnaf teşkilatının hammadde temini, fiyat belirleme ve kalite kontrol gibi işlerini yürüten yapı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Vakıf",
+                    "Lonca",
+                    "İane",
+                    "Darüşşifa"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Lonca teşkilatı, esnaf ve zanaatkarları örgütleyen, üretim kalitesini ve fiyatları denetleyen ekonomik bir kurumdur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki medreselerden hangisi Fatih Sultan Mehmet döneminde kurulmuştur?",
+                  "options": [
+                    "İznik Orhaniyesi",
+                    "Süleymaniye Medresesi",
+                    "Sahn-ı Seman Medresesi",
+                    "Muradiye Medresesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sahn-ı Seman Medreseleri Fatih Sultan Mehmet tarafından İstanbul'da kurulan yüksek düzeyli eğitim kurumlarıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde resmi nikah ve kadı kararlarının kaydedildiği defterlere ____ denir.",
+                  "options": [
+                    "Şeriye Sicili"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeriye sicilleri, kadıların tuttuğu ve dönemin sosyal, hukuki ve ekonomik hayatını aydınlatan temel kayıtlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da davalara bakan, adalet ve eğitim işlerinden sorumlu üye ____ olarak adlandırılır.",
+                  "options": [
+                    "Kazasker"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazasker, kadı ve müderrislerin atamalarını yapar ve üst düzey davalara bakardı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da taşrada güvenlik ve asayişi sağlamakla görevli askeri yöneticiye ____ denir.",
+                  "options": [
+                    "Subaşı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Subaşı, tımar sisteminin uygulandığı bölgelerde güvenlik işlerinden sorumlu subaydır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı mimarisinde ilk büyük cami örneklerinden biri olan ve Bursa'da bulunan yapı ____ Camiidir.",
+                  "options": [
+                    "Ulu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bursa Ulu Cami, erken dönem Osmanlı mimarisinin çok ayaklı cami planının en güzel örneklerindendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde toprakların gelirlerine göre ayrılarak devlet memurlarına hizmet karşılığı verilmesi sistemine ____ denir.",
+                  "options": [
+                    "Tımar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tımar sistemi hem askeri ihtiyacı karşılar hem de tarımsal üretimde süreklilik sağlardı.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde divan üyelerinin tamamı devşirme kökenli askerlerden oluşurdu.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan üyeleri seyfiye, ilmiye ve kalemiye sınıflarından oluşur; ilmiye sınıfı tamamen Türk kökenli ulemadan seçilirdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet'ten itibaren sadrazamlar divan toplantılarına başkanlık etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih'in kanunnamesi ile padişahlar kafes arkasından divanı izlemeye başlamış ve başkanlık yetkisi sadrazama devredilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Lonca teşkilatı, Osmanlı'da gayrimüslim esnafın katılmasına izin vermeyen dini bir kurumdu.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Loncalarda Müslümanlar olduğu gibi gayrimüslim esnaf da yer alabilirdi, teşkilat mesleki kurallara dayanıyordu.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nişancı, Divan-ı Hümayun'da tahrir defterlerini tutan ve gelir-gider dengesini kontrol eden yetkilidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tahrir defterlerini tutan ve mali işlerden sorumlu olan görevli nişancı değil defterdardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı klasik dönem mimarisi hem Selçuklu hem de Bizans mimari unsurlarından etkilenerek gelişmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı mimarisi köklü Türk-İslam geleneğini bölgenin yerel unsurlarıyla harmanlayarak kendine özgü bir klasik üslup yaratmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Dünya Gücü Osmanlı (1453-1595)",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İstanbul’un Fethi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İstanbul'un fethi hangi padişah döneminde gerçekleşmiştir?",
+                  "answer": "II. Mehmed (Fatih Sultan Mehmed)"
+                },
+                {
+                  "question": "İstanbul'un fethinde Bizans'a denizden gelecek yardımı engellemek için hangi kale yaptırılmıştır?",
+                  "answer": "Rumeli Hisarı (Boğazkesen)"
+                },
+                {
+                  "question": "İstanbul'un fethinde surları yıkmak için döktürülen dev topların mimarı kimdir?",
+                  "answer": "Urban"
+                },
+                {
+                  "question": "İstanbul'un fethinin Türk ve dünya tarihi açısından en önemli sonuçlarından biri nedir?",
+                  "answer": "Orta Çağ kapanmış, Yeni Çağ başlamıştır."
+                },
+                {
+                  "question": "Fatih Sultan Mehmed'in gemileri karadan yürüterek Haliç'e indirmesinin temel sebebi nedir?",
+                  "answer": "Haliç'in girişindeki zinciri ve Bizans surlarının zayıf noktalarını aşmak"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İstanbul'un fethinin Türk tarihi açısından sonuçlarından biri olarak gösterilemez?",
+                  "options": [
+                    "İstanbul'un Osmanlı Devleti'nin yeni başkenti olması",
+                    "Bizans İmparatorluğu'nun tarih sahnesinden silinmesi",
+                    "Osmanlı Devleti'nin İslam dünyasındaki saygınlığının artması",
+                    "Anadolu ve Rumeli toprak bütünlüğünün sağlanması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bizans İmparatorluğu'nun yıkılması evrensel ve dünya tarihi açısından bir sonuçtur, seçeneklerde Türk tarihi açısından sorulduğu için doğru cevap budur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fatih Sultan Mehmed'in İstanbul kuşatması sırasında Bizans'ın denizden yardım almasını engellemek amacıyla Anadolu Hisarı'nın karşısına inşa ettirdiği yapı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kilitbahir Kalesi",
+                    "Rumeli Hisarı",
+                    "Anadoluhisarı",
+                    "Yedikule Hisarı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rumeli Hisarı (Boğazkesen), İstanbul'un fethinden hemen önce Karadeniz'den gelebilecek yardımları önlemek için inşa edilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İstanbul'un fethinden sonra Avrupalıların yeni ticaret yolları aramak zorunda kalması hangi tarihi olaya zemin hazırlamıştır?",
+                  "options": [
+                    "Sanayi İnkılabı",
+                    "Fransız İhtilali",
+                    "Coğrafi Keşifler",
+                    "Reform Hareketleri"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Osmanlıların İpek ve Baharat yollarının kontrolünü ele geçirmesi üzerine Avrupalılar Doğu'ya ulaşmak için yeni deniz yolları aramış ve Coğrafi Keşifler başlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İstanbul'un kuşatılmasına hazırlık amacıyla Osmanlıların yaptığı çalışmalardan biridir?",
+                  "options": [
+                    "Mısır Seferi'nin düzenlenmesi",
+                    "Şahi adı verilen büyük topların dökülmesi",
+                    "Anadolu'da Celali ayaklanmalarının bastırılması",
+                    "Venediklilerle saldırmazlık antlaşması imzalanması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fatih Sultan Mehmed, surları yıkabilmek için dönemine göre devasa büyüklükte olan Şahi toplarını döktürmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İstanbul'un fethinin ardından Ortodoks kilisesinin varlığını sürdürmesine izin veren ve onları koruma altına alan Osmanlı padişahı kimdir?",
+                  "options": [
+                    "I. Murad",
+                    "Yıldırım Bayezid",
+                    "II. Mehmed",
+                    "I. Selim"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fatih Sultan Mehmed, fetihten sonra Ortodoks patriğine haklar tanımış ve onları koruyarak Katolik dünyasına karşı olası bir ittifakı engellemek istemiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İstanbul, Osmanlı Devleti tarafından ____ tarihinde fethedilmiştir.",
+                  "options": [
+                    "1453"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstanbul, 29 Mayıs 1453 tarihinde II. Mehmed tarafından fethedilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul'un fethinden sonra Fatih Sultan Mehmed unvanının yanına ____ unvanını da almıştır.",
+                  "options": [
+                    "Fatih"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstanbul'un fethinden sonra II. Mehmed 'Fatih' unvanıyla anılmaya başlanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlıların İstanbul kuşatmasında Bizans'a yardımları engellemek için inşa ettiği kalelerden biri Rumeli Hisarı, diğeri ise ____ Hisarı'dır.",
+                  "options": [
+                    "Anadolu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anadolu Hisarı Yıldırım Bayezid döneminde, Rumeli Hisarı ise II. Mehmed döneminde yaptırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul'un fethiyle birlikte Türk tarihi açısından ____ ve Rumeli arasındaki toprak bütünlüğü sağlanmıştır.",
+                  "options": [
+                    "Anadolu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fetihten önce Anadolu ve Rumeli toprakları arasında Bizans engeli bulunuyordu, fethin ardından bu bütünlük sağlandı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul'un fethi sonucunda ____ Çağ kapanmış ve Yeni Çağ başlamıştır.",
+                  "options": [
+                    "Orta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu olay evrensel nitelikte olup dünya tarihinin akışını değiştirmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İstanbul'un fethi ile Osmanlı Devleti'nin Anadolu ve Rumeli toprakları arasındaki coğrafi bütünlük sağlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fetihten önce iki yaka arasında kalan Bizans toprakları Osmanlı'nın geçişini zorlaştırıyordu, fethin ardından bu engel kalktı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fatih Sultan Mehmed, İstanbul'u denizden kuşatmak için gemileri karadan yürüterek Haliç'e indirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haliç'in girişindeki kalın zincirler nedeniyle gemiler karadan tahta kızaklar üzerinde yürütülerek Haliç'e indirilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstanbul'un fethinden sonra İpek Yolu'nun kontrolünün Osmanlı'ya geçmesi Coğrafi Keşifler'e ortam hazırlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türklerin ticaret yollarını denetim altına alması Avrupalıları yeni yollar bulmaya yönlendirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstanbul'u fetheden ilk Osmanlı padişahı Yıldırım Bayezid'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İstanbul'u fetheden padişah Yıldırım Bayezid değil, II. Mehmed (Fatih)'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İstanbul'un fethinden sonra Bizans İmparatorluğu yıkılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bin yıldan fazla süren Doğu Roma (Bizans) İmparatorluğu fethin ardından tamamen ortadan kalkmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Yükselme Dönemi Seferleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İstanbul'un Fethi kaç yılında gerçekleşmiştir?",
+                  "answer": "1453"
+                },
+                {
+                  "question": "Osmanlı Devleti'ne Doğu'da büyük bir üstünlük sağlayan 1514 tarihli savaş hangisidir?",
+                  "answer": "Çaldıran Savaşı"
+                },
+                {
+                  "question": "Hangi Osmanlı padişahı döneminde Mısır fethedilerek Halifelik Osmanlı'ya geçmiştir?",
+                  "answer": "I. Selim (Yavuz Sultan Selim)"
+                },
+                {
+                  "question": "Osmanlı donanmasının Akdeniz'deki üstünlüğünü kesinleştiren 1538 deniz savaşı hangisidir?",
+                  "answer": "Preveze Deniz Zaferi"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde Macaristan krallığına son veren 1526 tarihli savaş hangisidir?",
+                  "answer": "Mohaç Meydan Muharebesi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Fatih Sultan Mehmet döneminde Doğu Karadeniz'deki Türk siyasi birliğini sağlamak amacıyla hangi devlet son verilmiştir?",
+                  "options": [
+                    "Trabzon Rum İmparatorluğu",
+                    "Akkoyunlu Devleti",
+                    "Karakoyunlu Devleti",
+                    "Dulkadiroğulları Beyliği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih Sultan Mehmet, 1461 yılında Trabzon Rum İmparatorluğu'nu alarak bölgedeki Rum varlığına son vermiş ve Karadeniz ticaret yolunun güvenliğini artırmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yavuz Sultan Selim'in Doğu Seferi sonucunda yıkılan ve Osmanlı'nın Doğu Anadolu'daki güvenliğini sağlayan devlet hangisidir?",
+                  "options": [
+                    "Akkoyunlu Devleti",
+                    "Safevi Devleti",
+                    "Memlukler",
+                    "Memluk Devleti"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1514 Çaldıran Savaşı ile Şah İsmail komutasındaki Safevi Devleti ağır bir yenilgiye uğratılmış, böylece Doğu Anadolu'da Osmanlı güvenliği sağlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin İslam dünyasının lideri (Halife) olmasını sağlayan gelişme aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Çaldıran Savaşı",
+                    "Mısır Seferi",
+                    "Mercidabık Savaşı",
+                    "Ridaniye Savaşı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yavuz Sultan Selim'in Mısır Seferi sonucunda Memluk Devleti yıkılmış ve kutsal emanetler ile halifyelik Osmanlı padişahlarına geçmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde batıda kazanılan ve Orta Avrupa egemenliğini pekiştiren en önemli meydan savaşı hangisidir?",
+                  "options": [
+                    "Maksç Muharebesi",
+                    "Mohaç Seferi",
+                    "Viyana Kuşatması",
+                    "Mohaç Meydan Muharebesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "1526 yılındaki Mohaç Meydan Muharebesi ile Macaristan ordusu kısa sürede bozguna uğratılmış ve Macar krallığı yıkılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kanuni döneminde denizlerdeki Türk üstünlüğünü perçinleyen ve Osmanlı donanma gününün kutlanmasına vesile olan zafer hangisidir?",
+                  "options": [
+                    "Cerbe Deniz Savaşı",
+                    "Preveze Deniz Zaferi",
+                    "İnebahtı Deniz Savaşı",
+                    "Kıbrıs'ın Fethi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Barbaros Hayrettin Paşa komutasındaki Osmanlı donanması, 27 Eylül 1538 tarihinde Preveze'de Haçlı donanmasını bozguna uğratmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İstanbul'un Fethi'nden sonra Osmanlı Devleti'nin Anadolu'daki Türk siyasi birliğini kesin olarak sağlamak amacıyla turna savaşında yendiği beylik ____ beyliğidir.",
+                  "options": [
+                    "Dulkadiroğulları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yavuz Sultan Selim döneminde 1515 Dulkadiroğulları Beyliği'ne son verilerek Anadolu'da Türk siyasi birliği kesin olarak sağlanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet, denizlerdeki hakimiyeti artırmak amacıyla 1475 yılında ____ alarak Kırım'ı Osmanlı topraklarına katmıştır.",
+                  "options": [
+                    "Kefe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım'ın alınmasıyla Karadeniz bir Türk gölü haline gelmiş ve Cenevizlilerin Karadeniz'deki ticaret tekel kırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yavuz Sultan Selim'in Memluk Devleti'ne son verdiği ve Mısır'ın fethini tamamlayan savaş ____ Savaşı'dır.",
+                  "options": [
+                    "Ridaniye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1517 yılındaki Ridaniye Savaşı ile Memluk ordusu tamamen yenilmiş ve Mısır Osmanlı topraklarına katılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde Avusturya arşidükü ile imzalanan ____ Antlaşması ile Osmanlı, Avusturya karşısında üstünlük sağlamıştır.",
+                  "options": [
+                    "İstanbul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1533 İstanbul Antlaşması'na göre Avusturya arşidükü protokol bakımından Osmanlı veziriazamına denk sayılacaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz'i Türk gölü haline getiren gelişmelerden biri de Turgut Reis ve Piyale Paşa'nın komuta ettiği ____ Deniz Savaşı'dır.",
+                  "options": [
+                    "Cerbe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1560 yılındaki Cerbe Deniz Savaşı ile Akdeniz'deki Haçlı donanması bir kez daha ağır bir yenilgiye uğratılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fatih Sultan Mehmet döneminde Mora ve Trabzon alınarak Bizans'ın yeniden dirilme umutları tamamen ortadan kaldırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih, İstanbul'un fethinden sonra Bizans kalıntıları olan Mora Despotluğu ve Trabzon Rum İmparatorluğu'nu fethederek bu tehlikeyi bitirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yavuz Sultan Selim, batı seferlerine ağırlık vermiş ve Avrupa'nın içlerine kadar ilerlemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yavuz Sultan Selim doğu politikasına ağırlık vermiş, tüm seferlerini Doğu ve Güneydoğu yönüne (Safeviler ve Memlukler üzerine) yapmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde Fransa'ya kapitülasyonlar (ticari ve hukuki ayrıcalıklar) verilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1535 yılında Fransa kralına verilen kapitülasyonlarla Akdeniz ticaretini canlandırmak ve Haçlı birliğini bozmak amaçlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Preveze Deniz Zaferi sonrasında Akdeniz tamamen bir Türk gölü haline gelmiş ve bu zaferin yıldönümü Donanma Günü olarak kabul edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Preveze Deniz Zaferi ile Osmanlı donanması Akdeniz'de rakipsiz kalmış, 27 Eylül günü Deniz Kuvvetleri Günü olarak kutlanmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sokollu Mehmet Paşa döneminde Don-Volga Kanalı projesi başarıyla tamamlanmış ve Hazar Denizi ile Karadeniz birleştirilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Don-Volga Kanalı projesi coğrafi ve siyasi engeller (Rus saldırıları, bölge halkının direnci) nedeniyle tamamlanamamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Akdeniz ve Denizcilik",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'ne Akdeniz'de Türk gölü niteliğini kazandıran zafer hangisidir?",
+                  "answer": "Preveze Deniz Zaferi"
+                },
+                {
+                  "question": "Osmanlı'nın Akdeniz hakimiyetini pekiştiren ve Rodos'un fethini gerçekleştiren padişah kimdir?",
+                  "answer": "I. Süleyman (Kanuni)"
+                },
+                {
+                  "question": "Turgut Reis'in donanmasıyla katıldığı ve Cerbe Adası'nda kazanılan deniz savaşı hangisidir?",
+                  "answer": "Cerbe Deniz Savaşı"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde Osmanlı donanmasının komutanı olan ünlü kaptan kimdir?",
+                  "answer": "Barbaros Hayrettin Paşa"
+                },
+                {
+                  "question": "Osmanlı denizciliğinde stratejik öneme sahip olan ve Kıbrıs'ın fethinden önceki son büyük ada fethi hangisidir?",
+                  "answer": "Rodos'un fethi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin Akdeniz'de Türk gölü stratejisini gerçekleştirmesinde en büyük paya sahip olan ve Preveze Deniz Savaşı'nı kazanan kaptan-ı derya kimdir?",
+                  "options": [
+                    "Barbaros Hayrettin Paşa",
+                    "Seydi Ali Reis",
+                    "Piri Reis",
+                    "Turgut Reis"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Barbaros Hayrettin Paşa, 1538 Preveze Deniz Savaşı'nı kazanarak Akdeniz'de Osmanlı üstünlüğünü kesinleştirmiş ve Akdeniz'in Türk gölü haline gelmesini sağlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki adalardan hangisi, Kanuni Sultan Süleyman döneminde Saint Jean şövalyelerinden alınarak Osmanlı topraklarına katılmıştır?",
+                  "options": [
+                    "Sakız",
+                    "Kıbrıs",
+                    "Girit",
+                    "Rodos"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Rodos Adası, 1522 yılında Kanuni Sultan Süleyman döneminde Saint Jean şövalyelerinden alınmış ve Doğu Akdeniz ticaret güvenliği artırılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1565 yılında Osmanlı donanmasının kuşatmasına rağmen alınamamış olan ve Malta'daki Saint Jean şövalyelerinin merkezi olan ada aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İnebahtı",
+                    "Malta",
+                    "Kıbrıs",
+                    "Sicilya"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Turgut Reis'in de katıldığı 1565 Malta Kuşatması, şiddetli direniş ve zorlu şartlar nedeniyle başarısızlıkla sonuçlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin Akdeniz'deki hakimiyetini sarsan ilk büyük donanma yenilgisi tarihte hangi olay olarak bilinmektedir?",
+                  "options": [
+                    "Navarin Baskını",
+                    "Çeşme Baskını",
+                    "İnebahtı Deniz Savaşı",
+                    "Sinop Baskını"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "1571 yılındaki İnebahtı Deniz Savaşı'nda Haçlı donanması Osmanlı donanmasını yakmıştır; bu olay Dünya Gücü dönemi içinde Osmanlı'nın denizlerdeki ilk büyük yenilgisidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hangi padişah döneminde Venediklilerden Kıbrıs Adası alınarak Doğu Akdeniz ticaret yolları tamamen güvenli hale getirilmiştir?",
+                  "options": [
+                    "Fatih Sultan Mehmet",
+                    "II. Bayezid",
+                    "Yavuz Sultan Selim",
+                    "II. Selim"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kıbrıs Adası, II. Selim döneminde 1571 yılında fethedilmiş ve bu durum İnebahtı yenilgisine zemin hazırlayan Haçlı ittifakını tetiklemiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin Akdeniz'de Haçlı donanmasına karşı kazandığı 1538 tarihli ____ Deniz Zaferi, Türk denizcilik tarihinde önemli bir dönüm noktasıdır.",
+                  "options": [
+                    "Preveze"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Preveze Deniz Zaferi, Andrea Doria komutasındaki Haçlı donanmasına karşı kazanılmış ve Akdeniz'de Türk üstünlüğünü kurmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde Osmanlı'nın hizmetine giren ve Cezayir'i Osmanlı topraklarına katarak Barbaros unvanını alan denizci ____ Paşa'dır.",
+                  "options": [
+                    "Hızır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hızır Reis, Kanuni tarafından Kaptan-ı Derya tayin edilmiş ve Barbaros Hayrettin Paşa adını almıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1571 yılında Osmanlı donanmasının Haçlılar tarafından yakıldığı savaşın adı ____ Deniz Savaşı'dır.",
+                  "options": [
+                    "İnebahtı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnebahtı yenilgisi, Sokullu Mehmet Paşa'nın 'Biz sizin sakalınızı kestik, siz bizim kolumuzu kestiniz' sözüyle anılan önemli bir deniz savaşıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Piri Reis'in hazırladığı ve Cihannüma ile birlikte ünlü olan dünya haritası, padişah ____ Sultan Selim'e sunulmuştur.",
+                  "options": [
+                    "Yavuz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piri Reis ilk dünya haritasını Yavuz Sultan Selim'e sunmuş, Kitab-ı Bahriye'yi ise Kanuni'ye sunmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Turgut Reis'in komuta ettiği donanmayla İspanyol donanmasına karşı kazanılan 1560 tarihli zaferin adı ____ Deniz Savaşı'dır.",
+                  "options": [
+                    "Cerbe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cerbe Deniz Savaşı ile Akdeniz'deki Türk hakimiyeti Kuzey Afrika kıyılarında kesinleşmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Preveze Deniz Savaşı, Haçlı donanmasının üstünlüğü ile sonuçlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Preveze Deniz Savaşı, Barbaros Hayrettin Paşa komutasındaki Osmanlı donanmasının zaferiyle sonuçlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kıbrıs Adası II. Selim döneminde fethedilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıbrıs, Lala Mustafa Paşa komutasındaki kuvvetlerle 1571 yılında II. Selim döneminde fethedilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İnebahtı Deniz Savaşı'nda Osmanlı donanması hiç kayıp vermemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnebahtı Deniz Savaşı'nda Haçlı donanması Osmanlı donanmasının büyük bir kısmını yakmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Barbaros Hayrettin Paşa Osmanlı Devleti'nin ilk kaptan-ı deryasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Barbaros ilk kaptan-ı derya değildir, ancak Osmanlı'ya katıldıktan sonra bu unvanı alarak Akdeniz'i Türk gölü yapmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rodos Adası'nın fethi Kanuni Sultan Süleyman döneminde gerçekleşmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rodos, 1522 yılında Kanuni Sultan Süleyman tarafından Saint Jean şövalyelerinden alınmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Sultan ve Osmanlı Merkez Teşkilatı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Padişah ve Saray",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde padişahın emirlerine verilen genel isim nedir?",
+                  "answer": "Ferman"
+                },
+                {
+                  "question": "Divan-ı Hümayun'un başkanı kimdir?",
+                  "answer": "Sadrazam"
+                },
+                {
+                  "question": "Topkapı Sarayı'nda devlet işlerinin görüşüldüğü bölümün adı nedir?",
+                  "answer": "Bâbüssaâde"
+                },
+                {
+                  "question": "Padişahların tahta çıkarken dağıttıkları bahşişin adı nedir?",
+                  "answer": "Cülus"
+                },
+                {
+                  "question": "Saray kadınlarının ve şehzadelerin eğitim aldığı saray bölümü hangisidir?",
+                  "answer": "Harem"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde padişahın yetkilerini dini ve hukuki kurallara göre kullanıp kullanamayacağını denetleyen ve fetva veren makam aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Şeyhülislam",
+                    "Defterdar",
+                    "Kazasker",
+                    "Nişancı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeyhülislam, Osmanlı Devleti'nde alınan kararların dine uygun olup olmadığı konusunda fetva veren en yetkili din adamıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Topkapı Sarayı'nın idari merkez olarak kullanılan ve Divan toplantılarının yapıldığı bölümüdür?",
+                  "options": [
+                    "Enderun",
+                    "Harem",
+                    "Birun",
+                    "Matbah"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Birun, sarayın dış bölümü olup devlet işlerinin görüldüğü ve Divan-ı Hümayun'un toplandığı yerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde padişahların tuğra çekeceği belgelerin hazırlanmasından ve iç-dış yazışmalardan sorumlu olan divan üyesi kimdir?",
+                  "options": [
+                    "Nişancı",
+                    "Reisülküttap",
+                    "Kazasker",
+                    "Defterdar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nişancı, padişahın tuğrasını çeker, tahrir defterlerini tutar ve mülk ile arpalık toprakların dağıtımını düzenlerdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet dönemine kadar Divan-ı Hümayun'a başkanlık eden kimdir?",
+                  "options": [
+                    "Vezir",
+                    "Sadrazam",
+                    "Şeyhülislam",
+                    "Padişah"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Fatih Sultan Mehmet dönemine kadar Divan'a padişahlar başkanlık ederdi. Fatih'ten sonra bu görev sadrazamlara bırakılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı merkez teşkilatında mali işlerden sorumlu olan divan görevlisi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kazasker",
+                    "Yeniçeri Ağası",
+                    "Nişancı",
+                    "Defterdar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Defterdar, bütçenin hazırlanmasından ve devletin gelir-gider dengesini sağlamaktan sorumlu maliye nazırıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı padişahlarının tahta çıkarken devletin bekası için kardeşlerini katletmesine izin veren uygulama ____ kanunnamesi olarak bilinir.",
+                  "options": [
+                    "Fatih"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih Kanunnamesi, kardeş katlini devlet düzeninin bozulmaması amacıyla yasal güvence altına almıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Topkapı Sarayı'nda devlet memuru yetiştiren ve iç saray olarak bilinen bölüm ____ adını taşır.",
+                  "options": [
+                    "Enderun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Enderun, devşirilen yetenekli çocukların hem eğitim aldığı hem de üst düzey devlet memuru olarak yetiştirildiği iç saraydır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde kadı ve müderrislerin atama ve tayin işlerine bakan divan üyesi ____ olarak adlandırılır.",
+                  "options": [
+                    "Kazasker"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazasker, adalet ve eğitim işlerinden sorumlu olup kadı ile müderrislerin tayinini gerçekleştirirdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Padişahın ölümünden veya tahttan indirilmesinden sonra yeni padişahın İstanbul'a gelene kadar devlet işlerini yürüten geçici kurula ____ denir.",
+                  "options": [
+                    "Naip"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Naip, padişahın olmadığı durumlarda onun adına vekâlet eden yetkili kişidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı merkez teşkilatında taht kavgalarını önlemek amacıyla ekber ve erşed sistemini getiren padişah ____ Ahmet'tir.",
+                  "options": [
+                    "I."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "I. Ahmet, hanedanın en yaşlı ve en akıllı üyesinin tahta geçmesi kuralı olan ekber ve erşed sistemini getirmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Divan-ı Hümayun üyeleri arasından alınan kararlar kesin hüküm niteliğindeydi ve padişah onayı olmadan doğrudan uygulanabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan-ı Hümayun bir danışma meclisidir; alınan kararlar tasarı niteliğinde olup padişahın onayı (ferman) çıkmadan kanunlaşamazdı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Saray okulu olan Enderun Mektebi'ne öğrenci alımı genellikle devşirme sistemi üzerinden gerçekleştirilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Enderun'a zeki ve yetenekli devşirme çocuklar alınarak burada hem askerî hem de idari alanda eğitilirdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı merkez teşkilatında donanma komutanlarına kaptan-ı derya denirdi ve kaptan-ı deryalar her zaman divan üyesiydi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kaptan-ı derya donanma komutanıdır ancak her dönem doğrudan divan üyesi olmayıp, vezir rütbesi aldığında divana katılabilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı padişahları ilk dönemlerden itibaren divan toplantılarına bizzat katılmaktan vazgeçmişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fatih Sultan Mehmet dönemine kadar padişahlar divana bizzat başkanlık etmiş, Fatih'ten sonra bu görev sadrazamlara devredilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nişancı, divan toplantılarında alınan kararlara padişahın tuğrasını çekmekle sorumlu önemli bir bürokrattır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nişancı, iç ve dış yazışmaları yürütmenin yanı sıra ferman ve beratlara padişahın tuğrasını çeken yetkiliydi.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Divan-ı Hümayun",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Taşra Teşkilatı",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Klasik Çağda Osmanlı Toplum Düzeni",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Toplum Yapısı",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Ekonomi ve Esnaf",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Vakıflar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Değişen Dünya Dengeleri Karşısında Osmanlı Siyaseti (1595-1774)",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Duraklama Dönemi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Savaşlar ve Antlaşmalar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Küçük Kaynarca",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Değişim Çağında Avrupa ve Osmanlı",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Avrupa’da Değişim",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Osmanlı’da Islahatlar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Devrimler Çağında Değişen Devlet-Toplum İlişkileri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Fransız İhtilali ve Etkileri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Sanayi Devrimi",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Meşrutiyet ve Anayasal Gelişmeler",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit10",
+      "order": 10,
+      "title": "Uluslararası İlişkilerde Denge Stratejisi (1774-1914)",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Doğu Sorunu",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Denge Politikası",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit11",
+      "order": 11,
+      "title": "XIX ve XX. Yüzyılda Değişen Sosyo-Ekonomik Hayat",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ekonomik Değişim",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Toplumsal Değişim",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Kültür ve Eğitim",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

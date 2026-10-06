@@ -1,0 +1,1952 @@
+{
+  "subjectKey": "tyt_din",
+  "title": "TYT Din Kültürü",
+  "examType": "YKS",
+  "subject": "Din Kültürü",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Bilgi ve İnanç",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Bilgi ve İnanç",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam'da inancın temel kaynağı nedir?",
+                  "answer": "Vahiy ve doğru haberdir."
+                },
+                {
+                  "question": "İslam'da bilgi kaynakları kaça ayrılır ve bunlar nelerdir?",
+                  "answer": "Üçe ayrılır: Selim akıfY doğru haber ve doğru haber (vahiy/mütevatir)."
+                },
+                {
+                  "question": "Selim akıl ne demektir?",
+                  "answer": "Yanlış ile doğruyu, iyi ile kötüyü birbirinden ayırt edebilen sağduyulu akıldır."
+                },
+                {
+                  "question": "Doğru haber kaça ayrılır?",
+                  "answer": "İkiye ayrılır: Mütevatir haber ve vahiy."
+                },
+                {
+                  "question": "İnançta taklit ile tahkik arasındaki temel fark nedir?",
+                  "answer": "Taklit araştırmadan başkalarından duyarak inanmaktır, tahkik ise delile ve bilgiye dayalı inanmaktır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam'a göre bilgi kaynaklarından biri değildir?",
+                  "options": [
+                    "Doğru haber",
+                    "Selim akıl",
+                    "Rüya ve ilham",
+                    "Doğru duyular"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İslam'da bağlayıcı ve kesin bilgi kaynakları selim akıl, doğru duyular ve doğru haberdir. Rüya ve ilham kişisel tecrübelerdir, genel bir bilgi kaynağı kabul edilmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kavramlardan hangisi 'araştırarak, delillere dayanarak iman etmek' anlamına gelir?",
+                  "options": [
+                    "İcmali iman",
+                    "Taklidi iman",
+                    "Tahkiki iman",
+                    "Tafsilî iman"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tahkiki iman, kişinin bilgiye, delile ve akıl yürütmeye dayalı olarak ulaştığı sağlam inanç biçimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Beş duyu organı ile elde edilen bilgilere İslam epistemolojisinde ne ad verilir?",
+                  "options": [
+                    "Haber-i sadık",
+                    "Selim akıl",
+                    "Doğru duyu",
+                    "Sezgi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Görme, işitme, tatma vb. duyu organları vasıtasıyla elde edilen güvenilir bilgiler 'doğru duyu' kapsamında değerlendirilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'haber-i sadık' (doğru haber) kapsamında yer almaz?",
+                  "options": [
+                    "Peygamberlere gelen vahiy",
+                    "Kur'an-ı Kerim ayetleri",
+                    "Yalan üzere birleşmesi aklen imkansız toplulukların haberi",
+                    "Rüya tabirleri"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Haber-i sadık, vahiy ve mütevatir haber (yalan üzere birleşmesi imkansız kalabalıkların haberi) olarak ikiye ayrılır. Rüya tabirleri kesin bilgi kaynağı olan haber-i sadık değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İmanın kalbin tasdiki ile ilgili boyutu aşağıdakilerden hangisini ifade eder?",
+                  "options": [
+                    "İnancın içselleştirilmesini ve gönülden benimsenmesini",
+                    "İmanın başkalarına sözel olarak aktarılmasını",
+                    "İbadetlerin eksiksiz yerine getirilmesini",
+                    "Şüpheye yer bırakmadan körü körüne bağlanmayı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalbin tasdiki, kişinin inanç esaslarını içselleştirmesi, samimiyetle kabul etmesi ve gönülden bağlanması demektir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslam'da akıl sahibinin hiçbir baskı altında kalmadan doğruyu bulma yetisine sahip sağduyulu aklına ____ denir.",
+                  "options": [
+                    "selim akıl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Selim akıl, yanılma ihtimali bulunmayan, doğru ile yanlışı ayırt edebilen sağlıklı insan aklını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Araştırmadan, çevrenin etkisiyle ve babadan oğula geçen şekliyle benimsenen imana ____ iman denir.",
+                  "options": [
+                    "taklidi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taklidi iman, delile dayanmayan ve başkalarının inancını aynen benimseme esasına dayanan inanç şeklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yalan üzere birleşmeleri aklen ve adeten mümkün olmayan toplulukların aktardığı haberlere ____ haber denir.",
+                  "options": [
+                    "mütevatir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mütevatir haber, tarihen ve aklen yalan söylemekte birleşmeleri imkansız kalabalıkların aktardığı kesin bilgi kaynağıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam'da inancın kabul merkezi ____ dir.",
+                  "options": [
+                    "kalp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam inancına göre iman, öncelikle kalbin tasdiki ile gerçekleşen manevi bir eylemdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İman esaslarının her birini ayrıntılı ve tafsilatlı bir şekilde bilip inanmaya ____ iman denir.",
+                  "options": [
+                    "tafsili"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tafsilî iman, imanın şartlarını ve detaylarını bilerek ve inandığını ifade ederek gerçekleşen imandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam'da bilgi kaynakları arasında rüya ve keşif kesin ve bağlayıcı birer bilgi kaynağı olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rüya ve keşif kişisel deneyimler olup herkese bağlayıcı genel birer bilgi kaynağı olarak kabul edilmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tahkiki iman, taklidi imana göre daha sağlam ve sarsılmaz bir yapıya sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tahkiki iman delile, bilgiye ve akıl yürütmeye dayandığı için şüphelerden uzak ve çok daha sağlamdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğru haber, peygamberler aracılığıyla bildirilen vahiy ve mütevatir haber olmak üzere ikiye ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haber-i sadık kategorisinde yer alan vahiy ve mütevatir haber, İslam'da kesin bilgi kaynağıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Selim akıl, insanın doğuştan getirdiği ve sonradan hiçbir şekilde bozulmayan yeteneklerinin tümüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Selim akıl yaratılıştan verilmiştir ancak dış etkenler, batıl inançlar ve önyargılar nedeniyle işlevini yitirebilir veya zarar görebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam'da bilgi edinme yollarından biri de doğru duyulardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beş duyu organı (görme, işitme, dokunma vb.) sağlıklı çalıştığında insan için birer bilgi kaynağıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Din ve İslam",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Din ve İslam",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dinin sözlük anlamı nedir?",
+                  "answer": "Boyun eğmek, itaat etmek, yol ve âdet demektir."
+                },
+                {
+                  "question": "Terim olarak din nedir?",
+                  "answer": "Allah tarafından konulan, akıl sahibi insanları kendi iradeleriyle hayırlı olan şeylere sevk eden ilahi kanunlardır."
+                },
+                {
+                  "question": "İslam kelimesinin sözlük anlamı nedir?",
+                  "answer": "Barış, esenlik, teslim olmak ve itaatte bulunmak demektir."
+                },
+                {
+                  "question": "İslam terim olarak ne anlama gelir?",
+                  "answer": "Hz. Muhammed'in tebliğ ettiği dinin esaslarına kalpten inanıp bunu yaşamak demektir."
+                },
+                {
+                  "question": "İslam dininin temel kaynağı nedir?",
+                  "answer": "Kur'an-ı Kerim ve Sünnettir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dinin temel gayelerinden biri değildir?",
+                  "options": [
+                    "Aklı ve iradeyi doğru yöne sevk etmek",
+                    "İnsanları dünya ve ahiret mutluluğuna ulaştırmak",
+                    "Toplumsal düzeni ve adaleti sağlamak",
+                    "İnsanları maddi kazanç elde etmede yarıştırmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Din, insanları maddi kazançta yarıştırmayı değil, manevi değerleri benimseterek ahlaki olgunluğa ulaştırmayı hedefler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam kelimesinin sözlük anlamları arasında aşağıdakilerden hangisi yer alır?",
+                  "options": [
+                    "Şüphe etmek",
+                    "İsyan etmek",
+                    "Teslim olmak",
+                    "Uzaklaşmak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İslam kelimesi kök olarak boyun eğmek, barış ve teslim olmak anlamlarına gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İslam dininin inanç esaslarından (iman) biridir?",
+                  "options": [
+                    "Zekat vermek",
+                    "Hacca gitmek",
+                    "Oruç tutmak",
+                    "Meleklere inanmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Meleklere inanmak imanın şartlarından biridir; zekat, oruç ve hac ise ameli (pratik) şartlardandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dinin doğru anlaşılması ve yaşanmasında en önemli kaynak aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tarihi rivayetler",
+                    "Yalnızca bilimsel teoriler",
+                    "Örf ve adetler",
+                    "Kur'an-ı Kerim ve Sünnet"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İslam dininin temel ve değiştirilemez iki ana kaynağı Kur'an-ı Kerim ve Hz. Muhammed'in sünnetidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akıl sahibi insanları kendi iradeleriyle hayra sevk eden ilahi nizam aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bilim",
+                    "Felsefe",
+                    "Sanat",
+                    "Din"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu tanım doğrudan dinin terim anlamını ifade eder.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslam dininin temel inanç esaslarını inceleyen ilim dalına ____ denir.",
+                  "options": [
+                    "Kelam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kelam ilmi, İslam dininin inanç esaslarını akli ve nakli delillerle savunur ve açıklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed'in söz, fiil ve takrilerine ____ denir.",
+                  "options": [
+                    "Sünnet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sünnet, Hz. Muhammed'in örnek hayatını, sözlerini ve onayladığı davranışları kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam'ın şartlarından biri olan ve mal ile yapılan ibadete ____ denir.",
+                  "options": [
+                    "Zekat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zekat, dinen zengin sayılan Müslümanların belli mallardan belirli bir payı fakirlere vermesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dinin aslına uygun olmayan, sonradan ortaya çıkan batıl inanç ve uygulamalara ____ denir.",
+                  "options": [
+                    "Bidat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bidat, dinin temel kaynaklarında bulunmayan ve sonradan ibadet veya inanç gibi gösterilen eylemlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sözlükte yol, âdet ve boyun eğmek anlamına gelen kelime ____ kelimesidir.",
+                  "options": [
+                    "Din"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din kelimesi Arapçada yol, kanun, itaat ve ceza anlamlarına gelir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Din, akıl sahibi insanları kendi iradeleriyle hayırlı olan şeylere sevk eden ilahi bir kanundur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade dinin doğru bir ilahi tanımıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam kelimesi sözlükte sadece savaş ve mücadele etmek anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam kelimesi savaş anlamına gelmez; aksine barış, esenlik ve teslim olmak demektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kur'an-ı Kerim, İslam dininin ana kaynağı ve temel kitabıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kur'an-ı Kerim Allah'ın kelamı olup İslam'ın en temel kaynağıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam dininde inanç esasları kişiye göre değişebilir ve esnetilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam'ın inanç esasları (iman esasları) kesin ve sabittir, kişiye göre değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sünnet, Hz. Muhammed'in örnek davranışları ve uygulamalarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sünnet, Kur'an'ın hayata geçirilmiş pratik halidir ve İslam'ın ikinci temel kaynağıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "İslam ve İbadet",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İslam ve İbadet",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam terminolojisinde ibadet kelimesinin sözlük anlamı nedir?",
+                  "answer": "İtaat etmek, boyun eğmek, kulluk yapmak ve kulluk göstergesinde bulunmaktır."
+                },
+                {
+                  "question": "İbadetin dinî (terim) anlamı nedir?",
+                  "answer": "Allah'ın rızasını kazanmak amacıyla O'nun emirlerini yerine getirmek ve yasaklarından kaçınmaktır."
+                },
+                {
+                  "question": "İslam'ın temel ibadetlerinden hangisi hem mal hem de beden ile yapılır?",
+                  "answer": "Hac ibadeti."
+                },
+                {
+                  "question": "Mükellef kelimesi ne anlama gelir?",
+                  "answer": "Dinî emir ve yasaklardan sorumlu tutulan akıllı ve ergenlik çağına gelmiş kimse."
+                },
+                {
+                  "question": "İslam'da niyetin ibadetlerdeki yeri nedir?",
+                  "answer": "İbadetlerin geçerli olmasının ve Allah katında değer kazanmasının temel şartıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam'da ibadetlerin amacını ve faydalarını açıklayan yanlış bir ifadedir?",
+                  "options": [
+                    "İnsanı Allah'a yaklaştırır ve O'na olan sevgi ve saygıyı artırır.",
+                    "Kişiye sorumluluk bilinci kazandırır ve ahlakını güzelleştirir.",
+                    "İbadetler sadece dünya menfaati ve maddi çıkar elde etmek için yapılır.",
+                    "İnsanın şükür borcunu ödemesini ve iç huzuru bulmasını sağlar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İslam'da ibadetler dünya menfaati veya maddi çıkar için değil, yalnızca Allah'ın rızasını kazanmak amacıyla yapılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ibadetlerden hangisi yalnızca beden ile yapılan ibadetler arasında yer alır?",
+                  "options": [
+                    "Hac",
+                    "Zekat",
+                    "Kurban",
+                    "Oruç"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Oruç, sadece fiziksel olarak yerine getirilen ve mal yardımı gerektirmeyen bedenî bir ibadettir. Zekat mal ile, hac ise hem mal hem beden ile yapılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ibadetlerin kabul olması için aranan şartlardan biri değildir?",
+                  "options": [
+                    "İbadetin sadece Allah rızası için yapılması (ihlas)",
+                    "İbadetin Hz. Muhammed'in sünnetine uygun yapılması",
+                    "İbadeti yapan kişinin çevresine gösteriş yapması",
+                    "İbadeti yerine getiren kişinin iman etmiş olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gösteriş (riya) amacıyla yapılan ibadetler İslam'da geçersiz sayılır ve kabul olunmaz. İbadetlerin kabulü için ihlas esastır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam dininde zengin müslümanların yılda bir kez malının belirli bir kısmını fakirlere vermesine ne ad verilir?",
+                  "options": [
+                    "Fidye",
+                    "Sadaka",
+                    "Zekat",
+                    "Hac"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Zekat, İslam'ın beş şartından biri olup, belli bir zenginliğe sahip (nisap miktarı) kişilerin mallarından belirli bir oranı ihtiyaç sahiplerine vermesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ibadetlerin bireysel faydalarından biridir?",
+                  "options": [
+                    "Toplumda yardımlaşma ve dayanışma duygusunu güçlendirir.",
+                    "İnsana ruhsal bir huzur ve iç dengesi kazandırır.",
+                    "Zengin ile fakir arasındaki uçurumu azaltır.",
+                    "Toplumsal güven ortamının oluşmasını sağlar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ruhsal huzur ve iç dengesi bireysel bir kazançtır. Diğer seçenekler ise ibadetlerin toplumsal faydaları arasında yer alır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yalnızca Allah'ın rızasını gözeterek ibadetleri hiçbir menfaat karıştırmadan yapmaya ____ denir.",
+                  "options": [
+                    "ihlas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İhlas, ibadetleri sadece Allah rızası için yapmak ve samimiyet demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam dininde yapılması kesin olarak emredilen, yapılması sevap, terk edilmesi ise ceza gerektiren fiillere ____ denir.",
+                  "options": [
+                    "farz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farz, Kur'an ve sünnetle yapılması kesin olarak istenen dinî hükümlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed'in farzlar dışında yaptığı ve müslümanlara da tavsiye ettiği ibadetlere ____ denir.",
+                  "options": [
+                    "sünnet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sünnet, Peygamberimizin söz, fiil ve onaylarına verilen genel isimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zenginlik ölçüsü olan ve zekat ile kurban gibi ibadetlerin farz kılınmasında temel alınan sınıra ____ denir.",
+                  "options": [
+                    "nisap"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nisap miktarı, dinen zengin sayıl alt sınır ölçüsüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam'ın temel ibadetlerinden biri olan ve müslümanların günde beş vakit yöneldiği ibadet ____ namazıdır.",
+                  "options": [
+                    "namaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Namaz, İslam'ın temel şartlarından biri olup günde beş vakit kılınan bedenî bir ibadettir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İbadetler sadece ibadethanelerde yapılır, günlük işlerin ibadetle bir ilgisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam'da niyet düzeltilerek yapılan her güzel ve faydalı iş, ahlaki davranış ibadet sayılabilir; ibadetler sadece cami ile sınırlı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hac ibadeti hem mal hem de beden ile yapılan temel ibadetlerden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hac hem fiziksel dayanıklılık (beden) hem de maddi imkan (mal) gerektirdiği için her iki yönü de barındırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mükellef kelimesi, dinî emir ve yasaklardan sorumlu tutulan kimse anlamına gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akıl sağlığı yerinde ve ergenlik çağına erişmiş her müslüman dinî hükümlerle mükelleftir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zekat ibadeti sadece ramazan ayında verilen ve miktarı herkes için sabit olan bir sadakadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zekat yılın herhangi bir zamanında verilebilir ve miktarı malın türüne göre kırkta bir (yüzde 2.5) oranında değişir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İbadet etmek insan ile Yaratıcı arasındaki bağı güçlendiren en önemli unsurdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İbadet kulun Allah'a olan sevgisini, saygısını ve bağlılığını gösteren en temel iletişim yoludur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Gençlik ve Değerler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Gençlik ve Değerler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Değer nedir?",
+                  "answer": "Bir toplumun üyeleri tarafından benimsenen, iyi, doğru ve güzel olanı belirleyen ölçütlerdir."
+                },
+                {
+                  "question": "Gençlik dönemi hangi özellikleri ile öne çıkar?",
+                  "answer": "Fiziksel, duygusal ve zihinsel değişimlerin en yoğun yaşandığı, kimlik arayışının olduğu dönemdir."
+                },
+                {
+                  "question": "Örf ve adetler hangi alanın temel yapı taşlarındandır?",
+                  "answer": "Toplumsal değerlerin ve kültürün aktarılmasında temel yapı taşlarındandır."
+                },
+                {
+                  "question": "İslam dininde gençliğe verilen değerin en önemli göstergesi nedir?",
+                  "answer": "Hz. Muhammed'in genç sahabilere önemli görevler vermesi ve onlara değer vermesidir."
+                },
+                {
+                  "question": "Sorumluluk bilinci ne anlama gelir?",
+                  "answer": "İnsanın kendi davranışlarının sonuçlarını üstlenmesi ve görevlerini yerine getirmesidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi gençlik döneminde bireyin kazandığı temel ahlaki değerlerden biri olarak değerlendirilemez?",
+                  "options": [
+                    "Toplumsal duyarlılık",
+                    "Sorumluluk bilinci",
+                    "Bencil tutumlar sergilemek",
+                    "Adalet ve dürüstlük"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gençlik döneminde bireyin olumlu ahlaki değerler kazanması beklenir. Bencil tutumlar sergilemek ahlaki ve toplumsal değerlerle bağdaşmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam'da gençlerin ibadet ve ahlak konusunda yönlendirilmesi ile ilgili olarak aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Dinî sorumluluklar sadece yaşlılık döneminde başlar.",
+                    "Gençlik döneminde yapılan ibadetlerin ve güzel ahlakın manevi değeri büyüktür.",
+                    "Gençlerin ibadet etmesi zorunlu değildir.",
+                    "Gençler bu konularda serbest bırakılmalıdır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam dininde gençlik döneminde yapılan ibadetlerin ve sergilenen güzel ahlakın değeri kat kat fazladır. Gençlik, enerjinin ibadete harcandığı kıymetli bir dönemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumda huzur ve güven ortamının sağlanmasında en önemli bağlardan biri olan, bireylerin birbirine karşı hak ve sorumluluklarını gözetmesini sağlayan temel değer nedir?",
+                  "options": [
+                    "Adalet",
+                    "Kıskançlık",
+                    "Bencillik",
+                    "Önyargı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Adalet, her hakkı sahibine vermeyi ve toplumsal düzeni korumayı amaçlayan en temel erdemlerden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hz. Muhammed'in gençlere yaklaşımıyla ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Yeteneklerini dikkate almadan onları cezalandırmıştır.",
+                    "Fikirlerine değer vermiştir.",
+                    "Onlara güvenmiştir.",
+                    "Önemli görevler vermiştir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Muhammed gençlerin yeteneklerine ve kapasitelerine önem vermiş, onları hiçbir zaman haksız yere cezalandırmamış, aksine onlara rehberlik etmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumun kültürel birliğini ve devamlılığını sağlayan, nesilden nesile aktarılan yazılı olmayan kurallara ne ad verilir?",
+                  "options": [
+                    "Anayasa maddeleri",
+                    "Yasal kanunlar",
+                    "Bilimsel formüller",
+                    "Örf ve adetler"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Örf ve adetler, bir toplumda geleneksel olarak benimsenen ve nesilden nesile aktarılan yazılı olmayan değerlerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bireyin kendi davranışlarının sonuçlarını üstlenmesine ____ denir.",
+                  "options": [
+                    "sorumluluk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sorumluluk, kişinin yaptıklarının hesabını verebilmesi ve görevlerini yerine getirmesi demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumda bireylerin hak ve hukuka uygun yaşamasını sağlayan temel erdem ____ olarak adlandırılır.",
+                  "options": [
+                    "adalet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Adalet, hakkaniyete uygun davranmayı ve herkese hak ettiğini vermeyi ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed'in genç sahabilere verdiği değer, onların ____ eğitimine verdiği önemi gösterir.",
+                  "options": [
+                    "ahlak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peygamberimiz gençlerin hem bilgi hem de ahlak açısından yetişmesine büyük özen göstermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir toplumda yaşatılan değerler bütünü o toplumun ____ kimliğini oluşturur.",
+                  "options": [
+                    "kültürel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürel kimlik, o toplumun değer yargıları, sanat anlayışı ve gelenekleriyle şekillenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gençlik dönemi fiziksel, duygusal ve ____ değişimlerin en yoğun olduğu evredir.",
+                  "options": [
+                    "zihinsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gençlik evresi sadece bedensel değil, aynı zamanda akli ve zihinsel olgunlaşmanın da yaşandığı bir süreçtir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gençlik dönemi, bireyin hayata dair kararlar aldığı ve kimlik oluşturduğu kritik bir evredir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gençlik, bireyin kişiliğinin oturduğu ve hayattaki duruşunu belirlediği en önemli dönemlerden biridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Değerler toplumdan toplum değişiklik göstermez, evrensel olarak her yerde tamamen aynıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Değerler evrensel özellikler taşıyabileceği gibi, toplumlara göre örf ve adetler bağlamında farklılıklar da gösterebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslam dini, gençlerin enerjilerini faydalı ve iyi işler için harcamasını teşvik eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam'da gençlik çağı, ibadet ve hayırlı işler yapmak adına en değerli zaman dilimlerinden biri olarak görülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sorumluluk bilinci yüksek olan bir genç, çevresine karşı duyarsız davranır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sorumluluk bilinci yüksek bireyler tam aksine çevrelerine, topluma ve doğaya karşı duyarlı ve özenli davranırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Örf ve adetler, toplumsal değerlerin kuşaktan kuşağa aktarılmasında önemli bir rol oynar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelenek, görenek, örf ve adetler kültürel mirasın gelecek nesillere taşınmasını sağlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Gönül Coğrafyamız",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Gönül Coğrafyamız",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gönül coğrafyamız kavramı neyi ifade eder?",
+                  "answer": "Tarihî, kültürel ve manevi bağlarla bağlı olduğumuz coğrafi bölgeleri ifade eder."
+                },
+                {
+                  "question": "Türk-İslam medeniyetinin Balkanlar'daki yayılmasında en önemli etkisi olan yapı kimlerdir?",
+                  "answer": "Alperenler ve dervişler."
+                },
+                {
+                  "question": "Ahilik teşkilatının kurucusu kimdir?",
+                  "answer": "Ahi Evran."
+                },
+                {
+                  "question": "Osmanlı Devleti'nin İslam dünyasındaki liderliğini pekiştiren en önemli gelişme nedir?",
+                  "answer": "Halifeliğin Osmanlı'ya geçmesi."
+                },
+                {
+                  "question": "Kültürümüzün temelini oluşturan ortak değerlerin başında ne gelir?",
+                  "answer": "İslam dini ve ahlak anlayışı."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi gönül coğrafyamızın sınırları içinde yer alan bölgelerden biri değildir?",
+                  "options": [
+                    "Orta Asya",
+                    "Balkanlar",
+                    "Güney Amerika",
+                    "Kuzey Afrika"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gönül coğrafyamız; Balkanlar, Orta Asya, Orta Doğu ve Kuzey Afrika gibi tarihi ve kültürel bağlarımız olan bölgeleri kapsar. Güney Amerika bu coğrafyanın dışındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Anadolu'nun Türkleşmesinde ve İslamlaşmasında büyük rol oynayan esnaf dayanışma teşkilatı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Enderun",
+                    "İnbsar",
+                    "Ahilik",
+                    "Divan"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ahilik teşkilatı, Ahi Evran tarafından kurulmuş olup hem mesleki hem de ahlaki eğitim veren önemli bir esnaf teşkilatıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki isimlerden hangisi Türkistan coğrafyasında yetişen ve tasavvuf anlayışıyla Anadolu'yu etkileyen önemli mutasavvıflardan biridir?",
+                  "options": [
+                    "Yunus Emre",
+                    "Hoca Ahmed Yesevi",
+                    "Mevlana Celaleddin-i Rumi",
+                    "Hacı Bektaş Veli"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hoca Ahmed Yesevi, Piri Türkistan olarak bilinen ve tasavvuf fikirleriyle Anadolu'nun İslamlaşmasında temel rol oynayan Türkistanlı mutasavvıftır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Balkanlar'da İslamiyet'in yayılmasında ve Türk kültürünün yerleşmesinde aşağıdaki gruplardan hangisi en çok etkili olmuştur?",
+                  "options": [
+                    "Tüccarlar ve dervişler",
+                    "Denizci tacirler",
+                    "Sadece askeri birlikler",
+                    "Yalnızca yerel krallar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Balkanlar'da dervişler, alperenler ve gönüllü dervişler hoşgörü politikasıyla halkın İslamiyet'i seve seve benimsemesinde öncülük etmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı medeniyetinde toplumsal yardımlaşma ve dayanışmayı sağlamak amacıyla kurulan vakıf sistemi hangi temel amaca hizmet etmiştir?",
+                  "options": [
+                    "Yabancı devletlerle ticaret yapmak",
+                    "Sadece sarayın masraflarını karşılamak",
+                    "Devlet hazinesini doldurmak",
+                    "Toplumda sosyal adaleti ve yardımlaşmayı sağlamak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Vakıf sistemi, toplumun ihtiyaç sahiplerine yardım etmek ve sosyal adaleti sağlamak amacıyla kurulmuş hayır kurumlarıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tarih boyunca Türk milletinin gönül bağı kurduğu, kültürünü taşıdığı bölgelerin tümüne ____ coğrafyası denir.",
+                  "options": [
+                    "gönül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gönül coğrafyası kavramı, fiziki sınırların ötesinde sevgi, tarih ve inanç bağıyla bağlı olduğumuz coğrafyaları ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anadolu'da fütüvvet teşkilatının temelini atarak esnafa ahlaki kurallar öğreten büyük şahsiyet ____ Evran'dır.",
+                  "options": [
+                    "Ahi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahi Evran, Kırşehir merkezli kurduğu Ahilik teşkilatı ile hem ticaret erbabını yetiştirmiş hem de ahlaki değerler kazandırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Asya'da İslam'ın esaslarını Türk kültürüyle harmanlayarak yayan 'Divan-ı Hikmet' adlı eserin yazarı ____ Ahmed Yesevi'dir.",
+                  "options": [
+                    "Hoca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hoca Ahmed Yesevi, Yesevilik tarikatının kurucusu olup Divan-ı Hikmet adlı eseriyle Türk tasavvuf edebiyatının öncüsü olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin Balkanlar'da uyguladığı hoşgörü ve adalet politikasına ____ adı verilmiştir.",
+                  "options": [
+                    "istimalet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstimalet politikası, Osmanlı'nın fethettiği bölgelerdeki halka hoşgörüyle yaklaşması ve onların inançlarına karışmaması demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Milletimizin ortak manevi değerlerini yaşatan ve balkanlarda türbesi bulunan Sarı Saltuk bir ____ dervişidir.",
+                  "options": [
+                    "alp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alp-eren dervişleri, hem cihad eden hem de İslam ahlakını yayan manevi önderlerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gönül coğrafyamız sadece Türkiye sınırları içindeki toprakları kapsar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gönül coğrafyamız kavramı, sınır ötesinde Balkanlar, Orta Asya, Orta Doğu ve Kuzey Afrika gibi tarihi bağlarımız olan geniş bir alanı ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hoca Ahmed Yesevi, Anadolu'daki tasavvuf kültürünün ve İslam anlayışının şekillenmesinde derin izler bırakmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmed Yesevi'nin yetiştirdiği dervişler Anadolu'ya gelerek İslamiyet'in hoşgörüyle yayılmasını sağlamışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahilik teşkilatı yalnızca askerî stratejiler geliştirmek amacıyla kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahilik teşkilatı askeri değil, mesleki, ahlaki ve sosyal dayanışmayı amaçlayan bir esnaf teşkilatıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti Balkanlar'da uyguladığı istimalet politikasıyla yerli halkın sevgisini ve güvenini kazanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Adaletli ve hoşgörülü yönetim anlayışı olan istimalet politikası, bölge halkının Osmanlı yönetimine ısınmasını sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kültürel bağlarımız olan coğrafyalarla iletişim kurarken ortak dini ve insani değerler temel alınır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ortak inanç, tarih ve ahlaki değerler gönül coğrafyamızdaki halklarla bağlarımızı güçlü tutan unsurlardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Allah İnsan İlişkisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Allah İnsan İlişkisi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslam dininde insanın Allah ile iletişim kurmasının en temel yollarından biri nedir?",
+                  "answer": "Dua ve ibadettir."
+                },
+                {
+                  "question": "Kur'an-ı Kerim'de Allah'ın insanı en güzel biçimde yarattığını belirten kavram hangisidir?",
+                  "answer": "Ahsen-i takvim"
+                },
+                {
+                  "question": "Allah'ın insanın yapıp ettiklerini görmesi, bilmesi ve gözetmesi anlamına gelen sıfat hangisidir?",
+                  "answer": "Rakip"
+                },
+                {
+                  "question": "İnsanın evrendeki diğer varlıklardan ayırt edici en önemli özellikleri nelerdir?",
+                  "answer": "Akıl ve irade"
+                },
+                {
+                  "question": "Allah ile kul arasındaki sevgi ve saygı bağını ifade eden temel dini kavram nedir?",
+                  "answer": "Takva"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Allah insan ilişkisinde insanın sorumluluklarından biri olarak değerlendirilemez?",
+                  "options": [
+                    "İbadetleri yalnızca Allah'ın rızasını gözeterek yapmak",
+                    "Evrendeki varlıklar üzerinde kainatı idare etme yetkisine sahip olmak",
+                    "Allah'ın verdiği nimetlere karşı şükretmek",
+                    "Ahlaki değerlere uygun bir yaşam sürmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnsan kainatı idare etme yetkisine sahip değildir; evrenin mutlak sahibi ve yöneticisi Yüce Allah'tır. İnsan sadece yeryüzünde halife olarak sorumlu bir varlıktır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsanın Allah'ı tanıması, O'na inanması ve emirlerine uygun yaşaması aşağıdakilerden hangisinin bir gereğidir?",
+                  "options": [
+                    "Ekonomik kalkınmanın",
+                    "Yaratılış gayesinin",
+                    "Sosyal statünün",
+                    "Fiziksel gelişimin"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İnsanın Allah'ı tanıması ve O'na kulluk etmesi, Kur'an'da belirtilen temel yaratılış gayesinin ta kendisidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kur'an-ı Kerim'de insanın Allah'a yakınlaşmasını sağlayan en önemli vasıta olarak sıklıkla vurgulanan ibadet hangisidir?",
+                  "options": [
+                    "Dua",
+                    "Oruç",
+                    "Hac",
+                    "Zekat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dua, kulun doğrudan Allah ile kurduğu bir iletişim köprüsüdür ve O'na yakınlaşmanın en temel yollarından biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Allah'ın insana lütfettiği temel değerlerden biri değildir?",
+                  "options": [
+                    "Akıl",
+                    "Vicdan",
+                    "İrade",
+                    "Mutlak bilgi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mutlak bilgi yalnızca Allah'a mahsustur. İnsan sınırlı bir bilgiye sahiptir ve gaybı tam olarak bilemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüce Allah'ın insanla iletişim kurarken vahiy ve peygamberler aracılığıyla yol göstermesi hangi ilahi sıfatının bir yansımasıdır?",
+                  "options": [
+                    "Mütekebbir",
+                    "Celil",
+                    "Rahman ve Rahim",
+                    "Kahhar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Allah'ın insanlara kitap ve peygamber göndermesi, O'nun merhametinin, şefkatinin ve kullarını sevmesinin bir sonucu olarak Rahman ve Rahim sıfatlarıyla ilişkilidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İnsanın evrendeki konumunu belirleyen ve onu diğer varlıklardan ayıran en temel özellikler akıl ve ____.",
+                  "options": [
+                    "irade"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnsan, sahip olduğu akıl ve irade sayesinde iyi ile kötü arasında seçim yapabilen sorumlu bir varlıktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Allah ile kul arasındaki iletişimin en samimi ve doğrudan şekli ____ ibadetidir.",
+                  "options": [
+                    "dua"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dua, kulun halini Allah'a arz etmesi ve O'ndan yardım istemesi bakımından en doğrudan iletişim aracıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kur'an-ı Kerim'de Zariyat suresi 56. ayette insanların ve cinlerin yalnızca Allah'a ____ için yaratıldığı bildirilmiştir.",
+                  "options": [
+                    "kulluk etmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ayette açıkça belirtildiği gibi insanın varlık gayesi Allah'ı tanımak ve O'na kulluk etmektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Allah'ın insanı evrendeki en mükemmel biçimde yaratmasını ifade eden kavram ____ takvimdir.",
+                  "options": [
+                    "ahsen-i"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahsen-i takvim tabiri, insanın hem fiziksel hem de ruhsal olarak en güzel ölçü ve kıvamda yaratıldığını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanın Allah'ın emirlerine uyup yasaklarından kaçınarak duyduğu derin sorumluluk bilincine ____ denir.",
+                  "options": [
+                    "takva"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Takva sahibi insan, Allah'ın her an kendisini gördüğü bilinciyle hareket eder ve emirlerine titizlikle uyar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İnsan, evrende başıboş bırakılmış ve hiçbir sorumluluğu olmayan bir varlıktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam inancına göre insan başıboş yaratılmamıştır; aksine akıl ve irade sahibi olduğu için ilahi emir ve yasaklardan sorumludur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dua, kulun Allah ile konuşması ve O'na içtenlikle yönelmesi anlamını taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dua, kulun acziyetini itiraf ederek Yaratıcısına sığınması ve O'ndan dilekte bulunmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Allah, insanı yaratmış ancak onun dünya hayatıyla ilgilenmeyi bırakmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Allah evreni ve insanı yaratmakla kalmamış, vahiy ve peygamberler göndererek insanın hayatına rehberlik etmeye devam etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İnsanın sahip olduğu akıl ve irade, onun dinî ve ahlaki sorumluluklarının temelini oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aklı ve iradesi olmayan kişiler İslam dininde sorumlu tutulmamıştır; sorumluluk bu iki melekenin varlığına bağlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Allah insan ilişkisinde sevgi, saygı ve güven duygularının gelişmesinde ibadetlerin hiçbir etkisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İbadetler, kulun Allah ile olan bağını güçlendirir, ona huzur verir ve ahlaki olgunlaşmasını sağlayarak sevgi ve saygı bağını pekiştirir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Hz. Muhammed ve Gençlik",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Hz. Muhammed ve Gençlik",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hz. Muhammed'in gençlere yaklaşımında temel ilke nedir?",
+                  "answer": "Onlara değer vermek, fikirlerine saygı duymak ve sorumluluk yüklemek."
+                },
+                {
+                  "question": "Hz. Muhammed döneminde İslam'ı ilk kabul eden genç sahabilerden biri kimdir?",
+                  "answer": "Hz. Ali"
+                },
+                {
+                  "question": "Genç yaşta ordu komutanlığına tayin edilen sahabî kimdir?",
+                  "answer": "Üseyd bin Zeyd"
+                },
+                {
+                  "question": "Hz. Muhammed'in gençlerin enerjisini yönlendirdiği başlıca alan hangisidir?",
+                  "answer": "Ahlaki erdemler, ilim ve toplumsal sorumluluk"
+                },
+                {
+                  "question": "Müslüman gençlerin Peygamberimizle ilişkisinde öne çıkan özellik nedir?",
+                  "answer": "Güven, samimiyet ve istişare"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Hz. Muhammed, genç sahabîlere görev verirken öncelikle hangi özellikleri dikkate alırdı?",
+                  "options": [
+                    "Sadece yaşça büyük olmak",
+                    "Yetenek ve liyakat",
+                    "Zenginlik ve soy",
+                    "Fiziksel güç"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Muhammed kişileri görevlendirirken onların yeteneklerine ve liyakatine önem verir, genç yaşlarına rağmen sorumluluk verirdi.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sahabîlerden hangisi genç yaşta İslam'ı ilk kabul edenler arasında yer alır ve Hz. Muhammed'in yanında yetişmiştir?",
+                  "options": [
+                    "Ebu Süfyan",
+                    "Hz. Ali",
+                    "Ebu Cehil",
+                    "Ebu Leheb"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hz. Ali, Hz. Muhammed'in yanında büyümüş ve çok genç yaşta İslam'ı ilk kabul edenler arasında yer almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hz. Muhammed'in gençlerle ilişkisiyle ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+                  "options": [
+                    "Onların fikirlerine değer vermiştir.",
+                    "Sorunlarını dinleyip onlara rehberlik etmiştir.",
+                    "Onları toplumdan soyutlamıştır.",
+                    "Onlara güven duyarak sorumluluk vermiştir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Peygamberimiz gençleri toplumdan soyutlamamış, aksine hayatın merkezine alarak onlara aktif roller vermiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Veda Hutbesi'nde gençlerin hakları ve genel olarak insan hakları bağlamında Peygamberimiz neye vurgu yapmıştır?",
+                  "options": [
+                    "Irk üstünlüğüne",
+                    "Yalnızca askeri eğitime",
+                    "Sadece ekonomik kalkınmaya",
+                    "Adalet, eşitlik ve emanetlerin korunmasına"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Veda Hutbesi'nde insan hakları, adalet, eşitlik ve emanetlerin korunması evrensel ilkeler olarak vurgulanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mute Savaşı'nda şehit düşen komutanların ardından Hz. Muhammed'in henüz çok genç olan kimi orduya komutan tayin etmesi gençlere verdiği değerin göstergesidir?",
+                  "options": [
+                    "Üsame bin Zeyd",
+                    "Mus'ab bin Umeyr",
+                    "Muaz bin Cebel",
+                    "Bilal-i Habeşi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hz. Muhammed, Üsame bin Zeyd'i çok genç yaşta orduya komutan tayin ederek gençlerin liyakatine olan güvenini göstermiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Hz. Muhammed gençlerin fikirlerine değer verir ve onlarla sürekli ____ yapardı.",
+                  "options": [
+                    "istişare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peygamberimiz önemli konularda gençlerin de görüşünü alarak istişareye büyük önem vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam'ın ilk yıllarında Müslümanlığı kabul edenlerin çoğunluğunu ____ oluşturuyordu.",
+                  "options": [
+                    "gençler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam davetinin ilk döneminde hakikat çağrısına en çabuk icabet edenler genellikle gençler olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed gençlerin enerjisini ve potansiyelini ____ yönünde kanalize etmiştir.",
+                  "options": [
+                    "iyilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peygamberimiz gençlerin dinamizmini ahlaki erdemler ve toplumsal fayda yönünde yönlendirmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Genç sahabî Mus'ab bin Umeyr, Medine'ye ____ olarak gönderilmiştir.",
+                  "options": [
+                    "muallim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mus'ab bin Umeyr genç yaşına rağmen Medine halkına İslam'ı öğretmek üzere muallim olarak görevlendirilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hz. Muhammed gençlere karşı her zaman şefkatli, merhametli ve ____ bir tutum sergilemiştir.",
+                  "options": [
+                    "anlayışlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peygamberimizin gençlerle iletişiminde hoşgörü ve anlayış temel unsurlardandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Hz. Muhammed gençlerin görüşlerini önemsiz bulur ve onların kararlarına karışmazdı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Peygamberimiz gençlerin görüşlerine değer vermiş, onlarla istişare etmiş ve fikirlerini önemsemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Muhammed genç yaşta olan sahabilere önemli idari ve askeri görevler vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üsame bin Zeyd ve Mus'ab bin Umeyr gibi genç sahabîler önemli görevlere getirilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gençler İslam'ın ilk dönemlerinde tebliğ faaliyetlerinde aktif rol oynamamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, ilk Müslümanların büyük kısmı gençlerden oluşmuş ve tebliğ faaliyetlerinde öncü rol üstlenmişlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hz. Muhammed gençlerle iletişim kurarken onların yaş seviyelerini ve psikolojilerini dikkate almıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peygamberimiz her grupla olduğu gibi gençlerle de onların seviyesine uygun, samimi bir iletişim kurmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mus'ab bin Umeyr, Mekke'den Medine'ye İslam'ı öğretmek üzere gönderilen ilk öğretmendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mus'ab bin Umeyr genç bir sahabî olarak Medine'ye muallim olarak gönderilmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Din ve Hayat",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Din ve Hayat",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dinin temel gayelerinden biri olan canın korunması hangi temel hakkı güvence altına alır?",
+                  "answer": "Yaşama hakkı"
+                },
+                {
+                  "question": "İslam dininin korunmasını amaçladığı beş temel değer (Külliyat-ı Hamse) nelerdir?",
+                  "answer": "Can, akıl, mal, din ve nesil"
+                },
+                {
+                  "question": "Aklın korunması ilkesi gereği İslam dininde hangi tür maddelerin tüketilmesi kesin olarak yasaklanmıştır?",
+                  "answer": "Uyuşturucu ve alkollü içecekler"
+                },
+                {
+                  "question": "Malın korunması amacıyla dinimiz tarafından getirilen ekonomik tedbirlerden biri nedir?",
+                  "answer": "Zekat ve sadaka"
+                },
+                {
+                  "question": "Din ve hayat ilişkisinde dinin bireye kazandırdığı en önemli özelliklerden biri nedir?",
+                  "answer": "Ahlaki olgunluk ve huzur"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İslam medeniyetinde hayatın ve insan onurunun korunması amacıyla zaruri görülen beş temel ilke aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+                  "options": [
+                    "Zenginlik, sağlık, güç, şöhret, ilim",
+                    "Din, akıl, can, mal, nesil",
+                    "İbadet, ahlak, adalet, sabır, şükür",
+                    "Vatan, bayrak, millet, devlet, birlik"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam hukukunda ve inancında korunması zaruri olan beş temel değer; dinin, aklın, canın, malın ve neslin korunmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi İslam dininin korunmasını amaçladığı temel değerlerden biri olan 'aklın korunması' ilkesiyle doğrudan çelişir?",
+                  "options": [
+                    "İçki ve uyuşturucu kullanmak",
+                    "Düzenli spor yapmak",
+                    "Kitap okumak",
+                    "Bilimsel araştırmalar yapmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İçki ve uyuşturucu gibi maddeler insan sağlığına ve en önemlisi sağlıklı düşünme yetisi olan akla zarar verdiği için akıl korunması ilkesiyle çelişir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Din ve hayat ilişkisi göz önüne alındığında, aşağıdakilerden hangisi dinin toplumsal hayata katkılarından biri olamaz?",
+                  "options": [
+                    "Toplumsal yardımlaşma ve dayanışmayı artırması",
+                    "Ahlaki değerlerin, kuralların yaşatılması",
+                    "Bireyler arasında kin ve düşmanlığı körüklemesi",
+                    "Güven ortamının oluşmasına katkı sağlaması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Din, sevgi, saygı, kardeşlik ve barışı teşvik eder; kin ve düşmanlığı asla körüklemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslam dininde malın korunması ilkesi gereği aşağıdakilerden hangisi yasaklanmıştır?",
+                  "options": [
+                    "İhtiyaç sahiplerine yardım etmek",
+                    "Hırsızlık ve haksız kazanç",
+                    "Helal yoldan kazanç elde etmek",
+                    "Ticaret yapmak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hırsızlık, rüşvet, faiz ve haksız kazanç yolları malın korunması ilkesine aykırı olduğu için haram kılınmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi dinin birey üzerindeki olumlu etkilerinden biri olarak değerlendirilemez?",
+                  "options": [
+                    "Bireyi yalnızlığa ve ümitsizliğe sürükler",
+                    "Karşılaştığı sıkıntılarda manevi bir destek sağlar",
+                    "Ahlaklı ve erdemli bir birey olmasını destekler",
+                    "İnsana hayatın anlamını ve amacını açıklar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din, insana ümit aşılar, onu yalnızlık hissinden kurtarır ve hayatına anlam katar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslam dininin korunmasına büyük önem verdiği beş temel değerden biri de neslin korunması amacıyla getirilen aile kurumunun temelini oluşturan ____ müessesesidir.",
+                  "options": [
+                    "evlilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Neslin korunması ve sağlıklı nesillerin yetişmesi meşru bir aile bağı olan evlilik kurumuyla mümkündür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam dininde hırsızlık, gasp ve kumar gibi haksız kazanç yollarının yasaklanması temel olarak ____ korunması ilkesiyle ilgilidir.",
+                  "options": [
+                    "malın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Malın korunması ilkesi, bireylerin mülkiyet haklarını korumayı ve haksız kazancı önlemeyi hedefler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Din, insanlara hayatın geçici olduğunu hatırlatarak onları dünya ve ____ dengesini kurmaya yöneltir.",
+                  "options": [
+                    "ahiret"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam inancına göre dünya ahiretin tarlasıdır ve iki hayat arasında dengeli bir yaşam sürülmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslamiyet, insan hayatını kutsal saymış ve haksız yere insan öldürmeyi en büyük günahlardan biri sayarak ____ korunması ilkesini getirmiştir.",
+                  "options": [
+                    "canın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Canın korunması, yaşama hakkının kutsallığını vurgular ve cinayeti yasaklar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aklın doğru kullanılmasını ve sağlıklı kalmasını hedefleyen dinimiz, aklı örten her türlü zararlı alışkanlığı yasaklayarak ____ korunmasını amaçlamıştır.",
+                  "options": [
+                    "aklın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akıl, dinî sorumluluğun (teklifin) temel şartıdır ve korunması zaruridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslam dinine göre dinin korunması, inanç ve ibadet özgürlüğünü güvence altına almayı da kapsar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dinin korunması ilkesi, bireylerin inançlarını özgürce yaşayabilmesini ve ibadetlerini yerine getirebilmesini sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Din, toplumsal hayatı düzenleyen ahlaki kurallarla hiçbir ilişki kurmaz ve bireysel bir olgudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Din sadece bireysel değil, aynı zamanda toplumsal ilişkileri düzenleyen evrensel ahlak kurallarına da sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Malın korunması ilkesi gereği İslam'da zekat vermek ve sadaka gibi yardımlarda bulunmak teşvik edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zekat ve sadaka, zengin ile fakir arasındaki uçurumu kapatarak malın korunmasını ve adil dağılımını destekler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Neslin korunması ilkesi sadece çocukların beslenmesiyle ilgilidir ve aile kurumunu kapsamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Neslin korunması; sağlıklı bir aile kurumu oluşturmak, ahlaklı nesiller yetiştirmek ve soyun meşruiyetini sağlamak demektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Canın korunması ilkesi gereği, savaşta bile olsa sivillere, çocuklara ve kadınlara zarar verilmesi yasaklanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İslam savaş ahlakında canın korunması ilkesi titizlikle uygulanır ve masum sivillerin öldürülmesi kesinlikle yasaktır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit9",
+      "order": 9,
+      "title": "Ahlaki Tutum ve Davranışlar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Ahlaki Tutum ve Davranışlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ahlak sözlükte ne anlama gelir?",
+                  "answer": "İnsanların huy, karakter ve mizaç özellikleri anlamına gelir."
+                },
+                {
+                  "question": "İslam ahlakının temel kaynağı nedir?",
+                  "answer": "Kur'an-ı Kerim ve Sünnettir."
+                },
+                {
+                  "question": "İffet kavramı neyi ifade eder?",
+                  "answer": "Nefsi haramdan koruma, namuslu ve erdemli yaşama demektir."
+                },
+                {
+                  "question": "İsrafın İslam'daki yeri nedir?",
+                  "answer": "Dinimizde kat'i surette yasaklanmış kötü bir davranıştır."
+                },
+                {
+                  "question": "Adalet kavramının temel anlamı nedir?",
+                  "answer": "Hak ve hukuka riayet etmek, her şeye hakkını vermektir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslam'da övülen ahlaki tutum ve davranışlardan biridir?",
+                  "options": [
+                    "İsraf",
+                    "Gıybet",
+                    "Cömertlik",
+                    "Kibir"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Cömertlik, İslam dininde övülen ve Müslümanların sahip olması istenen güzel ahlaki özelliklerden biridir. Diğer seçenekler ise dinimizce yasaklanmış kötü huylardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kişinin arkasından çekiştirmek ve kusurlarını konuşmak anlamına gelen kötü ahlak özelliği aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Yalan",
+                    "İftira",
+                    "Gıybet",
+                    "Haset"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gıybet, bir kimsenin arkasından hoşlanmayacağı şeyleri konuşmaktır ve Kur'an'da kardeş eti yemeye benzetilerek yasaklanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'özü sözü bir olmak, doğruluk' anlamına gelen ahlaki kavramdır?",
+                  "options": [
+                    "Adalet",
+                    "Sabır",
+                    "Sıdk",
+                    "Emanet"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sıdk, doğruluk anlamına gelir ve Müslümanların hayatlarında hususiyle dikkat etmeleri gereken temel ahlaki erdemlerden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi israfın kapsamına girer?",
+                  "options": [
+                    "Zamanı ve suyu gereksiz yere harcamak",
+                    "İhtiyaç sahiplerine sadaka vermek",
+                    "Kazancını helal yollardan elde etmek",
+                    "Zaruri ihtiyaçlar için harcama yapmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İsraf, imkanların, malın, zamanın ve kaynakların gereksiz ve ölçüsüz bir şekilde harcanmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İnsanın elindeki imkanları başkalarıyla paylaşması ve yardım sever olması hangi kavramla ifade edilir?",
+                  "options": [
+                    "Tecessüs",
+                    "Bencil",
+                    "İsar",
+                    "Haset"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İsar, kişinin kendisi ihtiyaç duyduğu halde kardeşini kendine tercih etmesi ve elindeki imkanları onunla paylaşmasıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dinimizce yasaklanan, başkasının malına veya hakkına haksız yere el koyma eylemine ____ denir.",
+                  "options": [
+                    "zulüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zulüm, hak sahibine hakkını vermemek ve haksızlık yapmak demektir, İslam ahlakında kesinlikle yasaklanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Başkasının sahip olduğu nimetlerin yok olmasını isteme ve çekememe durumuna ____ denir.",
+                  "options": [
+                    "haset"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haset, başkasının iyiliğini çekememek ve o nimetin gitmesini istemektir. Kalp hastalıklarından biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam ahlakında verilen sözde durmak ve güvenilir olmak ____ kavramı ile ifade edilir.",
+                  "options": [
+                    "emanet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emanet, koruma ve güvenilirlik demektir. Peygamberlerin sıfatlarından biri de emintir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zorluklar karşısında inancını kaybetmeden direnç göstermeye ve dayanmaya ____ denir.",
+                  "options": [
+                    "sabır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabır, musibetler ve zorluklar karşısında metanet göstermektir ve güzel ahlakın en önemli unsurlarındandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İnsanlar arasında sevgi ve dostluk bağlarını güçlendiren, tatlı dilli ve güler yüzlü olma kuralına ____ denir.",
+                  "options": [
+                    "tebessüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tebessüm etmek, dinimizde sadaka sayılmış ve insanlar arasındaki muhabbeti artıran güzel bir davranıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gıybet etmek, dini terminolojide küçük günahlardan biri olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gıybet büyük günahlar arasında yer alır ve Kur'an-ı Kerim'de şiddetle yasaklanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yalan söylemek, İslam ahlakında müminin sıfatlarından biri olarak övülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yalan söylemek münafıklık alameti olarak kabul edilen ve dinimizde kesinlikle haram kılınan kötü bir davranıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İsraf, sadece malın harcanmasıyla değil, zamanın ve suyun boş yere tüketilmesiyle de gerçekleşebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İsraf genel bir kavramdır; maddi imkanlar kadar zaman ve doğal kaynaklar da israf edilebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Adalet, her durumda sadece akrabaları kayırmak ve onlara ayrıcalık tanımaktır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Adalet, kimlik ve yakınlık gözetmeksizin hak sahibine hakkını vermek ve tarafsız olmaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Alçakgönüllü olmak ve insanlara üstten bakmamak tevazu kavramıyla ifade edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevazu, kibirli olmamak ve mütevazı bir yaşam sürmek demektir, İslam'ın tavsiye ettiği güzel huylardandır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

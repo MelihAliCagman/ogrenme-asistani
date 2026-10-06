@@ -1,0 +1,1158 @@
+{
+  "subjectKey": "tyt_geometri",
+  "title": "TYT Geometri",
+  "examType": "YKS",
+  "subject": "Geometri",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Temel Geometri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Temel Geometrik Kavramlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Geometrinin tanımsız temel kavramları nelerdir?",
+                  "answer": "Nokta, doğru ve düzlem"
+                },
+                {
+                  "question": "Farklı iki noktadan kaç tane doğru geçer?",
+                  "answer": "Yalnızca bir tane"
+                },
+                {
+                  "question": "Aynı doğru üzerinde bulunan noktalara ne ad verilir?",
+                  "answer": "Doğrudaş noktalar"
+                },
+                {
+                  "question": "Başlangıç noktaları aynı olan iki ışının oluşturduğu geometrik şekil nedir?",
+                  "answer": "Açı"
+                },
+                {
+                  "question": "Aynı düzlemde bulunan ve hiç kesişmeyen iki doğruya ne denir?",
+                  "answer": "Paralel doğrular"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi geometride tanımsız kavramlardan biridir?",
+                  "options": [
+                    "Üçgen",
+                    "Çember",
+                    "Nokta",
+                    "Kare"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Nokta, doğru ve düzlem geometrinin tanımsız temel kavramları olarak kabul edilirken; üçgen, çember ve kare tanımlı şekillerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uzayda veya bir düzlemde bulunan ve her iki yönde sonsuza giden noktalar kümesine ne ad verilir?",
+                  "options": [
+                    "Işın",
+                    "Doğru parças",
+                    "Doğru",
+                    "Açı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Doğru, her iki yönde de sınırsız (sonsuza) uzanan düz bir çizgi modelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Aynı doğru üzerindeki noktalara doğrudaş denir.",
+                    "İki noktadan yalnız bir doğru geçer.",
+                    "Farklı iki düzlemin kesişimi her zaman bir noktadır.",
+                    "Bir noktadan sonsuz tane doğru geçer."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Farklı iki düzlemin kesişimi bir nokta değil, bir doğru belirtir. Bu nedenle bu ifade yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir düzlemin uzaydaki rolü ve boyutu ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Üç boyutludur.",
+                    "Tek boyutludur.",
+                    "Boyutsuzdur.",
+                    "İki boyutludur."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Düzlem en ve boyu olan, yani iki boyutlu olan temel geometrik bir yapıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Başlangıç noktaları aynı olan ve aynı düzlemde yer alan iki farklı ışının birleşimi neyi oluşturur?",
+                  "options": [
+                    "Üçgen",
+                    "Doğru",
+                    "Açı",
+                    "Doğru parçası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ortak bir başlangıç noktasından çıkan iki ışın bir açıyı meydana getirir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Boyutu olmayan ve yeri sadece bir nokta ile belirlenen temel geometrik kavram ____ olarak adlandırılır.",
+                  "options": [
+                    "nokta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Noktanın boyutu yoktur ve sadece uzaydaki yerini belirtmek için kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir doğrunun sınırlı iki uç noktası arasında kalan kısmına ____ denir.",
+                  "options": [
+                    "doğru parçası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğru parçası iki uç noktası belirli olan ve bu noktalar arasındaki tüm noktaları içeren geometrik şekildir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı düzlemde bulunan ve ortak noktası olmayan iki doğruya ____ doğrular denir.",
+                  "options": [
+                    "paralel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hiçbir ortak noktası bulunmayan ve aralarındaki uzaklık sabit kalan aynı düzlemdeki doğrular paraleldir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir uç noktası sabit kalıp diğer yönde sonsuza kadar uzatılabilen düz çizgi parçasına ____ denir.",
+                  "options": [
+                    "ışın"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Işın, bir başlangıç noktası olan ve diğer yönde sonsuza giden geometrik bir çizgidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı düzlem üzerinde olmayan noktalara uzayda ____ noktalar denir.",
+                  "options": [
+                    "uzaysal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı düzleme ait olmayan noktalar farklı düzlemlerde yer alır ve bu durum uzaysal kavramlarla ifade edilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Noktanın eni ve boyu vardır ancak yüksekliği yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Noktanın boyutu yoktur, yani eni, boyu veya yüksekliği bulunmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Farklı üç noktadan en çok bir düzlem geçer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudaş olmayan farklı üç nokta uzayda tam olarak bir düzlem belirtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir doğrunun üzerindeki bir noktadan o doğruya dik olan sonsuz sayıda doğru çizebiliriz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir doğrunun üzerindeki bir noktadan o doğruya dik olan yalnızca bir tane doğru çizilebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Işının başlangıç noktası vardır ancak bitiş noktası yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Işın bir uçtan sınırlı (başlangıç noktalı), diğer uçtan sonsuza kadar uzanan bir yapıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kesişen iki doğrunun ortak birden fazla noktası bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İki farklı doğru en fazla bir ortak noktada (kesişim noktasında) kesişebilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Doğruda Açılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Üçgende Açılar",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Üçgenler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Özel Üçgenler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kenar uzunlukları 3, 4 ve 5 olan özel dik üçgenin hipotenüsü kaç birimdir?",
+                  "answer": "5 birimdir"
+                },
+                {
+                  "question": "30-60-90 üçgeninde 30 derecelik açının karşısındaki kenarın uzunluğu hipotenüsün uzunluğunun kaç katıdır?",
+                  "answer": "Yarısıdır"
+                },
+                {
+                  "question": "İkizkenar dik üçgende (45-45-90) dik kenarların uzunluğu a ise hipotenüsün uzunluğu ne olur?",
+                  "answer": "a çarpı kök 2"
+                },
+                {
+                  "question": "Kenarları 5, 12 ve 13 olan dik üçgen hangi özel üçgen grubundandır?",
+                  "answer": "5-12-13 üçgeni"
+                },
+                {
+                  "question": "Eşkenar üçgenin bir iç açısı kaç derecedir?",
+                  "answer": "60 derecedir"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir dik üçgende dik kenarların uzunlukları 6 cm ve 8 cm olduğuna göre, hipotenüsün uzunluğu kaç cm'dir?",
+                  "options": [
+                    "8",
+                    "10",
+                    "14",
+                    "12"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pisagor bağıntısına göre 6 nın karesi artı 8 in karesi eşittir 36 artı 64 eşittir 100, bu da 10 un karesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "30-60-90 üçgeninde 60 derecelik açının karşısındaki kenar 4 kök 3 cm ise, 30 derecelik açının karşısındaki kenar kaç cm'dir?",
+                  "options": [
+                    "6",
+                    "4",
+                    "8",
+                    "2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "30-60-90 üçgeninde 60 derecenin karşısındaki kenar 30 derecenin karşısındakinin kök 3 katıdır. 4 kök 3 ifadesinde 30 un karşısı 4 tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hipotenüsü 10 cm olan ikizkenar dik üçgenin bir dik kenarının uzunluğu kaç cm'dir?",
+                  "options": [
+                    "5 kök 2",
+                    "5",
+                    "20",
+                    "10 kök 2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar dik üçgende hipotenüs dik kenarın kök 2 katıdır. Dik kenar a ise a çarpı kök 2 eşittir 10, buradan a eşittir 5 kök 2 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çevresi 36 cm olan eşkenar üçgenin bir kenar uzunluğu kaç cm'dir?",
+                  "options": [
+                    "18",
+                    "12",
+                    "9",
+                    "15"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşkenar üçgenin üç kenarı da eşittir. Çevre 36 ise 36 üçe bölünür ve bir kenar 12 cm olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 8, 15 ve x olan üçgenin dik üçgen belirtmesi için x kaç olmalıdır?",
+                  "options": [
+                    "17",
+                    "19",
+                    "18",
+                    "16"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "8-15-17 özel üçgeni vardır. 8 in karesi artı 15 in karesi eşittir 64 artı 225 eşittir 289, bu da 17 nin karesidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir dik üçgende dik kenarların karelerinin toplamı hipotenüsün karesine eşittir bağıntısına ____ teoremi denir.",
+                  "options": [
+                    "Pisagor"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik üçgenlerde kenar uzunlukları arasındaki ilişkiyi veren temel teorem Pisagor teoremi olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Açıları 30, 60 ve 90 derece olan özel üçgende hipotenüs uzunluğu 30 derecelik açının karşısındaki kenar uzunluğunun ____ katıdır.",
+                  "options": [
+                    "iki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "30-60-90 üçgeninde hipotenüs, 30 derecenin karşısındaki kenar uzunluğunun her zaman iki katıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bütün kenar uzunlukları birbirine eşit olan üçgenlere ____ üçgen denir.",
+                  "options": [
+                    "eşkenar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm kenar uzunlukları ve iç açırarı eşit olan üçgenler eşkenar üçgen olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kenarları tam sayı olan en küçük özel dik üçgen 3-4-____ üçgenidir.",
+                  "options": [
+                    "5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "En bilinen ve en küçük tam kenarlı özel dik üçgen 3-4-5 üçgenidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkizkenar dik üçgenin iç açılarının ölçüleri 45, 45 ve ____ derecedir.",
+                  "options": [
+                    "90"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar dik üçgende dik açı 90 derece olup diğer iki ikiz açı 45 er derecedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tüm ikizkenar üçgenler aynı zamanda eşkenar üçgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkizkenar üçgenin sadece iki kenarı eşittir, üçüncüsü farklı olabilir. Bu yüzden her ikizkenar üçgen eşkenar değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "30-60-90 üçgeninde 90 derecenin karşısındaki kenar en uzun kenardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her dik üçgende en büyük açı 90 derece olduğundan karşısındaki hipotenüs her zaman en uzun kenardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kenar uzunlukları 6, 8 ve 10 olan bir üçgen dik üçgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "3-4-5 üçgeninin iki katı olan 6-8-10 üçgeni bir özel dik üçgendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar üçgenin dış açılarının toplamı 180 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tüm çokgenlerde olduğu gibi üçgenlerin de dış açılarının ölçüleri toplamı her zaman 360 derecedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkizkenar dik üçgende taban açıları 45'er derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar dik üçgende tepe açısı 90 derece olup tabandaki iki açı 45 er derece olarak eşittir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Üçgende Eşlik ve Benzerlik",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Üçgende benzerlik teoremlerinden biri olan AHH (Açı-Açı-Açı) benzerliğinde karşılıklı açıların durumu nedir?",
+                  "answer": "Karşılıklı açıların ölçüleri birbirine eşittir."
+                },
+                {
+                  "question": "İki üçgenin eş olması için kenar uzunlukları arasındaki ilişki nasıl olmalıdır?",
+                  "answer": "Karşılıklı tüm kenar uzunlukları ve açı ölçüleri birbirine eşit olmalıdır."
+                },
+                {
+                  "question": "Thales Teoremi neyi ifade eder?",
+                  "answer": "Paralel doğruların, kesen doğrular üzerinde orantılı parçalar ayırdığını ifade eder."
+                },
+                {
+                  "question": "Benzer iki üçgenin alanları oranı ile benzerlik oranının karesi arasında nasıl bir ilişki vardır?",
+                  "answer": "Alanlar oranı, benzerlik oranının karesine eşittir."
+                },
+                {
+                  "question": "Kenar-Açı-Kenar (K.A.K.) benzerlik bağıntısı için ne gereklidir?",
+                  "answer": "İkişer kenar uzunlukları orantılı ve bu kenarlar arasındaki açılar eş olmalıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "ABC ve DEF üçgenleri arasında m(A) = m(D), m(B) = m(E) ve m(C) = m(F) veriliyor. AB = 4 cm, DE = 8 cm ve BC = 6 cm olduğuna göre EF kaç santimetredir?",
+                  "options": [
+                    "10",
+                    "12",
+                    "16",
+                    "14"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Açı-Açı-Açı benzerliğine göre ABC ve DEF üçgenleri benzerdir. Benzerlik oranı 4/8 = 1/2'dir. BC / EF = 1/2 oranından 6 / EF = 1/2 olur ve EF = 12 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Benzerlik oranı 3/5 olan iki benzer üçgenin çevreleri toplamı 64 cm ise, küçük üçgenin çevresi kaç santimetredir?",
+                  "options": [
+                    "24",
+                    "30",
+                    "40",
+                    "36"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzer iki üçgenin çevreleri oranı benzerlik oranına eşittir. Küçük üçgenin çevresi 3k, büyük üçgenin çevresi 5k olsun. 3k + 5k = 64 ise 8k = 64 ve k = 8'dir. Küçük üçgenin çevresi 3 * 8 = 24 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ABC üçgeninde [DE] paralel [BC] olacak şekilde D ve E noktaları sırasıyla [AB] ve [AC] üzerindedir. AD = 3 cm, DB = 6 cm ve DE = 4 cm ise BC kaç santimetredir?",
+                  "options": [
+                    "10",
+                    "8",
+                    "15",
+                    "12"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Thales teoremi gereği ADE üçgeni ile ABC üçgeni benzerdir. AD / AB = DE / BC oranını kullanırsak, AD = 3 ve AB = 3 + 6 = 9 olur. 3 / 9 = 4 / BC denkleminden BC = 12 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Alanları oranı 4/9 olan iki benzer üçgenin çevreleri oranı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "3/2",
+                    "16/81",
+                    "4/9",
+                    "2/3"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Benzer iki üçgenin alanları oranı, benzerlik oranının karesine eşittir. Alanlar oranı 4/9 ise benzerlik oranı karekök içinde 4/9 yani 2/3'tür. Çevreler oranı benzerlik oranına eşit olduğundan cevap 2/3'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 5 cm, 7 cm ve 9 cm olan bir üçgenin kenarları sırasıyla hangi uzunlukta genişletilirse oluşan yeni üçgen ilk üçgene benzer olur?",
+                  "options": [
+                    "15 cm, 17 cm, 19 cm",
+                    "10 cm, 14 cm, 18 cm",
+                    "20 cm, 25 cm, 30 cm",
+                    "10 cm, 12 cm, 14 cm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üçgenlerin benzer olması için tüm kenar uzunluklarının aynı oranla (katsayı ile) çarpılması gerekir. Kenarları 2 ile çarparsak 5*2=10, 7*2=14 ve 9*2=18 cm elde edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Karşılıklı açıları ve karşılıklı kenar uzunlukları birbirine eşit olan üçgenlerin birbiriyle ____ olduğu söylenir.",
+                  "options": [
+                    "eş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tamamen aynı boyut ve şekle sahip geometrik şekiller birbiriyle eş olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki üçgen arasında yapılan benzerlik eşleştirmesinde karşılıklı kenar uzunluklarının oranına ____ oranı denir.",
+                  "options": [
+                    "benzerlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzer iki çokgen veya üçgenin kenarları arasındaki sabit orana benzerlik oranı denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kenar - Açı - Kenar benzerlik teoremine göre iki üçgenin karşılıklı ikişer kenarı orantılı ve bu kenarların oluşturduğu açılar ____ olmalıdır.",
+                  "options": [
+                    "eşit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "K.A.K. benzerlik kuralı için aradaki açının ölçülerinin birbirine eşit olması şarttır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir üçgende herhangi bir kenara paralel çizilen doğru, diğer iki kenarı ____ oranlarda böler.",
+                  "options": [
+                    "orantılı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Temel Orantı Teoremi gereği paralel doğru diğer kenarları karşılıklı olarak orantılı parçalara ayırır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Benzer iki üçgenin karşılıklı yardımcı elemanlarının (kenarortay, açıortay, yükseklik) oranı, ____ oranına eşittir.",
+                  "options": [
+                    "benzerlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzer üçgenlerde tüm doğrusal yardımcı elemanların oranları doğrudan benzerlik oranına eşittir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tüm ikizkenar üçgenler kendi aralarında daima benzerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkizkenar üçgenlerin benzer olması için tepe veya taban açılarının aynı olması gerekir; tüm ikizkenar üçgenler benzer değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eş olan iki üçgenin çevreleri birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eş üçgenlerin bütün kenar uzunlukları aynı olduğundan çevreleri de kesinlikle eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm eşkenar üçgenler birbirine benzerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar üçgenlerin iç açıları her zaman 60 derecedir ve kenarları orantılıdır, bu yüzden tüm eşkenar üçgenler benzerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Açı - Açı (A.A.) benzerlik kuralı üçgenlerin benzerliği için yeterli bir koşuldur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki üçgenin karşılıklı ikişer açısı eşit ise üçüncü açıları da eşit olur ve A.A. kuralıyla benzerdirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Benzer iki üçgenin alanları daima birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Benzer üçgenlerin alanları benzerlik oranının karesi oranındadır, benzerlik oranı 1 değilse alanları eşit olamaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Üçgende Alan",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Üçgenin alanı nasıl hesaplanır?",
+                  "answer": "Taban uzunluğu ile o tabanlığa ait yüksekliğin çarpımının yarısı ile hesaplanır."
+                },
+                {
+                  "question": "Dik üçgenin alanı nasıl bulunur?",
+                  "answer": "Dik kenarların uzunluklarının çarpımının yarısı ile bulunur."
+                },
+                {
+                  "question": "Eşkenar üçgenin bir kenar uzunluğu a ise alanı nedir?",
+                  "answer": "a kare çarpı kök üç bölü dört."
+                },
+                {
+                  "question": "Sinüs alan teoremi nedir?",
+                  "answer": "Bir bölü iki çarpı a çarpı b çarpı aradaki açının sinüsü."
+                },
+                {
+                  "question": "Yükseklikleri eşit olan iki üçgenin alanları oranı neye eşittir?",
+                  "answer": "Taban uzunluklarının oranına eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Taban uzunluğu 10 cm ve bu tabağa ait yüksekliği 6 cm olan bir üçgenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "15",
+                    "45",
+                    "30",
+                    "60"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Alan formülü taban çarpı yükseklik bölü ikidir. 10 çarpı 6 eşittir 60, ikiye böldüğümüzde alan 30 santimetrekare bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "24",
+                    "14",
+                    "48",
+                    "12"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik üçgenin alanı dik kenarların çarpımının yarısıdır. 6 çarpı 8 eşittir 48, ikiye böldüğümüzde 24 santimetrekare elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kenar uzunluğu 4 cm olan eşkenar üçgenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "16 kök 3",
+                    "2 kök 3",
+                    "8 kök 3",
+                    "4 kök 3"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Eşkenar üçgenin alan formülü a kare kök üç bölü dörttür. 4 ün karesi 16 dır, 16 kök üçü dörde böldüğümüzde sonuç 4 kök 3 çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 6 cm ve 10 cm olan bir üçgenin bu kenarlar arasındaki açının sinüsü 1/2 ise alan kaç santimetrekaredir?",
+                  "options": [
+                    "15",
+                    "20",
+                    "30",
+                    "60"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinüs alan teoremi uygulanır. 1/2 çarpı 6 çarpı 10 çarpı 1/2 işlemi yapılır. Sonuç 15 santimetrekaredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çevre uzunluğu 24 cm ve iç teğet çemberinin yarıçapı 4 cm olan bir üçgenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "12",
+                    "48",
+                    "24",
+                    "96"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üçgenin alanı çevrenin yarısı ile iç teğet çemberin yarıçapının çarpımına eşittir. Çevre 24 ise yarısı 12 dir. 12 çarpı 4 eşittir 48.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Eşkenar üçgenin tüm iç açıları 60 derece olup bütün kenar uzunlukları ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar üçgenin tanımı gereği tüm kenar uzunlukları birbirine eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dik üçgenin alanı, dik kenar uzunluklarının çarpımının ____ eşittir.",
+                  "options": [
+                    "yarısına"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik üçgende dik kenarlar aynı zamanda yükseklik görevi gördüğü için alanları çarpımının yarısıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kenar uzunlukları oranı verilen iki benzer üçgenin alanları oranı, benzerlik oranının ____ eşittir.",
+                  "options": [
+                    "karesine"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Benzer üçgenlerde alanlar oranı, kenar uzunlukları oranının karesine eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir üçgende kenarortaylar üçgenin alanını altı eşit ____ ayırır.",
+                  "options": [
+                    "parçaya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçgenin üç kenarortayı çizildiğinde oluşan altı küçük üçgenin alanları birbirine eşit olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Geniş açılı üçgenlerde yüksekliklerden ikisi üçgenin dış bölgesindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geniş açılı üçgenlerin geniş açısına ait yükseklik iç bölgede kalırken, dar açılara ait yükseklikler üçgenin dışındadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir üçgenin alanı iki kenar uzunluğunun çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Alan için iki kenar uzunluğu yetmez, aradaki açının sinüsü ve başında 1/2 çarpanı olmalıdır ya da taban ile yükseklik çarpılıp ikiye bölünmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar üçgenin alanı sadece bir kenar uzunluğu bilinerek hesaplanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar üçgenin tüm özellikleri belli olduğu için sadece bir kenar uzunluğu ile alanı a kare kök üç bölü dört formülüyle hesaplanabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tepe noktaları aynı olan iki üçgenin alanları oranı tabanları oranına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tepe noktası ortak olan üçgenlerin yükseklikleri aynı olduğundan alanlar oranı tabanlar oranına eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkizkenar üçgenin alanı taban uzunluğu ile tepe noktasından indirilen yüksekliğin çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Taban ile yüksekliğin çarpımı ikiye bölünmelidir, aksi takdirde bulunan değer gerçek alanın iki katı olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Üçgende Açıortay ve Kenarortay",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Pisagor ve Öklid Bağıntıları",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dik üçgende 90 derecelik açının karşısındaki kenara ne ad verilir?",
+                  "answer": "Hipotenüs"
+                },
+                {
+                  "question": "Pisagor bağıntısı hangi tür üçgenlerde uygulanır?",
+                  "answer": "Dik üçgen"
+                },
+                {
+                  "question": "En küçük kenarları 3 ve 4 olan özel dik üçgenin hipotenüsü kaç birimdir?",
+                  "answer": "5"
+                },
+                {
+                  "question": "Öklid bağıntıları bir dik üçgende hangi köşeden çizilen yükseklik ile ilgilidir?",
+                  "answer": "Dik açı"
+                },
+                {
+                  "question": "Kenarları 5, 12, 13 olan üçgen bir dik üçgen midir?",
+                  "answer": "Evet"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir dik üçgende dik kenarların uzunlukları 6 cm ve 8 cm olduğuna göre, hipotenüs uzunluğu kaç santimetredir?",
+                  "options": [
+                    "14",
+                    "12",
+                    "9",
+                    "10"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Pisagor bağıntısına göre 6nın karesi (36) ile 8in karesinin (64) toplamı 100 eder. 100ün karekökü 10 olduğundan hipotenüs 10 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hipotenüsü 13 cm ve dik kenarlarından biri 5 cm olan bir dik üçgenin diğer dik kenarı kaç santimetredir?",
+                  "options": [
+                    "8",
+                    "15",
+                    "10",
+                    "12"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "13ün karesi (169) eksi 5in karesi (25) eşittir 144. 144ün karekökü 12 olduğundan diğer dik kenar 12 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir dik üçgende dik açının tepesinden hipotenüse indirilen yüksekliğin karesi, ayırdığı parçaların uzunlukları çarpımına eşittir. Bu bağıntının adı nedir?",
+                  "options": [
+                    "Thales teoremi",
+                    "Pisagor bağıntısı",
+                    "Öklid bağıntısı",
+                    "Cevap teoremi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "h kare eşittir p çarpı k bağıntısı Öklid'in yükseklik bağıntısı olarak bilinir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 9, 40 ve x olan üçgen bir dik üçgen olduğuna göre, x'in alabileceği pozitif tam sayı değeri kaçtır?",
+                  "options": [
+                    "45",
+                    "41",
+                    "42",
+                    "43"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "9-40-41 özel dik üçgenine göre x uzunluğu 41 birimdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir dik üçgende dik kenar uzunlukları eşit ve 4 cm ise, bu üçgenin hipotenüsü kaç santimetredir?",
+                  "options": [
+                    "4 kök 2",
+                    "4",
+                    "8",
+                    "8 kök 2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar dik üçgende hipotenüs, dik kenarın kök 2 katıdır. Buna göre cevap 4 kök 2 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dik üçgenlerde a kare artı b kare eşittir c kare bağıntısını bulan antik çağ matematikçisi ____ olarak bilinir.",
+                  "options": [
+                    "Pisagor"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu teorem adını antik Yunan matematikçi Pisagor'dan almıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kenarları sırasıyla 8, 15 ve 17 olan üçgen bir ____ üçgendir.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "8-15-17 sayıları özel bir dik üçgen belirttiği için üçgen dik üçgendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir dik üçgende yükseklik bağıntısı h kare eşittir p çarpı ____ şeklinde yazılır.",
+                  "options": [
+                    "k"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öklid yükseklik bağıntısı h kare eşittir p çarpı k formülüyle ifade edilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Pisagor bağıntısı sadece geniş açılı üçgenlerde uygulanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır, Pisagor bağıntısı sadece iç açılarından biri 90 derece olan dik üçgenlerde uygulanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kenar uzunlukları 3, 4, 5 olan bir üçgen dik üçgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, 3'ün karesi ile 4'ün karesinin toplamı 5'in karesine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Öklid bağıntısı uygulamak için dik üçgenin hipotenüsüne yükseklik çizilmesi gerekir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, Öklid bağıntıları dik açından inen yükseklik ile ortaya çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her çeşitkenar üçgende Öklid bağıntıları doğrudan kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır, Öklid bağıntısı uygulanabilmesi için üçgenin kesinlikle dik üçgen olması şarttır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir dik üçgende hipotenüs, dik açının karşısındaki kenardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, hipotenüs dik üçgenin en uzun kenarıdır ve 90 derecelik açının karşısında bulunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Çokgenler ve Dörtgenler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Çokgenler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Paralelkenar ve Eşkenar Dörtgen",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Dikdörtgen ve Kare",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Yamuk ve Deltoid",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Çember ve Daire",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Çemberde Açılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Çemberde Uzunluk",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Dairenin Çevresi ve Alanı",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Analitik Geometri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Noktanın Analitiği",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Doğrunun Analitik İncelenmesi",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Katı Cisimler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Prizmalar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Piramitler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Silindir, Koni ve Küre",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

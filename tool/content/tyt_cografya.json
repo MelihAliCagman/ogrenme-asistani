@@ -1,0 +1,3265 @@
+{
+  "subjectKey": "tyt_cografya",
+  "title": "TYT Coğrafya",
+  "examType": "YKS",
+  "subject": "Coğrafya",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Doğa ve İnsan",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Coğrafya Bilimi ve Konum",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Coğrafya kelimesinin kökeni hangi dilden gelir ve ne anlama gelir?",
+                  "answer": "Yunanca geo (yer) ve graphein (yazmak) kelimelerinin birleşiminden oluşur, yer tasviri demektir."
+                },
+                {
+                  "question": "Beşeri coğrafyanın inceleme alanı nedir?",
+                  "answer": "İnsan faaliyetlerinin ve ekonomik etkinliklerin yeryüzündeki dağılışını inceler."
+                },
+                {
+                  "question": "Mutlak konum nedir?",
+                  "answer": "Bir yerin ekvatora ve başlangıç meridyenine göre konumudur, coğrafi koordinatlarla ifade edilir."
+                },
+                {
+                  "question": "Paralellerin özellikleri nelerdir?",
+                  "answer": "Başlangıcı Ekvator'dur, boyları kutuplara doğru kısalır ve aralarındaki uzaklık her yerde 111 kilometredir."
+                },
+                {
+                  "question": "Meridyenlerin özellikleri nelerdir?",
+                  "answer": "Başlangıcı Greenwich'tir, boyları eşittir ve aralarındaki mesafe sadece Ekvator'da 111 kilometredir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi fiziki coğrafyanın alt dalı değildir?",
+                  "options": [
+                    "Hidrografya",
+                    "Jeomorfoloji",
+                    "Klimatoloji",
+                    "Nüfus coğrafyası"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Nüfus coğrafyası, beşeri ve ekonomik coğrafyanın alt dalıdır; yer şekilleri, iklim ve sular ise fiziki coğrafyayı ilgilendirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin matematik (mutlak) konumu aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+                  "options": [
+                    "26 - 45 Batı meridyenleri, 36 - 42 Güney paralelleri",
+                    "36 - 42 Güney meridyenleri, 26 - 45 Batı paralelleri",
+                    "26 - 45 Doğu meridyenleri, 36 - 42 Kuzey paralelleri",
+                    "36 - 42 Kuzey meridyenleri, 26 - 45 Doğu paralelleri"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye, kuzey yarım kürede ve başlangıç meridyeninin doğusunda yer aldığı için 36-42 kuzey paralelleri ile 26-45 doğu meridyenleri arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki doğal unsurlardan hangisi beşeri coğrafyanın inceleme alanına girer?",
+                  "options": [
+                    "Toros dağları",
+                    "Peri bacaları",
+                    "Baraj gölleri",
+                    "Amazon ormanları"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Baraj gölleri insan eliyle yapıldığı için beşeri ve ekonomik coğrafya kapsamına girer, diğerleri tamamen doğal fiziki unsurlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir yerin yer şekillerinin, iklim özelliklerinin ve komşularının zamanla değişebilmesi hangi konum türüyle ilgilidir?",
+                  "options": [
+                    "Özel konum",
+                    "Matematik konum",
+                    "Mutlak konum",
+                    "Astronomik konum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özel konum (göreli konum), bir yerin kıtalara, denizlere, geçitlere ve komşulara göre durumunu belirtir ve zamanla değişebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi coğrafya biliminin ilk ve en önemli ilkelerinden biridir?",
+                  "options": [
+                    "Neden-sonuç ilkesi",
+                    "Deney ilkesi",
+                    "Arkeolojik kazı ilkesi",
+                    "Kronoloji ilkesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coğrafya bilimi dağılış, bağlantı ve neden-sonuç olmak üzere üç temel ilkeye dayanır; olaylar arasındaki sebepleri inceler.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yer şekillerini inceleyen fiziki coğrafya alt dalına ____ denir.",
+                  "options": [
+                    "Jeomorfoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Jeomorfoloji, yeryüzündeki şekilleri, dağları, ovaları ve bu şekilleri oluşturan kuvvetleri inceleyen bilim dalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki meridyen arasındaki yerel saat farkı her yerde ____ dakikadır.",
+                  "options": [
+                    "dört"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünya'nın kendi ekseni etrafındaki dönüşü nedeniyle her iki meridyen arası zaman farkı sabit olarak 4 dakikadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'nin ulusal saat ayarı için ____ boylamı esas alınmaktadır.",
+                  "options": [
+                    "30"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye, kış ve yaz saat uygulamalarında bazen 30 derece doğu meridyenini ortak saat merkezi olarak kullanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeryüzündeki tüm doğal ve beşeri unsurların mekandaki dağılışını inceleyen temel ilkeye ____ ilkesi denir.",
+                  "options": [
+                    "dağılış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dağılış ilkesi, coğrafyayı diğer bilimlerden ayıran en belirgin ve ayırt edici temel prensiptir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ekvator'dan kutuplara doğru gidildikçe paralellerin boyları ____.",
+                  "options": [
+                    "kısalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünya'nın küresel şeklinden dolayı Ekvator'dan kutuplara gidildikçe paralellerin çevre uzunlukları azalır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Meridyenlerin boyları birbirine eşittir ve en uzun meridyen Ekvator'dur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Meridyenlerin boyları birbirine eşittir ancak Ekvator bir meridyen değil, en büyük paralel çemberidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Özel konum, bir yerin kıtalara, denizlere ve ticaret yollarına göre olan göreceli durumudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özel konum mutlak konumdan farklıdır ve ülkelerin coopolitik, ekonomik özelliklerini büyük ölçüde etkiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Klimatoloji, beşeri coğrafyanın alt dalları arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Klimatoloji iklim bilimidir ve fiziki coğrafyanın alt dalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Başlangıç meridyeni İngiltere'nin Londra şehrindeki Greenwich gözlemevinden geçer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "0 derece meridyeni kabul edilen Greenwich, coğrafi koordinat sisteminde başlangıç kabul edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de kuzeyden güneye gidildikçe güneş ışınlarının geliş açısı büyür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye kuzey yarım kürede yer aldığı için ekvatora daha yakın olan güney bölgelerine güneş ışınları daha büyük açıyla düşer.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dünya'nın Şekli ve Hareketleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dünya'nın şeklinin kutuplardan basık, Ekvator'dan şişkin olan kendine has geometrik şekline ne ad verilir?",
+                  "answer": "Geoit"
+                },
+                {
+                  "question": "Dünya'nın kendi ekseni etrafındaki bir tam turunu tamamlaması ne kadar sürer?",
+                  "answer": "24 saat (1 gün)"
+                },
+                {
+                  "question": "Eksen eğikliğinin derecesi kaçtır?",
+                  "answer": "23 derece 27 dakika"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de en uzun gündüz hangi tarihte yaşanır?",
+                  "answer": "21 Haziran"
+                },
+                {
+                  "question": "Güneş ışınlarının dik açıyla düştüğü çizgiye ne denir?",
+                  "answer": "Ekvator"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Dünya'nın günlük hareketinin (eksen hareketinin) sonuçlarından biri değildir?",
+                  "options": [
+                    "Muson rüzgarlarının oluşması",
+                    "Gece ve gündüzün ardalanması",
+                    "Meltem rüzgarlarının oluşması",
+                    "Yerin yönünün doğu ve batı olarak belirlenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Muson rüzgarları Dünya'nın yıllık hareketi ve eksen eğikliğine bağlı olarak karalar ile denizlerin yıllık ısınma farkı sonucunda oluşur. Günlük hareketle ilgisi yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki tarihlerden hangisinde Kuzey ve Güney Yarım Küre'de gece ve gündüz süreleri birbirine eşit olur?",
+                  "options": [
+                    "21 Haziran",
+                    "21 Aralık",
+                    "3 Ocak",
+                    "21 Mart"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "21 Mart (ve 23 Eylül) ekinoks tarihleridir. Bu tarihlerde Güneş ışınları Ekvator'a dik düşer ve tüm dünyada gece ile gündüz süreleri eşitlenir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya'nın şeklinin geoit olmasının doğrudan sonucu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ekvator yarıçapının kutuplar yarıçapından uzun olması",
+                    "Güneş ışınlarının yere düşme açısının yıl içinde değişmesi",
+                    "Yıl boyunca gece ve gündüz sürelerinin değişmesi",
+                    "Kutup yıldızının görünüm açısının enleme göre değişmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geoit şekil, Ekvator yarıçapının (6378 km) kutuplar yarıçapından (6357 km) daha uzun olmasına neden olur. Diğer seçenekler Dünya'nın küreselliği veya eksen eğikliği ile ilgilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Dünya'nın yıllık hareketinin sonuçlarından biridir?",
+                  "options": [
+                    "Günlük sıcaklık farklarının oluşması",
+                    "Dinamik basınç kuşaklarının oluşması",
+                    "Cisimlerin gölge boyunun gün içinde değişmesi",
+                    "Muson rüzgarlarının yıl içinde yön değiştirmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Muson rüzgarları, yıllık hareket ve eksen eğikliği sonucunda yaz ve kış aylarında karaların ve denizlerin farklı ısınmasıyla yön değiştirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eksen eğikliği olmasaydı ve Dünya yörüngesinde dönseydi aşağıdakilerden hangisi gerçekleşirdi?",
+                  "options": [
+                    "Mevsimler oluşmazdı",
+                    "Gece ve gündüz oluşmazdı",
+                    "Yıl uzunluğu değişirdi",
+                    "Güneş ışınlarının yıl içindeki düşüş açısı sabit kalmazdı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mevsimlerin oluşmasının temel sebebi eksen eğikliğidir. Eksen eğikliği olmasaydı mevsimler meydana gelmezdi.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dünya'nın Güneş etrafında izlediği elips şeklindeki yola ____ denir.",
+                  "options": [
+                    "yörünge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünya'nın Güneş çevresinde döndüğü eliptik yola yörünge adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de en uzun gecenin yaşandığı tarih ____ tarihidir.",
+                  "options": [
+                    "21 Aralık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "21 Aralık tarihinde Kuzey Yarım Küre kış solstisini yaşar ve en uzun gece bu tarihte görülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünya'nın kendi ekseni etrafındaki dönüşünü batıdan doğuya doğru 24 saatte tamamlamasına ____ hareketi denir.",
+                  "options": [
+                    "günlük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünya'nın kendi ekseni etrafındaki bu dönüşü günlük hareket (eksen hareketi) olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneş ışınlarının dik açıyla düştüğü alanlarda cisimlerin gölge boyu ____ olur.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güneş ışınları bir yere dik (90 derece) açıyla düştüğünde cisimlerin gölgesi oluşmaz, yani boyu sıfırdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yıl içinde gece ve gündüz sürelerinin değişmesinin temel nedeni eksen eğikliği ve ____ hareketidir.",
+                  "options": [
+                    "yıllık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gece ve gündüz sürelerinin yıl içinde değişmesi, Dünya'nın yıllık hareketi sırasında eksen eğikliğinin etkili olmasıyla gerçekleşir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dünya'nın ekseni ile yörünge düzlemi arasında 23 derece 27 dakikalık bir açı farkı (eksen eğikliği) bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eksen eğikliği 23° 27' olarak kabul edilir ve bu durum iklim ve mevsim çeşitliliğini sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dünya'nın Güneş'e en yakın olduğu tarih (günberi) 4 Temmuz'dur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dünya'nın Güneş'e en yakın olduğu tarih 3 Ocak (günberi), en uzak olduğu tarih ise 4 Temmuz'dur (günöte).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dünya'nın şekli tam bir küre değil, geoittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kendi ekseni etrafında dönerken oluşan merkezkaç kuvveti nedeniyle Dünya Ekvator'dan şişkin, kutuplardan basık bir geoit şekle sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de 21 Haziran tarihinde yaz mevsimi başlar ve bu tarihten itibaren gündüzler uzamaya başlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "21 Haziran Kuzey Yarım Küre'de yılın en uzun gündüzüdür; bu tarihten sonra gündüzler kısalmaya, geceler uzamaya başlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Günlük hareket sonucunda sürekli rüzgarların ve okyanus akıntılarının yönlerinde sapmalar meydana gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coriolis etkisi olarak bilinen bu sapma, Dünya'nın kendi ekseni etrafında dönmesinin (günlük hareketinin) bir sonucudur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Harita Bilgisi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Büyük ölçekli haritaların paydasındaki sayı nasıldır?",
+                  "answer": "Küçüktür."
+                },
+                {
+                  "question": "Aynı alanın haritası çizildiğinde, hangi ölçekli haritada ayrıntı daha fazladır?",
+                  "answer": "Büyük ölçekli haritada."
+                },
+                {
+                  "question": "İzohipsler birbirine çok yakın çizilmişse, o bölgede ne fazladır?",
+                  "answer": "Eğim."
+                },
+                {
+                  "question": "Dünya üzerindeki herhangi bir noktanın başlangıç meridyenine olan açısal uzaklığına ne denir?",
+                  "answer": "Boylam."
+                },
+                {
+                  "question": "Fiziki haritalarda yeşil renk hangi yükselti basamağını gösterir?",
+                  "answer": "0 - 500 metre arası."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir haritanın plan olabilmesi için gerekli olan unsurlardan biri değildir?",
+                  "options": [
+                    "Özel bir kurum tarafından onaylanması",
+                    "Ölçeğinin bulunması",
+                    "Kuşbakışı çizilmiş olması",
+                    "İzohips yöntemiyle kabartmaların gösterilmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir çizimin plan veya harita olabilmesi için kuşbakışı görünüm, ölçek ve lejant gibi temel unsurlar gerekir; resmi bir kurum onayı şart değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ölçeklerden hangisi diğerlerine göre daha büyük ölçeklidir?",
+                  "options": [
+                    "1 / 20.000",
+                    "1 / 1.000.000",
+                    "1 / 500.000",
+                    "1 / 100.000"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ölçeğin paydasındaki sayı küçüldükçe haritanın ölçeği büyür. 1/20.000 ölçeği verilenler içindeki en büyük ölçekli haritadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir fizikî haritada kahverengi ve tonları ile gösterilen alanlar için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Orman örtüsünün yoğun olduğu yerlerdir",
+                    "Deniz seviyesine yakın düzlüklerdir",
+                    "Tarım alanları ve ovalardır",
+                    "Dağlık ve yüksek alanlardır"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Fizikî haritalarda renkler yükselti basamaklarını gösterir. Kahverengi ve tonları 1500 metre ve üzeri dağlık ve yüksek alanları ifade eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İki nokta arasındaki gerçeğin harita üzerinde kaç kez küçültüldüğünü gösteren kesire ne ad verilir?",
+                  "options": [
+                    "Lejant",
+                    "Ölçek",
+                    "Projeksiyon",
+                    "Koordinat"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ölçek, gerçek uzunlukların harita üzerinde kaç kez küçültüldüğünü oran olarak belirten ifadedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ekvatordan kutuplara doğru gidildikçe iki meridyen arasındaki yerel saat farkı ile ilgili ne söylenebilir?",
+                  "options": [
+                    "Sürekli artar",
+                    "Önce artar sonra azalır",
+                    "Değişmez",
+                    "Sürekli azalır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İki meridyen arasındaki zaman farkı tüm dünyada her yerde 4 dakikadır, Ekvatordan kutuplara gidildiğinde bu değer değişmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Harita üzerindeki uzunlukların gerçek uzunluklara oranına ____ denir.",
+                  "options": [
+                    "ölçek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ölçek, harita uzunluğunun gerçek uzunluğa oranıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deniz seviyesine göre aynı yükseltideki noktaların birleştirilmesiyle elde edilen eğrilere ____ denir.",
+                  "options": [
+                    "izohips"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eş yükselti eğrileri ya da izohipsler deniz seviyesine göre eşit aralıklarla çizilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Harita üzerindeki işaretlerin anlamlarını gösteren tablolara ____ adı verilir.",
+                  "options": [
+                    "lejant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lejant, harita anahtarı olup sembollerin ne anlama geldiğini gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Başlangıç meridyeni ____ şehrinden geçer.",
+                  "options": [
+                    "Londra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Başlangıç meridyeni olan Greenvitch gözlemevi İngiltere'nin başkenti Londra'da bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı boylam üzerindeki tüm noktalarda ____ aynıdır.",
+                  "options": [
+                    "yerel saat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı boylam yayı üzerinde bulunan bütün noktalarda Güneş'in gökyüzündeki konumu aynı olduğu için yerel saat de aynıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Büyük ölçekli haritalarda gösterilen alan daha azdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Büyük ölçekli haritalar ayrıntıyı gösterdiği için dar alanların haritasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İzohips eğrileri dağ zirvelerinde nokta halini alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doruk (zirve) noktalarında izohips eğrisi en küçük daireyi çizer veya nokta şeklinde gösterilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün haritalarda alan ve uzunluk hesaplamaları hatasız olarak yapılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dünya küresel olduğu için düzleme aktarıldığında şekil, alan ve uzunluklarda kaçınılmaz olarak bozulmalar (hatalar) meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekvatorun kuzeyindeki noktalara kuzey yarım küre denir ve bu yerlerin enlemleri kuzey enlemleridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekvator dünyayı iki eşit parçaya böler; üst kısmı kuzey yarım küredir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akarsuların akış yönü boyunca izohips eğrilerini tepeye doğru büker.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Akarsu vadilerinde izohipsler akarsuyun akış yönünün tersine, yani dağın yüksek kısımlarına doğru V şeklini alır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Atmosfer ve İklim",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Atmosfer ve Sıcaklık",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Atmosferin en alt katmanı olan ve canlı yaşamının büyük kısmını barındıran katmanın adı nedir?",
+                  "answer": "Troposfer"
+                },
+                {
+                  "question": "Yerden yükseldikçe sıcaklığın her 100 metrede ortalama kaç derece azalması beklenir?",
+                  "answer": "0,5 derece"
+                },
+                {
+                  "question": "Güneş'ten gelen ışınların doğrudan atmosferi ısıtmak yerine yeryüzünü ısıtıp, yerin de atmosferi alttan ısıtmasına ne ad verilir?",
+                  "answer": "Yerden yansıma"
+                },
+                {
+                  "question": "Havanın yatay yönlü hareketine ne denir?",
+                  "answer": "Rüzgar"
+                },
+                {
+                  "question": "Sıcaklığın deniz seviyesine indirgenerek hesaplanmasında hangi faktörün etkisi ortadan kaldırılmış olur?",
+                  "answer": "Yükselti"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Atmosferin kalınlığı ekvatorda fazla, kutuplarda azdır. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kıtalann hareketleri",
+                    "Okyanus akıntılarının yönü",
+                    "Dünya'nın şekli ve yer çekimi kuvveti",
+                    "Bitki örtüsünün dağılımı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dünya'nın eksenine göre basık, ekvatorda şişkin olması (geoit şekli) ve ekvatordaki merkezkaç kuvveti ile kutuplardaki yer çekimi etkileri atmosferin kalınlığının kutuplarda az, ekvatorda fazla olmasını sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki atmosfer katmanlarının hangisinde su buharı bulunur ve hava olayları görülür?",
+                  "options": [
+                    "Troposfer",
+                    "Termosfer",
+                    "Mezosfer",
+                    "Stratosfer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su buharının tamamına yakını Troposfer katmanında yer alır. Bu nedenle tüm hava olayları yalnızca bu katmanda gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi yeryüzünde sıcaklığın dağılışını etkileyen faktörlerden biri değildir?",
+                  "options": [
+                    "Atmosferin kalınlığı",
+                    "Ay'ın evreleri",
+                    "Yükselti",
+                    "Güneş ışınlarının düşme açısı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ay'ın evreleri yeryüzündeki sıcaklık dağılımını doğrudan belirleyen veya etkileyen coğrafi faktörler arasında yer almaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de bir dağın güneşe bakan yamacına ne ad verilir?",
+                  "options": [
+                    "Bakı",
+                    "Alize",
+                    "Fön",
+                    "Nivo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuzey Yarım Küre'de dönencenin kuzeyinde kalan yerlerde güneşe bakan yamaçlar bakı etkisindedir ve daha sıcak olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Deniz kenarındaki bir merkez ile aynı enlemde bulunan ve deniz seviyesinden 2000 metre yüksekliğe sahip bir dağ zirvesi karşılaştırıldığında, dağ zirvesinin daha soğuk olmasının temel sebebi nedir?",
+                  "options": [
+                    "Yükseltinin artmasıyla yerin alttan ısıtma etkisinin azalması",
+                    "Sürekli rüzgarların etkisi",
+                    "Güneş ışınlarını hiç almaması",
+                    "Bitki örtüsünün gür olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Troposfer temel olarak yerden yansıyan ışınlarla ısınır. Bu nedenle yerden yükseldikçe sıcaklık her 100 metrede ortalama 0,5 derece düşer.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Atmosferdeki gazların yaklaşık yüzde yetmiş sekizini oluşturan temel gaz ____ gazıdır.",
+                  "options": [
+                    "azot"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferin hacim olarak en büyük kısmını yüzde yetmiş sekiz oranında azot (nitrojen) gazı oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneş ışınlarının düşme açısı büyüdükçe birim alana düşen ısı enerjisi miktarı ____.",
+                  "options": [
+                    "artar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güneş ışınları dik veya dike yakın açılarla geldiğinde dar bir alana daha yoğun enerji bırakır ve sıcaklık artar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüksek dağ yamaçlarından aşağıya doğru dağ rüzgarlarının etkisiyle oluşan kuru ve sıcak yerel rüzgarlara ____ rüzgarı denir.",
+                  "options": [
+                    "fön"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fön rüzgarları, dağ yamacından aşağıya doğru inerken her 100 metrede 1 derece ısınan ve nem açısı artan yerel rüzgarlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gün içindeki en yüksek sıcaklık genellikle güneşin en dik geldiği saat 12.00'de değil, saat ____ civarında görülür.",
+                  "options": [
+                    "14.00"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeryüzünün maksimum derecede ısınması ve bu ısıyı atmosfere aktarması bir zaman gecikmesi gerektirdiği için en yüksek sıcaklık öğleden sonra ölçülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferin zararlı güneş ışınlarını süzen ozon tabakası ____ katmanında yer alır.",
+                  "options": [
+                    "stratosfer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ozon tabakası (ozonosfer) Stratosfer katmanının alt kısımlarında yoğunlaşarak morötesi ışınları tutar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Troposfer katmanında yükseldikçe su buharı azaldığı için sıcaklık genellikle düşer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Troposferde su buharı ve ısıyı tutan gazlar alt katmanlarda yoğunlaşmıştır, yukarı çıkıldıkça yerin ısıtma etkisi azalır ve sıcaklık düşer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de dağların güneç yamaçları her zaman kuzey yamaçlarından daha soğuktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuzey Yarım Küre'de güneşe bakan yamaç (bakı) güney yamaçtır ve güney yamaçlar kuzey yamaçlara göre daha sıcaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Okyanus akıntıları, geldikleri yerin sıcaklık özelliklerini gittikleri yerlere taşırlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekvatordan gelen akıntılar sıcaklığı artırırken, kutuplardan gelen akıntılar sıcaklığı düşürücü etki yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yıllık sıcaklık farkı en fazla olan iklim bölgeleri tropikal kuşaktaki deniz kenarlarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yıllık sıcaklık farkı nemin az olduğu ve karasallığın şiddetli olduğu orta kuşak karalarının iç kesimlerinde en fazladır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bulutlu günlerde yeryüzü, açık günlere göre geceleri daha az soğur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bulutlar, yeryüzünden yansıyan ısıyı tutarak (sera etkisi) atmosferde hapseder ve geceleri aşırı soğumayı engeller.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Basınç ve Rüzgârlar",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Basıncın tanımı nedir ve ne ile ölçülür?",
+                  "answer": "Havadaki gazların yer yüzeyine uyguladığı ağırlığa basınç denir ve barometre ile ölçülür."
+                },
+                {
+                  "question": "Alçak basınç merkezlerinde hava hareketinin yönü nasıldır?",
+                  "answer": "Alçak basınç merkezlerinde hava yükselici özellik gösterir ve çevreden merkeze doğru akar."
+                },
+                {
+                  "question": "Yüksek basınç merkezlerinde hava durumu nasıldır?",
+                  "answer": "Yüksek basınç merkezlerinde hava alçalıcı hareket ettiğinden genellikle açık ve güneşlidir."
+                },
+                {
+                  "question": "Rüzgâr hangi basınç merkezinden hangisine doğru eser?",
+                  "answer": "Rüzgâr, yüksek basınç merkezinden alçak basınç merkezine doğru eser."
+                },
+                {
+                  "question": "Dünya'nın günlük hareketinin rüzgârlar üzerindeki sapma etkisi hangi kuvvetle açıklanır?",
+                  "answer": "Coriolis (Sapma) kuvveti ile açıklanır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir yerde basıncın dağılışını etkileyen faktörlerden biri değildir?",
+                  "options": [
+                    "Yerçekimi",
+                    "Sıcaklık",
+                    "Kayaç türü",
+                    "Yükselti"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kayaç türü yerel yer şekillerini etkilese de atmosfer basıncını doğrudan etkileyen fiziksel faktörler arasında yer almaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de hareket halindeki rüzgârlar esiş yönlerine göre hangi yöne sapma gösterirler?",
+                  "options": [
+                    "Sola",
+                    "Batıya",
+                    "Doğuya",
+                    "Sağa"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Coriolis etkisi nedeniyle Kuzey Yarım Küre'de rüzgarlar sağa, Güney Yarım Küre'de ise sola doğru sapar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yeryüzünde dinamik kökenli alçak basınç kuşağı hangi enlem derecelerinde görülür?",
+                  "options": [
+                    "30 derece Yengeç ve Oğlak",
+                    "60 derece Kutup Altı",
+                    "0 derece Ekvator",
+                    "90 derece Kutup noktaları"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "60 derece enlemlerinde batı rüzgarları ile kutup rüzgarlarının karşılaşması sonucunda dinamik alçak basınç kuşakları oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki rüzgârlardan hangisi sıcaklığı düşürücü bir etkiye sahip değildir?",
+                  "options": [
+                    "Kuzey rüzgarları (Türkiye için)",
+                    "Kutup rüzgarları",
+                    "Fön rüzgarları",
+                    "Kuzeybatıdan esen Karayel"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fön rüzgarları dağ yamacından aşağıya doğru inerken sürtünme etkisiyle ısınır ve gittiği yerde sıcaklığı artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Günlük sıcaklık farklarına bağlı olarak oluşan rüzgarlara ne ad verilir?",
+                  "options": [
+                    "Meltem rüzgarları",
+                    "Jet akımları",
+                    "Sürekli rüzgarlar",
+                    "Muson rüzgarları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Meltem rüzgarları, kara ve deniz ile dağ ve vadilerin günlük ısınma farkları sonucunda oluşan yerel rüzgarlardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Havadaki gazların yer yüzeyine uyguladığı ağırlık kuvvetine ____ denir.",
+                  "options": [
+                    "basınç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferdeki gazların yerçekiminin de etkisiyle yüzeye yaptığı ağırlık atmosfer basıncını oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Basınç merkezleri arasındaki basınç farkının yatay mesafeye oranına basınç ____ denir.",
+                  "options": [
+                    "gradyanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Basçın gradyanı (gradient), iki merkez arasındaki basınç farkının o mesafe ile oranıdır ve rüzgarın hızını etkiler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüksek basınç alanlarında hava hareketi çevreden merkeze değil, merkezden ____ doğru olur.",
+                  "options": [
+                    "çevreye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüksek basınçta biriken hava çevredeki alçak basınç alanlarına doğru merkezden çevreye doğru hareket eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dağlık alanlarda gündüz vakti vadiden dağ yamacına doğru esen rüzgara ____ meltemi denir.",
+                  "options": [
+                    "vadi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gündüz dağ yamaçları vadi tabanına göre daha çabuk ısındığı için hava alçak basınç olur ve rüzgar vadiden dağa eser.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de kış aylarında etkili olan ve genellikle soğuk hava taşıyan dinamik kökenli yüksek basınç merkezi ____ Yüksek Basıncıdır.",
+                  "options": [
+                    "Sibirya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sibirya yüksek basıncı kış aylarında ülkemize kuzeydoğudan gelerek şiddetli soğuklara ve kar yağışına neden olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Ekvator üzerinde yıl boyunca termik kökenli alçak basınç alanı etkilidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekvator yıl boyunca güneş ışınlarını dik ve dik açıyla aldığından sürekli yükselici hava hareketleri görülür ve termik alçak basınç oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yükselti arttıkça yer çekiminin azalması nedeniyle hava basıncı da artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yükselti arttıkça yukarı doğru olan hava sütununun ağırlığı azalacağı için basınç düşer, artmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuzey Yarım Küre'de alçak basınç merkezlerinde hava okları saat ibresinin tersi yönünde döner.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Coriolis etkisiyle Kuzey Yarım Küre'de alçak basınç merkezine giren rüzgarlar sağa saparak saat yönünün tersine bir daire çizer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Muson rüzgarları günlük hareket sonucunda oluşan devirli meltem rüzgarlarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Muson rüzgarları günlük değil, yıllık sıcaklık farkları ve devirli kara-deniz ısınmaları sonucunda oluşan yıllık rüzgarlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıcaklık ile basınç arasında genellikle ters orantı bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık arttıkça hava genleşir ve hafifleyerek yükselir, bu da o alanda basıncın düşmesine neden olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Nem ve Yağış",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mutlak nem nedir?",
+                  "answer": "1 metreküp havada bulunan su buharının gram cinsinden miktarısıdır."
+                },
+                {
+                  "question": "Bağıl nem hangi formülle ifade edilir?",
+                  "answer": "Mevcut nemin maksimum neme bölünmesi ve 100 ile çarpılmasıyla bulunur."
+                },
+                {
+                  "question": "Yeryüzüne yakın yerlerde su buharının yoğuşmasıyla oluşan ve görüş mesafesini düşüren meteorolojik olay nedir?",
+                  "answer": "Sis"
+                },
+                {
+                  "question": "Yükselici hava hareketlerinin etkili olduğu ekvatoral bölgede genellikle hangi tür yağışlar görülür?",
+                  "answer": "Konveksiyonel (Yükselim) yağışları"
+                },
+                {
+                  "question": "Dağ yamaçları boyunca yükselen hava kütlelerinin oluşturduğu yağışlara ne ad verilir?",
+                  "answer": "Orografik (Yamac) yağışları"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi havanın maksimum nem miktarını doğrudan artıran bir faktördür?",
+                  "options": [
+                    "Yağış miktarının artması",
+                    "Bağıl nemin azalması",
+                    "Sıcaklığın artması",
+                    "Basıncın düşmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Havanın sıcaklığı arttıkça genleşme yaşanır ve bu da havanın su buharı tutma kapasitesini (maksimum nemi) artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir hava kütlesinin bağıl nemi yüzde yüz oranına ulaştığında aşağıdakilerden hangisi kesinlikle gerçekleşir?",
+                  "options": [
+                    "Sıcaklık sıfır derecenin altına düşer",
+                    "Hava doymuş hale gelir",
+                    "Hava yağmur bırakmaya başlar",
+                    "Mutlak nem sıfırlanır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bağıl nemin yüzde yüze ulaşması, havanın taşıyabileceği maksimum nem sınırına dayandığını yani havanın doymuş olduğunu gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de orografik (yamaç) yağışlarının en yaygın ve belirgin olarak görüldüğü bölge aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Karadeniz Bölgesi",
+                    "Marmara Bölgesi",
+                    "Güneydoğu Anadolu Bölgesi",
+                    "İç Anadolu Bölgesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi'nde kıyıya paralel uzanan dağlar, denizden gelen nemli hava kütlelerinin yamaç boyunca yükselmesine ve orografik yağışların oluşmasına neden olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yağış türlerinden hangisi yeryüzüne yakın su buharının 0 derecenin altındaki sıcaklıklarda doğrudan kristalleşmesiyle oluşur?",
+                  "options": [
+                    "Yağmur",
+                    "Kırağı",
+                    "Sis",
+                    "Çiy"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kırağı, 0 derecenin altındaki sıcaklıklarda havadaki su buharının nesneler üzerinde doğrudan buz kristalleri (katı hâl) şeklinde birleşmesiyle meydana gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çöl bölgelerinde mutlak nemin düşük olmasına rağmen bağıl nemin de oldukça düşük olmasının temel nedeni nedir?",
+                  "options": [
+                    "Sıcaklığın çok yüksek olması",
+                    "Deniz etkisine kapalı olmaları",
+                    "Bitki örtüsünün gür olması",
+                    "Rüzgarların sürekli esmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çöllerde sıcaklık çok yüksek olduğu için havanın maksimum nemi çok yüksektir; bu durum az olan mutlak nemin bağıl nemi çok düşük seviyelerde tutmasına yol açar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Havanın taşıyabileceği en fazla su buharı miktarına ____ denir.",
+                  "options": [
+                    "maksimum nem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maksimum nem, sıcaklığa bağlı olarak değişen ve havanın belirli bir sıcaklıkta tutabileceği azami su buharı sınırını belirtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferdeki su buharının miktarını ölçmek için kullanılan hygrometre cihazı ile ____ ölçülür.",
+                  "options": [
+                    "bağıl nem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hygrometre, havadaki nem oranını tespit etmeye yarayan ve özellikle bağıl nem ölçümlerinde kullanılan bir nem ölçerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcak ve soğuk hava kütlelerinin karşılaşma alanlarında oluşan yağış türüne ____ yağışları denir.",
+                  "options": [
+                    "cephe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı karakteristikteki hava kütlelerinin karşılaşmasıyla oluşan cephe yüzeylerinde sıcak hava yükselir ve cephe yağışları meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeryüzüne yakın su buharının 0 derecenin üzerindeki sıcaklıklarda küçük su damlacıkları halinde bitki ve taşlar üzerinde birikmesiyle ____ oluşur.",
+                  "options": [
+                    "çiy"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çiy, geceleri soğuyan yüzeylerde havadaki su buharının yoğuşarak su damlacıkları halinde toplanmasıyla oluşan bir yüzey yoğuşma ürünüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Isınan havanın hafifleyerek yükselmesi ve soğumasıyla oluşan dikey yönlü yağışlara ____ yağışları adı verilir.",
+                  "options": [
+                    "konveksiyonel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konveksiyonel yağışlar, yer seviyesinin ısınmasıyla yükselen havanın soğuyarak taşıyamadığı nemi bırakmasıyla gerçekleşir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sıcaklığı yüksek olan bir havanın maksimum nem kapasitesi de fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık arttıkça hava genleşir ve daha fazla su buharı barındırabilir, bu da maksimum nemin artmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bağıl nem ile sıcaklık arasında her koşulda doğru orantı bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bağıl nem ile sıcaklık arasında genellikle ters orantı vardır; sıcaklık arttıkça maksimum nem artacağı için bağıl nem düşer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yüksek basınç merkezlerinde havanın alçalıcı hareket etmesi yağış olasılığını artırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Alçalıcı hava hareketleri ısınmaya neden olduğu için bağıl nem düşer ve hava uzaklaşarak yağış ihtimali azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekvator çevresinde yıl boyunca konveksiyonel kökenli yağışlar görülür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıl boyunca güneş ışınlarının dik veya dike yakın açıyla alması, güçlü yükseltici hava hareketlerine ve konveksiyonel yağışlara yol açar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bulut oluşumu için havadaki bağıl nem oranının yüzde yüze ulaşması gerekir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hava kütlesi doymuş hale gelmeden ve bağıl nem yüzde yüze ulaşmadan su buharı yoğuşarak bulutları oluşturamaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "İklim Tipleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ekvatoral iklimde her mevsim görülen yağışların oluşum türü nedir?",
+                  "answer": "Konveksiyonel (Yükselim) yağışları"
+                },
+                {
+                  "question": "Akdeniz ikliminin en belirgin bitki örtüsü nedir?",
+                  "answer": "Maki"
+                },
+                {
+                  "question": "Muson ikliminde yaz aylarında yağışın çok olmasının temel sebebi nedir?",
+                  "answer": "Yaz musonlarının denizden karaya esmesi"
+                },
+                {
+                  "question": "Tundra ikliminde toprak yılın büyük bölümünde hangi haldedir?",
+                  "answer": "Donmuş halde (Permafrost)"
+                },
+                {
+                  "question": "Sayın (step) ikliminin doğal bitki örtüsü nedir?",
+                  "answer": "Bozkır (Step)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki iklim tiplerinden hangisinde yıllık sıcaklık farkı en azdır?",
+                  "options": [
+                    "Sert Karasal",
+                    "Akdeniz",
+                    "Ekvatoral",
+                    "Tundra"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ekvatoral iklimde güneş ışınlarının açısı yıl boyunca çok fazla değişmediği için yıllık sıcaklık farkı en azdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Muson iklimi dünyada en geniş yayılış alanını hangi kıtada bulur?",
+                  "options": [
+                    "Kuzey Amerika",
+                    "Avrupa",
+                    "Avustralya",
+                    "Güneydoğu Asya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Muson iklimi, özellikle Hindistan, Çin ve Güneydoğu Asya kıyılarında etkilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akdeniz ikliminin görüldüğü bir yerde, yaz aylarında sıcak ve kurak olmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Muson rüzgarları",
+                    "Yaz aylarında Azor yüksek basıncının etkili olması",
+                    "Kutup rüzgarları",
+                    "Sibirya yüksek basıncı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Akdeniz ikliminde yaz kuraklığının sebebi Azor yüksek basınç merkezinin etki alanına girmesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Savana iklimi hangi basınç kuşakları arasında yer alır?",
+                  "options": [
+                    "Kutup yüksek basınç ile Subpolar alçak basınç",
+                    "Ekvatoral alçak basınç ile Subtropikal yüksek basınç",
+                    "Sibirya ile İzlanda",
+                    "Muson ile Tundra"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Savana iklimi, yıl içinde Ekvatoral alçak basınç ve Subtropikal yüksek basınç kuşaklarının etkisinde kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bitkilerden hangisi Tundra iklimine aittir?",
+                  "options": [
+                    "Liken ve yosun",
+                    "Bozkır",
+                    "Kızılçam",
+                    "Kaktüs"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tundra ikliminin zorlu soğuk koşullarına uyum sağlayan ana bitki örtüsü likenler ve cılız yosunlardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yıllık yağış miktarının 250 mm'den az olduğu, kuraklığın şiddetli olduğu iklim tipi ____ iklimidir.",
+                  "options": [
+                    "çöl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çöl iklimi, hem sıcak hem de soğuk olmak üzere yıllık yağışın en az olduğu iklim tipidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta kuşak karalarının iç kesimlerinde deniz etkisinden uzak yerlerde görülen, kışları uzun ve soğuk geçen iklim tipi ____ iklimidir.",
+                  "options": [
+                    "sert karasal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sert karasal iklimde karasallık şiddetli olduğu için yıllık sıcaklık farkı çok fazladır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz ikliminin tahrip edilmesi sonucu oluşan çalılık formasyonuna ____ denir.",
+                  "options": [
+                    "maki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maki; zeytin, defne, defne, keçiboynuzu gibi odunsu bitkilerden oluşan maki örtüsüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ekvatoral iklimde yağışlar genellikle ____ adı verilen yükselim hareketleriyle oluşur.",
+                  "options": [
+                    "konveksiyonel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Isınan havanın yükselip soğumasıyla oluşan konveksiyonel yağışlar Ekvatoral bölgede günlük olarak görülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Muson ikliminin doğal bitki örtüsü yaz yağışlarıyla yeşeren gür ormanlar içinde yer alan ____ ağaçlarıdır.",
+                  "options": [
+                    "tik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Muson ormanlarında yaygın olarak bulunan tik ağacı, bölgenin simge bitki türlerinden biridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Çöl ikliminde günlük sıcaklık farkı, havadaki nem oranının çok az olması nedeniyle oldukça fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nemin az olduğu yerlerde gündüz hızlı ısınma, gece ise hızlı soğuma gerçekleştiği için günlük sıcaklık farkı çok yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tundra iklimi Güney Yarım Küre'de çok geniş alanlarda etkilidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Güney Yarım Küre'de okyanuslar geniş yer kapladığı ve bu enlemlerde karalar bulunmadığı için Tundra iklimi çok dar alanlarda görülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akdeniz ikliminde yağışlar en fazla kış mevsiminde düşer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akdeniz iklimi yağış rejiminin en belirgin özelliği yağışların kış mevsiminde maksimum seviyeye ulaşmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekvatoral iklimde bitki örtüsü yıl boyunca yeşil kalan gür ve yüksek yapraklı yağmur ormanlarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürekli sıcak ve nemli koşullar, Ekvatoral iklimde gür ve katlı bir bitki örtüsünün (yağmur ormanları) oluşmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sert karasal iklimin en karakteristik bitki örtüsü tayga adı verilen iğne yapraklı ormanlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uzun ve soğuk kışlara dayanıklı olan tayga (boreal) ormanları sert karasal iklim sahasının en geniş alan kaplayan bitki örtüsüdür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Türkiye'nin İklimi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'nin iklimini etkileyen en temel matematik konum faktörü nedir?",
+                  "answer": "Orta kuşakta yer alması."
+                },
+                {
+                  "question": "Türkiye'de kış aylarında etkili olan ve soğuk-yağışlı hava getiren basınç merkezi hangisidir?",
+                  "answer": "Sibirya Yüksek Basıncı"
+                },
+                {
+                  "question": "Karadeniz ikliminin en fazla yağış aldığı mevsim hangisidir?",
+                  "answer": "Sonbahar"
+                },
+                {
+                  "question": "Akdeniz ikliminin doğal bitki örtüsü nedir?",
+                  "answer": "Maki"
+                },
+                {
+                  "question": "İç Anadolu Bölgesi'nde yaz kuraklığına dayanıklı, ilkbahar yağışlarıyla yeşeren kısa boylu ot topluluğuna ne ad verilir?",
+                  "answer": "Bozkır (Step)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de dağların denize paralel uzandığı kıyılarda denizel etkiler iç kesimlere sokulamaz. Bu durum aşağıdakilerden hangisinin oluşumunda temel etkendir?",
+                  "options": [
+                    "Dağların güneç yamaçlarının daha sıcak olmasının",
+                    "Yıl boyunca sürekli batı rüzgarlarının etkisinde kalınmasının",
+                    "İç kesimlerde karasal iklim özelliklerinin görülmesinin",
+                    "Kıyılarda her mevsim yağış görülmesinin"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dağların kıyıya paralel uzandığı yerlerde deniz etkisinin iç kesimlere girmesi engellenir, bu da iç bölgelerde karasal iklimin hâkim olmasına yol açar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki basınç merkezlerinden hangisi yaz aylarında Türkiye üzerinde etkili olarak kurak ve sıcak hava koşullarına neden olur?",
+                  "options": [
+                    "Sibirya Yüksek Basıncı",
+                    "İzlanda Alçak Basıncı",
+                    "Basra Alçak Basıncı",
+                    "Asya Yüksek Basıncı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yaz aylarında Türkiye'nin güneyinden etki eden Basra Alçak Basıncı, ülkemizde hava sıcaklıklarının artmasına ve özellikle güneydoğu kesimlerde kuraklığa neden olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karadeniz iklimi ile ilgili olarak aşağıda verilen özelliklerden hangisi yanlıştır?",
+                  "options": [
+                    "Her mevsim yağış alabilir.",
+                    "Yıllık sıcaklık farkı Akdeniz iklimine göre daha azdır.",
+                    "Doğal bitki örtüsü geniş ve iğne yapraklı ormanlardır.",
+                    "En kurak mevsim yazdır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Karadeniz ikliminde belirgin bir kurak mevsim yoktur; en az yağış yaz aylarında düşse de bu dönem kuraklık yaratacak kadar az değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de yükseltinin batıdan doğuya doğru artması aşağıdakilerden hangisini doğrudan etkiler?",
+                  "options": [
+                    "Yıllık ortalama sıcaklıkların batıdan doğuya doğru azalmasını",
+                    "Yağış rejiminin düzenli olmasını",
+                    "Cephesel yağışların sadece kışın görülmesini",
+                    "Kıyı kesimlerde maki bitki örtüsünün yaygınlaşmasını"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yükselti arttıkça sıcaklık düşer; bu nedenle Türkiye'de batıdan doğuya doğru gidildikçe yükseltinin artmasına bağlı olarak yıllık ortalama sıcaklıklar azalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akdeniz ikliminin görüldüğü bir yerde kış ılıklığına bağlı olarak turuncu gil yetiştirilebilmesi aşağıdakilerden hangisiyle doğrudan ilgilidir?",
+                  "options": [
+                    "Yüksek basınç alanları",
+                    "Yeryüzü şekilleri",
+                    "Mutlak konum",
+                    "Enlem ve deniz etkisinin birleşimi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Turunçgiller don olaylarına karşı hassastır ve Akdeniz'in enlem derecesi ile deniz etkisinin kışları ılımanlaştırması bu ürünün yetişmesini sağlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin Kuzey Yarım Küre'de yengeç dönencesi dışında yer alması nedeniyle güneyden gelen rüzgarlar sıcaklığı artırırken, kuzeyden gelen rüzgarlar sıcaklığı ____.",
+                  "options": [
+                    "düşürür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye Kuzey Yarım Küre'de yer aldığı için kuzeyden (kutup yönünden) esen rüzgarlar hava sıcaklığını azaltır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karadeniz ikliminin en fazla yağış aldığı mevsim ____ aykarlarını da kapsayan sonbahardır.",
+                  "options": [
+                    "eylül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz kıyılarında deniz suyunun geç soğuması ve yamaç yağışlarının artmasıyla en fazla yağış sonbahar mevsiminde gerçekleşir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sert karasal iklimin görüldüğü Doğu Anadolu'da yaz yağışlarının en belirgin olduğu yöre ____ bölümüdür.",
+                  "options": [
+                    "Erzurum-Kars"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erzurum-Kars bölümünde yükselti ve karasallığa bağlı olarak en fazla yağış ısınan havanın yükselmesiyle oluşan konveksiyonel (yaz) yağışlarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz ikliminde ormanların tahrip edilmesi sonucu oluşan kısa boylu çalılara ____ adı verilir.",
+                  "options": [
+                    "maki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maki, Akdeniz iklim sahasında orman örtüsünün yok edilmesiyle ortaya çıkan kermez meşesi, zeytin, defne gibi maki türlerinden oluşan bitki örtüsüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'yi etkileyen basınç merkezlerinden biri olan ____ Yüksek Basıncı kış aylarında ülkemize soğuk ve ayaz hava taşır.",
+                  "options": [
+                    "Sibirya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sibirya Yüksek Basıncı kışın Sibirya üzerinden gelerek iç ve doğu kesimlerde sert soğuklara ve kar yağışına neden olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin üç tarafının denizlerle çevrili olması, her yerinde deniz etkisinin iç kesimlere kadar kolayca girmesini sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dağların kıymaya paralel uzandığı Karadeniz ve Akdeniz bölgelerinde deniz etkisi iç kesimlere sokulamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ege Bölgesi'nde dağların denize dik uzanması, kıyı ile iç kesimler arasındaki ulaşımı kolaylaştırır ve deniz etkisinin iç kısımlara ilerlemesini sağlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ege'de dağların kıyıya dik uzanması hava kütlelerinin ve deniz etkisinin içerilere kadar girmesine olanak tanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İç Anadolu Bölgesi Türkiye'nin en fazla yağış alan coğrafi bölgesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç Anadolu Bölgesi, etrafını çevreleyen dağlar nedeniyle Türkiye'nin en az yağış alan bölgelerinden biridir (kurak bölgedir).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ılık ve yağışlı geçer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu durum Akdeniz ikliminin temel ve karakteristik özelliğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye genelinde yağışların en az görüldüğü mevsim her yerde yaz mevsimidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğu Anadolu'daki Erzurum-Kars bölümünde en fazla yağış yaz aylarında görülür, bu nedenle bu ifade yanlıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Yer Şekilleri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İç Kuvvetler ve Levha Tektoniği",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yer kabuğunu oluşturan büyük parçalara ne ad verilir?",
+                  "answer": "Levha"
+                },
+                {
+                  "question": "Enerjisini yerin iç yapısından alan kuvvetlere ne denir?",
+                  "answer": "İç kuvvetler"
+                },
+                {
+                  "question": "Pangea kıtasının parçalanmasıyla oluşan kuzeydeki büyük kıtaya ne denir?",
+                  "answer": "Laorasya"
+                },
+                {
+                  "question": "Kıvrımlı dağ oluşumunda yükselen kısımlara ne ad verilir?",
+                  "answer": "Antiklinal"
+                },
+                {
+                  "question": "Magmanın yeryüzüne çıkması olayına ne denir?",
+                  "answer": "Volkanizma"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi iç kuvvetler arasında yer almaz?",
+                  "options": [
+                    "Orojenez",
+                    "Deprem",
+                    "Akarsular",
+                    "Epirojenez"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Akarsular dış kuvvetler arasında yer alır ve enerjisini güneşten alır. Diğer seçenekler ise iç kuvvetlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Levha hareketlerinin temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ay'ın çekim kuvveti",
+                    "Dünyanın kendi ekseni etrafındaki hareketi",
+                    "Manto içerisindeki konveksiyonel akıntılar",
+                    "Rüzgarların basınç etkisi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Levhaların hareket etmesini sağlayan temel güç, mantodaki sıcaklık farklarından kaynaklanan konveksiyonel akıntılardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kıvrımlı dağ oluşumu sırasında esnek yapılı tortul tabakaların altta kalan çukur kısımlarına ne ad verilir?",
+                  "options": [
+                    "Graben",
+                    "Senklinal",
+                    "Antiklinal",
+                    "Horst"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kıvrılma sonucunda yukarıda kalan kubbemsi kısımlara antiklinal, aşağıda kalan çanak kısımlara ise senklinal denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kıtasal hareketlerin ve levha tektoniği teorisinin kurucusu olan bilim insanı kimdir?",
+                  "options": [
+                    "Alfred Wegener",
+                    "Alexander von Humboldt",
+                    "Eratosthenes",
+                    "Immanuel Kant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alfred Wegener, kıtaların kayması teorisini ortaya atarak günümüz levha tektoniği çalışmalarının temelini atmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölgelerin hangisinde şiddetli deprem riskinin ve aktif volkanizmanın en az olması beklenir?",
+                  "options": [
+                    "Pasifik Ateş Çemberi",
+                    "Kıta içindeki eski masif alanlar",
+                    "Okyanus ortası sırtları",
+                    "Alp-Himalaya kıvrım kuşağı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eski kıta çekirdekleri olan masif alanlar, levha sınırlarından uzak oldukları için deprem ve volkanizma bakımından oldukça durgun bölgelerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kıtalarda toptan yükselme veya alçalma hareketine ____ denir.",
+                  "options": [
+                    "epirojenez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Epirojenez, kıtaların geniş alanlarda düşey yönlü alçalması veya yükselmesi olayıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırıklı dağ oluşumunda yüksekte kalan kısımlara ____ denir.",
+                  "options": [
+                    "horst"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırıklı dağ sistemlerinde fay hatları arasında yükselen bloklar horst, çöken bloklar ise graben adını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Magmanın yeryüzüne çıkmadan yer kabuğunun derinliklerinde soğumasıyla oluşan şekillere ____ denir.",
+                  "options": [
+                    "intrüzyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Magmanın yüzeye ulaşmadan yer altında soğumasıyla batolit, lakolit gibi derinlik volkanizması şekilleri oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Levhaların birbirine yaklaşması sonucunda okyanusal kabuğun kıtasal kabuğun altına girdiği derin çukurluklara ____ denir.",
+                  "options": [
+                    "hendek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dalma-batma kuşağı olarak da bilinen bu alanlarda okyanusal levha manto içine dalarken derin okyanus hendeklerini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Pangea kıtasını çevreleyen ilk büyük okyanusa ____ denir.",
+                  "options": [
+                    "Panthalassa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Wegener'in teorisine göre Pangea tek bir kıtayı, Panthalassa ise bu kıtayı çevreleyen dev okyanusu ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İç kuvvetler enerjilerini doğrudan güneş enerjisinden alırlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç kuvvetler enerjisini güneşten değil, yerin iç yapısındaki magmatik ısılardan ve radyoaktif elementlerin parçalanmasından alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye, Alp-Himalaya kıvrım kuşağı üzerinde yer almaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye genç oluşumlu bir ülke olup, Alp-Himalaya dağ sistemi içinde yer aldığı için deprem riski yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Okyanus ortası sırtları levhaların birbirinden uzaklaştığı sınırlarda oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uzaklaşan levha sınırlarında mantodan yükselen magma deniz tabanında soğuyarak okyanus ortası sırtlarını meydana getirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Epirojenez olayları sırasında yeni dağ sıra dağları oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Epirojenez dağ oluşumu (orojenez) değildir; kıtaların toptan yükselmesi veya alçalması olayıdır ve kıta sahanlığını etkiler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Depremlerin büyüklüğünü ve yeryüzünde yaydığı enerjiyi ölçen alete sismograf denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sismograf, deprem dalgalarını kaydeden ve sismologların deprem büyüklüğünü hesaplamasını sağlayan temel ölçüm cihazıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Dış Kuvvetler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Akarsuların aşındırma yaparak oluşturduğu ve step sahalarında yaygın olan basamaklı topoğrafyalara ne ad verilir?",
+                  "answer": "Seki (Taraça)"
+                },
+                {
+                  "question": "Dalga aşındırması sonucu kıyılarda oluşan dik duvarlara ne denir?",
+                  "answer": "Falez (Yalıyar)"
+                },
+                {
+                  "question": "Rüzgarların kurak ve yarı kurak bölgelerde taşıdığı ince kum ve toz malzemelerini biriktirmesiyle oluşan örtülere ne denir?",
+                  "answer": "Lös"
+                },
+                {
+                  "question": "Buzulların erimesiyle taşınan ve biriken her boyuttaki malzemelerin oluşturduğu tepelere ne denir?",
+                  "answer": "Moren"
+                },
+                {
+                  "question": "Yer altı sularının kireçli arazileri eritmesiyle oluşan en küçük erime şekline ne ad verilir?",
+                  "answer": "Kرین (Lapy)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi akarsuların oluşturduğu biriktirme şekilleri arasında yer alır?",
+                  "options": [
+                    "Peri bacası",
+                    "Kanyon vadi",
+                    "Delta ovası",
+                    "Dev kazanı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Delta ovası, akarsuların denize döküldükleri yerlerde taşıdığı alüvyonları kıyıda biriktirmesiyle oluşur. Dev kazanı, kanyon vadi ve peri bacası ise aşınım şekilleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kurak ve yarı kurak iklim bölgelerinde etkili olan rüzgarlar, aşağıdaki yer şekillerinden hangisinin oluşumundaincelincil de olsa diğerlerinden daha az etkilidir?",
+                  "options": [
+                    "Barkan",
+                    "Mantarkaya",
+                    "Yardang",
+                    "Falez"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Falez, dalga ve akıntıların kıyıyı aşındırmasıyla oluşan bir kıyı yer şeklidir. Barkan, mantarkaya ve yardang ise rüzgar aşındırma ve biriktirme şekilleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yer şekillerinden hangisinin oluşumunda karstik süreçler (kimyasal çözünme) doğrudan etkilidir?",
+                  "options": [
+                    "Tombolo",
+                    "Sirk",
+                    "Obruk",
+                    "Moren"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Obruk, karstik bölgelerde yer altı suyunun tavanı eritmesiyle çöken derin çukurlardır. Tombolo kıyı biriktirme, sirk ve moren ise buzul şeklidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dalgaların taşıdığı kum ve çakılları koy önünde biriktirerek koyun önünü kapatmasıyla oluşan yer şekli aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Lagün",
+                    "Falez",
+                    "Tombolo",
+                    "Haliç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyı oku ve kıyı kordonlarının koyun önünü tamamen kapatmasıyla lagün (deniz kulağı) oluşur. Falez aşınım, tombolo ise ada ile karanın bağlanmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Buzulların vadileri aşındırmasıyla oluşan ve deniz sularının bu vadileri basması sonucunda Türkiye'de de görülen kıyı tipi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Boyuna kıyı tipi",
+                    "Ria kıyı tipi",
+                    "Fiyort kıyı tipi",
+                    "Haliçli kıyı tipi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fiyort kıyılar, buzul vadilerinin deniz suları altında kalmasıyla oluşur ve genellikle kutuplara yakın yüksek enlemlerde görülür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Akarsuların yatak eğiminin azaldığı yerlerde menderesler çizerek akması ve taşkınlar sırasında kenarlarda biriktirdiği malzemelerle oluşan düzlüklere ____ denir.",
+                  "options": [
+                    "taban seviyesi ovası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akarsuların biriktirme faaliyetleri sonucunda vadilerin tabanında genişleyen düzlüklere taban seviyesi ovası veya alüvyal ova denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kalker, kaya tuzu ve jips gibi suda kolay eriyen kayaçların yaygın olduğu arazilerde suların kimyasal çözünme yapmasıyla oluşan topografyaya ____ denir.",
+                  "options": [
+                    "karstik topografya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Suda çözünebilen kayaçların bulunduğu alanlar karstik arazi olarak adlandırılır ve bu alanda kendine has yer şekilleri gelişir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dalga ve akıntıların taşıdığı kumları bir adayı karaya bağlamasıyla oluşan şekle ____ denir.",
+                  "options": [
+                    "tombolo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyı oklarının bir adayı karaya bağlamasıyla oluşan bağlama seddi veya tombolo adını alır (Örneğin Kapıdağ Yarımadası).",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kutup bölgelerinde veya dağların kalıcı kar sınırından yukarıda yer alan, buzulların aşındırmasıyla oluşan sandalyeye benzer çukurlara ____ denir.",
+                  "options": [
+                    "sirk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buzul aşındırmasının en belirgin başlangıç şekli olan sirk çukurları, buzulların taşıma ve aşındırma gücüyle genişler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rüzgarların taşıdığı malzemeleri çarparak kayaların alt kısımlarını daha çok aşındırmasıyla mantara benzeyen ____ oluşur.",
+                  "options": [
+                    "mantarkaya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantarkaya rüzgar aşındırması (deflasyon ve korrasyon) sonucu ortaya çıkan tipik bir kaya formudur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Peri bacaları, volkanik tüflerin sel suları ve rüzgarlar tarafından aşındırılmasıyla oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peri bacalarının oluşumunda temel dış kuvvet sel suları (akarsu) olup, volkanik arazilerde tüflerin farklı aşınmasıyla meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Haliç, gelgit genliğinin fazla olduğu okyanus kıyılarında akarsu ağızlarının sular altında kalmasıyla oluşur ve Türkiye'de açık denizlerde yaygındır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye iç deniz (Karadeniz ve Akdeniz) kıyısında yer aldığı ve gelgit genliği az olduğu için kıyılarımızda haliç bulunmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dalyan ve lagünler dalga biriktirme faaliyetleri sonucunda oluşan kıyı yer şekillerindendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyı okları ve kordonları koyların ağzını kapatarak lagünleri (deniz kulağını) oluşturur; bu bir biriktirme faaliyetidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Buzulların oluşturduğu aşındırma şekillerinden biri de hörgüç kaya olarak adlandırılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buzulların üzerinden geçerken aşındırdığı ve hörgüce benzeyen sırtlar hörgüç kaya adını alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rüzgarlar nemli ve bitki örtüsünün gür olduğu ekvatoral bölgelerde en etkili dış kuvvettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rüzgarların en etkili olduğu yerler bitki örtüsünün cılız, nemin az olduğu kurak ve yarı kurak çöl bölgeleridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Türkiye'nin Yer Şekilleri",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'nin ortalama yükseltisinin fazla olmasının temel nedeni nedir?",
+                  "answer": "Üçüncü Jeolojik Zaman'da (Tersiyer) Alp-Himalaya kıvrım sistemine dahil olarak toptan yükselmesidir."
+                },
+                {
+                  "question": "Doğru akarsu aşındırma tabanına ulaşıldığında akarsuyun profili hangi şekli alır?",
+                  "answer": "Denge profili"
+                },
+                {
+                  "question": "Türkiye'de dağların genellikle Doğu-Batı yönlü uzanmasının temel sonucu nedir?",
+                  "answer": "Kıyı ile iç kesimler arasındaki ulaşımın zor olması ve deniz etkisinin iç kısımlara sokulamamasıdır."
+                },
+                {
+                  "question": "Karadeniz kıyılarında yaygın olan, dağların kıyıya paralel uzanması sonucu oluşan tipik kıyı tipi hangisidir?",
+                  "answer": "Enine kıyı tipi değil, boyuna kıyı tipidir."
+                },
+                {
+                  "question": "Türkiye'de genç oluşumlu bir ülke olduğunun kanıtı olarak gösterilebilecek ana yer şekli unsurlarından biri nedir?",
+                  "answer": "Akarsuların akış hızlarının, denge profiline uzaklıklarının ve hidroelektrik potansiyellerinin fazla olmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin yer şekilleri ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "En yüksek dağlar İç Anadolu Bölgesi'nde yer alır.",
+                    "Ortalama yükselti batıdan doğuya doğru azalır.",
+                    "Kıyı kesiminde buzulların oluşturduğu yer şekilleri oldukça yaygındır.",
+                    "Dağlar genellikle doğu-batı doğrultusunda uzanır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye'deki dağlar Alp orojenezi kuşağında yer aldıkları için genel olarak doğu-batı doğrultusunda uzanım gösterir. Ortalama yükselti batıdan doğuya doğru artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki akarsulardan hangisi Türkiye'nin denge profiline ulaşmış bir akarsuyuna örnek gösterilemez?",
+                  "options": [
+                    "Çoruh",
+                    "Meriç",
+                    "Gediz",
+                    "Kızılırmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çoruh Nehri, Doğu Karadeniz Dağları'ndan doğar, akışı oldukça hızlıdır, yatak eğimi ve aşındırma gücü fazladır. Bu yüzden denge profiline uzaktır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıda verilen yer şekillerinden hangisi karstik aşınım ve birikim şekillerinden biri değildir?",
+                  "options": [
+                    "Barkan",
+                    "Traverten",
+                    "Polye",
+                    "Obruk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Barkan rüzgar birikimiyle oluşan hilal biçimindeki kumuldur. Polye, obruk ve traverten karstik şekillerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de kıyı kesimleri ile iç kesimler arasındaki ulaşımda dağlar önemli engeller oluşturur. Bu durumun temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kıyıların sığ olması",
+                    "Akarsu vadilerinin geniş tabanlı olması",
+                    "Dağların kıyıya paralel uzanması",
+                    "Yükseltinin batıda az olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Karadeniz ve Akdeniz bölgelerinde dağlar kıyıya paralel uzandığı için deniz etkisi iç kesimlere giremez ve kıyı ile iç kısımlar arasında ulaşım geçitlerle sağlanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisinde volkanik dağların varlığına rastlanmaz?",
+                  "options": [
+                    "Kayseri",
+                    "Van",
+                    "Manisa",
+                    "Edirne"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Edirne, Trakya'da yer alır ve volkanik dağ barındırmaz. Van'da Nemrut ve Süphan, Manisa'da Kula volkanları, Kayseri'de ise Erciyes dağı bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin güneybatısındaki Muğla ve çevrelerinde yaygın olarak görülen, suların kalkerli arazileri eritmesiyle oluşan en geniş karstik ova tipine ____ denir.",
+                  "options": [
+                    "polye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polye, karstik bölgelerde obrukların birleşmesiyle oluşan en büyük karstik çukurluklardır ve Göller Yöresi ile Muğla çevresinde yaygındır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akarsuların taşıdığı malzemeleri deniz kıyısında biriktirmesiyle oluşan ve kıyıyı denizle kapatan şekillere ____ adı verilir.",
+                  "options": [
+                    "kıyı oku"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyı okları, dalga ve akarsuların getirdiği kum ve çakılların koy ve körfez ağızlarını kapatacak şekilde birikmesiyle oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ege Bölgesi'nde dağların denize dik uzanması sonucunda oluşan girintili çıkıntılı kıyı tipine ____ kıyı tipi denir.",
+                  "options": [
+                    "enine"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ege Bölgesi'nde dağlar kıyıya dik uzandığı için enine kıyılar görülür; bu durum koy, körfez ve yarımada sayısının fazla olmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İstanbul ve Çanakkale boğazlarının geçmişte akarsu vadisiyken sular altında kalmasıyla oluşan kıyı tipine ____ denir.",
+                  "options": [
+                    "ria"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ria tipi kıyılar, eski akarsu vadilerinin deniz suları altında kalmasıyla oluşur ve ülkemizde İstanbul ve Çanakkale Boğazları buna en iyi örnektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Buzulların erimesiyle oluşan ve özellikle Doğu Karadeniz'deki Kaçkar Dağları'nda rastlanan çanak şeklindeki küçük göllere ____ gölü denir.",
+                  "options": [
+                    "sirk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sirk, buzul aşındırmasıyla dağ zirvelerine yakın yerlerde oluşan çanaklardır ve sularla dolarak sirk göllerini oluşturur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin ortalama yükseltisinin 1132 metre olması, Üçüncü Jeolojik Zaman'da toptan yükselmeye uğradığının kanıtıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye, Alp-Himalaya kıvrım kuşağında yer alması sebebiyle Tersiyer döneminde toptan yükselmiş ve ortalama yükseltisi yüksek bir ülke olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karadeniz ve Akdeniz kıyılarında dağların kıyıya dik uzanması nedeniyle boyuna kıyı tipi görülür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karadeniz ve Akdeniz kıyılarında dağlar kıyıya paralel uzanır, bu yüzden boyuna kıyı tipi görülür. Dik uzanan kıyılarda enine kıyı tipi görülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hakkari Yöresi ve Doğu Anadolu, Türkiye'de dağlık ve engebeli yapının en az olduğu alanlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğu Anadolu ve özellikle Hakkari Yöresi, Türkiye'nin en dağlık ve engebeli bölgeleri arasındadır. Bu durumun aksine en az engebeli yer İç Anadolu ve Güneydoğu Anadolu'nun bazı ovalarıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'nin genç oluşumlu bir ülke olmasının bir sonucu olarak deprem riski oldukça yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye, Alp orojenezi kuşağında yer aldığından yer kabuğu hareketleri devam etmektedir ve bu da ülkenin genç oluşumlu, deprem kuşağında bir ülke olmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çukurova, Gediz ve Bafra gibi ovalar akarsuların taşıdığı alüvyonları biriktirmesiyle oluşan delta ovalarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta ovaları, akarsuların denize döküldükleri yerlerde taşıdıkları alüvyonları kıyıda biriktirmesiyle oluşur ve Çukurova, Bafra ve Gediz bu duruma örnektir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Doğal Varlıklar",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Su Varlığı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yeryüzündeki suların en büyük kısmını oluşturan ve tuzlu su kaynakları olan su varlığı nedir?",
+                  "answer": "Okyanuslar ve denizler"
+                },
+                {
+                  "question": "Akarsuların sularını deniz veya okyanusa ulaştıramayıp kuruduğu kapalı havzaların oluşmasında en temel etken nedir?",
+                  "answer": "Yer şekilleri ve iklim özellikleri"
+                },
+                {
+                  "question": "Türkiye'de akarsu rejimlerinin genellikle düzensiz olmasının temel nedeni nedir?",
+                  "answer": "Yağış rejiminin düzensiz olması"
+                },
+                {
+                  "question": "Kalker gibi eriyebilen kayaçların yaygın olduğu arazilerde yer altı sularının çözündürmesiyle oluşan derin çukurlara ne ad verilir?",
+                  "answer": "Obruk"
+                },
+                {
+                  "question": "Yeryüzündeki tatlı suların en büyük oranı hangi kaynakta depolanmıştır?",
+                  "answer": "Buzullar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Türkiye'deki akarsuların genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Ulaşım ve taşımacılığa elverişlidirler.",
+                    "Akarsu rejimleri genellikle düzensizdir.",
+                    "Boyları genellikle kısadır.",
+                    "Hidroelektrik potansiyelleri yüksektir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye'nin dağlık ve engebeli bir yapıda olması, akarsuların akış hızını artırır ve rejimlerini düzensizleştirir. Bu nedenle Türkiye akarsuları üzerinde sal ve gemi taşımacılığı yapılamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yeryüzünde tatlı su kaynaklarının dağılımı göz önüne alındığında, en büyük tatlı su rezervi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Nehirler ve akarsular",
+                    "Tatlı su gölleri",
+                    "Yeraltı suları",
+                    "Kutup bölgelerindeki buzullar ve dağ buzulları"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yeryüzündeki toplam suyun çok küçük bir kısmı tatlı sudur ve bu tatlı suların da yaklaşık yüzde 68'i kutuplardaki buzullar ile dağlardaki buzullarda kilitlenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki göllerden hangisi oluşum kökeni bakımından tektonik bir göldür?",
+                  "options": [
+                    "Tuz Gölü",
+                    "Van Gölü",
+                    "Uzungöl",
+                    "Abant Gölü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuz Gölü, yer kabuğundaki tektonik çukurlukların sularla dolmasıyla oluşmuş tektonik bir göldür. Van Gölü volkanik set, Abant heyelan set, Uzungöl ise heyelan set gölüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akarsuların taşıdığı malzemeleri denize döküldüğü kıyıda biriktirmesiyle oluşan deltaların gelişebilmesi için aşağıdakilerden hangisi gerekli değildir?",
+                  "options": [
+                    "Kıyıda güçlü akıntıların bulunmaması",
+                    "Akarsuyun bol alüvyon taşıması",
+                    "Kıyıda güçlü gelgit olaylarının görülmesi",
+                    "Kıyının sığ (denizin derin olmaması) olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gelgit (med-cezir) genliğinin fazla olduğu kıyılarda akarsuların getirdiği malzemeler deniz süpüreceği için delta ovaları kolayca oluşamaz veya gelişemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karstik kaynakların (gözelerin) en önemli özelliği aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Rejimleri düzenlidir ve suları kireçlidir.",
+                    "Sadece yaz aylarında su akıtırlar.",
+                    "Yalnızca dağ zirvelerinde görülürler.",
+                    "Suları sıcak ve bol minerallidir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karstik kaynaklar, eriyebilen kayaçlar içindeki suların yüzeye çıkmasıyla oluşur. Suları bol kireçlidir ve yer altı boşluklarından beslendikleri için debileri yıl içinde çok fazla değişmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Akarsuların sularını deniz veya okyanusa ulaştırabildiği alanlara açık ____ denir.",
+                  "options": [
+                    "havza"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir akarsuyun kollarıyla birlikte su topladığı alanın tamamı havza olarak adlandırılır. Sularını denize ulaştırabilenler açık havza, ulaştıramayanlar ise kapalı havza oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kalker, kaya tuzu ve jips gibi eriyebilen kayaçların yaygın olduğu arazilerde suların oluşturduğu yeraltı boşluklarına ____ denir.",
+                  "options": [
+                    "mağara"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karstik sahalarda suların kimyasal çözünme yoluyla aşındırması sonucu yeraltında büyük boşluklar yani mağaralar meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Denizlerin karaların içine doğru sokulduğu alanlarda, akarsu vadilerinin sular altında kalmasıyla oluşan kıyı tiplerine ____ kıyı tipi denir.",
+                  "options": [
+                    "ria"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ria kıyılar, akarsu vadilerinin deniz suları altında kalmasıyla oluşur ve genellikle İstanbul ve Çanakkale boğazları bu tipe örnektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir akarsuyun yatağı boyunca herhangi bir kesitinden saniyede geçen su miktarının m³ cinsinden değerine ____ adı verilir.",
+                  "options": [
+                    "akım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Debi veya akım, akarsuyun taşıdığı su miktarını ifade eder ve iklim şartlarına bağlı olarak yıl içinde değişim gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yer altı sularının doğal bir şekilde yeryüzüne fışkırarak çıktığı sıcak su kaynaklarına ____ denir.",
+                  "options": [
+                    "gayzer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gayzerler, volkanik bölgelerde yer altı sularının magmanın etkisiyle ısınarak basınca dayanamayıp periyodik olarak fışkırmasıyla oluşur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin üç tarafının denizlerle çevrili olması, kıyılarında akarsu ağızlarında delta ovalarının oluşmasını engellemez ancak gelgit etkisinin az olması deltaların gelişimini kolaylaştırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye okyanuslara kıyısı olmayan bir iç deniz konumundaki Akdeniz ve Karadeniz havzasında yer aldığı için gelgit etkisi çok azdır, bu da delta oluşumunu destekler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün göller sularını dışarıya akarsular aracılığıyla boşaltabildiği için tatlı su özelliğine sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gölün tatlı ya da tuzlu olması ayağının (gideğeninin) olup olmamasına ve iklim koşullarına bağlıdır. Gideğeni olmayan ve buharlaşmanın şiddetli olduğu kapalı havza gölleri genellikle tuzlu veya acıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eğimin fazla olduğu dağlık ve engebeli alanlarda akan akarsuların aşındırma gücü ve hidroelektrik enerji potansiyeli yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akarsuların akış hızı eğimle doğru orantılıdır. Hızlı akan suların aşındırma gücü ve enerji üretme kapasitesi artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yeraltı sularının yeryüzüne kendiliğinden çıktığı noktalara artezyen kaynağı denir ve bu kaynakların suları her zaman sıcak olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Artezyen kaynağı, insan eliyle açılan sondaj kuyuları vasıtasıyla yeryüzüne çıkarılan yeraltı suyudur ve sıcaklıkları genelde soğuktur. Sıcak olanlar fay kaynakları veya jeotermal kaynaklardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fay hatlarının bulunduğu bölgelerde yer altı suları çatlaklar boyunca sıcak ve mineralli bir şekilde yeryüzüne çıkabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fay kaynakları (kaplıca veya ılıcalar), yer kabuğu hareketlerinin yoğun olduğu tektonik hatlar boyunca derinlere sızan suların ısınıp yüzeye çıkmasıyla oluşur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Toprak Varlığı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toprağın en üst katmanında bulunan, canlı kalıntılarının ayrışmasıyla oluşan organik maddeye ne ad verilir?",
+                  "answer": "Humus"
+                },
+                {
+                  "question": "Zonal topraklar içinde yer alan, sıcak ve nemli ekvatoral iklim bölgelerinde görülen, demir oksit birikimi nedeniyle kırmızı renkli olan toprak tipi hangisidir?",
+                  "answer": "Laterit"
+                },
+                {
+                  "question": "Türkiye'de özellikle Erzurum-Kars bölümünde görülen, yüksek dağ çayırları altında gelişmiş, organik madde açısından zengin kara renkli verimli toprakların adı nedir?",
+                  "answer": "Çernezyom"
+                },
+                {
+                  "question": "Taşınmış (azonal) topraklar arasında yer alan ve akarsuların taşıdığı malzemeleri eğimin azaldığı yerlerde biriktirmesiyle oluşan toprak türü hangisidir?",
+                  "answer": "Alüvyal toprak"
+                },
+                {
+                  "question": "İklime ve ana kayaya bağlı olarak gelişen, yerli (zonal) toprakların katmanlarına ne ad verilir?",
+                  "answer": "Horizont"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki toprak türlerinden hangisi yerli (zonal) topraklar arasında yer almaz?",
+                  "options": [
+                    "Alüvyal",
+                    "Tundra",
+                    "Podzol",
+                    "Laterit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alüvyal topraklar akarsular tarafından taşınarak biriktirilen azonal (taşınmış) topraklar grubundadır. Diğer seçenekler iklim ve ana kayaya bağlı oluşan zonal topraklardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Akdeniz iklim bölgesinde, maki bitki örtüsü altında gelişen, kireçli arazilerde görülen kırmızı renkli zonal toprak tipi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Laterit",
+                    "Terra-rossa",
+                    "Çernezyom",
+                    "Podzol"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Akdeniz iklimi ve kireçli kalker taşları üzerinde oluşan, demir oksitçe zengin kırmızı renkli topraklar Terra-rossa olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölgelerin hangisinde podzol toprakların yaygın olarak görülmesi beklenir?",
+                  "options": [
+                    "Muson iklim bölgesi",
+                    "Akdeniz iklim bölgesi",
+                    "İğne yapraklı ormanların bulunduğu soğuk ve nemli bölgeler",
+                    "Çöl iklim bölgesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Podzol topraklar, soğuk ve nemli iklim koşullarında, özellikle tayga (iğne yapraklı) orman sahalarında yaygın olarak görülür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüksek dağlık alanlarda veya kutup çevrelerinde, yılın büyük bölümünde donmuş halde bulunan ve sadece yaz aylarında üst kısmı çözülen toprak türü hangisidir?",
+                  "options": [
+                    "Regosol",
+                    "Vertisol",
+                    "Tundra",
+                    "Lös"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tundra iklim bölgesinde, düşük sıcaklıklar nedeniyle yılın büyük kısmında donmuş olan ve kısa yaz döneminde çözülen topraklar tundra topraklarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi taşınmış (azonal) toprakların ortak özelliklerinden biridir?",
+                  "options": [
+                    "Oluştukları yerdeki ana kayanın özelliklerini taşımaları",
+                    "Farklı yerlerden taşınan malzemelerin birikmesiyle oluşmaları",
+                    "Toprak katmanlarının (horizontların) çok belirgin olması",
+                    "Sadece kurak iklim bölgelerinde görülmeleri"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Azonal topraklar akarsu, rüzgar, buzul gibi dış kuvvetler tarafından başka yerlerden taşınarak biriktirilir; bu nedenle katmanları gelişmemiştir ve bulundukları yerin ana kayasını yansıtmazlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Akarsuların taşıdığı ince kum, silt ve kil gibi malzemelerin birikmesiyle oluşan tarımsal açıdan oldukça verimli azonal topraklara ____ denir.",
+                  "options": [
+                    "alüvyal toprak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alüvyal topraklar, akarsu boylarında ve delta ovalarında bulunan, taşınmış ve verimli özellik gösteren topraklardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kalkerli araziler üzerinde Akdeniz ikliminin etkisiyle oluşan kırmızı renkli yerli topraklara ____ adı verilir.",
+                  "options": [
+                    "Terra-rossa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Terra-rossa, demir bileşiklerinin oksitlenmesiyle kırmızı renk alan, Akdeniz iklim kuşağındaki kalker anakaya üzerinde gelişen zonal bir topraktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünyanın en verimli yerli toprakları olarak kabul edilen ve karasal iklimin çayır örtüsü altında gelişen kara topraklar ____ olarak adlandırılır.",
+                  "options": [
+                    "Çernezyom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çernezyomlar, yüksek oranda humus içerdikleri için koyu renkli ve otsu bitki örtüsünün altında oluşan oldukça verimli zonal topraklardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rüzgarların taşıyıp biriktirdiği ince taneli malzemelerden oluşan azonal topraklara ____ denir.",
+                  "options": [
+                    "Lös"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lösler, kurak ve yarı kurak bölgelerde rüzgar faaliyetleri sonucu taşınıp biriken ince taneli toprak türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toprak oluşumunda (pedojenez) kayaları parçalayan ilk etkenlerden biri olan iklim elemanları sıcaklık ve ____ olarak öne çıkar.",
+                  "options": [
+                    "yağış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toprak oluşumunu ve kimyasal çözünmeyi kontrol eden en önemli iki iklim elemanı sıcaklık ve yağıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Azonal toprakların horizontları (katmanları) iklim şartlarının yetersizliği nedeniyle gelişmemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taşınmış topraklar sürekli dış kuvvetler tarafından taşınan malzemelerden oluştuğu için tipik toprak katmanlarına sahip değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Laterit topraklar, aşırı yıkanma nedeniyle humus ve besin maddeleri bakımından çok zengindir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Laterit topraklar bol yağış nedeniyle aşırı yıkanır, bu yüzden humus ve çözünebilir mineraller bakımından fakirdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Konnektif toprak oluşumu sırasında ana kayanın kimyasal ve fiziksel özellikleri zonal toprakların karakterini doğrudan belirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yerli (zonal) topraklar doğrudan üzerinde bulunduğu ana kaya ile iklimin ortak etkisiyle şekillenir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Morenler, buzulların taşıyıp biriktirdiği malzemelerden oluşan azonal topraklardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buzulların hareket ederken sürükleyip bıraktığı taşınmış materyaller ve topraklar moren olarak adlandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tundra toprakları, yıl boyunca yüksek sıcaklıkların görüldüğü çöl bölgelerinde yaygındır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tundra toprakları soğuk iklim bölgelerinde, yüksek enlemlerde veya dağların zirvelerinde yer alır; çöllerde ise kurakçıl topraklar görülür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Bitki Varlığı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'nin bitki çeşitliliğinin fazla olmasında en önemli temel faktör nedir?",
+                  "answer": "Farklı iklim tiplerinin görülmesi ve yer şekillerinin çeşitliliğidir."
+                },
+                {
+                  "question": "Türkiye'de ormanların en fazla bulunduğu coğrafi bölge hangisidir?",
+                  "answer": "Karadeniz Bölgesi."
+                },
+                {
+                  "question": "Akdeniz iklim bölgesinde ormanların tahrip edilmesiyle oluşan kısa boylu çalılara ne ad verilir?",
+                  "answer": "Maki."
+                },
+                {
+                  "question": "İç Anadolu gibi yarı kurak alanlarda görülen, ilkbahar yağışlarıyla yeşerip yaz kuraklığıyla sararan ot topluluklarına ne denir?",
+                  "answer": "Bozkır (step)."
+                },
+                {
+                  "question": "Türkiye'nin endemik bitki türleri açısından en zengin yöresi hangi dağ sırasıdır?",
+                  "answer": "Toros Dağları."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de bitki örtüsünün kısa mesafelerde kuşaklar oluşturmasının ve çeşitlilik göstermesinin temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Yer şekillerinin kısa mesafelerde değişmesi ve yükseltinin farklı olması",
+                    "Ülkenin tamamında aynı iklim tipinin etkili olması",
+                    "Akarsu ağının çok gelişmiş olması",
+                    "Toprak tiplerinin bütün bölgelerde aynı olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye'de engebeli yapı ve yükselti basamakları kısa mesafelerde iklim ve sıcaklık değişimlerine yol açarak bitki örtüsünün çeşitlenmesini ve kuşaklar oluşturmasını sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bitki türlerinden hangisi Akdeniz ikliminin tipik bitki örtüsü olan makinin bozulmasıyla ortaya çıkan 'garik' formasyonu içinde yer alır?",
+                  "options": [
+                    "Zeytin",
+                    "Kermes meşesi",
+                    "Defne",
+                    "Lavanta"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Maki örtüsünün tahrip edilmesiyle daha kısa boylu ve genellikle otsu karakterli çalılardan oluşan garik (defne, kermes meşesi ve zeytin maki elemanıdır; lavanta, kekik, yasemin gibi türler gariktir).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karadeniz iklim bölgesinde, orman üst sınırının yükselmesiyle ortaya çıkan ve yaz aylarında yaylacılık faaliyetlerinin yapıldığı ot topluluklarına ne ad verilir?",
+                  "options": [
+                    "Dağ çayırları",
+                    "Antropojen bozkır",
+                    "Psödomaki",
+                    "Savan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüksek dağ zirvelerinde orman sınırının bittiği yerde soğuğa dayanıklı otların oluşturduğu topluluklar dağ çayırları olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de orman varlığının coğrafi dağılışı göz önüne alındığında, aşağıdaki illerden hangisinde orman alanlarının oranı diğerlerine göre daha azdır?",
+                  "options": [
+                    "Rize",
+                    "Muğla",
+                    "Iğdır",
+                    "Kastamonu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Iğdır, etrafı dağlarla çevrili çukur bir alanda kaldığı ve karasal iklimin şiddetli kuraklığına sahip olduğu için bitki örtüsü ve orman varlığı bakımından oldukça fakirdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Doğal ormanların insanlar tarafından tahrip edilmesi veya yakılması sonucu ortaya çıkan, bozkır iklim alanlarına sokulmuş orman kalıntısı çalılıklara ne denir?",
+                  "options": [
+                    "Endemik",
+                    "Antropojen bozkır",
+                    "Psödomaki",
+                    "Tayga"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Antropojen bozkır, ormanların insanlar tarafından bozulmasıyla oluşan ve genellikle iç bölgelerde görülen bozkır karakterli alanlardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yalnızca belirli bir bölgede yetişen ve dünyanın başka hiçbir yerinde doğal olarak bulunmayan bitki türlerine ____ bitki denir.",
+                  "options": [
+                    "endemik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Endemik türler dar alanlarda yayılış gösteren, o yöreye özgü bitkilerdir ve Türkiye endemik çeşitlilik açısından çok zengindir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karadeniz ikliminin kıyı kesiminde ormanların tahrip edilmesiyle ortaya çıkan yalancı maki türlerine ____ denir.",
+                  "options": [
+                    "psödomaki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Psödomaki, nemli ormanların tahrip edilmesiyle oluşan ve yabani zeytin, fındık gibi türleri barındıran yalancı maki formasyonudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de bitki örtüsünün kuşaklar oluşturmasında en önemli fiziki faktörlerden biri ____ farklılığıdır.",
+                  "options": [
+                    "yükselti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yükselti arttıkça sıcaklık düşer ve bu durum bitki örtüsünün dağ yamacı boyunca kuşaklar oluşturmasına neden olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz iklim bölgesinde maki bitki örtüsünün en karakteristik ağaççıklarından biri kırmızı gövdeli ____ bitkisidir.",
+                  "options": [
+                    "sandal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sandal, maki florasının en tanınmış ve tipik maki elemanlarından biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İç Anadolu ve Güneydoğu Anadolu'da görülen geven, üzerlik otu ve yavşan otu gibi türler ____ bitki örtüsünü oluşturur.",
+                  "options": [
+                    "bozkır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bozkır (step) formasyonu, kurak ve yarı kurak iklim bölgelerinde yaygın olan otsu bitki örtüsüdür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de bitki çeşitliliğinin zengin olmasında üç tarafının denizlerle çevrili olması ve kıtalara yakın konumu etkili olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üç tarafının denizlerle çevrili olması, farklı iklimlerin ve göç yollarının kesişim noktasında bulunması bitki çeşitliliğini artırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sığla ağacı, Türkiye'de coğrafi olarak sadece Doğu Karadeniz bölgesinde yetişen endemik bir türdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sığla ağacı Doğu Karadeniz'de değil, daha çok Muğla ve civarında (Güneybatı Anadolu) yetişen endemik bir türdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karadeniz ormanlarında nemcil (higrofit) bitki türleri yaygın olarak bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi'nin bol yağış alması ve nemli bir iklime sahip olması, suya ihtiyacı fazla olan higrofit bitki türlerinin gelişmesini sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maki türleri yaz kuraklığına uyum sağlayabilmek için genellikle geniş ve ince yapraklara sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Maki bitkileri yaz kuraklığına karşı su kaybını önlemek için genellikle tüylü, sert ve küçük yapraklara sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de orman alt sınırını belirleyen en temel iklim elemanı yağıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ormanların yetişebilmesi için belirli bir nem ve yağış seviyesi gerektiğinden, orman alt sınırının belirlenmesinde yağış miktarı temel etkendir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Beşeri Sistemler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Nüfus ve Dağılışı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Nüfus nedir?",
+                  "answer": "Belirli bir anda sınırları tanımlanmış bir alanda yaşayan insan sayısıdır."
+                },
+                {
+                  "question": "Dünya genelinde ilk nüfus sayımları öncelikle hangi amaçla yapılmıştır?",
+                  "answer": "Asker ve vergi toplamak amacıyla yapılmıştır."
+                },
+                {
+                  "question": "Nüfusun dağılışını etkileyen faktörler kaça ayrılır?",
+                  "answer": "Doğal (fiziki) ve beşeri faktörler olmak üzere ikiye ayrılır."
+                },
+                {
+                  "question": "Aritmetik nüfus yoğunluğu nasıl hesaplanır?",
+                  "answer": "Toplam nüfusun yüz ölçümüne bölünmesiyle bulunur."
+                },
+                {
+                  "question": "Türkiye'de ilk modern nüfus sayımı hangi yılda yapılmıştır?",
+                  "answer": "1927 yılında yapılmıştır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dünya genelinde nüfusun seyrek olduğu alanlardan biri değildir?",
+                  "options": [
+                    "Kutup bölgeleri",
+                    "Batı Avrupa",
+                    "Çöl bölgeleri",
+                    "Yüksek dağlık alanlar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Batı Avrupa, iklim koşullarının elverişli olması ve sanayileşme sayesinde dünyanın en yoğun nüfuslu bölgelerinden biridir. Diğer seçeneklerdeki alanlarda ise doğal koşullar elverişsiz olduğu için nüfus seyrek.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki coğrafi faktörlerden hangisi beşeri faktörler arasında yer alır?",
+                  "options": [
+                    "Yer şekilleri",
+                    "İklim",
+                    "Sanayi",
+                    "Su kaynakları"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sanayi insan eliyle kurulan ekonomik bir faaliyet olduğu için beşeri faktördür. İklim, yer şekilleri ve su kaynakları ise doğrudan doğa olaylarına bağlı doğal faktörlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüz ölçümü 10.000 kilometrekare olan bir ülkenin toplam nüfusu 500.000 kişidir. Bu ülkenin aritmetik nüfus yoğunluğu kaç kişi/km²'dir?",
+                  "options": [
+                    "5",
+                    "20",
+                    "50",
+                    "100"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aritmetik nüfus yoğunluğu, toplam nüfusun yüz ölçümüne bölünmesiyle bulunur. 500.000 / 10.000 = 50 kişi/km² yapar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ülkemizde nüfusun dağılışını etkileyen doğal faktörlerden biridir?",
+                  "options": [
+                    "Turizm faaliyetleri",
+                    "Tarım alanlarının genişliği",
+                    "Yeryüzü şekillerinin engebeli olması",
+                    "Ulaşım ağının gelişmişliği"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yeryüzü şekillerinin engebeli olması doğanın yapısıyla ilgili bir durumdur ve doğal faktörler arasında yer alır. Diğer üç seçenek insan faaliyetlerine dayandığı için beşeri faktörlerdendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki alanların hangisinde iklim koşullarının elverişsizliğine bağlı olarak nüfus yoğunluğu düşüktür?",
+                  "options": [
+                    "Amazon Havzası",
+                    "Kuzeybatı Avrupa",
+                    "Hindistan kıyıları",
+                    "Japonya'nın kıyı kesimleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amazon Havzası aşırı sıcak ve nemli (ekvatoral iklim) koşullara sahip olduğu için nüfusun seyrek olduğu alanlardandır. Diğer alanlar ise ekonomik ve iklimsel açıdan elverişli olup yoğun nüfusludur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Belirli bir alanda yaşayan insan sayısının yüz ölçüme bölünmesiyle elde edilen değere aritmetik nüfus ____ denir.",
+                  "options": [
+                    "yoğunluğu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplam nüfusun toplam alana bölünmesiyle aritmetik nüfus yoğunluğu elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklık ve yağış koşullarının elverişli olduğu alanlar genellikle ____ nüfuslanmıştır.",
+                  "options": [
+                    "yoğun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İklim şartlarının yaşamaya uygun olduğu yerlerde su ve tarım imkanları geliştiği için nüfus yoğun olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeryüzünde ilk yerleşmelerin ve nüfusun toplanmasında ____ kaynakları hayati önem taşımıştır.",
+                  "options": [
+                    "su"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnsanlar tarih boyunca su kaynaklarına yakın çevrelerde yaşamayı tercih etmişlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi, ticaret ve ulaşımın geliştiği yerler ____ faktörlerin etkisiyle yoğun nüfuslanmıştır.",
+                  "options": [
+                    "beşeri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekonomik faaliyetler insan üretimi olduğu için beşeri faktörler sınıfına girer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Engebeli ve dağlık alanlar tarım ve ulaşımı zorlaştırdığı için genellikle ____ nüfuslanmıştır.",
+                  "options": [
+                    "seyrek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dağlık ve engebeli araziler beşeri faaliyetleri kısıtladığından bu bölgelerde nüfus azdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dünya genelinde nüfusun en yoğun olduğu kıta Antarktika'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Antarktika kıtası aşırı soğuk ve buzullarla kaplı olduğu için sürekli yerleşimin olmadığı ve nüfusun bulunmadığı bir kıtadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi ve ticaretin geliştiği merkezler göç alarak nüfusunu artırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İş olanaklarının fazla olması bu bölgelere dışarıdan göç gelmesini sağlar ve nüfus yoğunluğunu artırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çöl bölgelerinde su kaynaklarının yetersizliği ve aşırı kuraklık nüfusun seyrek olmasına yol açar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kurak ve sıcak çöllerde tarım yapılamaması ve su bulunamaması yerleşmeyi zorlaştırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dağlık ve engebeli alanlarda karayolu yapım maliyetleri düşük olduğu için nüfus her zaman fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dağlık ve engebeli alanlarda yol yapım maliyetleri yüksektir ve bu durum ulaşımı zorlaştırarak nüfusun seyrek olmasına neden olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İklim özellikleri, dünyada nüfusun kıtalara ve ülkelere göre dağılımını etkileyen en önemli doğal faktörlerdendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık ve yağış gibi iklim elemanları insan yaşamına doğrudan etki ettiği için nüfus dağılışını belirleyen temel doğal unsurlardandır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Göçler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Yerleşme",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "order": 6,
+      "title": "Ekonomik Faaliyetler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tarım ve Hayvancılık",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Madencilik ve Enerji",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Sanayi, Ticaret ve Ulaşım",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "order": 7,
+      "title": "Bölgeler ve Ülkeler",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Türkiye'nin Coğrafi Bölgeleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Bölge Türleri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Ülkeler Arası Etkileşim",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit8",
+      "order": 8,
+      "title": "Çevre ve Toplum",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Doğal Afetler",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Çevre Sorunları",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Sürdürülebilirlik",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}

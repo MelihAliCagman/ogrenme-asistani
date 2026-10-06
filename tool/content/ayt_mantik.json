@@ -1,0 +1,1917 @@
+{
+  "subjectKey": "ayt_mantik",
+  "title": "AYT Mantık",
+  "examType": "YKS",
+  "subject": "Mantık",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Mantığa Giriş",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Mantığın Konusu ve Önemi",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mantığın kelime anlamı nedir?",
+                  "answer": "Söz, akıl, düşünce ve konuşma anlamlarına gelir."
+                },
+                {
+                  "question": "Mantık biliminin kurucusu kimdir?",
+                  "answer": "Aristoteles"
+                },
+                {
+                  "question": "Mantık neyi inceler?",
+                  "answer": "Doğru düşüncenin yasalarını ve formüllerini inceler."
+                },
+                {
+                  "question": "Klasik mantık hangi eserler bütünüyle başlamıştır?",
+                  "answer": "Organon"
+                },
+                {
+                  "question": "Mantıkta doğruluk ile geçerlilik arasındaki temel fark nedir?",
+                  "answer": "Doğruluk bilgiye, geçerlilik ise akıl yürütmenin kurallarına uygunluğa dayanır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi mantık biliminin temel amaçlarından biridir?",
+                  "options": [
+                    "Estetik yargılara varmak",
+                    "Toplumsal kuralları düzenlemek",
+                    "Doğru düşünmenin yasalarını ortaya koymak",
+                    "Dış dünyadaki fiziksel olayları deneyle incelemek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mantık, düşüncenin formel yapısını ve doğru düşünme yasalarını inceleyen bir disiplindir. Fizik deneyle, sosyoloji toplumla, estetik ise güzellikle ilgilenir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mantık biliminin ilk sistematik kurucusu olarak kabul edilen filozof aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Farabi",
+                    "Sokrat",
+                    "Platon",
+                    "Aristoteles"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Aristoteles, mantığı bir sistem haline getirmiş ve yazdığı Organon adlı eserlerle mantık biliminin kurucusu olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yargılardan hangisi mantıksal açıdan bir önermedir?",
+                  "options": [
+                    "Ankara, Türkiye'nin başkentidir.",
+                    "Eyvah, yangın var!",
+                    "Keşke sınavı kazansam.",
+                    "Kapıyı kapatır mısın?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önerme, doğru ya da yanlış bir hüküm (yargı) bildiren cümlelerdir. 'Ankara, Türkiye'nin başkentidir' cümlesi bir yargı bildirdiği için önermedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aristoteles'in mantık eserlerini topladığı kitabın genel adı nedir?",
+                  "options": [
+                    "Politika",
+                    "Metafizik",
+                    "Organon",
+                    "Retorik"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Aristoteles'in mantık çalışmalarını içeren kitapları toplayan derlemenin adı Organon'dur, ki bu 'alet' anlamına gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir akıl yürütmenin mantıksal olarak 'geçerli' olması ne anlama gelir?",
+                  "options": [
+                    "Duyusal gözleme dayalı olması",
+                    "Herkes tarafından kabul edilmesi",
+                    "Sonucun öncüllerden zorunlu olarak çıkarılması",
+                    "Öncüllerin gerçek hayatta doğru olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Geçerlilik, formel mantık kurallarına göre sonucun verilen öncüllerden zorunlu bir şekilde türetilmesidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Aristoteles'in mantık çalışmalarını içeren eserlerinin genel adı ____ olarak adlandırılır.",
+                  "options": [
+                    "Organon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles'in mantık alanındaki eserleri 'alet' anlamına gelen Organon adı altında toplanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mantık bilimi, düşüncenin içeriğiyle değil ____ yapısıyla ilgilenir.",
+                  "options": [
+                    "formel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık, argümanların içeriğinden bağımsız olarak onların biçimsel (formel) yapısını inceler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Doğru veya yanlış bir yargı bildiren cümlelere ____ denir.",
+                  "options": [
+                    "önerme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantığın temel yapı taşlarından biri olan önermeler, doğruluk değeri taşıyan ifadelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mantık kelimesi köken olarak akıl, söz ve düşünce anlamına gelen ____ sözcüğünden türetilmiştir.",
+                  "options": [
+                    "logos"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık kelimesinin kökeni Yunancada söz ve akıl anlamına gelen logos kelimesine dayanmaktadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslam dünyasında mantık çalışmalarına katkı sağlayan ve 'Muallim-i Sani' olarak bilinen Türk-İslam filozofu ____'dir.",
+                  "options": [
+                    "Farabi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farabi, Aristoteles'in mantık eserlerine yazdığı şerhlerle İslam dünyasında mantık çalışmalarının gelişmesini sağlamış ve ikinci öğretmen olarak anılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mantık, düşüncenin içeriğini değil formunu (biçimini) inceler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık, argümanların doğru düşünme kurallarına uygun biçimde kurulup kurulmadığına odaklanır, içerikle ilgilenmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her cümle mantıksal açıdan bir önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ünlem, soru, dilek ve emir cümleleri bir yargı bildirmediği için mantıksal olarak önerme niteliği taşımaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aristoteles mantığın kurucusu olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles mantığı sistemleştirmiş ve ilk defa kurallı bir bilim dalı haline getirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mantık biliminde doğruluk ile geçerlilik tamamen aynı anlama gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğruluk bilginin nesnesiyle uygunluğunu, geçerlilik ise akıl yürütmenin kurallara uygunluğunu ifade eder; aynı şey değildirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mantık, insan zihninin doğru düşünmesini sağlayan kılavuz bir bilimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık, akıl yürütme hatalarını fark etmeyi ve tutarlı düşünce üretmeyi sağlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Mantık ve Doğru Düşünme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Mantık kelimesinin kökeni olan Yunanca sözcük nedir?",
+                  "answer": "Logos"
+                },
+                {
+                  "question": "Düşüncenin kendi kendisiyle tutarlı olması koşulunu inceleyen felsefi disiplin nedir?",
+                  "answer": "Mantık"
+                },
+                {
+                  "question": "Doğru düşünme ilkelerini kullanarak akıl yürütme sürecini inceleyen bilim dalı kim tarafından sistemleştirilmiştir?",
+                  "answer": "Aristo"
+                },
+                {
+                  "question": "Dilin bilgilendirme, belirtme, emir, eylem ve hangi diğer temel görevleri vardır?",
+                  "answer": "Büyüleme"
+                },
+                {
+                  "question": "Mantıkta doğruluk ile ne tür bir tutarlılık genellikle karıştırılır?",
+                  "answer": "Geçerlilik"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi mantık biliminin temel amaçlarından biri değildir?",
+                  "options": [
+                    "Doğru düşünmenin yasalarını ortaya koymak",
+                    "Dış dünyanın fiziksel gerçekliğini deneyle kanıtlamak",
+                    "Çelişmezlik ilkesine uygun formel yapılar kurmak",
+                    "Akıl yürütme süreçlerinin tutarlılığını denetlemek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mantık formel bir bilimdir, fiziksel gerçekliği deney ve gözlem yoluyla incelemek pozitif bilimlerin konusudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi mantığın inceleme alanına giren bir önermedir?",
+                  "options": [
+                    "Keşke sınavı kazansam.",
+                    "Bütün insanlar ölümlüdür.",
+                    "Eyvah, kapı çalıyor!",
+                    "Lütfen ödevinizi masaya bırakın."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önerme, doğru ya da yanlış bir yargı bildiren cümlelerdir. 'Bütün insanlar ölümlüdür' yargı bildirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dilin hangi görevi mantığın doğrudan incelediği önermelerin kurulmasında temel rol oynar?",
+                  "options": [
+                    "Emir görevi",
+                    "Büyüleme görevi",
+                    "Eylem görevi",
+                    "Bildirme görevi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Dilin bildirme görevi bilgi aktarır ve mantıksal önermelerin temel formunu oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir argümanın öncüllerinin sonucu zorunlu olarak desteklemesi durumu mantıkta ne olarak adlandırılır?",
+                  "options": [
+                    "Genişlik",
+                    "İçerik",
+                    "Gerçeklik",
+                    "Geçerlilik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Öncüllerden doğru bir sonucun zorunlu olarak çıkması formel geçerlilik kavramıyla ifade edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Aristoteles mantığının temel ilkelerinden biri değildir?",
+                  "options": [
+                    "Özdeşlik ilkesi",
+                    "Nedensellik ilkesi",
+                    "Çelişmezlik ilkesi",
+                    "Üçüncü hâlin imkânsızlığı ilkesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nedensellik ilkesi bilim felsefesinin ve ampirik bilimlerin temelidir; Aristoteles mantığının temel ilkeleri özdeşlik, çelişmezlik ve üçüncü hâlin imkânsızlığıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğru ya da yanlış bir yargı bildiren cümlelere ____ denir.",
+                  "options": [
+                    "önerme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantığın temel taşı olan yargı bildiren cümleler önerme olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mantıkta bir önermenin kendi kendisiyle aynı olması ____ ilkesi olarak ifade edilir.",
+                  "options": [
+                    "özdeşlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özdeşlik ilkesi 'bir şey ne ise odur' anlamına gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir önermenin aynı anda hem doğru hem de yanlış olamayacağını belirten ilke ____ ilkesidir.",
+                  "options": [
+                    "çelişmezlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çelişmezlik ilkesi, bir yargının hem kendisinin hem de olumsuzunun aynı anda doğru olamayacağını belirtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dilin bilgi verme amacıyla kullanılması onun ____ görevidir.",
+                  "options": [
+                    "bildirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bildirme işlevi, doğru ya da yanlış değer alabilen yargılar aktarır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aristo tarafından kurulan mantık sistemi ____ mantık olarak da bilinir.",
+                  "options": [
+                    "geleneksel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles mantığı tarihsel süreçte geleneksel mantık adıyla anılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her cümle bir mantıksal önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soru, emir, ünlem gibi cümleler yargı bildirmediği için önerme değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mantık, düşüncenin içeriğiyle değil formuyla ilgilenir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık formel bir bilimdir, içerikten bağımsız olarak çıkarım kurallarını inceler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Üçüncü hâlin imkânsızlığı ilkesine göre bir önerme ya doğrudur ya da yanlıştır, bunların dışında üçüncü bir durum yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ilke iki değerli mantık sisteminin temelini oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğruluk ve geçerlilik mantıkta tamamen aynı anlama gelen kavramlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğruluk bilginin nesnesiyle uygunluğudur, geçerlilik ise argümanın formel yapısıyla ilgilidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mantık bilimi ilk defa Antik Yunan'da sistemli bir yapıya kavuşturulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles mantığı ilk sistematik eserler bütünü olarak kabul edilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Klasik Mantık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Kavram ve Terim",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Terim nedir?",
+                  "answer": "En az bir kelimeden oluşan, zihindeki bir kavramı dil ile ifade eden anlamlı sözcük veya sözcük gruplarıdır."
+                },
+                {
+                  "question": "Neliği (mahiyeti) olmak ne anlama gelir?",
+                  "answer": "Bir kavramın zihinde tasavvur edilebilen, zihinsel bir içeriğe sahip olması demektir."
+                },
+                {
+                  "question": "Gerçekliği olmak ne demektir?",
+                  "answer": "Bir kavramın dış dünyada karşılığının, bireylerinin bulunması durumudur."
+                },
+                {
+                  "question": "Neliği olup gerçekliği olmayan kavramlara örnek nedir?",
+                  "answer": "Anka kuşu, Kaf Dağı, deniz kızı gibi zihinsel tasavvuru olan ama dış dünyada karşılığı bulunmayan kavramlar."
+                },
+                {
+                  "question": "Kapsam neyi ifade eder?",
+                  "answer": "Bir kavramın içine aldığı, delalet ettiği bireylerin veya nesnelerin tümüdür."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir 'terim' örneği değildir?",
+                  "options": [
+                    "Çalışkan öğrenci",
+                    "Ağaç",
+                    "Ankara",
+                    "Ve"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tek başına bir anlam ifade etmeyen ve bağımsız bir nesneyi/tasavvuru karşılamayan bağlaçlar (ve, ile vb.) mantıkta tek başına terim olarak kabul edilmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Zihinde tasarımı yapılan ancak dış dünyada somut veya soyut hiçbir bireyi bulunmayan kavramlar için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Gerçekliği vardır, neliği yoktur.",
+                    "Neliği vardır, gerçekliği yoktur.",
+                    "Hem neliği hem gerçekliği vardır.",
+                    "Ne neliği ne de gerçekliği vardır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zihinde tasavvur edilebilen her kavramın neliği vardır; ancak dış dünyada karşılığı yoksa gerçekliği yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Birimleri tek bir varlıktan oluşan, kapsamı sadece o bireyi içine alan kavramlara ne ad verilir?",
+                  "options": [
+                    "Tekil kavram",
+                    "Tikel kavram",
+                    "Kolektif kavram",
+                    "Tümel kavram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tek bir bireyi içine alan kavramlar tekil kavram olarak adlandırılır. Örneğin 'Mustafa Kemal Atatürk' veya 'İstanbul'.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kavram çiftlerinden hangisinde 'tümel - tikel' ilişkisi vardır?",
+                  "options": [
+                    "Ağaç - Orman",
+                    "Masa - Sandalye",
+                    "Melek - Şeytan",
+                    "Bütün insanlar - Bazı insanlar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tümel kavram bir sınıfın tümünü kapsarken, tikel kavram aynı sınıfın bir kısmını kapsar. 'Bütün insanlar' tümel, 'bazı insanlar' tikeldir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Grup anlamı taşıyan, bireyler topluluğunu ifade eden ancak bireylerin ortak özelliklerini taşımak zorunda olmayan kavramlar hangi türü oluşturur?",
+                  "options": [
+                    "Tümel kavram",
+                    "Absürt kavram",
+                    "Dağıtık kavram",
+                    "Kolektif kavram"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Meclis, ordu, takım gibi kavramlar kolektif kavramlardır çünkü gruptan bireye doğru bir özellik aktarımı yapılamaz.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir kavramın zihindeki anlam içeriğine ____ denir.",
+                  "options": [
+                    "İçlem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İçlem, bir kavramın ifade ettiği ortak özelliklerin ve niteliklerin bütünüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kapsamı en geniş olan kavramlar sınıfına ____ kavramlar denir.",
+                  "options": [
+                    "Tümel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümel kavramlar bir sınıfın tamamını kapsadığı için en geniş kapsama sahip terimlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dış dünyada karşılığı olan ve zihinde tasavvuru bulunan kavramların ____ vardır.",
+                  "options": [
+                    "Gerçekliği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dış dünyada somut ya da soyut olarak var olan nesneler gerçeklik özelliğini taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kavramın içine aldığı bireylerin oluşturduğu gruba o kavramın ____ denir.",
+                  "options": [
+                    "Kapsamı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapsam, bir terimin kapısına giren bütün bireyleri ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sadece tek bir nesneye ya da kişiye delalet eden terimlere ____ terim denir.",
+                  "options": [
+                    "Tekil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tekil terimler, kapsamı tek bir bireyle sınırlı olan kavramlardır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her terim bir kavramdır ancak her kavram bir terimle ifade edilmek zorunda değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramlar zihinsel tasarımlardır; bu tasarımların dil ile söze dökülmüş haline terim denir. Zihinde her kavram bulunur ama hepsi dilsel bir terim olarak kalıplaşmamış olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir kavramın içlemi arttıkça kapsamı da doğru orantılı olarak artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İçlem ile kapsam arasında ters orantı vardır. İçlem arttıkça (özellikler çoğaldıkça) kapsam azalır (birey sayısı düşer).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Meclis' kelimesi kolektif bir kavram örneğidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Meclis kavramı bireylerden oluşan bir topluluğu ifade eder ve özellik bireye değil bütüne aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Kaf Dağı' kavramının neliği varken gerçekliği yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaf Dağı zihinde tasavvur edilebildiği için neliğe sahiptir, ancak dış dünyada böyle bir dağ bulunmadığı için gerçekliği yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Bazı çiçekler kırmızıdır' önermesindeki 'çiçekler' terimi tümel bir terimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümlenin başında yer alan 'bazı' niteleyicisi ifadenin tikel olmasını sağlar, dolayısıyla tümel değil tikel bir terimdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Önerme",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Önerme nedir?",
+                  "answer": "Doğru veya yanlış bir yargı bildiren cümlelerdir."
+                },
+                {
+                  "question": "Hangi cümle türleri mantıkta önerme olarak kabul edilmez?",
+                  "answer": "Soru, ünlem, emir ve istek cümleleri bir yargı bildirmediği için önerme değildir."
+                },
+                {
+                  "question": "Basit önerme ne demektir?",
+                  "answer": "Tek bir yargı bildiren, içinde bağlaç veya ek fiil ile kurulmuş yan cümleler bulunmayan önermelerdir."
+                },
+                {
+                  "question": "Bileşik önerme nedir?",
+                  "answer": "Birden fazla yargı bildiren ya da birden fazla basit önermenin mantıksal bağlaçlarla birleşmesiyle oluşan önermelerdir."
+                },
+                {
+                  "question": "Niceliklerine göre önermeler kaça ayrılır?",
+                  "answer": "Tümel ve tikel olmak üzere ikiye ayrılır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi bir önermedir?",
+                  "options": [
+                    "Kapıyı kapatır mısın?",
+                    "Bugün hava çok güzel.",
+                    "Ders çalışmaya başla.",
+                    "Keşke sınavı kazanabilsem."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir cümlenin önerme olabilmesi için doğru veya yanlış bir yargı bildirmesi gerekir. A seçeneği bir yargı bildirdiği ve doğruluk değeri alabildiği için önermedir; diğerleri istek, soru ve emir cümleleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Bütün insanlar ölümlüdür.\" önermesinin nitelik ve niceliği sırasıyla aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Olumlu - Tikel",
+                    "Olumlu - Tümel",
+                    "Olumsuz - Tikel",
+                    "Olumsuz - Tümel"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önerme 'bütün' kelimesiyle başladığı için niceliği tümeldir, yüklemin niteliği ise olumlu olduğu için önerme olumludur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bileşik önermeye örnek olarak gösterilebilir?",
+                  "options": [
+                    "Ahmet çalışkan bir öğrencidir.",
+                    "Hava yağmurlu ise şemsiyeni al.",
+                    "Demir bir metaldir.",
+                    "Ankara Türkiye'nin başkentidir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "C seçeneğindeki önerme 'ise' koşul bağlacı ile birbirine bağlanmış birden fazla yargı içerdiği için bileşik önermedir; diğerleri basit önermelerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "\"Bazı çiçekler mavidir.\" önermesinin niceliği ve niteliği aşağıdakilerden hangisinde doğru verilmiştir?",
+                  "options": [
+                    "Tikel olumsuz",
+                    "Tikel olumlu",
+                    "Tümel olumlu",
+                    "Tümel olumsuz"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Bazı' sözcüğü önermenin tikel olduğunu, yüklemin olumlu olması ise önermenin olumlu olduğunu gösterir. Bu nedenle önerme tikel olumludur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi doğruluk değeri taşımaz?",
+                  "options": [
+                    "Eyvah, cüzdanımı kaybettim!",
+                    "Ay, Dünya'nın uydusudur.",
+                    "Matematik zor bir derstir.",
+                    "İstanbul Asya ve Avrupa'yı birbirine bağlar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "B seçeneği bir ünlem cümlesidir ve herhangi bir yargı bildirmediği için doğruluk değeri (doğru ya da yanlış olma durumu) taşımaz, dolayısıyla önerme değildir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğru veya yanlış bir yargı bildiren cümlelere ____ denir.",
+                  "options": [
+                    "önerme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantıkta bilgi aktaran, doğruluk ya da yanlışlık değeri alabilen temel yapı taşına önerme denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bütün bir sınıfı veya konuyu içine alan önermelere ____ önerme denir.",
+                  "options": [
+                    "tümel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tümel önermeler 'bütün', 'hepsi', 'hiçbir' gibi ifadelerle konunun tamamını kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Soru, emir, dilek ve ünlem bildiren cümleler bir yargı bildirmediği için ____ olamazlar.",
+                  "options": [
+                    "önerme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tür cümlelerin doğruluk değeri bulunmadığından mantıkta önerme sınıfına girmezler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tek bir yargı bildiren ve içinde bağlaç bulunmayan önermelere ____ önerme denir.",
+                  "options": [
+                    "basit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Basit önermeler tek bir özne ve tek bir yüklemden oluşan yalın yargılardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir önermenin yargısının olumsuz olduğunu belirten ek veya sözcüklere ____ adı verilir.",
+                  "options": [
+                    "olumsuzluk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önermenin niteliğini belirleyen unsur olumluluk veya olumsuzluk durumudur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her cümle aynı zamanda bir önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümleler soru, emir, ünlem gibi farklı işlevlerde olabilir; ancak bunlardan yalnızca yargı bildiren ve doğruluk değeri taşıyanlar önerme kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Hiçbir insan kanatlı değildir.\" önermesi tümel olumsuz bir önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Hiçbir' ifadesi önermenin tümel olduğunu, yüklemin olumsuzluğu ise önermenin olumsuz olduğunu gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soru cümleleri doğru ya da yanlış değeri alabildiği için birer önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soru cümleleri bilgi sormak amacıyla kullanılır ve 'doğru' ya da 'yanlış' şeklinde değerlendirilemezler, dolayısıyla önerme değildirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bileşik önermeler birden fazla yargı veya bağlaç içerir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bileşik önermeler, birden çok basit önermenin mantıksal bağlaçlarla birleşmesiyle veya içinde yan cümle bulundurmasıyla oluşur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "\"Bazı öğrenciler çalışkandır.\" önermesi tikel olumlu bir önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Bazı' sözcüğü tikel nitelik kazandırırken, yüklemin olumlu olması önermenin niteliğini olumlu yapar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Klasik Mantıkta Çıkarım",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Çıkarım nedir?",
+                  "answer": "En az iki öncülden yeni bir öncül elde etme işlemidir."
+                },
+                {
+                  "question": "Doğrudan çıkarım kaç öncülden oluşur?",
+                  "answer": "Tek bir öncülden oluşur."
+                },
+                {
+                  "question": "Dolaylı çıkarım nedir?",
+                  "answer": "Birden fazla öncülden hareketle yapılan çıkarımdır."
+                },
+                {
+                  "question": "Kıyas hangi çıkarım türüne girer?",
+                  "answer": "Dolaylı çıkarım türüne girer."
+                },
+                {
+                  "question": "Eşdeğerlik hangi tür çıkarımdır?",
+                  "answer": "Doğrudan çıkarım türüdür."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dolaylı çıkarım türüne örnektir?",
+                  "options": [
+                    "Döndürme",
+                    "Büründürme",
+                    "Kıyas",
+                    "Çevrime"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kıyas, birden fazla öncülden yeni bir sonuç çıkardığı için dolaylı bir çıkarımdır. Diğerleri tek öncülle yapılan doğrudan çıkarımlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir öncülün nitelik ve niceliğini değiştirerek yeni bir öncül elde etmeye ne ad verilir?",
+                  "options": [
+                    "Kıyas",
+                    "İkilem",
+                    "Tasım",
+                    "Döndürme"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Döndürme, bir öncülün doğruluk değerini bozmadan terimlerinin yerini ve niteliğini değiştirerek yapılan doğrudan çıkarımdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi doğrudan çıkarım yöntemlerinden biridir?",
+                  "options": [
+                    "Düz döndürme",
+                    "Kesin kıyas",
+                    "Bileşik kıyas",
+                    "Basit kıyas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düz döndürme tek bir öncül üzerinde yapılan doğrudan bir çıkarım işlemidir. Kıyas türleri ise dolaylı çıkarımdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Klasik mantıkta 'Bütün insanlar ölümlüdür, Sokrates insandır, o halde Sokrates ölümlüdür' çıkarımı hangi kategoriye girer?",
+                  "options": [
+                    "Kıyas",
+                    "Analoji",
+                    "Tümevarım",
+                    "Doğrudan çıkarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu örnek klasik mantıkta iki öncül ve bir sonuçtan oluşan temel bir kıyas (dolaylı çıkarım) örneğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Öncüllerin yer değiştirmesiyle yapılan ve niteliğin aynı kaldığı doğrudan çıkarım hangisidir?",
+                  "options": [
+                    "Kıyas",
+                    "Analoji",
+                    "Düz döndürme",
+                    "Ters döndürme"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Düz döndürmede özne yüklem yer değiştirir ancak önermenin niteliği ve doğruluk değeri değişmez.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Birden fazla öncülden hareketle yapılan çıkarımlara ____ denir.",
+                  "options": [
+                    "dolaylı çıkarım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tek öncülden yapılanlar doğrudan, birden fazla öncülden yapılanlar ise dolaylı çıkarım olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tek bir öncülden yapılan çıkarımlara ____ çıkarım denir.",
+                  "options": [
+                    "doğrudan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudan çıkarımlar yalnızca bir öncül kullanılarak elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Klasik mantıkta en yaygın dolaylı çıkarım aracı ____dır.",
+                  "options": [
+                    "kıyas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kıyas, iki öncülden bir sonuç çıkarma esasına dayanan en temel dolaylı çıkarım yoludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir önermenin öznesinin yüklem, yükleminin özne yapılmasına ve doğruluk değerinin korunmasına ____ denir.",
+                  "options": [
+                    "düz döndürme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düz döndürme, terimlerin yer değiştirdiği doğrudan bir çıkarım türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çıkarımın temcili olan ve sonuç elde edilen ifadelere ____ denir.",
+                  "options": [
+                    "öncül"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öncüller, sonucun türetildiği başlangıç önermeleridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kıyas, doğrudan çıkarım türlerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kıyas birden fazla öncül içerdiği için dolaylı çıkarımdır, doğrudan çıkarım değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Düz döndürme işlemi doğrudan çıkarım olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düz döndürme tek bir öncül üzerinden yapıldığı için doğrudan çıkarım sınıfına girer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dolaylı çıkarımlar sadece tek bir öncülden oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dolaylı çıkarımlar en az iki öncülden meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çıkarım, verilen öncüllerden yeni bir sonuç önermesi elde etme sürecidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çıkarım mantıksal olarak öncüllerden sonuca ulaşma işlemidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm döndürme çeşitleri dolaylı çıkarımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Döndürme çeşitleri tek öncülle yapıldığı için doğrudan çıkarımdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Mantık ve Dil",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Dil ve Mantık",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dilin temel işlevlerinden biri olan, bilgi aktarmak ve olgu bildirmek amacıyla kullanılan işlev hangisidir?",
+                  "answer": "Bildirme (bilgi verme) işlevi"
+                },
+                {
+                  "question": "Duyguları, heyecanları ve coşkuları aktarmayı amaçlayan dil işlevi nedir?",
+                  "answer": "Belirtme (coşku belirten) işlevi"
+                },
+                {
+                  "question": "Karşı taraftaki kişide bir eylem veya davranış değişikliği yaratmayı amaçlayan dil işlevi hangisidir?",
+                  "answer": "Eyleme çağrı (direktif) işlevi"
+                },
+                {
+                  "question": "Dilin kuralları üzerinde durmak, dili açıklamak veya dilin kendisini yine dille ifade etmek amacıyla kullanılan işlevi nedir?",
+                  "answer": "Yürütme (görevsel) işlevi"
+                },
+                {
+                  "question": "Şiirlerde ve edebi metinlerde estetik haz uyandırmak amacıyla kullanılan dil işlevi hangisidir?",
+                  "answer": "Sanatsal (şiirsel) işlev"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dilin 'bildirme (bilgi verme)' işlevine uygun bir örnektir?",
+                  "options": [
+                    "Eyvah, ocaktaki yemek yandı!",
+                    "Lütfen içeri girerken kapıyı kapatınız.",
+                    "Ankara, Türkiye'nin başkentidir.",
+                    "Ne güzel, masmavi bir gökyüzü!"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ankara, Türkiye'nin başkentidir cümlesi doğrulanabilir nesnel bir bilgi aktardığı için dilin bildirme işlevine örnektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi dilin 'eyleme çağrı (direktif)' işlevine bir örnektir?",
+                  "options": [
+                    "Hava sıcaklığı yarın otuz derece olacakmış.",
+                    "Lütfen ödevlerinizi zamanında teslim ediniz.",
+                    "Bu kitap iki yüz sayfadan oluşmaktadır.",
+                    "Ah, nerede o eski bayramlar!"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Lütfen ödevlerinizi zamanında teslim ediniz cümlesi karşı taraftan bir davranışta bulunmasını istediği için eyleme çağrı işlevindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dilin kelime dağarcığındaki bazı terimlerin çok anlamlı olması nedeniyle mantıkta sıkça karşılaşılan ve ifadelerin birden çok anlama gelmesine yol açan durum aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Çokanlamlılık",
+                    "Kesinlik",
+                    "Bulanıklık",
+                    "Yalınlık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı kelimenin bağlama göre farklı anlamlar kazanabilmesi çokanlamlılık olarak adlandırılır ve dilin mantıksal analizini zorlaştırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi dilin 'belirtme (coşku ve heyecan)' işlevini örnekler?",
+                  "options": [
+                    "Bütün insanlar doğuştan özgürdür.",
+                    "Tahtaya kalkıp soruyu çözer misin?",
+                    "Vah yazık, çiçeklerin hepsi kurümüş!",
+                    "Mantık bilimi doğru düşünmenin yollarını arar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Vah yazık, çiçeklerin hepsi kurümüş cümlesi acıma ve üzüntü gibi duygusal tepkileri yansıttığı için belirtme işlevindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kavramın kaplamı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+                  "options": [
+                    "Kaplam, bir kavramın içine aldığı bireylerin toplamıdır.",
+                    "Kaplam, kavramın içeriğini ve ortak özelliklerini belirtir.",
+                    "Kavramın içeriği arttıkça kaplamı da her zaman artar.",
+                    "Kaplam ile içerik arasında her zaman ters orantı yoktur."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaplam bir kavramın delalet ettiği nesnelerin yani bireylerin tümünü ifade eder; içerik ise ortak özelliklerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dilde yer alan sözcüklerin sınırlarının kesin olmayıp belirsiz olması durumuna ____ denir.",
+                  "options": [
+                    "bulanıklık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bulanıklık, kavramların ve sözcüklerin anlam sınırlarının tam olarak çizilememiş olmasından kaynaklanan mantıksal bir sorundur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilimsel metinlerde ve mantık çalışmalarında dil ağırlıklı olarak ____ işlevinde kullanılır.",
+                  "options": [
+                    "bildirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilimsel ve mantıksal önermeler bilgi aktarmayı amaçladığı için dilin bildirme işlevi ön plandadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karşıdakine emir verme, rica etme veya tavsiyede bulunma durumlarında dilin ____ işlevi kullanılır.",
+                  "options": [
+                    "eyleme çağrı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eyleme çağrı işlevi, alıcıyı harekete geçirmeyi veya ondan bir davranışta bulunmasını istemeyi hedefler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yazılı veya sözlü iletişimde kullanılan ifadenin doğruluk değerine sahip olabilmesi için temel şartlardan biri onun ____ işlevinde olmasıdır.",
+                  "options": [
+                    "bildirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yalnızca bildirme işlevindeki ifadeler doğru ya da yanlış gibi doğruluk değerine sahip olabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kavramın şümulüne giren bireylerin ortak özelliklerinin tümüne o kavramın ____ denir.",
+                  "options": [
+                    "içeriği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kavramın içeriği (kapsamı değil), o kavramı oluşturan niteliklerin toplamını ifade eder.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Soru cümleleri, emir cümleleri ve ünlem cümleleri mantıksal açıdan birer önerme değeri taşır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soru, emir ve ünlem cümleleri bilgi aktarmadıkları için doğru ya da yanlış şeklinde bir doğruluk değerine sahip değillerdir, dolayısıyla önerme olamazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dilin şiirsel (sanatsal) işlevi, insanlarda estetik bir duygu uyandırmayı ve sanatsal bir etki yaratmayı amaçlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şiirsel işlev dilde estetik kaygıyı ön plana çıkarır ve okuyucuda duygusal bir coşku ya da hayal gücü uyandırmayı hedefler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir kavramın içeriği arttıkça, o kavramın kaplamı da aynı oranda artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mantıkta kaplam ile içerik arasında ters orantı vardır; bir kavramın içeriği arttıkça kaplamı azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Günlük dildeki çokanlamlılık ve bulanıklık, bazen yanlış anlamalara ve mantıksal tartışmalara yol açabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kelimenin birden çok anlama gelmesi veya sınırlarının belirsiz olması iletişimi zorlaştırır ve mantıksal yanılgılara sebep olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yürütme (görevsel) işlev, dilin kendi kuralları ve yapısı hakkında bilgi vermek ya da dili test etmek amacıyla kullanılmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dilin yürütme işlevi, dilin işleyişini yine dille açıklama veya kuralları hatırlatma durumlarında kendini gösterir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Tanım ve Kanıtlama",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Tanım nedir?",
+                  "answer": "Bir kavramın ne anlama geldiğini, neleri kapsadığını ortaya koyma işlemidir."
+                },
+                {
+                  "question": "Tanımın unsurları nelerdir?",
+                  "answer": "Tanımlanan ve tanımlayan."
+                },
+                {
+                  "question": "Kanıtlama nedir?",
+                  "answer": "Bir önermenin doğruluğunu ya da yanlışlığını akıl yürütme yoluyla ortaya koyma işlemidir."
+                },
+                {
+                  "question": "Hangi kavramlar tanımlanamaz?",
+                  "answer": "Genel kategoriler, en üst cinsler ve bazı duyumlar tam olarak tanımlanamaz."
+                },
+                {
+                  "question": "Nominal tanım ne demektir?",
+                  "answer": "Bir sözcüğün dil içindeki anlamını veya hangi nesneye karşılık geldiğini açıklayan tanımdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir tanımın doğru olabilmesi için gereken kurallardan biri değildir?",
+                  "options": [
+                    "Tanımlanan, tanımlayanda yer almamalıdır.",
+                    "Tanım, olumsuz olmaktan ziyade olumlu olmalıdır.",
+                    "Tanım, tanınandan daha açık olmalıdır.",
+                    "Tanım, sadece soyut kavramlar için yapılmalıdır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tanımlar hem somut hem soyut kavramlar için yapılabilir. Bu nedenle dördüncü seçenek bir tanım kuralı değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sözcüğün sözlük anlamını veya hangi nesneye işaret ettiğini belirten tanım türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ad tanımı",
+                    "Genel tanım",
+                    "Eksik tanım",
+                    "Gerçek tanım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ad (nominal) tanımı, bir sözcüğün dilimizdeki karşılığını veya ifade ettiği anlamı açıklar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Nesnenin özünü, yapı taşlarını veya temel niteliklerini ortaya koyan tanım türü hangisidir?",
+                  "options": [
+                    "Dar tanım",
+                    "İlişkisel tanım",
+                    "Ad tanımı",
+                    "Özsel tanım"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Özsel tanım, tanımlanan nesnenin temel özelliklerini ve cins ile tür ilişkisini eksiksiz vermeyi amaçlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi kanıtlama faaliyetinin temel amacını en iyi açıklar?",
+                  "options": [
+                    "Yeni bir sözcük üretmek",
+                    "Sadece duyguları ifade etmek",
+                    "Bir yargının, önermenin doğruluğunu gerekçelendirmek",
+                    "Bir kavramın anlamını genişletmek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kanıtlama, ileri sürülen bir iddiayı veya önermeyi mantıksal dayanaklarla haklı çıkarmak ve doğruluğunu göstermektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kavramın kapsamındaki bütün bireyleri içine almayan, onları dışarıda bırakan tanım hatası aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Bilinmeyenle tanımlama",
+                    "Çok geniş tanım",
+                    "Kısır döngü",
+                    "Çok dar tanım"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tanım, kavramın kapsamını dar tutarsa yani bazı öğeleri dışarıda bırakırsa bu çok dar tanım hatası olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir terimin anlamını açıklamak amacıyla yapılan işleme ____ denir.",
+                  "options": [
+                    "Tanım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım, bir kavramın zihindeki sınırlarını ve ne anlama geldiğini belirleme sürecidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Nesnenin temel özelliklerini bildiren tanıma özsel tanım denirken, geçici özelliklerine dayanan tanıma ____ tanım denir.",
+                  "options": [
+                    "İlişkisel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlişkisel veya ilişiğe dayalı tanım, nesnenin özünü değil dışsal ilişkilerini temel alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir önermenin doğruluğunu ya da yanlışlığını ortaya koyma işlemine ____ adı verilir.",
+                  "options": [
+                    "Kanıtlama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanıtlama, önermelerin doğruluğunu mantıksal temellere oturtma çabasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir sözcüğün anlamını açıklamak için o sözcüğün kendisini tanımda kullanmak ____ hatasına yol açar.",
+                  "options": [
+                    "Kısır döngü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kısır döngü, tanımlanan kavramın tanımlayanda da tekrar edilmesiyle ortaya çıkan mantık hatasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanımlanan nesne, tanımlayandan daha açık değilse ____ ile tanımlama hatası yapılır.",
+                  "options": [
+                    "Bilinmeyen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilinmeyenle tanımlama hatası, zaten bilinmeyen bir kavramın yine bilinmeyen başka terimlerle açıklanmaya çalışılmasıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her kavramın tanımı yapılabilir, tanımlanamayan hiçbir kavram yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "En üst cinsler ve bazı temel duyumlar gibi her kavram tanım sınırları içine tam olarak alınamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Özsel tanım, nesnenin temel ve zorunlu özelliklerini ortaya koyar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özsel tanım, o nesneyi nesne yapan öz nitelikleri vurgular.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kanıtlama sadece tümevarım yöntemiyle gerçekleştirilen bir faaliyettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kanıtlama; tümdengelim, tümevarım ve analoji gibi farklı akıl yürütme yollarıyla yapılabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ad tanımı, bir sözcüğün dilde hangi anlama geldiğini gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ad tanımı (nominal tanım) dilsel bir uzlaşıyı ve sözcük anlamını ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir tanımda, tanımlanan kavram ile tanımlayan kavram aynı genişliğe sahip olmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğru bir tanımda tanımlanan ile tanımlayan birbirinin yerini tutabilecek eşdeğerlikte olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Sembolik Mantık",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Sembolik Mantığa Giriş",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sembolik mantığın kurucusu olarak kabul edilen antik çağ filozofu kimdir?",
+                  "answer": "Aristoteles"
+                },
+                {
+                  "question": "Klasik mantıkta doğruluk değerlerinin sayısı kaçtır ve nelerdir?",
+                  "answer": "İkidir, doğru ve yanlış."
+                },
+                {
+                  "question": "Önerme olamayacak cümleler arasında hangileri yer alır?",
+                  "answer": "Soru, emir, ünlem ve dilek cümleleri."
+                },
+                {
+                  "question": "Mantıkta doğruluk değerleri genellikle hangi harflerle gösterilir?",
+                  "answer": "D (Doğru) ve Y (Yanlış) veya 1 ve 0."
+                },
+                {
+                  "question": "Bileşik önermeleri birbirine bağlayan simgelere ne ad verilir?",
+                  "answer": "Mantıksal eklemler"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi mantıksal açıdan bir önermedir?",
+                  "options": [
+                    "Eyvah, cüzdanımı düşürdüm!",
+                    "Ankara, Türkiye'nin başkentidir.",
+                    "Yarın sinemaya gidelim mi?",
+                    "Lütfen kapıyı kapat."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önerme, doğru ya da yanlış bir yargı bildiren cümlelerdir. 'Ankara, Türkiye'nin başkentidir' cümlesi doğru ya da yanlış bir doğruluk değeri alabildiği için önermedir. Diğerleri istek, soru ve ünlem cümleleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bir bileşik önermedir?",
+                  "options": [
+                    "Hava yağmurludur.",
+                    "Güneş ısı ve ışık kaynağıdır.",
+                    "Hava yağmurlu ve soğuktur.",
+                    "Çiçekler sulanmalıdır."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bileşik önermeler, en az iki önermenin mantıksal eklemlerle birbirine bağlanmasıyla oluşur. 'Hava yağmurlu ve soğuktur' cümlesi 've' eklemiyle kurulmuş bir bileşik önermedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sembolik mantıkta önermeleri temsil etmek için genellikle hangi harfler kullanılır?",
+                  "options": [
+                    "a, b, c",
+                    "1, 2, 3",
+                    "p, q, r",
+                    "x, y, z"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sembolik mantıkta önerme değişkenleri olarak geleneksel olarak küçük harflerle p, q, r, s gibi harfler kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi doğruluk değeri taşımaz?",
+                  "options": [
+                    "Matematik zor bir derstir.",
+                    "Bütün insanlar ölümlüdür.",
+                    "İstanbul kalabalık bir şehirdir.",
+                    "Ahmet, tahtaya iyi bak!"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Doğruluk değeri taşıyan ifadeler önermelerdir. 'Ahmet, tahtaya iyi bak!' bir emir cümlesi olduğu için yargı bildirmez ve doğruluk değeri yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Önermelerin doğruluk değerlerini inceleyen ve mantığı sembolleştiren mantık türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Diyalektik mantık",
+                    "Ontolojik mantık",
+                    "Sembolik mantık",
+                    "Sezgisel mantık"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mantığı özel semboller ve yapay bir dil kullanarak inceleyen dal sembolik mantık (modern mantık) olarak adlandırılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğru ya da yanlış bir yargı bildiren cümlelere ____ denir.",
+                  "options": [
+                    "önerme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantığın temel yapı taşını oluşturan, doğru ya da yanlış bir doğruluk değerine sahip olan ifadelere önerme adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sadece tek bir yargı bildiren ve içinde mantıksal eklem barındırmayan önermelere ____ önerme denir.",
+                  "options": [
+                    "basit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Basit önermeler tek bir yargı içerir ve eklem almazlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sembolik mantıkta önermeleri birbirine bağlayan ve doğruluk değerini etkileyen araçlara mantıksal ____ denir.",
+                  "options": [
+                    "eklem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantıksal eklemler, önermeleri birleştirerek veya değiştirerek yeni bileşik önermeler elde etmemizi sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir önermenin doğru ya da yanlış olma durumuna ____ değeri denir.",
+                  "options": [
+                    "doğruluk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önermelerin gerçeğe uygunluk durumunu belirten ifadeye doğruluk değeri denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geleneksel mantığın temellerini atarak mantığı sistemleştiren antik Yunan filozofu ____'dir.",
+                  "options": [
+                    "Aristoteles"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aristoteles, mantık disiplininin kurucusu olarak kabul edilir ve ilk sistemli eserleri vermiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bütün soru cümleleri birer önermedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soru cümleleri bir yargı bildirmediği için doğruluk değerine sahip değildir ve önerme olamazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sembolik mantıkta bileşik önermeler mantıksal eklemler yardımıyla oluşturulur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bileşik önermeler, basit önermelerin mantıksal eklemlerle birbirine bağlanmasıyla meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir önerme aynı anda hem doğru hem de yanlış doğruluk değerine sahip olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mantık ilkelerinden çelişmezlik ilkesine göre bir önerme aynı anda hem doğru hem yanlış olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Emir cümleleri doğruluk değeri taşımazlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emir cümleleri yargı bildirmediği için doğru ya da yanlış olma özelliği taşımazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Önerme değişkenleri olarak genellikle p, q, r gibi harfler kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sembolik mantıkta önermeleri temsil etmek üzere standart olarak p, q, r harfleri kullanılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Önermeler Mantığı",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Doğru veya yanlış bir yargı bildiren cümlelere ne denir?",
+                  "answer": "Önerme"
+                },
+                {
+                  "question": "Önermelerin doğruluk değerleri nelerdir?",
+                  "answer": "Doğru (1) ve Yanlış (0)"
+                },
+                {
+                  "question": "Tek başına önerme olmayan, soru, ünlem, emir veya dilek bildiren cümlelere ne denir?",
+                  "answer": "Bileşik olmayan cümleler veya önerme olamayan ifadeler"
+                },
+                {
+                  "question": "p ve q önermelerinin tümlenmesi (değili) hangi sembolle gösterilir?",
+                  "answer": "p' veya ¬p"
+                },
+                {
+                  "question": "İki önermenin 've' bağlacı ile birleştirilmesiyle elde edilen bileşik önermeye ne denir?",
+                  "answer": "Kavrama (Tümlenmiş) önerme ya da konjonksiyon"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir önermedir?",
+                  "options": [
+                    "Ankara, Türkiye'nin başkentidir.",
+                    "Eyvah, yangın var!",
+                    "Yarın sinemaya gidelim.",
+                    "Bu soruyu çözebildin mi?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önerme, doğru ya da yanlış bir yargı bildiren cümlelerdir. 'Ankara, Türkiye'nin başkentidir' cümlesi doğru bir yargı bildirdiği için önermedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "p önermesi 'Doğru (1)', q önermesi 'Yanlış (0)' olduğuna göre, p ∨ q bileşik önermesinin doğruluk değeri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Hatalı",
+                    "0",
+                    "1",
+                    "Tanımsız"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Veya (∨) bağlacında önermelerden en az birinin doğru olması bileşik önermeyi doğru yapar. p=1 olduğundan p ∨ q sonucu 1'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "p ∧ p' önermesinin eşiti aşağıdakilerden hangisidir?",
+                  "options": [
+                    "1",
+                    "p",
+                    "p'",
+                    "0"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bir önerme ile onun değili 've' bağlacı ile bağlandığında sonuç daima yanlıştır (0). Çelişmezlik kuralı gereği bir önerme aynı anda hem doğru hem yanlış olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki denkliklerden hangisi yanlıştır?",
+                  "options": [
+                    "p ∨ 1 ≡ 1",
+                    "p ∧ p' ≡ 1",
+                    "p ∨ p ≡ p",
+                    "p ∧ 0 ≡ 0"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "p ∧ p' ifadesi çelişki belirtir ve daima 0'a denktir. 1'e denk olduğu iddiası yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "p ⇒ q koşullu önermesinin karşıtı (tersi değil) aşağıdakilerden hangisidir?",
+                  "options": [
+                    "q' ⇒ p'",
+                    "p ∨ q",
+                    "p' ⇒ q'",
+                    "q ⇒ p"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bir p ⇒ q koşullu önermesinin karşıtı, yerlerinin değiştiği q ⇒ p önermesidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğruluk değeri sadece '1' olan önermelere özdeşlik veya ____ denir.",
+                  "options": [
+                    "totoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bileşik önermenin tüm durumlar için doğruluk değeri 1 ise bu tür önermelere totoloji denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Doğruluk değeri sadece '0' olan bileşik önermelere ____ adı verilir.",
+                  "options": [
+                    "çelişki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bütün satırlarında doğruluk değeri yanlış (0) olan önermeler çelişki olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "p ⇒ q koşullu önermesinin yanlış olabildiği tek durum p'nin 1, q'nun ____ olduğu durumdur.",
+                  "options": [
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnisiyatif veya koşullu önermede '1 ⇒ 0' durumu hariç diğer tüm durumlarda sonuç 1'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "p ≡ q ve q ≡ r ise p ≡ r kuralına sembolik mantıkta ____ kuralı denir.",
+                  "options": [
+                    "geçişme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denkliklerin birbirine aktarılabilmesi geçişme özelliğini ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ancak ve ancak (⇔) bağlacına sembolik mantıkta ____ bağlacı da denir.",
+                  "options": [
+                    "çift koşullu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "⇔ bağlacı çift koşullu önermeleri kurmak için kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Emir cümleleri doğru ya da yanlış bir yargı bildirmediği için önerme olamazlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önerme olabilmek için cümlenin kesin bir doğruluk veya yanlışlık değeri taşıması gerekir, emir cümleleri bu niteliğe sahip değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "p ∨ 0 önermesinin sadeleşmiş hali 0'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Veya bağlacında etkisiz eleman 0'dır. p ∨ 0 işleminin sonucu p önermesine denktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir önermenin değilinin değili yine o önermenin kendisine denktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantık kurallarına göre (p')' ≡ p denklik kuralı her zaman geçerlidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "p ⇒ q önermesi p' ∨ q önermesine denktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koşullu önermenin bileşik önerme olarak açılımı p' ∨ q şeklindedir ve bu iki ifade birbirine denktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "p ∧ q önermesinin doğru olması için p veya q önermelerinden birinin doğru olması yeterlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Ve' (∧) bağlacı ile kurulan bileşik önermelerin doğru olabilmesi için her iki bileşenin de ayrı ayrı doğru olması şarttır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1978 @@
+{
+  "subjectKey": "ydt_ingilizce",
+  "title": "YDT İngilizce",
+  "examType": "YKS",
+  "subject": "İngilizce",
+  "units": [
+    {
+      "id": "unit1",
+      "order": 1,
+      "title": "Kelime Bilgisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Anlamdaş ve Zıt Anlamlı Kelimeler",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is a synonym for 'abandon'?",
+                  "answer": "Desert / Forsake"
+                },
+                {
+                  "question": "What is an antonym for 'benevolent'?",
+                  "answer": "Malevolent / Cruel"
+                },
+                {
+                  "question": "What is a synonym for 'ambiguous'?",
+                  "answer": "Vague / Unclear"
+                },
+                {
+                  "question": "What is an antonym for 'scarce'?",
+                  "answer": "Abundant / Plentiful"
+                },
+                {
+                  "question": "What is a synonym for 'deter'?",
+                  "answer": "Discourage / Prevent"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Which of the following is a synonym for the word 'abundant'?",
+                  "options": [
+                    "Hostile",
+                    "Fragile",
+                    "Scarce",
+                    "Plentiful"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Abundant' kelimesi 'bol, bereketli' anlamına gelir. 'Plentiful' kelimesi de aynı anlamı taşıyan en yaygın eş anlamlısıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which of the following is an antonym for the word 'hostile'?",
+                  "options": [
+                    "Adverse",
+                    "Aggressive",
+                    "Bitter",
+                    "Friendly"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Hostile' düşmanca demektir. Zıt anlamlısı ise 'dostça, arkadaşça' anlamına gelen 'friendly' kelimesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the closest synonym for 'significant'.",
+                  "options": [
+                    "Important",
+                    "Trivial",
+                    "Obscure",
+                    "Frequent"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Significant' kelimesi 'önemli, anlamlı' demektir ve 'important' ile eş anlamlıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "What is the exact antonym of 'transparent' in terms of light or visibility?",
+                  "options": [
+                    "Translucent",
+                    "Opaque",
+                    "Clear",
+                    "Bright"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Transparent' şeffaf demektir. Zıttı ise 'ışık geçirmeyen, mat' anlamındaki 'opaque' kelimesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which word is a synonym for 'enhance'?",
+                  "options": [
+                    "Improve",
+                    "Damage",
+                    "Decrease",
+                    "Weaken"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Enhance' kelimesi bir şeyi 'geliştirmek, artırmak, iyileştirmek' anlamına gelir ve 'improve' ile eş anlamlıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "The government took strict measures to ____ the spread of the virus, stopping it before it got worse.",
+                  "options": [
+                    "prevent"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki 'stopping it' ifadesi, virüsün yayılmasını engellemek veya durdurmak anlamına gelen 'prevent' kelimesini gerektirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Due to the unexpected storm, our travel plans were subject to ____ changes at the last minute.",
+                  "options": [
+                    "sudden"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Son dakika değişikliklerinden bahsedildiği için 'ani, beklenmedik' anlamına gelen 'sudden' kelimesi boşluğa uygundur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "It is ____ to check all documents twice before submitting your official application to the university.",
+                  "options": [
+                    "essential"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belgeleri iki kez kontrol etmenin gerekliliğini vurgulayan 'hayati, gerekli' anlamındaki 'essential' kelimesi doğrudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The detective found a ____ clue that helped solve the mysterious crime quickly.",
+                  "options": [
+                    "crucial"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Suçun çözülmesine yardım eden kilit ipucundan bahsedildiği için 'çok önemli, hayati' anlamındaki 'crucial' kelimesi gelmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her ____ attitude towards everyone in the office made her very popular among her colleagues.",
+                  "options": [
+                    "friendly"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ofiste herkes tarafından çok sevilmesini sağlayan tutum 'dostça' olmalıdır, bu yüzden cevap 'friendly' kelimesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "The words 'artificial' and 'synthetic' are synonyms.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; hem 'artificial' hem de 'synthetic' kelimeleri 'yapay, sentetik' anlamlarına gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The words 'ancient' and 'modern' are synonyms of each other.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yalandır; 'ancient' antik/eski demektir, 'modern' ise çağdaş/yeni demektir. Bunlar eş değil, zıt anlamlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The adjectives 'gloomy' and 'cheerful' are antonyms.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; 'gloomy' kasvetli/üzgün anlamına gelirken, 'cheerful' neşeli/şen anlamına gelir ve zıt anlamlıdırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The verbs 'increase' and 'augment' have opposite meanings.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yalandır; her iki fiil de 'artırmak, çoğaltmak' anlamına gelir ve eş anlamlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The terms 'temporary' and 'permanent' represent an antonym pair.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; 'temporary' geçici demektir, 'permanent' ise kalıcı demektir ve mükemmel bir zıt anlamlı çiftidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Deyimler ve Phrasal Verbs",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What does the phrasal verb 'bring about' mean?",
+                  "answer": "To cause something to happen."
+                },
+                {
+                  "question": "What is the meaning of the idiom 'a blessing in disguise'?",
+                  "answer": "A good thing that seemed bad at first."
+                },
+                {
+                  "question": "What does the phrasal verb 'call off' mean?",
+                  "answer": "To cancel an event or arrangement."
+                },
+                {
+                  "question": "Explain the idiom 'hit the nail on the head'.",
+                  "answer": "To describe exactly what is causing a situation or problem."
+                },
+                {
+                  "question": "What does 'give up' mean as a phrasal verb?",
+                  "answer": "To stop trying or surrender."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Due to the heavy snowstorm, the local authorities had to ____ the annual outdoor festival.",
+                  "options": [
+                    "call off",
+                    "bring up",
+                    "look after",
+                    "put off"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki 'heavy snowstorm' (şiddetli kar fırtınası) ve festivalin iptal edilme durumu 'call off' (iptal etmek) phrasal verb'ünü gerektirir. 'Put off' ertelemek anlamına gelse de kalıcı iptaller için 'call off' daha uygundur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Learning that the flight was cancelled turned out to be ____ because I met my future business partner at the lounge.",
+                  "options": [
+                    "a blessing in disguise",
+                    "a piece of cake",
+                    "the tip of the iceberg",
+                    "under the weather"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlk başta kötü görünen bir durumun sonradan iyi bir sonuca yol açması durumu 'a blessing in disguise' (şer gibi görünen hayır) deyimiyle ifade edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The government is trying to ____ new regulations to reduce carbon emissions in industrial areas.",
+                  "options": [
+                    "drop out",
+                    "run out",
+                    "fall apart",
+                    "bring about"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yeni düzenlemeleri hayata geçirmek, buna sebep olmak veya gerçekleştirmek anlamında 'bring about' phrasal verb'ü kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "If you do not understand a difficult word while reading, you can ____ in the dictionary.",
+                  "options": [
+                    "get along",
+                    "take after",
+                    "look it up",
+                    "turn it down"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bir kelimenin anlamını sözlükten arayıp bulmak anlamında 'look up' phrasal verb'ü kullanılır. Zamir araya girdiğinden 'look it up' şeklini alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mark spent hours explaining the root cause of the economic crisis, and his analysis really ____.",
+                  "options": [
+                    "missed the boat",
+                    "hit the nail on the head",
+                    "cost an arm and a leg",
+                    "spilled the beans"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir durumun temel nedenini tam olarak ve doğru bir şekilde tespit etmek 'hit the nail on the head' deyimiyle ifade edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "The company had to postpone the meeting until next week because the manager was sick; they had to ____ it off.",
+                  "options": [
+                    "put"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki 'postpone' (ertelemek) fiili ile eş anlamlı olan phrasal verb 'put off' ifadesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Jane resembles her mother in both appearance and personality; she really takes ____ her.",
+                  "options": [
+                    "after"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir aile büyüğüne fiziksel veya kişilik olarak benzemek anlamında 'take after' phrasal verb'ü kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "We are running ____ of sugar, so I need to go to the grocery store to buy some more.",
+                  "options": [
+                    "out"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir şeyin miktarının azalması veya tükenmek üzere olması durumu 'run out of' kalıbı ile ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Failing the exam was disappointing, but you should not give ____; you can try again next year.",
+                  "options": [
+                    "up"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mücadeleyi bırakmamak, vazgeçmemek anlamındaki kalıp 'give up' şeklindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When secret company plans were leaked to the press, nobody knew who had spilled the ____.",
+                  "options": [
+                    "beans"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sırrı açığa vurmak veya pot kırmak anlamındaki deyim 'spill the beans'tir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "The phrasal verb 'turn down' can mean to reject an offer or application.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "True. 'Turn down' hem ses seviyesini kısmak hem de bir teklifi, iş başvurusunu veya daveti reddetmek anlamında yaygın olarak kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The idiom 'cost an arm and a leg' means that something is extremely cheap and affordable.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "False. Bu deyim bir şeyin aşırı derecede pahalı olduğunu belirtmek için kullanılır, ucuz olduğu anlamına gelmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The phrasal verb 'look after' is synonymous with taking care of someone or something.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "True. 'Look after' birine ya da bir şeye göz kulak olmak, bakmak anlamında 'take care of' ile eş anlamlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The idiom 'once in a blue moon' describes an event that happens very frequently every single day.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "False. Bu deyim kır yılda bir, çok nadir gerçekleşen olayları ifade etmek için kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The phrasal verb 'get along with' means to have a good, friendly relationship with someone.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "True. 'Get along with' birisiyle iyi geçinmek, anlaşmak anlamını taşır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "order": 2,
+      "title": "Dilbilgisi",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Tenses",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What tense is used for actions happening at the exact moment of speech?",
+                  "answer": "Present Continuous Tense"
+                },
+                {
+                  "question": "Which tense is used to describe an action completed before a specific point in the past?",
+                  "answer": "Past Perfect Tense"
+                },
+                {
+                  "question": "What is the auxiliary verb for the Future Perfect tense?",
+                  "answer": "Will have"
+                },
+                {
+                  "question": "Which tense is typically used with time expressions like 'since', 'for', 'already', and 'yet'?",
+                  "answer": "Present Perfect Tense"
+                },
+                {
+                  "question": "What is the structure of the Past Continuous tense?",
+                  "answer": "Was/were + verb-ing"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "By the time the rescue team arrived, the climbers ____ in the snowstorm for over ten hours.",
+                  "options": [
+                    "had been walking",
+                    "are walking",
+                    "have walked",
+                    "will walk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki 'by the time' geçmişte bir noktayı gösterir ve bu noktadan önce başlayıp süregelen bir eylem vurgulandığı için Past Perfect Continuous (had been walking) kullanımı doğrudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "She usually ____ coffee in the morning, but today she ____ tea.",
+                  "options": [
+                    "drinks / is drinking",
+                    "drank / drinks",
+                    "is drinking / drinks",
+                    "has drunk / drank"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel alışkanlıkları belirtmek için Present Simple (drinks), şu anki geçici durumu belirtmek için ise Present Continuous (is drinking) kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Look at those dark clouds in the sky! It ____ rain.",
+                  "options": [
+                    "shall",
+                    "is going to",
+                    "would",
+                    "will"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gözlenebilir kanıtlara (dark clouds) dayanan gelecekteki olaylar için 'is going to' yapısı tercih edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "I ____ my keys yesterday, and I still haven't found them.",
+                  "options": [
+                    "lose",
+                    "lost",
+                    "had lost",
+                    "have lost"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümledeki 'yesterday' zaman zarfı geçmişte belirli bir noktayı işaret eder, bu yüzden Simple Past Tense (lost) kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Next year, they ____ married for twenty years.",
+                  "options": [
+                    "will be",
+                    "are being",
+                    "will have been",
+                    "have been"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gelecekte belirli bir ana kadar sürecek olan durumları ifade etmek için Future Perfect Tense (will have been) kullanılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Water ____ at 100 degrees Celsius under standard atmospheric conditions.",
+                  "options": [
+                    "boils"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel geçer bilimsel gerçekler ve doğa kanunları her zaman Present Simple Tense ile ifade edilir, bu nedenle fiil 'boils' olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "He ____ in London for five years before he moved to Paris.",
+                  "options": [
+                    "had lived"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişte yaşanan iki olaydan daha önce gerçekleşeni vurgulamak için Past Perfect Tense (had lived) kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "By next month, the company ____ all its debts.",
+                  "options": [
+                    "will have paid"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelecekte belirli bir tarihe kadar tamamlanmış olacak eylemleri belirtmek için Future Perfect Tense kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Listen! Someone ____ at the front door.",
+                  "options": [
+                    "is knocking"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Listen!' uyarısı konuşma anında devam eden bir eylemi işaret ettiği için Present Continuous Tense (is knocking) gereklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "I ____ never ____ such a breathtaking view before my trip to the Alps.",
+                  "options": [
+                    "had seen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişteki bir zamandan önceki deneyimleri aktarırken Past Perfect Tense yapısı kurulur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "The Present Simple tense is used to describe permanent situations and daily routines.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Present Simple tense kalıcı durumlar, alışkanlıklar ve genel geçer gerçekler için kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "We use the Past Continuous tense for completed actions that happened one after another in the past.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; ardışık tamamlanmış geçmiş eylemler için Simple Past Tense kullanılır. Past Continuous ise geçmişte belli bir anda sürmekte olan eylemleri belirtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Future Continuous tense is formed with 'will be' followed by a verb ending in '-ing'.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Future Continuous yapısı 'will be + V-ing' şeklindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "State verbs like 'know', 'want', and 'belive' are frequently used in continuous tenses.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; durum bildiren fiiller (state verbs) genellikle continuous tense'lerde çekimlenmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The Present Perfect tense establishes a connection between the past and the present moment.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Present Perfect tense geçmişte başlamış ancak etkisi hâlâ devam eden veya yakın zamanda tamamlanmış durumlar için kullanılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Modals",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Which modal verb is used to express past ability?",
+                  "answer": "Could"
+                },
+                {
+                  "question": "Which modal is best used to give strong advice or recommendation?",
+                  "answer": "Should"
+                },
+                {
+                  "question": "Which modal is used to express a logical deduction that something was definitely not the case in the past?",
+                  "answer": "Can't have"
+                },
+                {
+                  "question": "Which modal verb indicates obligation imposed by an external authority?",
+                  "answer": "Have to"
+                },
+                {
+                  "question": "Which modal expresses a polite request?",
+                  "answer": "Would"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Look at those dark clouds; it ____ rain later this evening.",
+                  "options": [
+                    "might",
+                    "need to",
+                    "must",
+                    "should"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koyu bulutlar gibi geleceğe yönelik zayıf ihtimal bildiren durumlarda 'might' modal fiili kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "You ____ submit your assignment by tomorrow morning; it is a strict university rule.",
+                  "options": [
+                    "must",
+                    "can",
+                    "might",
+                    "may"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dışarıdan dayatılan katı kurallarda ve zorunluluklarda 'must' veya 'have to' tercih edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "He didn't answer his phone. He ____ left it in the other room.",
+                  "options": [
+                    "can't have",
+                    "will have",
+                    "must have",
+                    "should have"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Geçmişte gerçekleşmiş bir olay hakkında mantıklı çıkarım yaparken olumlu durumlarda 'must have' yapısı kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "You ____ bring an umbrella. The weather forecast says it will be sunny all day.",
+                  "options": [
+                    "mustn't",
+                    "could",
+                    "should",
+                    "needn't"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Gerek olmadığını, zorunluluk bulunmadığını ifade etmek için 'needn't' (don't have to) kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "When I was five years old, I ____ swim across the swimming pool easily.",
+                  "options": [
+                    "should",
+                    "must",
+                    "could",
+                    "can"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Geçmişteki genel yetenekleri ifade ederken 'could' modal fiili kullanılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "She looks very pale; she ____ see a doctor immediately.",
+                  "options": [
+                    "should"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güçlü tavsiye veya öneri bildirmek amacıyla 'should' veya 'ought to' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tom was not at the meeting. He ____ received the email in time.",
+                  "options": [
+                    "might have"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişteki bir olasılık hakkında tahmin yürütmek için 'might have' yapısı uygundur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Parking here is forbidden. You ____ park your car in this zone.",
+                  "options": [
+                    "mustn't"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yasaklama bildirmek ve kurallara uymamanın kesinlikle kabul edilmediğini belirtmek için 'mustn't' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "____ you please pass me the salt?",
+                  "options": [
+                    "Could"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karşı taraftan kibar bir rica veya istekte bulunurken 'could' veya 'would' başa getirilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "He failed the exam despite studying hard. He ____ have studied the wrong topics.",
+                  "options": [
+                    "must"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişe yönelik güçlü bir mantıksal çıkarımda bulunmak için 'must have' kalıbı kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "'Mustn't' expresses a lack of obligation, meaning something is optional.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Mustn't' yasak (prohibition) bildirir; zorunluluğun olmadığını (optional) belirtmek için 'don't have to' kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Could' is used to express general ability in the past.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Could', geçmişteki genel yetenekleri belirtmek için doğru bir modal fiildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Should have' is used to criticize someone's past actions or express regret.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Should have + V3' yapısı geçmişte yapılması gereken ama yapılmayan eylemler için pişmanlık veya eleştiri bildirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'May' and 'might' can be used interchangeably to express present or future possibilities.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'May' ve 'might' olasılık bildiren durumlarda genellikle birbirinin yerine kullanılabilir, ancak 'might' daha zayıf bir ihtimal verebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "'Can' is commonly used to talk about formal rules and regulations set by institutions.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kurallar ve resmi zorunluluklar için 'can' yerine 'must' veya 'have to' tercih edilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Passive Voice",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the basic formula of Passive Voice in Simple Present Tense?",
+                  "answer": "am / is / are + V3 (Past Participle)"
+                },
+                {
+                  "question": "How do you transform the auxiliary verb in Future Simple Passive?",
+                  "answer": "will be + V3"
+                },
+                {
+                  "question": "Which tense uses 'was / were + being + V3' in the passive form?",
+                  "answer": "Past Continuous Tense"
+                },
+                {
+                  "question": "What is the passive equivalent of Present Perfect Tense?",
+                  "answer": "have / has + been + V3"
+                },
+                {
+                  "question": "When do we omit the 'by agent' phrase in a passive sentence?",
+                  "answer": "When the doer is unknown, unimportant, or obvious from the context."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Many historical books _____ to the local library last week.",
+                  "options": [
+                    "are donating",
+                    "donated",
+                    "were donated",
+                    "have donated"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Cümledeki 'last week' zarfı geçmiş zamanı (Simple Past) işaret eder. Kitaplar kendi kendine bağışlanamayacağı için pasif olmalıdır, bu yüzden 'were donated' doğrudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A new bridge _____ across the river by the end of next year.",
+                  "options": [
+                    "is built",
+                    "will have been built",
+                    "was built",
+                    "has been built"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'By the end of next year' ifadesi gelecek zamana göre bir bitmişlik (Future Perfect) bildirir. Köprü özne olduğundan Future Perfect Passive ('will have been built') kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "English _____ as a global language in many different countries today.",
+                  "options": [
+                    "speaks",
+                    "spoke",
+                    "is spoken",
+                    "was spoken"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Today' kelimesi geniş zamanı (Simple Present) vurgular. İngilizce konuşulur anlamı katmak için Simple Present Passive ('is spoken') seçilmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The office documents _____ when the manager entered the room.",
+                  "options": [
+                    "have been photocopied",
+                    "are photocopying",
+                    "photocopied",
+                    "were being photocopied"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Geçmişte devam eden bir eylem esnasında başka bir eylemin gerçekleştiğini belirten 'when' yapısı nedeniyle Past Continuous Passive ('were being photocopied') kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "All the complaints about the service _____ carefully by the customer relations department so far.",
+                  "options": [
+                    "examined",
+                    "have been examined",
+                    "are examining",
+                    "were examining"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'So far' zarfı Present Perfect Tense gerektirir. Şikayetler incelendiği için yapı pasif olmalı ve 'have been examined' tercih edilmelidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "The lost child ____ found safe and sound by the police officers yesterday.",
+                  "options": [
+                    "was"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Yesterday' kelimesi geçmiş zamanı gösterir ve tekil özne 'child' için Simple Past Passive yapısında 'was' yardımcı fiili gereklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Spanish ____ spoken by millions of people around the world every day.",
+                  "options": [
+                    "is"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Every day' ifadesi geniş zamanı işaret eder. 'Spanish' sayılamaz/tekil bir özne olduğundan Simple Present Passive için 'is' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The project ____ completed by the engineering team before the deadline.",
+                  "options": [
+                    "was"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümledeki 'before the deadline' ve geçmiş anlam akışı nedeniyle Past Perfect Passive veya Simple Past Passive uygundur; burada 'was' boşluğa tam uyar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "New safety regulations ____ implemented across all factories next month.",
+                  "options": [
+                    "will"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Next month' gelecek zamanı gösterir. Gelecek zaman pasif yapısı 'will be' şeklindedir, bu yüzden eksik olan kelime 'will'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Several delicious cakes ____ baked for the birthday party at the moment.",
+                  "options": [
+                    "are"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'At the moment' zarfı Present Continuous Tense gerektirir. Çoğul özne 'cakes' için şimdiki zaman pasif yapısı 'are being' şeklindedir, boşluğa 'are' gelir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Intransitive verbs (verbs that do not take an object) can easily be turned into the passive voice.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Geçişsiz fiiller (nesne almayan fiiller) nesnesi olmadıkları için pasif yapıya dönüştürülemezler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "In a passive sentence, the object of the active sentence becomes the new subject.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aktif bir cümlenin nesnesi, pasif cümlede başa geçerek özne konumunu alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The auxiliary verb 'to be' in passive voice must always match the tense of the original active sentence.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pasif yaparken kullanılan 'to be' fiili, aktif cümlenin zamanına (tense) uyarlanmak zorundadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The main verb in every passive voice sentence is used in its base (V1) form.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pasif cümlelerde ana fiil her zaman üçüncü haliyle (V3 - Past Participle) kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "We use the preposition 'by' before the agent in a passive sentence when we want to mention who performed the action.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylemi gerçekleştiren kişiyi (özneyi) belirtmek istediğimizde pasif cümlenin sonunda 'by' edatı kullanılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Conditionals",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the structure of a Zero Conditional sentence?",
+                  "answer": "If + present simple, present simple"
+                },
+                {
+                  "question": "What time does the First Conditional refer to?",
+                  "answer": "Future possibility or probability"
+                },
+                {
+                  "question": "What is used in the main clause of a Second Conditional sentence?",
+                  "answer": "Would, could, or might + base verb"
+                },
+                {
+                  "question": "What tense is used in the 'if' clause of a Third Conditional?",
+                  "answer": "Past perfect"
+                },
+                {
+                  "question": "What is the structure of a Mixed Conditional combining past and present?",
+                  "answer": "If + past perfect, would + base verb"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "If I _____ harder, I would have passed the exam last week.",
+                  "options": [
+                    "had studied",
+                    "studied",
+                    "study",
+                    "would study"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu bir Type 3 (Third Conditional) yapısıdır. Geçmişteki pişmanlıkları ifade ederken 'if' cümlesinde Past Perfect (had studied) kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "If you heat ice, it _____.",
+                  "options": [
+                    "will melt",
+                    "melted",
+                    "would melt",
+                    "melts"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu bir Zero Conditional cümlesidir, çünkü bilimsel bir gerçeği ifade eder. Her iki tarafta da Present Simple kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Unless you _____ your homework, you cannot watch TV.",
+                  "options": [
+                    "don't finish",
+                    "finished",
+                    "finish",
+                    "will finish"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Unless' kelimesi zaten olumsuzluk anlamı ('if not') katar, bu yüzden yan cümlecikte fiil olumlu (Present Simple) olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "If I were you, I _____ that job offer immediately.",
+                  "options": [
+                    "accepted",
+                    "accept",
+                    "will accept",
+                    "would accept"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu bir Second Conditional (Type 2) yapısıdır ve tavsiye vermek için 'If I were you, I would...' kalıbı kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Had I known about the traffic, I _____ another route.",
+                  "options": [
+                    "take",
+                    "took",
+                    "would have taken",
+                    "would take"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu cümle 'if' kelimesi olmadan devrik (inverted) yapılmış bir Third Conditional cümlesidir. Ana cümlecikte 'would have + V3' kalıbı gerekir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "If it rains tomorrow, we _____ cancel the picnic.",
+                  "options": [
+                    "will"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gelecekteki olası bir duruma bağlı sonucu ifade eden First Conditional yapısında ana cümlecikte 'will' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "If she had saved enough money, she _____ bought a new car last year.",
+                  "options": [
+                    "would have"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişteki gerçekleşmemiş bir durumu belirten Third Conditional cümlesinin ana kısmında 'would have' ve fiilin üçüncü hali kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Water boils if you _____ it to 100 degrees Celsius.",
+                  "options": [
+                    "heat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel gerçekleri anlatan Zero Conditional cümlelerinde 'if' yan cümlesinde Present Simple (heat) kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "If I won the lottery, I _____ travel around the world.",
+                  "options": [
+                    "would"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hayali ve şu anki duruma ters varsayımları belirten Second Conditional yapısında ana cümlede 'would' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Provided that you _____ your assignment on time, you can join the trip.",
+                  "options": [
+                    "finish"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Provided that' bağlacı 'if' anlamı verir ve First Conditional yapılarında bu bağlaçtan sonra Present Simple (finish) kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In Second Conditional sentences, 'was' is often replaced by 'were' for all pronouns in the 'if' clause.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci tip koşul cümlelerinde 'if I were', 'if he were' gibi kullanımlar dilbilgisel olarak daha resmidir ve yaygın tercih edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The structure 'If + past simple, will + V1' belongs to the First Conditional.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "First Conditional yapısının 'if' kısmı Present Simple olmalıdır. Past simple ve will karışımı standart bir kural değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "We can use 'unless' instead of 'if not' in conditional sentences.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Unless' kelimesi 'if not' ile aynı anlama gelir ve koşul cümlelerinde birbirlerinin yerine kullanılabilirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Third Conditional is used to talk about hypotheses in the present.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Third Conditional (Üçüncü tip) geçmişteki olayları ve pişmanlıkları ifade eder; şimdiki zaman için Second Conditional kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "In inverted Third Conditional sentences, 'if' is omitted and 'had' comes before the subject.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçüncü tip koşul cümlelerinde 'if' atılarak 'Had I known' şeklinde devrik (inversion) yapı kurulabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node5",
+          "order": 5,
+          "title": "Relative Clauses",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Which relative pronoun is used for people as the subject of the relative clause?",
+                  "answer": "Who"
+                },
+                {
+                  "question": "Which relative pronoun is used to indicate possession for both people and things?",
+                  "answer": "Whose"
+                },
+                {
+                  "question": "When can the relative pronoun be omitted in a defining relative clause?",
+                  "answer": "When it is the object of the relative clause."
+                },
+                {
+                  "question": "Which relative pronoun is used for things and animals?",
+                  "answer": "Which"
+                },
+                {
+                  "question": "What type of relative clause gives extra information and is separated by commas?",
+                  "answer": "Non-defining relative clause"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "The man ____ lives next door is a famous musician.",
+                  "options": [
+                    "which",
+                    "who",
+                    "whose",
+                    "where"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümledeki boşluktan sonra fiil geldiği için insanı niteleyen ve özne konumunda olan 'who' zamiri kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "I lost the watch ____ my father gave me for my birthday.",
+                  "options": [
+                    "where",
+                    "who",
+                    "which",
+                    "whose"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Cansız bir varlık olan 'watch' (saat) kelimesini nitelediğimiz ve nesne konumunda olduğumuz için 'which' kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Do you know the girl ____ car was stolen yesterday?",
+                  "options": [
+                    "whom",
+                    "whose",
+                    "who",
+                    "which"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boşluktan sonra bir isim (car) gelmektedir ve kız ile araba arasında bir sahiplik ilişkisi vardır, bu yüzden 'whose' doğru cevaptır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Istanbul, ____ I was born, is a magnificent city bridging two continents.",
+                  "options": [
+                    "where",
+                    "when",
+                    "that",
+                    "which"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Verilen yer bildiren özel isimden sonra bir yer (lokasyon) anlamı katan ve 'in Istanbul' ifadesinin yerini tutan 'where' relative adverb'ü kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The book ____ on the table is written by Orhan Pamuk.",
+                  "options": [
+                    "who lies",
+                    "is lying",
+                    "lies",
+                    "lying"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu soru bir relative clause kısaltmasıdır. Etken (active) bir anlam olduğu için 'which is lying' yerine fiilin '-ing' hali kullanılarak 'lying' şeklinde kısaltılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "The scientist ____ discovered penicillin was Alexander Fleming.",
+                  "options": [
+                    "who"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boşluktan sonra 'discovered' fiili gelmektedir ve 'scientist' insan olduğu için özne konumunda 'who' kullanılmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The restaurant ____ we had dinner last night was expensive.",
+                  "options": [
+                    "where"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Restoran bir yer bildirdiği ve cümlede eylemin gerçekleştiği yeri vurguladığı için 'where' relative kelimesi uygundur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The year ____ the Republic of Turkey was founded is 1923.",
+                  "options": [
+                    "when"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaman bildiren 'year' sözcüğünden sonra zaman anlamı katan relative adverb olarak 'when' gelmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anyone ____ wants to join the club must sign up by Friday.",
+                  "options": [
+                    "who"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belgisiz zamir olan 'anyone' bir insanı temsil ettiği ve fiil ile devam ettiği için 'who' tercih edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "My grandfather, ____ is 80 years old, still runs every morning.",
+                  "options": [
+                    "who"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Virgülle ayrılan bu non-defining relative clause yapısında insanı niteleyen 'who' zamiri kullanılmak zorundadır, 'that' kullanılamaz.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In non-defining relative clauses, the relative pronoun 'that' can be used instead of 'who' or 'which'.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Virgülle ayrılan non-defining relative clause yapılarında asla 'that' kullanılamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The relative pronoun 'whose' is used to show possession for both people and things.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Whose' hem insan hem de cansız nesnelerin sahipliğini bildirmek için doğru bir relative pronoun'dur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "In defining relative clauses, we can omit the relative pronoun when it functions as the object.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanimlayici cümlelerde relative pronoun nesne konumunda ise düşürülebilir (örneğin: 'the car (which/that) I bought').",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "We can use 'where' instead of 'in which' when referring to a place.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Where' relative zarfı, yer bildiren yapılarda genellikle 'preposition + which' (in/at/on which) yapısına eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The relative pronoun 'whom' can be used as the subject of a defining relative clause.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Whom' sadece nesne (object) konumunda kullanılır; özne konumunda 'who' kullanılmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node6",
+          "order": 6,
+          "title": "Noun Clauses",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary function of a noun clause in a sentence?",
+                  "answer": "It functions as a noun, acting as a subject, object, or complement."
+                },
+                {
+                  "question": "Which words commonly introduce wh- noun clauses?",
+                  "answer": "Words like who, what, where, when, why, and how."
+                },
+                {
+                  "question": "What conjunction is used to introduce yes/no question noun clauses?",
+                  "answer": "Whether or if."
+                },
+                {
+                  "question": "Do noun clauses use question word order (Auxiliary + Subject + Verb)?",
+                  "answer": "No, they use statement word order (Subject + Verb)."
+                },
+                {
+                  "question": "What is the function of the conjunction 'that' in a noun clause?",
+                  "answer": "It introduces a statement and often has no meaning of its own."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "I do not know ____ he will attend the seminar tomorrow.",
+                  "options": [
+                    "what",
+                    "which",
+                    "whether",
+                    "that"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Cümlede bir karar verme veya belirsizlik durumu ('bilmiyorum') söz konusu olduğunda ve seçenekler arasında bir tercih yapılması gerektiğinde 'whether' kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Could you please tell me where ____?",
+                  "options": [
+                    "the nearest post office be",
+                    "does the nearest post office",
+                    "is the nearest post office",
+                    "the nearest post office is"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Noun clause yapıları soru cümlesi içinde yer alsalar bile düz cümle (özne + fiil) kelime dizilimine sahip olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "She insisted ____ she had nothing to do with the missing documents.",
+                  "options": [
+                    "who",
+                    "what",
+                    "whether",
+                    "that"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Fiilden sonra gelen tam bir yargıyı (cümleyi) nesne konumunda bağlamak için 'that' bağlacı kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The main problem is ____ we don't have enough budget for the project.",
+                  "options": [
+                    "whether",
+                    "how",
+                    "what",
+                    "that"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ana fiilden sonra gelen özne tümlecini (subject complement) tamamlamak ve bir durumu açıklamak için 'that' tercih edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Nobody could understand ____ he reacted so aggressively to the news.",
+                  "options": [
+                    "which",
+                    "whether",
+                    "why",
+                    "that"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eylemin sebebini soran veya belirten bir noun clause oluşturmak için 'why' soru kelimesi kullanılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "It is important ____ everyone follows the safety rules during the experiment.",
+                  "options": [
+                    "that"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıfatlardan sonra gelen 'It is + adjective + that clause' yapısında noun clause'u başlatan en yaygın kelime 'that'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "I have no idea about ____ keys these are.",
+                  "options": [
+                    "whose"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anahtarların kime ait olduğunu sormak veya belirtmek için 'whose' kelimesi noun clause içinde kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "We are talking about ____ we should invest our money.",
+                  "options": [
+                    "where"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edattan (about) sonra gelen noun clause boşluğunu yer bildiren bir soru kelimesi olan 'where' mantıklı bir şekilde tamamlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "____ wins the competition will receive a grand prize.",
+                  "options": [
+                    "Whoever"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümlenin öznesi konumunda olan ve herhangi bir kişiyi kapsayan anlamı vermek için 'whoever' kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The teacher explained ____ we needed to solve the math equation.",
+                  "options": [
+                    "how"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir işlemin nasıl yapıldığını açıklayan noun clause yapısında 'how' kelimesi kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Noun clauses can function as the subject of a sentence.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İsim cümcecikleri (noun clauses) tıpkı isimler gibi cümlenin öznesi konumunda yer alabilirler, örneğin: 'What you said is true.'",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A noun clause inside a direct question must use inverted auxiliary verb order.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Noun clause yapıları hangi konumda olursa olsun her zaman düz cümle kelime dizilimine (özne + fiil) uyar, devrik yapı kullanılmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The conjunction 'that' in a noun clause can sometimes be omitted, especially in informal English.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fiilin nesnesi konumunda kullanılan 'that' bağlacı günlük konuşma dilinde genellikle düşürülebilir (omitted).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Noun clauses and relative clauses are grammatically identical and serve the exact same purpose.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Noun clauses isim gibi görev yaparken, relative clauses bir ismi niteleyen sıfat cümleleridir; görevleri ve yapıları farklıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The word 'whether' can be used with 'or not' in noun clauses.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Whether' bağlacı alternatifleri vurgulamak için sıklıkla 'or not' ifadesiyle birlikte kullanılabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node7",
+          "order": 7,
+          "title": "Reported Speech",
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "How does present simple change in reported speech?",
+                  "answer": "It changes to past simple."
+                },
+                {
+                  "question": "What happens to 'tomorrow' in reported speech?",
+                  "answer": "It changes to 'the next day' or 'the following day'."
+                },
+                {
+                  "question": "How do you report a Wh- question?",
+                  "answer": "Keep the Wh- word and use statement word order without auxiliary 'do/does/did'."
+                },
+                {
+                  "question": "How does past simple generally change in reported speech?",
+                  "answer": "It changes to past perfect."
+                },
+                {
+                  "question": "What is the reporting verb structure for a command?",
+                  "answer": "Subject + asked/told + object + to-infinitive."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "He said, 'I am reading a book now.'",
+                  "options": [
+                    "He said that he is reading a book now.",
+                    "He said that he was reading a book then.",
+                    "He said that he had read a book then.",
+                    "He said that I was reading a book now."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğrudan anlatımdaki 'am reading' şimdiki zamanı geçmiş zamana ('was reading') dönüşür ve 'now' zarfı 'then' olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "She asked me, 'Where do you live?'",
+                  "options": [
+                    "She asked me where I lived.",
+                    "She asked me where did I live.",
+                    "She asked me where do I live.",
+                    "She asked me where had I lived."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soru cümleleri dolaylı anlatıma çevrilirken soru sözcüğü korunur ancak cümle düz cümle (özne + yüklem) sırasına getirilir ve 'do' düşer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The teacher said, 'Water boils at 100 degrees Celsius.'",
+                  "options": [
+                    "The teacher said that water boiled at 100 degrees Celsius.",
+                    "The teacher said that water boils at 100 degrees Celsius.",
+                    "The teacher said that water had boiled at 100 degrees Celsius.",
+                    "The teacher said that water has boiled at 100 degrees Celsius."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Genel geçer doğrular ve bilimsel gerçekler dolaylı anlatımda zaman uyumuna uymaz, geniş zaman olarak kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mary said to Tom, 'Please help me with this project.'",
+                  "options": [
+                    "Mary asked Tom that he helps her with this project.",
+                    "Mary told Tom to help her with that project.",
+                    "Mary said Tom to help her with that project.",
+                    "Mary asked Tom helping her with this project."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rica ve emir cümleleri 'tell/ask + nesne + to-infinitive' yapısıyla aktarılır; 'this' ise 'that' olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "John said, 'I will finish the report tomorrow.'",
+                  "options": [
+                    "John said that he had finished the report tomorrow.",
+                    "John said that he will finish the report tomorrow.",
+                    "John said that he finishes the report the following day.",
+                    "John said that he would finish the report the next day."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Will' yardımcı fiili 'would' olur ve 'tomorrow' kelimesi 'the next day' olarak değiştirilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "He told me that he ____ finished his homework before I arrived.",
+                  "options": [
+                    "had"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudan anlatımdaki geçmiş zaman ('finished') dolaylı anlatımda geçmiş mükemmel zamana ('had finished') dönüşür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "She asked me if I ____ like a cup of tea.",
+                  "options": [
+                    "would"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kibarca teklif bildiren 'would you like' yapısı soru aktarılırken 'would' ile korunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "They said that they were visiting Paris ____ week.",
+                  "options": [
+                    "that"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dolaylı anlatımda 'this' işaret sıfatı 'that' kelimesine dönüşür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The manager ____ us to submit the report by Friday.",
+                  "options": [
+                    "told"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emir veya bildirim aktarırken nesne alan 'told' fiili uygundur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "He asked me ____ I had ever been to London.",
+                  "options": [
+                    "if"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Evet/hayır soruları dolaylı anlatıma çevrilirken 'if' veya 'whether' bağlacı kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In reported speech, the pronoun 'I' often changes to 'he' or 'she' depending on the speaker.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özneler konuşan kişiye göre uygun kişi zamirine uyarlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The modal verb 'must' always changes to 'had to' in reported speech without exception.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Must' geçmiş bir zorunluluğu anlatırken 'had to' olur ancak tavsiye veya çıkarsama anlamındaysa değişmeyebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "When reporting a past continuous tense, it usually shifts to past perfect continuous.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaman geriye çekme kuralı gereği 'was/were V-ing' yapısı 'had been V-ing' olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Time expressions like 'yesterday' remain unchanged in reported speech.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Yesterday' kelimesi dolaylı anlatımda 'the day before' veya 'the previous day' olarak değiştirilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "When reporting a question, we use statement word order rather than question word order.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dolaylı sorularda fiil özneden önce değil, özneden sonra gelir ve soru işareti kullanılmaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "order": 3,
+      "title": "Okuma",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Paragraf Anlama",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Ana Düşünce ve Ayrıntılar",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Çıkarım Soruları",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "order": 4,
+      "title": "Tamamlama Soruları",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "Cümle Tamamlama",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Diyalog Tamamlama",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node3",
+          "order": 3,
+          "title": "Paragraf Tamamlama",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node4",
+          "order": 4,
+          "title": "Anlam Bütünlüğünü Bozan Cümle",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "order": 5,
+      "title": "Çeviri",
+      "nodes": [
+        {
+          "id": "node1",
+          "order": 1,
+          "title": "İngilizce-Türkçe Çeviri",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "node2",
+          "order": 2,
+          "title": "Türkçe-İngilizce Çeviri",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}
