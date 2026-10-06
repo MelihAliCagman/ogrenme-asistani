@@ -88,6 +88,14 @@ Future<void> main() async {
         'examType': content['examType'] ?? 'YKS',
         'subject': content['subject'] ?? 'Biyoloji',
         'hasContent': hasContent,
+        'contentNodeCount': units.fold<int>(
+          0,
+          (sum, u) =>
+              sum +
+              ((u as Map<String, dynamic>)['nodes'] as List)
+                  .where((n) => ((n as Map<String, dynamic>)['flashcards'] as List? ?? []).isNotEmpty)
+                  .length,
+        ),
         'unitCount': units.length,
         'nodeCount': units.fold<int>(
           0,

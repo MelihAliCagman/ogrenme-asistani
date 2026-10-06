@@ -529,19 +529,218 @@
           "id": "unit7",
           "order": 7,
           "title": "Kalıtımın Genel İlkeleri",
-          "nodes": []
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Kalıtımın Temel Kavramları ve Mendel",
+              "estimatedMinutes": 18,
+              "scope": "- Temel kavramlar: gen, alel, lokus, homozigot (saf döl), heterozigot (melez), genotip, fenotip, baskın ve çekinik alel.\n- Mendel bezelyeyi seçti: çabuk ürer, karşıt özellikleri belirgindir, kendilenme ve çapraz döllenme yapılabilir, bol döl verir.\n- Ayrılma (segregasyon) ilkesi: bir karakter için iki alel gamet oluşumunda birbirinden ayrılır, her gamet bir alel taşır.\n- Saf döl bireyler tek tip gamet, melez bireyler iki tip gamet (eşit oranda) oluşturur.\n- Baskın alel, heterozigot durumda fenotipte kendini gösterir; çekinik alel ancak homozigot durumda görülür.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Monohibrit Çaprazlama",
+              "estimatedMinutes": 20,
+              "scope": "- Monohibrit çaprazlama: tek karakter bakımından yapılan çaprazlama; Punnett karesi ile gösterilir.\n- Saf baskın x saf çekinik: F1 tamamı heterozigot ve baskın fenotipli; F1 x F1: F2 genotip oranı 1:2:1, fenotip oranı 3:1.\n- Heterozigot x homozigot çekinik (test çaprazlaması): oran 1:1; baskın fenotipli bireyin genotipini bulmak için kullanılır.\n- Çaprazlamalarda olasılık: belirli bir genotipli yavru olasılığı gamet olasılıklarının çarpımıdır.\n- Yavruların fenotip oranından ana-baba genotipleri çıkarılabilir.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Dihibrit Çaprazlama ve Bağımsız Dağılım",
+              "estimatedMinutes": 22,
+              "scope": "- Dihibrit çaprazlama: iki karakter bakımından çaprazlama; AaBb x AaBb örneğinde F2 fenotip oranı 9:3:3:1.\n- Bağımsız dağılım ilkesi: farklı kromozomlardaki genler gamet oluşumunda birbirinden bağımsız dağılır.\n- AaBb genotipli birey 4 çeşit gamet oluşturur (AB, Ab, aB, ab) eşit olasılıkla; n heterozigot gen çifti için 2 üzeri n çeşit gamet.\n- İki karakterli olasılıklar, tek karakterli olasılıkların çarpılmasıyla bulunur.\n- Bağımsız dağılım, farklı kromozom çiftlerindeki genler için geçerlidir; aynı kromozomdaki bağlı genlerde sapma görülür.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Eksik Baskınlık, Eş Baskınlık ve Çok Alellilik",
+              "estimatedMinutes": 22,
+              "scope": "- Eksik baskınlık: heterozigot bireyde ara fenotip görülür (aslanağzı bitkisinde kırmızı x beyaz = pembe); F2 oranı 1:2:1 (genotip ve fenotip aynı).\n- Eş baskınlık: heterozigot bireyde iki alel de kendini tam gösterir (AB kan grubu).\n- Çok alellilik: bir karakteri üç veya daha fazla alel belirler; ABO kan grubunda IA, IB ve i alelleri vardır.\n- ABO kan grupları: A (IAIA veya IAi), B (IBIB veya IBi), AB (IAIB), O (ii); IA ve IB, i alele baskındır, IA ve IB arasında eş baskınlık vardır.\n- Rh faktörü: Rh pozitif (baskın) ve Rh negatif (çekinik); anne-baba kan gruplarından çocukların olası kan grupları bulunur.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node5",
+              "order": 5,
+              "title": "Eşeye Bağlı Kalıtım",
+              "estimatedMinutes": 20,
+              "scope": "- Eşey kromozomları (gonozomlar): kadında XX, erkekte XY; diğer kromozomlar otozomdur. Çocuğun eşeyini erkeğin spermi belirler.\n- X kromozomuna bağlı çekinik kalıtım: renk körlüğü ve hemofili; erkekte tek X olduğu için çekinik alel tek başına fenotipte görülür.\n- Kadın taşıyıcı olabilir (heterozigot); hasta kadın için iki çekinik alel gerekir.\n- Hasta erkeğin kızları taşıyıcı olur (X'ini kızına verir), oğullarına Y verir; anne taşıyıcı ise oğulların yarısı hasta olabilir.\n- Y kromozomuna bağlı özellikler yalnızca babadan oğula geçer.\n- Eşeye bağlı kalıtımda erkeklerde görülme sıklığı kadınlardan fazladır.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node6",
+              "order": 6,
+              "title": "Soyağacı ve Kalıtsal Hastalıklar",
+              "estimatedMinutes": 22,
+              "scope": "- Soyağacı (pedigri): kareler erkek, daireler kadın, içi dolu semboller etkilenmiş bireyi gösterir; kalıtım şekli (otozomal baskın/çekinik, eşeye bağlı) soyağacından çıkarılır.\n- Otozomal çekinik hastalıklar: orak hücreli anemi, fenilketonüri, albinizm; ebeveyn taşıyıcıysa çocuğun hasta olma olasılığı dörtte bir.\n- Kromozom sayısı anormallikleri: Down sendromu (21. kromozomda trizomi, 47 kromozom), Turner sendromu (XO), Klinefelter sendromu (XXY).\n- Kalıtsal hastalıklar kan akrabalığı olan evliliklerde, çekinik alellerin bir araya gelme olasılığı arttığı için daha sık görülür.\n- Genetik danışma ve ailede hastalık öyküsünün değerlendirilmesi önemlidir.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node7",
+              "order": 7,
+              "title": "Mutasyon, Modifikasyon ve Biyolojik Çeşitlilik",
+              "estimatedMinutes": 20,
+              "scope": "- Mutasyon: DNA'daki kalıcı değişikliktir; gen mutasyonu (tek gen) ve kromozom mutasyonu (yapı veya sayı değişimi); eşey hücresinde olursa kalıtılır.\n- Mutajenler: radyasyon, bazı kimyasallar, virüsler gibi mutasyon olasılığını artıran etkenler.\n- Modifikasyon: çevre koşullarının fenotipte yaptığı, kalıtsal olmayan değişiklik; genotipi değiştirmez (güneşte bronzlaşma gibi).\n- Mutasyon kalıtsaldır, modifikasyon kalıtsal değildir; her ikisi de bireyler arası farklılık oluşturabilir.\n- Biyolojik çeşitlilik kaynakları: mayozda krossing over ve bağımsız dağılım, döllenmede gametlerin rastgele birleşmesi, mutasyonlar.\n- Çeşitlilik, doğal seçilimin üzerinde çalışabileceği farklılıkları sağlayarak türlerin değişen çevreye uyumunu kolaylaştırır.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            }
+          ]
         },
         {
           "id": "unit8",
           "order": 8,
           "title": "Ekosistem Ekolojisi",
-          "nodes": []
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Ekosistemin Bileşenleri",
+              "estimatedMinutes": 18,
+              "scope": "- Ekosistem: canlı (biyotik) ve cansız (abiyotik) faktörlerin etkileşim içinde olduğu sistemdir.\n- Organizasyon sırası: birey, popülasyon, komünite, ekosistem, biyom, biyosfer.\n- Abiyotik faktörler: ışık, sıcaklık, su, toprak, hava, mineraller; biyotik faktörler: tüm canlılar.\n- Habitat: bir canlının yaşadığı ortam; niş: canlının ekosistemdeki yeri ve görevi (beslenme, üreme, yaşam alanı).\n- Aynı niş işgal eden türler arasında rekabet olur; farklı nişler birlikte yaşamayı mümkün kılar.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Besin Zincirleri ve Enerji Akışı",
+              "estimatedMinutes": 22,
+              "scope": "- Ekosistemde üreticiler (fotosentez yapan canlılar), tüketiciler (otçul, etçil, hepçil) ve ayrıştırıcılar (bakteri, mantar) bulunur.\n- Besin zinciri tek yönlüdür: güneş enerjisi üreticiye girer, her basamakta büyük bölümü ısı olarak kaybolur; besin ağı birçok zincirin birleşimidir.\n- Enerji piramidi: bir basamaktan diğerine geçen enerji yaklaşık yüzde 10'dur (yüzde 10 kuralı); üst basamaklarda bireyler ve biyokütle azalır.\n- Enerji tek yönlü akar ve geri dönmez; maddeler ise döngüsel dolaşır.\n- Zehirli maddeler besin zincirinde basamaktan basamağa birikerek artar (biyolojik birikim); en üst basamak en çok etkilenir.\n- Ayrıştırıcılar ölü organizmaları ayrıştırarak maddeleri ekosisteme geri kazandırır.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Madde Döngüleri",
+              "estimatedMinutes": 24,
+              "scope": "- Karbon döngüsü: fotosentezle atmosferdeki CO2 organik maddeye geçer; solunum, ayrışma ve yanmayla tekrar atmosfere döner.\n- Azot döngüsü: atmosferdeki azot, azot bağlayan bakteriler ve şimşekle bitkilerin kullanabileceği hâle gelir (azot fiksasyonu); nitrifikasyon bakterileri amonyağı nitrata çevirir; denitrifikasyon bakterileri nitratı atmosfere azot gazı olarak döndürür.\n- Baklagil köklerinde yaşayan Rhizobium bakterileri ile bitki arasında simbiyoz vardır.\n- Su döngüsü: buharlaşma, terleme, yoğunlaşma, yağış ve yüzey akışı.\n- Fosfor döngüsü gaz fazı içermez; kayaçlardan çözünerek toprağa, bitkilere ve hayvanlara geçer, ayrışmayla toprağa döner.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node4",
+              "order": 4,
+              "title": "Canlılar Arası İlişkiler",
+              "estimatedMinutes": 20,
+              "scope": "- Simbiyoz (birlikte yaşama): mutualizm (iki tarafa da yarar; bakteri-baklagil, liken), kommensalizm (birine yarar, diğeri etkilenmez), parazitlik (birine yarar, diğerine zarar verir).\n- Predasyon (avcı-av ilişkisi): avcı popülasyonu av popülasyonunu dengede tutar.\n- Rekabet: aynı kaynağı kullanan bireyler arasında görülür; türler arası veya tür içi olabilir.\n- Liken, mantar ve alg ya da siyanobakterinin mutualist birlikteliğidir.\n- Mikorizalar, bitki kökleri ile mantarlar arasındaki mutualist ilişkidir.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            }
+          ]
         },
         {
           "id": "unit9",
           "order": 9,
           "title": "Güncel Çevre Sorunları",
-          "nodes": []
+          "nodes": [
+            {
+              "id": "node1",
+              "order": 1,
+              "title": "Çevre Sorunları ve İnsan Etkisi",
+              "estimatedMinutes": 22,
+              "scope": "- Hava kirliliği: fosil yakıt yanması, sanayi gazları; asit yağmurlarına neden olan kükürt ve azot oksitleri.\n- Küresel ısınma: sera gazları (CO2, metan, su buharı) atmosferde ısıyı tutar; buzulların erimesi, deniz seviyesinin yükselmesi, iklim değişikliği.\n- Ozon tabakasının incelmesi: klorofloro karbonlar (CFC) ozonu parçalar; ultraviyole ışınların yeryüzüne ulaşması artar.\n- Su kirliliği ve ötrofikasyon: tarımdan gelen gübre ile sudaki besin artar, algler çoğalır, çözünmüş oksijen azalır, balıklar ölür.\n- Toprak kirliliği ve çölleşme: aşırı otlatma, yanlış tarım, kimyasal atıklar, erozyon.\n- Biyolojik birikim ve zehirli maddeler (DDT, ağır metaller) besin zincirinde yükselerek artar.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node2",
+              "order": 2,
+              "title": "Doğal Kaynaklar ve Sürdürülebilirlik",
+              "estimatedMinutes": 20,
+              "scope": "- Yenilenebilir kaynaklar: güneş, rüzgâr, su, jeotermal, biyokütle; yenilenemez kaynaklar: kömür, petrol, doğal gaz, madenler.\n- Sürdürülebilir kalkınma: gelecek kuşakların ihtiyaçlarını tehlikeye atmadan bugünün ihtiyaçlarını karşılama.\n- Geri dönüşüm: kâğıt, cam, metal, plastik; enerji ve hammadde tasarrufu sağlar, atık miktarını azaltır.\n- Ekolojik ayak izi: bir kişinin ya da toplumun doğal kaynak tüketiminin ve atık üretiminin ölçüsüdür.\n- Orman tahribatı, aşırı avlanma ve su kaynaklarının bilinçsiz kullanımı kaynakları tüketir.\n- Bireysel önlemler: tasarruf, geri dönüşüm, toplu taşıma, yerel ve mevsiminde ürün tüketimi.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            },
+            {
+              "id": "node3",
+              "order": 3,
+              "title": "Biyolojik Çeşitliliğin Korunması",
+              "estimatedMinutes": 20,
+              "scope": "- Biyolojik çeşitlilik üç düzeydedir: tür çeşitliliği, tür içi (genetik) çeşitlilik ve ekosistem çeşitliliği.\n- Nesillerin tükenme nedenleri: yaşam alanı kaybı, aşırı avlanma, kirlilik, istilacı (yabancı) türler, iklim değişikliği.\n- Yerinde (in situ) koruma: milli parklar, tabiat parkları, koruma alanları; yerinde dışı (ex situ) koruma: botanik bahçeleri, hayvanat bahçeleri, gen bankaları, tohum bankaları.\n- Endemik türler yalnızca belirli bir bölgede yaşar; Türkiye'de endemik tür sayısı yüksektir.\n- Biyolojik çeşitlilik ekosistemin dengesini, gıda güvenliğini ve ilaç kaynaklarını korur.",
+              "parts": {
+                "flashcards": 0,
+                "multipleChoice": 0,
+                "fillBlank": 0,
+                "trueFalse": 0
+              },
+              "zorluk_hedefi": null
+            }
+          ]
         }
       ]
     }

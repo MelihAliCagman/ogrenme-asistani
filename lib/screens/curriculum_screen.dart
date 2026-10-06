@@ -266,7 +266,7 @@ class _SubjectCard extends StatelessWidget {
                     ),
                     child: Icon(style.icon, color: Colors.white, size: 26),
                   ),
-                  _StatusDot(ready: path.hasContent),
+                  _StatusDot(percent: path.readyPercent),
                 ],
               ),
               const Spacer(),
@@ -294,14 +294,21 @@ class _SubjectCard extends StatelessWidget {
 }
 
 class _StatusDot extends StatelessWidget {
-  const _StatusDot({required this.ready});
+  const _StatusDot({required this.percent});
 
-  final bool ready;
+  /// Share (0-100) of the ders' topics that already have questions.
+  final int percent;
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
+    final ready = percent > 0;
     final color = ready ? Colors.greenAccent.shade400 : scheme.onSurfaceVariant;
+    final label = percent >= 100
+        ? 'Hazır'
+        : ready
+        ? '%$percent hazır'
+        : 'Yakında';
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
       decoration: BoxDecoration(
@@ -309,7 +316,7 @@ class _StatusDot extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text(
-        ready ? 'Hazır' : 'Yakında',
+        label,
         style: Theme.of(context).textTheme.labelSmall?.copyWith(
           color: color,
           fontWeight: FontWeight.w700,
