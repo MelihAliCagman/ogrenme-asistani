@@ -19,9 +19,10 @@ if ($Remove) {
     exit 0
 }
 
-$script = Join-Path $PSScriptRoot 'daily_generate.ps1'
-$action = New-ScheduledTaskAction -Execute 'powershell.exe' `
-    -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$script`""
+$launcher = Join-Path $PSScriptRoot 'daily_generate_hidden.vbs'
+# wscript + a .vbs launcher runs the job with no window at all.
+$action = New-ScheduledTaskAction -Execute 'wscript.exe' `
+    -Argument "//B //Nologo `"$launcher`""
 $trigger = New-ScheduledTaskTrigger -Daily -At '03:30'
 $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
