@@ -58,3 +58,5 @@ kaynaklar/
 *.epub
 tool/spend_ledger.json
 tool/logs/
+
+docs/staj_defteri*.md
