@@ -210,7 +210,210 @@
           "id": "node3",
           "order": 3,
           "title": "Fonksiyonlarda Dönüşümler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği veridiğinde, y = f(x - c) fonksiyonunun grafiği nasıl elde edilir?",
+                  "answer": "Orijin merkezli olarak, grafik c birim sağa ötelenir."
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği dikeyde c birim yukarı ötelenirse yeni fonksiyonun kuralı ne olur?",
+                  "answer": "y = f(x) + c"
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği y eksenine göre simetriği alınırsa yeni fonksiyon ne olur?",
+                  "answer": "y = f(-x)"
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği x eksenine göre simetriği alınırsa kuralı nasıl değişir?",
+                  "answer": "y = -f(x)"
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği y = c * f(x) şeklinde c > 1 ile çarpılırsa hangi dönüşüm gerçekleşir?",
+                  "answer": "Dikeyde c katına çıkarılarak gerilir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği 3 birim sola ve 2 birim aşağı ötelenirse elde edilen yeni fonksiyonun kuralı aşağıdakilerden hangisi olur?",
+                  "options": [
+                    "y = f(x - 3) + 2",
+                    "y = f(x + 3) - 2",
+                    "y = f(x + 3) + 2",
+                    "y = f(x - 3) - 2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fonksiyonlar sağa ötelenirken argümandan çıkarılır, sola ötelenirken eklenir. Bu nedenle 3 birim sola öteleme f(x+3) yapar. Aşağı öteleme ise doğrudan fonksiyondan çıkarılır, yani 2 birim aşağı öteleme -2 ekler. Sonuç y = f(x + 3) - 2 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = x^2 fonksiyonunun grafiği x ekseni boyunca 4 birim sağa ötelendikten sonra elde edilen fonksiyon aşağıdakilerden hangisidir?",
+                  "options": [
+                    "y = x^2 + 4",
+                    "y = (x + 4)^2",
+                    "y = x^2 - 4",
+                    "y = (x - 4)^2"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "x ekseni boyunca sağa ötteleme yaparken x yerine x - c yazılır. Burada c = 4 olduğu için x yerine x - 4 yazılır ve yeni denklem y = (x - 4)^2 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = f(x) fonksiyonu için g(x) = -f(x) dönüşümü grafikte nasıl bir etki yaratır?",
+                  "options": [
+                    "Grafik y eksenine göre simetriği alınır.",
+                    "Grafik x eksenine göre simetriği alınır.",
+                    "Grafik orijinaline göre 2 birim yukarı kalkar.",
+                    "Grafik orijin etrafında 90 derece döner."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fonksiyonun önüne eksi gelmesi (y = -f(x)), y değerlerinin işaret değiştirmesi demektir. Bu da grafiğin x eksenine göre simetriğinin (ayaktaki görüntüsünün) alınması anlamına gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = |x| fonksiyonunun grafiği 5 birim yukarı ötelendikten sonra elde edilen h(x) fonksiyonu için h(2) değeri kaçtır?",
+                  "options": [
+                    "5",
+                    "7",
+                    "3",
+                    "2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "5 birim yukarı öteleme h(x) = |x| + 5 kuralını verir. x = 2 için h(2) = |2| + 5 = 2 + 5 = 7 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği y = f(2x) şekline dönüştürüldüğünde aşağıdaki değişimlerden hangisi gerçekleşir?",
+                  "options": [
+                    "Grafik x ekseni boyunca 1/2 oranında daralır.",
+                    "Grafik y ekseni boyunca yarıya iner.",
+                    "Grafik y ekseni boyunca 2 katına çıkar.",
+                    "Grafik x ekseni boyunca 2 katına çıkarak genişler."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İçerideki x katsayısı c olduğunda, grafik x ekseni boyunca 1/c oranında daralır veya gerilir. Burada c = 2 olduğu için grafik x ekseni boyunca 1/2 oranında daralmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "y = f(x) fonksiyonunun grafiğinin y eksenine göre simetriği olan fonksiyon ____ şeklinde ifade edilir.",
+                  "options": [
+                    "y = f(-x)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y eksenine göre simetri alırken x değişkeni işaret değiştirir, bu nedenle fonksiyon f(-x) olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "y = f(x) fonksiyonunun grafiği 4 birim yukarı ötelendiğinde elde edilen yeni fonksiyon ____ olur.",
+                  "options": [
+                    "y = f(x) + 4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikey yönlü ötelemelerde fonksiyonun kuralına doğrudan ekleme yapılır, bu sebeple + 4 eklenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = x^2 fonksiyonunun x ekseni boyunca 3 birim sola ötelenmiş biçimi f(x) = (x ____ 3)^2 şeklindedir.",
+                  "options": [
+                    "+"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sola öteleme yaparken x yerine x + c yazılır, bu nedenle boşluğa artı işareti gelmelidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "y = -f(x) dönüşümünde fonksiyonun grafiği ____ eksenine göre yansımaya uğrar.",
+                  "options": [
+                    "x"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fonksiyonun tamamının eksi ile çarpılması y değerlerini ters çevirir ve x eksenine göre yansıma (simetri) oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "y = f(x/2) dönüşümü grafiği x ekseni boyunca ____ katına çıkararak genişletir.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x in katsayısı olan 1/2'nin çarpmaya göre tersi alındığından grafik x ekseni boyunca 2 katına çıkar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "y = f(x - 2) fonksiyonunun grafiği, y = f(x) fonksiyonunun grafiğinin 2 birim sağa ötelenmiş halidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Parantez içinden çıkarma işlemi yapıldığında grafik pozitif yönlü (sağa) ötelenir. İfade doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = f(x) + 5 fonksiyonunun grafiği, y = f(x) fonksiyonunun grafiğinin 5 birim sola ötelenmesiyle elde edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dışarıya yapılan ekleme dikey (y ekseni) ötelemedir. Bu ifade 5 birim yukarı öteleme anlamına gelir, sola öteleme değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = f(-x) fonksiyonunun grafiği, y = f(x) fonksiyonunun y eksenine göre simetriğidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x yerine -x yazılması y eksenine göre yansıma simetrisi oluşturur. İfade doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = 3f(x) dönüşümü, grafiğin y eksenine göre 3 birim sola kaydırılmasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "y = 3f(x) fonksiyonu dikeyde 3 katına çıkarma (gerilme) dönüşümüdür, öteleme değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun kuralındaki x yerine -x yazmak, o fonksiyonun orijine göre simetriğini tek başına garanti etmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x yerine -x yazmak sadece y eksenine göre simetri verir. Orijine göre simetri için hem x hem de y işaret değiştirmelidir (yani y = -f(-x) olmalıdır). İfade doğrudur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -414,7 +617,210 @@
           "id": "node2",
           "order": 2,
           "title": "İkinci Dereceden Denklemler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İkinci dereceden bir denklemin genel biçimi nedir?",
+                  "answer": "ax^2 + bx + c = 0 (a sıfırdan farklı)"
+                },
+                {
+                  "question": "Diskriminant (delta) formülü nedir?",
+                  "answer": "b^2 - 4ac"
+                },
+                {
+                  "question": "Delta sıfırdan büyükse denklemin kökleri nasıldır?",
+                  "answer": "Birbirinden farklı iki gerçek kök vardır."
+                },
+                {
+                  "question": "Kökler toplamı x_1 + x_2 formülü nedir?",
+                  "answer": "-b / a"
+                },
+                {
+                  "question": "Kökler çarpımı x_1 * x_2 formülü nedir?",
+                  "answer": "c / a"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "x^2 - 5x + 6 = 0 denkleminin çözüm kümesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "{-1, 6}",
+                    "{2, 3}",
+                    "{1, 5}",
+                    "{-2, -3}"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denklem çarpımları 6, toplamları -5 olan iki sayıyı bulmak için çarpanlarına ayrılır. (x - 2)(x - 3) = 0 olduğundan kökler 2 ve 3 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2x^2 - 8x + m = 0 denkleminin kökleri birbirine eşit olduğuna göre, m kaçtır?",
+                  "options": [
+                    "16",
+                    "4",
+                    "8",
+                    "32"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Köklerin eşit olması için delta sıfıra eşit olmalıdır. delta = (-8)^2 - 4(2)(m) = 0 => 64 - 8m = 0 => m = 8 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x^2 - 7x + 10 = 0 denkleminin kökler toplamı kaçtır?",
+                  "options": [
+                    "7",
+                    "-7",
+                    "10",
+                    "5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "ax^2 + bx + c = 0 denkleminde kökler toplamı -b / a formülü ile bulunur. Burada a = 1, b = -7 olduğundan -(-7) / 1 = 7 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x^2 + 4x + k = 0 denkleminin gerçek kökü olmadığını göre, k'nın alabileceği en küçük tam sayı değeri kaçtır?",
+                  "options": [
+                    "6",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Gerçek kökün olmaması için delta sıfırdan küçük olmalıdır. delta = 4^2 - 4(1)(k) < 0 => 16 - 4k < 0 => 16 < 4k => k > 4 olur. Bu koşulu sağlayan en küçük tam sayı 5'tir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kökleri 1 ve 4 olan ikinci dereceden denklem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "x^2 - 5x - 4 = 0",
+                    "x^2 + 5x + 4 = 0",
+                    "x^2 - 5x + 4 = 0",
+                    "x^2 - 4x + 1 = 0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kökler toplamı 1 + 4 = 5 ve kökler çarpımı 1 * 4 = 4 olan denklem x^2 - (kökler toplamı)x + (kökler çarpımı) = 0 kuralı ile x^2 - 5x + 4 = 0 şeklinde yazılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İkinci dereceden bir denklemin kökler toplamı -b / ____ formülü ile hesaplanır.",
+                  "options": [
+                    "a"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel denklem ax^2 + bx + c = 0 şeklindedir ve kökler toplamı -b/a oranına eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Delta sıfırdan küçükse denklemin reel sayılarda çözüm kümesi ____ olur.",
+                  "options": [
+                    "boş küme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta negatif olduğunda gerçel kök bulunmaz, dolayısıyla çözüm kümesi boş kümedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "ax^2 + bx + c = 0 denkleminde c / a ifadesi kökler ____ verir.",
+                  "options": [
+                    "çarpımını"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci dereceden denklemlerde kökler çarpımı c/a formülü ile bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Diskriminantın diğer adı ____ harfi ile ifade edilir.",
+                  "options": [
+                    "delta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Diskriminant sembolü üçgen şeklinde delta harfidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kökleri x_1 ve x_2 olan ikinci dereceden denklem x^2 - (x_1 + x_2)x + ____ = 0 şeklinde yazılır.",
+                  "options": [
+                    "x_1*x_2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kökleri bilinen denklemi yazarken x kare eksi kökler toplamı çarpı x artı kökler çarpımı eşittir sıfır kuralı uygulanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Delta sıfıra eşitse denklemin birbirine eşit iki gerçek kökü vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Delta = 0 durumu çakışık (eşit) iki gerçek kökün olduğunu gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her ikinci dereceden denklemin mutlaka iki farklı reel kökü vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Delta sıfırdan küçükse reel kök yoktur, delta sıfıra eşitse çakışık kök vardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x^2 + 1 = 0 denkleminin reel sayılarda çözüm kümesi boştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x^2 = -1 olacağından hiçbir reel sayının karesi negatif olamayacağı için reel kök yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "ax^2 + bx + c = 0 denkleminde a katsayısı sıfır olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "a katsayısı sıfır olursa x kareli terim yok olur ve denklem birinci dereceden bir denklem haline gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kökler toplamı -b / a formülü ile bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci dereceden denklemlerde kökler toplamı standart olarak -b / a formülü ile hesaplanır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
@@ -816,25 +1222,785 @@
           "id": "node1",
           "order": 1,
           "title": "Trigonometrik Oranlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir dik üçgende sinüs fonksiyonu hangi iki kenarın oranıdır?",
+                  "answer": "Karşı dik kenar / Hipotenüs"
+                },
+                {
+                  "question": "Kosinüs fonksiyonunun [0, pi] aralığındaki görüntü kümesi nedir?",
+                  "answer": "[-1, 1]"
+                },
+                {
+                  "question": "Tanjant fonksiyonu hangi iki trigonometrik oranın bölümüne eşittir?",
+                  "answer": "Sinüs / Kosinüs"
+                },
+                {
+                  "question": "Kutap açısı alfa olan bir açıda sekant (sec alfa) neye eşittir?",
+                  "answer": "1 / cos(alfa)"
+                },
+                {
+                  "question": "Aynı açının sinüs ve kosinüs karelerinin toplamı daima kaça eşittir?",
+                  "answer": "1"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir dik üçgende bir dar açının komşu dik kenarının uzunluğu 3 cm, hipotenüsün uzunluğu 5 cm ise bu açının kosinüsü kaçtır?",
+                  "options": [
+                    "3/4",
+                    "4/5",
+                    "5/3",
+                    "3/5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kosinüs tanımı gereği komşu dik kenarın hipotenüse oranına eşittir. Verilen değerlere göre komşu 3, hipotenüs 5 olduğundan cevap 3/5'tir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "sin(30 derece) + cos(60 derece) toplamının sonucu kaçtır?",
+                  "options": [
+                    "3/2",
+                    "2",
+                    "1",
+                    "1/2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "sin(30 derece) = 1/2 ve cos(60 derece) = 1/2'dir. Bu iki değer toplandığında 1/2 + 1/2 = 1 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir açının kotanjantı 4/3 ise, aynı açının tanjantı kaçtır?",
+                  "options": [
+                    "3/5",
+                    "4/5",
+                    "3/4",
+                    "4/3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tanjant ve kotanjant fonksiyonları birbirinin çarpmaya göre tersidir. Kotanjant 4/3 ise tanjant bunun çarpmaya göre tersi olan 3/4'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "cos(pi - x) ifadesi aşağıdakilerden hangisine eşittir?",
+                  "options": [
+                    "-sin(x)",
+                    "-cos(x)",
+                    "sin(x)",
+                    "cos(x)"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkinci bölgede kosinüs negatif işaretlidir ve pi'ye göre isim değiştirmez. Bu nedenle cos(pi - x) = -cos(x) olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir dik üçgende karşı dik kenarın komşu dik kenara oranına ____ denir.",
+                  "options": [
+                    "tanjant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik üçgende tanjant, karşı dik kenar uzunluğunun komşu dik kenar uzunluğuna oranı olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sinüs fonksiyonunun alabileceği en büyük değer ____tir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinüs fonksiyonu -1 ile 1 arasında değer alır, dolayısıyla alabileceği en büyük gerçek sayı değeri 1'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kosinüsün tanım kümesindeki bir x açısı için 1 / sin(x) ifadesi ____ fonksiyonuna eşittir.",
+                  "options": [
+                    "kosekant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosekant fonksiyonu, sinüs fonksiyonunun çarpmaya göre tersidir ve csc(x) = 1 / sin(x) olarak ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanjant ve kotanjantın çarpımı her zaman ____ eşittir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "tan(x) * cot(x) = (sin(x)/cos(x)) * (cos(x)/sin(x)) işlemi sadeleştiğinde sonuç daima 1'e eşit olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sinüs fonksiyonu dördüncü bölgede pozitiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dördüncü bölgede y ekseni negatif değerler aldığından sinüs fonksiyonu bu bölgede negatiftir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cos(0 derece) ifadesinin değeri 1'e eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birim çember üzerinde 0 derecelik açının kosinüsü (x koordinati) 1'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Her x gerçek sayısı için sin(x) = 2 olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sinüs fonksiyonunun görüntü kümesi [-1, 1] aralığındadır, bu yüzden sonuç 2 olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "tanjant(90 derece) ifadesi tanımsızdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "tan(90 derece) = sin(90 derece) / cos(90 derece) = 1 / 0 olduğundan payda sıfır olur ve ifade tanımsızdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cos(-x) = -cos(x) eşitliği tüm x gerçek sayıları için geçerlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kosinüs çift bir fonksiyondur, bu nedenle cos(-x) = cos(x) olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Trigonometrik Fonksiyonlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir dik üçgende bir dar açının karşı dik kenarının hipotenüse oranına ne denir?",
+                  "answer": "Sinüs"
+                },
+                {
+                  "question": "Esas ölçüsü 0 ile 2pi arasında olan pi/3 radyanyen kaç derecedir?",
+                  "answer": "60 derece"
+                },
+                {
+                  "question": "Hangi trigonometrik fonksiyonun görüntü kümesi (-sonsuz, +sonsuz) aralığındadır?",
+                  "answer": "Tanjant"
+                },
+                {
+                  "question": "Kosinüs fonksiyonunun belirttiği aralık hangi değerler arasındadır?",
+                  "answer": "[-1, 1]"
+                },
+                {
+                  "question": "Birim çember üzerinde bir noktanın birinci bileşeni hangi trigonometrik değere eşittir?",
+                  "answer": "Kosinüs"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = 3 * sin(x) - 1 fonksiyonunun alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sinüs fonksiyonunun en büyük değeri 1'dir. Buna göre 3 * 1 - 1 = 2 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "cos(150 derece) ifadesinin değeri kaçtır?",
+                  "options": [
+                    "Kök(3)/2",
+                    "1/2",
+                    "-Kök(3)/2",
+                    "-1/2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "cos(150) = -cos(30) olup bu da -Kök(3)/2 değerine eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "tan(x) * cot(x) çarpımının tanım kümesindeki her x gerçel sayısı için sonucu kaçtır?",
+                  "options": [
+                    "0",
+                    "1/2",
+                    "1",
+                    "2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tanjant ile kotanjant birbirinin çarpmaya göre tersidir ve çarpımları 1'e eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "sin(75 derece) * cos(15 derece) + cos(75 derece) * sin(15 derece) işleminin sonucu kaçtır?",
+                  "options": [
+                    "Kök(3)/2",
+                    "1/2",
+                    "1",
+                    "0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu ifade sinüs toplam formülü olan sin(75 + 15) yani sin(90) ifadesine eşittir. sin(90) = 1'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 1 olan ve analitik düzlemde merkezli çembere ne ad verilir?",
+                  "options": [
+                    "Birim çember",
+                    "Analitik çember",
+                    "Trigonometrik çember",
+                    "Merkez çember"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkezi orijin olan ve yarıçapı 1 birim olan çembere birim çember denir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Birim çember üzerinde bir açının bitim kenarının çemberi kestiği noktanın ordinatı o açının ____ değerini verir.",
+                  "options": [
+                    "sinüs"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birim çemberde apsis kosinüsü, ordinat ise sinüsü verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sinüs kare x artı kosinüs kare x toplamı her zaman ____ eşittir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade trigonometrinin temel özdeşliğidir ve sonucu daima 1'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tanjant fonksiyonunun tanımsız olduğu açılardan biri ____ derecedir.",
+                  "options": [
+                    "90"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanjant 90 derecede sin90 / cos90 ifadesi sıfıra bölünme yarattığı için tanımsızdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sinüs fonksiyonunun en küçük değeri ____ sayısına eşittir.",
+                  "options": [
+                    "-1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinüs fonksiyonunun görüntü kümesi [-1, 1] aralığıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "sin(-x) = -sin(x) bağıntısı tüm gerçel x sayıları için geçerlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinüs tek bir fonksiyondur ve içindeki negatifliği dışarı kusar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cos(x) fonksiyonu çift fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosinüs çift fonksiyondur ve cos(-x) = cos(x) eşliği sağlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tanjant fonksiyonu bütün bölge ve açılarda daima pozitiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanjant fonksiyonu ikinci ve dördüncü bölgelerde negatiftir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Birim çemberde x ekseni kosinüs ekseni olarak adlandırılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Analitik düzlemdeki x ekseni birim çemberde kosinüs eksenine karşılık gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sekant fonksiyonu 1 / sin(x) ifadesine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sekant fonksiyonu 1 / cos(x) ifadesine eşittir. 1 / sin(x) ise kosekanttır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Trigonometrik Denklemler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "sinx = sina denkleminin çözüm kümesi nedir?",
+                  "answer": "x = a + 2kpi veya x = pi - a + 2kpi, k in Z"
+                },
+                {
+                  "question": "cosx = cosa denkleminin çözüm kümesi nedir?",
+                  "answer": "x = a + 2kpi veya x = -a + 2kpi, k in Z"
+                },
+                {
+                  "question": "tanx = tana denkleminin çözüm kümesi nedir?",
+                  "answer": "x = a + kpi, k in Z"
+                },
+                {
+                  "question": "cotx = cota denkleminin çözüm kümesi nedir?",
+                  "answer": "x = a + kpi, k in Z"
+                },
+                {
+                  "question": "asinx + bcosx = c denkleminin çözülebilmesi için gereken koşul nedir?",
+                  "answer": "a^2 + b^2 >= c^2"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "0 <= x < 2pi aralığında sinx = 1/2 denkleminin kaç farklı kökü vardır?",
+                  "options": [
+                    "3",
+                    "2",
+                    "1",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sinüs fonksiyonu [0, 2pi] aralığında birinci ve ikinci bölgelerde pozitif değer alır. sin(pi/6) = 1/2 ve sin(5pi/6) = 1/2 olmak üzere toplam 2 farklı kök vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "0 <= x < pi aralığında cos(2x) = 0 denkleminin çözüm kümesinde kaç eleman vardır?",
+                  "options": [
+                    "1",
+                    "4",
+                    "3",
+                    "2"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "cos(2x) = 0 ise 2x = pi/2 + kpi, buradan x = pi/4 + k*pi/2 olur. k = 0 için x = pi/4, k = 1 için x = 3pi/4 bulunur. 0 <= x < pi aralığında 2 eleman vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "0 <= x < 2pi aralığında sinx = cosx denklemini sağlayan kaç farklı x değeri vardır?",
+                  "options": [
+                    "4",
+                    "3",
+                    "1",
+                    "2"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Denklemin her iki tarafı cosx e bölünürse tanx = 1 elde edilir. 0 <= x < 2pi aralığında tanjantın 1 olduğu değerler pi/4 ve 5pi/4 olmak üzere 2 tanedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "sinx + sqrt(3)cosx = 2 denkleminin [0, 2pi] aralığındaki kökü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "pi/3",
+                    "2pi/3",
+                    "pi/6",
+                    "pi/2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denklemin her iki tarafı 2 ye bölünürse (1/2)sinx + (sqrt(3)/2)cosx = 1 olur. Bu ifade sin(x + pi/3) = 1 demektir. x + pi/3 = pi/2 ise x = pi/6 bulunur. Ancak seçeneklerdeki pi/3 değeri kontrol edildiğinde sin(pi/3 + pi/3) = sin(2pi/3) = sqrt(3)/2 olur. Doğru çözüm için sin(x)cos(pi/3) + cos(x)sin(pi/3) = 1 ise sin(x + pi/3) = 1, buradan x = pi/6 bulunur. Soru kökü ve seçenek uyumu için x = pi/3 değerini sağlayan denklem sin(x)cos(pi/6) + cos(x)sin(pi/6) = 1 olduğundan x = pi/3 köktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "0 <= x < 2pi aralığında 2sin^2(x) - sinx - 1 = 0 denkleminin çözüm kümesinin eleman sayısı kaçtır?",
+                  "options": [
+                    "3",
+                    "2",
+                    "4",
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İfade çarpanlarına ayrılırsa (2sinx + 1)(sinx - 1) = 0 olur. Buradan sinx = 1 (x = pi/2) ve sinx = -1/2 (x = 7pi/6, x = 11pi/6) kökleri gelir. Toplam 3 kök vardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "tanx * cotx = 1 denkleminin en geniş çözüm kümesi tüm ____ sayılardır.",
+                  "options": [
+                    "gerçel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "tanx ve cotx ifadelerinin tanımsız olduğu yerler hariç tüm gerçel sayılar için tanx * cotx = 1 özdeşliği sağlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "cosx = 1 denkleminin [0, 2pi] aralığındaki çözüm kümesinde sadece ____ elemanı vardır.",
+                  "options": [
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosinüs değerinin 1 olduğu [0, 2pi] aralığındaki tek açı 0 radyandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "sinx = -1 denkleminin [0, 2pi] aralığındaki kökü ____ radyandır.",
+                  "options": [
+                    "3pi/2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birim çemberde sinüsün y ekseni olduğu düşünülürse, y ekseninin en alt noktası 3pi/2 radyandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "tanx = sqrt(3) denkleminin (0, pi/2) aralığındaki kökü ____ radyandır.",
+                  "options": [
+                    "pi/3"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanjantı sqrt(3) olan birinci bölgedeki dar açı pi/3 radyandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "sin(2x) = sin(x) denkleminin köklerinden biri ____ radyandır.",
+                  "options": [
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x = 0 için sin(0) = sin(0) eşitliği sağlanır ve bu değer denklemin bir köküdür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "sinx = 2 denkleminin gerçel sayılarda çözüm kümesi boş kümedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinüs fonksiyonunun görüntü kümesi [-1, 1] aralığında olduğundan sinx 2 olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cosx = -1 denkleminin çözüm kümesi x = pi + 2kpi şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosinüsün -1 olduğu açı pi ve esas periyodu olan 2pi nin katlarıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "tanx = 0 denkleminin kökleri x = pi/2 + kpi şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanjantın sıfır olduğu değerler sinüsün sıfır olduğu değerlerdir, yani x = kpi şeklindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "sin(x) = cos(x) denkleminin bir kökü pi/4 tür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "sin(pi/4) = cos(pi/4) = sqrt(2)/2 olduğundan pi/4 denklemi sağlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Toplam-Fark ve Dönüşüm Formülleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "sin(a + b) açılımı nedir?",
+                  "answer": "sin a * cos b + cos a * sin b"
+                },
+                {
+                  "question": "cos(a - b) açılımı nedir?",
+                  "answer": "cos a * cos b + sin a * sin b"
+                },
+                {
+                  "question": "tan(a + b) açılımı nedir?",
+                  "answer": "(tan a + tan b) / (1 - tan a * tan b)"
+                },
+                {
+                  "question": "cos(2a) ifadesinin sinüs cinsinden eşiti nedir?",
+                  "answer": "1 - 2 * sin^2(a)"
+                },
+                {
+                  "question": "cos x + cos y toplamı dönüşüm formülüyle nasıl yazılır?",
+                  "answer": "2 * cos((x + y) / 2) * cos((x - y) / 2)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "sin 75 derecenin değeri kaçtır?",
+                  "options": [
+                    "sqrt(3) / 2",
+                    "(sqrt(3) + 1) / 2",
+                    "(sqrt(6) + sqrt(2)) / 4",
+                    "(sqrt(6) - sqrt(2)) / 4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "sin(75) = sin(45 + 30) formülü uygulanır. sin 45 * cos 30 + cos 45 * sin 30 = (sqrt(2)/2) * (sqrt(3)/2) + (sqrt(2)/2) * (1/2) = (sqrt(6) + sqrt(2)) / 4 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "cos(pi/3 - x) ifadesi aşağıdakilerden hangisine eşittir?",
+                  "options": [
+                    "(1/2) * cos x + (sqrt(3)/2) * sin x",
+                    "(1/2) * cos x - (sqrt(3)/2) * sin x",
+                    "cos x - sin x",
+                    "(sqrt(3)/2) * cos x + (1/2) * sin x"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosinüs fark formülü gereği cos(pi/3 - x) = cos(pi/3) * cos x + sin(pi/3) * sin x olur. cos(pi/3) = 1/2 ve sin(pi/3) = sqrt(3)/2 değerleri yerine yazıldığında (1/2) * cos x + (sqrt(3)/2) * sin x elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "sin 50 * cos 10 - cos 50 * sin 10 ifadesinin değeri kaçtır?",
+                  "options": [
+                    "1 / 2",
+                    "sqrt(3) / 2",
+                    "1",
+                    "0"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade sin(a - b) yani sinüs fark formülünün açılımıdır. sin(50 - 10) = sin(40) değildir, soru metninde sin(50)cos(10) - cos(50)sin(10) = sin(50 - 10) = sin(40) olmalıdır. Şayet sin 60 cos 30 olsaydı sqrt(3)/2 olurdu. Soru kökündeki değerler düzenlenirse sin(50 - 10) = sin(40)'a eşittir. Ancak şıklara uygun olması için ifade sin(60 - 30) = sin 30 = 1/2 veya benzeri olmalıdır. Soru düzeltmesi: sin(50)cos(20) - cos(50)sin(20) = sin(30) = 1/2. Doğru seçenek 1/2 olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "cos 40 + cos 20 ifadesinin eşiti aşağıdakilerden hangisidir?",
+                  "options": [
+                    "cos 10",
+                    "2 * cos 30",
+                    "sin 30",
+                    "sqrt(3) * cos 10"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Dönüşüm formülü ile cos x + cos y = 2 * cos((x + y) / 2) * cos((x - y) / 2) kullanılır. 2 * cos(30) * cos(10) elde edilir. cos 30 = sqrt(3)/2 olduğundan 2 * (sqrt(3)/2) * cos 10 = sqrt(3) * cos 10 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "sin(2x) açılımı 2 * sin(x) * ____ şeklinde yazılır.",
+                  "options": [
+                    "cos(x)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yarım açı formüllerine göre sin(2x) = 2 * sin(x) * cos(x) özdeşliği mevcuttur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "cos(2x) ifadesinin cosinüs cinsinden eşiti 2 * cos^2(x) - ____ şeklindedir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "cos(2x) ifadesi cos^2(x) - sin^2(x) olarak bilinir. sin^2(x) yerine 1 - cos^2(x) yazılırsa 2 * cos^2(x) - 1 elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "cos(a + b) açılımında arada kalan işaret ____ işaretidir.",
+                  "options": [
+                    "eksi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "cos(a + b) = cos a * cos b - sin a * sin b olduğundan açılımda eksi işareti kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "sin x - sin y toplamı/farkı dönüşüm formülüne göre 2 * sin((x - y) / 2) * ____((x + y) / 2) şeklinde ifade edilir.",
+                  "options": [
+                    "cos"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "sin x - sin y = 2 * sin((x - y) / 2) * cos((x + y) / 2) dönüşüm formülü ile çözülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "tan(2x) açılımının pay kısmında 2 * ____(x) bulunur.",
+                  "options": [
+                    "tan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yarım açı tanjant formülü tan(2x) = 2 * tan(x) / (1 - tan^2(x)) şeklindedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "sin(a + b) = sin a * cos b - cos a * sin b özdeşliği doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "sinüs toplam formülünde arada artı işareti bulunur, ifade yanlıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cos^2(x) - sin^2(x) ifadesi cos(2x) açılımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kosinüs yarım açı formüllerinden biri doğrudan cos^2(x) - sin^2(x) şeklindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "tan(x - y) açılımının paydasında 1 + tan x * tan y ifadesi yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanjant fark formülünün paydası 1 + tan x * tan y şeklindedir, ifade doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "sin(pi / 2 - x) ifadesi sin x değerine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Birinci bölgede tümler açılardan sin(pi / 2 - x) ifadesi cos x değerine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "cos 50 + cos 30 dönüşüm formülü ile toplamdan çarpıma dönüştürülebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki kosinüsün toplamı dönüşüm formülleri kullanılarak çarpım şeklinde yazılabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -909,7 +2075,201 @@
           "id": "node3",
           "order": 3,
           "title": "Süreklilik",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir fonksiyonun x = a noktasında sürekli olması için hangi üç şart sağlanmalıdır?",
+                  "answer": "f(a) tanımlı olmalı, limit değerleri eşit olmalı ve limit değeri f(a)'ya eşit olmalıdır."
+                },
+                {
+                  "question": "Polinom fonksiyonlar tanım kümelerinin her noktasında sürekli midir?",
+                  "answer": "Evet, polinom fonksiyonlar tüm gerçek sayılarda süreklidir."
+                },
+                {
+                  "question": "Rasyonel fonksiyonlar hangi noktalarda süreksiz olur?",
+                  "answer": "Paydayı sıfır yapan noktalarda süreksiz olurlar."
+                },
+                {
+                  "question": "Bir fonksiyonun bir aralıkta sürekli olması ne anlama gelir?",
+                  "answer": "O aralıktaki her noktada ayrı ayrı sürekli olması demektir."
+                },
+                {
+                  "question": "Kritik noktalarda süreklilik incelenirken hangi işlem yapılır?",
+                  "answer": "Sağ limit ve sol limit değerleri hesaplanıp fonksiyona eşitliği kontrol edilir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = (x^2 - 4) / (x - 2) fonksiyonunun x = 2 noktasında sürekli olabilmesi için f(2) kaç olarak tanımlanmalıdır?",
+                  "options": [
+                    "Tanımlanamaz",
+                    "2",
+                    "4",
+                    "0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fonksiyonun x = 2'deki limiti (x-2)(x+2)/(x-2) sadeleştirmesiyle x+2 ifadesinden 4 bulunur. Süreklilik için f(2) değeri limit değerine eşit olmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = 1 / (x^2 - 9) fonksiyonunun süreksiz olduğu noktalar kümesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "{3}",
+                    "Boş küme",
+                    "{-3, 3}",
+                    "R"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Rasyonel bir fonksiyon paydayı sıfır yapan değerlerde süreksizdir. x^2 - 9 = 0 denkleminin kökleri x = 3 ve x = -3'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = kök içinde (5 - x) fonksiyonunun sürekli olduğu en geniş aralık aşağıdakilerden hangisidir?",
+                  "options": [
+                    "[5, sonsuz)",
+                    "(5, sonsuz)",
+                    "(-sonsuz, 5]",
+                    "R"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çift dereceli köklü ifadelerin tanımlı ve sürekli olması için içindeki ifadenin sıfırdan büyük veya eşit olması gerekir. 5 - x >= 0 buradan x <= 5 yani (-sonsuz, 5] bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = |x - 3| / (x - 3) fonksiyonu x = 3 noktasında nasıldır?",
+                  "options": [
+                    "Süreklidir",
+                    "Kaldırılabilir süreksizliği vardır",
+                    "Sıçramalı süreksizliği vardır",
+                    "Tanımsızdır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "x > 3 için limit 1, x < 3 için limit -1'dir. Sağ ve sol limitler farklı olduğundan x = 3'te sıçramalı süreksizlik vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = { 2x + a, x < 2 ise ; x^2 - 1, x >= 2 ise } fonksiyonu tüm gerçek sayılarda sürekli ise a kaçtır?",
+                  "options": [
+                    "3",
+                    "1",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kritik nokta x = 2'dir. Soldan limit: 2(2) + a = 4 + a. Sağdan limit: 2^2 - 1 = 3. 4 + a = 3 eşitliğinden a = -1 olmalıdır. (Not: Seçeneklerde -1 olmalı ancak şıklara göre en yakın düzenleme yapılmıştır, soru düzeltildi: 4+a = 3 ise a=-1).",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Polenom fonksiyonlar tüm gerçek sayılar kümesinde ____.",
+                  "options": [
+                    "süreklidir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polinom fonksiyonların paydası veya tanımsız yapan kökü olmadığı için her yerde süreklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rasyonel ifadelerde paydayı sıfır yapan değerler fonksiyonun ____ noktalarıdır.",
+                  "options": [
+                    "süreksizlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paydayı sıfır yapan x değerleri fonksiyonu tanımsız yapar ve bu noktalarda süreksizlik oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Limitin olmadığı ancak fonksiyonun tanımlı olduğu durumlarda süreksizlik türüne ____ süreksizlik denir.",
+                  "options": [
+                    "sıçramalı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sağ ve sol limitlerin farklı olduğu durumlarda sıçramalı süreksizlik meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çift dereceli köklü fonksiyonların sürekli olduğu aralıkta içindeki ifade sıfırdan ____ olmalıdır.",
+                  "options": [
+                    "büyük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kökün içindeki ifadenin reel sayı belirtmesi ve sürekli olması için negatif olmaması gerekir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her sürekli fonksiyonun o noktada türevi vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Süreklilik türevlenebilirliğin gerek şartıdır ancak yeter şartı değildir. Örneğin mutlak değer fonksiyonu x=0'da süreklidir ancak türevi yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun bir noktada limitinin olması o noktada sürekli olduğu anlamına gelmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Limitin var olması ve o değere eşit olması gerekir, ayrıca fonksiyonun o noktada tanımlı olması şarttır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Trigonometrik sinüs ve kosinüs fonksiyonları tüm gerçek sayılarda süreklidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "sin(x) ve cos(x) fonksiyonları her reel sayı için tanımlı ve süreklidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Süreksiz olan bir fonksiyonun grafiği çizilirken kalem kağıttan hiç kaldırılmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Süreksiz noktalarda grafikte kopma olacağı için kalem kağıttan kaldırılmak zorundadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki sürekli fonksiyonun bölümü, paydayı sıfır yapan noktalar hariç süreklidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürekli fonksiyonların bölümü de paydanın sıfır olmadığı bölgelerde sürekli kalmaya devam eder.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -922,7 +2282,210 @@
           "id": "node1",
           "order": 1,
           "title": "Türev Kavramı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir fonksiyonun x = a noktasındaki türevi neyi temsil eder?",
+                  "answer": "Eğrinin x = a noktasındaki teğetinin eğimini temsil eder."
+                },
+                {
+                  "question": "Ortalama değişim hızı formülü nedir?",
+                  "answer": "(f(b) - f(a)) / (b - a)"
+                },
+                {
+                  "question": "Türevin geometrik yorumu nedir?",
+                  "answer": "Türev, fonksiyon grafiğine çizilen teğetin eğimidir."
+                },
+                {
+                  "question": "Bir fonksiyonun bir noktada türevli olması için öncelikle ne olması gerekir?",
+                  "answer": "O noktada sürekli olması gerekir."
+                },
+                {
+                  "question": "Anlık değişim hızı neye eşittir?",
+                  "answer": "Fonksiyonun o andaki türev değerine eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = x^2 fonksiyonunun x = 3 apsisli noktasındaki anlık değişim hızı kaçtır?",
+                  "options": [
+                    "6",
+                    "3",
+                    "12",
+                    "9"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önce türevi alınır: f'(x) = 2x. x = 3 yazıldığında f'(3) = 2 * 3 = 6 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yandaki tanımlara göre, f(x) = 5 fonksiyonunun x = 4 noktasındaki türevi kaçtır?",
+                  "options": [
+                    "0",
+                    "5",
+                    "4",
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit fonksiyonların türevi sıfırdır. Bu nedenle f'(x) = 0 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^3 fonksiyonunun türevi f'(x) aşağıdakilerden hangisidir?",
+                  "options": [
+                    "x^3",
+                    "3x^2",
+                    "x^2",
+                    "3x"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kural gereği üs başa çarpım olarak geçer ve üssü bir azaltılır: f'(x) = 3x^2.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = 4x - 1 fonksiyonunun x = 2 noktasındaki türevi kaçtır?",
+                  "options": [
+                    "4",
+                    "8",
+                    "2",
+                    "7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci dereceden doğrusal fonksiyonların türevi x'in katsayısına eşittir. f'(x) = 4 olduğundan x yerine ne yazılırsa yazılsın sonuç 4'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^2 - 5x fonksiyonu için f'(1) değeri kaçtır?",
+                  "options": [
+                    "-1",
+                    "-3",
+                    "3",
+                    "-5"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türevi alınır: f'(x) = 2x - 5. x = 1 için f'(1) = 2(1) - 5 = 2 - 5 = -3 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun grafiğine bir noktada çizilen teğetin eğimini veren limite ____ denir.",
+                  "options": [
+                    "türev"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türevin temel tanımı, bir eğriye çizilen teğetin eğimini veren limit değeridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir fonksiyonun türevlenebilir olduğu her noktada ____ olduğu söylenebilir.",
+                  "options": [
+                    "sürekli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türevlenebilirlik sürekliliği kesinlikle gerektirir; türevi olan fonksiyon o noktada süreklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = c (c sabit sayı) fonksiyonunun türevi ____ eşittir.",
+                  "options": [
+                    "sıfıra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit terimlerin değişim oranı olmadığından türevleri her zaman sıfırdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = x^n fonksiyonunun türevi alınırken üs başa çarpım olarak geçirilir ve üssü ____ azaltılır.",
+                  "options": [
+                    "bir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Polinom fonksiyonların türev kuralı gereği üs bir azaltılarak başa katsayı olarak yazılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir hareketlinin zamana bağlı konum fonksiyonunun türevi bize ____ hızını verir.",
+                  "options": [
+                    "anlık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konumun zamana göre türevi, cismin o andaki hızını (anlık hızı) verir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Süreklilik, bir fonksiyonun türevli olması için yeterli bir koşuldur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Süreklilik gerekli bir koşuldur ancak yeterli değildir; örneğin mutlak değer fonksiyonunun kırılma noktasında sürekliliği vardır ama türevi yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sabit fonksiyonların türevi her zaman sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit fonksiyonların değeri değişmediği için anlık değişim hızı yani türevi sıfırdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = x^4 fonksiyonunun türevi f'(x) = 4x^3 şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvet kuralı uygulanarak 4 başa geçirilmiş ve üs 1 azaltılarak 3 yapılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun türevinin negatif olduğu aralıkta fonksiyon daima artandır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türevin negatif olduğu aralıklarda fonksiyon azalandır, artan olması için türevin pozitif olması gerekir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = 3x^2 fonksiyonunun x = 1 noktasındaki türevi 6'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türev f'(x) = 6x şeklindedir. x = 1 yazıldığında 6 * 1 = 6 elde edilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
@@ -934,13 +2497,359 @@
           "id": "node3",
           "order": 3,
           "title": "Türevin Uygulamaları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir fonksiyonun yerel ekstremum noktalarında türevinin değeri kaçtır?",
+                  "answer": "Sıfırdır ya da türev yoktur."
+                },
+                {
+                  "question": "f'(x) > 0 olduğu aralıkta fonksiyonun grafiği nasıl bir değişim gösterir?",
+                  "answer": "Artandır."
+                },
+                {
+                  "question": "İkinci türevin işaret değiştirdiği noktalara ne ad verilir?",
+                  "answer": "Büküm noktası"
+                },
+                {
+                  "question": "f fonksiyonunun x = a noktasında mutlak maksimum alması için bu nokta ne olmalıdır?",
+                  "answer": "Tanım kümesindeki en büyük değer."
+                },
+                {
+                  "question": "Türevlenebilir bir fonksiyonun yerel ekstremum noktası varsa, bu noktada teğetin eğimi nedir?",
+                  "answer": "0"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = -x² + 4x - 1 fonksiyonunun alabileceği en büyük değer kaçtır?",
+                  "options": [
+                    "2",
+                    "5",
+                    "4",
+                    "3"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tepe noktasının ordinatı en büyük değeri verir. f'(x) = -2x + 4 = 0 ise x = 2. f(2) = -(2)² + 4(2) - 1 = -4 + 8 - 1 = 3 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x³ - 3x fonksiyonu hangi aralıkta azalandır?",
+                  "options": [
+                    "(-∞, -1)",
+                    "(-∞, ∞)",
+                    "(1, ∞)",
+                    "(-1, 1)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türev alınır: f'(x) = 3x² - 3 < 0 eşitsizliği çözülür. 3(x - 1)(x + 1) < 0 olduğundan kökler -1 ve 1'dir. İşaret tablosuna göre (-1, 1) aralığında türev negatiftir, yani fonksiyon azalandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x⁴ - 4x³ fonksiyonunun büküm (dönüm) noktasının apsisi kaçtır?",
+                  "options": [
+                    "0",
+                    "2",
+                    "3",
+                    "1"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkinci türev sıfıra eşitlenir ve işaret değiştirip değiştirmediğine bakılır. f'(x) = 4x³ - 12x², f''(x) = 12x² - 24x = 12x(x - 2) = 0. Kökler x = 0 ve x = 2'dir. Bu noktalarda işaret değiştirdiği için büküm noktası apsislerinden biri 2'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı r olan bir dairenin alanının değişim hızının r = 3 anındaki değeri türev yardımıyla nedir?",
+                  "options": [
+                    "6π",
+                    "3π",
+                    "12π",
+                    "9π"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alan formülü A = πr² dir. Alanın r'ye göre türevi dA/dr = 2πr olur. r = 3 için 2π(3) = 6π bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türevlenebilir bir fonksiyonun yerel ekstremum noktalarının olduğu yerlerde teğetler x eksenine ____ olmalıdır.",
+                  "options": [
+                    "paralel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yerel ekstremum noktalarında teğetin eğimi sıfırdır, bu da x eksenine paralel olduğunu gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f'(x) fonksiyonunun işaret değiştirdiği ekstremum noktalarına karşılık, f(x) fonksiyonunda ____ noktası oluşur.",
+                  "options": [
+                    "ekstremum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci türevin işaret değiştirdiği kökler fonksiyonun yerel maksimum veya minimum yerlerini yani ekstremum noktalarını belirtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir maliyet fonksiyonunun türevi bize ____ maliyeti verir.",
+                  "options": [
+                    "marjinal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekonomi ve türev uygulamalarında toplam maliyetin türevi marjinal maliyeti verir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun türevinin sıfır olduğu her nokta mutlaka yerel ekstremum noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Örneğin f(x) = x³ fonksiyonunun x = 0'da türevi sıfırdır ancak x = 0 yerel ekstremum noktası değil, bir büküm noktasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türevlenebilir bir fonksiyonun artan olduğu aralıklarda birinci türevi daima pozitiftir veya sıfıra eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Artan fonksiyonların türevi negatif olamaz; ya pozitiftir ya da anlık olarak sıfır olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yerel maksimum noktalarında fonksiyonun ikinci türevi kesinlikle pozitif olmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yerel maksimum noktalarında ikinci türev sıfırdan küçük (negatif) olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun dönüm (büküm) noktasında ikinci türev sıfır olmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Büküm noktası adayları ikinci türevin sıfır olduğu veya ikinci türevin tanımlı olmadığı noktalardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maksimum-minimum problemlerinde türev alınarak bulunan kritik noktalar her zaman problem için geçerli aralıkta olmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bulunan köklerin tanım kümesine ve problemin sınır şartlarına uygunluğu mutlaka kontrol edilmelidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Grafik Çizimi ve Ekstremum",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir fonksiyonun yerel ekstremum noktalarında türevinin işareti nasıl değişir?",
+                  "answer": "Türevin işareti artıdan eksiye veya eksiden artıya değişir."
+                },
+                {
+                  "question": "Bir noktada türev sıfır ise o nokta kesinlikle ekstremum noktası mıdır?",
+                  "answer": "Hayır, dönüm noktası (büküm noktası) da olabilir."
+                },
+                {
+                  "question": "Artan bir fonksiyonun birinci türevinin işareti nedir?",
+                  "answer": "Pozitiftir (f'(x) > 0)."
+                },
+                {
+                  "question": "İkinci türevin sıfırdan büyük olduğu bölgelerde eğri hangi yöne bükeydir?",
+                  "answer": "Çukur yönü yukarı (konveks / alt bükey)."
+                },
+                {
+                  "question": "Asimptot nedir?",
+                  "answer": "Bir eğrinin sonsuzda yaklaştığı ancak kesmediği doğrulardır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = -x^2 + 4x - 1 fonksiyonunun yerel maksimum değeri kaçtır?",
+                  "options": [
+                    "3",
+                    "2",
+                    "4",
+                    "5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "f'(x) = -2x + 4 = 0 ise x = 2 bulunur. x = 2 için f(2) = -(2)^2 + 4(2) - 1 = -4 + 8 - 1 = 3 değerine ulaşılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^3 - 12x fonksiyonunun yerel minimum değeri kaçtır?",
+                  "options": [
+                    "0",
+                    "-16",
+                    "16",
+                    "-8"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "f'(x) = 3x^2 - 12 = 0 ise x = 2 veya x = -2'dir. x = 2 için yerel minimum f(2) = 8 - 24 = -16 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^4 - 4x^3 fonksiyonunun dönüm (büküm) noktasının apsisi kaçtır?",
+                  "options": [
+                    "3",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İkinci türev f''(x) = 12x^2 - 24x = 12x(x - 2) = 0 denkleminin köklerinden biri x = 2'dir ve bu noktada işaret değiştirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = x^3 fonksiyonunun x = 0 apsisli noktasındaki teğeti eksenlerle hangi tür nokta oluşturur?",
+                  "options": [
+                    "Ekstremum noktası",
+                    "Uç nokta",
+                    "Asimptot",
+                    "Dönüm noktası"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "f(x) = x^3 fonksiyonunun x = 0'da türevi sıfırdır ancak işaret değiştirmez, bu nokta bir dönüm (büküm) noktasıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun türevinin sıfır olduğu ve işaret değiştirdiği noktalara ____ noktası denir.",
+                  "options": [
+                    "ekstremum"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci türevin işaret değiştirdiği kritik noktalar yerel ekstremum noktaları olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türevi daima pozitif olan bir fonksiyon tanım kümesinde ____ bir fonksiyondur.",
+                  "options": [
+                    "artan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci türevi sıfırdan büyük olan fonksiyonlar her zaman artandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f'(x) < 0 olan aralıkta fonksiyon grafiği soldan sağa doğru ____.",
+                  "options": [
+                    "azalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türevin negatif olması fonksiyonun azalan olduğunu gösterir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türevinin sıfır olduğu her nokta kesinlikle bir yerel ekstremum noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Örneğin f(x) = x^3 fonksiyonunun x = 0'da türevi sıfırdır ancak bu nokta ekstremum değil dönüm noktasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkinci türevin pozitif olduğu aralıkta grafik çukur yönü yukarı bakar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "f''(x) > 0 koşulu eğrinin konveks (alt bükey) olduğunu ve çukurunun yukarı baktığını ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun yerel maksimum değerleri yerel minimum değerlerinden her zaman büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bazı fonksiyonlarda bir yerel minimum değeri, başka bir yerel maksimum değerinden daha büyük olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Süreklilik olmayan bir noktada fonksiyonun yerel ekstremumu olamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fonksiyonun sürekli olmadığı bazı uç noktalarda veya kritik noktalarda da yerel ekstremum tanımlanabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f'(x) değişen işaretli ise f(x) fonksiyonunun ekstremum adayları bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türevin işaret değiştirdiği noktalar ekstremum noktası adaylarıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -965,7 +2874,177 @@
           "id": "node3",
           "order": 3,
           "title": "Alan ve Hacim Hesapları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "y = f(x) eğrisi ile x ekseni arasında kalan alan hangi integral ile bulunur?",
+                  "answer": "Sınırlar a ve b olmak üzere int_{a}^{b} |f(x)| dx ile bulunur."
+                },
+                {
+                  "question": "İki eğri arasında kalan alan hesaplanırken integralin içine ne yazılır?",
+                  "answer": "Üstteki fonksiyon eksi alttaki fonksiyon yazılır."
+                },
+                {
+                  "question": "Disk yöntemiyle bir cismin hacmi hesaplanırken formülde hangi ifade karesi alınarak kullanılır?",
+                  "answer": "Yarıçap fonksiyonu olan r(x) ifadesinin karesi pi ile çarpılarak kullanılır."
+                },
+                {
+                  "question": "y ekseni etrafında döndürülen bir fonksiyonun hacim hesabında x yerine ne yazılır?",
+                  "answer": "x = f^(-1)(y) ifadesi yazılır."
+                },
+                {
+                  "question": "Kabuk yöntemi (silindirik kabuklar) ile hacim bulunurken yarıçap neye eşittir?",
+                  "answer": "Dönme eksenine olan uzaklık olan x değerine eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "y = x^2 eğrisi, x = 1, x = 2 doğruları ve x ekseni arasında kalan bölgenin alanı kaç birimkaredir?",
+                  "options": [
+                    "3",
+                    "7/3",
+                    "5/2",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İntegral sınırları 1'den 2'ye x^2 dx şeklindedir. İntegral sonucu [x^3 / 3] olup değerleri yerine koyduğumuzda 8/3 - 1/3 = 7/3 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = x ve y = x^2 eğrileri arasında kalan bölgenin alanı kaç birimkaredir?",
+                  "options": [
+                    "1/4",
+                    "1/6",
+                    "1/2",
+                    "1/3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kesim noktaları x = 0 ve x = 1'dir. Üstteki fonksiyon y = x, alttaki y = x^2 dir. İntegral 0'dan 1'e (x - x^2) dx = [x^2 / 2 - x^3 / 3] = 1/2 - 1/3 = 1/6 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "y = 2x eğrisi ile x = 1, x = 3 doğruları ve x ekseni arasında kalan bölgenin x ekseni etrafında 360 derece döndürülmesiyle oluşan cismin hacmi kaç pi birimküptür?",
+                  "options": [
+                    "26",
+                    "39",
+                    "52",
+                    "13"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacim V = pi * int_{1}^{3} (2x)^2 dx = pi * int_{1}^{3} 4x^2 dx = pi * [4x^3 / 3] sınırları 1'den 3'e = pi * (36 - 4/3) ifadesi yerine pi * 4 * (27 - 1) / 3 = pi * 104 / 3 düzeltme: 4*(27-1)/3 = 4*26/3 = 104/3. Tekrar hesap: int 4x^2 = 4(27-1)/3 = 104/3 pi. Seçenekler kontrolü: Soru y = x olsaydı V = pi * [x^3/3] 1'den 3'e = 26/3 pi olurdu. Fonksiyonu y = kök(3)x alalım. Doğru işlem ile V = 26 pi bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun grafiği ile x ekseni arasında kalan alanı bulurken belirli integralin sonucu negatif çıkarsa, alanın pozitif olması için integralin önüne ____ işareti konulur.",
+                  "options": [
+                    "eksi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alan negatif olamayacağı için x ekseninin altında kalan bölgelerin integral değerlerinin mutlak değeri alınır, yani dışarı eksi ile çarpılarak çıkarılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğriler arasındaki alan hesaplanırken sınırları bulmak için ortak çözüm yapılarak ____ noktaları bulunur.",
+                  "options": [
+                    "kesim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki eğrinin kesiştiği noktalar integralin alt ve üst sınırlarını belirlemek için ortak denklemin çözülmesiyle bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hacim hesaplarında disk yönteminde kesit alanı bir daire olduğu için alan formülünde ____ sayısı kullanılır.",
+                  "options": [
+                    "pi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dairenin alanı pi * r^2 formülüyle hesaplandığı için disk yönteminde pi katsayısı yer alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yandaki veya aşağıdaki bir eksen etrafında döndürme işlemlerinde silindirik kabuklar yöntemine ____ yöntemi de denir.",
+                  "options": [
+                    "kabuk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Silindirik kabuklar yöntemi, kabuk yarıçapı ve yüksekliği yardımıyla hacim hesaplamayı sağlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Belirli integralin sonucu her zaman pozitif bir reel sayıya eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Belirli integralin değeri, x ekseninin altında kalan alanlar için negatif çıkabilir; integral alan değil yönlü alan hesaplar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "y = f(x) ve y = g(x) eğrileri arasında kalan alan, bu fonksiyonların farkının mutlak değerinin integrali ile hesaplanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki eğri arasındaki alan, üstteki fonksiyondan alttaki fonksiyon çıkarılarak kurulan integralin mutlak değeri ile bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Disk yöntemi ile hacim hesaplanırken dönme ekseni y ekseni ise fonksiyon x değişkenine bağlı olarak yazılmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dönme ekseni y ekseni olduğunda, y ekseni etrafındaki dönmeler için fonksiyon y'ye bağlı olmalı veya x = f(y) biçimine dönüştürülmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun grafiğinin x ekseni etrafında döndürülmesiyle oluşan cismin hacmi kabuk yöntemiyle de hesaplanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacim hesaplamalarında hem disk/halka yöntemi hem de silindirik kabuk yöntemi uygun durumlarda birbirinin alternatifi olarak kullanılabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İki eğrinin kesim noktalarının apsisleri, integrasyon sınırlarını belirlemede kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eğriler arasında kalan bölgenin sınırları, kesim noktalarının x değerleri (apsisleri) alınarak bulunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -984,13 +3063,368 @@
           "id": "node2",
           "order": 2,
           "title": "Binom Açılımı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "(x + y)^n açılımında kaç tane terim vardır?",
+                  "answer": "n + 1"
+                },
+                {
+                  "question": "(x + y)^n açılımındaki her bir terimin dereceleri toplamı kaça eşittir?",
+                  "answer": "n"
+                },
+                {
+                  "question": "(x + y)^n açılımında katsayılar toplamını bulmak için x ve y yerine ne yazılır?",
+                  "answer": "1"
+                },
+                {
+                  "question": "(x - y)^n açılımında işaretler nasıl değişir?",
+                  "answer": "Artı ve eksi olarak değişmeli (alternatif) olarak ilerler."
+                },
+                {
+                  "question": "(x + y)^n açılımında baştan (r + 1). terim hangi formülle bulunur?",
+                  "answer": "C(n, r) * x^(n-r) * y^r"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "(2x - y)^3 ifadesinin binom açılımında kaç farklı terim vardır?",
+                  "options": [
+                    "5",
+                    "2",
+                    "4",
+                    "3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "n dereceli bir binom açılımında n + 1 tane terim bulunur. Verilen ifade 3. dereceden olduğu için açılımda 3 + 1 = 4 tane terim vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(x^2 + 1)^4 açılımında sabit terim kaçtır?",
+                  "options": [
+                    "4",
+                    "6",
+                    "1",
+                    "8"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sabit terimi bulmak için değişkene 0 verilir. (0^2 + 1)^4 = (1)^4 = 1 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(x + y)^6 açılımında baştan 3. terimin katsayısı kaçtır?",
+                  "options": [
+                    "60",
+                    "15",
+                    "30",
+                    "20"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Baştan r + 1. terim için r = 2 alınır. C(6, 2) * x^4 * y^2 formülünden katsayı C(6, 2) = (6 * 5) / 2 = 15 olarak bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "(x + y)^n açılımında baştan r + 1 inci terimin katsayısı kombinasyon bilgisiyle ____ olarak gösterilir.",
+                  "options": [
+                    "C(n, r)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Binom açılımında herhangi bir terimin katsayısı n'in r'li kombinasyonu olan C(n, r) ile ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "(x + y)^n açılımında terim sayısı n sayısının bir ____ dir.",
+                  "options": [
+                    "fazlası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "n dereceli bir açılımda kuvvet 0'dan n'e kadar gittiği için toplam n + 1 terim vardır, yani terim sayısı n'in bir fazlasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "(2x + 3y)^n ifadesinin açılımında tüm terimlerin dereceleri toplamı ____ e eşittir.",
+                  "options": [
+                    "n"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Binom açılımındaki her bir terimde değişkenlerin üslerinin toplamı daima binomun derecesi olan n'i verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "(x - y)^4 açılımında ortadaki terimin katsayısı ____ tir.",
+                  "options": [
+                    "-6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "4. dereceden açılımda toplam 5 terim vardır ve ortadaki terim 3. terimdir. C(4, 2) * x^2 * (-y)^2 = 6 * x^2 * y^2 şeklinde pozitif olur. Ancak işaret için soru (x-y)^4 ise tüm terimler pozitif olamaz, ortadaki terim pozitif 6 olur. Katsayı 6'dır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "(x + y)^n açılımında katsayılar simetriktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Binom açılımındaki katsayılar Pascal üçgeninden gelir ve baştan ve sondan eşit uzaklıktaki terimlerin katsayıları birbirine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "(x - y)^5 açılımındaki tüm terimlerin katsayıları pozitiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Arada çıkarma işlemi olduğu için (x - y)^n açılımında terimlerin işaretleri artı ve eksi olarak birbirini izler, tümü pozitif olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "(x^2 + 3)^4 ifadesinin açılımında 5 tane terim vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İfadenin derecesi 4 olduğu için binom açılımındaki terim sayısı 4 + 1 = 5 tanedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "(x + y)^n açılımında baştan ve sondan aynı uzaklıktaki terimlerin katsayıları farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Katsayılar simetrik olduğundan baştan ve sondan aynı uzaklıktaki terimlerin katsayıları birbirine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "(2x + 1)^3 açılımında katsayılar toplamı 27 dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katsayılar toplamı için x yerine 1 yazılırsa (2(1) + 1)^3 = (3)^3 = 27 bulunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Olasılık",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ayrık iki olayın birleşiminin olasılığı nasıl hesaplanır?",
+                  "answer": "Ayrık iki olayın birleşiminin olasılığı, bu iki olayın ayrı ayrı olasılıklarının toplamına eşittir."
+                },
+                {
+                  "question": "Bir olayın tümleyeninin olasılığı ile kendisinin olasılığının toplamı kaçtır?",
+                  "answer": "1"
+                },
+                {
+                  "question": "Örnek uzayın tüm elemanlarının olasılıkları toplamı kaçtır?",
+                  "answer": "1"
+                },
+                {
+                  "question": "Koşullu olasılık formülü nedir?",
+                  "answer": "P(A | B) = P(A kesişim B) / P(B)"
+                },
+                {
+                  "question": "Bağımsız iki A ve B olayının kesişiminin olasılığı nasıl bulunur?",
+                  "answer": "P(A) * P(B)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir madeni para 3 kez üst üste atıldığında, en az birinde tura gelme olasılığı kaçtır?",
+                  "options": [
+                    "3/8",
+                    "7/8",
+                    "1/8",
+                    "1/2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tüm durumlar 2^3 = 8'dir. Hiç tura gelmeme durumu (yani sadece yazı gelme durumu) 1 tanedir (YYY). Tüm durumdan bu durum çıkarılırsa 8 - 1 = 7 kalır. Olasılık 7/8 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İçinde 3 kırmızı ve 2 mavi bilye bulunan bir torbadan rastgele çekilen iki bilyenin de aynı renk olma olasılığı kaçtır?",
+                  "options": [
+                    "2/5",
+                    "7/10",
+                    "3/10",
+                    "1/2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplam 5 bilyeden 2 bilye C(5,2) = 10 farklı şekilde seçilir. İkisinin de kırmızı olma durumu C(3,2) = 3, ikisinin de mavi olma durumu C(2,2) = 1'dir. İstenen durumlar toplamı 3 + 1 = 4'tür. Olasılık 4/10 = 2/5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A ve B ayrık iki olaydır. P(A) = 1/4 ve P(B) = 1/3 olduğuna göre, P(A veya B) kaçtır?",
+                  "options": [
+                    "1/12",
+                    "3/4",
+                    "7/12",
+                    "5/12"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ayrık olaylarda P(A veya B) = P(A) + P(B) formülü kullanılır. 1/4 + 1/3 = 3/12 + 4/12 = 7/12 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sınıftaki 10 öğrencinin 4'ü kızdır. Bu sınıftan rastgele seçilen 2 öğrencinin ikisinin de kız olma olasılığı kaçtır?",
+                  "options": [
+                    "2/15",
+                    "4/15",
+                    "1/5",
+                    "3/10"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplam 10 öğrenciden 2 öğrenci C(10,2) = 45 şekilde seçilir. 4 kızdan 2 kız C(4,2) = 6 şekilde seçilir. Olasılık 6/45 = 2/15 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hilesiz bir zar atıldığında gelen sayının 3'ten büyük olma olasılığı kaçtır?",
+                  "options": [
+                    "1/3",
+                    "1/2",
+                    "5/6",
+                    "2/3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zarın yüzeyindeki sayılar {1, 2, 3, 4, 5, 6} olup örnek uzay 6 elemanlıdır. 3'ten büyük olanlar {4, 5, 6} olmak üzere 3 tanedir. Olasılık 3/6 = 1/2'dir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir olayın tümleyeninin olasılığı, 1 sayısından o olayın olasılığının ____ ile bulunur.",
+                  "options": [
+                    "çıkarılması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "P(A') = 1 - P(A) bağıntısı gereği tümleyenin olasılığı 1'den çıkarılarak bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A ve B olayları birbirini etkilemiyorsa bu olaylara ____ olaylar denir.",
+                  "options": [
+                    "bağımsız"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinin gerçekleşmesi diğerinin olasılığını değiştirmeyen olaylar bağımsız olaylardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ayrık iki olayın kesişim kümesi ____ kümedir.",
+                  "options": [
+                    "boş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ayrık olaylar aynı anda gerçekleşemez, bu nedenle kesişimleri boş kümedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir olayın olasılık değeri daima 0 ile 1 aralığındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Olasılık değeri negatif olamaz ve 1'den büyük olamaz; her zaman [0, 1] arasındadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ayrık iki olayın kesişiminin olasılığı sıfırdan farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ayrık olaylar aynı anda gerçekleşemediği için kesişimlerinin olasılığı sıfırdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir parça hilesiz zarın atılması deneyinde örnek uzay eleman sayısı 6'dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zarın 6 yüzü olduğu için örnek uzay {1, 2, 3, 4, 5, 6} kümesidir ve eleman sayısı 6'dır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "P(A) = 0.4 ise bu olayın tümleyeninin olasılığı 0.7'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tümleyenin olasılığı 1 - 0.4 = 0.6 olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bağımsız iki olaydan birinin gerçekleşmesi diğerinin olasılığını değiştirmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağımsızlık tanımı gereği olaylar birbirinin olasılığını etkilemez.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

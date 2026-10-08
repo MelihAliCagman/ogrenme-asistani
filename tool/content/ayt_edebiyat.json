@@ -2124,13 +2124,419 @@
           "id": "node1",
           "order": 1,
           "title": "İslamiyet Öncesi Türk Edebiyatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İslamiyet öncesi Türk edebiyatı hangi iki ana koldan oluşur?",
+                  "answer": "Sözlü edebiyat ve yazılı edebiyat"
+                },
+                {
+                  "question": "İslamiyet öncesi sözlü edebiyatta şiirlerin söylendiği törenlerin genel adları nelerdir?",
+                  "answer": "Sığır, şölen ve yuğ"
+                },
+                {
+                  "question": "İlk yazılı belgelerimiz olan Göktürk Yazıtları hangi alfabe ile yazılmıştır?",
+                  "answer": "Göktürk alfabesi"
+                },
+                {
+                  "question": "Göktürk Yazıtları'nda adını duyduğumuz ilk Türk veziri kimdir?",
+                  "answer": "Vezir Tonyukuk"
+                },
+                {
+                  "question": "İslamiyet öncesi Türk şiirinde şairlere verilen adlar nelerdir?",
+                  "answer": "Baksı, kam, ozan, şaman ve oyun"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi İslamiyet öncesi Türk edebiyatının sözlü ürünlerinden biri değildir?",
+                  "options": [
+                    "Destan",
+                    "Siyasetname",
+                    "Koşuk",
+                    "Sagu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Siyasetname, Karahanlılar dönemine ait Geçiş Dönemi eseridir. Sagu, koşuk ve destan ise İslamiyet öncesi sözlü edebiyat ürünleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ölen kişilerin arkasından duyulan acıyı dile getirmek ve onların kahramanlıklarını anlatmak amacıyla düzenlenen törenlerde söylenen şiirlere ne ad verilir?",
+                  "options": [
+                    "Koşuk",
+                    "Kutadgu Bilig",
+                    "Sagu",
+                    "Saval"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ölen kişinin arkasından 'yuğ' adı verilen yas törenlerinde söylenen şiirlere sagu denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Göktürk Yazıtları ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?",
+                  "options": [
+                    "Türk edebiyatının ilk yazılı ürünleridir.",
+                    "Siyasetname türünün ilk örneği kabul edilirler.",
+                    "Tonyukuk, Kül Tigin ve Bilge Kağan adına dikilmişlerdir.",
+                    "Yazıtların çözülmesinde Danimarkalı bilgin Thomsen büyük rol oynamıştır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Göktürk Yazıtları anıt-mezar ve hitabet türünün şaheseridir. Siyasetname türünün ilk örneği ise Yusuf Has Hacip'in Kutadgu Bilig adlı eseridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki destan-millet eşleştirmelerinden hangisi İslamiyet öncesi Türk destanlarından biri değildir?",
+                  "options": [
+                    "Şu Destanı - Saka",
+                    "Oğuz Kağan Destanı - Hun",
+                    "Ergenekon Destanı - Göktürk",
+                    "İgor Destanı - Rus"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İgor Destanı Rus edebiyatına ait bir destandır. Diğer seçeneklerde verilen Şu, Oğuz Kağan ve Ergenekon Türk destanlarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İslamiyet öncesi dönemde av törenlerinde ve şölenlerde kopuz eşliğinde söylenen lirik şiirlerin genel adı nedir?",
+                  "options": [
+                    "Destan",
+                    "Sagu",
+                    "Sav",
+                    "Koşuk"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Av törenlerinde (sığır) ve şölenlerde söylenen, genellikle aşk, doğa ve yiğitlik temalı şiirlere koşuk denir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Türk edebiyatında bugünkü atasözlerinin karşılığı olan özlü sözlere ____ adı verilirdi.",
+                  "options": [
+                    "sav"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atasözü işlevi gören kalıplaşmış sözler 'sav' olarak adlandırılırdı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Göktürk Yazıtları'nda Türk devletinin ve milletinin büyüklüğünü anlatan, aynı zamanda geleceğe yönelik uyarılarda bulunan bölümlere ____ adı verilir.",
+                  "options": [
+                    "söylev"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bilge Kağan ve Tonyukuk yazıtları aynı zamanda Türk edebiyatının ilk hitabet (söylev) örnekleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslamiyet öncesi Türk destanları arasında yer alan ve Saka Türklerinin hükümdarını anlatan destan ____ Destanı'dır.",
+                  "options": [
+                    "Şu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şu Destanı, Saka Türklerinin hükümdarı Şu'nun Büyük İskender ile olan mücadelelerini anlatır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Göktürk Yazıtları'nı 1893 yılında okumayı başaran Danimarkalı dil bilgininin soyadı ____'dir.",
+                  "options": [
+                    "Thomsen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vilhelm Thomsen, Orhun Abidelerindeki runik harfleri çözerek ilk okuyan bilim insanıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İslamiyet öncesi dönemde şair, ozan ve büyücü görevlerini üstlenen kişilere genel olarak ____ denirdi.",
+                  "options": [
+                    "baksı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dinî ve büyüsel törenleri yöneten, aynı zamanda şiir söyleyen kişilere baksı veya kam adı verilirdi.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İslamiyet öncesi Türk şiirinde genellikle hece ölçüsü ve yarak uyak anlayışı kullanılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde milli ölçümüz olan hece ölçüsü (çoğunlukla 7'li, 8'li) ve yarım kafiye (yarak uyak) hâkimdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Göktürk Yazıtları tamamen Arap alfabesiyle yazılmış ilk metinlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Göktürk Yazıtları Arap alfabesiyle değil, kendine has 38 harfli Göktürk (Orhun) alfabesiyle yazılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İslamiyet öncesi Türk destanları doğal destanlar sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemdeki destanlar anonim halk hafızasında oluşan ve tarihi olaylara dayanan doğal destanlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yuğ adı verilen törenler sevinç ve zaferlerin kutlandığı büyük şölenlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yuğ, ölüm ve yas törenleridir. Sevinç ve zaferlerin kutlandığı törenler ise 'şölen' olarak adlandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yenisey Yazıtları, Göktürklerden daha eski dönemlere ait mezar taşları niteliğindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yenisey Yazıtları Türklerin bilinen en eski yazılı belgeleridir ancak üzerindeki yazılar büyük ölçüde silindiği için yeterince okunamamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Geçiş Dönemi Eserleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Geçiş Dönemi'nin ilk eseri nedir?",
+                  "answer": "Kutadgu Bilig"
+                },
+                {
+                  "question": "Kutadgu Bilig'in yazar kimdir?",
+                  "answer": "Yusuf Has Hacip"
+                },
+                {
+                  "question": "Divanü Lügati't-Türk'ün yazılış amacı nedir?",
+                  "answer": "Arapça bilenlere Türkçe öğretmek ve Türkçenin üstünlüğünü kanıtlamak."
+                },
+                {
+                  "question": "Atabetü'l-Hakayık hangi ölçüyle ve hangi nazım birimiyle yazılmıştır?",
+                  "answer": "Aruz vezni ve dörtlük (kıt'a) nazım birimiyle."
+                },
+                {
+                  "question": "Divan-ı Hikmet'in yazarı kimdir ve hangi tasavvufi geleneğe aittir?",
+                  "answer": "Ahmet Yesevi, Yesevilik tasavvufi geleneğine aittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Geçiş Dönemi Türk edebiyatı eserlerinden biri değildir?",
+                  "options": [
+                    "Divanü Lügati't-Türk",
+                    "Atabetü'l-Hakayık",
+                    "Orhun Abideleri",
+                    "Kutadgu Bilig"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orhun Abideleri İslamiyet öncesi Göktürk dönemine aittir. Diğer seçenekler ise Geçiş Dönemi eserleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Atabetü'l-Hakayık - Edip Ahmet Yükneki",
+                    "Divanü Lügati't-Türk - Kaşgarlı Mahmud",
+                    "Kutadgu Bilig - Yusuf Has Hacip",
+                    "Divan-ı Hikmet - Yunus Emre"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Divan-ı Hikmet Yunus Emre'ye değil, Ahmet Yesevi'ye aittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk Türkçe ansiklopedik sözlük niteliği taşıyan ve içinde ilk Türk haritasına yer verilen eser aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kutadgu Bilig",
+                    "Divan-ı Hikmet",
+                    "Atabetü'l-Hakayık",
+                    "Divanü Lügati't-Türk"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kaşgarlı Mahmud tarafından yazılan Divanü Lügati't-Türk, Türkçenin ilk sözlüğü ve ansiklopedisi olup ilk Türk haritasını da barındırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kutadgu Bilig'deki dört sembolik kahramanın temsil ettiği kavramlar hangi seçenekte doğru olarak verilmiştir?",
+                  "options": [
+                    "Güncü - Akıl, Aytoldu - Adalet, Ögdülmiş - Kut, Odgurmuş - Akıbet",
+                    "Güncü - Adalet, Aytoldu - Kut, Ögdülmiş - Akıbet, Odgurmuş - Akıl",
+                    "Küntoğdı - Akıl, Aytoldu - Adalet, Ögdülmiş - Saadet, Odgurmuş - Akıbet",
+                    "Küntoğdı - Adalet, Aytoldu - Saadet (Kut), Ögdülmiş - Akıl, Odgurmuş - Akıbet"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Küntoğdı adalet, Aytoldu kut (saadet), Ögdülmiş akıl (bilgelik) ve Odgurmuş ise akıbeti (dünyanın sonunu) temsil eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Atabetü'l-Hakayık adlı eser için aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Hakikatlerin Eşiği anlamına gelir.",
+                    "Edip Ahmet Yükneki tarafından yazılmıştır.",
+                    "Gazel ve kaside nazım şekilleriyle kaleme alınmıştır.",
+                    "Dini ve ahlaki öğütler içerir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Atabetü'l-Hakayık aruz vezniyle yazılmış olmasına rağmen gazel ve kasideyle değil, dörtlükler ve beyitler hâlinde yazılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kutadgu Bilig, 'mutluluk veren bilgi' anlamına gelir ve _____ nazım birimiyle yazılmıştır.",
+                  "options": [
+                    "beyit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kutadgu Bilig mesnevi nazım şekliyle yazıldığı için beyit birimiyle oluşturulmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divanü Lügati't-Türk, Abbasi halifesi _____'e sunulmuştur.",
+                  "options": [
+                    "Ebul Kasım Abdullah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaşgarlı Mahmud bu eseri halifeye sunarak Türkçenin zenginliğini göstermeyi amaçlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atabetü'l-Hakayık'ın yazarı _____'dir.",
+                  "options": [
+                    "Edip Ahmet Yükneki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eser Edip Ahmet Yükneki tarafından Karahanlı döneminde kaleme alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ahmet Yesevi'nin şiirlerini topladığı eserin adı _____ adını taşır.",
+                  "options": [
+                    "Divan-ı Hikmet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yesevi tasavvufi düşüncelerini 'hikmet' adı verilen şiirleriyle bu eserde toplamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Geçiş Dönemi eserlerinin tamamı _____ dönemine aittir.",
+                  "options": [
+                    "Karahanlı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemdeki eserlerin dili Karahanlı Türkçesi (Hakanî Türkçesi) ile yazılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kutadgu Bilig, Türk edebiyatındaki ilk siyatename örneği kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kutadgu Bilig devleti yönetme sanatı ve devlet adamlarına öğütler içermesi yönüyle ilk siyatename niteliğindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Divanü Lügati't-Türk tamamen Arapça yazılmış bir eserdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eser Arapça açıklamalıdır ancak içerdiği binlerce Türkçe kelime, sav ve koşuk nedeniyle Türkçe açısından da büyük önem taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geçiş Dönemi eserlerinde hem İslamiyet öncesi nazım biçimleri (dörtlük) hem de İslamiyet etkisindeki nazım biçimleri (beyit) bir arada görülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde hem milli nazım birimi olan dörtlük hem de Arap-Fars edebiyatından alınan beyit birimi birlikte kullanılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Atabetü'l-Hakayık, Kaşgarlı Mahmud tarafından yazılmış bir sözlüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atabetü'l-Hakayık Edip Ahmet Yükneki tarafından yazılmış ahlaki ve dini öğütler içeren bir eserdir; sözlük olan Divanü Lügati't-Türk'tür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahmet Yesevi'nin tasavvufi görüşleri Yesevilik tarikatının temelini oluşturmuş ve Anadolu'nun Türkleşmesinde etkili olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Yesevi'nin yetiştirdiği dervişler Anadolu'ya gelerek İslamiyet'in ve Türk kültürünün yayılmasını sağlamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2143,19 +2549,628 @@
           "id": "node1",
           "order": 1,
           "title": "Anonim Halk Edebiyatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Anonim Halk Edebiyatının en yaygın nazım şekli nedir?",
+                  "answer": "Mani"
+                },
+                {
+                  "question": "Düz yazıyla söylenmiş, içinde olağanüstü olayların ve kahramanların bulunduğu Anonim Halk Edebiyatı ürünü nedir?",
+                  "answer": "Masal"
+                },
+                {
+                  "question": "Anonim Halk Edebiyatında ölüm, aşk ve doğa temalarını işleyen, müzikle söylenen ve genellikle dörtlüklerden oluşan nazım türü nedir?",
+                  "answer": "Türkü"
+                },
+                {
+                  "question": "Manilerde genellikle ilk iki dize ne olarak adlandırılır?",
+                  "answer": "Doldurma dize"
+                },
+                {
+                  "question": "Karagöz ile Hacivat hangi edebiyat geleneğinin bir ürünüdür?",
+                  "answer": "Geleneksel Türk Tiyatrosu (Gölge Oyunu)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Anonim Halk Edebiyatı ürünleri arasında yer almaz?",
+                  "options": [
+                    "Destan",
+                    "Koşma",
+                    "Türkü",
+                    "Mani"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Koşma, Âşık Edebiyatı nazım şeklidir; mani, türkü ve anonim destan ise Anonim Halk Edebiyatı ürünüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi maninin özelliklerinden biri değildir?",
+                  "options": [
+                    "Konusu sadece kahramanlıktır.",
+                    "7'li hece ölçüsüyle söylenir.",
+                    "Uyak düzeni aaxa şeklindedir.",
+                    "Genellikle tek dörtlükten oluşur."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Manilerde konu sınırlaması yoktur; aşk, hasret, tabiat gibi pek çok farklı konuda söylenebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkülerin bentlerin sonunda tekrarlanan nakarat kısımlarına ne ad verilir?",
+                  "options": [
+                    "Cinas",
+                    "Ayak",
+                    "Doldurma",
+                    "Kavuştak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkülerde her bendin sonunda tekrarlanan ve türkünün ana duygusunu pekiştiren bölüme kavuştak denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi geleneksel Türk tiyatrosunun yazılı metni olmayan, doğaçlama oynanan türlerinden biridir?",
+                  "options": [
+                    "Komedi",
+                    "Trajedi",
+                    "Orta Oyunu",
+                    "Dram"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orta Oyunu, geleneksel Türk tiyatrosunun etrafında seyircilerin bulunduğu, yazılı metne dayanmayan doğaçlama türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dersaadet'te geçen olayları ve halkın günlük yaşamını konu alan ninniler hangi edebiyat kolu içinde yer alır?",
+                  "options": [
+                    "Anonim Halk Edebiyatı",
+                    "Cumhuriyet Dönemi Edebiyatı",
+                    "Divan Edebiyatı",
+                    "Tekke Edebiyatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ninniler, söyleyeni belli olmayan ve halk kültürünün sözlü geleneğinde yaşayan Anonim Halk Edebiyatı ürünleridir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Anonim Halk Edebiyatında yedili hece ölçüsüyle yazılan tek dörtlükten oluşan en küçük nazım biçimine ____ denir.",
+                  "options": [
+                    "mani"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mani, halk edebiyatında genellikle 7'li hece ölçüsüyle yazılan ve aaxa uyak düzenine sahip tek dörtlükten oluşan nazım şeklidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkülerde asıl sözlerin söylendiği bölümlere bent, nakaratlı kısımlara ise ____ denir.",
+                  "options": [
+                    "kavustak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkülerin her bendinin sonunda tekrarlanan sabit dizelere kavuştak adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karagöz oyununun oynatıldığı perdeye ____ adı verilir.",
+                  "options": [
+                    "ayna"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gölge oyununda tasvirlerin arkadan ışıklandırılarak yansıtıldığı beyaz perdeye ayna denmektedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anonim halk edebiyatında olağanüstü olayları ve kahramanları konu alan, nazım-nesir karışık anlatılara ____ denir.",
+                  "options": [
+                    "masal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Masallar, evrensel motifler barındıran, yer ve zaman kavramının belirsiz olduğu anlatı türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Söyleyeni belli olmayan, halkın ortak malı olan edebiyat dönemine ____ Halk Edebiyatı denir.",
+                  "options": [
+                    "anonim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ürünleri halk tarafından ortaklaşa üretilen ve yazarının adı bilinmeyen edebiyat kolu Anonim Halk Edebiyatı olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Anonim Halk Edebiyatı ürünlerinin tamamı sadece yazılı kültür yoluyla günümüze ulaşmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır çünkü Anonim Halk Edebiyatı ürünleri sözlü kültür geleneğine dayanır ve dilden dile aktarılarak günümüze gelmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Manilerde uyak düzeni genellikle aaxa şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur; manilerin ilk iki dizesi doldurma dize olup üçüncü dize serbest, dördüncü dize ise ilk iki dizeyle uyaklıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orta oyununda 'Pişekar' tipi, geleneksel Türk tiyatrosundaki okur-yazar, bilgili ve şehirli karakteri temsil eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; Pişekar Karagöz'deki Hacivat gibi bilgili ve şehirli karakterdir ancak orta oyununda Kavuklu halkı temsil ederken Pişekâr ise esnaf veya aydın karakteri temsil eder, burada tanım Kavuklu ile karıştırılmamalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türküler, kırık hava ve uzun hava olmak üzere iki ana gruba ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade doğrudur; müzikal ve ritmik özelliklerine göre türküler kırık havlar ve uzun havalar olarak sınıflandırılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ninni ve ağıtlar kesinlikle Anonim Halk Edebiyatı ürünü olup başka bir edebiyat kolunda yer almaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade yanlıştır; ağıtlar halk edebiyatında hem anonim hem de âşık edebiyatında şairler tarafından söylenebilen bir türdür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Âşık Edebiyatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Âşık edebiyatında divan, semai, kalenderi ve varsağı gibi türlerin sınıflandırılması hangi kritere göre yapılır?",
+                  "answer": "Şekil (nazım biçimi) ve ezgi özelliklerine göre yapılır."
+                },
+                {
+                  "question": "Köroğlu hangi edebiyat kolunda hem bir halk kahramanı hem de usta bir şair olarak bilinir?",
+                  "answer": "Âşık edebiyatı"
+                },
+                {
+                  "question": "Karacaoğlan şiirlerinde genellikle hangi nazım biçimini ve konuyu tercih etmiştir?",
+                  "answer": "Koşma nazım biçimini tercih etmiş, genellikle aşk ve doğa konularını işlemiştir."
+                },
+                {
+                  "question": "Âşık edebiyatında şairlerin şiirlerinin son mısrasında (tapşırma) mahlas kullanma geleneği hangi usta şairle simgeleşmiştir?",
+                  "answer": "Âşık Ömer"
+                },
+                {
+                  "question": "Saz şairlerinin şiirlerini topladıkları defterlere ne ad verilir?",
+                  "answer": "Cönk"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Âşık edebiyatının genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Aruz ölçüsünün tek ölçü olarak kullanılması ve hece ölçüsünün tamamen dışlanması",
+                    "Nazım biriminin dörtlük olması",
+                    "Şairlerin usta-çırak ilişkisiyle yetişmesi ve şiirlerinde mahlas kullanması",
+                    "Şiirlerin genellikle bağlama adı verilen saz eşliğinde söylenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Âşık edebiyatında temel ölçü hece ölçüsüdür. Aruz ölçüsü sadece bazı şairlerce (divan, semai gibi türlerde) deneme amaçlı kullanılmış ancak hece ölçüsü her zaman baskın kalmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kendine özgü bir ezgisi olan, 8'li hece ölçüsüyle yazılan ve genellikle yiğitlik, kahramanlık gibi konuların işlendiği Âşık edebiyatı nazım türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Varsağı",
+                    "Semai",
+                    "Koşma",
+                    "Destan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Varsağı, özellikle Toroslar'daki Varsak Türkmenlerinin söyledikleri ezgilerle gelişen, 8'li hece ölçüsüyle yazılan ve içinde 'bre', 'hey' gibi ünlemler barındıran mertçe bir üsluba sahip nazım türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki şair-eser eşleştirmelerinden hangisi doğrudur?",
+                  "options": [
+                    "Köroğlu - Koçaklamalarıyla tanınan 16. yüzyıl şairi",
+                    "Pir Sultan Abdal - Sergüzeştname",
+                    "Âşık Ömer - Şairname",
+                    "Kaygusuz Abdal - Sarayname"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Âşık Ömer, Türk edebiyatında kendinden önceki ve çağdaşı pek çok şairin adını ve özelliğini andığı ünlü 'Şairname'si ile tanınır. (Not: Kaygusuz Abdal ve Pir Sultan Abdal tasavvuf halk edebiyatı içindedir).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 17. yüzyıl Âşık edebiyatı şairleri arasında yer almaz?",
+                  "options": [
+                    "Kayıkçı Kul Mustafa",
+                    "Gevheri",
+                    "Dadaloğlu",
+                    "Karacaoğlan"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dadaloğlu 19. yüzyıl şairidir. Karacaoğlan, Kayıkçı Kul Mustafa ve Gevheri 17. yüzyılda yaşamış önemli Âşık edebiyatı temsilcileridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Koşma nazım biçiminin ilk dörtlüğünde kafiye düzeni aşağıdakilerden hangisi gibi olabilir?",
+                  "options": [
+                    "aabb veya abab",
+                    "abcB veya aaab",
+                    "xaxa veya aaab",
+                    "abab veya aaaa"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Koşmaların ilk dörtlüklerinde kafiye örgüsü genellikle 'abab' ya da 'aaaa' şeklindedir. Sonraki dörtlüklerde ise 'cccb', 'dddb' veya 'eeef, ffef' gibi biçimler görülebilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Âşık edebiyatında şairlerin şiirlerinde kullandıkları takma adlara ____ denir.",
+                  "options": [
+                    "mahlas"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halk şairlerinin şiirlerinin son dörtlüğünde kendilerini tanıtmak için kullandıkları takma adlara mahlas veya tapşırma denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Saz şairlerinin şiirlerini derledikleri, deri kaplı, ucu sivri veya diklemesine uzun defterlere ____ adı verilir.",
+                  "options": [
+                    "cönk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cönkler, halk kültürünün ve edebiyatının günümüze aktarılmasında büyük öneme sahip olan, yatay açılan ve uşşak tarzı dikilen el yazması defterlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dadaloğlu, 19. yüzyılda Osmanlı devletinin aşiretleri yerleşik hayata geçirme politikasına karşı çıkarak ____ Türkmenlerinin haklarını savunmuştur.",
+                  "options": [
+                    "Avşar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dadaloğlu, 'Ferman padişahın, dağlar bizimdir' sözüyle tanınan ve Avşar aşiretinin iskân siyasetine karşı direnişini şiirlerine yansıtan usta bir halk şairidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Koşmanın alt türlerinden biri olan ve ölüm, acı, yas gibi konuları işleyen şiirlere ____ denir.",
+                  "options": [
+                    "ağıt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ağıt, İslamiyet öncesi Türk edebiyatındaki 'sagu', Divan edebiyatındaki 'mersiye' türünün Âşık edebiyatındaki karşılığıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Genellikle 8'li hece ölçüsüyle söylenen, kendine has özel bir ezgisi olan ve sevgi, doğa gibi lirik konuların işlendiği koşma dışındaki nazım biçimine ____ denir.",
+                  "options": [
+                    "semai"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Semai, 8'li hece kalıbıyla yazılır ve ezgisi koşmadan farklıdır. Genellikle aşk, ayrılık ve tabiat temalarını işler.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Âşık edebiyatı şairlerinin büyük çoğunluğu medrese eğitimi almış, Arapça ve Farsçayı kusursuz kullanan şehirli aydınlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; âşıklar genellikle göçebe veya köylerde yaşayan, usta-çırak ilişkisiyle yetişmiş, genellikle okuryazar olmayan veya az okuryazar halk sanatçılarıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karacaoğlan, şiirlerinde divan edebiyatının etkisinden uzak durmuş, tamamen saf Türkçe ile sade bir Anadolu dili kullanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Karacaoğlan halkın dilini ve sözlü geleneğini en saf haliyle şiirlerine yansıttığı için divan şiiri mazmunlarından ve ağır dilinden uzak kalmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Köroğlu, koçaklama türünün edebiyatımızdaki en önemli temsilcilerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Köroğlu yiğitçe ve coşkulu üslubuyla koçaklama denince akla gelen ilk isimlerden biridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Âşık edebiyatında şiirler yalnızca hece ölçüsüyle söylenmiş, aruz ölçüsü halk şairleri tarafından hiç kullanılmamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; Âşık Ömer, Gevheri gibi bazı divan edebiyatından etkilenen saz şairleri aruz ölçüsüyle de şiirler kaleme almışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Destan nazım biçimi, Âşık edebiyatındaki en uzun nazım biçimi olup toplumsal olayları, savaşları veya mizahi konuları işleyebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; destanlar dörtlük sınırlaması olmayan, onlarca dörtlüğe ulaşabilen ve dönemin tarihsel olaylarına tanıklık eden önemli metinlerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Dinî-Tasavvufi Halk Edebiyatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dinî-Tasavvufi Halk Edebiyatının temeli hangi yüzyılda ve kimin öncülüğünde atılmıştır?",
+                  "answer": "12. yüzyılda Hoca Ahmed Yesevi öncülüğünde atılmıştır."
+                },
+                {
+                  "question": "Tasavvufta Allah sevgisini, vahdet-i vücud inancını işleyen ve genellikle hece ölçüsüyle yazılan ilahi türünün en önemli şairi kimdir?",
+                  "answer": "Yunus Emre"
+                },
+                {
+                  "question": "Bektaşi-Alevi edebiyatında nefeslerde ele alınan, tasavvufi mertebeleri ve tarikat kurallarını anlatan dörtlüklerin oluşturduğu şiir türüne ne ad verilir?",
+                  "answer": "Nutuk"
+                },
+                {
+                  "question": "Tasavvufta Allah'tan gelip yine Allah'a dönecek olan ruhun aslına kavuşma arzusunu ve bu süreçteki evreleri anlatan şiir türü hangisidir?",
+                  "answer": "İlahi"
+                },
+                {
+                  "question": "Alevi-Bektaşi edebiyatında, törenlerde müzik eşliğinde söylenen tasavvufi şiirlere ne denir?",
+                  "answer": "Nefes"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Dinî-Tasavvufi Halk Edebiyatı (Tekke Edebiyatı) nazım şekillerinden biri değildir?",
+                  "options": [
+                    "Nefes",
+                    "Nutuk",
+                    "İlahi",
+                    "Destan"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Destan, genellikle Âşık Edebiyatı'na ait bir nazım şeklidir. İlahi, nefes ve nutuk ise Dinî-Tasavvufi Halk Edebiyatı ürünüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divanü Lügati't-Türk'te de adı geçen, Hoca Ahmed Yesevi'nin hikmetlerinin derlendiği ünlü eser aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Makalat",
+                    "Münhesir",
+                    "Divan-ı Hikmet",
+                    "Garibname"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Hoca Ahmed Yesevi'nin şiirlerini topladığı eser Divan-ı Hikmet'tir ve tasavvufi halk edebiyatının ilk örneği kabul edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki şair-eser eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Yunus Emre - Risaletü'n-Nushiyye",
+                    "Kaygusuz Abdal - Divan-ı Hikmet",
+                    "Aşık Paşa - Garibname",
+                    "Hacı Bektaş Veli - Makalat"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan-ı Hikmet Kaygusuz Abdal'a değil, Hoca Ahmed Yesevi'ye aittir. Kaygusuz Abdal'ın en bilinen eseri ise Sarayname'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tasavvuf edebiyatında hiciv (yergi) niteliği taşıyan, alaylı bir üslupla yazılan ve genellikle Bektaşi şairler tarafından söylenen şiir türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Devriye",
+                    "Şathiye",
+                    "Nutuk",
+                    "İlahi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şathiye, görünüste saçma gibi duran ancak derin tasavvufi anlamlar barındıran, Allah ile samimi bir dille konuşur gibi yazılan şakacı ve hicivli şiirlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Dinî-Tasavvufi Halk Edebiyatının genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Genellikle hece ölçüsü kullanılmıştır.",
+                    "Nazım birimi olarak dörtlük tercih edilmiştir.",
+                    "Arapça ve Farsça sözcüklere yer verilmemiştir.",
+                    "Aşk teması genellikle ilahi aşk olarak işlenmiştir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tasavvuf edebiyatında İslamiyet'in ve tarikatların etkisiyle Arapça ve Farsça sözcükler ve mazmunlar yoğun bir şekilde kullanılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dinî-Tasavvufi Türk Halk Edebiyatının kurucusu ve ilk büyük şairi ____ olarak kabul edilir.",
+                  "options": [
+                    "Hoca Ahmed Yesevi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hoca Ahmed Yesevi, Yesevilik tarikatının kurucusudur ve Türk tasavvuf şiirinin ilk örneklerini vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yunus Emre'nin tasavvufi düşüncelerini, ahlak anlayışını ve nasihatlerini içeren mesnevi türündeki eseri ____ adını taşır.",
+                  "options": [
+                    "Risaletü'n-Nushiyye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Risaletü'n-Nushiyye, Yunus Emre'nin Türkçe olarak yazdığı tasavvufi ve didaktik nitelikli tek mesnevisidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tasavvufta evrenin ve insanın Allah'tan gelip yine Allah'a döneceğini (devir nazariyesini) anlatan şiirlere ____ denir.",
+                  "options": [
+                    "Devriye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devriye, tasavvuftaki 'devir nazariyesini' (iniş ve çıkış yayını) işleyen şiir türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hacı Bektaş Veli'nin Arapça olarak yazılan ve daha sonra Türkçeye çevrilen tasavvufi eseri ____ adını taşır.",
+                  "options": [
+                    "Makalat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makalat, Hacı Bektaş Veli'nin tasavvufi görüşlerini ve dört kapı kırk makam felsefesini anlattığı temel eseridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bektaşi şair Kaygusuz Abdal, edebiyatımızda ____ türünün en önemli ve mizahi örneklerini vermiştir.",
+                  "options": [
+                    "Şathiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kaygusuz Abdal, şathiye türünün ilk ve en önemli temsilcilerindendir, eserlerinde ilginç ve iğneleyici bir mizah kullanmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dinî-Tasavvufi Halk Edebiyatı şairleri yalnızca hece ölçüsünü kullanmış, aruz ölçüsüne hiç yer vermemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; tasavvuf edebiyatı şairleri (özellikle Yunus Emre ve Kaygusuz Abdal gibi isimler) hem hece hem de aruz ölçüsünü kullanmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İlahiler, Allah'ı övmek, O'na yalvarmak ve O'na duyulan aşkı dile getirmek amacıyla yazılan ve kendine özgü bir ezgiyle okunan şiirlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; ilahilerin temel teması Allah aşkı ve vahdet-i vücud inancıdır, kendine has makamlarla okunurlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hoca Ahmed Yesevi'nin şiirlerinde ağırlıklı olarak aruz ölçüsü ve mesnevi nazım şekli kullanılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; Hoca Ahmed Yesevi şiirlerini halkın anlayabileceği bir dille, hece ölçüsüyle ve dörtlüklerle yazmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nefesler, genellikle Alevi-Bektaşi inancına sahip şairler tarafından yazılan ve tarikat kuralları ile tasavvuf felsefesini anlatan şiirlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; nefesler Bektaşi tarikatının ayinlerinde ve cemlerde okunan, genellikle Hz. Muhammed ve Hz. Ali sevgisinin işlendiği şiirlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tasavvufta 'Dört Kapı Kırk Makam' anlayışı en belirgin şekilde Hacı Bektaş Veli'nin Makalat adlı eserinde işlenmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Makalat, İslam tasavvufundaki şeriat, tarikat, marifet ve hakikat kapılarını anlatan temel eserdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2168,19 +3183,628 @@
           "id": "node1",
           "order": 1,
           "title": "Divan Şiiri ve Nazım Biçimleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Divan edebiyatında beyitlerle kurulup kendi içinde uyaklı olan (aa, bb, cc) nazım biçimi hangisidir?",
+                  "answer": "Gazel"
+                },
+                {
+                  "question": "Fars edebiyatından Türk edebiyatına geçen, aşk, şarap, tasavvuf gibi konuların işlendiği, ilk beytine matla son beytine makta denilen nazım biçimi nedir?",
+                  "answer": "Gazel"
+                },
+                {
+                  "question": "Dörtlüklerle kurulan, dördüncü mısraı ilk üçüyle aynı uyakta olan ve şairin mahlasının geçtiği nazım biçimi hangisidir?",
+                  "answer": "Murabba"
+                },
+                {
+                  "question": "Divan edebiyatında genellikle övgü, yergi ve felsefi düşüncelerin işlendiği, en az 33 en fazla 99 beyitten oluşan nazım biçimi nedir?",
+                  "answer": "Kaside"
+                },
+                {
+                  "question": "Toplumun aksayan yönlerini, kişilerin kusurlarını eleştiren, Divan edebiyatındaki hiciv türünün karşılığı olan nazım biçimi hangisidir?",
+                  "answer": "Hicviye"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi beyitlerle kurulan Divan şiiri nazım biçimlerinden biri değildir?",
+                  "options": [
+                    "Kaside",
+                    "Murabba",
+                    "Mesnevi",
+                    "Gazel"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Murabba, beyitlerle değil dörtlüklerle kurulan bir nazım biçimidir. Gazel, kaside ve mesnevi ise beyit nazım birimiyle yazılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kasidede şairin kendisini övdüğü bölüme ne ad verilir?",
+                  "options": [
+                    "Nesip",
+                    "Tevhid",
+                    "Taç",
+                    "Fahriye"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kaside nazım biçiminde şairin kendi sanat gücünü ve kişiliğini övdüğü bölüme fahriye denir. Nesip ise kasidenin giriş bölümüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki nazım biçimlerinden hangisi beşli (penç) bentlerden oluşur?",
+                  "options": [
+                    "Terkibibend",
+                    "Mseddes",
+                    "Muhammes",
+                    "Murabba"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Muhammes, her bendi beş mısradan oluşan bir nazım biçimidir. Murabba dörtlü, müseddes ise altılı bentlerden oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan edebiyatında olay anlatmaya müsait olan, her beyti kendi içinde uyaklı ve bu yönüyle günümüz romanının atası sayılan nazım biçimi hangisidir?",
+                  "options": [
+                    "Tuyuğ",
+                    "Kaside",
+                    "Rubai",
+                    "Mesnevi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mesnevi, aa bb cc şeklinde uyaklandığı ve beyit sınırlaması olmadığı için uzun konuların işlenmesine ve hikaye anlatılmasına en uygundur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Divan edebiyatına Türklerin kazandırdığı nazım biçimlerinden biridir?",
+                  "options": [
+                    "Kaside",
+                    "Mstezad",
+                    "Tuyuğ",
+                    "Gazel"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tuyuğ ve şarkı, Türklerin Divan edebiyatına kazandırdığı nazım biçimleridir. Gazel ve kaside Arap edebiyatından alınmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Divan edebiyatında şiirin en güzel beytine ____ beyt denir.",
+                  "options": [
+                    "şah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazel ve kasidelerde anlamın en yoğun olduğu, şairin en çok özen gösterdiği beyit şah beyit olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kasidenin en son beyitinde şairin mahlasının geçtiği beyte ____ beyit denir.",
+                  "options": [
+                    "tac"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kasidenin mahlasın bulunduğu son beyiti taç beyit olarak anılır ve genellikle şairin adı burada geçer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sadece Türk edebiyatına özgü olan, mani tipinde uyaklanan dört lıkle yazılmış Divan şiiri nazım biçimi ____ adını alır.",
+                  "options": [
+                    "tuyuğ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuyuğ, aaxa şeklinde uyaklanan ve genellikle felsefi konuların işlendiği milli nazım biçimimizdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan şiirinde Allah'ın birliğini ve tekliğini konu alan kasidelere ____ adı verilir.",
+                  "options": [
+                    "tevhid"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevhid, kaside türleri arasında Allah'ın varlığı ve birliğini işleyen metinler için kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir gazelin ilk beytine ____ denir.",
+                  "options": [
+                    "matla"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matla, gazel veya kasidenin ilk beyiti olup kendi içinde (aa) uyaklıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gazellerin son beytine 'makta' denir ve bu beyitte şairin mahlası geçer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makta beyiti gazelin son beyitidir ve şairin mahlasının (takma adının) geçtiği yerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mesnevilerde beyit sayısı sınırlı olup en fazla 99 beyitten oluşabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mesnevilerde beyit sayısı sınırı yoktur, binlerce beyitten oluşan uzun mesneviler mevcuttur. 33-99 beyit sınırı kasidelere aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şarkı, Türklerin Divan edebiyatına kazandırdığı ve bestelenmek amacıyla yazılan nazım biçimidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şarkı nazım biçimi Lale Devri'nde Türkler tarafından geliştirilmiş ve özellikle bestelenmek için oluşturulmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kaside nazım biçiminde nesip bölümü, şiirin en önemli fahriye kısmından hemen sonra gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nesip (veya teşbib) kasidenin ilk giriş bölümüdür. Fahriye ise kasidenin sonlarına doğru yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rübai, aaxa biçiminde uyaklanan ve Arap edebiyatından Divan edebiyatına geçen dört mısralık bir nazım biçimidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rübai Arap edebiyatından değil, İran (Fars) edebiyatından Türk edebiyatına geçmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Divan Şairleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hüsn ü Aşk mesnevisinin yazarı kimdir?",
+                  "answer": "Şeyh Galip"
+                },
+                {
+                  "question": "Terkib-i Bend yazılarıyla tanınan, 17. yüzyıl divan şairi kimdir?",
+                  "answer": "Bağdatlı Ruhi"
+                },
+                {
+                  "question": "Mahallileşme akımının en önemli temsilcisi olan 18. yüzyıl şairi kimdir?",
+                  "answer": "Nedim"
+                },
+                {
+                  "question": "Sebk-i İndi akımının Türk edebiyatındaki en büyük temsilcisi kimdir?",
+                  "answer": "Naili"
+                },
+                {
+                  "question": "İlk tezkereyi yazan 15. yüzyıl divan şairi kimdir?",
+                  "answer": "Ali Şir Nevai"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki divan şairlerinden hangisi 'Mahallileşme' akımının öncülerinden biri olarak kabul edilir?",
+                  "options": [
+                    "Nedim",
+                    "Baki",
+                    "Fuzuli",
+                    "Nef'i"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nedim, İstanbul hayatını, sokağı ve mahalli söyleyişi şiirlerine başarıyla taşıyarak mahallileşme akımının en önemli temsilcisi olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan edebiyatında hiciv denildiğinde akla ilk gelen, Siham-ı Kaza adlı eseriyle tanınan şair kimdir?",
+                  "options": [
+                    "Şeyhi",
+                    "Nef'i",
+                    "Ziya Paşa",
+                    "Baki"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nef'i, Türk edebiyatının en büyük hiciv şairidir ve yazdığı sert yergi şiirlerini Siham-ı Kaza adlı eserinde toplamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Edebiyatımızda 'Sultanü'ş-Şuara' (Şairler Sultanı) unvanı ile tanınan 16. yüzyıl divan şairi kimdir?",
+                  "options": [
+                    "Ahmedi",
+                    "Baki",
+                    "Necati",
+                    "Fuzuli"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Baki, Kanuni Mersiyesi ile tanınır ve döneminde şairlerin sultanı unvanını almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Izdırap şairi olarak bilinen, su kasidesi ile ünlü 16. yüzyıl divan şairi kimdir?",
+                  "options": [
+                    "Nedim",
+                    "Şeyh Galip",
+                    "Fuzuli",
+                    "Nabi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fuzuli, aşkı bir ıstırap olarak gören ve Azeri Türkçesiyle yazdığı lirik şiirleriyle tanınan büyük bir divan şairidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hikemi tarzın (didaktik divan şiiri) edebiyatımızdaki en önemli temsilcisi kimdir?",
+                  "options": [
+                    "Nabi",
+                    "Baki",
+                    "Fuzuli",
+                    "Nedim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nabi, şiirlerinde toplumsal öğütler vererek hikemi şiir çığırının kurucusu ve en önemli temsilcisi olmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kanuni Sultan Süleyman'ın ölümü üzerine yazılan ünlü mersiyenin yazarı ____ şairidir.",
+                  "options": [
+                    "Baki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanuni Mersiyesi, 16. yüzyıl divan şairi Baki tarafından kaleme alınmış en ünlü mersiye örneğidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan edebiyatında argoyu ve halk deyimlerini şiire sokan, Lale Devri şairi ____ dir.",
+                  "options": [
+                    "Nedim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nedim, İstanbul Türkçesini şiirde ustaca kullanmış ve halk söyleyişlerine yer vermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk tezkere olan Mecalisü'n-Nefais'in yazarı ____ dir.",
+                  "options": [
+                    "Ali Şir Nevai"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ali Şir Nevai, Türk edebiyatındaki ilk şairler tezkiresi olan Mecalisü'n-Nefais'in yazarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Harname adlı eserinde öküz olmak isteyen bir eşeğin başından geçenleri anlatan şair ____ dir.",
+                  "options": [
+                    "Şeyhi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeyhi, Türk edebiyatının ilk fabl örneği sayılan Harname'nin yazarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hayriye ve Hayrabad mesnevileriyle tanınan hikemi tarzın öncüsü ____ dir.",
+                  "options": [
+                    "Nabi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nabi, oğlu Hayri için yazdığı Hayriye adlı didaktik mesnevisiyle ünlüdür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fuzuli, tasavvufi aşkı ve bu aşkın verdiği ıstırabı şiirlerinde en iyi işleyen şairlerden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fuzuli'nin şiirlerinde beşeri aşkla başlayan süreç ilahi aşka dönüşür ve ıstırap temel temadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nedim, yazdığı ağır ve Farsça kelimelerle dolu kasideler sayesinde hiciv türünün kurucusu olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hiciv denildiğinde akla gelen şair Nedim değil Nef'i'dir. Nedim daha çok neşeli şarkıları ve mahallileşme tarzı ile bilinir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şeyh Galip, divan edebiyatının son büyük ustalarından biri olup sembolizm etkisindeki Hüsn ü Aşk'ı yazmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeyh Galip Sebk-i İndi akımının en önemli temsilcisidir ve Hüsn ü Aşk mesnevisini yazmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Baki, şiirlerinde Azeri lehçesini kullanmış ve Çağatay edebiyatının en büyük ismi olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Azeri lehçesini kullanan ve Çağatay edebiyatının en büyük ismi Baki değil Ali Şir Nevai'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nabi, şiirin sadece eğlence aracı olmadığını, topluma yön vermesi gerektiğini savunan hikemi tarzın şairidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nabi şiirde fikre, hikmete ve öğüt vermeye önem vermiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Divan Nesri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Divan nesrinde süslü ve sanatlı nesrin en önemli temsilcisi kimdir?",
+                  "answer": "Sinan Paşa"
+                },
+                {
+                  "question": "Evliya Çelebi'nin dünyaca ünlü seyahatname türündeki eserinin adı nedir?",
+                  "answer": "Seyahatname"
+                },
+                {
+                  "question": "Tezkire türünün Türk edebiyatındaki ilk örneğini kim yazmıştır?",
+                  "answer": "Ali Şîr Nevaî"
+                },
+                {
+                  "question": "Kabûlnâme ve Tahrîc ül-Kelâm gibi eserleriyle tanınan, 17. yüzyıl süslü nesir yazarı kimdir?",
+                  "answer": "Veysi"
+                },
+                {
+                  "question": "Divan edebiyatında tarih yazıcılarına ne ad verilir?",
+                  "answer": "Vak'anüvis"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi divan nesrinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Arapça ve Farsça kelime ve tamlamalarla doludur.",
+                    "Cümleler genellikle uzun ve kendi içinde düğümlüdür.",
+                    "Konu işlenirken günlük ve sade halk dili esas alınmıştır.",
+                    "Düşünceden çok söyleyiş güzelliğine ve hüner göstermeye önem verilmiştir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Divan nesrinde halk dili değil, ağır ve süslü bir yazım dili tercih edilmiştir; bu nedenle sade dil esası doğru değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sinan Paşa'nın tasavvufi ve dini konuları süslü nesir anlayışıyla işlediği ünlü eseri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tazarruat",
+                    "Kabûlnâme",
+                    "Tarih-i Naima",
+                    "Muhakemetül-Lügateyn"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tazarruat, Sinan Paşa tarafından yazılmış Türk edebiyatındaki ilk süslü nesir örneğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Seyahatname - Evliya Çelebi",
+                    "Tarih-i Naima - Mustafa Naima",
+                    "Garipname - Mercimek Ahmet",
+                    "Mecâlisü'n-Nefâis - Ali Şîr Nevaî"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Garipname Âşık Paşa'ya aittir; Mercimek Ahmet ise Kabusname'yi Farsçadan çevirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde resmî tarih yazıcılığı yapan kişilere ne ad verilir?",
+                  "options": [
+                    "Vak'anüvis",
+                    "Şair",
+                    "Müneccimbaşı",
+                    "Muallim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı'da devletin resmi tarihini yazmakla görevli kişilere vak'anüvis denilmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bugünkü biyografi türünün divan edebiyatındaki karşılığı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Tezkire",
+                    "Gazavatname",
+                    "Sefaretname",
+                    "Siyer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şairlerin hayatlarını ve eserlerini konu alan tezkireler günümüzdeki biyografi türünün karşılığıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türk edebiyatındaki ilk tezkire örneği olan Mecâlisü'n-Nefâis eserini ____ yazmıştır.",
+                  "options": [
+                    "Ali Şîr Nevaî"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mecâlisü'n-Nefâis, Çağatay saati şairi Ali Şîr Nevaî tarafından kaleme alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anadolu sahasında yazılan ilk tezkire ise Sehi Bey'in kaleme aldığı ____ adlı eserdir.",
+                  "options": [
+                    "Heşt Behişt"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sehi Bey'in yazdığı Heşt Behişt, Anadolu sahasında yazılan ilk tezkire olma özelliğini taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı elçilerinin yabancı ülkelere gittiklerinde gördüklerini ve izlenimlerini aktardıkları eserlere ____ denir.",
+                  "options": [
+                    "Sefaretname"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yabancı ülkelere giden elçilerin gözlemlerini içeren nesir türü sefaretnamedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mercimek Ahmet tarafından Farsçadan Türkçeye çevrilen ahlak ve öğüt kitabı ____ adını taşır.",
+                  "options": [
+                    "Kabusname"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kabusname, sade nesrin en önemli ilk çeviri örneklerinden biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sinan Paşa'nın süslü nesir türündeki en tanınmış başyapıtı ____ adlı eserdir.",
+                  "options": [
+                    "Tazarruat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tazarruat, süslü nesrin şaheserlerinden biri olarak kabul edilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Divan nesrinde orta nesir genellikle bilimsel, tarihi ve dini konularda halkı bilgilendirmek amacıyla sade bir dille yazılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta nesir, süslü nesre göre daha anlaşılır olup bilgi verme amacı taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Evliya Çelebi'nin Seyahatnamesi süslü nesrin en ağır örneklerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Seyahatname, konuşma diline yakın ve sade bir orta nesir üslubuyla kaleme alınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Naima Tarihi, olayları sadece yazarın kişisel görüşlerine dayandırarak nesnellikten uzak bir şekilde yazar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Naima, olayları kayda geçtirirken kullandığı belgeler ve eleştirel yaklaşımıyla nesnelliğe önem veren bir tarihçidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sinan Paşa, divan edebiyatında süslü nesrin kurucusu ve en önemli temsilcilerindendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinan Paşa Tazarruat adlı eseriyle süslü nesrin öncüsü olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tezkireler sadece padişahların hayatını anlatan resmi devlet yıllıklarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tezkireler padişahların değil, genellikle şairlerin ve sanatçıların hayatını anlatan biyografik eserlerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2193,13 +3817,419 @@
           "id": "node1",
           "order": 1,
           "title": "Tanzimat Edebiyatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İlk Türkçe roman çevirisi olan 'Teéma-i Ceylân' kim tarafından yapılmıştır?",
+                  "answer": "Yusuf Kâmil Paşa"
+                },
+                {
+                  "question": "Edebiyatımızda ilk yerli roman olan 'Taaşşuk-ı Tal'at ve Fitnat'ın yazarı kimdir?",
+                  "answer": "Şemsettin Sami"
+                },
+                {
+                  "question": "Tanzimat edebiyatı 1. döneminde hangi sanat anlayışı benimsenmiştir?",
+                  "answer": "Toplum için sanat"
+                },
+                {
+                  "question": "Şinasi'nin yazdığı ilk geleneksel Türk tiyatrosu örneği nedir?",
+                  "answer": "Şair Evlenmesi"
+                },
+                {
+                  "question": "Ziyapaşa'nın yazdığı, divan şiirini eleştirip halk şiirini savunduğu makale niteliğindeki eser nedir?",
+                  "answer": "Şiir ve Umumî"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Tanzimat 1. Dönem sanatçılarından biri değildir?",
+                  "options": [
+                    "İbrahim Şinasi",
+                    "Recaizade Mahmut Ekrem",
+                    "Namık Kemal",
+                    "Ziyapaşa"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Recaizade Mahmut Ekrem, Tanzimat 2. Dönem sanatçılarındandır ve 'Araba Sevdası' gibi eserleriyle bu dönemin önde gelen isimleri arasında yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk edebi romanımız olan 'Intibah' hangi yazarımıza aittir?",
+                  "options": [
+                    "Ahmet Mithat Efendi",
+                    "Nabizade Nazım",
+                    "Namık Kemal",
+                    "Samipaşazade Sezai"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Intibah romanı Namık Kemal tarafından yazılmıştır ve edebiyatımızda ilk edebi roman örneği kabul edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Vatan Yahut Silistre - Ziyapaşa",
+                    "Taaşşuk-ı Tal'at ve Fitnat - Şemsettin Sami",
+                    "Cezmi - Namık Kemal",
+                    "Araba Sevdası - Recaizade Mahmut Ekrem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vatan Yahut Silistre eseri Ziyapaşa'ya değil, Namık Kemal'e aittir. Ziyapaşa'nın en bilinen eserleri arasında Harabat ve Zafername yer alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tanzimat edebiyatında 'sanat şahıs içindir' anlayışının ağırlıklı olarak benimsendiği dönem hangisidir?",
+                  "options": [
+                    "Tanzimat 1. Dönem",
+                    "Tanzimat 2. Dönem",
+                    "Servet-i Fünun Dönemi",
+                    "Fecr-i Âti Dönemi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanzimat 1. Dönemde 'sanat toplum için' denilirken, baskı ortamının da etkisiyle 2. Dönemde 'sanat şahıs içindir' anlayışı benimsenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Edebiyatımızdaki ilk realist roman denemesi kabul edilen 'Sergüzeşt' adlı eser kime aittir?",
+                  "options": [
+                    "Samipaşazade Sezai",
+                    "Ahmet Mithat Efendi",
+                    "Recaizade Mahmut Ekrem",
+                    "Nabizade Nazım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sergüzeşt, Samipaşazade Sezai tarafından yazılmış olup esaret temasını işleyen romantizmden realizme geçiş dönemi ürünüdür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tanzimat edebiyatında ilk tiyatro eseri olan Şair Evlenmesi ____ tarafından yazılmıştır.",
+                  "options": [
+                    "Şinasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şinasi tarafından yazılan Şair Evlenmesi, batılı anlamda sahnelenen ilk Türk tiyatrosu ve ilk yazılan tiyatro eseridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Namık Kemal'in vatan sevgisini işleyen ilk sahnelenen tiyatrosu ____ adlı eseridir.",
+                  "options": [
+                    "Vatan Yahut Silistre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vatan Yahut Silistre, Gedikpaşa Tiyatrosu'nda sahnelenmiş ve büyük bir coşku yaratmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ahmet Mithat Efendi, halkı eğitmek amacıyla yüzlerce eser yazmış ve kendisine ____ denilmiştir.",
+                  "options": [
+                    "Yazı Makinesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Mithat Efendi üretkenliği sayesinde döneminde 'Yazı Makinesi' unvanıyla anılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Batılı anlamda ilk günlük örneği olan Seyahat Jurnali ____ tarafından kaleme alınmıştır.",
+                  "options": [
+                    "Direktör Ali Bey"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Direktör Ali Bey'in Hac seyahatini anlattığı Seyahat Jurnali edebiyatımızda ilk günlük türündeki eserdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Köy yaşamını ve realist çizgiyi işleyen ilk köy romanı Karabibik ____ tarafından yazılmıştır.",
+                  "options": [
+                    "Nabizade Nazım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nabizade Nazım'ın Karabibik eseri, Türk edebiyatında realist ve natüralist çizgide yazılan ilk köy romanıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tanzimat 1. Dönemde dilde sadeleşme savunulmuş ancak bu amaçta başarılı olunamamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanatçılar dilde sadeleşmeyi savunmalarına rağmen alışkanlıklar ve yazın dili yüzünden eserlerinde ağır bir dil kullanmaya devam etmişlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tanzimat edebiyatında roman ve hikaye türleri ilk kez Batı edebiyatından yapılan çevirilerle edebiyatımıza girmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yusuf Kâmil Paşa'nın Telemak çevirisi, ilk roman çevirisi olarak Türk edebiyatına bu türlerin girmesini sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Recaizade Mahmut Ekrem, Tanzimat 1. Dönem sanatçıları arasında yer alır ve toplumsal konuları işlemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Recaizade Mahmut Ekrem Tanzimat 2. Dönem sanatçısıdır ve 'sanat için sanat' anlayışını benimsemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ziyapaşa, Harabat adlı antolojisinde divan şiirini övmüş, ancak Esar-ı Ziya adlı eserinde ise halk şiirini savunmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ziyapaşa Harabat'ta divan şiirini savunarak çelişkiye düşmüş, bunun üzerine Namık Kemal 'Harabat Mukaddimesi' ile onu eleştirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tanzimat edebiyatında tiyatro eserlerinin tamamı sahnelenmek amacıyla yazılmış ve sahne teknikleri kusursuzdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanzimat tiyatroları genellikle okunmak için yazılmıştır ve teknik açıdan oldukça kusurludur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Servet-i Fünun ve Fecr-i Ati",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Servet-i Fünun edebiyatının hazırlayıcısı olan dergi hangisidir?",
+                  "answer": "Servet-i Fünun dergisi"
+                },
+                {
+                  "question": "Servet-i Fünun edebiyatının kurucusu ve lideri kabul edilen sanatçı kimdir?",
+                  "answer": "Tevfik Fikret"
+                },
+                {
+                  "question": "Fecr-i Ati topluluğunun bildirisini imzalayan sanatçılardan biri kimdir?",
+                  "answer": "Ahmet Haşim"
+                },
+                {
+                  "question": "Servet-i Fünun döneminde yazılan ilk edebi roman hangisidir?",
+                  "answer": "Mai ve Siyah"
+                },
+                {
+                  "question": "Fecr-i Ati topluluğunun yayımladığı beyannamenin temel sloganı nedir?",
+                  "answer": "Sanat şahsî ve muhteremdir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Servet-i Fünun şiirinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Aruz ölçüsünün kullanılması",
+                    "Toplum için sanat anlayışının benimsenmesi",
+                    "Parnasizm ve Sembolizm akımlarının etkisi",
+                    "Ağır ve süslü bir dil tercih edilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Servet-i Fünun sanatçıları 'sanat için sanat' anlayışını benimsemiştir, toplum için sanat anlayışı bu dönemde görülmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sanatçılardan hangisi Fecr-i Ati topluluğunun üyelerinden biridir?",
+                  "options": [
+                    "Ahmet Haşim",
+                    "Mehmet Rauf",
+                    "Tevfik Fikret",
+                    "Halit Ziya Uşaklıgil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Haşim, Fecr-i Ati topluluğunun en önemli ve kalıcı ismidir. Diğer üç sanatçı Servet-i Fünun dönemine aittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Edebiyatımızda ilk psikolojik roman olarak kabul edilen 'Eylül' romanının yazarı kimdir?",
+                  "options": [
+                    "Mehmet Rauf",
+                    "Cenap Şahabettin",
+                    "Süleyman Nazif",
+                    "Halit Ziya Uşaklıgil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylül romanı Mehmet Rauf tarafından yazılmış olup Türk edebiyatındaki ilk psikolojik roman örneğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Servet-i Fünun dönemi roman yazarlarından biridir?",
+                  "options": [
+                    "Halit Ziya Uşaklıgil",
+                    "Ziya Paşa",
+                    "Namık Kemal",
+                    "Şinasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halit Ziya Uşaklıgil Servet-i Fünun döneminin en büyük romancısıdır. Namık Kemal, Ziya Paşa ve Şinasi Tanzimat dönemi yazarlarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fecr-i Ati topluluğu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+                  "options": [
+                    "Edebiyatımızdaki ilk edebi topluluktur.",
+                    "Birlik ve beraberlik içinde uzun yıllar faaliyet göstermişlerdir.",
+                    "Tanzimat edebiyatını tamamen devam ettirmişlerdir.",
+                    "Servet-i Fünun'u yetersiz bularak sahneye çıkmışlardır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Fecr-i Ati, Servet-i Fünun edebiyatını yeterince yenilikçi bulmamış ve onu eleştirerek yola çıkmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Servet-i Fünun döneminde Batılı anlamda ilk hikaye örneklerini yazan sanatçı ____ eserleriyle tanınır.",
+                  "options": [
+                    "Sami Paşazade Sezai"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sami Paşazade Sezai'nin Küçük Şeyler adlı eseri Batılı anlamda ilk hikaye örneği kabul edilir ve Servet-i Fünun anlayışına zemin hazırlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Servet-i Fünun şiirinde kafiyenin göz için değil ____ için olduğu anlayışı benimsenmiştir.",
+                  "options": [
+                    "kulak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu dönemde kulak için kafiye anlayışı benimsenmiş, böylece divan şiirindeki göz için kafiye kuralı yıkılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fecr-i Ati beyannamesine imza atan sanatçılardan biri de 'Şiirler' adlı eserin sahibi ____'dir.",
+                  "options": [
+                    "Ahmet Haşim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahmet Haşim Fecr-i Ati'nin en önemli şairidir ve topluluğun görüşlerini benimsemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Halit Ziya Uşaklıgil'in aşk ve sanat çatışmasını işlediği en önemli romanı ____'dir.",
+                  "options": [
+                    "Mai ve Siyah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mai ve Siyah romanında Ahmet Cemil'in şahsında hayal kırıklığı ve dönemin aydınlarının psikolojisi işlenmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Servet-i Fünun edebiyatında şiire konuların genişletilmesini sağlayan ve anjambman tekniğini kullanan şair ____'dir.",
+                  "options": [
+                    "Tevfik Fikret"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevfik Fikret, nazmı nesre yaklaştırma ve anjambman teknikleriyle şiirde büyük yenilikler yapmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Servet-i Fünun sanatçıları 'sanat toplum içindir' görüşünü savunmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Servet-i Fünun sanatçıları 'sanat için sanat' anlayışını benimsemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fecr-i Ati topluluğu edebiyatımızda batılı anlamda ilk beyannameyi yayımlayan topluluktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fecr-i Ati, Türk edebiyatında bir beyanname yayımlayarak birleşen ilk edebi topluluktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mehmet Rauf'un yazdığı Eylül romanı Türk edebiyatının ilk psikolojik romanıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eylül, Suat, Necip ve Süreyya arasındaki ilişkileri psikolojik tahlillerle veren ilk psikolojik romandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Servet-i Fünun döneminde tiyatro eserleri sahnelenmek üzere değil, okunmak üzere yazılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dönemin ağır sansür koşulları nedeniyle tiyatrolar sahnelenmek için değil, okunmak için yazılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahmet Haşim, Servet-i Fünun döneminin en önemli romancısı olarak kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahmet Haşim Servet-i Fünun değil, Fecr-i Ati döneminin sanatçısıdır ve romancı değil şairdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2212,25 +4242,837 @@
           "id": "node1",
           "order": 1,
           "title": "Milli Edebiyat Dönemi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Milli Edebiyat akımının teorik temellerinin atıldığı ve Yeni Mecmua'da yayımlanan ünlü makale hangisidir?",
+                  "answer": "Genç Kalemler dergisindeki Yeni Lisan makalesi"
+                },
+                {
+                  "question": "Milli Edebiyat döneminde Türkçülük akımını sistemleştiren en önemli fikir adamı kimdir?",
+                  "answer": "Ziya Gökalp"
+                },
+                {
+                  "question": "Milli Edebiyat'ın kurulmasında ve Yeni Lisan hareketinde kilit rol oynayan üç önemli yazar kimlerdir?",
+                  "answer": "Ömer Seyfettin, Ali Canip Yöntem ve Ziya Gökalp"
+                },
+                {
+                  "question": "Beş Hececiler grubunun en genç üyesi ve milli edebiyat ruhunu şiire taşıyan isimlerden biri kimdir?",
+                  "answer": "Faruk Nafiz Çamlıbel"
+                },
+                {
+                  "question": "Milli Edebiyat döneminde sade Türkçe ile yazılmış ilk hikaye kitabı kabul edilen eser hangisidir?",
+                  "answer": "Yüksek Bostanlar veya İlk Düşen Ak (Ömer Seyfettin'in eserleri)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Milli Edebiyat Dönemi'nin özelliklerinden biri olamaz?",
+                  "options": [
+                    "Memleket edebiyatı anlayışıyla Anadolu insanının konu edinilmesi",
+                    "Arapça ve Farsça kuralların tamlamaların sıklıkla kullanılması",
+                    "Dilin sadeleştirilmesi ve konuşma dilinin yazı diline aktarılması",
+                    "Şiirde aruz vezninin yanında hece ölçüsünün de kullanılması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Milli Edebiyat Dönemi'nde Arapça ve Farsça tamlamaların kullanılmasına karşı çıkılmış, dilin sadeleştirilmesi esas alınmıştır. Bu nedenle ilk seçenek yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yeni Lisan hareketinin ilkeleri arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Türkçe kelimelerin ekleri getirilirken Türkçe ses uyumlarına uyulacaktır",
+                    "Arapça ve Farsça kurallarla yapılan tamlamalar kullanılmaya devam edilecektir",
+                    "Konuşma dilinde kullanılan Arapça ve Farsça kelimeler atılacaktır",
+                    "İstanbul Türkçesi yazı dili ve konuşma dili olarak esas alınacaktır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yeni Lisan hareketi, Arapça ve Farsça kurallı tamlamaların dilimizden atılmasını savunmuştur. Bu yüzden dördüncü seçenek ilkelere aykırıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sanatçılardan hangisi 'Beş Hececiler' grubunda yer almaz?",
+                  "options": [
+                    "Mehmet Emin Yurdakul",
+                    "Orhan Seyfi Orhon",
+                    "Enis Behiç Koryürek",
+                    "Hakkı Süha Gezgin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mehmet Emin Yurdakul Milli Edebiyat döneminin önemli şairlerindendir ancak Beş Hececiler grubuna dahil değildir. Beş Hececiler Orhan Seyfi, Enis Behiç, Faruk Nafiz, Halit Fahri ve Yusuf Ziya'dır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yakup Kadri Karaosmanoğlu'nun Türk milletinin Tanzimat'tan Cumhuriyet'e kadarki değişimini ve yozlaşmasını işlediği Milli Edebiyat ve Cumhuriyet dönemi romanı hangisidir?",
+                  "options": [
+                    "Sodom ve Gomore",
+                    "Kiralık Konak",
+                    "Ankara",
+                    "Yaban"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kiralık Konak romanı, üç kuşak arasındaki çatışmayı ve Tanzimat'tan Birinci Dünya Savaşı'na kadar olan dönemde yaşanan zihniyet değişimini konu alır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi 'Genç Kalemler' dergisinin etrafında toplanan sanatçılardan biri değildir?",
+                  "options": [
+                    "Ömer Seyfettin",
+                    "Ali Canip Yöntem",
+                    "Ziya Gökalp",
+                    "Yahya Kemal Beyatlı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yahya Kemal Beyatlı, Milli Edebiyat döneminde eser vermesine ve zevk ve anlayışını bu dönemde şekillendirmesine rağmen Genç Kalemler kadrosunda yer almamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Milli Edebiyat akımının en önemli teorisyeni ve Türkçülük düşüncesini sistemleştiren isim ____ olarak bilinir.",
+                  "options": [
+                    "Ziya Gökalp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ziya Gökalp, Türkçülüğün Esasları ve Türkleşmek, İslamlaşmak, Muasırlaşmak gibi eserleriyle Milli Edebiyat'ın fikir altyapısını oluşturmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ömer Seyfettin, Ali Canip Yöntem ve Ziya Gökalp gibi isimlerin çıkardığı ve Milli Edebiyat'ın miladı sayılan dergi ____ dergisidir.",
+                  "options": [
+                    "Genç Kalemler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Selanik'te yayımlanan Genç Kalemler dergisindeki Yeni Lisan makalesi Milli Edebiyat'ın başlangıcı kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Milli Edebiyat döneminde hece ölçüsünü benimseyen ve milli şiir anlayışını sürdüren beş şair ____ adıyla anılır.",
+                  "options": [
+                    "Beş Hececiler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beş Hececiler, aruz veznini bırakarak şiirde hece ölçüsünü kullanmış ve sade dili savunmuşlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Milli Edebiyat döneminde Türk edebiyatında ilk defa aydın-köylü çatışmasını ve Anadolu'nun durumunu gerçekçi bir şekilde işleyen Yakup Kadri'nin romanı ____ adlı eserdir.",
+                  "options": [
+                    "Yaban"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaban romanı, Kurtuluş Savaşı döneminde köylü ile aydın arasındaki kopukluğu ve çelişkiyi gözler önüne serer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Milli Edebiyat'ın hazırlık dönemi sayılan ve Türkçülük akımını şiirlerinde ilk defa işleyen şair ____ olarak tanınır.",
+                  "options": [
+                    "Mehmet Emin Yurdakul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mehmet Emin Yurdakul, Cenge Giderken şiiriyle tanınmış ve 'Türk Şairi' unvanını almıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Milli Edebiyat sanatçıları eserlerinde İstanbul Türkçesini konuşma ve yazı dili olarak temel almışlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeni Lisan makalesinde belirtilen en temel kurallardan biri, yazı dili ile konuşma dili arasındaki ayrılığın kaldırılması ve İstanbul Türkçesinin esas alınmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Genç Kalemler dergisi İstanbul'da çıkarılmış ve ilk kez orada Yeni Lisan hareketi başlatılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Genç Kalemler dergisi İstanbul'da değil, Selanik'te yayımlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mehmet Emin Yurdakul ve Ziya Gökalp Milli Edebiyat döneminin şiir alanındaki en önemli temsilcilerindendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her iki isim de Türkçülük düşüncesini şiirlerinde ve düşünce yazılarında işleyerek Milli Edebiyat'ın şiir kanadına yön vermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Beş Hececiler grubu aruz ölçüsünü tamamen reddedip şiirlerinde yalnızca serbest müstezat kullanmışlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Beş Hececiler aruz ölçüsünü bırakıp hece ölçüsünü kullanmışlardır, serbest müstezat değil.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Refik Halit Karay, 'Memleket Hikâyeleri' adlı eseriyle Anadolu'yu ve taşra yaşamını gerçekçi bir şekilde edebiyata kazandırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Refik Halit Karay'ın Memleket Hikâyeleri ve Gurbet Hikâyeleri, gözleme dayalı gerçekçi Anadolu tasvirleri içerir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Cumhuriyet Dönemi Şiiri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Garip akımının (I. Yeni) kurucuları kimlerdir?",
+                  "answer": "Orhan Veli Kanık, Melih Cevdet Anday ve Oktay Rifat Horozcu."
+                },
+                {
+                  "question": "İkinci Yeni şiirinin en önemli özelliklerinden biri nedir?",
+                  "answer": "Anlamdan uzaklaşarak soyut, imgeli ve çağrışıma dayalı bir söyleyiş benimsemesidir."
+                },
+                {
+                  "question": "Milli Edebiyat Zevk ve Anlayışını Sürdüren Şiirde hangi temalar öne çıkar?",
+                  "answer": "Memleket sevgisi, Türk tarihi, kahramanlık, Anadolu ve milliyetçilik temaları."
+                },
+                {
+                  "question": "Nazım Hikmet Ran hangi şiir akımıyla Türk edebiyatında serbest nazmın öncüsü olmuştur?",
+                  "answer": "Toplumcu Gerçekçi şiir akımıyla."
+                },
+                {
+                  "question": "Yedi Meşaleciler topluluğu hangi edebiyat anlayışına tepki olarak kurulmuştur?",
+                  "answer": "Beş Hececilerin ve Milli Edebiyat dönemi şiir anlayışının sınırlı ve basmakalıp buldukları yapısına tepki olarak kurulmuştur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Garip (I. Yeni) akımının şiir anlayışıyla bağdaşmaz?",
+                  "options": [
+                    "Ağdalı ve süslü bir dille mitolojik imgeler kullanmak",
+                    "Sıradan insanı ve günlük yaşamı şiire sokmak",
+                    "Ölçü ve uyağa karşı çıkmak",
+                    "Şiirdeki her türlü kurala ve kalıba başkaldırmak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Garip akımı, süslü ve ağdalı dili reddetmiş, aksine sokağın dilini ve sade bir söyleyişi savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şiire 'sanat için sanat' anlayışıyla yaklaşan, mitolojiye ve biçim mükemmelliğine önem veren 'Saf Şiir' (Öz Şiir) temsilcisi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Attila İlhan",
+                    "Rıfat Ilgaz",
+                    "Ahmet Hamdi Tanpınar",
+                    "Mehmet Emin Yurdakul"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ahmet Hamdi Tanpınar, Öz Şiir (Saf Şiir) anlayışının en önemli isimlerinden biridir; şiirde estetiğe ve biçim kusursuzluğuna önem vermiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki şairlerden hangisi 'İkinci Yeni' topluluğu içinde yer almaz?",
+                  "options": [
+                    "Edip Cansever",
+                    "Orhan Veli Kanık",
+                    "Cemal Süreya",
+                    "Turgut Uyar"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Orhan Veli Kanık Garip akımının öncüsüdür. Edip Cansever, Cemal Süreya ve Turgut Uyar İkinci Yeni şairleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çocuk ve Allah adlı şiir kitabı ile tanınan, şiirlerinde kozmik evren, yalnızlık ve metafizik temaları işleyen sanatçı kimdir?",
+                  "options": [
+                    "Sezai Karakoç",
+                    "Fazıl Hüsnü Dağlarca",
+                    "Cahit Sıtkı Tarancı",
+                    "Necip Fazıl Kısakürek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çocuk ve Allah, Fazıl Hüsnü Dağlarca'nın en bilinen ve Türk şiirinde çığır açan eserlerinden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 'Toplumcu Gerçekçi' şiir anlayışıyla eser vermiştir?",
+                  "options": [
+                    "Asaf Halet Çelebi",
+                    "Ahmet Kutsi Tecer",
+                    "Ziya Osman Saba",
+                    "Rıfat Ilgaz"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Rıfat Ilgaz, Toplumcu Gerçekçi çizelgede yer alan ve ezilen halkın yaşamını şiire taşıyan önemli bir şairdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cumhuriyet dönemi Türk şiirinde 'Kaldırımlar' ve 'Örümcek Ağı' şiirleriyle tanınan, mistik ve metafizik duyuş tarzının öncüsü olan şair ____ şeklindedir.",
+                  "options": [
+                    "Necip Fazıl Kısakürek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Necip Fazıl Kısakürek, mistisizm ve metafizik temaları işlediği şiirleriyle 'Şairler Sultanı' olarak da anılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Garip akımı temsilcilerinden biri olan, 'Yaprak' dergisini çıkaran ve 'İstanbul'u Dinliyorum' şiiriyle bilinen şair ____ adıyla tanınır.",
+                  "options": [
+                    "Orhan Veli Kanık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orhan Veli, Garip şiir hareketinin kurucusu ve en tanınan ismidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yedi Meşaleciler topluluğunun kurucuları arasında yer alan ve 'Sebil ve Güvercinler' şiirini yazan şair ____ olarak bilinir.",
+                  "options": [
+                    "Ziya Osman Saba"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ziya Osman Saba, Yedi Meşaleciler içinde şiire en sadık kalan ve anı, ev, aile sevgisi temalarını işleyen şairdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkinci Yeni akımının en önemli isimlerinden biri olan, 'Üvercinka' adlı şiir kitabının yazarı ____ şairimizdir.",
+                  "options": [
+                    "Cemal Süreya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cemal Süreya, İkinci Yeni şiirinin kurucu teorisyenlerinden ve önde gelen şairlerindendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Memleket edebiyatı çizgisinde yer alan, 'Orhan Şaik Gökyay'ın bu vatan kimin adlı şiiri ____ temasıyla yazılmıştır.",
+                  "options": [
+                    "vatan sevgisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orhan Şaik Gökyay'ın 'Bu Vatan Kimin' şiiri Milli Edebiyat zevk ve anlayışını sürdüren şiirin en güzel vatan sevgisi örneklerindendir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Garip akımı şairleri, şiirde ölçü ve uyağı geleneksel bir zorunluluk olarak görmüş ve her zaman kafiye kullanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Garip akımı şairleri ölçü, uyak ve nazım biçimi gibi geleneksel kalıpların hepsini reddetmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkinci Yeni şairleri, anlamı ön planda tutan, herkesin ilk okumada rahatça anlayabileceği düz bir anlatım tercih etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkinci Yeni şiirinde anlamdan uzaklaşılmış, kapalı, soyut ve alışılmamış bağdaştırmalara dayalı bir üslup benimsenmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ahmet Hamdi Tanpınar ve Ahmet Muhip Dıranas 'Saf Şiir' (Öz Şiir) anlayışını benimseyen önemli şairler arasındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu şairler biçim kusursuzluğuna, estetiğe ve musikiye önem vererek Öz Şiir anlayışıyla eserler vermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Toplumcu Gerçekçi şairler şiirlerinde işçi, köylü, yoksulluk, adaletsizlik ve sınıf çatışması gibi temaları işlemişlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumcu Gerçekçiler Marksist dünya görüşünden etkilenerek sosyal adaletsizlikleri ve halkın sorunlarını şiire taşımıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Beş Hececiler, Türk edebiyatında aruz ölçüsünü tamamen bırakıp hece ölçüsünü benimseyen ilk topluluktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hece ölçüsünü ilk savunanlar Milli Edebiyat akımının şairleridir; Beş Hececiler ise bu anlayışı devam ettiren bir gruptur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Cumhuriyet Dönemi Roman ve Hikâyesi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Toplumcu gerçekçi romanda çukurova yöresini ve toprak mücadelesini işleyen en önemli yazarımız kimdir?",
+                  "answer": "Yaşar Kemal"
+                },
+                {
+                  "question": "Yakup Kadri Karaosmanoğlu'nun Yaban romanında köylü-aydın çatışmasının geçtiği köy hangi ildedir?",
+                  "answer": "Ankara"
+                },
+                {
+                  "question": "Tutusuculuk (Surrealizm) ve varoluşçuluk akımlarından etkilenen, Aylak Adam ve Ceylanlı Yalnızlık romanlarının yazarı kimdir?",
+                  "answer": "Yusuf Atılgan"
+                },
+                {
+                  "question": "Milli Mücadele yıllarını ve İstanbul'un işgalini konu alan Halide Edip Adıvar'ın ünlü romanı hangisidir?",
+                  "answer": "Ateşten Gömlek"
+                },
+                {
+                  "question": "Bireyin iç dünyasını esas alan eserlerde sıklıkla kullanılan, kahramanların düşüncelerini doğrudan aktaran teknik hangisidir?",
+                  "answer": "Bilinç akışı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi Cumhuriyet dönemi Türk edebiyatında 'Toplumcu Gerçekçi' çizgide eser veren sanatçılardan biri değildir?",
+                  "options": [
+                    "Fakir Baykurt",
+                    "Orhan Kemal",
+                    "Kemal Tahir",
+                    "Peyami Safa"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Peyami Safa bireyin iç dünyasını esas alan psikolojik romanlar yazmıştır. Diğer şimlerdeki yazarlar ise toplumcu gerçekçi anlayışın önde gelen isimleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hakkari'nin bir köyünde öğretmenlik yapan bir aydının yalnızlığını ve yabancılaşmasını anlatan Hakkari'de Bir Mevsim adlı eserin yazarı kimdir?",
+                  "options": [
+                    "Ferit Edgü",
+                    "Oğuz Atay",
+                    "Tarık Buğra",
+                    "Adalet Ağaoğlu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hakkari'de Bir Mevsim, modern Türk edebiyatında bireyin iç dünyasını ve yabancılaşmayı işleyen önemli eserlerden biridir ve Ferit Edgü'ye aittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki romanlardan hangisi Yakup Kadri Karaosmanoğlu'na ait değildir?",
+                  "options": [
+                    "Kiralık Konak",
+                    "Hüküm Gecesi",
+                    "Yaban",
+                    "Esir Şehrin İnsanları"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Esir Şehrin İnsanları Yakup Kadri'ye değil, Kemal Tahir'e ait bir romandır. Diğer üç eser Yakup Kadri Karaosmanoğlu'nun romanlarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türk romancılığında ilk kez 'köy' gerçeğini ve köylünün sorunlarını ideolojik bir bakış açısıyla değil, gerçekçi bir gözlemle ele alan Yaban romanının yazarı kimdir?",
+                  "options": [
+                    "Reşat Nuri Güntekin",
+                    "Yakup Kadri Karaosmanoğlu",
+                    "Halide Edip Adıvar",
+                    "Memduh Şevket Esendal"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yaban romanı Yakup Kadri Karaosmanoğlu tarafından kaleme alınmıştır ve aydın-köylü çatışmasını işler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Küçük Ağa romanında Milli Mücadele dönemini ve bir İstanbullu imamın değişim sürecini anlatan yazar kimdir?",
+                  "options": [
+                    "Necati Cumalı",
+                    "Samim Kocagöz",
+                    "Talip Apaydın",
+                    "Tarık Buğra"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Küçük Ağa, Tarık Buğra'nın Kurtuluş Savaşı yıllarındaki Anadolu'yu ve İstanbullu Hoca'nın dönüşümünü anlatan başyapıtıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cumhuriyet dönemi Türk edebiyatında postmodern romanın en önemli kurucu metinlerinden biri sayılan ve Selim Işık'ın intiharını araştıran roman ____ adlı eserdir.",
+                  "options": [
+                    "Tutunamayanlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Oğuz Atay'ın yazdığı Tutunamayanlar romanı Türk edebiyatındaki ilk büyük postmodern eser kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Halide Edip Adıvar'ın Doğu-Batı çatışmasını ve İstanbullu bir aydının terbiyesini işlediği otobiyografik nitelikteki romanı ____ adını taşır.",
+                  "options": [
+                    "Sinekli Bakkal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sinekli Bakkal, Halide Edip Adıvar'ın Doğu ile Batı kültürleri arasında sıkışan Türk toplumunu ve bir mahalle hayatını anlattığı önemli bir romandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çukurova yöresinin ağalık düzenini, pamuk işçilerini ve çeltik ekimini anlatan İnce Memed serisinin yazarı ____ tir.",
+                  "options": [
+                    "Yaşar Kemal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaşar Kemal, İnce Memed romanı ile dünya çapında üne kavuşmuş ve Çukurova'nın ekolojisini toplumsal gerçekçi bir dille yansıtmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dokuzuncu Hariciye Koğuşu adlı psikolojik romanın yazarı ____ dir.",
+                  "options": [
+                    "Peyami Safa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peyami Safa'nın bu otobiyografik romanı, bir hastane odasında geçen psikolojik süreçleri ve bacağımdaki hastalığı konu alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Anadolu köylüsünün yaşadığı sefaleti ve köydeki öğretmenlerin mücadelesini anlatan 'Yılanı Öldürseler' eseri ____ adlı yazara aittir.",
+                  "options": [
+                    "Yaşar Kemal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yılanı Öldürseler, Yaşar Kemal'in toplumsal töreleri ve psikolojik baskıları işlediği önemli romanlarındandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Cumhuriyet döneminde toplumcu gerçekçi yazarlar eserlerinde ağırlıklı olarak köy, köylü, işçi ve kasaba hayatının problemlerini ele almışlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Toplumcu gerçekçi sanatçılar sanatın toplum için yapıldığı inancıyla köylü, işçi, maraba gibi kesimlerin sorunlarını gerçekçi bir dille işlemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Oğuz Atay'ın Tutunamayanlar romanı, geleneksel anlatım teknikleri bütünüyle reddedilerek yazılmış ilk saf halk hikayesi örneğidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tutunamayanlar halk hikayesi değil, postmodern tekniklerin (üstkurmaca, bilinç akışı vb.) yoğun olarak kullanıldığı modern bir romandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Peyami Safa, 'Cengiz Han'ın Bisikleti' adlı oyununda olduğu gibi romanlarında da sıklıkla doğu-batı çatışmasını ve psikolojik bunalımları incelemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Peyami Safa Doğu-Batı sentezi, ruhsal çözümlemeler ve ahlaki değerler üzerine derinlemesine eserler vermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yakup Kadri Karaosmanoğlu'nun 'Yaban' romanı Milli Mücadele dönemini tamamen iyimser bir İstanbul tablosuyla anlatır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yaban romanı İstanbul'u değil, Sakarya savaşı öncesi bir Anadolu köyünü ve aydın ile köylü arasındaki uçurumu karamsar bir gerçeklikle anlatır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Memduh Şevket Esendal ve Sait Faik Abasıyanık, Türk edebiyatında Çehov tarzı durum hikayeciliğinin en önemli iki temsilcisidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu iki yazar olay merkezli Maupassant tarzından farklı olarak kesit veya durum hikayeciliğinin Türk edebiyatındaki öncüleridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Cumhuriyet Dönemi Tiyatro ve Düşünce",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Cumhuriyet dönemi Türk tiyatrosunun kurucusu kabul edilen ve 'Reşat Nuri Güntekin'in tiyatrolarında dramatik örgü' anlayışını sürdüren sanatçı kimdir?",
+                  "answer": "Muhsin Ertuğrul"
+                },
+                {
+                  "question": "Durmuş Akbulut, Safiye Erol gibi yazarların dışında 'Buzlar Çözülmeden' adlı ünlü tiyatro eserini yazan cumhuriyet dönemi yazarı kimdir?",
+                  "answer": "Cevat Fehmi Başkut"
+                },
+                {
+                  "question": "Absürt (uyumsuz) tiyatronun Türk edebiyatındaki ilk önemli temsilcisi olan 'Keşanlı Ali Destanı'nın yazarı kimdir?",
+                  "answer": "Haldun Taner"
+                },
+                {
+                  "question": "Milli Edebiyat zevk ve anlayışını sürdüren tiyatro eserleriyle tanınan, 'Paydos' ve 'Yarınır' gibi oyunların yazarı kimdir?",
+                  "answer": "Cevat Fehmi Başkut"
+                },
+                {
+                  "question": "Cumhuriyet döneminde epik tiyatro türünün dünyadaki öncüsü Bertolt Brecht'in etkisinde kalarak eser veren Türk oyun yazarı kimdir?",
+                  "answer": "Haldun Taner"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi Cumhuriyet dönemi tiyatro yazarları arasında yer almaz?",
+                  "options": [
+                    "Haldun Taner",
+                    "Yahya Kemal Beyatlı",
+                    "Orhan Asena",
+                    "Turan Oflazoğlu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yahya Kemal Beyatlı, Cumhuriyet dönemi Türk edebiyatında daha çok şiir ve saf şiir anlayışı ile tanınan bir sanatçıdır; tiyatro türünde eser vermemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türk tiyatrosunda 'epk tiyatro' anlayışının ve kabare tiyatrosunun öncüsü kabul edilen sanatçı kimdir?",
+                  "options": [
+                    "Reşat Nuri Güntekin",
+                    "Musahipzade Celal",
+                    "Haldun Taner",
+                    "Ahmet Kutsi Tecer"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Haldun Taner, Keşanlı Ali Destanı ile Türk edebiyatında epik tiyatronun ilk örneğini vermiştir ve Devekuşu Kabare'nin kurucularındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tarihsel konuları işlediği oyunlarıyla tanınan, 'Hürrem Sultan', 'Yeditepeli İstanbul' gibi eserlerin yazarı kimdir?",
+                  "options": [
+                    "Refik Erduran",
+                    "Aziz Nesin",
+                    "Orhan Asena",
+                    "Necati Cumalı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orhan Asena, tarihsel oyunlarıyla tanınmış ve 'Tarih Tiyatrosu'nun en önemli isimlerinden biri olmuştur; Hürrem Sultan en bilinen oyunlarındandır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı tarihini ve toplumsal değişmeleri ele alan 'Kösem Sultan' ve 'IV. Murat' gibi oyunlarıyla bilinen tiyatro yazarımız kimdir?",
+                  "options": [
+                    "Turan Oflazoğlu",
+                    "Güngör Dilmen",
+                    "Çetin Altan",
+                    "Melih Cevdet Anday"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Turan Oflazoğlu, özellikle Osmanlı tarihini ve padişahların iç dünyasını ele aldığı trajik oyunlarıyla (Kösem Sultan, IV. Murat, Deli İbrahim) tanınır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Orhan Asena - Hürrem Sultan",
+                    "Reşat Nuri Güntekin - Göz Dağı",
+                    "Cevat Fehmi Başkut - Buzlar Çözülmeden",
+                    "Haldun Taner - Keşanlı Ali Destanı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Göz Dağı Reşat Nuri Güntekin'e değil, başka bir yazara aittir. Reşat Nuri'nin tiyatroları arasında Balıkesir Muhasebecisi ve Tanrı Dağı Ziyareti yer alır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Cumhuriyet döneminde Haldun Taner tarafından yazılan ve epik tiyatronun ilk başarılı örneği kabul edilen eser ____ adlı oyundur.",
+                  "options": [
+                    "Keşanlı Ali Destanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Keşanlı Ali Destanı, Haldun Taner'in yazdığı ve geleneksel Türk tiyatrosu unsurlarını batı formuyla birleştiren ilk epik tiyatro oyunudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarihsel oyunlarıyla tanınan ve özellikle Osmanlı padişahlarını konu edinen trajediler yazan tiyatro yazarımız Turan ____.",
+                  "options": [
+                    "Oflazoğlu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Turan Oflazoğlu, IV. Murat, Deli İbrahim gibi oyunlarında Osmanlı tarihini ve iktidar çatışmalarını işlemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cumhuriyet dönemi tiyatrosunda kabare tiyatrosunun kurulmasında öncülük eden yazarlardan biri Haldun ____.",
+                  "options": [
+                    "Taner"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Haldun Taner, Zeki Alasya ve Metin Akpınar ile birlikte Devekuşu Kabare'yi kurarak Türkiye'de kabare tiyatrosunu başlatmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Refik Erduran'ın yazdığı, siyaset ve basın dünyasını eleştiren ünlü mizahi tiyatro eseri ____ adlı oyundur.",
+                  "options": [
+                    "Cengiz Han'ın Bisikleti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cengiz Han'ın Bisikleti, Refik Erduran'ın en bilinen ve sıklıkla sahnelenen mizahi tiyatro oyunları arasındadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mithat Cemal Kuntay'ın yazdığı, milli mücadele dönemini ve İstanbul'u anlatan önemli tiyatro eseri ____.",
+                  "options": [
+                    "Yırak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mithat Cemal Kuntay'ın tiyatro alanındaki en önemli çalışmaları arasında milli değerleri işleyen eserler bulunmaktadır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Cumhuriyet döneminde tiyatro, devlet desteğiyle kurulan Darülbedayi (Şehir Tiyatroları) ve Devlet Tiyatroları sayesinde kurumsal bir yapı kazanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Darülbedayi ve sonrasında kurulan Devlet Tiyatroları, Cumhuriyet döneminde tiyatronun yaygınlaşmasında ve kurumsallaşmasında büyük rol oynamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Haldun Taner, geleneksel Türk tiyatrosu ögelerini tamamen reddederek sadece batı tarzı bulvar komedileri yazmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Haldun Taner geleneksel Türk tiyatrosundan (orta oyunu, meddah) ve halk kültüründen geniş ölçüde yararlanmıştır; gelenekseli reddetmemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orhan Asena, 'Hürrem Sultan' ve 'Atçalı Kel Mehmet' gibi tarihsel ve toplumsal oyunlarıyla tanınan önemli bir Cumhuriyet dönemi oyun yazarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orhan Asena, Türk tiyatrosunda tarihsel konuları ve toplumsal olayları başarıyla işleyen önde gelen oyun yazarlarımızdandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cevat Fehmi Başkut'un 'Buzlar Çözülmeden' adlı oyunu yalnızca yurtiçinde sahnelenmiş, hiçbir yabancı dile çevrilmemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cevat Fehmi Başkut'un eserleri yurt dışında da sahnelenen ilk Türk oyunları arasında yer almıştır; Buzlar Çözülmeden birçok farklı dilde oynanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cumhuriyet döneminde tiyatro yazarlığı sadece büyük şehirlerle sınırlı kalmamış, köy enstitüleri ve halkevleri aracılığıyla Anadolu'ya da yayılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halkevleri ve Köy Enstitüleri, Cumhuriyet döneminde tiyatronun Anadolu'da yaygınlaşmasında, halkın tiyatro ile buluşmasında kritik bir işleve sahip olmuştur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2243,13 +5085,419 @@
           "id": "node1",
           "order": 1,
           "title": "Batı Edebiyatı Akımları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Klasisizm akımının temelini oluşturan felsefi akım nedir?",
+                  "answer": "Rasyonalizm (akılcılık)"
+                },
+                {
+                  "question": "Romantizm akımı hangi akıma tepki olarak doğmuştur?",
+                  "answer": "Klasisizm"
+                },
+                {
+                  "question": "Realizm akımının edebiyattaki en önemli öncüsü sayılan 'Madame Bovary' romanının yazarı kimdir?",
+                  "answer": "Gustave Flaubert"
+                },
+                {
+                  "question": "Natüralizm akımında realizmden farklı olarak eserlere uygulanan bilimsel yöntem nedir?",
+                  "answer": "Determinizm ve deney"
+                },
+                {
+                  "question": "Sembizm (Sembolizm) akımında şiirde anlam kapalılığının temel nedeni nedir?",
+                  "answer": "Sözcüklerin müzikal değeri ve duygu uyandırma gücünün anlam açıklığından üstün tutulması"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Klasisizm akımının özelliklerinden biri değildir?",
+                  "options": [
+                    "Aklın ve sağduyunun her şeyden üstün tutulması",
+                    "Sanat için sanat anlayışının benimsenmesi",
+                    "Konuların günlük yaşamdan ve sıradan insanlardan seçilmesi",
+                    "Kahramanların genellikle soylu tabakadan seçilmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Klasisizmde konular mitolojiden ve soylu kişilerin hayatından seçilir; sıradan insanlara ve günlük yaşama yer verilmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki yazarlardan hangisi Romantizm akımının temsilcileri arasında yer almaz?",
+                  "options": [
+                    "Alexandre Dumas Pere",
+                    "Jean-Jacques Rousseau",
+                    "Victor Hugo",
+                    "Moliere"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Moliere, Klasisizm akımının tiyatro türündeki en önemli temsilcilerindendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gözleme ve belgeye büyük önem veren, 'sanat toplum içindir' görüşünü benimseyen Realizm akımı hangi akımın yerini almıştır?",
+                  "options": [
+                    "Sembolizm",
+                    "Parnasizm",
+                    "Klasisizm",
+                    "Romantizm"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Realizm, Romantizm akımının aşırı duygusallığına ve öznelliğine tepki olarak doğmuş ve onun yerini almıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Natüralizm akımı ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?",
+                  "options": [
+                    "Toplum için sanat anlayışı benimsenmiştir.",
+                    "Yazar, eserlerinde olaylar karşısında taraf tutar ve kişiliğini gizlemez.",
+                    "İnsan kişiliğinin oluşumunda irsiyet (kalıtım) ve çevre en önemli etkenlerdir.",
+                    "Sokak dili ve argo edebiyata dahil edilmiştir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Natüralist ve realist yazarlar eserlerinde nesnel olmak zorundadırlar; bu nedenle yazar kişiliğini gizler ve olaylar karşısında taraf tutmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şiirde biçim kusursuzluğuna ve parıltılı betimlemelere önem veren, 'sanat için sanat' anlayışıyla hareket eden şiir akımı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Parnasizm",
+                    "Empresyonizm",
+                    "Fütürizm",
+                    "Sürrealizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Parnasizm, realizmin şiire yansımış halidir ve özellikle biçim kusursuzluğu, ölçü, uyak ve dış dünya betimlemelerine önem verir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Klasisizm akımında tiyatro eserlerinde uyulması zorunlu olan üç birlik kuralı; yer, olay ve ____ birliğinden oluşur.",
+                  "options": [
+                    "zaman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üç birlik kuralı oyunun tek bir yerde, 24 saatlik bir zaman diliminde ve tek bir ana olay etrafında geçmesini şart koşar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Romantizm akımının beyannamesi kabul edilen oyunun önsözü ____ adlı sanatçıya aittir.",
+                  "options": [
+                    "Victor Hugo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Victor Hugo'nun Cromwel adlı oyununun önsözü, Romantizmin ilkelerini belirleyen manifestosu niteliğindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Realizm akımı, yazarların toplumun aksayan yönlerini eleştirdiği ve özellikle 'suç ve ceza' gibi konuları işlediği roman türünde en yetkin örneklerini ____ edebiyatında vermiştir.",
+                  "options": [
+                    "Rus"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gogol, Tolstoy, Dostoyevski ve Çehov gibi isimler realist ve natüralist çizgide Rus edebiyatını dünya çapında zirveye taşımıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Natüralizm akımının kurucusu ve kuramsal yazarı olarak kabul edilen Fransız yazar ____ dir.",
+                  "options": [
+                    "Emile Zola"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emile Zola, deneysel roman anlayışıyla Natüralizmin edebiyattaki en büyük kuramcısı ve uygulayıcısı olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sembolizm akımında dış dünyanın nesnel gerçekliği yerine bireyin bu gerçeklik karşısındaki ____ önemlidir.",
+                  "options": [
+                    "izlenimleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sembolistler dış dünyayı olduğu gibi yansıtmazlar; onun uyandırdığı çağrışımları ve izlenimleri şiire aktarırlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Klasisizmde konular tarihten ve mitolojiden alınırken, Romantizmde günlük yaşamdan ve ulusal tarihden alınmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Klasisizm antik Yunan ve Latin kültürünü örnek alırken, Romantizm milli tarihe ve Hristiyanlık mitolojisine yönelmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Realizm akımı, duygusallığın ve hayallerin ön planda olduğu, karakterlerin tek yönlü işlendiği bir akımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Realizm akımında duygu ve hayaller değil, gözlem ve gerçeklik ön plandadır; karakterler hem iyi hem kötü yönleriyle çok yönlü ele alınır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Natüralist yazarlar laboratuvardaki bir bilim insanı tarafsızlığıyla olaylara yaklaşmış ve karakterlerin kalıtımsal özelliklerini incelemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Natüralizmde sanatçı adeta bir bilim insanı gibi insanı ve toplumu incelemeyi amaçlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Parnasizm, Romantizmin aşırı kuralcılığına tepki olarak doğmuş ve kuralları reddetmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Parnasizm romantizme tepki olarak doğmuştur ancak kuralsızlığı değil, şiirde biçim ve ölçü kusursuzluğunu savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sembolizm akımının en önemli özelliklerinden biri de şiirde anlam açıklığı yerine kapalılığı ve müzikaliteyi savunmalarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sembolistler sözcüklerin anlam değerinden çok müzikal değerine ve çağrışım zenginliğine önem vermişlerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Dünya Edebiyatından Eserler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Suç ve Ceza romanının yazarı kimdir?",
+                  "answer": "Fyodor Mihayloviç Dostoyevski"
+                },
+                {
+                  "question": "Sefiller adlı eserin yazarı hangi Fransız romancıdır?",
+                  "answer": "Victor Hugo"
+                },
+                {
+                  "question": "Don Kişot romanının türünün dünyadaki ilk örneği kabul edilen akımı nedir?",
+                  "answer": "Modern roman"
+                },
+                {
+                  "question": "Faust adlı ünlü trajedinin yazarı kimdir?",
+                  "answer": "Johann Wolfgang von Goethe"
+                },
+                {
+                  "question": "Anna Karenina romanı hangi Rus yazarın kaleminden çıkmıştır?",
+                  "answer": "Lev Nikolayeviç Tolstoy"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır?",
+                  "options": [
+                    "Hamlet - William Shakespeare",
+                    "Suç ve Ceza - İvan Turgenyev",
+                    "Madame Bovary - Gustave Flaubert",
+                    "Savaş ve Barış - Lev Tolstoy"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Suç ve Ceza romanı İvan Turgenyev'e değil, Fyodor Dostoyevski'ye aittir. Diğer tüm eşleştirmeler doğrudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya edebiyatında ilk modern roman olarak kabul edilen 'Don Kişot'un yazarı kimdir?",
+                  "options": [
+                    "Miguel de Cervantes",
+                    "William Shakespeare",
+                    "Dante Alighieri",
+                    "Giovanni Boccaccio"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Don Kişot, İspanyol yazar Miguel de Cervantes tarafından yazılmıştır ve modern romanın ilk örneği kabul edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fransız edebiyatında realizmin kurucusu sayılan ve 'Madame Bovary' romanını yazan sanatçı kimdir?",
+                  "options": [
+                    "Gustave Flaubert",
+                    "Stendhal",
+                    "Victor Hugo",
+                    "Emile Zola"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Madame Bovary romanı, realizm akımının en önemli temsilcilerinden biri olan Gustave Flaubert'e aittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi William Shakespeare'e ait bir trajedidir?",
+                  "options": [
+                    "Tartuffe",
+                    "Macbeth",
+                    "Cimri",
+                    "Gönülçelen"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Macbeth, William Shakespeare'in en önemli trajedilerinden biridir. Cimri ve Tartuffe Moliere'e aittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Toplumsal ve ekonomik sorunları ele alan 'Germinal' romanının yazarı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Franz Kafka",
+                    "Emile Zola",
+                    "Honoré de Balzac",
+                    "Albert Camus"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Germinal, natüralizm akımının kurucusu ve en önemli ismi olan Fransız yazar Emile Zola tarafından kaleme alınmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İtalyan edebiyatının en büyük şairlerinden biri olan ve 'İlahi Komedya' adlı eseri yazan sanatçı ____dır.",
+                  "options": [
+                    "Dante Alighieri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlahi Komedya, İtalyan edebiyatının başyapıtı olup Dante Alighieri tarafından yazılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransız edebiyatında romantizm akımının hem teorisyeni hem de 'Sefiller' adlı romanın yazarı ____dur.",
+                  "options": [
+                    "Victor Hugo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Victor Hugo, romantizm akımının öncülerindendir ve Sefiller ile Notre Dame'ın Kamburu gibi önemli eserler yazmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Alman edebiyatının en önemli isimlerinden biri olan ve insanoğlunun bilgi ve mutluluk arayışını anlatan 'Faust'un yazarı ____tir.",
+                  "options": [
+                    "Goethe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Faust, Alman edebiyatının zirve isimlerinden Johann Wolfgang von Goethe tarafından yazılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Absürt (Uyumsuz) tiyatronun önemli örneklerinden biri olan 'Godot'yu Beklerken' oyununun yazarı ____dir.",
+                  "options": [
+                    "Samuel Beckett"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Godot'yu Beklerken, tiyatroda absürt akımın öncülerinden olan İrlandalı yazar Samuel Beckett tarafından kaleme alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toplumcu gerçekçi Rus edebiyatının başyapıtlarından olan 'Ana' romanının yazarı ____tir.",
+                  "options": [
+                    "Maksim Gorki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana romanı, Sovyet edebiyatının ve toplumcu gerçekçiliğin kurucusu sayılan Maksim Gorki tarafından yazılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Boccaccio'nun yazdığı 'Decameron' (Dekameron) adlı eser, dünya edebiyatında hikaye türünün ilk örneği kabul edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dekameron, 14. yüzyılda yazılmış olup çerçeve hikaye tekniğiyle dünya edebiyatındaki ilk büyük hikaye örneği sayılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Franz Kafka'nın 'Dönüşüm' adlı eseri realizm akımının ilk ve en keskin örneğidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dönüşüm eseri realizme değil, 20. yüzyılın başlarında ortaya çıkan dışavurumculuk (ekspresyonizm) ve modernist akımlara aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Homeros'un yazdığı 'İlyada' ve 'Odysseia' antik Yunan edebiyatının en önemli epik destanlarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlyada ve Odysseia, Batı edebiyatının günümüze ulaşan en eski ve en önemli destanları arasında yer alır ve Homeros'a atfedilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Moliere, klasik edebiyat döneminde trajedi türünün dünya edebiyatındaki en büyük temsilcisidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Moliere trajedi değil, komedi (komedya) türünün klasik dönemdeki en önemli temsilcisidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Stendhal'ın 'Kırmızı ve Siyah' romanı realizm ve psikolojik tahlil açısından dünya edebiyatında önemli bir yere sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırmızı ve Siyah, realist romanın öncülerinden kabul edilen Stendhal'ın en önemli psikolojik romanlarından biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

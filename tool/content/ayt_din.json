@@ -1957,7 +1957,210 @@
           "id": "node1",
           "order": 1,
           "title": "Hint ve Çin Dinleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hinduizm'de ruhun beden değiştirmesine ne ad verilir?",
+                  "answer": "Reenkarnasyon (tenasüh)"
+                },
+                {
+                  "question": "Budizm'in kurucusu kimdir?",
+                  "answer": "Sidarta Gautama (Budha)"
+                },
+                {
+                  "question": "Taoizm'in temel kavramı ve her şeyin kaynağı olan ilke nedir?",
+                  "answer": "Tao"
+                },
+                {
+                  "question": "Konfüçyüsçülükte erdemli ve ahlaklı insanı ifade etmek için kullanılan kavram nedir?",
+                  "answer": "Junzi (Asil insan)"
+                },
+                {
+                  "question": "Hinduizm'de kişinin dünya hayatındaki görev ve sorumluluklarını belirten yasa nedir?",
+                  "answer": "Dharma"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Hint dinlerinin ortak özelliklerinden biri değildir?",
+                  "options": [
+                    "Tek bir kurucu peygambere dayanmaları",
+                    "Reenkarnasyon inancının bulunması",
+                    "Karma inancının benimsenmesi",
+                    "Tenasüh döngüsünden kurtuluşun hedeflenmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hinduizm gibi bazı Hint dinlerinin bilinen tek bir kurucusu yoktur ve zaman içinde gelişmiş geleneklerdir. Bu nedenle tek bir peygambere dayanmak Hint dinlerinin ortak özelliği değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Budizm'de Nirvana'ya ulaşmak ve ıstıraptan kurtulmak için takip edilmesi gereken yolun adı nedir?",
+                  "options": [
+                    "Mandala Ritüeli",
+                    "Veda Metinleri",
+                    "Sekiz Dilimli Yol",
+                    "Kast Sistemi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Budizm'in temel öğretilerinden biri olan Sekiz Dilimli Yol, insanın arzu ve tutkulardan kurtulup Nirvana'ya ulaşmasını sağlayan orta yoldur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çin kökenli dinler arasında yer alan ve evrendeki zıt güçlerin dengesini temsil eden sembolün olduğu gelenek hangisidir?",
+                  "options": [
+                    "Hinduizm",
+                    "Sihizm",
+                    "Taoizm",
+                    "Caynizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Taoizm'de Yin ve Yang gibi zıt güçlerin dengesi büyük önem taşır. Bu felsefe Taoist düşüncenin temelini oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Konfüçyüsçülük inancında özellikle vurgulanan temel değer aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kast sistemine sıkı sıkıya uymak",
+                    "Aileye ve büyüklere saygı (filial piety)",
+                    "Dünyadan tamamen el etek çekmek",
+                    "Afiş ve törenlerle çile çekmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Konfüçyüsçülük sosyal düzeni ve ahlakı önemser; bu bağlamda aile büyüklerine ve atalara saygı göstermek (Xiao) temel erdemlerdendir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hinduizm'de toplumsal sınıfları birbirinden ayıran ve doğumla kazanılarak değiştirilemeyen yapıya ne denir?",
+                  "options": [
+                    "Kast",
+                    "Karma",
+                    "Veda",
+                    "Nirvana"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hindu toplumunu Brahmanlar, Kşatriyalar, Vaişyalar ve Şudralar olmak üzere sınıflara ayıran katı sosyal yapıya kast sistemi denir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Budizm'de arzuların ve acıların sona erdiği, Nirvana'ya ulaşılan duruma ____ denir.",
+                  "options": [
+                    "Aydınlanma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Budha'nın ağaç altında ulaştığı ve her türlü istekten arınma durumu aydınlanma olarak ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hinduizm'de yapılan iyi veya kötü davranışların karşılığını bulacağı inancına ____ yasası denir.",
+                  "options": [
+                    "Karma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karma yasası, her eylemin bir sonucu olduğu ve ruhun sonraki hayatını etkilediği inancıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Taoizm'in kurucusu ve Lao-zi olarak bilinen bilge kişidir; Taoizm'in kutsal kitabı ise ____ olarak adlandırılır.",
+                  "options": [
+                    "Tao Te Ching"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tao Te Ching, Taoizm'in en temel yazılı metni olup Lao-zi'ye atfedilmektedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Konfüçyüsçülük, Çin'de geleneksel ahlakı ve düzeni korumayı amaçlayan bir ____ sistemidir.",
+                  "options": [
+                    "felsefe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konfüçyüsçülük daha çok ahlaki ve sosyal bir yaşam rehberi olduğu için geleneksel anlamda bir din olmaktan ziyade felsefe/gelenek olarak kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hinduizm'in kutsal metinlerinin en eski ve en önemlileri ____ olarak adlandırılır.",
+                  "options": [
+                    "Veda"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vedalar, Hindu geleneğindeki en eski ve otorite kabul edilen kutsal metin koleksiyonudur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Budizm, Hinduizm'in kast sistemini ve Brahmanların otoritesini reddederek ortaya çıkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sidarta Gautama, Brahmanların ayrıcalıklı konumuna ve katı kast sistemine karşı çıkarak herkesin kurtuluşa ulaşabileceğini savunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Taoizm'de insanın tabiata müdahale etmeden, akışına bırakarak yaşaması gerektiği savunulur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taoist felsefedeki 'Wu-wei' (eylemsizlik veya doğaya uyma) ilkesi, olayların doğal akışına müdahale etmemeyi öğütler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Konfüçyüsçülük inancında birden fazla yaratıcı tanrı ve tanrıça tapınağı bulunmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Konfüçyüsçülük kişisel bir tanrı inancından ziyade ahlak, erdem, toplum düzeni ve atalara saygı üzerine odaklanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hinduizm'de ruhun ölümsüz olduğu ve sürekli olarak başka bedenlerde yeniden doğduğu inancı vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tenasüh veya reenkarnasyon inancı gereği ruh, samsara adı verilen doğum-ölüm döngüsünde defalarca beden değiştirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çin dinleri arasında yer alan Şintoizm, Çin'in ulusal dinidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şintoizm Çin'in değil, Japonya'nın yerel dinidir. Çin kökenli dinler Taoizm ve Konfüçyüsçülüktür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

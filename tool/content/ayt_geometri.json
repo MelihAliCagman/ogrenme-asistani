@@ -1004,7 +1004,189 @@
           "id": "node3",
           "order": 3,
           "title": "Dairenin Alanı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yarıçapı r olan bir dairenin alanı hangi formülle bulunur?",
+                  "answer": "Pi çarpı r kare"
+                },
+                {
+                  "question": "Yarıçapı 6 cm ve merkez açısı 60 derece olan daire diliminin alanı kaç pi cm karedir?",
+                  "answer": "6"
+                },
+                {
+                  "question": "Çemberin çevresi 12 pi cm olan bir dairenin alanı kaç pi cm karedir?",
+                  "answer": "36"
+                },
+                {
+                  "question": "İçteki çember ile dıştaki çember arasında kalan alanın adına ne denir?",
+                  "answer": "Daire halkası"
+                },
+                {
+                  "question": "Yarıçapı 4 cm olan dairenin alanı kaç pi cm karedir?",
+                  "answer": "16"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı 5 cm olan bir dairenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "10 pi",
+                    "75 pi",
+                    "25 pi",
+                    "50 pi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dairenin alanı pi çarpı r kare formülüyle hesaplanır. Yarıçap 5 olduğundan alan pi çarpı 5 kare eşittir 25 pi bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 8 cm ve merkez açısının ölçüsü 45 derece olan daire diliminin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "8 pi",
+                    "4 pi",
+                    "16 pi",
+                    "6 pi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Daire diliminin alanı pi çarpı r kare çarpı alfa bölü 360 formülüyle bulunur. Değerler yerine yazılırsa pi çarpı 64 çarpı 45 bölü 360 eşittir 8 pi bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İç yarıçapı 3 cm ve dış yarıçapı 5 cm olan daire halkasının alanı kaç santimetrekaredir?",
+                  "options": [
+                    "8 pi",
+                    "25 pi",
+                    "12 pi",
+                    "16 pi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Daire halkasının alanı pi çarpı parantez içinde dış yarıçapın karesi eksi iç yarıçapın karesi formülüyle hesaplanır. Alan pi çarpı parantez içinde 25 eksi 9 eşittir 16 pi olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çevre uzunluğu 20 pi cm olan dairenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "100 pi",
+                    "50 pi",
+                    "400 pi",
+                    "200 pi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çevre formülü iki çarpı pi çarpı r eşittir 20 pi den r eşittir 10 cm bulunur. Alan pi çarpı r kare formülünden pi çarpı 10 kare eşittir 100 pi elde edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı r olan bir dairenin alanı pi çarpı ____ formülü ile hesaplanır.",
+                  "options": [
+                    "r kare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dairenin alan bağıntısı pi çarpı r karenin karesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Merkez açısı 360 dereceden küçük olan daire parçasına daire ____ denir.",
+                  "options": [
+                    "dilimi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dairenin merkezinden çıkan iki yarıçap arasında kalan alana daire dilimi denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yarıçapı 10 cm olan bir dairenin alanı yüz ____ olur.",
+                  "options": [
+                    "pi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alan pi çarpı 10 un karesi eşittir yüz pi şeklindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dairede alan birimleri uzunluk birimlerinin ____ olarak ifade edilir.",
+                  "options": [
+                    "karesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alan ölçüleri uzunluk ölçülerinin ikinci kuvveti yani karesi birimindedir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı iki katına çıkan bir dairenin alanı dört katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Alan formülündeki yarıçap r yerine iki r yazıldığında parantez karesinden dolayı alan dört katına çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çevresi yirmi pi olan dairenin alanı on pi karedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çevreden yarıçap beş bulunur, alan ise yirmi beş pi kare değil yirmi beş pi olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Daire halkasının alanı dış dairenin alanından iç dairenin alanı çıkarılarak bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Halka alanı büyük daire eksi küçük daire mantığıyla hesaplanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Merkez açısı yüz seksen derece olan daire diliminin alanı yarım dairenin alanına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüz seksen derece tam dairenin yarısı olduğundan alan da yarısı olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yarıçapı üç santimetre olan dairenin alanı dokuz santimetrekaredir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Alan pi sayısı ile çarpılarak bulunur, bu yüzden alan dokuz pi santimetrekare olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1214,7 +1396,168 @@
           "id": "node2",
           "order": 2,
           "title": "Çemberin Analitik İncelenmesi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Merkezi (a, b) ve yarıçapı r olan çemberin standart denklemi nedir?",
+                  "answer": "(x - a)^2 + (y - b)^2 = r^2"
+                },
+                {
+                  "question": "x^2 + y^2 + Dx + Ey + F = 0 denkleminin bir çember belirtmesi için yarıçap formülü nedir?",
+                  "answer": "r = (1/2) * kök içinde (D^2 + E^2 - 4F)"
+                },
+                {
+                  "question": "x eksenine teğet olan bir çemberin merkezinin ordinatı (y bileşeni) ile yarıçapı arasındaki ilişki nedir?",
+                  "answer": "Yarıçap, merkezinin y bileşeninin mutlak değerine eşittir: r = |b|"
+                },
+                {
+                  "question": "Analitik düzlemde orijinden geçen bir çemberin standart denklemindeki sabit terim (F) kaç olmalıdır?",
+                  "answer": "0 olmalıdır"
+                },
+                {
+                  "question": "İki çemberin birbirine dıştan teğet olduğu durumda merkezleri arasındaki uzaklık neye eşittir?",
+                  "answer": "Yarıçaplarının toplamına eşittir: d = r1 + r2"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Merkezi M(-3, 4) olan ve orijinden geçen çemberin denklemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(x + 3)^2 + (y - 4)^2 = 5",
+                    "(x - 3)^2 + (y + 4)^2 = 25",
+                    "(x + 3)^2 + (y - 4)^2 = 25",
+                    "(x + 3)^2 + (y - 4)^2 = 9"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çember orijinden (0, 0) geçtiğine göre, merkez ile orijin arasındaki uzaklık yarıçapa eşittir. r^2 = (-3 - 0)^2 + (4 - 0)^2 = 9 + 16 = 25 bulunur. Denklem (x + 3)^2 + (y - 4)^2 = 25 şeklindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x eksenine pozitif tarafta teğet olan ve merkezi (5, 3) noktasında bulunan çemberin denklemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(x - 5)^2 + (y - 3)^2 = 25",
+                    "(x + 5)^2 + (y + 3)^2 = 9",
+                    "(x - 5)^2 + (y - 3)^2 = 9",
+                    "(x - 3)^2 + (y - 5)^2 = 9"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çember x eksenine teğet ise yarıçapı merkezinin ordinatının mutlak değeridir, yani r = |3| = 3'tür. Merkezi (5, 3) olan çemberin denklemi (x - 5)^2 + (y - 3)^2 = 3^2 = 9 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A(1, 2) ve B(5, 4) noktalarından geçen çapının uç noktaları bu noktalar olan çemberin merkezi hangi noktadır?",
+                  "options": [
+                    "(3, 3)",
+                    "(4, 2)",
+                    "(2, 3)",
+                    "(3, 2)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çapın uç noktaları verilen çemberin merkezi, bu uç noktaların orta noktasıdır. M = ((1 + 5)/2, (2 + 4)/2) = (3, 3) olarak bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Analitik düzlemde x eksenini ve y eksenini birden merkeze göre farklı bölgelerde kesen bir çemberin merkezi eksenlere teğet ise yarıçap x ve y bileşenlerinin mutlak değerine eşittir. Her iki eksene de teğet olan ve merkezi 1. bölgede bulunan yarıçapı 4 birim olan çemberin denklemi (x - 4)^2 + (y - 4)^2 = ____ şeklindedir.",
+                  "options": [
+                    "16"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her iki eksene teğet çemberin merkezi (r, r) veya (-r, r) şeklindedir. 1. bölgede merkez (4, 4) ve r = 4 olduğundan denklemdeki sağ taraf r^2 yani 16 olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "x^2 + y^2 + 4x - 6y + m = 0 denkleminin bir nokta belirtmesi için m sayısı ____ olmalıdır.",
+                  "options": [
+                    "13"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir çember denkleminin yarıçapı sıfır olduğunda denklem bir nokta belirtir. r = 0 için D^2 + E^2 - 4F = 0 olmalıdır. 4^2 + (-6)^2 - 4m = 0 => 16 + 36 = 4m => 52 = 4m => m = 13 bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "x^2 + y^2 = 25 çemberi üzerindeki (3, 4) noktasından çizilen teğetin eğimi ____ olur.",
+                  "options": [
+                    "-3/4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çember üzerinde verilen bir noktadan çembere çizilen teğet doğrusu, o noktayı merkeze birleştiren yarıçap yarıçap vektörüne diktir. Yarıçapın eğimi (4 - 0) / (3 - 0) = 4/3 olduğundan teğetin eğimi -3/4 olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Merkezi orijin olan bir çemberin denklemi x^2 + y^2 = r^2 şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkez koordinatları (0, 0) olduğunda standart denklem x^2 + y^2 = r^2 halini alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x^2 + y^2 + 2x - 4y + 10 = 0 denklemi reel düzlemde bir çember belirtir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yarıçap formülünde r^2 = 1^2 + (-2)^2 - 10 = 1 + 4 - 10 = -5 olur. Karekökün içi negatif olamayacağı için bu denklem reel düzlemde çember belirtmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Herhangi bir çemberin denklemi Ax^2 + By^2 + Cxy + Dx + Ey + F = 0 şeklinde verildiğinde A ile B katsayıları kesinlikle birbirine eşit olmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çember denklemi olması için x^2 ve y^2 terimlerinin katsayıları hem işaret hem de sayısal değer olarak eşit olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Merkezi (2, -3) olan bir çemberin y eksenine uzaklığı 3 birimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir noktanın y eksenine olan uzaklığı apsisinin mutlak değeridir. Merkezin apsisi 2 olduğundan y eksenine uzaklığı 2 birimdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x eksenine teğet olan çemberlerin merkezinin y koordinatının mutlak değeri yarıçapa eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir çember x eksenine teğet ise dikey uzaklığı yani merkezinin ordinatının mutlak değeri çemberin yarıçapını verir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1227,7 +1570,186 @@
           "id": "node1",
           "order": 1,
           "title": "Öteleme ve Yansıma",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Analitik düzlemde bir A(x, y) noktası a birim sağa ve b birim yukarı ötelendiğinde hangi yeni noktaya dönüşür?",
+                  "answer": "A'(x + a, y + b)"
+                },
+                {
+                  "question": "Analitik düzlemde bir noktanın orijine göre yansıması (simetriği) alındığında koordinatları nasıl değişir?",
+                  "answer": "İşaretleri ters döner: A(-x, -y)"
+                },
+                {
+                  "question": "Bir noktanın x eksenine göre yansımasında hangi koordinatın işareti değişir?",
+                  "answer": "y koordinatının işareti değişir: (x, -y)"
+                },
+                {
+                  "question": "Bir noktanın y = x doğrusuna göre yansıması alındığında koordinatları nasıl değişir?",
+                  "answer": "Koordinatların yerleri değişir: (y, x)"
+                },
+                {
+                  "question": "Bir P(x, y) noktası y eksenine göre yansıltıldığında hangi yeni noktayı elde ederiz?",
+                  "answer": "P'(-x, y)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "A(4, 5) noktasının y = x doğrusuna göre yansıması olan nokta aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(-4, -5)",
+                    "(4, -5)",
+                    "(-5, -4)",
+                    "(5, 4)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bir noktanın y = x doğrusuna göre yansıması alınırken apsis ile ordinat yer değiştirir. A(4, 5) noktasının y = x doğrusuna göre simetriği A'(5, 4) olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "K(-3, 7) noktasının x eksenine göre yansıtılmasıyla elde edilen K' noktasının koordinatları nedir?",
+                  "options": [
+                    "(-3, -7)",
+                    "(3, 7)",
+                    "(3, -7)",
+                    "(-3, 7)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir noktanın x eksenine göre yansıması alınırken x koordinatı aynen kalır, y koordinatının işareti değiştirilir. K(-3, 7) için x = -3, y' = -7 olur, yani K'(-3, -7) elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "B(1, -2) noktası orijin etrafında saat yönünün tersine 180 derece döndürüldüğünde hangi noktaya karşılık gelir? (Orijine göre yansıma ile aynıdır)",
+                  "options": [
+                    "(-1, 2)",
+                    "(1, 2)",
+                    "(-1, -2)",
+                    "(2, 1)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre yansıtma veya 180 derece döndürme işleminde noktanın hem x hem de y koordinatının işareti ters çevrilir. B(1, -2) noktası için B'(-1, 2) bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Analitik düzlemde bir noktanın x ekseni boyunca pozitif yönde a birim kaydırılması işlemine ____ denir.",
+                  "options": [
+                    "öteleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geometrik şekillerin veya noktaların yerini yön ve doğrultu değiştirmeden belli bir miktar kaydırma işlemine öteleme adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A(3, 4) noktasının orijine göre simetriği olan noktanın ordinatı ____ olur.",
+                  "options": [
+                    "-4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre simetri alırken hem apsis hem ordinat işaret değiştirir. A(3, 4) için simetri (-3, -4) olur, ordinat -4'tür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "P(-2, 5) noktasının y eksenine göre yansıması alındığında oluşan yeni noktanın apsisi ____ olur.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y eksenine göre yansımada x koordinatı işaret değiştirir. P(-2, 5) için x yerine 2 yazılır, yeni nokta (2, 5) olur, apsis 2'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir şeklin aynadaki görüntüsüne benzer şekilde bir doğruya göre simetriğinin alınması işlemine ____ denir.",
+                  "options": [
+                    "yansıma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dönüşüm geometrisinde bir eksene veya doğruya göre simetri alma işlemine yansıma denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A(x, y) noktası y = -x doğrusuna göre yansıtıldığında oluşan nokta ____ olur.",
+                  "options": [
+                    "(-y, -x)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y = -x doğrusuna göre yansımada koordinatlar hem yer değiştirir hem de işaretleri ters çevrilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir noktanın x eksenine göre yansıması alındığında y koordinatının işareti değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x eksenine göre yansımada x sabit kalır, y'nin işareti değişir (x, -y).",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A(2, 3) noktası y = x doğrultusunda yansıtıldığında (-2, -3) noktası elde edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "y = x doğrusuna göre yansımada koordinatlar sadece yer değiştirir, işaret değiştirmez; yani (3, 2) olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Öteleme hareketinde şeklin boyutu ve açı ölçüleri değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Öteleme bir katı cisim hareketi (izometri) olduğundan şeklin uzunlukları, açıları ve alanı değişmez, sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "K(-5, 2) noktası 5 birim sağa ötelendiğinde y ekseni üzerine gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "5 birim sağa öteleme x koordinatına 5 eklemek demektir. -5 + 5 = 0 olduğundan x=0 olur ve bu nokta y ekseni üzerindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir noktanın orijine göre yansıması, o noktanın x eksenine ve ardından y eksenine ardışık olarak yansıtılmasıyla elde edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Önce x eksenine göre yansıtırsa (x, -y), sonra y eksenine göre yansıtırsak (-x, -y) elde ederiz ki bu orijine göre yansımadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
@@ -1246,19 +1768,577 @@
           "id": "node1",
           "order": 1,
           "title": "Prizma ve Piramit",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dik prizmalarda taban düzlemi ile yan ayrıtlar arasındaki açı kaç derecedir?",
+                  "answer": "90 derece"
+                },
+                {
+                  "question": "Taban alanı B ve yüksekliği h olan bir piramidin hacmi nasıl hesaplanır?",
+                  "answer": "(B * h) / 3"
+                },
+                {
+                  "question": "Tüm ayrıt uzunlukları eşit olan kare dik piramidin tabanı hangi şekildedir?",
+                  "answer": "Kare"
+                },
+                {
+                  "question": "Düzgün altıgen dik prizmanın bir tabanında kaç tane köşegen vardır?",
+                  "answer": "9"
+                },
+                {
+                  "question": "Bir dik prizmanın yanal alanı nasıl bulunur?",
+                  "answer": "Taban çevre uzunluğu ile yüksekliğin çarpımı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Taban alanı 16 birimkare ve yüksekliği 6 birim olan bir kare dik piramidin hacmi kaç birimküptür?",
+                  "options": [
+                    "48",
+                    "32",
+                    "96",
+                    "64"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Piramidin hacmi formülü (Taban Alanı * Yükseklik) / 3 şeklindedir. Değerleri yerine koyarsak (16 * 6) / 3 = 96 / 3 = 32 birimküp bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ayrıt uzunlukları 3 cm, 4 cm ve 12 cm olan dikdörtgenler prizmasının cisim köşegeninin uzunluğu kaç cm'dir?",
+                  "options": [
+                    "13",
+                    "17",
+                    "19",
+                    "15"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikdörtgenler prizmasının cisim köşegeni formülü kök içinde a kare + b kare + c kare şeklindedir. Kök içinde 3'ün karesi + 4'ün karesi + 12'nin karesi = kök içinde 9 + 16 + 144 = kök içinde 169 = 13 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban çevresi 20 cm ve yüksekliği 5 cm olan bir dik prizmanın yanal alanı kaç santimetrekaredir?",
+                  "options": [
+                    "25",
+                    "50",
+                    "75",
+                    "100"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Dik prizmanın yanal alanı, taban çevresi ile yüksekliğin çarpımına eşittir. Yanal alan = 20 * 5 = 100 santimetrekaredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüksekliği 10 cm olan bir düzgün altıgen dik prizmanın taban bir kenarı 4 cm olduğuna göre, bu prizmanın taban alanı kaç santimetrekaredir? (Kök 3 değerini 1.7 almadan köklü bırakınız)",
+                  "options": [
+                    "12 kök 3",
+                    "48 kök 3",
+                    "24 kök 3",
+                    "6 kök 3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Düzgün altıgenin alan formülü 6 * (a kare kök 3 / 4) şeklindedir. a = 4 için 6 * (16 kök 3 / 4) = 6 * 4 kök 3 = 24 kök 3 santimetrekaredir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tüm yüzeyleri eş karelerden oluşan prizmaya ____ denir.",
+                  "options": [
+                    "küp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm ayrıt uzunlukları ve yüzeyleri eş olan kare prizma özel olarak küp adını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir dik prizmanın yan yüzeyleri daima ____ şeklindedir.",
+                  "options": [
+                    "dikdörtgen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmaların tabana dik olan yan ayrıtları sayesinde yan yüzleri her zaman birer dikdörtgendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üçgen tabanlı bir piramidin toplam yüz sayısı ____ kadardır.",
+                  "options": [
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçgen piramidin (tetrahit) 1 tabanı ve 3 yan yüzü olmak üzere toplam 4 yüzü bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dik prizmada taban düzlemleri ile yan yüzler birbirine ____ durumdadır.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmaların tanımı gereği yan ayrıtlar ve yan yüzler taban düzlemine dik olarak yerleşir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Küpün cisim köşegeni bir kenar uzunluğunun kök 3 katına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "a kenar uzunluğuna sahip bir küpün cisim köşegeni a çarpı kök 3 formülü ile bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Piramitlerin yan yüzleri her zaman eşkenar üçgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Piramitlerin yan yüzleri tabanın şekline ve ayrıt uzunluklarına bağlı olarak ikizkenar üçgenlerden oluşur, her zaman eşkenar olması gerekmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik prizmaların hacmi, taban alanı ile yüksekliğin çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm dik prizmaların hacim bağıntısı Taban Alanı çarpı Yükseklik şeklindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kare dik piramidin 5 tane köşesi vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kare tabanın 4 köşesi ve tepe noktası ile birlikte toplam köşe sayısı 4 + 1 = 5'tir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir dik prizmanın tabanı ne olursa olsun yan yüz sayısı taban kenar sayısının iki katıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dik prizmaların yan yüz sayısı, taban çokgeninin kenar sayısı ile eşittir; iki katı değil.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Silindir, Koni ve Küre",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yarıçapı r ve yüksekliği h olan dik dairesel silindirin yanal alanı nasıl hesaplanır?",
+                  "answer": "2 * pi * r * h"
+                },
+                {
+                  "question": "Taban yarıçapı r ve ana doğrusu l olan dik dairesel koninin yanal alanı formülü nedir?",
+                  "answer": "pi * r * l"
+                },
+                {
+                  "question": "Yarıçapı r olan bir kürenin hacmi hangi formülle bulunur?",
+                  "answer": "(4/3) * pi * r^3"
+                },
+                {
+                  "question": "Yarıçapı r olan bir kürenin yüzey alanı nedir?",
+                  "answer": "4 * pi * r^2"
+                },
+                {
+                  "question": "Taban yarıçapı r ve yüksekliği h olan dik dairesel koninin hacmi nasıl hesaplanır?",
+                  "answer": "(1/3) * pi * r^2 * h"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Taban yarıçapı 3 cm ve yüksekliği 4 cm olan dik dairesel silindirin yanal alanı kaç pi santimetrekaredir?",
+                  "options": [
+                    "24",
+                    "36",
+                    "48",
+                    "12"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik dairesel silindirin yanal alanı 2 * pi * r * h formülü ile bulunur. Verilen değerler yerine yazıldığında 2 * pi * 3 * 4 = 24 * pi bulunur. Dolayısıyla doğru cevap 24 şıkkıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 6 cm olan kürenin hacmi kaç pi santimetreküptür?",
+                  "options": [
+                    "288",
+                    "432",
+                    "144",
+                    "216"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kürenin hacmi (4/3) * pi * r^3 formülü ile hesaplanır. r = 6 için hacim (4/3) * pi * 6^3 = (4/3) * pi * 216 = 288 * pi santimetreküp olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban yarıçapı 5 cm ve ana doğrusu 13 cm olan dik dairesel koninin yüksekliği kaç santimetredir?",
+                  "options": [
+                    "14",
+                    "10",
+                    "15",
+                    "12"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Konide taban yarıçapı r, yükseklik h ve ana doğru l arasında r^2 + h^2 = l^2 bağıntısı vardır. 5^2 + h^2 = 13^2 denkleminden 25 + h^2 = 169 ve h^2 = 144, yani h = 12 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 4 cm olan bir kürenin yüzey alanı kaç pi santimetrekaredir?",
+                  "options": [
+                    "32",
+                    "128",
+                    "48",
+                    "64"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kürenin yüzey alanı 4 * pi * r^2 formülüyle bulunur. r = 4 cm verildiği için alan 4 * pi * 4^2 = 4 * pi * 16 = 64 * pi santimetrekare eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban yarıçapı 3 cm ve yüksekliği 9 cm olan dik dairesel koninin hacmi kaç pi santimetreküptür?",
+                  "options": [
+                    "27",
+                    "81",
+                    "54",
+                    "108"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koninin hacmi (1/3) * pi * r^2 * h formülü ile hesaplanır. Değerler yerine konulursa (1/3) * pi * 3^2 * 9 = (1/3) * pi * 9 * 9 = 27 * pi santimetreküp elde edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Taban yarıçapı r ve yüksekliği h olan bir dik dairesel silindirin hacmi pi * r^2 * ____ formülü ile hesaplanır.",
+                  "options": [
+                    "h"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik dairesel silindirin hacmi taban alanı ile yüksekliğin çarpımıdır, yani V = pi * r^2 * h şeklindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir dik dairesel koninin tabanı her zaman bir ____ şeklindedir.",
+                  "options": [
+                    "daire"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik dairesel koninin tabanı geometrik olarak bir daire tanımına uyar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kürenin yüzey alanı, aynı yarıçaplı büyük çemberin alanının ____ katıdır.",
+                  "options": [
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kürenin yüzey alanı 4 * pi * r^2 iken büyük dairenin alanı pi * r^2'dir, oran 4 katıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir dik silindirin ekseni taban düzlemine diktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik silindirlerde taban merkezlerini birleştiren eksen, taban düzlemine dik açı yapar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kürenin tüm noktalarının merkez olan uzaklığı birbirinden farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kürenin tanımı gereği yüzey üzerindeki her noktanın merkeze olan uzaklığı yarıçap uzunluğuna eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik dairesel koninin ana doğrusu, yüksekliği ve taban yarıçapı dik üçgen oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konide yarıçap ve yükseklik dik kesiştiği için ana doğru hipotenüs olacak biçimde dik üçgen meydana gelir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yarıçapı 2 katına çıkan bir kürenin hacmi de 2 katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kürenin hacmi yarıçapın küpü ile doğru orantılıdır; yarıçap 2 katına çıkarsa hacim 2^3 = 8 katına çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Silindirin tabanları birbirine eş ve paralel iki daireden oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik dairesel silindirin alt ve üst tabanları özdeş ve paralel iki dairesel bölgedir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Yüzey Alanı ve Hacim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ayrıt uzunluğu a olan bir küpün tüm alanını veren formül nedir?",
+                  "answer": "6 * a^2"
+                },
+                {
+                  "question": "Taban yarıçapı r ve yüksekliği h olan bir silindirin hacim formülü nedir?",
+                  "answer": "pi * r^2 * h"
+                },
+                {
+                  "question": "Yarıçapı r olan bir kürenin hacmi kaç pi r küp / 3 tür?",
+                  "answer": "4"
+                },
+                {
+                  "question": "Taban alanı B ve yüksekliği h olan bir dik piramidin hacmi nasıl bulunur?",
+                  "answer": "(B * h) / 3"
+                },
+                {
+                  "question": "Taban yarıçapı r ve ana doğru uzunluğu l olan bir dik koninin yanal alanı formülü nedir?",
+                  "answer": "pi * r * l"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Ayrıt uzunlukları 3 cm, 4 cm ve 12 cm olan dikdörtgenler prizmasının cisim köşegeninin uzunluğu kaç santimetredir?",
+                  "options": [
+                    "14",
+                    "19",
+                    "13",
+                    "15"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dikdörtgenler prizmasının cisim köşegeni e = kök içinde (a^2 + b^2 + c^2) formülüyle bulunur. Buradan e = kök içinde (3^2 + 4^2 + 12^2) = kök içinde (9 + 16 + 144) = kök içinde 169 = 13 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban yarıçapı 4 cm ve yüksekliği 6 cm olan bir dik silindirin hacmi kaç santimetreküptür?",
+                  "options": [
+                    "96pi",
+                    "144pi",
+                    "192pi",
+                    "48pi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Silindirin hacmi V = pi * r^2 * h formülü ile bulunur. Değerler yerine yazılırsa V = pi * (4^2) * 6 = pi * 16 * 6 = 96pi cm^3 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kenarı 5 cm olan küpün hacmi kaç santimetreküptür?",
+                  "options": [
+                    "125",
+                    "75",
+                    "150",
+                    "100"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küpün hacmi a^3 formülü ile hesaplanır. Bir kenar 5 cm olduğundan hacim 5 * 5 * 5 = 125 cm^3 tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban ayrıtı 6 cm ve yüksekliği 4 cm olan kare dik piramidin taban alanı hariç yanal alanı kaç santimetrekaredir?",
+                  "options": [
+                    "60",
+                    "72",
+                    "48",
+                    "96"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taban ayrıtı 6 cm olan karenin taban merkezi ile kenar orta noktası ve tepe noktası arasında oluşan dik üçgenden piramidin yan yüz yüksekliği l = kök içinde (4^2 + 3^2) = 5 cm bulunur. Yanal alan, taban çevre çarpı yan yüz yüksekliği / 2 olduğundan (4 * 6 * 5) / 2 = 60 cm^2 olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tüm yüzeyleri birbirine eş karelerden oluşan üç boyutlu geometrik cisme ____ denir.",
+                  "options": [
+                    "küp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küp, altı tane eş kareden oluşan düzgün bir prizmadır ve tüm ayrıt uzunlukları birbirine eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Taban daireleri birbirine paralel olan ve yan yüzü eğri yüzeyden oluşan cisim ____ olarak adlandırılır.",
+                  "options": [
+                    "silindir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik silindir, tabanları daire olan ve bu tabanlara dik bir eksene sahip olan temel katı cisimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir dik koninin tepe noktasını taban çemberinin üzerindeki bir noktaya birleştiren doğru parçasının adına ____ denir.",
+                  "options": [
+                    "ana doğru"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana doğru, koninin tepe noktasından taban çemberi üzerindeki herhangi bir noktaya inen doğru parçasıdır ve genellikle l harfi ile gösterilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüksekliği h, taban yarıçapı r olan bir koninin hacmi, aynı taban ve yüksekliğe sahip silindirin hacminin ____ de biridir.",
+                  "options": [
+                    "üç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koninin hacmi taban alanı ile yüksekliğin çarpımının üçe bölünmesiyle elde edilir; bu da aynı boyutlardaki silindir hacminin 1/3 ü demektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uzaklığı sabit olan bir nokta ile bu noktaya eşit uzaklıktaki noktaların oluşturduğu geometrik yüzeye ____ denir.",
+                  "options": [
+                    "küre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küre, uzayda sabit bir noktadan (merkezden) eşit uzaklıkta bulunan noktalar kümesinin sınır yüzeyidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kürenin hacmi, yarıçapının küpü ile doğru orantılıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kürenin hacim formülü (4/3) * pi * r^3 şeklindedir, bu nedenle hacim r'nin küpü ile doğru orantılıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm dik prizmaların yanal alanı, taban çevresi ile yüksekliğin çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmalarda yanal alan, taban çevresi ile yüksekliğin çarpımıyla doğrudan hesaplanabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küpün cisim köşegeni, bir ayrıt uzunluğunun iki katına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Küpün cisim köşegeni a * kök içinde 3 formülü ile bulunur, iki katına değil kök üç katına eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Silindirin taban yarıçapı iki katına çıkarılırsa hacmi de iki katına çıkar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hacim formülünde yarıçap r'nin karesi alındığı için yarıçap 2 katına çıkarsa hacim 2^2 = 4 katına çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Piramitlerin hacmi taban alanı ile yüksekliğin çarpımının üçe bölünmesiyle bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bütün piramitlerin ve konilerin hacmi V = (Taban Alanı * Yükseklik) / 3 bağıntısı ile hesaplanır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

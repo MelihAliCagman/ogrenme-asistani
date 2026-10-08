@@ -24,7 +24,7 @@ import 'dart:convert';
 import 'dart:io';
 
 const model = 'gemini-flash-lite-latest';
-const outputPath = 'tool/curriculum_path_output.json';
+const defaultPath = 'tool/curriculum_path_output.json';
 const batchSize = 20;
 
 const _turkish = 'çğıöşüÇĞİÖŞÜâîûÂÎÛ';
@@ -56,10 +56,20 @@ class _Ref {
 
 Future<void> main(List<String> args) async {
   final dryRun = args.contains('--dry-run');
-  final root =
-      jsonDecode(File(outputPath).readAsStringSync()) as Map<String, dynamic>;
+  // Files to repair: every non-flag argument (all of them are scanned as ONE
+  // corpus, so a folded word is recognised by the correct spelling used in
+  // any other file), or the curriculum output by default.
+  final paths = args.where((a) => !a.startsWith('--')).toList();
+  if (paths.isEmpty) paths.add(defaultPath);
 
-  final refs = _collectRefs(root);
+  final roots = <String, Map<String, dynamic>>{
+    for (final path in paths)
+      path: jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>,
+  };
+
+  final refs = <_Ref>[
+    for (final e in roots.entries) ..._collectRefs(e.value, e.key),
+  ];
   final suspicious = _findSuspicious(refs);
 
   final byNode = <String, int>{};
@@ -67,12 +77,12 @@ Future<void> main(List<String> args) async {
     byNode[r.where] = (byNode[r.where] ?? 0) + 1;
   }
   stdout.writeln(
-    '${refs.length} metinden ${suspicious.length} tanesi şüpheli '
-    '(${byNode.length} düğüm).',
+    '${paths.length} dosya, ${refs.length} metinden ${suspicious.length} '
+    'tanesi şüpheli (${byNode.length} düğüm).',
   );
   if (dryRun) {
     byNode.forEach((k, v) => stdout.writeln('  $k: $v metin'));
-    if (suspicious.length <= 30) {
+    if (suspicious.length <= 40) {
       for (final r in suspicious) {
         stdout.writeln('    [${r.where}] ${r.value}');
       }
@@ -89,6 +99,14 @@ Future<void> main(List<String> args) async {
   final client = HttpClient();
   var fixed = 0, unchanged = 0;
   final unresolved = <_Ref>[];
+
+  void saveAll() {
+    for (final e in roots.entries) {
+      File(e.key).writeAsStringSync(
+        const JsonEncoder.withIndent('  ').convert(e.value),
+      );
+    }
+  }
 
   for (var start = 0; start < suspicious.length; start += batchSize) {
     var pending = suspicious.skip(start).take(batchSize).toList();
@@ -120,9 +138,7 @@ Future<void> main(List<String> args) async {
       await Future.delayed(const Duration(seconds: 5));
     }
     unresolved.addAll(pending);
-    File(outputPath).writeAsStringSync(
-      const JsonEncoder.withIndent('  ').convert(root),
-    );
+    saveAll();
   }
   client.close();
 
@@ -135,12 +151,13 @@ Future<void> main(List<String> args) async {
   }
 }
 
-List<_Ref> _collectRefs(Map<String, dynamic> root) {
+List<_Ref> _collectRefs(Map<String, dynamic> root, String file) {
   final refs = <_Ref>[];
   for (final unit in (root['units'] as List).cast<Map<String, dynamic>>()) {
     for (final node
         in ((unit['nodes'] as List?) ?? []).cast<Map<String, dynamic>>()) {
-      final where = '${unit['id']}/${node['id']}';
+      final stem = file.split(RegExp(r'[\\/]')).last.replaceAll('.json', '');
+      final where = '$stem ${unit['id']}/${node['id']}';
       for (final part in (node['flashcards'] as List? ?? []).cast<Map<String, dynamic>>()) {
         for (final card in (part['cards'] as List).cast<Map<String, dynamic>>()) {
           refs.add(_Ref(card, 'question', where));
