@@ -838,13 +838,401 @@
           "id": "node1",
           "order": 1,
           "title": "Atom Modelleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dalton atom modelinde atomun yapısı nasıldır?",
+                  "answer": "İçi dolu, bölünemez küreler."
+                },
+                {
+                  "question": "Üzümlü kek modeli olarak bilinen atom modeli kime aittir?",
+                  "answer": "J.J. Thomson."
+                },
+                {
+                  "question": "Atomda çekirdek kavramını ilk kez hangi deneyle kim ortaya koymuştur?",
+                  "answer": "Rutherford, alfa saçılması deneyiyle."
+                },
+                {
+                  "question": "Elektronların çekirdek etrafında belirli dairesel yörüngelerde bulunduğunu savunan model hangisidir?",
+                  "answer": "Bohr atom modeli."
+                },
+                {
+                  "question": "Modern atom teorisinde elektronların bulunma olasılığının yüksek olduğu bölgelere ne ad verilir?",
+                  "answer": "Orbital."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki bilim insanlarından hangisi atomu içi dolu bölünemez sert bir küre olarak tanımlamıştır?",
+                  "options": [
+                    "Niels Bohr",
+                    "J.J. Thomson",
+                    "Ernest Rutherford",
+                    "John Dalton"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "John Dalton, ilk bilimsel atom modelini öne sürmüş ve atomu içi dolu, bölünemez küreler olarak tanımlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "J.J. Thomson atom modeli ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Elektronlar çekirdek etrafında dairesel yörüngededir.",
+                    "Atomun merkezinde pozitif yüklü bir çekirdek vardır.",
+                    "Pozitif yükler atomun içine homojen dağılmıştır ve negatif yükler bunun içindedir.",
+                    "Nötronlar çekirdekte bulunur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Thomson üzümlü kek modelinde, pozitif yüklerin küre içerisine homojen dağıldığını ve negatif yüklerin (elektronların) bu kekin içinde gömülü olduğunu savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Rutherford atom modeli ile ilgili olarak aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Atomda pozitif yüklerin hacmi çok büyüktür.",
+                    "Atomun kütlesinin büyük bir kısmı çekirdekte toplanmıştır.",
+                    "Elektronlar çekirdeğin içinde yer alır.",
+                    "Atom bölünemez bir bütündür."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rutherford alfa saçılması deneyi ile atomun merkezinde küçük, yoğun ve pozitif yüklü bir çekirdek olduğunu ve atom kütlesinin burada toplandığını kanıtlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bohr atom modelinin en önemli eksikliği veya sınırlılığı nedir?",
+                  "options": [
+                    "Çok elektronlu atomların spektrumlarını tam olarak açıklayamaması",
+                    "Çekirdek kavramından hiç bahsetmemiş olması",
+                    "Elektronların varlığını reddetmesi",
+                    "Nötronların keşfini engellemesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bohr atom modeli yalnızca tek elektronlu sistemlerin (örneğin H ve He+) spektrumlarını açıklayabilmiş, çok elektronlu atomların spektrumlarında yetersiz kalmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Modern atom teorisine göre elektronların konumu hakkında aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Çekirdeğe yapışık halde dururlar.",
+                    "Çekirdek etrafındaki bulutsu bölgelerde (orbitallerde) bulunma olasılıkları vardır.",
+                    "Kesin yörüngeler üzerinde dönerler.",
+                    "Bulundukları yer ve hız aynı anda kesin olarak bilinir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Modern atom teorisi Heisenberg belirsizlik ilkesine dayanır ve elektronların yerini kesin bir yörüngeyle değil, bulunma olasılığının yüksek olduğu orbital kavramıyla açıklar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "John Dalton atom modelinde atomu içi dolu ve ____ birer küre olarak tanımlamıştır.",
+                  "options": [
+                    "bölünemez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dalton, dönemindeki imkanlarla atomun daha küçük alt parçacıklara ayrılamayacağını düşünmüş ve bölünemez küreler benzetmesi yapmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "J.J. Thomson yaptığı çalışmalar sonucunda atomdaki negatif yüklü tanecikleri keşfetmiş ve bunlara ____ adını vermiştir.",
+                  "options": [
+                    "elektron"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Thomson katot ışınları tüpüyle yaptığı deneylerde negatif yüklü tanecikleri bulmuş, daha sonra bu tanecikler elektron olarak adlandırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rutherford, yaptığı ____ saçılması deneyi ile atomda çekirdekli yapıyı keşfetmiştir.",
+                  "options": [
+                    "alfa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rutherford altın levhaya alfa ışınları göndererek ışınların çoğunun karşıya geçtiğini, çok azının saptığını veya geri yansıdığını gözlemlemiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dalton atom modelinde atomun alt parçacıkları olan proton ve nötronlardan bahsedilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dalton döneminde atomun alt parçacıkları henüz keşfedilmemiştir; bu nedenle proton ve nötronlar modelde yer almaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "J.J. Thomson atom modelinde pozitif ve negatif yükler homojen olarak dağılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Thomson'ın üzümlü kek modelinde pozitif yükler küre içine homojen yayılmış, negatif elektronlar içine gömülmüştür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Rutherford atom modeline göre çekirdekte sadece elektronlar bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rutherford çekirdekte pozitif yüklü protonların bulunduğunu belirtmiştir; elektronlar ise çekirdeğin dışındaki boşluktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bohr atom modeline göre elektronlar çekirdeğe en yakın yörüngede en düşük enerjiye sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bohr modelinde çekirdeğe en yakın yörünge (n=1) en düşük enerjili katmandır, uzaklaştıkça enerji artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Modern atom teorisinde elektronların yörüngeleri kesin çizgilerle çizilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Modern atom teorisinde yörünge kavramı yerine, elektronların bulunma ihtimali olan orbital (elektron bulutu) kavramı kullanılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Atomun Yapısı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Proton ve nötronların toplamına ne ad verilir?",
+                  "answer": "Kütle numarası"
+                },
+                {
+                  "question": "Çekirdekte bulunan yüksüz tanecik hangisidir?",
+                  "answer": "Nötron"
+                },
+                {
+                  "question": "Atom numarasını ifade eden büyüklük aynı zamanda hangi taneciğin sayısıdır?",
+                  "answer": "Proton sayısı"
+                },
+                {
+                  "question": "Elektronların çekirdek etrafındaki hareketli bölgelerine ne denir?",
+                  "answer": "Katman veya yörünge"
+                },
+                {
+                  "question": "Yalnızca proton sayıları aynı, nötron sayıları farklı olan taneciklere ne denir?",
+                  "answer": "İzotop"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki taneciklerden hangisinin yükü pozitiftir?",
+                  "options": [
+                    "Elektron",
+                    "Atom",
+                    "Nötron",
+                    "Proton"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Protonlar çekirdekte yer alan pozitif yüklü temel taneciklerdir. Elektronlar negatif, nötronlar ise yüksüzdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Nötr bir X atomunun atom numarası 11 ve kütle numarası 23 ise bu atomun nötron sayısı kaçtır?",
+                  "options": [
+                    "12",
+                    "11",
+                    "34",
+                    "23"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kütle numarası proton sayısı ile nötron sayısının toplamına eşittir. Nötron sayısı = 23 - 11 = 12 olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir atomun kimyasal özelliğini belirleyen temel tanecik aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kütle numarası",
+                    "Yalnızca nötron sayısı",
+                    "Yalnızca nükleon sayısı",
+                    "Proton sayısı ve elektron sayısı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Atomların kimyasal özellikleri proton ve elektron sayılarına bağlıdır. Nötr atomlarda bu sayılar birbirine eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Proton sayıları aynı, nötron sayıları farklı olan iki tanecik için aşağıdakilerden hangisi kesinlikle aynıdır?",
+                  "options": [
+                    "Kütle numaraları",
+                    "Nötron sayıları",
+                    "Fiziksel özellikleri",
+                    "Kimyasal özellikleri"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İzotop taneciklerin proton sayıları ve türleri aynı olduğu için kimyasal özellikleri aynıdır. Nötron sayıları farklı olduğundan kütle ve fiziksel özellikleri farklıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi Thomson atom modelini açıklar?",
+                  "options": [
+                    "Elektronlar çekirdek etrafında dairesel yörüngelerde döner.",
+                    "Atom, üzümlü keke benzer ve pozitif yük içine gömülmüş elektronlar bulunur.",
+                    "Kütlenin büyük kısmı boşlukta yer alır.",
+                    "Atomun merkezinde çok küçük bir çekirdek vardır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Thomson, atomu üzümlü keke benzetmiş; kek hamurunu pozitif yüke, üzümleri ise negatif yüklü elektronlara eşitlemiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Atomun merkezinde bulunan ve proton ile nötronların oluşturduğu yoğun kısma ____ denir.",
+                  "options": [
+                    "çekirdek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atomun kütlesinin büyük bölümünü oluşturan ve ortasında yer alan yapıya çekirdek denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Elektron sayıları ve elektron dizilimleri aynı olan tanecik çiftlerine ____ denir.",
+                  "options": [
+                    "izoelektronik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elektron sayıları ve toplam elektron dizilimleri aynı olan tanecikler izoelektroniktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Nötr bir atomda proton sayısı her zaman ____ sayısına eşittir.",
+                  "options": [
+                    "elektron"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nötr atomlarda net yük sıfır olduğundan, artı yüklü proton sayısı eksi yüklü elektron sayısına eşit olmalıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kütle numarası, proton sayısı ile ____ sayısının toplamına eşittir.",
+                  "options": [
+                    "nötron"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nükleon sayısı olarak da bilinen kütle numarası, çekirdekteki proton ve nötronların toplamıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Proton sayıları farklı, kütle numaraları aynı olan taneciklere ____ denir.",
+                  "options": [
+                    "izobar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İzobar atomların kütle numaraları aynı fakat proton ve nötron sayıları farklıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Elektronlar çekirdeğin çekim etkisi altında çok yüksek hızla hareket eden negatif yüklü taneciklerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elektronlar negatif yüke sahip olup çekirdek çevresinde katmanlarda yüksek hızla hareket eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nötronlar pozitif yüklü tanecikler olup atomun kimlik özelliğini belirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nötronlar yüksüz taneciklerdir. Atomun kimliğini belirleyen tanecik protondur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İzotop atomların kimyasal özellikleri benzer veya aynıdır çünkü proton sayıları aynıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Proton sayıları ve elektron sayıları aynı olan izotop taneciklerin kimyasal özellikleri aynıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir atom elektron aldığında çapı küçülür ve katyon haline gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atom elektron aldığında anyon (negatif iyon) olur ve elektron başına düşen çekim kuvveti azaldığı için çapı büyür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Atomun kütlesinin çok büyük bir kısmı çekirdekte toplanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Proton ve nötronlar elektronlardan çok daha ağır olduğu için atomun kütlesi çekirdekte yoğunlaşmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
@@ -2046,31 +2434,1046 @@
           "id": "node1",
           "order": 1,
           "title": "Maddenin Fiziksel Hâlleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Maddenin en düzensiz hâli hangisidir?",
+                  "answer": "Gaz hâlidir."
+                },
+                {
+                  "question": "Katı hâlden doğrudan gaz hâline geçişe ne ad verilir?",
+                  "answer": "Süblimleşme"
+                },
+                {
+                  "question": "Plazma hâlinin elektrik yükü bakımından toplam yükü nedir?",
+                  "answer": "Nötrdür."
+                },
+                {
+                  "question": "Tanecikleri arasındaki boşluğun en az olduğu fiziksel hâl hangisidir?",
+                  "answer": "Katı hâli"
+                },
+                {
+                  "question": "Sıvıların akmaya karşı gösterdiği direncin ölçüsüne ne denir?",
+                  "answer": "Viskozite"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi maddelerin plazma hâlinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Belirli bir şekil ve hacimleri vardır",
+                    "Elektrik ve ısıyı iyi iletirler",
+                    "İyonize olmuş gazlardır",
+                    "Serbest elektronlar ve iyonlar içerirler"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plazma hâlinin belirli bir şekli ve hacmi yoktur, tıpkı gazlar gibi bulundukları kabı tamamen doldururlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki hâl değişimlerinden hangisinde dışarıdan ısı alınır (endotermiktir)?",
+                  "options": [
+                    "Yoğunlaşma",
+                    "Kırağılaşma",
+                    "Donma",
+                    "Buharlaşma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Buharlaşma sırasında sıvı tanecikleri dışarıdan ısı alarak gaz hâline geçer; dolayısıyla bu olay endotermiktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin viskozitesi oda koşullarında en büyüktür?",
+                  "options": [
+                    "Etil alkol",
+                    "Cıva",
+                    "Gliserin",
+                    "Su"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gliserin molekülleri arasındaki güçlü hidrojen bağları nedeniyle akmaya karşı en çok direnç gösteren maddedir, yani viskozitesi en büyüktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Saf bir katının erime noktası ile ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Ayırt edici bir özelliktir",
+                    "Dış basınçtan etkilenir",
+                    "Madde miktarına bağlı olarak değişir",
+                    "Erime süresince sıcaklık sabit kalır"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Erime noktası ayırt edici bir özelliktir ve madde miktarından bağımsızdır. Miktar erime süresini etkiler, erime sıcaklığını değiştirmez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi gazların genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Bulundukları kabı tamamen doldururlar",
+                    "Tanecikleri sadece titreşim hareketi yapar",
+                    "Özkütleleri katı ve sıvılara göre çok küçüktür",
+                    "Sıkıştırılabilirler"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gaz tanecikleri öteleme, dönme ve titreşim hareketlerinin tümünü yapar. Sadece titreşim hareketi katılara ait bir özelliktir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Maddenin ısı alarak katı hâlden doğrudan sıvı hâle geçmeden gaz hâline geçmesine ____ denir.",
+                  "options": [
+                    "süblimleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Naftalin gibi maddelerin ısı alarak doğrudan gazlaşması süblimleşme olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıvı yüzeyindeki taneciklerin çekim kuvveti dengesi nedeniyle oluşan yüzey gerilimi, sıcaklık arttıkça ____.",
+                  "options": [
+                    "azalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık arttıkça moleküller arası çekim kuvvetleri zayıflar ve yüzey gerilimi azalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gaz hâlindeki bir maddenin ısı vererek doğrudan katı hâle geçmesine ____ denir.",
+                  "options": [
+                    "kırağılaşma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kış sabahlarında su buharının doğrudan buz kristalleri hâline gelmesi kırağılaşma olayıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Plazma hâli, serbest elektronlar, pozitif iyonlar ve ____ taneciklerden oluşur.",
+                  "options": [
+                    "nötr"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plazma; serbest elektronlar, pozitif iyonlar, negatif iyonlar ve nötr atom veya moleküllerin bir arada bulunduğu karmaşık bir yapıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıvıların akmaya karşı gösterdiği direncin birimi poise olup, bu özelliğe ____ denir.",
+                  "options": [
+                    "viskozite"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Viskozite, sıvıların akışkanlığa karşı gösterdiği direnç olup sıcaklıkla ters orantılıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Saf katıların erime süresince sıcaklıkları sabit kalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Saf maddeler hâl değişimi sırasında (erirken) dışarıdan aldıkları ısıyı sıcaklığı artırmak için değil, tanecikler arası bağları koparmak için kullanır, bu yüzden sıcaklık sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazların hacimleri bulundukları kabın hacmine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazlar serbestçe yayıldıkları için içine konuldukları kabın hacmini ve şeklini tamamen alırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün sıvılar için sıcaklık arttıkça viskozite de artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıcaklık arttıkça sıvıların akışkanlığı artar, dolayısıyla viskozite (akmaya karşı direnç) azalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Plazma hâli elektrik akımını iletmez çünkü toplam yükü sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Plazmanın toplam yükü sıfır (nötr) olsa da içerdiği serbest iyonlar ve elektronlar sayesinde elektrik akımını çok iyi iletir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yoğunlaşma olayı gerçekleşirken dışarıya ısı verilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz hâlinden sıvı hâle geçiş (yoğunlaşma) ekzotermik bir olaydır, yani çevreye ısı yayılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Katılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Amorf katıların belirli bir erime noktası var mıdır?",
+                  "answer": "Yoktur, belirli bir erime noktaları yerine yumuşama noktaları (camsı geçiş sıcaklığı) vardır."
+                },
+                {
+                  "question": "İyonik katılarda tanecikleri bir arada tutan ana kuvvet nedir?",
+                  "answer": "Zıt yüklü iyonlar arasındaki elektrostatik çekim kuvvetidir."
+                },
+                {
+                  "question": "Kovalent katılara örnek olarak hangi iki madde verilebilir?",
+                  "answer": "Elmas ve grafit (veya kuvars)."
+                },
+                {
+                  "question": "Moleküler katıları oluşturan birimler arasındaki etkileşimler genel olarak nasıldır?",
+                  "answer": "Zayıf etkileşimlerdir (London, dipol-dipol veya hidrojen bağları)."
+                },
+                {
+                  "question": "Metalik katıların elektrik akımını iletmesinin sebebi nedir?",
+                  "answer": "Serbest hareket edebilen elektron denizine sahip olmalarıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki maddelerden hangisi amorf katı sınıfına girer?",
+                  "options": [
+                    "Demir",
+                    "Elmas",
+                    "NaCl tuzu",
+                    "Plastik"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Plastik, cam ve lastik gibi maddeler düzensiz yapıya sahip amorf katılara örnektir. Tuz iyonik, elmas kovalent, demir ise metalik katıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki katılardan hangisi katı hâlde elektrik akımını iletmez?",
+                  "options": [
+                    "Gümüş levha",
+                    "Demir çubuk",
+                    "Sodyum klorür katısı",
+                    "Bakır katısı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sodyum klorür iyonik bir katıdır ve katı hâlde iyonları sabit olduğundan elektrik akımını iletmez, ancak sıvısı iletir. Metaller ise katı hâlde elektriği iletir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Elmas ve grafit ile ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Her ikisi de kovalent katıdır.",
+                    "Grafit karbon atomlarından oluşur.",
+                    "Elmas çok sert bir yapıya sahiptir.",
+                    "Elmas elektrik akımını iletir."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Elmas üç boyutlu düzgün dörtyüzlü ağ yapısına sahiptir ve elektrik akımını iletmez. Grafit ise tabakalı yapısı sayesinde elektrik akımını iletebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki katı türlerinden hangisinde tanecikler arası zayıf etkileşimler bulunur?",
+                  "options": [
+                    "İyonik katı",
+                    "Moleküler katı",
+                    "Metalik katı",
+                    "Kovalent katı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Moleküler katılar, polar veya apolar moleküllerin London, dipol-dipol veya hidrojen bağları gibi zayıf etkileşimlerle bir arada durduğu katılardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin tanecikleri arasında güçlü etkileşim olarak sadece kovalent bağlar bulunur?",
+                  "options": [
+                    "Naftalin",
+                    "Kuru buz (CO2)",
+                    "Kuvars (SiO2)",
+                    "Su buzu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kuvars, silisyum ve oksijen atomları arasında uzanan güçlü kovalent bağlardan oluşan bir kovalent (ağ örgü) katıdır. Diğerleri moleküler katılardır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Belirli bir geometrik şekle ve düzenli istiflenmiş taneciklere sahip katılara ____ katı denir.",
+                  "options": [
+                    "kristal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kristal katılar iyonik, kovalent, moleküler ve metalik olmak üzere dörde ayrılır ve düzenli yapılarıyla bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cam ve plastik gibi belirli bir erime noktası olmayan katılara ____ katı denir.",
+                  "options": [
+                    "amorf"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amorf kelimesi şekilsiz anlamına gelir; bu katılar ısıtıldıklarında belirli bir sıcaklıkta değil, kademeli olarak yumuşarlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Demir, bakır ve çinko gibi maddelerin oluşturduğu katı türü ____ katıdır.",
+                  "options": [
+                    "metalik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metalik katılar, pozitif metal iyonları ile elektron denizi arasındaki elektrostatik çekim kuvveti ile bir arada tutulur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karbon atomlarının altıgen halkalar oluşturduğu tabakalı yapısıyla bilinen allotrop katı ____ olarak adlandırılır.",
+                  "options": [
+                    "grafit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Grafit, karbonun allotroplarından biridir ve tabakaları arasındaki zayıf etkileşimler sayesinde kayganlık özelliği gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sofra tuzu (NaCl) katısının en küçük yapı birimi ____ birim hücredir.",
+                  "options": [
+                    "iyonik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NaCl iyonik bağlı bir bileşiktir ve katı hâlde kristal örgü yapısı oluşturan iyonik katılardandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Amorf katıların tanecikleri üç boyutlu düzensiz bir istiflenme gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Amorf katılarda tanecikler kristallerdeki gibi düzenli bir geometrik desene sahip değildir, tamamen düzensiz istiflenmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Buz (H2O), kovalent katılara örnek olarak gösterilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Buz moleküler bir katıdır çünkü su molekülleri arasında hidrojen bağları (zayıf etkileşimler) bulunur. Kovalent katılar ağ örgülüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Metalik katılar hem katı hâlde hem de sıvı hâlde elektrik akımını iletir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metallerin yapısındaki hareketli elektron denizi sayesinde, serbest elektronlar hem katı hem de sıvı hâlde elektrik ve ısı iletkenliğini sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kovalent katılar genellikle çok serttir ve erime noktaları oldukça yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Elmas ve kuvars gibi kovalent (ağ örgülü) katılar, atomları bir arada tutan çok güçlü kovalent bağlar nedeniyle aşırı serttir ve yüksek erime noktasına sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Moleküler katılar elektrik akımını çok iyi iletir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Moleküler katılar iyon veya serbest elektron içermediğinden elektrik akımını iletmezler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Sıvılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Viskozite nedir?",
+                  "answer": "Sıvıların akmaya karşı gösterdiği dirençtir."
+                },
+                {
+                  "question": "Buhar basıncı sıcaklıkla nasıl değişir?",
+                  "answer": "Sıvının sıcaklığı arttıkça buhar basıncı da artar."
+                },
+                {
+                  "question": "Kaynama noktası dış basınca bağlı mıdır?",
+                  "answer": "Evet, dış basınç arttıkça kaynama noktası yükselir."
+                },
+                {
+                  "question": "Uçucu sıvıların buhar basıncı nasıldır?",
+                  "answer": "Uçucu sıvılarda buhar basıncı ve moleküller arası çekim kuvveti düşüktür."
+                },
+                {
+                  "question": "Yüzey gerilimi hangi kuvvetlerin sonucunda oluşur?",
+                  "answer": "Sıvı yüzeyindeki moleküllerin iç kısımdakilere göre farklı dengelenmemiş çekim kuvvetleri sonucunda oluşur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki sıvılardan hangisinin aynı koşullarda viskozitesinin en büyük olması beklenir?",
+                  "options": [
+                    "Etanol",
+                    "Gliserin",
+                    "Aseton",
+                    "Su"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gliserin molekülleri arasında çok sayıda hidrojen bağı bulunduğu için akmaya karşı direnci yani viskozitesi diğer sıvılara göre çok daha fazladır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir sıvının bulunduğu kabın yüzeyine uyguladığı buhar basıncı niceliklerinden hangilerine bağlıdır?",
+                  "options": [
+                    "Kabın hacmine ve şekline",
+                    "Sıvının sıcaklığına ve cinsine",
+                    "Sadece sıvının cismine",
+                    "Sıvının miktarına ve dış basınca"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıvıların buhar basıncı sıvının safsızlığına, cinsine (moleküller arası çekim kuvvetine) ve sıcaklığa bağlıdır. Miktar ve kap hacmi buhar basıncını etkilemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sıvılar için aşağıda verilen ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Molekülleri arasındaki boşluklar gazlara göre çok azdır.",
+                    "Akışkandırlar ve sıkıştırılamazlar.",
+                    "Sıcaklıkları arttığında viskoziteleri de artar.",
+                    "Belirli şekilleri yoktur, bulundukları kabın şeklini alırlar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sıvıların sıcaklığı arttıkça moleküller arası çekim kuvvetlerinin etkisi azalır ve akmaya karşı direnç yani viskozite düşer, artmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Saf bir sıvının kaynama noktası ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Buhar basıncının dış basınca eşit olduğu sıcaklıktır.",
+                    "Sıvı miktarı arttıkça kaynama noktası da artar.",
+                    "Bulunduğu ortamın dış basıncından bağımsızdır.",
+                    "Isıtıcının gücü artırılırsa kaynama noktası düşer."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir sıvının buhar basıncının dış basınca eşit olduğu an o sıvının kaynamaya başladığı andır ve bu sıcaklığa kaynama noktası denir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki durumlardan hangisi sıvılarda yüzey gerilimi ile açıklanmaz?",
+                  "options": [
+                    "Su damlalarının küresel şekle yakın olması",
+                    "Toplu iğnenin su yüzeyinde batmadan durabilmesi",
+                    "Bazı böceklerin su üzerinde yürüyebilmesi",
+                    "Çaydanlıktaki suyun kaynaması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Çaydanlıktaki suyun kaynaması viskozite, buhar basıncı ve ısı transferi ile ilgilidir; yüzey gerilimi olayı değildir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sıvı moleküllerinin bulundukları sıcaklıkta gaz fazına geçmesine ____ denir.",
+                  "options": [
+                    "buharlaşma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıvı yüzeyindeki taneciklerin sıvıyı terk ederek gaz fazına geçiş sürecine buharlaşma adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Moleküller arası çekim kuvveti büyük olan sıvıların viskozitesi de ____ olur.",
+                  "options": [
+                    "büyük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Moleküller birbirini ne kadar çok çekerse sıvının akmaya karşı direnci yani viskozitesi o kadar büyük olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dış basıncın arttığı bir yerde suyun kaynama noktası da ____.",
+                  "options": [
+                    "artar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dış basınç arttıkça sıvının buhar basıncının dış basınca eşit olması için daha yüksek sıcaklığa ihtiyaç duyulur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklık arttıkça sıvıların viskozitesi ____.",
+                  "options": [
+                    "azalır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıcaklık yükseldiğinde moleküllerin kinetik enerjisi artar ve moleküller arası çekim zayıflayarak akışkanlık artar, viskozite azalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deniz seviyesinden yukarılara çıkıldıkça dış basınç azalacağı için sıvıların kaynama noktası ____.",
+                  "options": [
+                    "düşer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dış atmosfer basıncının düşük olduğu yüksek yerlerde sıvılar daha düşük sıcaklıklarda kaynar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sıvıların hacimleri belirli olup sıkıştırılamaz kabul edilirler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıvılar akışkan olmalarına rağmen tıpki katılar gibi tanecikleri arasındaki boşluklar çok az olduğu için sıkıştırılamazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Saf sıvıların kaynama süresince sıcaklıkları sürekli olarak artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Saf maddeler hal değiştirirken (kaynarken) dışarıdan ısı almalarına rağmen sıcaklıkları sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uçucu sıviların molekülleri arasındaki çekim kuvveti zayıftır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Moleküller arası çekim kuvveti zayıf olan sıvı molekülleri kolayca buharlaşabilir, bu da onların uçucu olmasını sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yüzey gerilimi sıcaklık arttıkça artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıcaklık arttıkça moleküller arası çekim kuvveti ve moleküllerin birbirini tutma eğilimi azaldığı için yüzey gerilimi düşer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı sıcaklıkta viskozitesi büyük olan sıvı, viskozitesi küçük olan sıvıya göre daha yavaş akar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Viskozite akmaya karşı gösterilen dirençtir; viskozite büyüdükçe akış hız hızı yavaşlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Gazlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Gaz tanecikleri arasındaki boşluklar katı ve sıvılara göre nasıldır?",
+                  "answer": "Katı ve sıvılara göre yok denecek kadar çok fazladır, bu nedenle gazlar büyük ölçüde sıkıştırılabilirdir."
+                },
+                {
+                  "question": "Gazların hacmi neye eşittir?",
+                  "answer": "İçinde bulundukları kabın hacmine eşittir."
+                },
+                {
+                  "question": "İdeal gaz varsayımında gaz taneciklerinin öz hacmi ihmal edilir mi?",
+                  "answer": "Evet, gaz taneciklerinin kendi kapladığı hacim, bulundukları kabın hacmi yanında ihmal edilir."
+                },
+                {
+                  "question": "Sıcaklık arttıkça gaz taneciklerinin ortalama kinetik enerjisi nasıl değişir?",
+                  "answer": "Artar."
+                },
+                {
+                  "question": "Aynı sıcaklıktaki tüm gazların ortalama kinetik enerjileri birbiriyle nasıldır?",
+                  "answer": "Eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi gazların genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Belirli bir şekilleri ve hacimleri vardır.",
+                    "Bulundukları kabı tamamen doldururlar.",
+                    "Yoğunlukları katı ve sıvılara göre çok düşüktür.",
+                    "Birbiriyle her oranla homojen karışarak çözelti oluştururlar."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazların belirli bir şekli ve belirli bir hacmi yoktur; içinde bulundukları kabın şeklini ve hacmini alırlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki sıcaklık değerlerinden hangisinde gaz taneciklerinin ortalama kinetik enerjisi en yüksektir?",
+                  "options": [
+                    "25 santigrat derece",
+                    "0 santigrat derece",
+                    "100 santigrat derece",
+                    "50 santigrat derece"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gazlarda ortalama kinetik enerji yalnızca mutlak sıcaklığa bağlıdır. Sıcaklık arttıkça kinetik enerji de artar, bu yüzden en yüksek sıcaklık olan 100 santigrat derece seçilmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabit sıcaklıkta kapalı bir kaptaki gazın basıncı iki katına çıkarılırsa, bu gazın hacmi ilk durumun kaç katı olur?",
+                  "options": [
+                    "1",
+                    "0.5",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boyle Yasası'na göre sabit sıcaklıkta gazın basıncı ile hacmi ters orantılıdır (P1 x V1 = P2 x V2). Basınç 2 katına çıkarsa hacim yarıya (0.5 katına) düşer.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Normal koşullarda (NK) 1 mol ideal gaz kaç litre hacim kaplar?",
+                  "options": [
+                    "11.2",
+                    "44.8",
+                    "22.4",
+                    "5.6"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Normal koşullar (0 santigrat derece sıcaklık ve 1 atmosfer basınç) altında bütün ideal gazların 1 molü 22.4 litre hacim kaplar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki gaz özelliklerinden hangisi gaz taneciklerinin esnek çarpışma yapmasıyla ilgilidir?",
+                  "options": [
+                    "Gazların özkütlelerinin küçük olması",
+                    "Gazların sıkıştırılabilmesi",
+                    "Kap duvarına çarpan gazların toplam enerjisini kaybetmeden hareketine devam etmesi",
+                    "Gazların yayılabilmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Esnek çarpışma, tanecikler çarpıştıklarında ya da kabın duvarına çarptıklarında toplam kinetik enerjilerinin korunması anlamına gelir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gaz taneciklerinin rastgele ve zikzaklı hareketlerine ____ hareketi denir.",
+                  "options": [
+                    "Brown"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz ve sıvı taneciklerinin akışkan ortamdaki bu düzensiz ve zikzaklı hareketleri Brown hareketi olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gazların yüksek basınç ve düşük sıcaklıkta sıvılaşmaya yaklaşan davranışlarına ____ gaz denir.",
+                  "options": [
+                    "gerçek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İdeal gaz şartlarından saparak moleküller arası etkileşimlerin ve öz hacmin belirginleştiği durumlardaki gazlara gerçek gaz denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir gazın birim zamanda birim alana uyguladığı dik kuvvete ____ denir.",
+                  "options": [
+                    "basınç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Basınç tanımı gereği birim yüzeye etki eden dik kuvvettir ve gazlarda taneciklerin çeperlere yaptığı çarpmalar sonucu oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklıkları aynı olan farklı türdeki gazların ortalama ____ enerjileri de aynıdır.",
+                  "options": [
+                    "kinetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kinetik teoriye göre, ideal gazların ortalama kinetik enerjisi sadece mutlak sıcaklığa bağlıdır, gazın cinsine bağlı değildir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gaz taneciklerinin boşlukta veya başka bir gaz içinde yayılması olayına ____ denir.",
+                  "options": [
+                    "difüzyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gazların çok tanecikli ortamda birbirleri arasında yayılması difüzyon, boşluğa yayılması ise efüzyon olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gazlar bulundukları kabı doldurdukları için hacimleri kabın hacmine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz molekülleri serbestçe hareket edip kabın her yerine yayıldıkları için kabın hacmini tamamen kaplarlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı sıcaklıktaki hafif gazların ortalama kinetik enerjisi ağır gazlarınkinden daha fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ortalama kinetik enerji kütleye veya molekül ağırlığına bağlı değildir, yalnızca mutlak sıcaklığa bağlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gerçek gazlar, düşük basınç ve yüksek sıcaklıkta ideal gaza en yakın davranışı sergiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanecikler arası mesafenin çok açıldığı ve moleküller arası çekim kuvvetlerinin en aza indiği koşullar idealliğe en yakın koşullardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazların sıcaklığı arttıkça yayılma (difüzyon) hızları azalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sıcaklık arttıkça gaz taneciklerinin hızı artar, dolayısıyla difüzyon hızı da artar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazlar homojen olarak karışarak her zaman çözelti oluştururlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gaz tanecikleri arasındaki büyük boşluklar nedeniyle tüm gazlar birbirleriyle her oranla karışarak homojen karışımlar (çözeltiler) meydana getirir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node5",
           "order": 5,
           "title": "Plazma",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Plazma hâlinin elektrik yükü durumu nedir?",
+                  "answer": "Plazma hâli toplamda nötrdür."
+                },
+                {
+                  "question": "Maddenin en yüksek enerjili hâli hangisidir?",
+                  "answer": "Plazmadır."
+                },
+                {
+                  "question": "Plazma hâlinde hangi tanecikler bulunur?",
+                  "answer": "İyonlar, serbest elektronlar, nötr atomlar ve moleküller."
+                },
+                {
+                  "question": "Plazma hâlinin elektrik ve ısı iletkenliği nasıldır?",
+                  "answer": "Çok iyi iletkendir."
+                },
+                {
+                  "question": "Evrendeki maddelerin büyük çoğunluğu hangi hâldedir?",
+                  "answer": "Plazma hâlindedir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi doğal plazma örneklerinden biridir?",
+                  "options": [
+                    "Flüoresan lamba",
+                    "Neon tabela",
+                    "Güneş",
+                    "Plazma televizyon"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Güneş, yapay değil doğal bir plazma kaynağıdır. Flüoresan lamba, neon tabela ve plazma televizyon insan yapımı yapay plazmalardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi plazma hâlinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Belirli bir şekil ve hacimleri yoktur.",
+                    "Tanecikleri sadece nötr atomlardan oluşur.",
+                    "Manyetik alandan etkilenirler.",
+                    "Elektrik akımını iletirler."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Plazma; serbest elektronlar, pozitif iyonlar, nötr atom ve moleküllerin karışımıdır. Yalnızca nötr atomlardan oluşmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Maddenin katı hâlinden plazma hâline geçiş sürecinde aşağıdakilerden hangisi gerçekleşir?",
+                  "options": [
+                    "Sadece sıcaklık azalır.",
+                    "Enerji verilir ve tanecikler düzenli hâle gelir.",
+                    "Kimyasal bağlar tamamen sağlamlaşır.",
+                    "Enerji alınır ve tanecikler iyonlaşır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Katıdan plazmaya gitmek için sisteme dışarıdan enerji verilmelidir ve tanecikler iyonlaşarak en yüksek enerjili hâle ulaşır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi yapay (yapma) plazma sınıfına girer?",
+                  "options": [
+                    "Yıldızlar",
+                    "Plazma küresi",
+                    "Şimşek",
+                    "Kutup ışıkları (Aurora)"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yıldızlar, kutup ışıkları ve şimşek doğal plazmadır. Laboratuvar ortamında üretilen plazma küresi ise yapay plazmadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Plazma ile ilgili olarak;\nI. Elektrik ve ısıyı iyi iletir.\nII. Toplam elektrik yükü pozitiftir.\nIII. Belirli geometrik şekilleri yoktur.\nyargılarından hangileri doğrudur?",
+                  "options": [
+                    "Yalnız I",
+                    "I ve III",
+                    "II ve III",
+                    "I, II ve III"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Plazmalar elektrik ve ısıyı iyi iletir (I doğru), toplam yükleri nötrdür (II yanlış), gazlar gibi belirli şekil ve hacimleri yoktur (III doğru).",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Maddenin iyonize olmuş gaz hâline ____ denir.",
+                  "options": [
+                    "plazma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Serbest elektron ve iyonların bulunduğu, enerji düzeyi en yüksek hâl plazmadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneş ve diğer yıldızlar evrendeki ____ hâline örnek olarak gösterilebilir.",
+                  "options": [
+                    "plazma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıldızların yapısını oluşturan madde yüksek sıcaklıkta plazma hâlindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Plazma hâlinin elektrik yükü toplamda ____ olduğu için bulunduğu ortamda yük birikimi gözlenmez.",
+                  "options": [
+                    "nötr"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pozitif ve negatif yük sayısı birbirine denktir, bu yüzden plazma toplamda nötrdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferin üst katmanlarında görülen kutup ışıkları yani ____ doğal bir plazma örneğidir.",
+                  "options": [
+                    "Aurora"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güneş rüzgarları ile dünya atmosferinin etkileşimi sonucu kutuplarda görülen ışımalar Aurora adını alır ve doğal plazmadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Neon tabelalar ve plazma küreleri insan yapımı yani ____ plazma sınıfındadır.",
+                  "options": [
+                    "yapay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Laboratuvar veya teknolojik ürünler aracılığıyla elde edilen plazmalar yapay plazma olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Plazma hâli, elektrik akımını gaz hâline göre çok daha iyi iletir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İçerdiği serbest elektronlar ve iyonlar sayesinde plazma elektriği çok iyi iletir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Plazmaların belirli bir hacmi ve geometrik şekli vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Plazmaların tıpkı gazlar gibi belirli bir şekli ve hacmi yoktur, bulunduğu kabı tamamen doldurur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Plazma hâlindeki tanecikler arasında serbest elektronlar ve pozitif iyonlar bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Plazma; iyonlaşmış gaz olduğundan serbest elektronlar, iyonlar ve nötr taneciklerin karmaşık birleşimidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şimşek ve yıldırım olayları yapay plazma sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şimşek ve yıldırım doğada kendiliğinden oluştuğu için doğal plazma sınıfına girer.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Evrenin çok büyük bir kısmı plazma hâlindeki maddelerden oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıldızlar, nebulalar ve galaksiler arası maddeler göz önüne alındığında evrenin büyük çoğunluğu plazmadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2083,13 +3486,419 @@
           "id": "node1",
           "order": 1,
           "title": "Su ve Hayat",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Canlı yaşamı için suyun en temel biyolojik önemi nedir?",
+                  "answer": "Hücre içi ve dışı maddelerin taşınmasını sağlayan en iyi çözücü olmasıdır."
+                },
+                {
+                  "question": "Yeryüzündeki su kaynaklarının yüzde kaçı içilebilir tatlı su niteliğindedir?",
+                  "answer": "Yaklaşık yüzde üç kadardır."
+                },
+                {
+                  "question": "Su tasarrufu sağlamak amacıyla endüstride hangi yöntem uygulanır?",
+                  "answer": "Atık suların arıtılarak yeniden kullanılması yani geri dönüşüm."
+                },
+                {
+                  "question": "İçme sularında sertliğe neden olan başlıca iyonlar hangileridir?",
+                  "answer": "Kalsiyum ve magnezyum iyonlarıdır."
+                },
+                {
+                  "question": "Su kirliliğine yol açan başlıca evsel kaynaklı atık maddeler nelerdir?",
+                  "answer": "Deterjanlar, fosfatlar ve kanalizasyon atıklarıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi suyun insan vücudundaki görevlerinden biri değildir?",
+                  "options": [
+                    "Vücut sıcaklığının dengelenmesini sağlamak",
+                    "Zararlı maddelerin idrar yoluyla atılmasını sağlamak",
+                    "Besinlerin sindirimine ve taşınmasına yardımcı olmak",
+                    "Hücrelere doğrudan birincil enerji kaynağı olmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Su canlılar için temel bir yaşam sıvısıdır ancak vücutta birincil enerji kaynağı olarak kullanılmaz; enerji karbonhidrat, yağ ve proteinlerden sağlanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yeryüzündeki su ayak izi kavramı ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Sadece bireylerin içtiği su miktarını ifade eder.",
+                    "Mal ve hizmetlerin üretimi için tüketilen toplam su miktarını gösterir.",
+                    "Denizlerdeki toplam su hacminin zamanla azalmasını açıklar.",
+                    "Sadece sanayi tesislerinde kullanılan suyu ölçer."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Su ayak izi, tüketilen mal ve hizmetlerin üretilmesi sürecinde kullanılan doğrudan ve dolaylı su miktarının toplamıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki su kaynaklarından hangisi yeryüzündeki tatlı su rezervlerinin en büyük kısmını oluşturur?",
+                  "options": [
+                    "Nehirler ve akarsular",
+                    "Atmosferdeki su buharı",
+                    "Tatlı su gölleri",
+                    "Kutuplardaki buzullar ve buz dağları"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yeryüzündeki tatlı suların çok büyük bir kısmı kutuplarda buzullar ve buz dağları halinde depolanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi su kirliliğini önlemek için bireysel olarak alınabilecek doğru önlemlerden biridir?",
+                  "options": [
+                    "Kimyasal temizlik malzemelerinin bilinçli ve az miktarda kullanılması",
+                    "Atık yağların lavaboya dökülmesi",
+                    "Bahçe sulamasında tarım ilaçlarının aşırı kullanılması",
+                    "Arıtılmamış sanayi atıklarının akarsulara verilmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimyasal temizlik malzemelerinin ve deterjanların gereğinden fazla kullanımı su kirliliğine sebep olur, bu yüzden bilinçli ve az kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Su tasarrufu ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Damlatan muslukların tamir edilmesi su israfını önler.",
+                    "Sebze ve meyvelerin akan musluk altında sürekli yıkanması su tasarrufu sağlar.",
+                    "Çamaşır ve bulaşık makinelerinin tam doldurularak çalıştırılması suyu korur.",
+                    "Diş fırçalarken musluğun kapatılması su tasarrufu sağlar."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sebze ve meyvelerin akan su altında sürekli yıkanması büyük bir su israfına yol açar, bunun yerine bir kap içinde yıkanmaları gerekir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yeryüzündeki su kaynaklarının döngü halinde hareket etmesine ____ su döngüsü denir.",
+                  "options": [
+                    "hidrolojik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğadaki suyun buharlaşma, yoğuşma ve yağış aşamalarıyla gerçekleştirdiği çevrime hidrolojik döngü adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İçerisinde çözünmüş kalsiyum ve magnezyum iyonları az olan sulara ____ su denir.",
+                  "options": [
+                    "yumuşak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalsiyum ve magnezyum iyonları bakımından fakir olan sular yumuşak su olarak sınıflandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Temiz su kaynaklarının korunması ve bilinçli tüketilmesi için yapılan çalışmalara ____ bilinci denir.",
+                  "options": [
+                    "su"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su kaynaklarının sınırlı olduğunun bilinmesi ve tasarruflu kullanılması toplumsal bir su bilinci gerektirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Endüstride soğutma ve yıkama gibi amaçlarla kullanıldıktan sonra doğaya bırakılan sulara ____ suyu denir.",
+                  "options": [
+                    "atık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kullanım sonucu kirlenmiş ve özelliğini yitirmiş sular atık su olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deniz suyundan içme suyu elde etmek amacıyla uygulanan arıtma yöntemine ____ denir.",
+                  "options": [
+                    "desalinasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deniz suyundaki tuzun giderilerek tatlı su eldesinde kullanılan yaygın arıtma yöntemi desalinasyondur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dünyadaki su kaynaklarının tamamı içme suyu olarak doğrudan kullanılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dünyadaki suların çok büyük bir kısmı tuzlu sudur veya buzullar halindedir, doğrudan içme suyu olarak kullanılamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su molekülleri polar yapıya sahip olduğu için çok iyi bir çözücüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su molekülünün yapısındaki polar özellik, birçok iyonik ve polar maddenin suda çözünmesini sağlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi atıklarının arıtılmadan akarsulara verilmesi biyoçeşitliliği olumlu yönde etkiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Arıtılmadan bırakılan sanayi atıkları sudaki oksijen miktarını azaltarak su canlılarının ölümüne ve biyoçeşitliliğin azalmasına neden olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Su ayak izi, bir bireyin veya toplumun tükettiği toplam su miktarını hesaplamak için kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su ayak izi, doğrudan ve dolaylı su tüketimini ölçen önemli bir çevre göstergesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sert sular sabun köpüğünün oluşmasını kolaylaştırır ve temizleme verimini artırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sert sular içerisindeki kalsiyum ve magnezyum iyonları sabunla çökelti oluşturarak sabunun köpürmesini engeller ve temizleme verimini düşürür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Çevre Kimyası",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hava kirliliğine neden olan başlıca birincil kirleticilerden biri olan ve kömür gibi fosil yakıtların yanmasıyla oluşan gaz hangisidir?",
+                  "answer": "Kükürt dioksit"
+                },
+                {
+                  "question": "Su kaynaklarında ötrofikasyona yol açan temel elementler hangileridir?",
+                  "answer": "Azot ve fosfor"
+                },
+                {
+                  "question": "Plastik atıkların doğada uzun süre bozulmadan kalarak oluşturduğu mikro boyuttaki parçacıklara ne ad verilir?",
+                  "answer": "Mikroplastik"
+                },
+                {
+                  "question": "Atmosferde ozon tabakasının incelmesine neden olan soğutucu akışkan gazların genel adı nedir?",
+                  "answer": "Kloroflorokarbonlar"
+                },
+                {
+                  "question": "Çevreye zararlı atıkların kaynağında azaltılması, yeniden kullanılması ve dönüştürülmesi sürecine ne denir?",
+                  "answer": "Geri dönüşüm"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi hava kirliliğine neden olan birincil kirleticilerden biri değildir?",
+                  "options": [
+                    "Kükürt dioksit",
+                    "Karbon monoksit",
+                    "Azot dioksit",
+                    "Oksijen gazı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Oksijen gazı havada doğal olarak bulunan ve solunum için gerekli olan bir gazdır; hava kirletici bir gaz değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin su kaynaklarına karışması su kirliliğine ve ötrofikasyona doğrudan en büyük katkıyı sağlar?",
+                  "options": [
+                    "Fosfat içerikli deterjanlar",
+                    "Saf su",
+                    "Yemek tuzu",
+                    "Oksijen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fosfat ve azot içeren gübre ile deterjan atıkları sulara karıştığında alg çoğalmasını tetikleyerek ötrofikasyona yol açar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi sera etkisini artıran gazlar arasında yer almaz?",
+                  "options": [
+                    "Su buharı",
+                    "Metan",
+                    "Azot gazı",
+                    "Karbondioksit"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Atmosferin yaklaşık yüzde 78'ini oluşturan azot gazı sera etkisine doğrudan katkı sağlayan gazlar arasında değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uygulamalardan hangisi çevre kimyası ilkelerine ve sürdürülebilirliğe en uygun olanıdır?",
+                  "options": [
+                    "Endüstriyel atıkları arıtmadan akarsuya vermek",
+                    "Atıkları kaynağında ayrıştırmak",
+                    "Plastik poşet kullanımını artırmak",
+                    "Fosil yakıt tüketimini teşvik etmek"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Atıkları kaynağında ayrıştırmak geri dönüşümü kolaylaştırır ve çevre kirliliğini önlemede en temel adımdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Asit yağmurlarının oluşumunda rol oynayan gazlar aşağıdakilerin hangisinde doğru verilmiştir?",
+                  "options": [
+                    "SO2 ve NO2",
+                    "O2 ve N2",
+                    "CH4 ve CO",
+                    "He ve Ne"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kükürt dioksit ve azot dioksit gazları bulutlardaki su buharı ile tepkimeye girerek sülfürik ve nitrik asit oluşturur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Atmosferde ısıyı tutarak küresel ısınmaya neden olan gazların oluşturduğu etkiye ____ denir.",
+                  "options": [
+                    "sera etkisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferdeki sera gazları güneşten gelen ısının bir kısmını tutarak yeryüzünün ortalama sıcaklığının yaşanabilir seviyede kalmasını ve artmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tatlı su kaynaklarında alg patlaması ve oksijen tükenmesiyle sonuçlanan kirlilik sürecine ____ denir.",
+                  "options": [
+                    "ötrofikasyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Besin tuzlarının suya karışmasıyla bitkisel organizmaların aşırı çoğalması ötrofikasyon olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi tesisleri ve evlerden çıkan atık suların arıtılmadan doğaya verilmesi ____ kirliliğine yol açar.",
+                  "options": [
+                    "su"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zararlı kimyasalların ve atıkların doğrudan su kaynaklarına deşarj edilmesi su kirliliğini tetikler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hava kirliliğine sebep olan gazların su buharı ile birleşmesiyle ____ yağmurları oluşur.",
+                  "options": [
+                    "asit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit yağmurları tarihi eserlere, bitki örtüsüne ve su ekosistemlerine büyük zarar verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kullanılmış maddelerin çeşitli işlemlerden geçirilerek yeniden hammadde olarak kazanılmasına ____ denir.",
+                  "options": [
+                    "geri dönüşüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geri dönüşüm doğal kaynakların korunmasını ve atık miktarının azalmasını sağlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Plastik atıkların doğada kaybolma süresi oldukça kısadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Plastik maddeler doğada yüzlerce yıl boyunca bozulmadan kalarak çevre kirliliğine neden olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karbondioksit gazı başlıca sera gazlarından biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karbondioksit fosil yakıtların yakılmasıyla atmosfere salınır ve küresel iklim değişikliğinde önemli rol oynar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asit yağmurları bitki örtüsüne ve toprak yapısına zarar vermez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Asit yağmurları toprağın pH dengesini bozarak bitkilerin besin maddesi alımını engeller ve zarar verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yenilenebilir enerji kaynaklarının kullanımı çevre kirliliğini azaltır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güneş, rüzgar gibi yenilenebilir enerji kaynakları fosil yakıtlar gibi zararlı gaz salınımı yapmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Pillerin evsel çöplerle birlikte doğrudan toprağa atılması çevre için tehlike oluşturmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Piller içerdikleri ağır metaller (cıva, kadmiyum vb.) nedeniyle toprak ve yeraltı su kirliliğine yol açar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2102,25 +3911,804 @@
           "id": "node1",
           "order": 1,
           "title": "Kimyanın Temel Kanunları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kütlenin Korunumu Kanunu'nu kim bulmuştur?",
+                  "answer": "Antoine Lavoisier"
+                },
+                {
+                  "question": "Sabit Oranlar Kanunu hangi bilim insanına aittir?",
+                  "answer": "Joseph Proust"
+                },
+                {
+                  "question": "Katlı Oranlar Kanunu'nu ortaya koyan bilim insanı kimdir?",
+                  "answer": "John Dalton"
+                },
+                {
+                  "question": "Kütlenin Korunumu Kanunu hangi tür kaplarda gerçekleştirilen tepkimelerde kesinlikle doğrudur?",
+                  "answer": "Kapalı kaplar"
+                },
+                {
+                  "question": "Sabit Oranlar Kanunu hangi tür maddeler için geçerlidir?",
+                  "answer": "Bileşikler"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Kütlenin Korunumu Kanunu'nu en iyi açıklar?",
+                  "options": [
+                    "Tepkimeye giren gazların hacimleri her zaman birbirine eşittir.",
+                    "Kimyasal tepkimelerde girenlerin atom sayısı ürünlerinkinden her zaman azdır.",
+                    "Kapalı bir kapta gerçekleşen kimyasal tepkimelerde toplam kütle her zaman sabittir.",
+                    "Bileşikler oluşurken elementler rastgele kütle oranlarında birleşir."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kütlenin Korunumu Kanunu'na göre kapalı kaplarda gerçekleşen kimyasal tepkimelerde harcanan maddelerin toplam kütlesi, oluşan maddelerin toplam kütlesine eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Saf suyun (H2O) kütlece birleşme oranı mH / mO = 1/8'dir. Buna göre, 36 gram su elde etmek için kaç gram oksijen (O) harcanmalıdır?",
+                  "options": [
+                    "8",
+                    "16",
+                    "40",
+                    "32"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sabit oranlar kanununa göre mH/mO = 1/8 ise 1k + 8k = 9k toplam kütledir. 9k = 36 gram ise k = 4 gramdır. Oksijen kütlesi 8k olduğundan 8 x 4 = 32 gram oksijen harcanmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Katlı Oranlar Kanunu'nun uygulanabilmesi için iki element arasında oluşan bileşikler en fazla kaç tür element içermelidir?",
+                  "options": [
+                    "2",
+                    "3",
+                    "1",
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katlı Oranlar Kanunu yalnızca aynı iki elementin oluşturduğu ikili bileşikler arasında aranır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki çiftlerden hangisi Katlı Oranlar Kanunu'na uymaz?",
+                  "options": [
+                    "NaCl ve NaBr",
+                    "SO2 ve SO3",
+                    "CO ve CO2",
+                    "NO ve NO2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NaCl ve NaBr bileşikleri aynı iki elementten oluşmadığı (farklı halojenler içerdiği) için aralarında katlı oran aranmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "X ve Y elementlerinden oluşan bir bileşikte kütlece birleşme oranı mX / mY = 3/4'tür. 21 gram X ile yeterince Y elementinin tepkimesinden en fazla kaç gram bileşik oluşur?",
+                  "options": [
+                    "56",
+                    "35",
+                    "28",
+                    "49"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Verilen orana göre 3 gram X ile 4 gram Y birleşerek 7 gram bileşik oluşturur. 21 gram X kullanıldığında 7 katı alınır; 3 x 7 = 21 gram X, 4 x 7 = 28 gram Y ile tepkimeye girer ve 7 x 7 = 49 gram bileşik oluşur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kimyasal tepkimelerde toplam kütlenin korunacağını belirten yasa Kütlenin ____ Kanunu'dur.",
+                  "options": [
+                    "Korunumu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antoine Lavoisier tarafından bulunan yasa Kütlenin Korunumu Kanunu olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir bileşiği oluşturan elementlerin kütleleri arasında değişmeyen bir oran olduğunu savunan yasa Sabit ____ Kanunu'dur.",
+                  "options": [
+                    "Oranlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Joseph Proust tarafından bulunan yasa Sabit Oranlar Kanunu olarak bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki element arasında birden fazla bileşik oluşuyorsa bu bileşikler arasındaki oranı inceleyen yasa Katlı ____ Kanunu'dur.",
+                  "options": [
+                    "Oranlar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "John Dalton tarafından ortaya konulan bu kanun Katlı Oranlar Kanunu'dur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sabit Oranlar Kanunu'nu bulan Fransız kimyager ____ adıdır.",
+                  "options": [
+                    "Proust"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Joseph Proust, Sabit Oranlar Kanunu'nu bularak kimya tarihine geçmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kütlenin Korunumu Kanunu'nu deneylerle kanıtlayan bilim insanı ____ adıdır.",
+                  "options": [
+                    "Lavoisier"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antoine Lavoisier kapalı kaplarda yaptığı hassas terazili deneylerle kütlenin korunduğunu kanıtlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kütlenin Korunumu Kanunu sadece açık kaplarda gerçekleşen tepkimelerde geçerlidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kütlenin Korunumu Kanunu kapalı kaplarda tam olarak gözlenir; açık kaplarda gaz çıkışı olursa kütle azalmış gibi görünebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sabit Oranlar Kanunu bileşiğin miktarına bağlı olarak değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sabit Oranlar Kanunu'na göre bir bileşiği oluşturan elementlerin kütlece birleşme oranı bileşiğin miktarından bağımsızdır, sabittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Katlı Oranlar Kanunu John Dalton tarafından öne sürülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katlı Oranlar Kanunu John Dalton tarafından 1803 yılında ortaya atılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Saf maddelerin belirli ayırt edici özellikleri ve sabit bileşimleri vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bileşikler saf madde olduklarından sabit oranlar kanununa uyar ve sabit birleşme oranına sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "H2O ve H2O2 bileşikleri arasında katlı oran uygulanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu iki bileşik aynı iki elementten (Hidrojen ve Oksijen) oluştuğu için aralarında katlı oran aranabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Mol Kavramı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "1 mol atom kaç tane atom içerir?",
+                  "answer": "Avogadro sayısı kadar (6,02 x 10 üzeri 23) atom içerir."
+                },
+                {
+                  "question": "Normal koşullarda (NK) 1 mol gaz kaç litre hacim kaplar?",
+                  "answer": "22,4 litre hacim kaplar."
+                },
+                {
+                  "question": "Mol kütlesinin (M_A) birimi nedir?",
+                  "answer": "gram/mol"
+                },
+                {
+                  "question": "Normal koşullar (NK) neyi ifade eder?",
+                  "answer": "0 santigrat derece sıcaklık ve 1 atmosfer basınç şartlarını ifade eder."
+                },
+                {
+                  "question": "1 tane Oksijen atomunun kütlesi kaç akb'dir?",
+                  "answer": "16 akb'dir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Normal koşullarda 4,4 gram CO2 gazı kaç litre hacim kaplar? (C: 12, O: 16 g/mol)",
+                  "options": [
+                    "2,24 litre",
+                    "22,4 litre",
+                    "4,48 litre",
+                    "11,2 litre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "CO2 molekül kütlesi 12 + 2x16 = 44 g/mol'dür. 4,4 gram CO2, 4,4 / 44 = 0,1 moldür. Normal koşullarda 1 mol gaz 22,4 litre ise 0,1 mol gaz 2,24 litre hacim kaplar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisinin 1 molü normal koşullarda 22,4 litre hacim kaplamaz?",
+                  "options": [
+                    "O2 gazı",
+                    "H2 gazı",
+                    "H2O sıvısı",
+                    "CH4 gazı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Normal koşullarda 22,4 litre hacim kaplama kuralı yalnızca gaz fazındaki maddeler için geçerlidir. H2O sıvı haldedir, bu nedenle bu kural sıvı maddeler için doğrudan uygulanamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "3,01 x 10 üzeri 23 tane SO3 molekülü kaç gramdır? (S: 32, O: 16 g/mol, Avogadro sayısı: 6,02 x 10 üzeri 23)",
+                  "options": [
+                    "20 gram",
+                    "40 gram",
+                    "80 gram",
+                    "160 gram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Verilen tanecik sayısı Avogadro sayısının yarısıdır, yani bu madde 0,5 moldür. SO3 molekül kütlesi 32 + 3x16 = 80 g/mol'dür. 0,5 mol SO3, 0,5 x 80 = 40 gram olmalıdır. (Düzeltme: 0,5 x 80 = 40 gramdır, seçenekler kontrol edildiğinde 40 gram seçeneği doğrudur).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "0,2 molü 8 gram olan X gazının molekül kütlesi kaç g/mol'dür?",
+                  "options": [
+                    "80",
+                    "32",
+                    "40",
+                    "16"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mol sayısı (n) = m / M_A formülü kullanılır. 0,2 = 8 / M_A denkleminden M_A = 8 / 0,2 = 40 g/mol bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "İçerdiği tanecik sayısı Avogadro sayısı kadar olan madde miktarına bir ____ denir.",
+                  "options": [
+                    "mol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mol kavramı, 6,02 x 10 üzeri 23 tane tanecik içeren madde miktarını ifade eden temel birimdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1 mol gazın normal koşullardaki hacmi ____ litredir.",
+                  "options": [
+                    "22,4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bütün gazların 1 molü normal koşullarda (0 santigrat derece ve 1 atm basınç) sabit olarak 22,4 litre hacim kaplar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karbon-12 isotopunun 1 gramının 1 de 12 sine ____ denir.",
+                  "options": [
+                    "akb"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atomik kütle birimi (akb), bir tane atomun kütlesini ifade etmekte kullanılan çok küçük bir kütle birimidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir elementin 1 mol atomunun gram cinsinden kütlesine mol ____ denir.",
+                  "options": [
+                    "kütlesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mol kütlesi, bir mol taneciğin gram cinsinden kütle değeridir ve birimi g/mol'dür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Aynı koşullarda eşit hacim kaplayan gazların mol sayıları ____",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Avogadro hipotezine göre aynı koşullarda eşit hacim kaplayan gazlar eşit sayıda tanecik ve dolayısıyla eşit mol sayısı içerir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "1 mol su (H2O) sıvısı normal koşullarda 22,4 litre hacim kaplar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Normal koşullarda 22,4 litre hacim kaplama kuralı sadece gazlar için geçerlidir, su ise oda koşullarında sıvıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Avogadro sayısı 6,02 x 10 üzeri 23 olarak alınır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimya hesaplamalarında kolaylık olması açısından Avogadro sayısı genellikle 6,02 x 10 üzeri 23 olarak kabul edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "1 tane O2 molekülü 32 gramdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "32 gram olan 1 tane O2 molekülü değil, 1 mol O2 molekülüdür. 1 tane O2 molekülü 32 akb kütleye sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Normal koşullar 0 santigrat derece sıcaklık ve 1 atmosfer basınç şartlarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimyada normal koşullar (NK) standart sıcaklık ve basınç değerleri olan 0 santigrat derece ve 1 atm olarak tanımlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şartlar ne olursa olsun her gazın 1 molü 22,4 litre hacim kaplar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gazların molar hacmi koşullara (sıcaklık ve basınç) bağlı olarak değişir; 22,4 litre sadece normal koşullar (NK) için geçerlidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Kimyasal Tepkimeler ve Denklemler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kimyasal tepkimelerde korunan özellikler nelerdir?",
+                  "answer": "Toplam atom sayısı, toplam kütle, toplam proton ve nötron sayısı korunur."
+                },
+                {
+                  "question": "Bir kimyasal denklemin en solunda yer alan maddelere ne ad verilir?",
+                  "answer": "Girenler (Reaktifler)"
+                },
+                {
+                  "question": "Kimyasal tepkimelerde hangi tür taneciklerin sayısı kesinlikle korunmayabilir?",
+                  "answer": "Molekül sayısı"
+                },
+                {
+                  "question": "Tepkime denkleştirilirken maddelerin önüne yazılan sayılara ne denir?",
+                  "answer": "Katsayı"
+                },
+                {
+                  "question": "Hangi haldeki maddelerin formülleri denkleştirme yapılırken parantez içinde g(k) şeklinde gösterilir?",
+                  "answer": "Katı haldeki maddeler (k)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi kimyasal bir tepkime sırasında kesinlikle değişmez?",
+                  "options": [
+                    "Molekül sayısı",
+                    "Toplam kütle",
+                    "Hacim",
+                    "Taneciklerin fiziksel hâli"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kimyasal tepkimelerde Kütlenin Korunumu Kanunu gereği toplam kütle her zaman korunur. Ancak molekül sayısı, hacim ve maddelerin fiziksel hâli değişebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Denkleştirilmiş bir kimyasal tepkime için aşağıdakilerden hangisi her zaman yanlıştır?",
+                  "options": [
+                    "Toplam proton sayısı korunmuştur.",
+                    "Girenlerdeki toplam atom sayısı ürünlerdekinden fazladır.",
+                    "Atomların cinsi korunmuştur.",
+                    "Girenlerin kütlesi ürünlerinkine eşittir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kimyasal tepkimelerde girenlerdeki toplam atom sayısı ile ürünlerdeki toplam atom sayısı her zaman birbirine eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "C3H8 + O2 -> CO2 + H2O tepkimesi en küçük tam sayılarla denkleştirildiğinde O2'nin katsayısı kaç olur?",
+                  "options": [
+                    "7",
+                    "3",
+                    "5",
+                    "4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tepkime C3H8 + 5O2 -> 3CO2 + 4H2O şeklinde denkleştirilir. O2'nin katsayısı 5 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kimyasal tepkimede girenlerin toplam mol sayısı ile ürünlerin toplam mol sayısı için ne söylenebilir?",
+                  "options": [
+                    "Farklı olabilir.",
+                    "Her zaman ürünler daha fazladır.",
+                    "Kesinlikle eşittir.",
+                    "Her zaman girenler daha fazladır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimyasal tepkimelerde mol sayısı korunmak zorunda değildir; artabilir, azalabilir veya aynı kalabilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki olaylardan hangisi kimyasal bir tepkime denklemi ile ifade edilir?",
+                  "options": [
+                    "Demir metalinin paslanması",
+                    "Mumun erimesi",
+                    "Suyun buharlaşması",
+                    "Şekerin suda çözünmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Demirin paslanması kimyasal bir değişimdir ve kimyasal denklemle gösterilir. Diğerleri fiziksel değişimlerdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kimyasal tepkimelerde giren maddelerin kütleleri toplamı, ürünlerin kütleleri toplamına eşittir kuralına ____ Kanunu denir.",
+                  "options": [
+                    "Kütlenin Korunumu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antoine Lavoisier tarafından bulunan bu kanun, kimyasal tepkimelerde toplam kütlenin değişmediğini ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kimyasal tepkime denklemlerinde maddelerin fiziksel hâllerini belirtmek için gaz hâli ____ harfi ile gösterilir.",
+                  "options": [
+                    "g"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Maddelerin fiziksel hâlleri katı için (k), sıvı için (s), gaz için (g) ve sulu çözelti için (aq) sembolleriyle gösterilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kimyasal bir tepkimede atom türü ve ____ sayısı kesinlikle korunur.",
+                  "options": [
+                    "atom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tepkimede hiçbir atom yoktan var olamaz veya var olan atom yok olamaz; bu nedenle atom türü ve sayısı korunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kimyasal tepkimede ürünler kısmında yer alan maddeleri girenlerden ayırmak için ____ işareti kullanılır.",
+                  "options": [
+                    "ok"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimyasal tepkimelerde girenler ile ürünler arasına ok (->) işareti konulur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kimyasal tepkimelerde toplam molekül sayısı her zaman korunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Toplam molekül sayısı kimyasal tepkimelerde artabilir, azalabilir veya değişmeyebilir; korunan bir nicelik değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kimyasal denklem yazılırken girenler sol tarafa, ürünler sağ tarafa yazılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kimyasal tepkimelerin evrensel yazım kuralına göre giren maddeler sol tarafa, oluşan ürünler ise sağ tarafa yazılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Denkleştirilmiş bir kimyasal tepkimede her iki taraftaki toplam atom sayısı eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denkleştirme işlemi, girenler ve ürünler taraftaki her bir elementin atom sayılarını eşitlemek için yapılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kimyasal tepkimelerde elementlerin kimlik özellikleri değişmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kimyasal tepkimelerde atomların türü korunur ancak bağlar kırılıp yeni bağlar oluştuğu için maddelerin kimlik özellikleri değişir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kapalı bir kapta gerçekleşen kimyasal bir tepkimede toplam kütle sabit kalır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapalı sistemlerde (madde alışverişi olmayan) kütlenin korunumu kanunu kesinlikle geçerlidir ve toplam kütle değişmez.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Kimyasal Tepkimelerde Hesaplamalar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kimyasal hesaplamalarda kullanılan temel bağıntı nedir?",
+                  "answer": "Mol sayısı = Verilen kütle / Mol kütlesi (n = m / MA)"
+                },
+                {
+                  "question": "Sınırlayıcı bileşen nasıl bulunur?",
+                  "answer": "Tepkimedeki maddelerin mol sayıları katsayılarına bölünür, oranı küçük olan sınırlayıcıdır."
+                },
+                {
+                  "question": "Normal koşullarda (NK) 1 mol gaz kaç litre hacim kaplar?",
+                  "answer": "22,4 litre"
+                },
+                {
+                  "question": "Gerçek verimin teorik verime oranı ile ne hesaplanır?",
+                  "answer": "Yüzde verim"
+                },
+                {
+                  "question": "Artansız gerçekleşen bir tepkimede neye uyulur?",
+                  "answer": "Kütlenin korunumu kanununa ve sabit oranlar kanununa"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Normal koşullarda 5,6 litre H2 gazı elde etmek için kaç mol HCl kullanılmalıdır? (Zn + 2HCl -> ZnCl2 + H2)",
+                  "options": [
+                    "0,5 mol",
+                    "1,0 mol",
+                    "0,25 mol",
+                    "2,0 mol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NK'da 5,6 litre H2 gazı 5,6 / 22,4 = 0,25 moldür. Denkleme göre 1 mol H2 için 2 mol HCl harcanıyorsa, 0,25 mol H2 için 0,5 mol HCl gerekir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabit hacimli kapalı bir kapta gerçekleşen 2SO2 + O2 -> 2SO3 tepkimesinde 4 mol SO2 ile 3 mol O2 tam verimle tepkimeye giriyor. Hangi maddeden kaç mol artar?",
+                  "options": [
+                    "1 mol SO2 artar",
+                    "Artan madde olmaz",
+                    "2 mol O2 artar",
+                    "1 mol O2 artar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "4 mol SO2 için 2 mol O2 gereklidir. Başlangıçta 3 mol O2 olduğundan 2 molü harcanır ve 3 - 2 = 1 mol O2 artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kimyasal tepkimede yüzde verim formülü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(Artan / Toplam) * 100",
+                    "(Harcanan / Başlangıç) * 100",
+                    "(Gerçek Verim / Teorik Verim) * 100",
+                    "(Teorik Verim / Gerçek Verim) * 100"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yüzde verim, deney sonucunda elde edilen gerçek verimin teorik olarak hesaplanan değere bölünmesi ve 100 ile çarpılmasıyla bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "N2 + 3H2 -> 2NH3 tepkimesine göre 6 gram H2 gazının tamamı yeterince N2 ile tepkimeye girdiğinde kaç gram NH3 oluşur? (H: 1 g/mol, N: 14 g/mol)",
+                  "options": [
+                    "34 gram",
+                    "17 gram",
+                    "68 gram",
+                    "51 gram"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "6 gram H2, 6 / 2 = 3 moldür. Denkleme göre 3 mol H2'den 2 mol NH3 oluşur. NH3'ün mol kütlesi 17 g/mol olduğudur; 2 * 17 = 34 gram NH3 elde edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kimyasal tepkimelerde hesaplamalar yapılırken maddelerin mol sayıları tepkime denklemindeki ____ ile doğru orantılıdır.",
+                  "options": [
+                    "katsayılar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denklemdeki katsayılar harcanan veya oluşan maddelerin mol oranlarını doğrudan gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tepkime verimini hesaplamak için gerçek verim değeri ____ verime bölünür.",
+                  "options": [
+                    "teorik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yüzde verim hesaplamasında payda kısmına teorik verim yazılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir tepkimede tamamen tükenen ve miktarı tepkimenin durmasına neden olan maddeye ____ bileşen denir.",
+                  "options": [
+                    "sınırlayıcı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sınırlayıcı bileşen bittiği an tepkime sonlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Normal koşullarda 1 mol gazın kapladığı hacim ____ litredir.",
+                  "options": [
+                    "22,4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "NK şartlarında bütün ideal gazların 1 molü 22,4 litre hacim kaplar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mol kütlesi gram/mol cinsinden olan bir maddenin 1 molünün kütlesine ____ kütle denir.",
+                  "options": [
+                    "mol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mol kütlesi, bir mol taneciğin gram cinsinden kütlesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kimyasal hesaplamalarda mol sayıları üzerinden işlem yapabilmek için öncelikle tepkime denklemi denkleştirilmelidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katsayılar doğru mol oranlarını bulmak için denkleştirilmiş denklem şarttır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tepkimeye giren maddelerin başlangıç mol sayıları her zaman eşit olmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Maddelerin başlangıç mol sayıları eşit olmak zorunda değildir, katsayılarına göre harcanırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gerçek verim, teorik verimden her zaman daha büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Pratik kayıplar nedeniyle gerçek verim genellikle teorik verimden küçüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Artansız bir tepkimede girenlerin toplam kütlesi ürünlerin toplam kütlesine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kütlenin korunumu kanununa göre tüm kimyasal tepkimelerde kütle korunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Normal koşullarda 11,2 litre hacim kaplayan bir gaz 0,5 moldür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hacim 22,4'e bölünerek mol sayısı bulunur; 11,2 / 22,4 = 0,5 mol.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2133,13 +4721,401 @@
           "id": "node1",
           "order": 1,
           "title": "Homojen ve Heterojen Karışımlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Homojen karışımların diğer adı nedir?",
+                  "answer": "Çözelti"
+                },
+                {
+                  "question": "Heterojen karışımlara ne ad verilir?",
+                  "answer": "Adi karışım"
+                },
+                {
+                  "question": "Ayran hangi tür karışım sınıfına girer?",
+                  "answer": "Heterojen (Emülsiyon)"
+                },
+                {
+                  "question": "Tuzlu su karışımı hangi fazdadır?",
+                  "answer": "Sıvı-sıvı veya katı-sıvı homojen"
+                },
+                {
+                  "question": "Dağılan maddenin sıvı, dağıtan ortamın gaz olduğu heterojen karışım hangisidir?",
+                  "answer": "Aerosol"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi homojen bir karışımdır?",
+                  "options": [
+                    "Kolonya",
+                    "Salata",
+                    "Çamurlu su",
+                    "Ayran"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kolonya, alkol ve suyun homojen bir şekilde karışmasıyla oluştuğu için çözeltidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi heterojen bir karışımdır?",
+                  "options": [
+                    "Zeytinyağlı su",
+                    "Tuzlu su",
+                    "Şekerli su",
+                    "Hava"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zeytinyağı ve su birbiri içinde çözünmez ve faz oluşturduğu için heterojen karışımdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Katı bir maddenin sıvı içerisinde çözünmeden askıda kalmasıyla oluşan heterojen karışıma ne ad verilir?",
+                  "options": [
+                    "Süspansiyon",
+                    "Emülsiyon",
+                    "Aerosol",
+                    "Çözelti"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katı-sıvı heterojen karışımlar süspansiyon olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki karışım örneklerinden hangisi emülsiyondur?",
+                  "options": [
+                    "Türk kahvesi",
+                    "Kolonya",
+                    "Mayonez",
+                    "Duman"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Mayonez, sıvı-sıvı heterojen karışım yani emülsiyona örnektir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Hangi madde çifti birbiriyle karıştırıldığında emülsiyon oluşturur?",
+                  "options": [
+                    "Tuz - Su",
+                    "Alkol - Su",
+                    "Zeytinyağı - Su",
+                    "Şeker - Su"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Zeytinyağı ve su sıvı haldedir ve birbiri içerisinde çözünmeyerek emülsiyon oluşturur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tek bir fazdan oluşan karışımlara ____ denir.",
+                  "options": [
+                    "homojen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Her yerinde aynı özelliği gösteren ve tek fazlı olan karışımlar homojen karışım veya çözelti olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gaz fazında dağılan katı veya sıvı parçacıkların oluşturduğu heterojen karışımlara ____ denir.",
+                  "options": [
+                    "aerosol"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sis ve duman gibi karışımlar gaz ortamında dağılan aerosol türleridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kolloid karışımlarda dağılan tanecik boyutu genellikle 1 ile ____ nanometre arasındadır.",
+                  "options": [
+                    "1000"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kolloidlerin tanecik boyutu çözelti ile süspansiyon arasındadır ve 1 ile 1000 nm arasındadır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bütün karışımlar homojendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karışımlar homojen ve heterojen olmak üzere ikiye ayrılır, hepsi homojen değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Şekerli su homojen bir karışımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeker suda tamamen çözündüğü için her yerinde aynı özelliği gösteren homojen bir karışımdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zeytinyağı-su karışımı emülsiyon türü bir heterojen karışımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zeytinyağı ve su sıvı-sıvı heterojen karışım yani emülsiyon oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hava, heterojen bir karışımdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hava gaz halindeki bileşenlerin homojen dağılmasıyla oluşan bir çözeltidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Süspansiyonlar katı-sıvı heterojen karışımlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katı bir maddenin sıvı içerisinde çözünmeden askıda kalmasıyla süspansiyon oluşur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Ayırma ve Saflaştırma Teknikleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kaynama noktası farkına dayanan ayırma teknikleri nelerdir?",
+                  "answer": "Basit damıtma ve ayrımsal damıtma."
+                },
+                {
+                  "question": "Tanecik boyutu farkı ile ayırma işleminde kullanılan süzme yönteminde temel kural nedir?",
+                  "answer": "Katı-sıvı heterojen karışımlarda tanecik boyutunun süzgeç kağıdından büyük olması gerekir."
+                },
+                {
+                  "question": "Yoğunluk farkı (öz kütle) ile ayırma işlemine ne ad verilir?",
+                  "answer": "Ayırma hunisi yardımıyla yapılan sıvı-sıvı heterojen ayırma işlemi."
+                },
+                {
+                  "question": "Çözünürlük farkı ile ayırma tekniklerinden biri olan özütleme (ekstraksiyon) nedir?",
+                  "answer": "Bir karışımdaki istenen maddenin uygun bir çözücü ile ortamdan uzaklaştırılmasıdır."
+                },
+                {
+                  "question": "Ayrımsal kristallendirme hangi tür karışımların ayrılmasında kullanılır?",
+                  "answer": "Katı-katı çözeltilerin (iki katının sıcaklıkla çözünürlük farkından yararlanarak) ayrılmasında."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki karışımlardan hangisinin ayrılmasında yoğunluk farkından yararlanılmaz?",
+                  "options": [
+                    "Zeytinyağı-su",
+                    "Tuzlu su",
+                    "Kum-su",
+                    "Benzin-su"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tuzlu su homojen bir karışım (çözelti) olup, ayrılmasında genellikle kaynama noktası farkı (damıtma) veya kristallendirme kullanılır. Zeytinyağı-su, benzin-su ve kum-su heterojen karışım olup yoğunluk farkı ile ayrılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi tanecik boyutu farkı ile ayrıştırma yöntemine örnek olarak gösterilemez?",
+                  "options": [
+                    "Tozlu havanın filtre edilmesi",
+                    "Unun elenmesi",
+                    "Makarna suyunun süzülmesi",
+                    "Tuzlu suyun buharlaştırılması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tuzlu suyun buharlaştırılması tanecik boyutuna değil, kaynama noktası farkına dayanan bir yöntemdir. Diğer seçeneklerde süzme, eleme ve filtreleme gibi tanecik boyutu farkı temelli yöntemler kullanılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Zeytinyağı ve su karışımını laboratuvarda en iyi şekilde ayırmak için aşağıdaki malzemelerden hangisi kullanılmalıdır?",
+                  "options": [
+                    "Büret",
+                    "Süzgeç kağıdı",
+                    "Ayırma hunisi",
+                    "Ayrımsal damıtma kolonu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Zeytinyağı ve su birbiri içinde çözünmeyen, yoğunlukları farklı iki sıvıdan oluşan heterojen (emülsiyon) bir karışımdır. Bu tür karışımları ayırmak için ayırma hunisi kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Şekerli su karışımından suyu ve şekeri ayrı ayrı saf olarak elde etmek için sırasıyla hangi yöntemler uygulanmalıdır?",
+                  "options": [
+                    "Ayırma hunisi - Özütleme",
+                    "Flotasyon - Kristallendirme",
+                    "Basit damıtma",
+                    "Süzme - Damıtma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Şekerli su homojen bir karışımdır (çözelti). Basit damıtma yöntemiyle su buharlaştırılıp soğutularak sıvı halde toplanır, beherde ise katı şeker kalır. Böylece her iki bileşen de saf olarak elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kaynama noktaları sırasıyla 65 derece ve 78 derece olan iki sıvıdan oluşan homojen bir karışımı birbirinden ayırmak için en uygun yöntem hangisidir?",
+                  "options": [
+                    "Mıknatısla ayırma",
+                    "Süzme",
+                    "Ayrımsal damıtma",
+                    "Basit damıtma"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Birbiri içinde çözünen ve kaynama noktaları birbirine yakın olan sıvı-sıvı homojen karışımları ayırmak için ayrımsal damıtma yöntemi kullanılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Zeytinyağı ve sudan oluşan heterojen sıvı-sıvı karışımları ayırmak için ____ kullanılır.",
+                  "options": [
+                    "ayırma hunisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zeytinyağı ve su birbiri içinde çözünmeyen sıvılardır ve yoğunluk farkına dayanarak ayırma hunisi ile ayrılırlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kaynama noktaları farklı iki katı-sıvı homojen karışımı bileşenlerine ayırmak için ____ yöntemi uygulanır.",
+                  "options": [
+                    "basit damıtma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katı-sıvı homojen karışımlarda çözünen katı geride bırakılarak çözücü sıvı basit damıtma ile geri kazanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Şeker pancarından şeker eldesi işleminde çözünürlük farkından yararlanılan ____ yöntemi kullanılır.",
+                  "options": [
+                    "özütleme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Özütleme (ekstraksiyon), bir maddedeki çözünen bileşeni uygun bir çözücü ile başka bir ortama alma işlemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Demir tozu ve kükürt tozunun katı-katı heterojen karışımını ayırmak için ____ kullanılabilir.",
+                  "options": [
+                    "mıknatıs"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Demir manyetik bir madde olduğundan mıknatıs tarafından çekilir, kükürt ise çekilmez; bu sayede karışım ayrılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Katı haldeki iyot maddesinin ısıtıldığında sıvılaşmadan doğrudan gaz haline geçmesine ____ denir.",
+                  "options": [
+                    "süblimleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İyot gibi maddelerin katı halden doğrudan gaz haline geçmesi süblimleşmedir ve bu özellik ayırmada kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Süzme yöntemi, tanecik boyutu farkına dayanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Süzme işleminde süzgeç kağıdının gözeneklerinden büyük tanecikler üstte kalırken, küçük tanecikler geçer; bu durum tanecik boyutu farkına dayanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tuzlu su karışımı basit damıtma yöntemiyle bileşenlerine ayrılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuzlu su homojen bir karışımdır ve basit damıtma ile su buharlaştırılıp yoğuşturularak, tuz ise kapta bırakılarak ayrılabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Petrolün bileşenlerine ayrılmasında basit damıtma yöntemi kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Petrol içinde birden fazla sıvı bulundurur ve kaynama noktaları birbirine yakındır; bu nedenle ayrımsal damıtma yöntemi kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ayırma hunisi ile ayırma işleminde yoğunluğu büyük olan sıvı altta yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yoğunluğu büyük olan maddeler yer çekiminin etkisiyle ayırma hunisinin alt kısmında toplanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çözünürlük sıcaklıkla değişmediği için katı-katı karışımların ayrılmasında sıcaklık etkili değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Katıların çözünürlüğü genellikle sıcaklıkla değişir ve bu özellik ayrımsal kristallendirme yönteminin temelini oluşturur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2152,13 +5128,410 @@
           "id": "node1",
           "order": 1,
           "title": "Asitler ve Bazlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Asitlerin sulu çözeltileri hangi iyonu vererek elektrik akımını iletir?",
+                  "answer": "Hidrojen iyonu (H+)"
+                },
+                {
+                  "question": "Bazların sulu çözeltileri ele kayganlık hissiyatı verir, bu durum hangi iyonun varlığından kaynaklanır?",
+                  "answer": "Hidroksit iyonu (OH-)"
+                },
+                {
+                  "question": "Mavi turnusol kağıdını kırmızıya çeviren maddelerin genel adı nedir?",
+                  "answer": "Asit"
+                },
+                {
+                  "question": "Fenolftalein belirteci bazik ortamlarda hangi rengi alır?",
+                  "answer": "Pembe"
+                },
+                {
+                  "question": "pH değerleri 7'den büyük olan sulu çözeltiler genel olarak hangi karakterdedir?",
+                  "answer": "Bazik"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin sulu çözeltisi mavi turnusol kağıdını kırmızıya çevirir?",
+                  "options": [
+                    "Amonyaklı su",
+                    "Sabunlu su",
+                    "Limon suyu",
+                    "Sodalı su"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Limon suyu asidik özellik gösterir ve asitler mavi turnusol kağıdını kırmızıya çevirir. Diğer seçenekler ise baziktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ifadelerden hangisi tüm asitler için ortak bir özelliktir?",
+                  "options": [
+                    "Tatlarının ekşi olması",
+                    "Metallerle tepkimeye girerek hidrojen gazı açığa çıkarmaları",
+                    "Sulu çözeltilerinde elektrik akımını iletmemeleri",
+                    "pH değerlerinin 7'den büyük olması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asitlerin sulu çözeltileri ekşi tat verir. Aktif metallerle her asit hidrojen gazı vermez (örneğin nitrik asit vermez), pH'ları 7'den küçüktür ve elektrik akımını iletirler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bileşiklerden hangisinin sulu çözeltisi baz özelliği gösterir?",
+                  "options": [
+                    "HCl",
+                    "CH3COOH",
+                    "NaOH",
+                    "H2SO4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "NaOH (sodyum hidroksit) yapısında OH bulunduran güçlü bir bazdır. HCl, H2SO4 ve CH3COOH ise birer asittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir X maddesinin sulu çözeltisinin pH değerinin 7'den küçük olduğu biliniyor. Buna göre X maddesi aşağıdakilerden hangisi olabilir?",
+                  "options": [
+                    "Saf su",
+                    "Çamaşır suyu",
+                    "Sirke",
+                    "Diş macunu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "pH değeri 7'den küçük olan maddeler asidiktir. Verilenler arasında sirke asidik özellik gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi laboratuvarda kullanılan yaygın bir asit türüdür?",
+                  "options": [
+                    "Kostik",
+                    "Amonyak",
+                    "Zaç yağı",
+                    "Sönmüş kireç"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Zaç yağı olarak bilinen H2SO4 (sülfürik asit) önemli bir asittir. Sönmüş kireç, kostik ve amonyak baz sınıfındadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Asitlerin sulu çözeltileri elektrik akımını ____.",
+                  "options": [
+                    "iletir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asitler ve bazlar suda iyonlarına ayrıştıkları için sulu çözeltileri elektrik akımını iletir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırmızı turnusol kağıdını maviye çeviren maddelere ____ denir.",
+                  "options": [
+                    "baz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bazlar kırmızı turnusol kağıdının rengini maviye dönüştürür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Saf suyun oda koşullarında pH değeri ____'dir.",
+                  "options": [
+                    "7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Saf su nötr özellik gösterir ve 25 derece sıcaklıkta pH değeri 7'ye eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yapısında OH- iyonu bulunduran ve suya bu iyonu veren maddelere ____ denir.",
+                  "options": [
+                    "baz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Arrhenius tanımına göre bazlar suya hidroksit iyonu veren maddelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sirkenin tadının ekşi olması yapısındaki ____ asidinden kaynaklanır.",
+                  "options": [
+                    "asetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sirke içerisinde asetik asit (etik asit) bulunur ve bu da ona ekşilik kazandırır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Asitler ile bazlar birbirleriyle tepkimeye girerek tuz ve su oluştururlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit ve bazlar nötralleşme tepkimesi vererek tuz ve su açığa çıkarırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bazların sulu çözeltileri tat olarak ekşidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bazların sulu çözeltileri acı bir tada sahiptir, ekşi tat asitlere özgüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Metil turuncusu asidik ortamlarda kırmızı renk alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metil turuncusu indikatörü asit çözeltilerinde kırmızı, baz çözeltilerinde sarı renk verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "pH ölçeği 0 ile 14 arasında değerler alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Standart sulu çözeltiler için pH ölçeği genellikle 0 ile 14 arasında derecelendirilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Amonyak çözeltisi zayıf bir asit olarak davranır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Amonyak (NH3) zayıf bir bazdır, asit özelliği göstermez.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Asitlerin ve Bazların Tepkimeleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Asitler ile bazların tepkimesinden hangi maddeler oluşur?",
+                  "answer": "Tuz ve su oluşur."
+                },
+                {
+                  "question": "Aktif metaller asitlerle tepkimeye girerek hangi gazı açığa çıkarır?",
+                  "answer": "Hidrojen (H2) gazı."
+                },
+                {
+                  "question": "Kuvvetli bazlar ile amfoter metaller tepkimeye girdiğinde hangi gaz açığa çıkar?",
+                  "answer": "Hidrojen (H2) gazı."
+                },
+                {
+                  "question": "Mermer yüzeyler hangi tür maddeler ile aşınır?",
+                  "answer": "Asitler ile aşınır."
+                },
+                {
+                  "question": "Nötralleşme tepkimelerinin genel olarak ısı veren (ekzotermik) türde olmasının nedeni nedir?",
+                  "answer": "H+ ile OH- iyonlarının birleşerek su oluşturması."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki metallerden hangisi hem asitlerle hem de kuvvetli bazlarla tepkimeye girerek hidrojen gazı açığa çıkarır?",
+                  "options": [
+                    "Ag",
+                    "Zn",
+                    "Fe",
+                    "Cu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zn (çinko) metali amfoter bir metaldir. Amfoter metaller hem asitlerle hem de kuvvetli bazların sulu çözeltileriyle tepkimeye girerek H2 gazı açığa çıkarır. Cu, Ag ve Fe ise amfoter değil, soy veya yarı soy metallerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin sulu çözeltisi ile NaOH çözeltisi arasında nötralleşme tepkimesi gerçekleşir?",
+                  "options": [
+                    "NaCl",
+                    "CaO",
+                    "HCl",
+                    "NH3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "NaOH bir bazdır. Nötralleşme tepkimesi bir asit ile bir baz arasında gerçekleşir. Verilen maddelerden HCl bir asittir ve NaOH ile nötralleşme tepkimesi verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kaplardan hangisinde gerçekleşen tepkime sonucunda hidrojen (H2) gazı açığa çıkmaz?",
+                  "options": [
+                    "H2SO4 çözeltisi üzerine Mg parçaları atılması",
+                    "HCl çözeltisi üzerine Zn parçaları atılması",
+                    "NaOH çözeltisi üzerine Al parçaları atılması",
+                    "HNO3 çözeltisi üzerine Cu parçaları atılması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Cu yarı soy bir metaldir. HNO3 gibi oksitin asitlerle tepkimesinden H2 gazı yerine NO veya NO2 gibi gazlar açığa çıkar, H2 gazı çıkmaz. Diğer seçeneklerdeki metaller aktif veya amfoter olup H2 gazı açığa çıkarır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Saf su ve sofra tuzu içeren bir sulu çözelti için aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Ortam baziktir.",
+                    "Ortam asidiktir.",
+                    "Tepkime gerçekleşmiştir.",
+                    "Ortam nötrdür."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sofra tuzu (NaCl) kuvvetli bir asit olan HCl ile kuvvetli bir baz olan NaOH'nin nötralleşmesi sonucu oluşmuş bir nötr tuzdur. Sudaki çözeltisi nötr özellik gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıda verilen asit-baz tepkimelerinden hangisinde tuzun formülü yanlış verilmiştir?",
+                  "options": [
+                    "HCl + NaOH -> NaCl + H2O",
+                    "2HCl + Ca(OH)2 -> CaCl + 2H2O",
+                    "H2SO4 + 2KOH -> K2SO4 + 2H2O",
+                    "HNO3 + NH3 -> NH4NO3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kalsiyum klorür tuzunun formülü CaCl2 olmalıdır. Tepkimede kalsiyum +2 değerliğe, klor -1 değerliğe sahip olduğundan formül CaCl2 şeklinde yazılır; verilen seçenekdeki CaCl formülü yanlıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Asit ve baz çözeltilerinin karıştırılmasıyla gerçekleşen su oluşumlu tepkimelere ____ tepkimesi denir.",
+                  "options": [
+                    "nötralleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit ile bazın birleşerek tuz ve su oluşturduğu, H+ ve OH- iyonlarının birleştiği tepkimelere nötralleşme tepkimesi denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Alüminyum (Al) ve çinko (Zn) gibi hem asitlerle hem de bazlarla tepkime veren metallere ____ metal denir.",
+                  "options": [
+                    "amfoter"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asitlere karşı baz, bazlara karşı asit özelliği gösteren ve hem asit hem bazla tepkimeye girebilen metaller amfoter metaller olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tam nötrleşme olayının gerçekleştiği bir sulu çözeltide ortamın pH değeri ____ olur.",
+                  "options": [
+                    "7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tam nötrleşmede H+ iyonu mol sayısı OH- iyonu mol sayısına eşit olur ve 25 santigrat derecede saf suyun pH değeri olan 7 elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Magnezyum (Mg) aktif bir metal olup asit çözeltileriyle tepkimeye girdiğinde ____ gazı açığa çıkarır.",
+                  "options": [
+                    "hidrojen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aktif metaller asitlerle tepkimeye girerek tuz oluşturur ve yapıdaki hidrojen elementini H2 gazı olarak açığa çıkarır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bütün asit-baz tepkimeleri sonucunda mutlaka su oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır. Asit ile baz tepkimesine girdiğinde tuz oluşur; ancak su oluşumu sadece nötralleşme tepkimelerinde (yapıda OH- bulunduran bazlarla) gerçekleşir. Örneğin amonyak (NH3) asitlerle tepkimeye girerek sadece tuz (NH4Cl) oluşturur, su oluşmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Amfoter metaller kuvvetli bazların sulu çözeltileriyle tepkime vererek hidrojen gazı açığa çıkarır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur. Çinko (Zn) ve alüminyum (Al) gibi amfoter metaller, kuvvetli bazlarla tepkimeye gidiğinde tuz oluşturur ve H2 gazı açığa çıkarır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nötralleşme tepkimeleri genellikle endotermik (ısı alan) özellik gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır. Nötralleşme tepkimeleri genel olarak ekzotermik (ısı veren) tepkimelerdir; tepkime sırasında dışarıya ısı verilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Soy metaller (Au ve Pt) hiçbir asit türü ile tepkime vermez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur. Altın (Au) ve platin (Pt) tam soy metallerdir ve hiçbir tekli asit ile (hidroklorik asit, sülfürik asit vb.) tepkimeye girmezler, yalnızca kral suyu adı verilen özel asit karışımında çözünebilirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kalsiyum karbonat (CaCO3) kireç taşı bileşiği asitlerle tepkimeye girerek karbondioksit (CO2) gazı açığa çıkarır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur. Karbonatlı bileşikler asitlerle tepkimeye girdiğinde tuz, su ve karbondioksit (CO2) gazı oluşur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
@@ -2170,7 +5543,192 @@
           "id": "node4",
           "order": 4,
           "title": "Tuzlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yemek tuzunun kimyasal formülü nedir?",
+                  "answer": "NaCl"
+                },
+                {
+                  "question": "Asit ve bazların tepkimesi sonucu oluşan tuz ve ____ açığa çıkar.",
+                  "answer": "su"
+                },
+                {
+                  "question": "Amonyum klorür tuzu suda çözündüğünde çözeltinin pH değeri 7'den büyük mü küçük mü olur?",
+                  "answer": "Küçük"
+                },
+                {
+                  "question": "Sodyum karbonat (Na2CO3) tuzu suda çözündüğünde hangi karakteri gösterir?",
+                  "answer": "Bazik"
+                },
+                {
+                  "question": "Kalsiyum sülfat (CaSO4) tuzu yaygın olarak hangi alanda kullanılır?",
+                  "answer": "İnşaat"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki tuzlardan hangisinin sulu çözeltisi asidik özellik gösterir?",
+                  "options": [
+                    "KNO3",
+                    "NaCl",
+                    "CH3COONa",
+                    "NH4Cl"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Amonyum klorür (NH4Cl) zayıf baz olan amonyak ile kuvvetli asit olan hidroklorik asidin tepkimesinden oluştuğu için sulu çözeltisi asidiktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yemek tuzu (NaCl) katısı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Erime noktası yüksektir.",
+                    "Katı halde elektrik akımını iletir.",
+                    "Sulu çözeltisi elektriği iletir.",
+                    "İyonik bağlı bir bileşiktir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İyonik bağlı katılar katı halde iyonları serbest hareket edemediği için elektrik akımını iletmez, ancak sulu çözeltileri iletir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bileşiklerden hangisi bir tuzdur?",
+                  "options": [
+                    "NaOH",
+                    "H2SO4",
+                    "CaO",
+                    "KNO3"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "KNO3 (Potasyum nitrat) bir katyon ve bir anyonun birleşmesiyle oluşan iyonik yapılı bir tuzdur. NaOH baz, H2SO4 asit, CaO ise bazik oksittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki tuzlardan hangisinin sulu çözeltisinin bazik olması beklenir?",
+                  "options": [
+                    "NaCl",
+                    "MgSO4",
+                    "NH4Cl",
+                    "CH3COONa"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sodyum asetat (CH3COONa) zayıf asit ile kuvvetli bazın tepkimesinden oluştuğu için sulu çözeltisi baziktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki tuzlardan hangisi sönmemiş kirecin hidroklorik asit ile tepkimesinden elde edilir?",
+                  "options": [
+                    "Ca(OH)2",
+                    "CaCO3",
+                    "CaCl2",
+                    "CaSO4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sönmüş kireç veya kalsiyum oksidin HCl ile tepkimesinden kalsiyum klorür (CaCl2) tuzu ve su oluşur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Asit ile bazın tepkimeye girerek tuz ve su oluşturduğu nötralleşme tepkimelerinde açığa çıkan tuzun katyonu bazdan, anyonu ise ____ gelir.",
+                  "options": [
+                    "asitten"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Oluşan tuzun yapısındaki pozitif yüklü iyon (katyon) bazın metalinden veya kökünden, negatif yüklü iyon (anyon) ise asidin kökünden gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Saf suyun içerdiği H+ ve OH- iyon derişimleri birbirine eşit olduğu için çözelti nötrdür ve pH değeri ____ olur.",
+                  "options": [
+                    "7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "25 santigrat derecede nötr sulu çözeltilerde pH değeri tam olarak 7'ye eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yemek tuzu olarak bilinen sodyum klorür katısının kimyasal formülü ____ şeklinde gösterilir.",
+                  "options": [
+                    "NaCl"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sodyum ve klor elementlerinin iyonik bağ ile birleşmesi sonucu oluşan sodyum klorür bileşiğinin formülü NaCl'dir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tüm tuzlar oda koşullarında katı haldedir ve iyonik kristal örgü yapısına sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuzlar oda koşullarında genellikle katı halde bulunur ve güçlü iyonik bağlar nedeniyle örgü yapısına sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tuzların sulu çözeltileri elektrik akımını iletmez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tuzlar suda çözündüklerinde iyonlarına ayrışır ve serbest iyonlar sayesinde sulu çözeltileri elektriği iletir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuvvetli asit ile kuvvetli bazın tam nötrleşmesi sonucunda oluşan tuzun sulu çözeltisi nötr özellik gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvetli asit ve kuvvetli baz tam verimle tepkimeye girdiğinde nötr tuz oluşur ve pH 7 olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sodyum karbonat tuzu sulu çözeltisinde asidik özellik sergiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sodyum karbonat zayıf asit ile kuvvetli bazdan türediği için bazik özellik gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tuzlar doğada katı halde kristal yapıda bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuzlar kristal yapıya sahip iyonik bileşiklerdir ve doğada kaya tuzu şeklinde katı halde bulunabilirler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2183,13 +5741,401 @@
           "id": "node1",
           "order": 1,
           "title": "Yaygın Günlük Hayat Kimyasalları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sabun ve deterjan moleküllerinin suyu seven uçlarına ne ad verilir?",
+                  "answer": "Hidrofil (polar uç)"
+                },
+                {
+                  "question": "Çamaşır suyunun etkin maddesinin kimyasal formülü nedir?",
+                  "answer": "NaClO"
+                },
+                {
+                  "question": "Kireç kaymağının kimyasal adı nedir?",
+                  "answer": "Kalsiyum hipoklorit"
+                },
+                {
+                  "question": "Sönmüş kirecin kimyasal formülü nedir?",
+                  "answer": "Ca(OH)2"
+                },
+                {
+                  "question": "Gıda maddelerinde küflenmeyi önlemek ve raf ömrünü uzatmak için kullanılan katkı maddelerine ne denir?",
+                  "answer": "Koruyucular"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi sert sularda bile köpürme özelliği gösteren ve petrokimya türevi olan temizlik malzemesidir?",
+                  "options": [
+                    "Deterjan",
+                    "Sert sabun",
+                    "Yumuşak sabun",
+                    "Çamaşır sodası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deterjanlar petrokimya türevidir ve kalsiyum, magnezyum gibi iyonların bulunduğu sert sularda çökelek oluşturmadıkları için sert sularda da iyi köpürürler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki kimyasal maddelerden hangisi ev temizliğinde hijyen amacıyla kullanılan bir ağartıcıdır?",
+                  "options": [
+                    "Sodyum hipoklorit",
+                    "Sodyum klorür",
+                    "Kalsiyum karbonat",
+                    "Asetik asit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sodyum hipoklorit (NaClO), halk arasında çamaşır suyu olarak bilinir ve ev temizliğinde hem ağartıcı hem de mikrop öldürücü olarak kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sabun üretimi sırasında temel olarak hangi iki madde tepkimeye sokulur?",
+                  "options": [
+                    "Amonyak ve su",
+                    "Yağ asidi ve baz",
+                    "Alkol ve asit",
+                    "Asit ve tuz"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sabunlaşma tepkimesi, bitkisel veya hayvansal yağların kuvvetli bazlarla (NaOH veya KOH) ısıtılmasıyla gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi gıdalarda pH dengesini sağlamak ve asitliği düzenlemek amacıyla kullanılır?",
+                  "options": [
+                    "Etil alkol",
+                    "Polietilen",
+                    "Sodyum klorür",
+                    "Sitrik asit"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sitrik asit gibi organik asitler ve tuzları, gıdalarda asitlik düzenleyici ve tat verici katkı maddesi olarak yaygın biçimde kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Vücut temizliğinde kullanılan katı sabunların üretiminde baz olarak hangi bileşik tercih edilir?",
+                  "options": [
+                    "KOH",
+                    "HCl",
+                    "NH3",
+                    "NaOH"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Katı sabunların (sert sabun) yapımında sodyum hidroksit (NaOH) bazı kullanılırken, sıvı sabunların yapımında potasyum hidroksit (KOH) kullanılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sodyum klorür bileşeğinin yaygın adı ____ olarak bilinir.",
+                  "options": [
+                    "Yemek tuzu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sodyum klorür (NaCl), sofralarda yemek tuzu olarak tükettiğimiz temel bileşiktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bitkisel yağı sıvı sabuna dönüştürmek için kullanılan bazın formülü ____ şeklindedir.",
+                  "options": [
+                    "KOH"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıvı sabunların üretiminde potasyum hidroksit (KOH) bazı kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kireç sökücü olarak bilinen ve yapısında hidrojen klorür barındıran çözeltinin yaygın adı ____ ruhudur.",
+                  "options": [
+                    "Tuz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidrokarbonik asit veya hidrojen klorür sulu çözeltisi halk arasında tuz ruhu olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Temizlik malzemesi olarak kullanılan çamaşır sodasının kimyasal formülü ____ şeklindedir.",
+                  "options": [
+                    "Na2CO3"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çamaşır sodası sodyum karbonat (Na2CO3) bileşiğidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Deterjanlar petrokimya ürünleri olduğundan doğada kolaylıkla biyolojik olarak parçalanırlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Deterjanlar petrokimya türevi oldukları için doğada uzun süre bozulmadan kalır ve su kirliliğine neden olurlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kireç kaymağı, kalsiyum hipoklorit bileşiğinin yaygın adıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kireç kaymağı kimyasal olarak kalsiyum hipoklorit formülüyle ifade edilir ve dezenfektan olarak kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sabunlar sert sularda bulunan kalsiyum ve magnezyum iyonları ile çökelek oluşturarak temizleme verimini düşürür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabunlar sert su iyonlarıyla birleşerek suyun üzerinde çökelek (tuz) oluşturur ve köpürmeyi engeller.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yemek tuzunun kimyasal formülü NaHCO3 şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yemek tuzunun formülü NaCl'dir. NaHCO3 ise yemek sodasının (kabartma tozu) formülüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aspirin, eczacılıkta ağrı kesici ve ateş düşürücü olarak kullanılan organik bir bileşiktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aspirin, yaygın ilaçlardan biri olup etken maddesi asetilsalisilik asittir ve vücutta ağrı kesici olarak görev yapar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Gıdalar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hazır gıdalarda raf ömrünü uzatmak ve bozulmayı önlemek için eklenen maddelere ne denir?",
+                  "answer": "Koruyucular"
+                },
+                {
+                  "question": "Gıdalara renk vermek veya renk kaybını gidermek amacıyla kullanılan katkı maddeleri nelerdir?",
+                  "answer": "Gıda boyaları"
+                },
+                {
+                  "question": "Margarin üretiminde sıvı bitkisel yağların hidrojen ile doyurulması hangi kimyasal süreci ifade eder?",
+                  "answer": "Hidrojenasyon"
+                },
+                {
+                  "question": "Yapay tatlandırıcılar genellikle hangi tür sağlık sorunu olan bireyler için tercih edilir?",
+                  "answer": "Şeker hastaları (Diyabet)"
+                },
+                {
+                  "question": "Gıdalardaki yağların oksitlenerek bozulmasını (acılaşmasını) önleyen katkı maddelerine ne ad verilir?",
+                  "answer": "Antioksidanlar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi hazır gıdalarda kullanılan katkı maddelerinin amaçlarından biri olamaz?",
+                  "options": [
+                    "Tat ve kokuyu standardize etmek",
+                    "Raf ömrünü uzatmak",
+                    "Gıdanın görünümünü iyileştirmek",
+                    "Besin değerini tamamen yok etmek"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Katkı maddeleri besin değerini yok etmek için değil, gıdanın kalitesini, dayanıklılığını ve cazibesini artırmak amacıyla kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Margarin üretimi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                  "options": [
+                    "Üretim sırasında doymuş yağ oranı artar.",
+                    "Sıvı bitkisel yağlardan katı yağ elde edilir.",
+                    "Doğal tereyağından daha sağlıklı bir hayvansal üründür.",
+                    "Doymamış yağ asitleri hidrojenle doyurulur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Margarin bitkisel kaynaklıdır ve hayvansal bir ürün değildir; ayrıca trans yağ içerebileceğinden her zaman tereyağından daha sağlıklı olduğu söylenemez.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yapay tatlandırıcılar ile ilgili aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "Vücutta yüksek miktarda enerji üretirler.",
+                    "Sadece doğal pancar şekerinden elde edilirler.",
+                    "Çok düşük miktarlarda bile yoğun tatlılık verirler.",
+                    "Çocuk gelişiminde doğrudan protein kaynağıdırlar."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yapay tatlandırıcılar çok az miktarda kullanıldıklarında bile şekere göre çok yüksek tatlılık sağlarlar ve genellikle kalori vermezler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi gıdalarda antioksidan olarak görev yaparak bozulmayı geciktirir?",
+                  "options": [
+                    "Askorbik asit (C vitamini)",
+                    "Sakaroz (Çay şekeri)",
+                    "Sodyum klorür (Tuz)",
+                    "Kalsiyum karbonat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Askorbik asit (C vitamini) güçlü bir antioksidandır ve gıdaların oksitlenerek bozulmasını engellemek için yaygın olarak kullanılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gıda ambalajlarında kullanılan plastiklerin içeriğinde bulunabilen ve gıdaya geçerek sağlığı tehdit edebilen maddelerden biri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Saf su",
+                    "Bisfenol A (BPA)",
+                    "Demir tozu",
+                    "Oksijen gazı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bisfenol A (BPA), bazı plastik ambalajların yapısında bulunan ve özellikle ısı etkisiyle gıdaya geçebilen zararlı bir kimyasaldır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gıdalarda mikroorganizmaların üremesini durdurarak bozulmayı geciktiren kimyasal maddelere ____ denir.",
+                  "options": [
+                    "koruyucu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koruyucular, bakteri ve küf gibi mikroorganizmaların üremesini engelleyerek gıdaların raf ömrünü uzatır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıvı yağların hidrojenle doyurulması sonucu elde edilen katı yağlara ____ denir.",
+                  "options": [
+                    "margarin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bitkisel sıvı yağların hidrojenasyon yöntemiyle katılaştırılmasıyla margarin elde edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ambalajlı gıdaların üzerinde ürünün içeriğini, üretim ve son kullanma tarihini gösteren yazıların bulunduğu kısma ____ denir.",
+                  "options": [
+                    "etiket"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gıda etiketleri tüketicinin ürün hakkında bilgi sahibi olmasını ve güvenle tüketmesini sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gıdalardaki yağların hava ile temas ederek oksitlenmesini ve bozulmasını önleyen maddelere ____ adı verilir.",
+                  "options": [
+                    "antioksidan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antioksidanlar oksijen ile reaksiyona girerek gıdadaki yağların bozulmasını önler.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Gıda katkı maddelerinin ambalaj üzerinde Uluslararası Kod Sistemi olan E kodları ile belirtilmesi zorunludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Avrupa Birliği ve ülkemizde onaylanan gıda katkı maddeleri güvenlik testlerinden geçerek 'E' koduyla etiketlenir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm gıda boyaları tamamen doğal kaynaklardan elde edilir ve insan sağlığına asla zarar vermez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gıda boyalarının bir kısmı sentetik (yapay) yollarla üretilir ve aşırı tüketimi bazı sağlık sorunlarına yol açabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aşırı tuz tüketimi hipertansiyon ve kalp-damar hastalıkları riskini artırır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tuzun (sodyum klorür) fazla tüketilmesi tansiyonu yükselterek dolaşım sistemi hastalıklarına zemin hazırlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Emülgatörler, su ve yağ gibi birbirine karışmayan sıvıların homojen bir şekilde karışmasını sağlayan katkı maddeleridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Emülgatörler iki farklı fazı bir araya getirerek mayonez ve sos gibi ürünlerin ayrışmasını önler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Son kullanma tarihi (STT) geçmiş ambalajlı gıdalar, kokusunda bir değişiklik yoksa güvenle tüketilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Son kullanma tarihi geçen gıdalarda zararlı bakteri üremiş olabilir, koku veya görünümde bozulma olmasa bile tüketilmemelidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

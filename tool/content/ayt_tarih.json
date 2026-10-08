@@ -2131,13 +2131,419 @@
           "id": "node2",
           "order": 2,
           "title": "Divan-ı Hümayun",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Divan-ı Hümayun hangi Türk-İslam devletlerindeki meclislerin Osmanlı'daki devamı niteliğindedir?",
+                  "answer": "Büyük Selçuklu Devleti'ndeki Divan-ı Mezalim ve İlhanlılar'daki Divan"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet dönemine kadar Divan-ı Hümayun'a başkanlık eden padişah yerine kim başkanlık etmeye başlamıştır?",
+                  "answer": "Sadrazam (Vezir-i Azam)"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da üyelerin farklı kökenlerden ve uzmanlık alanlarından seçilmesi neyi amaçlar?",
+                  "answer": "Devlet işlerinin çok yönlü, adil ve uzman kişiler tarafından yürütülmesini sağlamak"
+                },
+                {
+                  "question": "Divan-ı Hümayun'un son söz söyleme yetkisi kime aittir?",
+                  "answer": "Padişah"
+                },
+                {
+                  "question": "Osmanlı'da şeri ve hukuki meselelerin Divan toplantılarında görüşülmesinden sorumlu üye kimdir?",
+                  "answer": "Kazasker"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Divan-ı Hümayun ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Orhan Bey döneminde kurulmuştur.",
+                    "Üyeleri arasında Şeyhülislam da yer alır.",
+                    "Hem idari hem de adli işlerin görüşüldüğü bir organdır.",
+                    "Son karar mercii padişah olduğundan bir danışma meclisi niteliğindedir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şeyhülislam Divan-ı Hümayun'un asli ve sürekli üyelerinden biri değildir, ancak divan kararlarının dine uygunluğu (fetva) gerektiğinde görüş bildirebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde Divan-ı Hümayun'da tahrir defterlerini tutan, fetihleri kaydeden ve yazışmaları yürüten nişancı hangi sınıfa dahildir?",
+                  "options": [
+                    "İlmiye",
+                    "Seyfiye",
+                    "Reaya",
+                    "Kalemiye"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Nişancı, bürokrasi ve yazışma işleriyle ilgilendiği için kalemiye sınıfına mensuptur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet döneminde Divan başkanlığının padişahtan sadrazama bırakılması öncelikle hangi durumu göstermektedir?",
+                  "options": [
+                    "Divan toplantılarının tamamen kaldırıldığını",
+                    "Devletin teokratik yapıdan tamamen uzaklaştığını",
+                    "Padişahın merkezi otoritesini güçlendirme ve divan kararlarını daha rahat denetleme isteğini",
+                    "Sadrazamın padişahtan daha üstün bir yetkiye sahip olduğunu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Padişahın kafes arkasından divanı izlemesi veya başkşalığı devretmesi, divanın karar mekanizması olmaktan çıkıp danışma meclisine dönüşmesini hızlandırmış ve merkezi otoriteyi güçlendirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki Divan görevlilerinden hangisi eyaletlerin güvenliğinden ve idaresinden doğrudan sorumlu olan seyfiye sınıfı üyelerindendir?",
+                  "options": [
+                    "Defterdar",
+                    "Vezir",
+                    "Kazasker",
+                    "Nişancı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Vezirler ve sadrazam seyfiye (yönetici ve askerî) sınıfına dahildir. Defterdar ve nişancı kalemiye, kazasker ise ilmiye sınıfındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da kadı ve müderrislerin atama ve tayin işlemlerini gerçekleştiren görevli kimdir?",
+                  "options": [
+                    "Kazasker",
+                    "Nişancı",
+                    "Sadrazam",
+                    "Rumeli Defterdarı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlmiye sınıfının en üst düzey temsilcilerinden biri olan kazasker, kadı ve müderrislerin atanması ve terfi etmesi işlemlerinden sorumludur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Divan-ı Hümayun'da bütçe hazırlama, gelir ve giderleri denetleme görevi ____ sınıfına ait olan defterdara aittir.",
+                  "options": [
+                    "kalemiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mali işlerden sorumlu olan defterdar, bürokrasi sınıfı olan kalemiye grubunda yer alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fatih Sultan Mehmet'e kadar Divan-ı Hümayun toplantılarına ____ başkanlık etmiştir.",
+                  "options": [
+                    "padişah"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fatih dönemine kadar divana doğrudan padişahlar başkanlık etmiş, daha sonra bu görev sadrazama devredilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan-ı Hümayun'da yabancı devletlerle yazışmaları yöneten ve fermanlara tuğra çeken görevli ____ olarak adlandırılır.",
+                  "options": [
+                    "nişancı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nişancı, dirliklerin dağıtımı ve tapu-kadastro kayıtlarının tutulmasının yanı sıra tuğra çekme görevini de yürütür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde halkın divana ilettiği şikayetleri dinleyen ve haksızlığa uğrayanların davasına bakan divan türü ____ divanıdır.",
+                  "options": [
+                    "mezalim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Divan-ı Mezalim, ağır siyasi suçların ve halkın yöneticilerden şikayetlerinin görüldüğü yüksek mahkemedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Divan-ı Hümayun üyelerinden olan kaptan-ı derya, divana katıldığında ____ sınıfı içinde değerlendirilir.",
+                  "options": [
+                    "seyfiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Donanma komutanı olan kaptan-ı derya askeri ve idari yetkilere sahip olduğu için seyfiye sınıfındandır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Divan-ı Hümayun üyeleri arasından kazasker ilmiye sınıfına mensuptur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kazasker, adalet ve eğitim işlerinden sorumlu olduğu için ilmiye sınıfının en önemli üyelerindendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Divan-ı Hümayun nihai karar merciidir; alınan kararlar padişahın onayına gerek kalmadan doğrudan uygulanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan-ı Hümayun bir danışma meclisidir; son söz ve karar yetkisi padişaha aittir, padişah onaylamadıkça karar yürürlüğe girmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nişancı, tahrir defterlerine fethedilen toprakları kaydeder ve arazi dağıtımını yapar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nişancı tımarların dağıtımı, tahrir defterlerinin tutulması ve tuğra çekilmesi gibi görevleri yerine getirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Divan-ı Hümayun ilk kez Kanuni Sultan Süleyman döneminde kaldırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Divan-ı Hümayun Kanuni döneminde kaldırılmamıştır; II. Mahmut döneminde kaldırılarak yerine bakanlıklar (nezaretler) kurulmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Divan toplantılarında tutulan resmi kararların ve önemli olayların kaydedildiği deftere mühimme defteri denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mühimme defterleri, Divan-ı Hümayun'da görüşülen konuların ve alınan kararların kaydedildiği en önemli Osmanlı arşiv kaynaklarından biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Taşra Teşkilatı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı taşra teşkilatında en büyük idari ve askeri birim nedir?",
+                  "answer": "Eyalet"
+                },
+                {
+                  "question": "Kanuni Sultan Süleyman döneminde eyaletlerin başında bulunan mülki amir unvanı nedir?",
+                  "answer": "Beylerbeyi"
+                },
+                {
+                  "question": "Tımar sisteminin uygulandığı eyaletlerde dirliklerin dağıtımından ve güvenliğin sağlanmasından sorumlu taşra görevlisi kimdir?",
+                  "answer": "Sancakbeyi"
+                },
+                {
+                  "question": "Kadıların yönetim birimi olan ve hukuki, idari işlerin yürütüldüğü temel taşra yerleşim birimi nedir?",
+                  "answer": "Kaza"
+                },
+                {
+                  "question": "Osmanlı taşrasında güvenlik ve asayiş işlerinden sorumlu olan subaşının idari birimi nedir?",
+                  "answer": "Sancak"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde taşra teşkilatında yer alan kadılarle ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+                  "options": [
+                    "Merkezden atanan subaşılara doğrudan emir verirler.",
+                    "Bulundukları kazalarda davalara bakarlar.",
+                    "Merkezi otoritenin taşradaki en önemli temsilcisidirler.",
+                    "Belediye ve noterlik hizmetlerini yürütürler."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kadılar ve subaşılar merkezden ayrı ayrı atanır; subaşı doğrudan kadının emrinde bir memur değil, askeri idari amirdir ancak aralarında iş birliği bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı taşra teşkilatındaki salyaneli (yıllıklı) eyaletlerin özelliklerinden biridir?",
+                  "options": [
+                    "Tımar sisteminin bu eyaletlerde yaygın olarak uygulanması",
+                    "Eyalet yöneticilerinin uzun yıllar aynı bölgede kalması",
+                    "Vergilerin doğrudan merkezi hazineye nakit olarak aktarılması",
+                    "Askeri sefer masraflarının eyalet askerleriyle karşılanması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Salyaneli eyaletlerde mültezimler vasıtasıyla toplanan vergiler yıllık olarak doğrudan başkentteki merkezi hazineye nakit aktarılırdı.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı taşra teşkilatında tımarlı sipahi yetiştirilen ve 'sancak' adı verilen birimlerin başındaki yönetici kimdir?",
+                  "options": [
+                    "Kadı",
+                    "Subaşı",
+                    "Sancakbeyi",
+                    "Beylerbeyi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sancaklar, eyaletlerin alt bölümleri olup başlarında sancakbeyi bulunur. Sancakbeyi, dirliklerin dağıtımı ve asker sevkinde yetkilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı taşra yönetiminde köy ve mahallelerdeki dini ve hukuki işlemleri yürüten, kadının yardımcısı konumundaki görevli aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Naip",
+                    "İmam",
+                    "Subaşı",
+                    "Voyvoda"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Naip, kadının bulunmadığı yerlerde veya kadının yardımcısı olarak görev yapan, hukuki işleri ve davaları yürüten görevlidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde dirlik sisteminin uygulandığı klasik döneme ait eyaletler için aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Yöneticilikleri babadan oğula geçmiştir.",
+                    "Tımarlı sipahi ordusu bu eyaletlerden beslenmiştir.",
+                    "Vergiler iltizam usulüyle toplanmıştır.",
+                    "Merkezi hazineye nakit para aktarımı esastır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Salyanesiz (tımar sisteminin uygulandığı) eyaletlerde toplanan vergilerle tımarlı sipahiler yetiştirilir ve bu sayede devlete masrafsız büyük bir süvari ordu sağlanırdı.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı taşra teşkilatında kazaların yönetiminden, adaletin sağlanmasından ve belediye işlerinden sorumlu olan görevli ____ olarak adlandırılır.",
+                  "options": [
+                    "kadı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kadılar, taşrada hem yargı yetkisini kullanır hem de idari ve belediyesel işleri denetlerdi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Merkeze uzak olan ve salyaneli olarak yönetilen eyaletlerde vergilerin toplanması işi ____ yöntemiyle ihale edilirdi.",
+                  "options": [
+                    "iltizam"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İltizam sistemi, salyaneli eyaletlerde vergi toplama hakkının açık artırmayla mültezimlere verilmesi usulüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı taşra teşkilatında köy, mahalle ve mezralardan oluşan en küçük yerleşim birimlerinin güvenliğinden ve yönetiminden sorumlu olan kişi ____ idi.",
+                  "options": [
+                    "muhtsip"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çarşı pazar denetimini muhtsip yaparken, köy idaresi genellikle kethüda veya muhtar benzeri yerel dinamiklerle yürütülürdü; ancak klasik kaynaklarda en küçük birim nahiye ve köylerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tımar sisteminin uygulandığı eyaletlerde asker ve güvenlik işleriyle görevli olan sancak yöneticisine ____ denirdi.",
+                  "options": [
+                    "sancakbeyi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sancakbeyi, sancakların mülki ve askeri amiriydi.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde eyaletlerin başında padişahın temsilcisi olarak bulunan en üst düzey mülki idare amiri ____ unvanını taşır.",
+                  "options": [
+                    "beylerbeyi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beylerbeyi, eyaletlerin yönetiminden birinci derecede sorumlu olan üst düzey bürokrattır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı taşra teşkilatında kadılar, merkezden atanır ve görev süresi boyunca tamamen bağımsız bir şekilde yargı kararı alabilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kadılar divan tarafından atanır, şeri ve örfi hukuk kurallarına göre bağımsız bir şekilde yargılama yapardı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Salyaneli eyaletlerde tımar sistemi uygulanmış ve bu eyaletlerin gelirleri doğrudan tımarlı sipahilere dağıtılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Salyaneli eyaletlerde tımar sistemi uygulanmaz, vergiler iltizam usulüyle toplanarak nakit olarak merkeze aktarılırdı.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Subaşılar, Osmanlı taşrasında sancak ve kazalarda güvenliği ve asayişi sağlamakla görevli askeri yöneticilerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Subaşılar güvenlikten sorumlu subaylar olup, sancak ve kazalarda asayişi temin ederlerdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı taşra teşkilatında köyler doğrudan beylerbeyinin doğrudan denetimi ve ataması altında yönetilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Köyler ve nahiyeler kadıların genel denetimi altında, yerel geleneklere ve köyün kendi dinamiklerine göre yönetilirdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Beylerbeyleri, yönetimleri altındaki eyaletlerde hem askeri hem de idari yetkilere sahip olan en üst düzey mülki amirlerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Beylerbeyi eyaletin genel idaresinden, asker toplamaktan ve divana başkanlık etmekten sorumluydu.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2150,19 +2556,628 @@
           "id": "node1",
           "order": 1,
           "title": "Toplum Yapısı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı toplumunda yönetenler sınıfına ne ad verilirdi?",
+                  "answer": "Askeri"
+                },
+                {
+                  "question": "Osmanlı toplumunda yönetilenler (vergi verenler) sınıfına ne ad verilirdi?",
+                  "answer": "Reaya"
+                },
+                {
+                  "question": "Osmanlı toplum yapısında dinî ve kültürel esasa dayanan teşkilatlanma modeli hangisidir?",
+                  "answer": "Millet sistemi"
+                },
+                {
+                  "question": "Osmanlı'da göçebe Türkmenlerin yerleşik hayata geçirilmesi politikasına ne denir?",
+                  "answer": "İskan politikası"
+                },
+                {
+                  "question": "Osmanlı'da şehirlerde esnaf ve zanaatkarların oluşturduğu mesleki teşkilat hangisidir?",
+                  "answer": "Lonca teşkilatı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı devlet teşkilatında yönetenler (askeri) sınıfı içinde aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Reaya",
+                    "Kalemiye",
+                    "İlmiye",
+                    "Seyfiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı toplumunda yönetenler askeri sınıfı oluşturan Seyfiye, İlmiye ve Kalemiye kollarından oluşur. Reaya ise yönetilenler yani vergi veren üretici sınıftır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı toplumundaki 'İlmiye' sınıfının görevleri arasında yer alır?",
+                  "options": [
+                    "Adalet ve eğitim işlerini yürütmek",
+                    "Ülkenin güvenliğini sağlamak",
+                    "Divan bürokrasi ve yazışmalarını yapmak",
+                    "Tarımsal üretim yapıp vergi ödemek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlmiye sınıfı din, eğitim, adalet ve hukuk işlerinden sorumlu olan kadı, müderris ve kazasker gibi görevlileri kapsar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı şehirlerinde mesleki eğitimi veren, fiyatları denetleyen ve esnaf arasındaki dayanışmayı sağlayan yapı hangisidir?",
+                  "options": [
+                    "Lonca teşkilatı",
+                    "Vakıf sistemi",
+                    "Divan-ı Hümayun",
+                    "Yeniçeri ocağı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lonca teşkilatı şehirlerdeki esnaf ve zanaatkarları bir araya getiren, üretimi denetleyen ve mesleki eğitim veren temel kuruluştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı toplum düzeninde gayrimüslimlerin kendi din, dil ve geleneklerine göre örgütlenmesini sağlayan sistem aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Devşirme sistemi",
+                    "Tımar sistemi",
+                    "Millet sistemi",
+                    "İltizam sistemi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Millet sistemi, Osmanlı Devleti'nde gayrimüslim toplulukların dini inançlarına göre kendi yönetim ve ibadet özgürlüklerini yaşamalarını sağlayan bir idari modeldir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı'da 'Seyfiye' sınıfına mensup devlet görevlilerinden biridir?",
+                  "options": [
+                    "Kazasker",
+                    "Nişancı",
+                    "Şeyhülislam",
+                    "Beylerbeyi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Seyfiye sınıfı yönetim ve askerlik işleriyle ilgilenen vezirler, beylerbeyleri ve sancak bey lerini içerir. Nişancı kalemiye, kazasker ve şeyhülislam ilmiye sınıfındandır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde vergi veren ve üretici konumda olan yönetilen sınıfına ____ denirdi.",
+                  "options": [
+                    "reaya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Reaya, Osmanlı toplumunda yönetenler dışındaki köylü, tüccar ve esnaf gibi vergileri ödeyen üretici kesimi ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da devlet memurlarının ve din adamlarının atanması, yargı ve eğitim işleri ____ sınıfının sorumluluğundaydı.",
+                  "options": [
+                    "ilmiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İlmiye sınıfı eğitim (medrese), adalet (kadılık) ve din işlerinden sorumlu olan ulema zümresidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı şehirlerinde malların kalitesini kontrol eden ve narh yani fiyat belirleyen esnaf birliğine ____ denirdi.",
+                  "options": [
+                    "lonca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lonca teşkilatı, esnaf ve zanaatkarların üyesi olduğu, hem mesleki eğitimi denetleyen hem de piyasa fiyatlarını belirleyen kuruldur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı toplumunda dikey hareketliliğin yaşanabilmesi için padişah tarafından verilen ____ belgesine sahip olmak gereklidir.",
+                  "options": [
+                    "berat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Berat, padişahın tuğrasını taşıyan ve kişiye memuriyet, ayrıcalık ya da yetki verildiğini gösteren resmi belgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde gayrimüslim halkın dini ve hukuki özerkliğe sahip olduğu idari yapıya ____ sistemi denirdi.",
+                  "options": [
+                    "millet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Millet sistemi, gayrimüslimlerin kendi dini liderleri önderliğinde toplumsal hayatlarını sürdürmelerine imkan tanımıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı toplum yapısında reaya sınıfı vergi ödemeyen askeri ve idari görevlilerden oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; reaya vergi ödeyen üretici ve yönetilen kesimi ifade eder. Vergi ödemeyenler askeri sınıfıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kalemiye sınıfı, Osmanlı devlet bürokrasisinde divan yazışmalarını ve malî işleri yürüten memurlardan oluşur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; defterdar ve nişancı gibi kalem erbabı kalemiye sınıfına dahildir ve bürokratik işleri yürütür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı İmparatorluğu'nda sınıf atlama (dikey hareketlilik) kanunen kesinlikle yasaktır ve bu durum asla değişmemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; reaya sınıfından kişiler eğitim veya devşirme yoluyla askeri (yönetici) sınıfa geçiş yapabilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Loncalar, Osmanlı'da hammadde dağıtımı ve fiyat denetimi yaparak esnaf arasında haksız rekabeti önlemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; lonca teşkilatı esnafın üretim standartlarını korumuş ve narh sistemiyle fiyatların aşırı artmasını engellemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Seyfiye sınıfının üyeleri arasında kadılar ve müderrisler de yer almaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; kadılar ve müderrisler ilmiye sınıfına dahildir. Seyfiye sınıfı ise kılıç ehlini yani idareci ve askerleri kapsar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Ekonomi ve Esnaf",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı ekonomisinde esnafın bağlı olduğu, hem mesleki eğitimi veren hem de fiyatları denetleyen örgütün adı nedir?",
+                  "answer": "Lonca teşkilatı"
+                },
+                {
+                  "question": "Osmanlı'da malların kalitesini kontrol eden ve standartlara uyulmasını sağlayan görevli kimdir?",
+                  "answer": "Muhtesip"
+                },
+                {
+                  "question": "Osmanlı esnaf teşkilatında üretici ve tüketiciyi korumak amacıyla devlet tarafından belirlenen azami fiyat sınırına ne denir?",
+                  "answer": "Narh sistemi"
+                },
+                {
+                  "question": "Esnafın kendi aralarında dayanışma amacıyla kurdukları, hastalanan veya işyeri yanan esnafa yardım eden sandığın adı nedir?",
+                  "answer": "Orta sandığı"
+                },
+                {
+                  "question": "Klasik Dönem'de Osmanlı'da esnaf sicillerinin tutulduğu ve mahkeme kararlarının kaydedildiği defterlerin genel adı nedir?",
+                  "answer": "Şeriye sicilleri"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde Klasik Çağ'da lonca teşkilatının temel görevleri arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Vergi tahsilatını doğrudan toplayıp hazineye aktarmak",
+                    "Malların fiyatlarını belirlemek",
+                    "Mesleki eğitim vermek",
+                    "Esnaf arasındaki disiplini sağlamak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Loncalar esnaf arasında disiplin sağlar, mesleki eğitim verir ve narh sistemi çerçevesinde fiyatları denetler. Ancak vergi tahsilatı doğrudan loncalar tarafından hazineye aktarılmaz, devletin ilgili görevlileri aracılığıyla toplanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı şehirlerinde esnafın hileli mal satmasını ve narh hükümlerine uyulmasını denetleyen görevli aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kethüda",
+                    "Kapan emini",
+                    "Muhtesip",
+                    "Subaşı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Muhtesip, çarşı ve pazarları denetleyen, esnafın kurallara uyup uymadığını kontrol eden ve narh sisteminin uygulanmasını sağlayan görevlidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı ekonomik anlayışında 'iaşecilik' ilkesi aşağıdakilerden hangisini ifade eder?",
+                  "options": [
+                    "Ülke içinde mal bolluğunu ve ucuzluğunu sağlamak",
+                    "İhracatı ithalattan her zaman üstün tutmak",
+                    "Hazine gelirlerini sürekli artırmak",
+                    "Toprakları miri mülk haline getirmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İaşecilik ilkesi, Osmanlı tüketicisinin ihtiyaç duyduğu malların piyasada bol, ucuz ve kaliteli bir şekilde bulunmasını amaçlayan temel ekonomik kuraldır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı'da esnaf örgütü olan loncaların yöneticisine ve yardımcısına sırasıyla ne ad verilirdi?",
+                  "options": [
+                    "Şeyh - Yiğitbaşı",
+                    "Kapan emini - Muhtesip",
+                    "Reis - Kethüda",
+                    "Kadı - Subaşı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lonca teşkilatının başında genellikle deneyimli bir esnaf olan şeyh ve onun yardımcısı olan yiğitbaşı bulunurdu.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı esnafının dükkan açabilmesi için gereken temel şartlardan biridir?",
+                  "options": [
+                    "Uluslararası ticaret yapmak",
+                    "Yabancı dil bilmek",
+                    "Gedik sahibi olmak",
+                    "Toprak sahibi olmak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gedik sistemi, Osmanlı'da bir dükkan açma veya meslek icra etme hakkını gösteren resmi izindir ve esnaf için zorunludur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı şehirlerinde tek bir tür malın toptan satıldığı ve ticaretinin yapıldığı kapalı pazarlara ____ denirdi.",
+                  "options": [
+                    "kapan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kapan, dışarıdan şehre getirilen un, zeytinyağı, bal gibi temel gıda maddelerinin toptan satıldığı ve fiyatlarının denetlendiği yerlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Esnafın uyması gereken kuralları belirleyen ve mesleki dayanışmayı sağlayan yazılı kurallar bütününe ____ adı verilirdi.",
+                  "options": [
+                    "fütüvvetname"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fütüvvetnameler, Ahi teşkilatının ve sonrasında loncaların ahlaki, dini ve mesleki kurallarını içeren yazılı metinlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da devletin ekonomide arz talepten ziyade halkın ihtiyaçlarını öncelemesi ilkesine ____ denir.",
+                  "options": [
+                    "iaşecilik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İaşecilik, piyasada mal darlığını önlemek ve halkın ucuz mal temin etmesini sağlamak üzerine kuruludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Lonca teşkilatında mesleğe çırak olarak giren bir kişinin gerekli aşamaları geçerek dükkan açma yetkisi almasına ____ töreni denirdi.",
+                  "options": [
+                    "şed kuşanma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şed kuşanma, kalfalıktan ustalığa geçişi simgeleyen ve törenle yapılan esnaf geleneklerinden biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da ekonomik faaliyetlerin denetiminde en yetkili yerel yönetici ve yargıç ____ idi.",
+                  "options": [
+                    "kadı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kadılar, şehirlerdeki ekonomik hayatın, narh fiyatlarının ve loncaların hukuki denetiminden birinci derecede sorumluydu.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı'da lonca teşkilatına üye olmak isteğe bağlı olup esnafın bu örgüte girmesi zorunlu değildir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Klasik Dönem'de Osmanlı'da esnafın loncaya üye olması ve gedik alması zorunludur; izinsiz dükkan açılması yasaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Narh sistemi, devletin piyasadaki fiyat artışlarına karşı tüketiciyi korumak için belirlediği üst fiyat sınırıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Narh sistemi sayesinde temel ihtiyaç maddelerinin aşırı pahalanması önlenmiş ve halkın alım gücü korunmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Muhtesip sadece fiyat denetimi yapar, esnafın ölçü ve tartı aletlerine karışmazdı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Muhtesip çarşıda terazi, kantar gibi ölçü aletlerinin doğruluğunu da denetlemekle yükümlüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İaşecilik ilkesi gereği Osmanlı'da stratejik malların (buğday gibi) dışarıya ihracı sıkı bir şekilde denetlenirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İç piyasada kıtlık yaşanmaması için devlet, halkın temel gıda maddelerinin ihracatına yasaklar veya kısıtlamalar getirirdi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gedik sistemi, Osmanlı esnafında dükkan sayısının sınırlandırılmasını ve haksız rekabetin önlenmesini amaçlardı.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gedik sistemi sayesinde talep ile üretim dengelenmiş, aynı meslekten çok fazla dükkan açılıp esnafın iflas etmesi önlenmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Vakıflar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı'da kamu yararına hizmet veren taşınmazların hayırlı işler için ebediyen tahsis edilmesine ne ad verilir?",
+                  "answer": "Vakıf"
+                },
+                {
+                  "question": "Vakıf kurucusunun vakfın yönetimini ve şartlarını belirlediği hukuki belgeye ne denir?",
+                  "answer": "Vakfiye"
+                },
+                {
+                  "question": "Osmanlı'da vakıfların bağlı olduğu merkezi idari kurumun adı nedir?",
+                  "answer": "Vakflar Nezareti"
+                },
+                {
+                  "question": "Vakıf yöneticilerine verilen geleneksel unvan nedir?",
+                  "answer": "Mütevelli"
+                },
+                {
+                  "question": "Vakıf arazilerinin vergi muafiyeti ve mülkiyet durumunun temel özelliği nedir?",
+                  "answer": "Devlete veya şahsa ait olamaz, satılamaz ve haczedilemez."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı devlet sisteminde vakıfların üstlendiği temel işlevlerden biri değildir?",
+                  "options": [
+                    "Eğitim ve sağlık hizmetlerini finanse etmek",
+                    "İmaretler aracılığıyla yoksulları beslemek",
+                    "Askeri seferlerin rotasını belirlemek",
+                    "Bayındırlık ve imar faaliyetlerini yürütmek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Vakıflar sosyal, kültürel ve ekonomik alanlarda hizmet verir; askeri seferlerin rotasının belirlenmesi ordu ve divanın görevleri arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı'da bir vakfın kuruluş şartlarını, gelir kaynaklarını ve harcama yerlerini belirleyen hukuki belge aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Vakfiye",
+                    "Kanunname",
+                    "Berat",
+                    "Ferman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vakfiye, vakfın anayasası niteliğinde olup kurucusunun isteklerini ve şartlarını içeren resmi belgedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı döneminde vakıfların denetimini sağlayan ve gelir-gider hesaplarını kontrol eden görevli aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Nâzır",
+                    "Muhtesip",
+                    "Subaşı",
+                    "Kadı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vakıfların genel denetimi ve gözetimi nâzır adı verilen görevliler tarafından yürütülmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Klasik Dönem Osmanlı vakıf şehirlerinde yer alan sosyal tesisler arasında gösterilemez?",
+                  "options": [
+                    "Bedesten",
+                    "İmaret",
+                    "Külliye",
+                    "Darüşşifa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bedesten ticari amaçlı kapalı çarşı yapısıdır; imaret, darüşşifa ve külliye ise doğrudan vakıf sistemiyle kurulan sosyal ve hayır kurumlarıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı vakıflarının mallarının satılamaz, başkasına devredilemez ve haczedilemez olmasının temel hukuki dayanağı nedir?",
+                  "options": [
+                    "Devşirme kanunu",
+                    "İslam hukukundaki vakıf ahkâmı",
+                    "Tımar sisteminin kuralları",
+                    "Miri arazi rejimi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İslam hukukuna göre vakfedilen mallar Allah mülkü sayıldığı için mülkiyeti değiştirilemez ve satılamaz.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı'da vakıfların genel idaresini ve yönetimini yürüten kişiye ____ denir.",
+                  "options": [
+                    "Mütevelli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mütevelli, vakfiyede belirtilen şartlara uygun olarak vakfın günlük işlerini yöneten ve idare eden kişidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yoksullara ve yolculara ücretsiz yemek dağıtılan vakıf kökenli hayır kurumuna ____ denir.",
+                  "options": [
+                    "İmaret"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İmaretler, Osmanlı şehirlerinde yoksulların beslenmesini sağlayan önemli sosyal yardımlaşma kurumlarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Vakıf mallarının dokunulmazlığını ve şartlarının bağlayıcılığını belirten hukuki metne ____ adı verilir.",
+                  "options": [
+                    "Vakfiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vakfiye, vakfın kuralları ve amacının hukuki olarak kayıt altına alındığı temel belgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da hastane işlevi gören vakıf yapılarının genel adı ____ olarak geçer.",
+                  "options": [
+                    "Darüşşifa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Darüşşifa veya bimarhane, sağlık hizmeti sunan vakıf kurumlarının ortak adıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Klasik dönemde vakıf gelirlerinin sürekliliğini sağlamak amacıyla dükkân, hamam gibi gayrimenkullere ____ denirdi.",
+                  "options": [
+                    "Akar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akar, vakfa sürekli gelir getiren mülk ve gayrimenkul yatırımlarının genel adıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı vakıfları sadece dini hizmetler sunmuş, ekonomik ve sosyal hayata katkı sağlamamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Vakıflar eğitim, sağlık, altyapı ve sosyal yardımlaşma gibi çok geniş alanlarda faaliyet göstermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Vakıf malları özel mülkiyet statüsünde olmadığından miras yoluyla devredilemez ve satılamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Vakfedilen mallar İslam hukukuna göre ebediyen vakfın amacına tahsis edilir ve ticari olarak el değiştirmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Vakfiyeler, kurucusunun istekleri doğrultusunda hazırlandığı için sonradan asla değiştirilemez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zorunlu durumlarda padişah onayı ve kadı kararıyla vakfiyelerde bazı düzenlemeler (istibdal) yapılabilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı'da külliyelerin merkezinde genellikle cami yer alır ve etrafı vakıf eserleriyle çevrilirdi.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Külliyeler cami etrafında medrese, imaret, türbe gibi vakıf yapıların birleşmesiyle oluşurdu.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Vakıfların denetimi tamamen yabancı devlet elçilikleri tarafından yürütülmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Vakıflar Osmanlı merkezi otoritesi, kadılar ve nâzırlar tarafından denetlenmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2175,19 +3190,628 @@
           "id": "node1",
           "order": 1,
           "title": "Duraklama Dönemi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde 17. yüzyılda (Duraklama Dönemi) padişah değişikliğine neden olan saray olayları ve isyanlar hangi askerî grup öncülüğünde çıkmıştır?",
+                  "answer": "Yeniçeri Ocağı (İstanbul isyanları)"
+                },
+                {
+                  "question": "1606 yılında Osmanlı Devleti ile Avusturya arasında imzalanan ve Osmanlı'nın Avusturya üzerindeki siyasi üstünlüğünü sona erdiren antlaşma hangisidir?",
+                  "answer": "Zitvatorok Antlaşması"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilk kez maliyet hesapları yaparak bütçe hazırlayan ve saray masraflarını kısan ıslahatçı devlet adamı kimdir?",
+                  "answer": "Tarhuncu Ahmet Paşa"
+                },
+                {
+                  "question": "1699 yılında imzalanan ve Osmanlı Devleti'nin ilk defa büyük ölçüde toprak kaybettiği antlaşma hangisidir?",
+                  "answer": "Karlofça Antlaşması"
+                },
+                {
+                  "question": "IV. Murad döneminde devletin kötü gidişatının nedenlerini ve çözüm önerilerini padişaha sunan ünlü Osmanlı aydını kimdir?",
+                  "answer": "Koçibey"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti ile Safeviler arasında 17. yüzyılda imzalanan ve doğudaki en geniş sınırlarına ulaşılan antlaşma aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ferhat Paşa Antlaşması",
+                    "Nasuh Paşa Antlaşması",
+                    "Serav Antlaşması",
+                    "Kasr-ı Şirin Antlaşması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ferhat Paşa Antlaşması ile Osmanlı Devleti doğuda İran (Safeviler) karşısında en geniş sınırlarına ulaşmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 17. yüzyıl isyanlarının genel özelliklerinden biri değildir?",
+                  "options": [
+                    "Rejimi değiştirmeyi amaçlamaları",
+                    "Ekonomik ve mali sıkıntılardan kaynaklanmaları",
+                    "Yeniçeriler ve Celalilerin etkili olması",
+                    "Padişah veya sadrazam değişikliğine yol açmaları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "17. yüzyıl isyanları rejimi yıkmayı veya değiştirmeyi değil, ekonomik sıkıntılar, taşradaki idari bozukluklar ve maaşların gecikmesi gibi sorunları çözmeyi amaçlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Avusturya ile 1606 yılında imzalanan Zitvatorok Antlaşması'nın hangi maddesi, Osmanlı'nın diplomasideki üstünlüğünün sona erdiğini gösterir?",
+                  "options": [
+                    "Osmanlı padişahının Avusturya arşidüküne eşit sayılması",
+                    "İki devlet arasındaki ticaretin serbest bırakılması",
+                    "Estergon ve Kanije kalelerinin Osmanlı'da kalması",
+                    "Avusturya'nın Osmanlı'ya savaş tazminatı ödemesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zitvatorok Antlaşması ile protokolde Osmanlı padişahı ile Avusturya arşidükü eşit sayılmış, böylece Kanuni dönemindeki İbrahim Paşa Antlaşması ile sağlanan üstünlük yitirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Duraklama Dönemi'nde hazırladığı raporu IV. Murad'a sunan ve yönetimdeki bozulmaları rüşvet ve liyakatsizliğe bağlayan düşünür kimdir?",
+                  "options": [
+                    "Katip Çelebi",
+                    "Evliya Çelebi",
+                    "Koçibey",
+                    "Sokullu Mehmet Paşa"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Koçibey, hazırladığı risalede devlet kademelerindeki bozulmaları ve rüşvetin yaygınlaşmasını eleştirerek IV. Murad'a sunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "17. yüzyılda Anadolu'da çıkan Celali isyanlarının çıkmasında etkili olan en temel ekonomik ve sosyal faktör aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Avrupa'da Rönesans'ın başlaması",
+                    "İpek Yolu'nun tamamen kapanması",
+                    "Tımar sisteminin bozulması ve güvenlik açığı",
+                    "Akdeniz ticaretinin canlanması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tımar sisteminin bozulmasıyla birlikte toprağını terk eden köylüler (çift bozan) ve aylaksız kalan levendler Celali isyanlarının çıkmasında temel rol oynamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde 17. yüzyılda saray kadınlarının yönetime müdahale etmesiyle oluşan döneme ____ dönemi denir.",
+                  "options": [
+                    "Kadınlar Saltanatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kösem Sultan ve Turhan Hatice Sultan gibi validelerin yönetimde etkili olduğu bu döneme Kadınlar Saltanatı adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı ile Lehistan arasında imzalanan ve genç Osman'ın Hotin Seferi sonrasında zafer kazandığını düşündüğü antlaşma ____ Antlaşması'dır.",
+                  "options": [
+                    "Hotin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1621 yılında Hotin Kalesi kuşatılmış, zafer tam anlamıyla kazanılamasa da Lehistan ile Hotin Antlaşması imzalanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1699 Karlofça Antlaşması ile Osmanlı Devleti, ____ eyaletini tamamen kaybetmiştir.",
+                  "options": [
+                    "Macaristan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karlofça Antlaşması sonucunda Temeşvar hariç bütün Macaristan ve Erdel toprakları Avusturya'ya bırakılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "IV. Murad döneminde tütün, kahve ve içki yasakları getiren, gece sokağa çıkma yasağı uygulayan dönemin ünlü sadrazamı ____ Paşa'dır.",
+                  "options": [
+                    "Kuyucu Murat Paşa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asayişi sağlamak için sert tedbirler alan sadrazam Kuyucu Murat Paşa'dır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Duraklama döneminde saray masraflarını kısmak ve ilk denk bütçeyi oluşturmakla tanınan ıslahatçı ____ Ahmet Paşa'dır.",
+                  "options": [
+                    "Tarhuncu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarhuncu Ahmet Paşa maliyeyi düzeltmek adına saray masraflarını kısıp ilk modern anlamda denk bütçeyi hazırlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Duraklama Dönemi'nde yapılan ıslahatlar devlet politikası haline gelmiş ve kalıcı çözümler üretilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "17. yüzyıl ıslahatları şahıslara bağlı kalmış, devlet politikası olamamış ve baskı-şiddet yoluyla çözülmeye çalışıldığı için kalıcı olmamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kasr-ı Şirin Antlaşması ile bugünkü Türkiye-İran sınırının büyük bir kısmı çizilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1639 yılında imzalanan Kasr-ı Şirin Antlaşması günümüzdeki Türk-İran sınırının temelini oluşturmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Celali isyanları sadece ekonomik nedenlerle çıkmış olup askeri ve dini hiçbir yönü bulunmamaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Celali isyanları ekonomik nedenlerin yanı sıra tımar sisteminin bozulması, vergilerin artması ve güvenlik açığı gibi sosyal ve idari nedenlerle de çıkmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Köprülü Mehmet Paşa, saraya şartlar öne sürerek sadrazam olan ilk Osmanlı devlet adamıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Köprülü Mehmet Paşa, sarayın işlerine karışmamasını şart koşarak göreve gelmiş ve Duraklama içinde bir yükselme dönemi yaşatmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti, Karlofça Antlaşması ile ilk defa Batı'da büyük çapta toprak kaybına uğramıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karlofça Antlaşması, Osmanlı'nın Orta Avrupa'da toprak kaybettiği ve stratejik üstünlüğü kaybettiği ilk büyük antlaşmadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Savaşlar ve Antlaşmalar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "1606 yılında Osmanlı Devleti ile Avusturya arasında imzalanan ve Osmanlı'nın Avusturya üzerindeki siyasi üstünlüğünü sona erdiren antlaşma hangisidir?",
+                  "answer": "Zitvatorok Antlaşması"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin 17. yüzyılda toprak kazandığı son büyük antlaşma hangisidir?",
+                  "answer": "Bucaş Antlaşması"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin tarihindeki en büyük toprak kaybına uğradığı ve Orta Avrupa'daki egemenliğinin sona erdiği antlaşma hangisidir?",
+                  "answer": "Karlofça Antlaşması"
+                },
+                {
+                  "question": "1774 yılında imzalanan ve Kırım'ın bağımsız olmasını sağlayan antlaşma hangisidir?",
+                  "answer": "Küçük Kaynarca Antlaşması"
+                },
+                {
+                  "question": "Osmanlı Devleti ile Rusya arasında 1711 yılında imzalanan ve Prut Savaşı sonrasında yapılan antlaşma hangisidir?",
+                  "answer": "Prut Antlaşması"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti ile Avusturya arasında 1606 yılında imzalanan Zitvatorok Antlaşması ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+                  "options": [
+                    "Osmanlı sadrazamı Avusturya arşidüküne denk sayılmıştır.",
+                    "Osmanlı Devleti Orta Avrupa'daki üstünlüğünü artırmıştır.",
+                    "Avusturya Osmanlı'ya savaş tazminatı ödemeyi kabul etmiştir.",
+                    "Estergon ve Kanije kaleleri Avusturya'ya bırakılmıştır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zitvatorok Antlaşması'na göre Osmanlı padişahı ile Avusturya arşidükü protokol bakımından eşit sayılmış, bu da Osmanlı'nın siyasi üstünlüğünü sona erdirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi 1699 Karlofça Antlaşması ile Osmanlı Devleti'nin kaybettiği yerler arasında yer almaz?",
+                  "options": [
+                    "Kırım",
+                    "Macaristan",
+                    "Podolya",
+                    "Mora"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karlofça Antlaşması'nda Kırım Osmanlı'da kalmış, Macaristan ve Erdel Avusturya'ya, Mora Venedik'e, Podolya ise Lehistan'a verilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1711 yılında imzalanan Prut Antlaşması'nın Osmanlı Devleti açısından en önemli sonucu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kaybedilen toprakları geri alma umudunun doğması",
+                    "Rusya'nın Akdeniz'e inmesinin tamamen engellenmesi",
+                    "Karadeniz'in Türk gölü olması",
+                    "İstanbul Antlaşması ile kaybedilen yerlerin geri alınması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Prut Savaşı'nı kazanan Osmanlı Devleti, Karlofça ve İstanbul antlaşmalarıyla kaybettiği Azak Kalesi ve çevresini geri almış, bu durum kaybedilen toprakların geri alınabileceği umudunu doğurmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti ile Venedik ve Avusturya arasında 1718 yılında imzalanan, Osmanlı'ya Kuzey Afrika'daki üstünlüğünü koruma imkanı verirken Batı'daki toprak kayıplarını durduramayan antlaşma hangisidir?",
+                  "options": [
+                    "Belgrad Antlaşması",
+                    "Passarofça Antlaşması",
+                    "Zitvatorok Antlaşması",
+                    "Küçük Kaynarca Antlaşması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Passarofça Antlaşması ile Osmanlı Devleti Belgrad ve Sırbistan'ın bir kısmını Avusturya'ya kaptırmış ancak Mora'yı elinde tutarak Kuzey Afrika'daki konumunu korumuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1774 Küçük Kaynarca Antlaşması ile ilk kez halifelik gücü siyasi bir alanda kullanılarak hangi bölge Osmanlı'dan ayrılmıştır?",
+                  "options": [
+                    "Eflak",
+                    "Özi",
+                    "Kırım",
+                    "Besarabya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Küçük Kaynarca Antlaşması ile Kırım bağımsız olmuş, halkı dini açıdan Osmanlı halifesine bağlı kalmıştır. Bu ilk defa bir Müslüman toprağının kaybedilmesidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin 17. yüzyılda Lehistan üzerine düzenlediği sefer sonucunda imzalanan ve Osmanlı'nın toprak kazandığı son antlaşma ____ Antlaşması'dır.",
+                  "options": [
+                    "Bucaş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bucaş Antlaşması, Osmanlı'nın topraklarına toprak kattığı son antlaşma olup Lehistan'a kabul ettirilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1683 yılında II. Viyana Kuşatması'nın başarısızlıkla sonuçlanmasından sonra Osmanlı'ya karşı Avusturya, Venedik, Lehistan, Malta ve Rusya'nın katılımıyla oluşturulan ittifaka ____ denir.",
+                  "options": [
+                    "Kutsal İttifak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti'ni Avrupa'dan atmak amacıyla kurulan Kutsal İttifak devletleri uzun süren savaşlar sonucunda Osmanlı'ya Karlofça'yı imzalatmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1739 yılında imzalanan ve Osmanlı'nın 18. yüzyılda imzaladığı son kazançlı antlaşma olup Belgrad'ın geri alınmasını sağlayan antlaşma ____ Antlaşması'dır.",
+                  "options": [
+                    "Belgrad"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belgrad Antlaşmaları, Fransa'nın arabuluculuğuyla imzalanmış ve Osmanlı'ya Belgrad'ı geri kazandırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin Rusya ile Karadeniz'deki egemenlik mücadelesinde Rus gemilerinin Karadeniz'de ticaret yapabilmesini ilk kez kabul ettiği antlaşma ____ Antlaşması'dır.",
+                  "options": [
+                    "Küçük Kaynarca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küçük Kaynarca Antlaşması ile Rusya kapitülasyonlardan yararlanma hakkı elde etmiş ve Karadeniz'de donanma bulundurma hakkı kazanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1700 yılında Rusya ile imzalanan ____ Antlaşması ile Azak Kalesi Ruslara bırakılmış ve İstanbul'da bir Rus elçiliği bulundurulması kabul edilmiştir.",
+                  "options": [
+                    "İstanbul"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstanbul Antlaşması, Karlofça'nın devamı niteliğinde Rusya ile imzalanmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Zitvatorok Antlaşması ile Osmanlı Devleti, Avusturya karşısındaki ekonomik ve askeri üstünlüğünü tamamen pekiştirmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zitvatorok Antlaşması Osmanlı'nın siyasi üstünlüğünü kaybetmesine yol açmış, üstünlük Avusturya lehine değişmeye başlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karlofça Antlaşması, Osmanlı Devleti'nin gerileme dönemine girdiği ve batıda büyük çapta toprak kaybettiği ilk antlaşmadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karlofça Antlaşması Osmanlı tarihinde büyük toprak kayıplarının yaşandığı ve Gerileme Dönemi'nin başı kabul edilen dönüm noktasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Prut Savaşı sonrasında imzalanan Prut Antlaşması sayesinde Osmanlı Devleti, Kaynarca ile kaybettiği yerleri hemen geri almıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Prut Antlaşması ile Karlofça'da kaybedilen Azak geri alınmıştır; Küçük Kaynarca ise Prut'tan çok daha sonra imzalanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "1774 Küçük Kaynarca Antlaşması ile Rusya, Osmanlı topraklarındaki Ortodoksların haklarını koruma bahanesiyle iç işlerimize karışma hakkı elde etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rusya, antlaşma maddesine dayanarak Osmanlı Ortodokslarının koruyucusu rolünü üstlenmiş ve iç işlerimize müdahale etme fırsatı bulmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "1739 Belgrad Antlaşmaları sonrasında Karadeniz'in Türk gölü olduğu son kez onaylanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belgrad Antlaşması ile Karadeniz'in Türk gölü olduğu bir kez daha teyit edilmiş ve Rusların Karadeniz'de savaş gemisi bulundurması yasaklanmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Küçük Kaynarca",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Küçük Kaynarca Antlaşması hangi yıl imzalanmıştır?",
+                  "answer": "1774"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması hangi savaşın sonucunda imzalanmıştır?",
+                  "answer": "1768-1774 Osmanlı-Rus Savaşı"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile bağımsız olunan ilk Müslüman ve Türk bölgesi neresidir?",
+                  "answer": "Kırım"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile Osmanlı Devleti ilk kez hangi devlet için savaş tazminatı ödemiştir?",
+                  "answer": "Rusya"
+                },
+                {
+                  "question": "Osmanlı Devleti Küçük Kaynarca Antlaşması ile ilk defa hangi devletin kapitülasyonlarından yararlanma hakkı elde etmiştir?",
+                  "answer": "Rusya"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Küçük Kaynarca Antlaşması'nın hangi maddesi, Osmanlı halifeliğinin siyasi gücünün ilk defa diplomatik alanda kullanıldığını gösterir?",
+                  "options": [
+                    "Kırım'ın bağımsız olması ve dini yönden Osmanlı halifesine bağlanması",
+                    "Rusya'nın İstanbul'da daimi elçi bulundurma hakkı kazanması",
+                    "Osmanlı Devleti'nin Rusya'ya savaş tazminatı ödemesi",
+                    "Karadeniz'in Türk gölü olma özelliğini kaybetmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım hanları siyasi olarak bağımsız olurken dinî konularda Osmanlı halifesine bağlı kalacaktı. Bu madde, Osmanlı padişahının halifelik unvanının ilk defa uluslararası bir antlaşmada siyasi amaçla kullanıldığını gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Küçük Kaynarca Antlaşması'nın Osmanlı Devleti'ne getirdiği ekonomik yüklerden biri değildir?",
+                  "options": [
+                    "Rus tüccarlara kapitülasyon hakkı tanınması",
+                    "Rusya'ya savaş tazminatı ödenmesi",
+                    "Mısır üzerindeki hakimiyetin tamamen kaybedilmesi",
+                    "Boğazların Rus ticaret gemilerine açılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Küçük Kaynarca Antlaşması ile Mısır'ın kaybedilmesi söz konusu değildir. Tazminat, kapitülasyonlar ve boğazların açılması ekonomik yükler arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti, 1768-1774 Savaşları sonucunda imzaladığı Küçük Kaynarca ile ilk defa hangi devlete kapitülasyon vermiştir?",
+                  "options": [
+                    "Rusya",
+                    "Fransa",
+                    "İngiltere",
+                    "Avusturya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti daha önce batılı devletlere tek taraflı kapitülasyonlar vermişti ancak ilk kez bir savaşı kaybederek Rusya'ya kapitülasyon hakkı tanımak zorunda kalmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması'na göre Rusya, Osmanlı topraklarında hangi diplomatik ayrıcalığı ilk kez elde etmiştir?",
+                  "options": [
+                    "Osmanlı donanmasını denetleme yetkisi",
+                    "Akdeniz'de üs kurma izni",
+                    "İstanbul'da daimi elçilik açma ve Ortodoksların haklarını koruma bahanesi",
+                    "Balkanlar'da doğrudan toprak ilhak etme hakkı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Rusya, İstanbul'da daimi bir elçilik bulundurma hakkı kazanmış ve Osmanlı'daki Ortodoks azınlıkların koruyuculuğunu üstlenerek iç işlerimize müdahale etme zeminini bulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile ilgili aşağıdaki yargılardan hangisi doğrudur?",
+                  "options": [
+                    "Osmanlı Devleti bu antlaşma ile dağılma dönemine girmiştir.",
+                    "Karadeniz tamamen bir Türk gölü haline gelmiştir.",
+                    "Rusya ile yapılan savaşlar tamamen sona ermiştir.",
+                    "Osmanlı Devleti ilk kez toprak kazanmıştır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küçük Kaynarca Antlaşması Osmanlı tarihi için bir dönüm noktasıdır ve devletin gerilemeden çok dağılma sürecine girdiği ağır şartlar içeren bir antlaşmadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile Kırım halkı dini yönden Osmanlı padişahına ve ____ bağlanmıştır.",
+                  "options": [
+                    "halifeye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım Hanlığı siyasi bağımsızlık kazanırken dinî yönden Osmanlı halifesine bağlı kalmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması, Osmanlı Devleti'nin o dönemdeki Padişahı ____ döneminde imzalanmıştır.",
+                  "options": [
+                    "III. Mustafa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antlaşma imzalandığı sırada Osmanlı tahtında I. Abdülhamit bulunmaktaydı ancak savaş III. Mustafa döneminde başlamıştı; genel olarak kabul gören padişah I. Abdülhamit'tir, fakat soru müfredat gereği I. Abdülhamit veya III. Mustafa olarak geçer.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile Rusya, Osmanlı Devleti'nden ilk defa savaş ____ almıştır.",
+                  "options": [
+                    "tazminatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti tarihindeki ilk savaş tazminatını Küçük Kaynarca Antlaşması ile Rusya'ya ödemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması sonucunda Rusya, Osmanlı topraklarındaki ____ azınlıkların haklarını koruma bahanesiyle iç işlerimize karışma imkanı bulmuştur.",
+                  "options": [
+                    "Ortodoks"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rusya, Ortodoksların haklarını koruma bahanesini kullanarak Osmanlı Devleti'nin iç işlerine müdahale etmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması sonrasında Kırım, sırasıyla önce bağımsız olmuş, daha sonra Rusya tarafından ____ edilmiştir.",
+                  "options": [
+                    "ilhak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım önce bağımsızlık kazanmış, kısa süre sonra da Rusya tarafından topraklarına katılmıştır (ilhak edilmiştir).",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile Kırım tamamen Rusya'ya bağlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kırım antlaşma ile hemen Rusya'ya bağlanmamış, önce bağımsız olmuştur; daha sonraki süreçte Rusya tarafından ilhak edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması, Osmanlı Devleti'nin imzaladığı en ağır şartlı antlaşmalardan biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu antlaşma ile Osmanlı ilk defa savaş tazminatı ödemiş, ilk kez halifelik gücünü diplomatik olarak kullanmış ve Karadeniz Türk gölü olmaktan çıkmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti bu antlaşma ile ilk defa yabancı bir devlete kapitülasyon vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Osmanlı ilk kapitülasyonu Kanuni Sultan Süleyman döneminde Fransa'ya vermiştir; Küçük Kaynarca ile ilk kez Rusya'ya kapitülasyon tanınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması ile Rus ticaret gemileri Karadeniz ve Boğazlarda serbestçe dolaşma hakkı elde etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antlaşma gereği Rusya, Karadeniz'de ticaret yapma ve Boğazları kullanarak Akdeniz'e inme hakkı kazanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küçük Kaynarca Antlaşması sonrasında Osmanlı Devleti boğazlardaki egemenlik haklarını tamamen kaybetmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Boğazlar üzerindeki tam egemenlik hakları devam etmiş ancak Rus gemilerine geçiş hakkı tanınmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2200,13 +3824,419 @@
           "id": "node1",
           "order": 1,
           "title": "Avrupa’da Değişim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Rönesans nerede başlamıştır?",
+                  "answer": "İtalya"
+                },
+                {
+                  "question": "Coğrafi Keşifler sonucunda Doğu ticaret yollarının kontrolü kimlerin eline geçmiştir?",
+                  "answer": "Avrupalı devletlerin"
+                },
+                {
+                  "question": "Reform hareketlerini Almanya'da başlatan din adamı kimdir?",
+                  "answer": "Martin Luther"
+                },
+                {
+                  "question": "Aydınlanma Çağı'nda aklı her alanın rehberi yapan felsefi akım nedir?",
+                  "answer": "Rasyonalizm"
+                },
+                {
+                  "question": "Merkantilizm politikasında devletlerin zenginlik ölçütü nedir?",
+                  "answer": "Değerli madenler"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Coğrafi Keşifler'in sebepleri arasında yer almaz?",
+                  "options": [
+                    "Pusulanın geliştirilmesi ve okyanuslara dayanıklı gemilerin yapılması",
+                    "Avrupa'da Hristiyanlığı yayma düşüncesi",
+                    "Fransız İhtilali'nin yaydığı milliyetçilik akımı",
+                    "Osmanlı Devleti'nin İpek ve Baharat yollarını kontrol altında tutması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fransız İhtilali Coğrafi Keşifler'den çok daha sonra, 1789 yılında gerçekleşmiştir. Bu nedenle keşiflerin sebebi olamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Rönesans'ın ilk olarak İtalya'da başlamasında aşağıdakilerden hangisinin etkisi yoktur?",
+                  "options": [
+                    "İtalya'nın antik Roma medeniyetine ev sahipliği yapması",
+                    "Coğrafi konumu sayesinde ticaret merkezi olması",
+                    "Siyasi birliğin güçlü ve merkeziyetçi olması",
+                    "Kültürel etkileşime açık bir yapıda bulunması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İtalya dönemde siyasi birliğe sahip olmayıp şehir devletleri halinde yönetiliyordu.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Martin Luther'in 1517 yılında Wittenberg Kalesi'nin kapısına astığı bildiri ile başlayan süreç aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Skolastik düşünce",
+                    "Rönesans",
+                    "Aydınlanma",
+                    "Reform"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Martin Luther'in Katolik Kilisesi'nin uygulamalarına karşı çıkarak başlattığı bu hareket Reform olarak adlandırılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Avrupa'da ekonomik gücün toprak sahipliğinden değerli madenlere ve ticarete dayandırıldığı sistem hangisidir?",
+                  "options": [
+                    "Merkantilizm",
+                    "Sosyalizm",
+                    "Kolektivizm",
+                    "Feodalizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkantilizm, Avrupa devletlerinin zenginliğini sahip oldukları altın ve gümüş gibi kıymetli madenlere bağlayan ekonomik sistemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aydınlanma Çağı'nda bilimsel ve felsefi gelişmelerin önünü açan temel düşünce sistemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Skepsis",
+                    "Dogmatizm",
+                    "Skolastisizm",
+                    "Akılcılık"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Aydınlanma Çağı aklın ön plana çıktığı, deney ve gözlemin değer kazandığı bir dönemdir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Avrupa'da XV. ve XVI. yüzyıllarda sanat, edebiyat ve bilim alanındaki yeniden doğuş dönemine ____ denir.",
+                  "options": [
+                    "Rönesans"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rönesans kelimesi yeniden doğuş anlamına gelir ve bu dönemde kültürel ve sanatsal alanda büyük ilerlemeler kaydedilmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Coğrafi Keşifler sonrasında ticaret yollarının yön değiştirmesiyle ____ ticareti önem kaybetmiştir.",
+                  "options": [
+                    "İpek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Okyanus yollarının bulunmasıyla birlikte geleneksel İpek ve Baharat yolları eski önemini yitirmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Katolik Kilisesi'nin cennetten arsa satışı olarak bilinen belgeye ____ denir.",
+                  "options": [
+                    "Endüljans"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kilise günahların affı için para karşılığı endüljans adı verilen belgeler satmış, bu durum Reform hareketlerinin başlamasında etkili olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneş Sistemi modelini matematiksel olarak kanıtlayan ve modern astronominin kurucularından olan bilim insanı ____'dır.",
+                  "options": [
+                    "Galileo"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Galileo Galilei teleskop gözlemleriyle Kopernik'in güneş merkezli evren modelini desteklemiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Avrupa'da mezhep birliğinin bozulmasına yol açan dinî nitelikli hareket ____ olarak adlandırılır.",
+                  "options": [
+                    "Reform"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Reform hareketiyle Katolik Kilisesi'ne bağlılık azalmış ve yeni protestan mezhepler ortaya çıkmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Coğrafi Keşifler sonucunda Osmanlı Devleti ekonomik olarak olumlu yönde etkilenmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Coğrafi Keşifler sonucunda ticaret yolları okyanuslara kaydığı için Osmanlı Devleti ekonomik gelir kaybı yaşamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Matbaanın geliştirilmesi ve yaygınlaşması Avrupa'da kitapların ucuzlamasına ve okuryazarlığın artmasına katkı sağlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Johannes Gutenberg'in matbaayı geliştirmesi bilgiye erişimi hızlandırmış, Rönesans ve Reform'un etkilerini artırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Otokratik krallıklar Coğrafi Keşifler'i finanse ederek deniz aşırı sömürge imparatorlukları kurmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İspanya ve Portekiz gibi merkezi krallıklar keşif hareketlerini destekleyerek yeni ticaret yolları ve koloniler elde etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aydınlanma Çağı'nda kilisenin dogmatik öğretileri sorgulanmadan kabul edilmeye devam edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aydınlanma Çağı'nda skolastik düşünce yıkılmış, her şey akıl süzgecinden geçirilmeye başlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Westphalia Barışı ile Avrupa'da ulus devletlerin temelleri atılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1648 Westphalia Antlaşması ile modern devletler hukuku doğmuş ve dinî savaşlar yerine ulusal çıkarlar ön plana çıkmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Osmanlı’da Islahatlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Lale Devri hangi olayla başlamış ve hangi olayla sona ermiştir?",
+                  "answer": "1718 Pasarofça Antlaşması ile başlayıp 1730 Patrona Halil İsyanı ile sona ermiştir."
+                },
+                {
+                  "question": "Nizam-ı Cedid yeniliklerini hangi Osmanlı padişahı başlatmıştır?",
+                  "answer": "Üçüncü Selim"
+                },
+                {
+                  "question": "Sened-i İttifak hangi padişah döneminde imzalanmıştır?",
+                  "answer": "İkinci Mahmut"
+                },
+                {
+                  "question": "Osmanlı Devletinde batı tarzı ilk askerî ıslahat hangi padişah döneminde yapılmıştır?",
+                  "answer": "Birinci Mahmut"
+                },
+                {
+                  "question": "Tanzimat Fermanı hangi padişah döneminde ilan edilmiştir?",
+                  "answer": "Abdülmecit"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Lale Devri ıslahatları arasında yer almaz?",
+                  "options": [
+                    "İlk kez çiçek aşısının uygulanması",
+                    "Said Efendi ve İbrahim Müteferrika tarafından matbaanın kurulması",
+                    "Nizam-ı Cedid ordusunun kurulması",
+                    "Yalova'da kâğıt fabrikasının açılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Nizam-ı Cedid ordusu Lale Devri'nde değil, Üçüncü Selim döneminde kurulmuştur. Lale Devri'nde ise kültürel ve sanatsal alanda matbaa, çiçek aşısı ve kumaş fabrikası gibi yenilikler yapılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı tarihinde ilk defa reayanın can, mal ve namus güvenliğini devlet güvencesi altına alan belge aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sened-i İttifak",
+                    "Tanzimat Fermanı",
+                    "Islahat Fermanı",
+                    "Kanun-ı Esasi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanzimat Fermanı ile din ve mezhep farkı gözetilmeksizin bütün Osmanlı vatandaşlarının can, mal ve namus güvenliğinin sağlanacağı belirtilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Üçüncü Selim döneminde yapılan yeniliklerin tümüne verilen genel ad aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sekban-ı Cedid",
+                    "Eşkinci Ocağı",
+                    "Nizam-ı Cedid",
+                    "Asakir-i Mansure-i Muhammediye"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Üçüncü Selim dönemi ıslahatları 'yenilik' anlamına gelen Nizam-ı Cedid adı altında askeri, mali ve idari alanda gerçekleştirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İkinci Mahmut döneminde Yeniçeri Ocağı'nın kaldırılması olayına ne ad verilir?",
+                  "options": [
+                    "Vaka-i Hayriye",
+                    "Vaka-i Vakvakiye",
+                    "Alemdar Olayı",
+                    "Patrona Halil İsyanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1826 yılında Yeniçeri Ocağı'nın kaldırılması Osmanlı tarihinde hayırlı olay anlamına gelen Vaka-i Hayriye olarak adlandırılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Lale Devri'nde kültür ve sanat alanında yapılan faaliyetlerden biridir?",
+                  "options": [
+                    "Mühendishane-i Berr-i Hümayun'un açılması",
+                    "Yalova'da kâğıt fabrikasının kurulması",
+                    "Avrupa'ya ilk kez geçici elçilikler gönderilmesi",
+                    "Meclis-i Mebusan'ın açılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Lale Devri'nde Avrupa'daki gelişmeleri yakından takip etmek amacıyla Paris, Viyana gibi başkentlere geçici elçilikler gönderilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde batı tarzı askeri ıslahat yapan ilk padişah ____ olarak bilinir.",
+                  "options": [
+                    "Birinci Mahmut"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birinci Mahmut, Humbaracı Ahmed Paşa (Claude Alexandre de Bonneval) yardımıyla orduyu batı tarzında yeniden teşkilatlandırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilk Türk matbaası ____ döneminde kurulmuştur.",
+                  "options": [
+                    "Lale Devri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lale Devri'nde Said Efendi ve İbrahim Müteferrika'nın gayretleriyle ilk özel Türk matbaası İstanbul'da kurulmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkinci Mahmut ile ayanlar arasında imzalanan ve Osmanlı'da yetkilerin ilk kez sınırlandırıldığı belge ____ olarak adlandırılır.",
+                  "options": [
+                    "Sened-i İttifak"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1808 yılında imzalanan Sened-i İttifak ile padişah ile ayanlar uzlaşmış, padişahın yetkileri ayanlar karşısında ilk kez resmi bir belgeyle sınırlandırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üçüncü Selim döneminde kurulan batı tarzı ordunun adı ____ ordusudur.",
+                  "options": [
+                    "Nizam-ı Cedid"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nizam-ı Cedid, Üçüncü Selim tarafından kurulan ve Avrupa'daki askeri sistem örnek alınarak oluşturulan düzenli ordudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gayrimüslimlere ve yabancılara mülk edinme hakkı tanıyan belge ____ Fermanı'dır.",
+                  "options": [
+                    "Islahat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1856 yılında ilan edilen Islahat Fermanı ile gayrimüslimlere din, mezhep, eğitim ve mülk edinme alanlarında geniş haklar tanınmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Lale Devri, 1730 yılında çıkan Patrona Halil İsyanı ile sona ermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lale Devri israfa karşı çıkan Patrona Halil ve taraftarlarının başlattığı isyanla son bulmuş ve Nevşehirli Damat İbrahim Paşa idam edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tanzimat Fermanı, Padişah İkinci Mahmut tarafından ilan edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tanzimat Fermanı, İkinci Mahmut'un oğlu Abdülmecit döneminde, Hariciye Nazırı Mustafa Reşid Paşa tarafından Gülhane Parkı'nda okutularak ilan edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yeniçeri Ocağı İkinci Mahmut döneminde kaldırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci Mahmut, 1826 yılında Vaka-i Hayriye ile devletin önündeki en büyük yenilik engeli olan Yeniçeri Ocağı'nı kaldırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nizam-ı Cedid ıslahatlarına Kabakçı Mustafa İsyanı son vermiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kabakçı Mustafa İsyanı sonucunda Üçüncü Selim tahttan indirilmiş ve Nizam-ı Cedid dönemi sona ermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sened-i İttifak ile padişah mutlak yetkilerinden tamamen vazgeçmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sened-i İttifak ile padişah mutlak yetkilerinden vazgeçmemiş, sadece ayanların varlığını ve haklarını tanımak zorunda kalmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2219,19 +4249,628 @@
           "id": "node1",
           "order": 1,
           "title": "Fransız İhtilali ve Etkileri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fransız İhtilali hangi yılda başlamıştır?",
+                  "answer": "1789"
+                },
+                {
+                  "question": "Fransız İhtilali sonucunda yayımlanan temel insan hakları belgesinin adı nedir?",
+                  "answer": "İnsan ve Vatandaş Hakları Bildirisi"
+                },
+                {
+                  "question": "Fransız İhtilali'nin dünyaya yaktığı en önemli iki milliyetçi ve siyasi kıvılcım ne olarak özetlenebilir?",
+                  "answer": "Milliyetçilik ve Demokrasi"
+                },
+                {
+                  "question": "Fransa'da ihtilal öncesi toplumun bölündüğü hukuki sınıflara ne ad verilir?",
+                  "answer": "Fransız toplum sınıfları (Ktümeciler/Rahipler, Soylular, Halk)"
+                },
+                {
+                  "question": "Fransız İhtilali ile yıkılan mutlak krallık rejiminin adı nedir?",
+                  "answer": "Eski Rejim"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Fransız İhtilali'nin ortaya çıkmasında etkili olan düşünce akımı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Skolastik düşünce",
+                    "Aydınlanma Çağı felsefesi",
+                    "Feodalite",
+                    "Merkantilizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fransız İhtilali, 18. yüzyılda Voltaire, Rousseau ve Montesquieu gibi aydınların fikirleriyle şekillenen Aydınlanma Çağı felsefesinden büyük ölçüde beslenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fransız İhtilali'nin çok uluslu imparatorluklar üzerindeki en belirgin olumsuz etkisi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Mutlak monarşilerin güçlenmesi",
+                    "Sömürgecilik yarışının sona ermesi",
+                    "Milliyetçilik akımının bağımsızlık isyanları başlatması",
+                    "Ekonomik refahın artması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fransız İhtilali'nin yaydığı milliyetçilik akımı, Osmanlı ve Avusturya-Macaristan gibi çok uluslu devletlerde isyanlara ve parçalanma süreçlerine yol açmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Fransa'da ihtilal öncesi toplumun özelliklerinden biri değildir?",
+                  "options": [
+                    "Halkın sınıflara ayrılmış olması",
+                    "Kralın mutlak yetkilerle ülkeyi yönetmesi",
+                    "Rahipler ve soyluların vergi muafiyetine sahip olması",
+                    "Burjuva sınıfının siyasi haklara sahip olması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İhtilal öncesinde ekonomik olarak zenginleşen ancak soylu olmayan burjuva sınıfı, uzun süre siyasi haklardan mahrum bırakılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fransız İhtilali sonrasında yayımlanan İnsan ve Vatandaş Hakları Bildirisi'nde vurgulanan temel ilke aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Ümmetçilik",
+                    "Millî egemenlik",
+                    "İmparatorluk birliği",
+                    "Kulluk sistemi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bildiri ile egemenliğin saraya veya krala değil, millete ait olduğu fikri savunularak millî egemenlik anlayışı benimsenmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Fransız İhtilali'nin evrensel sonuçlarından biri olarak kabul edilemez?",
+                  "options": [
+                    "Demokrasi kültürünün gelişmesi",
+                    "İnsan hakları kavramının yaygınlaşması",
+                    "Sömürgeciliğin tamamen ortadan kalkması",
+                    "Milliyetçilik akımının güçlenmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fransız İhtilali sömürgeciliği hemen bitirmemiş, aksine 19. yüzyılda sanayi inkılabıyla birleşerek sömürgecilik yarışının şekil değiştirmesine neden olmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Fransız İhtilali'nin en önemli sembollerinden biri olan ve siyasi mahkumların tutulduğu hapishanenin basılması olayı ____ baskını olarak adlandırılır.",
+                  "options": [
+                    "Bastille"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "14 Temmuz 1789'da gerçekleşen Bastille Hapishanesi baskını, Fransız İhtilali'nin başlangıcı kabul edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransız İhtilali ile birlikte devletlerin yapısında teokratik yönetim anlayışının yerini ____ devlet anlayışı almaya başlamıştır.",
+                  "options": [
+                    "laik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Din ve devlet işlerinin birbirinden ayrılması, ihtilal sonrasında laik hukuk ve yönetim anlayışının yayılmasını sağlamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransız İhtilali sonrasında yayımlanan bildiride ifade edilen temel haklardan biri de hürriyet ve ____ ilkesidir.",
+                  "options": [
+                    "eşitlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fransız İhtilali'nin sloganı haline gelen 'Özgürlük, Eşitlik, Kardeşlik' ilkeleri yeni düzenin temelini oluşturmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransa'da ihtilal döneminde kral ve kraliçenin yargılanarak idam edilmesinden sonra ____ dönemi başlamıştır.",
+                  "options": [
+                    "cumhuriyet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak monarşinin yıkılmasıyla Fransa'da cumhuriyet ilan edilmiş ve yeni bir siyasi dönem açılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti, Fransız İhtilali'nin getirdiği milliyetçilik akımından en çok ____ isyanları nedeniyle etkilenmiştir.",
+                  "options": [
+                    "azınlık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çok uluslu bir yapıya sahip olan Osmanlı Devleti'nde yaşayan gayrimüslim tebaa, milliyetçilik etkisiyle bağımsızlık ayaklanmaları başlatmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fransız İhtilali yalnızca Fransa'nın iç meselesi olarak kalmış, diğer Avrupa devletlerini etkilememiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fransız İhtilali sonuçları itibarıyla evrenseldir ve tüm dünyadaki mutlak krallıkları ile çok uluslu imparatorlukları derinden sarsmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fransız İhtilali ile birlikte egemenliğin ilahi bir hakka değil, millete ait olduğu kabul edilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak monarşinin temelini oluşturan 'kralların yetkisini tanrıdan alması' anlayışı terk edilmiş ve millete dayalı egemenlik kabul edilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İhtilal sonrasında soyluların ve din adamlarının sahip olduğu ayrıcalıklar korunmaya devam etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İhtilal ile birlikte soyluların ve rahiplerin vergi muafiyeti gibi ayrıcalıkları kaldırılarak toplumsal eşitlik sağlanmaya çalışılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fransız İhtilali, Viyana Kongresi ile birlikte Avrupa'da statükoyu korumaya çalışan monarşilerin hedefi haline gelmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1815 Viyana Kongresi'nde Avrupalı büyük devletler, Fransız İhtilali'nin yaydığı fikir akımlarına karşı mevcut monarşik düzeni koruma kararı almışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fransız İhtilali'nin Osmanlı Devleti üzerindeki tek etkisi ekonomik zorlukların artması olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Osmanlı Devleti üzerindeki en büyük etki ekonomik değil, milliyetçilik akımının tetiklediği azınlık ayaklanmaları ve toprak kayıplarıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Sanayi Devrimi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+                  "answer": "İngiltere"
+                },
+                {
+                  "question": "Sanayi Devrimi'nde ilk kullanılan enerji kaynağı hangisidir?",
+                  "answer": "Buhar gücü"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte küçük imarethanelerin yerini ne almıştır?",
+                  "answer": "Fabrikalar"
+                },
+                {
+                  "question": "Sanayi Devrimi sonucunda kırsal kesimden kentlere yapılan göçler sonucu hangi olgu ortaya çıkmıştır?",
+                  "answer": "Şehirleşme"
+                },
+                {
+                  "question": "Sanayi Devrimi sonrasında ortaya çıkan iki temel yeni sınıf hangileridir?",
+                  "answer": "Burjuvazi ve İşçi sınıfı (Proletarya)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi Sanayi Devrimi'nin İngiltere'de başlamasının nedenlerinden biri değildir?",
+                  "options": [
+                    "Zengin kömür ve demir yataklarına sahip olması",
+                    "Güçlü bir sömürge imparatorluğuna ve sermaye birikimine sahip olması",
+                    "Tarımda kapitalistleşme sürecinin erken başlamış olması",
+                    "Mutlak monarşinin en sert ve baskı dolu şekilde uygulanması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İngiltere'de meşruti monarşi ve haklar konusundaki gelişmeler sanayi hamlesine uygun bir ortam hazırlamıştır. Sert bir mutlak monarşi devrimin başlamasında etken değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte ekonomik alanda aşağıdaki akımlardan hangisi güç kazanmıştır?",
+                  "options": [
+                    "Merkantilizm",
+                    "Liberalizm",
+                    "Skolastizm",
+                    "Feodalizm"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi Devrimi, serbest piyasa ekonomisini ve devlet müdahalesinin az olduğu kapitalist/liberal ekonomik anlayışı güçlendirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanayi Devrimi'nin ulaşım alanındaki ilk ve en önemli gelişmesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Otomobil üretimi",
+                    "Asma köprüler",
+                    "Buharlı lokomotif ve demiryolları",
+                    "Jet motorlu uçaklar"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Buhar gücünün ulaşımda kullanılmasıyla demiryolları yaygınlaşmış, hammadde ve ürün taşımacılığı hızlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Sanayi Devrimi'nin sosyal sonuçlarından biridir?",
+                  "options": [
+                    "Lonca teşkilatlarının üretimin tek hakimi olması",
+                    "İşçi sınıfının hak arama mücadelelerinin ve sendikaların ortaya çıkması",
+                    "Köleliğin tüm dünyada aynı anda yasaklanması",
+                    "Köy nüfusunun kent nüfusuna oranla hızla artması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ağır çalışma koşulları ve uzun çalışma saatleri, işçi sınıfının örgütlenmesine ve sendikacılığın doğmasına yol açmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanayi Devrimi sürecinde hammadde ve pazar arayışı devletler arasında aşağıdakilerden hangisine neden olmuştur?",
+                  "options": [
+                    "Coğrafi Keşiflerin başlamasına",
+                    "Yeni Emperyalizm yarışına",
+                    "Feodalitenin yeniden kurulmasına",
+                    "Haçlı Seferlerinin düzenlenmesine"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayileşen devletler, hammadde bulmak ve ürettikleri malları satmak için az gelişmiş bölgeleri sömürgeleştirmiş, bu durum Yeni Emperyalizm dönemini başlatmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Sanayi Devrimi'nde James Watt tarafından geliştirilen ____ makinesi, üretime hız kazandırmıştır.",
+                  "options": [
+                    "buhar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "James Watt'ın buhar makinesini icat etmesi ve sanayiye uyarlaması, kas gücünden makine gücüne geçişin miladı olmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi Devrimi sonucunda fabrikalarda çalışan, geçimini sadece emeğini satarak sağlayan yeni sosyal sınıfa ____ denir.",
+                  "options": [
+                    "işçi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırsaldan kente göç eden bu kitle fabrikalarda işçi sınıfını (proletarya) oluşturmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte geleneksel üretim yapan ____ teşkilatı önemini yitirmiştir.",
+                  "options": [
+                    "lonca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fabrika üretimiyle rekabet edemeyen küçük esnaf teşkilatı olan loncalar dağılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayileşen devletlerin dünyadaki hammadde ve pazar kaynaklarını ele geçirme politikasına ____ denir.",
+                  "options": [
+                    "emperyalizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güçlü sanayi devletleri zayıf ülkeleri ekonomik ve siyasi olarak baskı altına alarak sömürge imparatorlukları kurmuşlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte nüfusun kırsaldan kentlere göç etmesiyle ____ süreci hızlanmıştır.",
+                  "options": [
+                    "şehirleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fabrikaların etrafında kurulan yerleşkeler büyük sanayi şehirlerinin oluşmasını sağlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sanayi Devrimi ilk olarak demir ve kömür rezervleri zengin olan İngiltere'de ortaya çıkmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İngiltere'nin coğrafi konumu, zengin maden yatakları ve sömürgeleri devrimin ilk burada başlamasını sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi sonucunda dünyada çevre sorunları ve hava kirliliği azalmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, fabrikaların artması, kömür kullanımı ve sanayi atıkları küresel çevre sorunlarının ve hava kirliliğinin artmasına yol açmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte üretimde kol gücünden makine gücüne geçilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Makineleşme süreci ile insan ve hayvan gücüne dayalı üretim yerini buharlı makineler ve fabrikalara bırakmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi'nden sonra devletler ekonomi alanında tamamen korumacı politikaları bırakarak sömürgecilikten vazgeçmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi Devrimi sömürgeciliği bitirmemiş, aksine hammadde ihtiyacından dolayı emperyalizm ve sömürge yarışını çok daha şiddetli bir boyuta taşımıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi sonrasında demiryolu ağı ve buharlı gemiler uluslararası ticareti hızlandırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulaşım teknolojisindeki bu gelişmeler sayesinde ürünler çok daha uzak pazarlara daha kısa sürede taşınmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Meşrutiyet ve Anayasal Gelişmeler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kanunuesasi'yi ilan ederek Osmanlı tarihinde anayasal düzene geçişi sağlayan padişah kimdir?",
+                  "answer": "II. Abdülhamit"
+                },
+                {
+                  "question": "Kanunuesasi'nin hazırlanmasında ve Meşrutiyetin ilanında etkili olan aydın grubu hangisidir?",
+                  "answer": "Jön Türkler (Genç Osmanlılar)"
+                },
+                {
+                  "question": "I. Meşrutiyet döneminde açılan ve halkın temsilcilerinden oluşan ilk meclisin adı nedir?",
+                  "answer": "Meclis-i Umumi"
+                },
+                {
+                  "question": "1876 Anayasası'na göre meclisi açma ve kapama yetkisi kime aittir?",
+                  "answer": "Padişah"
+                },
+                {
+                  "question": "II. Meşrutiyetin ilan edilmesinde etkili olan ve 1908'de isyan başlatan siyasi hareket hangisidir?",
+                  "answer": "İttihat ve Terakki Cemiyeti"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde ilk kez anayasal düzene geçilmesini ve parlamenter sisteme adım atılmasını sağlayan gelişme aşağıdakilerden hangisidir?",
+                  "options": [
+                    "I. Meşrutiyetin İlanı",
+                    "Tanzimat Fermanı",
+                    "Islahat Fermanı",
+                    "II. Meşrutiyetin İlanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1876 yılında Kanunuesasi'nin kabul edilmesi ve I. Meşrutiyet'in ilan edilmesi Osmanlı tarihinde ilk kez anayasal düzene ve parlamenter sisteme geçilmesini sağlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Kanunuesasi'nin getirdiği yenilikler arasında yer almaz?",
+                  "options": [
+                    "Saltanat makamının kaldırılması",
+                    "Hükümetin padişaha karşı sorumlu olması",
+                    "Padişaha sürgün yetkisi verilmesi",
+                    "Mebusan Meclisinin oluşturulması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanunuesasi padişahlık kurumunu kaldırmamış, aksine padişahın yetkilerini anayasal sınırlarla kısmen dengelemeye çalışmış ancak saltanat varlığını korumuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "II. Meşrutiyet'in ilanından sonra 1909 yılında Kanunuesasi'de yapılan değişikliklerin temel amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Anayasayı tamamen yürürlükten kaldırmak",
+                    "Mebusan Meclisini kapatarak mutlakiyyete dönmek",
+                    "Seçme ve seçilme hakkını sadece azınlıklara vermek",
+                    "Padişahın yetkilerini kısıtlayarak meclisin ve hükümetin yetkilerini artırmak"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "1909 Anayasa değişiklikleriyle padişahın yetkileri daraltılmış, kabinenin meclise karşı sorumlu olması sağlanarak rejim daha demokratik bir yapıya kavuşturulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "93 Harbi (1877-1878 Osmanlı-Rus Savaşı) sonrasında I. Meşrutiyet'in kesintiye uğramasına neden olan olay hangi seçenekte doğru verilmiştir?",
+                  "options": [
+                    "Padişah II. Abdülhamit'in meclisi süresiz tatil etmesi",
+                    "Halkın genel seçimleri boykot etmesi",
+                    "İttihat ve Terakki'nin darbe yapması",
+                    "Trablusgarp Savaşı'nın çıkması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "II. Abdülhamit, savaş dönemindeki olağanüstü durumu ve meclisteki sert tartışmaları gerekçe göstererek Kanunuesasi'nin verdiği yetkiyle meclisi tatil etmiş ve İstibdat Dönemi başlamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cemiyetlerden hangisi II. Meşrutiyet'in ilan edilmesinde ve 1908 devriminde kilit rol oynamıştır?",
+                  "options": [
+                    "Osmanlı Demokrat Fırkası",
+                    "Ahrar Fırkası",
+                    "Hürriyet ve İtilaf Fırkası",
+                    "İttihat ve Terakki Cemiyeti"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İttihat ve Terakki Cemiyeti, Balkanlardaki askeri subayların öncülüğünde örgütlenerek II. Meşrutiyet'in ilan edilmesini sağlamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin ilk anayasası olan ve 1876 yılında yürürlüğe giren belgenin adı ____ olarak bilinir.",
+                  "options": [
+                    "Kanunuesasi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanunuesasi, Osmanlı Devleti'nin ilk ve tek yazılı anayasası olup meşruti yönetimin hukuki dayanağını oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "I. Meşrutiyet döneminde üyeleri padişah tarafından seçilen üst meclise Heyet-i Ayan, halk tarafından seçilen alt meclise ise ____ denilmiştir.",
+                  "options": [
+                    "Mebusan Meclisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Meclis-i Umumi, Mebusan Meclisi ve Heyet-i Ayan olmak üzere iki kanattan oluşan çift meclisli bir yapıya sahipti.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "II. Abdülhamit'in meclisi kapatarak parlamenter sisteme son verdiği ve baskı rejimini uyguladığı döneme ____ Dönemi denir.",
+                  "options": [
+                    "İstibdat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1878'den 1908 yılına kadar süren otuz yıllık bu süreç İstibdat (baskı ve istibdat) dönemi olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1908 yılında II. Meşrutiyet'in ilan edilmesinde etkili olan ve Manastır ile Selanik'te ayaklanan subayların çoğunlukla üye olduğu cemiyet ____ Cemiyetidir.",
+                  "options": [
+                    "İttihat ve Terakki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İttihat ve Terakki Cemiyeti, meşrutiyetin yeniden ilanı için silahlı ayaklanma ve baskı unsuru olarak önemli bir rol oynamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1909 yılında Kanunuesasi'de yapılan değişikliklerle hükümetin padişaha değil, ____ karşı sorumlu olması sağlanmıştır.",
+                  "options": [
+                    "meclise"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1909 Anayasa değişiklikleriyle parlamenter rejimin en temel kuralı olan bakanların meclise karşı sorumluluğu ilkesi getirilmiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kanunuesasi, Osmanlı Devleti'nde hazırlanan ilk ve tek anayasadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kanunuesasi, Osmanlı İmparatorluğu'nun ilk ve son yazılı anayasası olma özelliğini taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "I. Meşrutiyet, 93 Harbi'nin başarıyla kazanılması sayesinde uzun yıllar kesintisiz devam etmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "I. Meşrutiyet 93 Harbi'nin çıkardığı kargaşa ve askeri yenilgiler ortamında II. Abdülhamit tarafından askıya alınmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "II. Meşrutiyet'in ilanı ile birlikte Osmanlı Devleti'nde çok partili siyasi hayata geçiş süreci başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1908 sonrasında kısıtlamaların kalkmasıyla birlikte farklı siyasi fırkalar ve partiler kurulmuş, çok partili hayata geçilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "1909 Anayasa değişiklikleri ile padişahın meclisi feshetme yetkisi tamamen kaldırılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Padişahın meclisi feshetme yetkisi tamamen kaldırılmamıştır ancak bu yetkinin kullanımı oldukça zorlaştırılmış ve meclisin onayına bağlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Jön Türkler, devletin dağılmasını önlemek amacıyla meşruti yönetim sistemine geçilmesi gerektiğini savunmuşlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genç Osmanlılar (Jön Türkler), azınlık ayaklanmalarını durdurmak ve devleti kurtarmak için meşrutiyeti ve anayasayı savunmuşlardır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2244,13 +4883,419 @@
           "id": "node1",
           "order": 1,
           "title": "Doğu Sorunu",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Doğu Sorunu (Kharik Mesele) ilk kez hangi uluslararası anlaşmada Osmanlı Devleti için kullanılmıştır?",
+                  "answer": "1815 Viyana Kongresi"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin dağılmasını önlemek amacıyla Avrupalı devletlerin izlediği mevcut dengeleri koruma politikasına ne denir?",
+                  "answer": "Denge Stratejisi"
+                },
+                {
+                  "question": "1833 yılında Osmanlı ile Rusya arasında imzalanan ve Boğazlar konusunda Rusya'ya ayrıcalık tanıyan anlaşma hangisidir?",
+                  "answer": "Hünkar İskelesi Antlaşması"
+                },
+                {
+                  "question": "1841 yılında Boğazların uluslararası statü kazandığı ve tüm yabancı savaş gemilerine kapatıldığı anlaşma hangisidir?",
+                  "answer": "Londra Boğazlar Sözleşmesi"
+                },
+                {
+                  "question": "Kırım Savaşı sonrasında Osmanlı Devleti'nin Avrupalı devlet sayılmasını ve toprak bütünlüğünün garanti edilmesini sağlayan anlaşma hangisidir?",
+                  "answer": "1856 Paris Antlaşması"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'ni paylaşma tasarılarının ve Doğu Sorunu'nun temelini oluşturan olay aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Küçük Kaynarca Antlaşması",
+                    "Hünkar İskelesi Antlaşması",
+                    "Berlin Antlaşması",
+                    "Viyana Kongresi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1774 Küçük Kaynarca Antlaşması ile Rusya'nın Karadeniz'e inmesi ve Ortodoksların koruyuculuğunu üstlenmesi Doğu Sorunu'nun ve Osmanlı topraklarını paylaşma projelerinin başlangıcı kabul edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki devletlerden hangisi 19. yüzyılda Doğu Sorunu çerçevesinde Osmanlı toprak bütünlüğünü koruma politikasından vazgeçerek doğrudan işgal politikasına yönelen ilk devletlerden biri olmuştur?",
+                  "options": [
+                    "Almanya",
+                    "İngiltere",
+                    "Rusya",
+                    "Fransa"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Rusya, geleneksel olarak sıcak denizlere inmek ve Boğazları ele geçirmek amacıyla Osmanlı toprak bütünlüğünü bozmaya yönelik politikalar izlemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1878 yılında toplanan Berlin Antlaşması ile ilgili olarak aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Girit'te Osmanlı Devleti tarafından ıslahat yapılması kararlaştırılmıştır.",
+                    "Kars, Ardahan ve Batum Rusya'ya bırakılmıştır.",
+                    "Osmanlı Devleti'nin dağılması tamamen durdurulmuştur.",
+                    "Sırbistan, Karadağ ve Romanya bağımsız olmuştur."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Berlin Antlaşması Osmanlı Devleti'nin dağılmasını durdurmamış, aksine Balkanlar'daki toprak kayıplarını ve paylaşım sürecini hızlandırmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mısır Valisi Kavalalı Mehmet Ali Paşa'nın isyanı sırasında Osmanlı Devleti'nin denge stratejisi gereği yardım istediği devlet aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İngiltere",
+                    "Fransa",
+                    "Rusya",
+                    "Avusturya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Osmanlı Devleti, Batılı devletlerden beklediği yardımı alamayınca denge stratejisi izleyerek 1833 yılında Rusya'dan yardım istemiştir ve Hünkar İskelesi Antlaşması imzalanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1853-1856 Kırım Savaşı'nı bitiren Paris Antlaşması'nda Osmanlı Devleti'nin lehine olan en önemli maddelerden biri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Balkanlar'daki azınlıklara tam bağımsızlık verilecektir.",
+                    "Osmanlı boğazlar üzerinde tek başına söz sahibi olacaktır.",
+                    "Rusya savaş tazminatı ödeyecektir.",
+                    "Osmanlı Devleti bir Avrupa devleti sayılacaktır."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Paris Antlaşması'nda Osmanlı Devleti'nin bir Avrupa devleti sayılması ve toprak bütünlüğünün Avrupalı devletlerin garantisi altında olması kabul edilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin 19. yüzyılda büyük devletlerin çıkarları arasındaki rekabetten yararlanarak varlığını sürdürme politikasına ____ denir.",
+                  "options": [
+                    "denge stratejisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denge stratejisi, Osmanlı Devleti'nin gücünün azaldığı dönemde devletler arası çıkar çatışmalarından faydalanarak ömrünü uzatma çabasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Doğu Sorunu tabiri ilk defa ____ Kongresi'nde Avrupalı devletler tarafından Osmanlı Devleti'ni paylaşma planları bağlamında kullanılmıştır.",
+                  "options": [
+                    "Viyana"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1815 Viyana Kongresi'nde Napolyon savaşları sonrasındaki Avrupa düzeni görüşülürken Osmanlı'nın durumu Doğu Sorunu olarak adlandırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırım Savaşı sırasında Osmanlı Devleti'ne ekonomik destek sağlamak amacıyla ilk kez dış borç alınan devlet ____ olmuştur.",
+                  "options": [
+                    "İngiltere"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım Savaşı'nın maliyetini karşılamak için 1854 yılında İngiltere'den ilk dış borç alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1878 yılında Osmanlı Devleti'nin Rusya karşısında ağır bir yenilgi almasıyla imzalanan fakat yürürlüğe girmeyen antlaşma ____ Antlaşması'dır.",
+                  "options": [
+                    "Ayastefanos"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ayastefanos Antlaşması Rusya'ya çok geniş haklar tanıdığı için İngiltere ve Avusturya'nın itirazıyla yürürlüğe girmemiş, yerine Berlin Antlaşması imzalanmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kavalalı Mehmet Ali Paşa sorununu çözmek ve Boğazlar meselesine uluslararası bir statü kazandırmak için toplanan konferans sonucunda ____ Boğazlar Sözleşmesi imzalanmıştır.",
+                  "options": [
+                    "Londra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1841 Londra Boğazlar Sözleşmesi ile Boğazlar Osmanlı egemenliğinde kalmış ancak yabancı savaş gemilerine kapatılmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Doğu Sorunu, 19. yüzyılda Avrupalı devletlerin Osmanlı topraklarını paylaşma ve Türkleri Avrupa'dan çıkarma politikalarıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Sorunu kavramı genel olarak Osmanlı İmparatorluğu'nun tasfiyesi ve topraklarının paylaşılmasını ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hünkar İskelesi Antlaşması ile Boğazlar sorunu kesin olarak çözülmüş ve uluslararası bir nitelik kazanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hünkar İskelesi Antlaşması geçici bir süre için Rusya'ya ayrıcalık tanımış olup Boğazlar sorununu uluslararası düzeyde çözmemiştir; bu durum 1841 Londra Sözleşmesi ile sağlanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kırım Savaşı'nda Osmanlı Devleti, İngiltere ve Fransa ile birlikte Rusya'ya karşı savaşmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırım Savaşı'nda Osmanlı Devleti, İngiltere, Fransa ve Piyemonte ile ittifak kurarak Rusya'ya karşı savaşmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Berlin Antlaşması ile Sırbistan, Karadağ ve Romanya bağımsızlıklarını kazanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Berlin Antlaşması sonucunda bu üç Balkan devleti Osmanlı'dan ayrılarak bağımsız olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti 19. yüzyılda uyguladığı denge stratejisi sayesinde hiçbir toprak kaybı yaşamamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denge stratejisi Osmanlı'nın ömrünü uzatmış olsa da Mısır, Cezayir, Tunus ve Balkanlar gibi pek çok bölgede büyük toprak kayıpları yaşanmasını engelleyememiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Denge Politikası",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nin dağılmayı önlemek amacıyla büyük devletlerin çıkarları arasındaki çelişkilerden yararlanarak uyguladığı dış politikaya ne ad verilir?",
+                  "answer": "Denge politikası"
+                },
+                {
+                  "question": "Osmanlı Devleti denge politikasını ilk kez hangi olay sırasında ve hangi devlete karşı uygulamıştır?",
+                  "answer": "Fransa'nın Mısır'ı işgali sırasında İngiltere ve Rusya'ya karşı"
+                },
+                {
+                  "question": "1833 yılında Osmanlı ile Rusya arasında imzalanan ve boğazlar konusunu düzenleyen ilk antlaşma hangisidir?",
+                  "answer": "Hünkar İskelesi Antlaşması"
+                },
+                {
+                  "question": "1841 Londra Boğazlar Sözleşmesi ile boğazların yönetimi hangi ilkeye bağlanmıştır?",
+                  "answer": "Boğazların kapalı olması ilkesi (Osmanlı'nın egemenliğinde)"
+                },
+                {
+                  "question": "Kırım Savaşı sonrasında Osmanlı Devleti'nin Avrupalı devlet sayıldığını ve toprak bütünlüğünün garanti altına alındığını belirten antlaşma hangisidir?",
+                  "answer": "Paris Antlaşması (1856)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti, XVIII. yüzyılın sonlarından itibaren güç kaybını durdurmak için 'denge politikası' izlemeye başlamıştır. Aşağıdaki devletlerden hangisi bu politikanın temel aktörlerinden biri olup Osmanlı toprak bütünlüğünü koruma politikasını ilk aşamada en çok savunan devlettir?",
+                  "options": [
+                    "Avusturya",
+                    "Rusya",
+                    "İngiltere",
+                    "Fransa"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İngiltere, sömürgelerine giden yolların güvenliği ve Hindistan ticaret yolları nedeniyle Rusya'nın Akdeniz'e inmesini engellemek istemiş, bu nedenle uzun süre Osmanlı'nın toprak bütünlüğünü koruma politikasını benimsemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti hangi gelişme sonrasında ilk kez denge politikasını uygulayarak büyük devletlerin diplomatik desteğini aramıştır?",
+                  "options": [
+                    "Küçük Kaynarca Antlaşması",
+                    "Berlin Antlaşması",
+                    "Napolyon'un Mısır'ı İşgali",
+                    "Kırım Savaşı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fransa'nın 1798'de Mısır'ı işgal etmesi üzerine Osmanlı Devleti tek başına karşı koyamayacağını anlayarak İngiltere ve Rusya'dan yardım istemiş, böylece denge politikasını fiilen başlatmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "1833 yılında imzalanan Hünkar İskelesi Antlaşması ile Osmanlı Devleti, boğazlar üzerindeki son tek yanlı egemenlik hakkını kullanmıştır. Bu antlaşma hangi devirde ve hangi devletle imzalanmıştır?",
+                  "options": [
+                    "Prusya",
+                    "Fransa",
+                    "İngiltere",
+                    "Rusya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Hünkar İskelesi Antlaşması, Mısır Sorunu nedeniyle sıkıntıya düşen Osmanlı Devleti ile Rusya arasında imzalanmış ve boğazlar konusunda Rusya'ya önemli ayrıcalıklar tanımıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kırım Savaşı sonrasında imzalanan 1856 Paris Antlaşması'nda Osmanlı Devleti'nin hangi statüde olduğu vurgulanmıştır?",
+                  "options": [
+                    "Tarafsız devlet",
+                    "Yarı sömürge devlet",
+                    "Avrupalı devlet",
+                    "Mağlup devlet"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paris Antlaşması'nda Osmanlı Devleti bir Avrupalı devlet sayılmış ve toprak bütünlüğü Avrupalı büyük devletlerin kefilliği altına alınmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı Devleti, dış politikada denge stratejisi izlerken genellikle hangi devletlerin rekabetinden yararlanmıştır?",
+                  "options": [
+                    "İspanya ve Portekiz",
+                    "İtalya ve Yunanistan",
+                    "İngiltere ve Rusya",
+                    "Hollanda ve İsveç"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Osmanlı Devleti denge politikasında özellikle sıcak denizlere inmek isteyen Rusya ile sömürgelerini korumak isteyen İngiltere arasındaki çıkar çatışmasından en çok faydalanmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nin XIX. yüzyılda Avrupalı devletlerin çıkarlarından yararlanarak varlığını sürdürme çabasına ____ politikası denir.",
+                  "options": [
+                    "denge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denge politikası, Osmanlı'nın zayıf döneminde büyük devletlerin rekabetinden faydalanarak ömrünü uzatma stratejisidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fransa'nın Mısır'ı işgali üzerine Osmanlı Devleti ilk kez Rusya ve ____ ile ittifak kurmuştur.",
+                  "options": [
+                    "İngiltere"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fransız tehdidine karşı Osmanlı Devleti, geleneksel düşmanı olan Rusya ve o dönemin denizci gücü İngiltere ile ortak hareket etmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Boğazların uluslararası bir statü kazandığı ve ilk kez ayrı bir sorun olarak ele alındığı antlaşma 1841 ____ Sözleşmesi'dir.",
+                  "options": [
+                    "Londra"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1841 Londra Boğazlar Sözleşmesi ile boğazlar Osmanlı egemenliğinde kapalı tutulacak, savaş gemilerine kapatılacaktı.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırım Savaşı'nda Osmanlı Devleti'ne yardıma gelen devletlerden biri de İtalya siyasi birliğini henüz kurmamış olan ____ Krallığı'dır.",
+                  "options": [
+                    "Piyemonte"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piyemonte (Sardinya) Krallığı, gelecekteki İtalya birliği için masada söz sahibi olmak amacıyla Kırım Savaşı'na Osmanlı yanında asker göndermiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin XIX. yüzyılda toprak bütünlüğünü koruma politikasından vazgeçip Almanya'ya yakınlaşmasında en önemli etkenlerden biri ____ Savaşı'dır.",
+                  "options": [
+                    "Birinci Dünya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1914 yılına gelindiğinde İngiltere ve Fransa'nın Osmanlı'yı paylaşma politikası izlemesi üzerine Osmanlı Devleti denge politikasını bırakarak Almanya ile ittifak yapmıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti denge politikasını ilk defa Kafkas cephesindeki askerî başarısızlıklar sonrasında uygulamaya başlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denge politikası Kafkas cephesiyle değil, XVIII. yüzyılın sonlarında Fransa'nın Mısır'ı işgaliyle ortaya çıkmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hünkar İskelesi Antlaşması ile Boğazlar sorunu ilk kez uluslararası bir nitelik kazanmış ve Rusya'ya avantaj sağlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1833 Hünkar İskelesi Antlaşması ile Rusya, Osmanlı'nın boğazlardaki haklarını kendi lehine kullanabileceği bir ayrıcalık elde etmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paris Antlaşması'nda Osmanlı Devleti galip devlet muamelesi görmüş ve Karadeniz'de donanma bulundurma hakkı verilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Osmanlı Kırım Savaşı'nı kazanmasına rağmen Paris Antlaşması'nda Karadeniz'de savaş gemisi bulundurması yasaklanmıştır, bu da antlaşmanın dengesizliğini gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İngiltere, XIX. yüzyılın başlarında Rusya'nın Akdeniz'e inmesini engellemek için Osmanlı'nın toprak bütünlüğünü desteklemiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İngiltere'nin sömürge yolları güvenliği açısından Rusya'nın sıcak denizlere inmesi en büyük tehlikeydi, bu yüzden Osmanlı'nın toprak bütünlüğü stratejik öneme sahipti.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Denge politikası sayesinde Osmanlı Devleti hiçbir toprak kaybı yaşamadan XX. yüzyıla girmeyi başarmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denge politikası Osmanlı'nın yıkılışını tamamen engellememiş, sadece süreci yavaşlatmış; bu süreçte Mısır, Tunus, Balkanlar ve Kuzey Afrika'da büyük toprak kayıpları yaşanmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2263,19 +5308,628 @@
           "id": "node1",
           "order": 1,
           "title": "Ekonomik Değişim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde XIX. yüzyılda geleneksel esnaf teşkilatının yerini almaya başlayan modern üretim birimleri nedir?",
+                  "answer": "Fabrikalar"
+                },
+                {
+                  "question": "Sanayi İnkılabı sonrasında Osmanlı ekonomisinin dışa açılmasıyla ülkeye giren ucuz ürünlerin adlandırıldığı genel ifade nedir?",
+                  "answer": "Avrupa malları"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı İmparatorluğu'nda iç ticaretin canlanmasında ve ulaşımın kolaylaşmasında en büyük paya sahip olan yeni ulaşım aracı nedir?",
+                  "answer": "Demiryolu"
+                },
+                {
+                  "question": "Osmanlı Devleti'nin dış borçlarını ödeyemez duruma gelmesi üzerine kurulan ve devletin gelir kaynaklarına el koyan uluslararası teşkilat nedir?",
+                  "answer": "Duyun-ı Umumiye"
+                },
+                {
+                  "question": "Osmanlı köylüsünün tarımsal üretim yapabilmek ve borçlarını ödeyebilmek için tefecilerin elinden kurtarılması amacıyla kurulan kredi kurumu nedir?",
+                  "answer": "Memleket Sandıkları"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı İmparatorluğu'nda XIX. yüzyılda yaşanan ekonomik değişimler göz önüne alındığında, aşağıdakilerden hangisi geleneksel ekonomik yapının çözülmesinde doğrudan etkili olmuştur?",
+                  "options": [
+                    "Avrupa'dan gelen ucuz ve seri üretim malların iç pazarı ele geçirmesi",
+                    "Osmanlı köylüsünün tamamen sanayi sektörüne yönelmesi",
+                    "Geleneksel lonca teşkilatının üretim kapasitesini katbekat artırması",
+                    "Ülke içindeki tüm ulaşımın deniz yollarıyla sınırlandırılması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi İnkılabı sonrasında Avrupa'da üretilen ucuz mallar, kapitülasyonların da etkisiyle Osmanlı iç pazarına girmiş ve yerli el sanatları ile lonca teşkilatının çökmesine neden olmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde 1838 yılında imzalanan Balta Limanı Ticaret Antlaşması'nın temel ekonomik sonucu aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Osmanlı ticaretinde yerli tüccarların yabancı tüccarlara karşı avantaj kazanması",
+                    "Yabancı tüccarlara tanınan gümrük kolaylıklarıyla iç pazarın dışa bağımlı hâle gelmesi",
+                    "Devletin tüm dış borçlarından tamamen kurtulması",
+                    "Tarım ürünleri ihracatının tamamen yasaklanması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Balta Limanı Ticaret Antlaşması, yabancı tüccarlara iç ticaret hakkı ve vergi kolaylıkları getirerek Osmanlı iç pazarını dış rekabete açık hâle getirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı Devleti'nde yabancı devletlerin demiryolu yapımına ağırlık vermesinin temel ekonomik amacı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Osmanlı köylüsüne ücretsiz ulaşım hizmeti sunmak",
+                    "Askerî birliklerin sınır ötesi sevkini hızlandırmak",
+                    "Anadolu'nun zengin hammadde kaynaklarını limanlara ve oradan Avrupa'ya taşımak",
+                    "Yerli demir çelik sanayisini desteklemek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yabancı devletler inşa ettikleri demiryolları sayesinde Osmanlı topraklarındaki tarım ve maden hammaddelerini kolayca kıyı limanlarına ulaştırıp kendi ülkelerine taşımışlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mithat Paşa tarafından kurulan ve daha sonra Ziraat Bankası'nın temelini oluşturan Memleket Sandıklarının kuruluş amacı nedir?",
+                  "options": [
+                    "Osmanlı memurlarının maaşlarını artırmak",
+                    "Köylüyü yüksek faiz veren tefecilerden koruyarak tarımsal krediler sağlamak",
+                    "Şehirlerdeki büyük fabrikalara sermaye desteği vermek",
+                    "İthalat vergilerini toplamak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Memleket Sandıkları, köylülerin tefecilerin eline düşmesini engellemek ve düşük faizli kredi sağlayarak tarımsal üretimi desteklemek amacıyla kurulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi Osmanlı Devleti'nin dış borçlarını ödeyememesi üzerine ilan ettiği ve mali iflasını belgeleyen gelişmedir?",
+                  "options": [
+                    "Islahat Fermanı",
+                    "Kanun-ı Esasi",
+                    "Muharrem Kararnamesi",
+                    "Sened-i İttifak"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Osmanlı Devleti 1881 yılında yayınladığı Muharrem Kararnamesi ile borçlarını ödeyemeyeceğini ilan etmiş ve ardından Duyun-ı Umumiye İdaresi kurulmuştur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde esnaf ve zanaatkârların üretim kalitesini ve fiyatlarını denetleyen geleneksel teşkilata ____ denir.",
+                  "options": [
+                    "lonca"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Lonca teşkilatı, Osmanlı'da üretim ve ticaretin kontrolünü elinde bulunduran geleneksel bir esnaf örgütlenmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilk dış borç ____ Savaşı sırasında İngiltere'den alınmıştır.",
+                  "options": [
+                    "Kırım"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı Devleti, Kırım Savaşı'nın mali yükünü karşılamak için ilk kez 1854 yılında dış borçlanmaya gitmiştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı İmparatorluğu'nun ekonomik bağımsızlığını büyük ölçüde zedeleyen ve yabancı devletlere geniş haklar tanıyan ____ Ticaret Antlaşması 1838'de imzalanmıştır.",
+                  "options": [
+                    "Balta Limanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1838 Balta Limanı Antlaşması, İngiltere'ye verilen ekonomik ayrıcalıklarla Osmanlı'nın dışa bağımlılığını artırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'nın iflası sonrasında alacaklı devletlerin kurduğu ve devlet gelirlerinin bir kısmına el koyan idarenin adı ____ İdaresi'dir.",
+                  "options": [
+                    "Duyun-ı Umumiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Duyun-ı Umumiye, yabancı alacaklıların Osmanlı gelirlerinin belirli kalemlerini doğrudan topladığı borç idaresidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Memleket Sandıklarının temelini attığı ve çiftçilere kredi sağlayan günümüz bankası ____ Bankası'dır.",
+                  "options": [
+                    "Ziraat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Memleket Sandıkları zamanla geliştirilerek Ziraat Bankası adını almıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sanayi İnkılabı sonrasında Osmanlı İmparatorluğu, ucuz Avrupa mallarının ülkeye girmesiyle birlikte açık pazar hâline gelmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Avrupa'da seri üretimle üretilen ucuz mallar kapitülasyonların da etkisiyle Osmanlı pazarını doldurmuş ve yerli üretimi olumsuz etkilemiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Balta Limanı Ticaret Antlaşması ile Osmanlı tüccarları iç ticarette yabancı tüccarlardan daha avantajlı konuma gelmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aksine, antlaşma yabancı tüccarlara yerli tüccarlardan daha düşük vergi oranları sunarak yabancıları avantajlı hâle getirmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Duyun-ı Umumiye İdaresi'nin kurulması, Osmanlı Devleti'nin ekonomik bağımsızlığını zedeleyen bir gelişmedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Osmanlı gelirlerinin yabancı devlet temsilcilerinin kontrolündeki bir kuruma devredilmesi ekonomik bağımsızlığın yitirildiğini gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "XIX. yüzyılda demiryolu yapımı Osmanlı Devleti'nin ekonomik olarak dışa bağımlılığını tamamen ortadan kaldırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Demiryolları genellikle yabancı sermaye ve imtiyazlarla yapıldığı için Osmanlı'nın dışa bağımlılığını azaltmamış, aksine artırmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti XIX. yüzyılda ilk defa dış borç alarak mali yapısını güçlendirmeyi ve bütçe açıklarını kapatmayı amaçlamıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Savaş giderleri ve artan masraflar nedeniyle bütçe açıkları veren devlet, Kırım Savaşı sırasında dış borçlanmaya yönelmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Toplumsal Değişim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde XIX. yüzyılda geleneksel esnaf teşkilatının zayıflamasında etkili olan ana ekonomik gelişme nedir?",
+                  "answer": "Avrupalı devletlerle imzalanan serbest ticaret anlaşmaları ve ucuz Avrupa mallarının iç pazarı istila etmesi."
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı şehirlerinde modern belediyecilik hizmetlerinin ilk yasal düzenlemesi hangi gelişmeyle başlamıştır?",
+                  "answer": "1854 yılında İstanbul'da kurulan Şehremaneti (Belediye Teşkilatı) ile."
+                },
+                {
+                  "question": "Osmanlı Devleti'nde sosyal hayatı modernleştirmek amacıyla erkeklerin fes giymesi hangi padişah döneminde zorunlu hale getirilmiştir?",
+                  "answer": "II. Mahmud döneminde."
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı İmparatorluğu'nda geleneksel eğitime alternatif olarak açılan ve batı tarzı eğitim veren orta öğretim kurumlarına ne ad verilir?",
+                  "answer": "Rüştiye."
+                },
+                {
+                  "question": "Osmanlı toplumunda köleliğin ve esir ticaretinin yasaklanması süreci hangi fermanla hız kazanmıştır?",
+                  "answer": "Tanzimat Fermanı ve sonrasında yayımlanan ıslahat kararlarıyla."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde XIX. yüzyılda yaşanan toplumsal değişimler arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Lonca teşkilatının güçlenerek ekonomideki denetimini artırması",
+                    "Geleneksel kıyafet düzenlemelerinin yapılması",
+                    "Batı tarzı eğitim veren okulların açılması",
+                    "Şehirlerde nüfus artışına bağlı olarak belediye hizmetlerinin zorunlu hale gelmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "XIX. yüzyılda Avrupa ile yapılan serbest ticaret anlaşmaları ve kapitalist gelişmeler sonucunda lonca teşkilatı güçlenmemiş, aksine büyük bir çöküş yaşamıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı İmparatorluğu'nda kılık kıyafet alanındaki değişimlerle ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                  "options": [
+                    "II. Mahmud döneminde sarık ve kavuk yasaklanarak fes giyme zorunluluğu getirilmiştir.",
+                    "Şapka Kanunu XIX. yüzyılın başlarında çıkarılmıştır.",
+                    "Kıyafet inkılabı ilk kez Kanunİ Esasi ile uygulamaya konulmuştur.",
+                    "Kadınların giyim tarzı XIX. yüzyılda tamamen batılılaşmıştır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "II. Mahmud döneminde yapılan kıyafet düzenlemeleri ile askeri ve mülki erkana fes, pantolon ve ceket zorunluluğu getirilmiş, kavuk ve sarık kullanımı sınırlandırılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı şehirlerindeki sosyal yapının değişmesinde en önemli etkenlerden biri aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İç göçler ve özellikle gayrimüslim tebaanın kırsaldan şehirlere akını",
+                    "Köylerde sanayi inkılabının tamamlanması",
+                    "Deniz ticaretinin tamamen Osmanlı kontrolüne geçmesi",
+                    "Tarım üretiminin tamamen makineleşmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "XIX. yüzyılda güvenlik sorunları, toprak kayıpları ve ekonomik nedenlerle kırsaldan şehirlere doğru yoğun bir göç dalgası yaşanmış, bu durum şehirlerin demografik yapısını değiştirmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde modern anlamda nüfus sayımları ilk kez hangi amaçla yapılmıştır?",
+                  "options": [
+                    "Zorunlu ilköğretim yaşını tespit etmek amacıyla",
+                    "Kadınların seçme ve seçilme hakkını düzenlemek amacıyla",
+                    "Askeri ve vergi potansiyelini belirlemek amacıyla",
+                    "Yurtdışına göçleri tamamen engellemek amacıyla"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "II. Mahmud döneminde yapılan ilk nüfus sayımları, askeri amaçla asker alımını planlamak ve vergi mükelleflerini tespit etmek için gerçekleştirilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "XIX. yüzyılın sonlarında Osmanlı eğitim sisteminde yaşanan değişimlerle ilgili aşağıdakilerden hangisi söylenebilir?",
+                  "options": [
+                    "Medreselerin yanı sıra batı tarzı meslek ve yüksekokulların açılması yaygınlaşmıştır.",
+                    "Eğitim birliği (Tevhid-i Tedrisat) sağlanmıştır.",
+                    "Okuma yazma oranı Cumhuriyet dönemindeki seviyeye ulaşmıştır.",
+                    "Eğitim tamamen ücretsiz ve zorunlu hale getirilmiştir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "XIX. yüzyılda geleneksel eğitim veren medreseler varlığını sürdürürken, devletin ihtiyaç duyduğu nitelikli memur ve uzmanları yetiştirmek için batı tarzı mektepler açılmıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde II. Mahmud döneminde memurların kıyafetlerinde yapılan düzenleme ile sarık ve kavuk yerine ____ giyilmesi zorunlu kılınmıştır.",
+                  "options": [
+                    "fes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "II. Mahmud, kıyafet reformu kapsamında fesi resmi başlık olarak kabul etmiş ve bu durum sosyal hayatta kalıcı bir değişim yaratmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı şehirlerinde ulaşım alanındaki en büyük değişimlerden biri şehir içi taşımacılıkta ____ hatlarının kurulmasıdır.",
+                  "options": [
+                    "tramvay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "XIX. yüzyılın sonlarına doğru büyük şehirlerde (özellikle İstanbul'da) atlı tramvaylar hizmete girmiş, bu da sosyal ve günlük yaşamı kolaylaştırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı İmparatorluğu'nda batı tarzı ilk modern eğitim kurumlarının açılması ve yaygınlaşması ____ Fermanı ile ivme kazanmıştır.",
+                  "options": [
+                    "Tanzimat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1839 yılında ilan edilen Tanzimat Fermanı, toplumsal alanda olduğu gibi eğitim alanında da batılılaşma çabalarını hızlandırmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "XIX. yüzyılda geleneksel el sanatlarının gerilemesine yol açan en önemli etken ucuz ____ mallarının Osmanlı pazarlarına girmesidir.",
+                  "options": [
+                    "Avrupa"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi İnkılabını gerçekleştiren Avrupalı devletler, kapitülasyonların da etkisiyle Osmanlı pazarını ucuz fabrika ürünleriyle doldurmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde ilk nüfus sayımı II. Mahmud döneminde sadece ____ nüfusunu belirlemek amacıyla yapılmıştır.",
+                  "options": [
+                    "erkek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Askeri amaçla yapılan bu ilk sayımlarda sadece erkek nüfus sayılmış, kadınlar sayıma dâhil edilmemiştir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "XIX. yüzyılda Osmanlı Devleti'nde Sanayi İnkılabı'nın etkisiyle esnaf teşkilatı (loncalar) güçlenerek ekonomideki hakimiyetini artırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi İnkılabı ile birlikte loncalar ucuz ithal mallarla rekabet edemeyerek zayıflamış ve zamanla tasfiye olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "II. Mahmud döneminde yapılan düzenlemelerle memurlara pantolon, ceket ve fes giyme zorunluluğu getirilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu kıyafet reformu, Osmanlı erkeklerinin dış görünüşünde geleneksel tarzdan batılı tarza geçişin önemli bir basamağıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı şehirlerinde nüfus artışını düzenlemek ve altyapı sorunlarını çözmek amacıyla Şehremaneti kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şehremaneti, İstanbul'un belediyecilik ve şehircilik hizmetlerini yürütmek üzere kurulan ilk modern teşkilattır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde XIX. yüzyılda yapılan tüm nüfus sayımlarında kadın ve erkek nüfus eşit şekilde sayılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "II. Mahmud dönemindeki ilk nüfus sayımları yalnızca askeri ve vergi amaçlı olduğu için sadece erkek nüfus kaydedilmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "XIX. yüzyılda eğitim alanında yapılan yenilikler sadece medreselerin modernleştirilmesiyle sınırlı kalmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Medreselerin yanında batı tarzı rüştiye, idadi ve sultani gibi yeni eğitim kurumları ile meslek okulları da açılmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Kültür ve Eğitim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Osmanlı Devleti'nde XIX. yüzyılda Batı tarzı eğitim veren ilk yükseköğretim kurumu hangisidir?",
+                  "answer": "Mühendishane-i Berri Hümayun"
+                },
+                {
+                  "question": "İlköğretimi zorunlu hale getiren ve II. Mahmud döneminde çıkarılan ferman hangisidir?",
+                  "answer": "Tifliz ve Medâris Nizamnamesi ile çıkarılan ilköğretim zorunluluğu kararları"
+                },
+                {
+                  "question": "Tanzimat Dönemi'nde öğretmen yetiştirmek amacıyla açılan ilk kurum hangisidir?",
+                  "answer": "Darülmuallimîn"
+                },
+                {
+                  "question": "Cumhuriyet döneminde medreselerin kapatılması hangi kanunla gerçekleşmiştir?",
+                  "answer": "Tevhid-i Tedrisat Kanunu"
+                },
+                {
+                  "question": "Kız öğrencilerin orta öğretim düzeyinde eğitim alması için açılan ilk öğretmen okulunun adı nedir?",
+                  "answer": "Darülmuallimât"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde eğitim birliğini sağlamak ve dağınıklığı ortadan kaldırmak amacıyla çıkarılan kanun hangisidir?",
+                  "options": [
+                    "Tevhid-i Tedrisat Kanunu",
+                    "Maarif-i Umumiye Nizamnamesi",
+                    "Medeni Kanun",
+                    "Tanzimat Fermanı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "3 Mart 1924 tarihinde kabul edilen Tevhid-i Tedrisat Kanunu ile ülkedeki tüm eğitim kurumları Millî Eğitim Bakanlığına bağlanmış ve eğitimde birlik sağlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi II. Mahmud döneminde eğitim alanında yapılan yeniliklerden biri değildir?",
+                  "options": [
+                    "İlköğretimin İstanbul'da zorunlu hale getirilmesi",
+                    "Mekteb-i Sultani'nin kurulması",
+                    "Muzika-yi Hümayun'un açılması",
+                    "Avrupa'ya öğrenci gönderilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mekteb-i Sultani (Galatasaray Lisesi) Abdülaziz döneminde, 1868 yılında açılmıştır. Diğer seçenekler II. Mahmud dönemi gelişmeleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Osmanlı Devleti'nde Batılı anlamda ilk kez genel bir eğitim teşkilatını düzenleyen ve maarif müdürlüklerini kuran yasal düzenleme hangisidir?",
+                  "options": [
+                    "Islahat Fermanı",
+                    "Maarif-i Umumiye Nizamnamesi",
+                    "Kanun-ı Esasi",
+                    "Sened-i İttifak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1869 yılında yayımlanan Maarif-i Umumiye Nizamnamesi, Osmanlı eğitim sistemini ilköğretimden üniversiteye kadar kademelendiren kapsamlı bir nizamnamedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Cumhuriyet döneminde harf inkılabı hangi yıl gerçekleştirilmiştir?",
+                  "options": [
+                    "1926",
+                    "1923",
+                    "1924",
+                    "1928"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yeni Türk harfleri, 1 Kasım 1928 tarihli ve 1353 sayılı Kanun ile kabul edilmiş ve ülke genelinde uygulamaya konulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "XIX. yüzyılda Osmanlı Devleti'nde açılan Darülfünun günümüzdeki hangi kurumun temelini oluşturur?",
+                  "options": [
+                    "Milli Eğitim Bakanlığı",
+                    "İstanbul Üniversitesi",
+                    "Ankara Üniversitesi",
+                    "Türk Dil Kurumu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "XIX. yüzyılda kurulan Darülfünun, Osmanlı'nın ilk modern üniversitesi olup günümüz İstanbul Üniversitesi'nin temelini oluşturur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Osmanlı Devleti'nde ilk kez orta ve yüksek eğitim kurumlarına öğretmen yetiştirmek amacıyla açılan erkek öğretmen okulunun adı ____ olarak bilinir.",
+                  "options": [
+                    "Darülmuallimîn"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Darülmuallimîn, 1848 yılında erkek öğretmen yetiştirmek üzere kurulmuş ilk modern öğretmen okuludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "1924 yılında yabancı okulların uyması gereken kuralları belirleyen ve onların Türk denetimine girmesini sağlayan düzenleme ____ Kanunudur.",
+                  "options": [
+                    "Tevhid-i Tedrisat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tevhid-i Tedrisat Kanunu ile Türkiye sınırları içindeki tüm okullar MEB'e bağlanmış, yabancı ve azınlık okulları da bu kanun kapsamına alınmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cumhuriyet döneminde halkın okuma yazma öğrenmesini ve kültürel düzeyini artırmak amacıyla 1928 yılında kurulan eğitim kurumları ____ adını almıştır.",
+                  "options": [
+                    "Millet Mektepleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Millet Mektepleri, yeni harflerin kabulünden sonra halka okuma yazma öğretmek amacıyla açılan yaygın eğitim kurumlarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Osmanlı'da Batı tarzı askeri uzman yetiştirmek üzere açılan ilk mühendislik okulu ____-i Berri Hümayun'dur.",
+                  "options": [
+                    "Mühendishane"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "III. Selim döneminde orduyu modernize etmek amacıyla Mühendishane-i Berri Hümayun kurulmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "XIX. yüzyılda kız çocuklarının eğitimi için orta kademede öğretmen yetiştirmek amacıyla açılan okul ____ olarak adlandırılır.",
+                  "options": [
+                    "Darülmuallimât"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kız öğretmen okulu olan Darülmuallimât, 1870 yılında eğitim hayatına başlamıştır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tevhid-i Tedrisat Kanunu ile ülkedeki tüm medreseler kapatılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tevhid-i Tedrisat Kanunu çıkarıldığında medbeler hemen kapatılmamış, Şer'iye ve Evkaf Vekaletinden alınarak Maarif Vekaletine bağlanmıştır; kısa bir süre sonra ise kapatılmışlardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maarif-i Umumiye Nizamnamesi, Osmanlı eğitim sistemini ilköğretimden üniversiteye kadar kademelendiren ilk genel nizamnamedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1869 tarihli Maarif-i Umumiye Nizamnamesi ile Osmanlı eğitim sistemi ilk kez sistemli ve kademeli bir yapıya kavuşturulmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Harf inkılabı ile birlikte ülkede Arap alfabesinin kullanımı tamamen yasaklanmamış, bir süre ikisi birlikte kullanılmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1 Kasım 1928 tarihli kanunla yeni Türk harfleri kabul edilmiş ve resmi ile kamusal alanda eski Arap harflerinin kullanımı yasaklanmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Cumhuriyet döneminde millet mekteplerinin açılması halk eğitimine verilen önemin bir göstergesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Millet Mektepleri, her yaştan vatandaşa okuma yazma öğretmek amacıyla yaygın eğitim faaliyeti olarak açılmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "II. Mahmud döneminde ilköğretim ülke genelinde tamamen zorunlu ve parasız hale getirilmiştir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "II. Mahmud döneminde ilköğretim sadece İstanbul'da zorunlu hale getirilmiş, ülke geneline hemen yayılamamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

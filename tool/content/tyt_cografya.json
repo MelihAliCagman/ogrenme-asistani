@@ -1088,7 +1088,7 @@
                 },
                 {
                   "question": "Dağ yamaçları boyunca yükselen hava kütlelerinin oluşturduğu yağışlara ne ad verilir?",
-                  "answer": "Orografik (Yamac) yağışları"
+                  "answer": "Orografik (Yamaç) yağışları"
                 }
               ]
             }
@@ -3176,13 +3176,419 @@
           "id": "node2",
           "order": 2,
           "title": "Göçler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "İç göç nedir?",
+                  "answer": "Ülke sınırları içinde, bir yerleşim biriminden diğerine yapılan göçlerdir."
+                },
+                {
+                  "question": "Beyin göçü ne anlama gelir?",
+                  "answer": "Nitelikli ve iyi eğitimli insan gülücünün gelişmiş ülkelere gitmesidir."
+                },
+                {
+                  "question": "Mübadele göçü zorunlu mu gönüllü müdür?",
+                  "answer": "Zorunlu göç türüdür."
+                },
+                {
+                  "question": "Tarımda makineleşme hangi yönde göçe neden olur?",
+                  "answer": "Kırsaldan kente doğru göçe neden olur."
+                },
+                {
+                  "question": "Kırsal nüfusun en önemli itici gücü nedir?",
+                  "answer": "Geçim sıkıntısı ve iş imkanlarının kısıtlı olmasıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi iç göçlerin neden olduğu sonuçlardan biri değildir?",
+                  "options": [
+                    "Kentlerde konut sıkıntısının artması",
+                    "Tarım alanlarının tarım dışı amaçlarla kullanılması",
+                    "Kırsal kesimde iş gücü açığının kapanması",
+                    "Altyapı hizmetlerinin yetersiz kalması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İç göçler kırsaldan kente doğru gerçekleştiği için kırsal kesimde iş gücü açığı kapanmaz, aksine tarımda çalışan nüfus azalır ve iş gücü sıkıntısı yaşanabilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki göç türlerinden hangisi diğerlerinden farklı bir nedene dayanır?",
+                  "options": [
+                    "Suriye'den Türkiye'ye yaşanan sığınmacı akınları",
+                    "1923 Türk-Yunan nüfus mübadelesi",
+                    "Doğal afetler nedeniyle yapılan köy nakilleri",
+                    "Yaz mevsiminde tarım işçilerinin Çukurova'ya gitmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yaz aylarında tarım işçilerinin gitmesi geçici ve mevsimlik bir göçtür. Diğerleri ise zorunlu ya da kalıcı göçler arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ülkelerden hangisi tarihte en fazla beyin göçü veren ülkeler arasında yer alırken günümüzde daha çok beyin göçü almaktadır?",
+                  "options": [
+                    "Nijerya",
+                    "Afganistan",
+                    "Amerika Birleşik Devletleri",
+                    "Hindistan"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Amerika Birleşik Devletleri geçmişten bu yana dünyaya en çok beyin göçü çeken gelişmiş ülkelerden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de 1950'li yıllardan sonra hızlanan kırdan kente göçün temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "İklim değişiklikleri",
+                    "Tarımda makineleşme ve kırsalda iş imkanlarının azalması",
+                    "Eğitim kurumlarının köyde artması",
+                    "Sanayi tesislerinin köylere kurulması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1950'li yıllarda tarımda makinelerin kullanılmaya başlanması insan gücüne duyulan ihtiyacı azaltmış ve kırsaldan kente göçü tetiklemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi dış göçlerin ortaya çıkmasında etkili olan sosyal ve siyasi nedenlerden biridir?",
+                  "options": [
+                    "Savaşlar ve baskılar",
+                    "Depremler ve seller",
+                    "Toprak verimsizliği",
+                    "İklim koşulları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Savaşlar, siyasi baskılar ve can güvenliğinin tehlikeye girmesi dış göçlerin en önemli sosyal ve siyasi nedenlerindendir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Ülke sınırları içinde bir yerleşmeden diğerine yapılan nüfus hareketlerine ____ göç denir.",
+                  "options": [
+                    "iç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sınırlar dışına çıkılmadan gerçekleştirilen göçler iç göç olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki ülke arasında yapılan anlaşma gereği vatandaşların karşılıklı olarak yer değiştirmesine ____ denir.",
+                  "options": [
+                    "mübadele"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nüfus değişimi anlamına gelen mübadele zorunlu bir göç türüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yılın belirli dönemlerinde tarım, turizm gibi nedenlerle yapılan göçlere ____ göç denir.",
+                  "options": [
+                    "mevsimlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçici sürelerle yapılan ve yılın belli aylarında tekrarlanan göçler mevsimlik göçlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İyi eğitimli ve nitelikli insan gücünün gelişmiş ülkelere gitmesine ____ göçü denir.",
+                  "options": [
+                    "beyin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nitelikli insan kaynağının gelişmiş ülkelere göç etmesi beyin göçü olarak tanımlanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırsal kesimden kentlere göçün en önemli ekonomik nedeni ____ olanaklarının yetersizliğidir.",
+                  "options": [
+                    "iş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kırsal alanda iş imkanlarının kısıtlı olması göçün temel itici ekonomik sebebidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Mübadele göçü gönüllü yapılan bir göç türüdür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mübadele, devletler arası anlaşmalarla zorunlu olarak gerçekleştirilen bir nüfus değişim sürecidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayileşmiş kentler genellikle göç alan yerleşim yerleridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi tesislerinin varlığı iş imkanları yarattığı için kentler dışarıdan çok fazla göç alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğal afetler kısa süreli ve zorunlu iç göçlere neden olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deprem, heyelan ve sel gibi afetler insanları yerlerinden ederek zorunlu göçlere yol açar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Beyin göçü genellikle az gelişmiş ülkelerden gelişmiş ülkelere doğru gerçekleşir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nitelikli iş gücü, daha iyi imkanlar ve araştırma olanakları bulduğu için gelişmiş ülkelere göç eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mevsimlik göçler kalıcı yerleşim değişimleri sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mevsimlik göçler geçici niteliktedir ve belirli bir süre sonra insanların kendi memleketlerine dönmesiyle sonuçlanır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Yerleşme",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Geçici yerleşmelerin ortaya çıkmasında en önemli ekonomik faaliyet hangisidir?",
+                  "answer": "Hayvancılık"
+                },
+                {
+                  "question": "Türkiye'de köy altı yerleşmelerinden olan kom, mezra ve yayla en yaygın olarak hangi amaçla kurulmuştur?",
+                  "answer": "Hayvancılık ve tarım"
+                },
+                {
+                  "question": "Kırsal yerleşmelerde toplu dokunun görülmesinde en temel etken nedir?",
+                  "answer": "Su kaynaklarının az ve sınırlı olması"
+                },
+                {
+                  "question": "Dünya üzerinde ilk yerleşmelerin kurulduğu yerler genellikle hangi iklim kuşağındadır?",
+                  "answer": "Ilıman kuşak"
+                },
+                {
+                  "question": "Mesken yapımında kullanılan malzemenin doğal çevreye uygun olmasını belirleyen en önemli faktör nedir?",
+                  "answer": "İklim ve bitki örtüsü"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dağınık yerleşme dokusunun yaygın olarak görülmesinde etkili olan faktörlerden biridir?",
+                  "options": [
+                    "Su kaynaklarının sınırlı ve ortak kullanılması",
+                    "Yer şekillerinin engebeli ve tarım alanlarının parsel parsel olması",
+                    "Arazi pürüzsüz ve düz olduğu için toplulaştırma yapılması",
+                    "İklimin kurak geçmesi nedeniyle suya yakın olma zorunluluğu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dağınık yerleşmeler, yer şekillerinin engebeli olduğu ve su kaynaklarının bol olduğu alanlarda, konutların tarım arazilerine yakın olmak için birbirinden uzak kurulmasıyla ortaya çıkar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki köy altı yerleşmelerinden hangisi geçici yerleşme sınıfına girmez?",
+                  "options": [
+                    "Mezra",
+                    "Kom",
+                    "Ağıl",
+                    "Yayla"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mezra, Türkiye'de genellikle tarım ve hayvancılık yapılan, kalıcı özellik kazanmış bir köy altı yerleşmesidir. Yayla, ağıl ve kom ise genellikle geçici yerleşmelerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk yerleşmelerin kurulduğu bölgeler incelendiğinde aşağıdakilerden hangisinin ortak bir özellik olduğu görülür?",
+                  "options": [
+                    "Kurak çöllere yakın tuzlu göl çevreleri",
+                    "Verimli tarım toprakları ve akarsu kenarları",
+                    "Yüksek dağlık ve soğuk platolar",
+                    "Yoğun orman örtüsüyle kaplı havasız vadiler"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İlk medeniyetler ve yerleşmeler, tarım yapmaya elverişli alüvyon tabanlı vadilerde ve su kaynaklarına yakın çevrelerde kurulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya genelinde nüfusun ve yerleşmenin seyrek olduğu alanlar düşünüldüğünde, aşağıdakilerden hangisi bu duruma örnek gösterilemez?",
+                  "options": [
+                    "Batı Avrupa",
+                    "Grönland Adası",
+                    "Atakama Çölü",
+                    "Amazon Havzası"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Batı Avrupa, sanayi, ticaret ve uygun iklim koşulları sayesinde dünyanın en yoğun nüfuslu ve sık yerleşilmiş bölgelerinden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kırsal kesimde kerpiç evlerin yaygın olarak görüldüğü bir yöre için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+                  "options": [
+                    "Yıllık yağış miktarının çok fazla olduğu",
+                    "Yazları sıcak ve kurak, kışları ılık geçtiği",
+                    "Orman örtüsünün zayıf, toprak malzemenin bol olduğu",
+                    "Yerin tektonik deprem kuşakları üzerinde yer aldığı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kerpiç meskenler, odun malzemenin (ormanın) yetersiz olduğu ve toprağın güneş altında kurutularak yapı malzemesine dönüştürüldüğü kurak veya yarı kurak alanlarda yaygındır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Konutların birbirine çok yakın olduğu, ortak kullanım alanlarının paylaşıldığı kırsal yerleşme dokusuna ____ yerleşme denir.",
+                  "options": [
+                    "toplu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su kaynaklarının az olduğu veya arazi şartlarının elverişsiz olduğu yerlerde konutlar bir arada bulunur ve buna toplu yerleşme denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yılın sadece belirli dönemlerinde hayvancılık veya tarım amacıyla kullanılan yerleşmelere ____ yerleşme adı verilir.",
+                  "options": [
+                    "geçici"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yılın tamamında yaşanmayan, mevsimsel olarak göç edilen yerleşmeler geçici köy altı yerleşmeleri olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karadeniz bölgesinde dağ eteklerinde genellikle hayvancılık amacıyla kurulan yazlık geçici yerleşmelere ____ denir.",
+                  "options": [
+                    "yayla"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yayla, özellikle yaz aylarında otlaklardan yararlanmak ve serinlemek amacıyla çıkılan geçici kırsal yerleşmelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mesken yapımında ahşap malzemenin yaygın olarak kullanılması, o bölgede ____ örtüsünün gür olduğunu gösterir.",
+                  "options": [
+                    "orman"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ahşap evlerin yaygınlığı doğrudan o bölgedeki orman varlığı ve ağaç çeşitliliği ile ilişkilidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İdari ve ekonomik fonksiyonlarına göre şehirler; tarım, ticaret, turizm ve ____ şehirleri gibi sınıflara ayrılır.",
+                  "options": [
+                    "sanayi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şehirler ön planda tuttukları ekonomik faaliyet kollarına göre sanayi, liman, idari, turizm gibi çeşitli fonksiyonel özellikler kazanır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dünyada ilk yerleşmelerin kuruluşunda su kaynaklarının varlığı en belirleyici faktör olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su, hem içme ihtiyacını karşılamak hem de tarımsal sulama yapmak için ilk insanların yer seçerken dikkat ettiği en temel unsurdur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kutup bölgelerinde ve yüksek dağlık alanlarda iklim şartları elverişsiz olduğu için yerleşmeler oldukça yoğundur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kutup bölgeleri ve yüksek dağlık alanlar aşırı soğuk ve elverişsiz iklim koşulları nedeniyle dünya üzerinde nüfusun ve yerleşmenin en seyrek olduğu yerlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mezra, Türkiye'de genellikle Doğu ve Güneydoğu Anadolu bölgelerinde görülen kalıcı bir köy altı yerleşmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mezralar birkaç ev ve tarım arazisinden oluşan, çoğunlukla kalıcı nitelik taşıyan kırsal yerleşme tiplerindendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Engebeli arazi yapısına sahip yerlerde konutların birbirinden uzak kurulması toplu yerleşmeyi ortaya çıkarır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Engebeli arazi yapısına sahip yerlerde tarım alanları parçalı olduğu için konutlar dağınık yerleşme dokusu oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Fonksiyonel özelliklerine göre bazı şehirler birden fazla ekonomik faaliyetin merkezini oluşturabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Büyük şehirler hem sanayi hem ticaret hem de turizm gibi birden fazla fonksiyonu aynı anda barındırabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3195,19 +3601,628 @@
           "id": "node1",
           "order": 1,
           "title": "Tarım ve Hayvancılık",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de en yaygın yapılan tarım metodu hangisidir?",
+                  "answer": "Kuru tarım"
+                },
+                {
+                  "question": "Yaz kuraklığı isteyen ve Akdeniz iklimine en uygun tahıl hangisidir?",
+                  "answer": "Buğday"
+                },
+                {
+                  "question": "Mera hayvancılığının en yaygın olduğu coğrafi bölge hangisidir?",
+                  "answer": "Doğu Anadolu"
+                },
+                {
+                  "question": "Sanayi hammaddesi olarak yetişen ve Karadeniz iklimine bağımllığı yüksek tarım ürünü hangisidir?",
+                  "answer": "Çay"
+                },
+                {
+                  "question": "Kümes hayvancılığı genellikle hangi yerleşim birimlerinin yakınında gelişmiştir?",
+                  "answer": "Büyük şehirler"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki tarım ürünlerinden hangisinin yetişme alanı iklim seçiciliği açısından en dardır?",
+                  "options": [
+                    "Buğday",
+                    "Arpa",
+                    "Muz",
+                    "Mercimek"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Muz, tropikal iklim koşulları gerektirdiğinden Türkiye'de sadece Akdeniz Bölgesi'nin belirli kıyı kesimlerinde (özellikle Anamur çevresinde) yetişir, bu nedenle iklim seçiciliği çok dardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki hayvancılık türlerinden hangisinde iklim ve otlak koşullarına bağlılık en azdır?",
+                  "options": [
+                    "Mera hayvancılığı",
+                    "Ahır hayvancılığı",
+                    "İpekböcekçiliği",
+                    "Kıl keçisi yetiştiriciliği"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ahır hayvancılığı kapalı ortamlarda yapıldığı ve yem takviyesi sağlandığı için doğal iklim ve otlak koşullarına bağlılık en az olan hayvancılık türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de devlet kontrolünde üretilen tarım ürünleri arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Buğday",
+                    "Haşhaş",
+                    "Tütün",
+                    "Kenevir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Buğday, stratejik bir ürün olmasına rağmen üretiminde devlet kontrolü veya sınırlaması bulunmaz; dileyen her çiftçi buğday ekebilir. Haşhaş ve kenevir uyuşturucu yapımı nedeniyle, tütün ise kalite kontrolü amacıyla devlet denetimindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yıl içi yağış düzenli olduğu için iklim şartlarına bağlı olarak sulamaya en az ihtiyaç duyan bölgemiz hangisidir?",
+                  "options": [
+                    "Karadeniz Bölgesi",
+                    "Akdeniz Bölgesi",
+                    "İç Anadolu Bölgesi",
+                    "Güneydoğu Anadolu Bölgesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi her mevsim yağış aldığı için doğal olarak nemlidir ve tarımda sulama ihtiyacının en az olduğu bölgemizdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisinde ipekböcekçiliği faaliyetleri son yıllarda sentetik ipeğin yaygınlaşması ve dut ağaçlarının azalmasıyla en çok gerilemiştir?",
+                  "options": [
+                    "İzmir",
+                    "Bursa",
+                    "Adana",
+                    "Antalya"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bursa, tarihi ipek ticaret yolu ve ipek kozası üretimiyle bilinmesine rağmen günümüzde sanayileşme ve tarım alanlarının azalması nedeniyle ipekböcekçiliğinde gerileme yaşamıştır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tarım alanlarının yetersiz olduğu veya engebeli arazilerin bulunduğu yerlerde tarımda makineleşme oranının ____ olması beklenir.",
+                  "options": [
+                    "düşük"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Engebeli ve dağlık arazilerde traktör ve biçerdöver gibi tarım makinelerinin kullanımı zor olduğundan makineleşme oranı düşük kalır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Doğu Anadolu Bölgesi'nde yükseltinin ve otlakların fazla olması ____ hayvancılığının gelişmesini sağlamıştır.",
+                  "options": [
+                    "mera"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Anadolu'nun geniş ve gür çayırlara sahip yüksek platoları, büyükbaş mera hayvancılığı için en elverişli alanları oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de akarsu boylarında ve ovalarda yapılan tarımda verimi artırmak için en önemli faktör ____ imkanıdır.",
+                  "options": [
+                    "sulama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaz kuraklığının belirgin olduğu Türkiye'de sulama imkanları tarımsal verimi doğrudan artıran en kritik unsurdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yaz aylarında güneşlenme süresinin uzun olması ve kuraklık istemesi nedeniyle Akdeniz kıyılarında ____ tarımı yaygındır.",
+                  "options": [
+                    "seracılık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akdeniz ikliminin kış ılıklığı ve modern seracılık teknikleri sayesinde kış aylarında sebze üretimi seralarda yoğunlaşmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ege Bölgesi'nde sanayi bitkisi olarak yetişen ve liflerinden kumaş üretilen önemli tarım ürünlerinden biri ____ bitkisidir.",
+                  "options": [
+                    "pamuk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pamuk, Ege ve Güneydoğu Anadolu'da yoğun olarak yetişen, tekstil sanayisinin hammaddesini oluşturan önemli bir lif bitkisidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İç Anadolu Bölgesi'nde kuraklığa dayanıklı olduğu için en fazla ekimi yapılan ürün buğdaydır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İç Anadolu Bölgesi yazları kurak geçen bir iklime sahip olduğundan, su isteği az olan buğday bu bölgede birinci sırada ekilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de küçükbaş hayvancılık engebeli ve dağlık yapısı nedeniyle Karadeniz Bölgesi'nde birinci hayvancılık faaliyetidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karadeniz Bölgesi nemli ve gür otlaklara sahip olduğu için küçükbaş yerine büyükbaş (sığır) hayvancılığı yaygındır; küçükbaş hayvancılık en çok Bozkır bitki örtüsüne sahip İç Anadolu ve Güneydoğu Anadolu'da yapılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İntansif (modern) tarım yönteminde birim alandan alınan verim oldukça yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İntansif tarımda kaliteli tohum, gübreleme, ilaçlama ve modern sulama teknikleri kullanıldığı için birim alandan alınan verim maksimum düzeydedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zeytin ağacı kış ılıklığı istediği için en yoğun şekilde İç Anadolu Bölgesi'nin iç kesimlerinde yetişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Zeytin Akdeniz iklimine özgü bir bitkidir ve kış soğuklarının şiddetli olduğu İç Anadolu'nun iç kesimlerinde doğal olarak yetişmez, en çok Ege ve Akdeniz'de görülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nadas tarımı, tarlanın her yıl aynı ürünle ekilmesiyle toprağın mineral bakımından zenginleştirilmesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nadas, su yetersizliği nedeniyle tarlanın bir yıl ekilip diğer yıl boş bırakılmasıdır; toprağı zenginleştirmez, aksine erozyon riskini artırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Madencilik ve Enerji",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de enerji üretiminde en çok kullanılan yerli kaynak hangisidir?",
+                  "answer": "Linyit"
+                },
+                {
+                  "question": "Zonguldak ve çevresinde çıkarılan, demir çelik fabrikalarında enerji hammaddesi olarak kullanılan maden hangisidir?",
+                  "answer": "Taşkömürü"
+                },
+                {
+                  "question": "Türkiye'de çıkarılan bor madeninin dünya rezervlerindeki payı yaklaşık yüzde kaç civarındadır?",
+                  "answer": "Yüzde yetmiş"
+                },
+                {
+                  "question": "Elbistan, Soma ve Tavşanlı gibi merkezlerde yaygın olarak çıkarılan maden hangisidir?",
+                  "answer": "Linyit"
+                },
+                {
+                  "question": "Batman ve Diyarbakır çevresinde çıkarılan fosil yakıt hangisidir?",
+                  "answer": "Petrole"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de demir çelik sanayisinin hammaddesi olan ve paleozoyik yaşlı arazilerde çıkarılan maden aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Linyit",
+                    "Taşkömürü",
+                    "Krom",
+                    "Bakır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Taşkömürü birinci jeolojik zamana (paleozoyik) ait arazilerde yer alır ve temel olarak Zonguldak çevresinde çıkarılır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisinde bor mineralleri çıkarımı yapılmaz?",
+                  "options": [
+                    "Trabzon",
+                    "Eskişehir",
+                    "Kütahya",
+                    "Balıkesir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bor madeni genellikle Balıkesir, Kütahya, Eskişehir ve Bursa gibi illerde çıkarılır. Trabzon'da bor yatağı bulunmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de elektrik üretiminde dışa bağımlılığı en çok artıran enerji kaynağı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Hidroelektrik",
+                    "Linyit",
+                    "Doğal gaz",
+                    "Jeotermal"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye doğal gaz ihtiyacının çok büyük kısmını ithal ettiği için, elektrik üretiminde doğal gaz kullanılması dışa bağımlılığı artırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki madenlerden hangisi metalik madenler arasında yer almaz?",
+                  "options": [
+                    "Bakır",
+                    "Krom",
+                    "Boksit",
+                    "Mermer"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mermer bir taş ve inşaat malzemesi olup endüstriyel hammaddeler grubuna girer; krom, bakır ve boksit ise metalik madenlerdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ege Bölgesi'nde sıcak su kaynaklarına bağlı olarak kurulan ve elektrik enerjisi üretilen santral türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Jeotermal santral",
+                    "Hidroelektrik santral",
+                    "Termik santral",
+                    "Nükleer santral"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeraltındaki sıcak su ve buhardan yararlanarak elektrik üreten tesisler jeotermal santral olarak adlandırılır ve Ege'de yaygındır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de demir çelik sanayisinde çeliğe sertlik kazandırmak amacıyla kullanılan başlıca maden ____ madenidir.",
+                  "options": [
+                    "krom"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Krom, çeliğin sertleşmesini ve paslanmaya karşı dirençli olmasını sağlayan önemli bir metalik madendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akarsuların akış hızına bağlı olarak elektrik enerjisi üreten tesisler ____ santralleri olarak adlandırılır.",
+                  "options": [
+                    "hidroelektrik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hidroelektrik santraller (HES) suyun hareket enerjisinden elektrik üretir ve en çok Doğu Anadolu'da potansiyele sahiptir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de çıkarılan bor madeninin işlendiği tesisler çoğunlukla ____ ve Bandırma'dadır.",
+                  "options": [
+                    "Kırka"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eskişehir Kırka ve Balıkesir Bandırma bor madeninin işlenip rafine edildiği başlıca merkezlerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Artvin Murgut ve Kastamonu Küre'de yoğun olarak çıkarılan elektrik iletkenliği yüksek maden ____ madenidir.",
+                  "options": [
+                    "bakır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bakır, elektrik ve elektronik sanayisinde yaygın olarak kullanılan, Artvin ve Kastamonu'da çıkarılan bir madendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yeryüzüne yakın sıcak su buharından yararlanılarak kurulan elektrik üretim tesisine ____ santral denir.",
+                  "options": [
+                    "jeotermal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Jeotermal enerji, yer altındaki sıcak su ve buhar kaynaklarından elde edilen yenilenebilir bir enerji türüdür.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de linyit rezervleri birinci jeolojik zamanda oluştuğu için ısı değeri oldukça yüksektir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Linyit üçüncü jeolojik zamanda (tersiyer) oluşmuştur ve taşkömürüne göre ısı değeri daha düşüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bor madeni roket yakıtlarından cam sanayisine kadar pek çok farklı alanda kullanılmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bor madeni gelişen teknoloji ile birlikte cam, seramik, tarım ve savunma sanayi gibi pek çok alanda kullanılmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güneş enerjisi potansiyeli bakımından en dezavantajlı bölgemiz Güneydoğu Anadolu Bölgesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Güneydoğu Anadolu ve Akdeniz bölgeleri güneşlenme süresinin en uzun olduğu ve potansiyelin en yüksek olduğu yerlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Zonguldak'taki taşkömürü yatakları demir çelik fabrikalarının bu bölgeye kurulmasında etkili olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taşkömürünün yüksek ısı vermesi ve enerji gereksinimi Karabük ve Ereğli Demir Çelik fabrikalarının bu bölgeye yakın kurulmasını sağlamıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hidroelektrik enerji potansiyeli en fazla olan coğrafi bölgemiz İç Anadolu Bölgesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Engebeli ve dağlık yapının fazla olması, akarsuların akış hızını artırdığı için hidroelektrik potansiyeli en yüksek bölge Doğu Anadolu'dur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Sanayi, Ticaret ve Ulaşım",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Hammaddeye yakınlık ve ulaşım kolaylığı göz önüne alındığında, Türkiye'de un ve unlu mamuller sanayisi en çok hangi bölgede gelişmiştir?",
+                  "answer": "İç Anadolu Bölgesi"
+                },
+                {
+                  "question": "Türkiye'de demir-çelik sanayisinin kurulmasında ham maddeye yakınlıktan ziyade enerji kaynağına yakınlık hangi merkezde etkili olmuştur?",
+                  "answer": "Karabük"
+                },
+                {
+                  "question": "Ülkemizde çay tarımının yapıldığı alanların dar olması, çay işleme tesislerinin hangi coğrafi faktöre göre kurulmasında etkili olmuştur?",
+                  "answer": "Hammaddeye yakınlık"
+                },
+                {
+                  "question": "Türkiye'nin uluslararası ticaretinde ihracat içinde en büyük payı hangi sektör almaktadır?",
+                  "answer": "İmalat sanayi"
+                },
+                {
+                  "question": "Asya ile Avrupa arasındaki transit ticaretin gelişmesinde Türkiye'nin en çok hangi özelliği etkilidir?",
+                  "answer": "Jeopolitik ve merkezi konumu"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de bazı sanayi kolları ham maddeye yakın yerlerde kurulurken, bazıları pazar alanlarına yakın yerlerde kurulur. Buna göre aşağıdakilerden hangisinin pazar alanına yakın kurulması beklenmez?",
+                  "options": [
+                    "Otomotiv montaj fabrikası",
+                    "Şeker fabrikası",
+                    "Hazır giyim ve tekstil",
+                    "Matbaa ve basım"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Şeker pancarı çabuk bozulabilen bir tarım ürünü olduğu için şeker fabrikaları ham maddeye yakın kurulur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki şehirlerden hangisinin gelişiminde sanayi faaliyetlerinin payı diğerlerine göre daha azdır?",
+                  "options": [
+                    "Bursa",
+                    "Muğla",
+                    "Gaziantep",
+                    "Kocaeli"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Muğla ekonomisinde turizm, tarım ve hizmet sektörü ön plandadır; sanayi gelişmiş değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de ulaşım ağının gelişmesinde engebeli yer şekilleri önemli bir engel oluşturur. Buna göre aşağıdaki bölümlerin hangisinde demir yolu ve kara yolu yapım maliyeti en yüksektir?",
+                  "options": [
+                    "Bölüm: Doğu Karadeniz",
+                    "Bölüm: Ergene",
+                    "Bölüm: Konya",
+                    "Bölüm: Orta Fırat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Karadeniz engebeli ve dağlık yapısı nedeniyle ulaşım maliyetlerinin en yüksek olduğu yerlerden biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İç ticaretin gelişmesinde ve farklı bölgelerdeki ürünlerin tüketicilere ulaşmasında en çok kullanılan ulaşım türü aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Hava yolu",
+                    "Kara yolu",
+                    "Deniz yolu",
+                    "Demir yolu"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kara yolu kapıdan kapıya taşımacılık imkanı sunduğu için iç ticarette en yaygın kullanılan ulaşım türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki limanlarımızdan hangisi hinterlandı (art bölgesi) en geniş ve konteyner ticareti en gelişmiş olan limandır?",
+                  "options": [
+                    "Trabzon Limanı",
+                    "Ambarlı Limanı",
+                    "Rize Limanı",
+                    "Sinop Limanı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İstanbul ve çevresinde yer alan Ambarlı Limanı, hinterlandının genişliği ve sanayi merkezi olması nedeniyle Türkiye'nin en büyük konteyner limanıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Çabuk bozulabilen tarım ürünlerini işleyen fabrikalar ____ kaynaklarına yakın kurulur.",
+                  "options": [
+                    "hammadde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şeker pancarı, domates ve çay gibi ürünler bozulabilir olduğu için hammaddeye yakın işlenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de dış ticaret hacmi içinde en büyük paya sahip olan ulaşım sistemi ____ yoludur.",
+                  "options": [
+                    "deniz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uluslararası ticarette tonaj ve hacim olarak en çok deniz yolu taşımacılığı tercih edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Zonguldak ve çevresindeki taş kömürü yataklarına bağlı olarak kurulan ağır sanayi tesisi ____ fabrikasıdır.",
+                  "options": [
+                    "demir çelik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karabük ve Ereğli demir-çelik fabrikaları taş kömürüne yakınlık nedeniyle bu bölgededir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ülke içindeki mal ve hizmet alışverişine ____ ticareti denir.",
+                  "options": [
+                    "iç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ülke sınırları içinde yapılan ticari faaliyetler iç ticaret olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yükseltinin ve engebenin az olduğu düzlük alanlarda ____ yolu yapım maliyeti daha düşüktür.",
+                  "options": [
+                    "kara"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yer şekillerinin sade olduğu alanlarda tünel ve viyadük ihtiyacı az olduğu için maliyet düşer.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de sanayi tesislerinin coğrafi dağılımı dengeli bir yapıya sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi tesisleri genellikle Marmara ve Ege bölgelerinde yoğunlaşmış olup, iç kesimlerde ve doğuda daha azdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Batman'da petrol çıkarma ve işleme tesislerinin bulunması hammaddeye yakınlık ilkesiyle açıklanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Petrolün çıkarıldığı yerde rafinerinin kurulması hammaddeye yakınlık faktörünün sonucudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İzmir Limanı'nın hinterlandının gelişmesinde arkasındaki tarım ve sanayi bölgeleri ile demir yolu bağlantısı etkili olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İzmir Limanı, hem Ege Bölgesi'nin üretim merkezlerine yakınlığı hem de ulaşım ağlarıyla geniş bir hinterlanda sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'de doğalgaz boru hatları sadece iç tüketim amaçlı olup uluslararası ticaretle ilişkisi yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye, TANAP ve TurkStream gibi projelerle doğalgazın uluslararası sevkiyatında önemli bir transit ülkedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Marmara Bölgesi, gelişmiş sanayi, ulaşım ve nüfus potansiyeli sayesinde Türkiye'de iç ve dış ticaretin merkezidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Marmara Bölgesi İstanbul başta olmak üzere ticaret, sanayi ve ulaşım ağlarının en yoğun olduğu yerdir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3220,19 +4235,628 @@
           "id": "node1",
           "order": 1,
           "title": "Türkiye'nin Coğrafi Bölgeleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye kaç coğrafi bölgeye ayrılmıştır?",
+                  "answer": "7 coğrafi bölge"
+                },
+                {
+                  "question": "Yüzölçümü bakımından en büyük coğrafi bölgemiz hangisidir?",
+                  "answer": "İç Anadolu Bölgesi"
+                },
+                {
+                  "question": "En fazla bölgeyle sınır komşusu olan coğrafi bölgemiz hangisidir?",
+                  "answer": "İç Anadolu Bölgesi"
+                },
+                {
+                  "question": "Kıyı uzunluğu en fazla olan coğrafi bölgemiz hangisidir?",
+                  "answer": "Ege Bölgesi"
+                },
+                {
+                  "question": "En az bölgeyle komşu olan, tek ilin oluşturduğu coğrafi bölümümüz hangisidir?",
+                  "answer": "Yıldız Dağları Bölümü"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki illerden hangisi, coğrafi olarak Karadeniz Bölgesi sınırları içerisinde yer almasına rağmen kıyısı bulunmayan bir ildir?",
+                  "options": [
+                    "Bolu",
+                    "Trabzon",
+                    "Giresun",
+                    "Artvin"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bolu, Batı Karadeniz Bölümü'nde yer alır ancak deniz kıyısı bulunmayan bir iç ildir. Artvin, Giresun ve Trabzon illerinin Karadeniz'e kıyısı vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki coğrafi bölgelerimizden hangisinin yüzölçümü en küçüktür?",
+                  "options": [
+                    "Güneydoğu Anadolu Bölgesi",
+                    "Karadeniz Bölgesi",
+                    "Marmara Bölgesi",
+                    "Ege Bölgesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Güneydoğu Anadolu Bölgesi, yaklaşık 59 bin kilometrekarelik yüzölçümü ile Türkiye'nin en küçük coğrafi bölgesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ege Bölgesi'nin kıyı kesiminde dağların kıyıya dik uzanmasının sonuçları arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Kıyı ile iç kesimler arasındaki ulaşımın kolay olması",
+                    "Deniz etkisinin iç kesimlere çok fazla sokulabilmesi",
+                    "Kıyı inatçılığının ve girinti çıkıntısının az olması",
+                    "Kıyıda çok sayıda koy, körfez ve limanın bulunması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dağların kıyıya dik uzandığı Ege Bölgesi'nde kıyıda çok sayıda koy, körfez, liman oluşur ve girinti çıkıntı fazladır. Girinti ve çıkıntının az olması boyuna kıyı tiplerinin özelliğidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölümlerden hangisi İç Anadolu Bölgesi sınırları içerisinde yer almaz?",
+                  "options": [
+                    "Yukarı Sakarya Bölümü",
+                    "Orta Kızılırmak Bölümü",
+                    "Orta Fırat Bölümü",
+                    "Konya Bölümü"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orta Fırat Bölümü, Güneydoğu Anadolu Bölgesi sınırları içerisinde yer alır. Diğer seçenekler İç Anadolu Bölgesi'nin bölümleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Doğu Anadolu Bölgesi için aşağıda verilen özelliklerden hangisi yanlıştır?",
+                  "options": [
+                    "Yükseltisi en fazla olan bölgedir",
+                    "Küçükbaş hayvancılık en önemli geçim kaynağıdır",
+                    "Karasal iklimin en sert yaşandığı yerdir",
+                    "Tarımsal ürün çeşitliliği ve olgunlaşma süresi kısadır"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğu Anadolu Bölgesi'nde yükselti ve geniş otlaklar nedeniyle küçükbaş değil, büyükbaş meral hayvancılığı daha yaygın olarak yapılmaktadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de dağların kıyıya en dik uzandığı coğrafi bölge ____ bölgesidir.",
+                  "options": [
+                    "Ege"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ege Bölgesi'nde dağlar denize dik uzandığı için kıyıda boyuna değil, enine kıyı tipi görülür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüzölçümü bakımından Türkiye'nin en büyük ikinci coğrafi bölgesi ____ bölgesidir.",
+                  "options": [
+                    "Doğu Anadolu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İç Anadolu en büyük bölgeyken, Doğu Anadolu Bölgesi ikinci en büyük bölgedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Marmara Bölgesi'nde yer alan ve dağlık yapısıyla dikkat çeken bölüm ____ Dağları Bölümü'dür.",
+                  "options": [
+                    "Yıldız"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıldız Dağları Bölümü, Marmara'nın en az nüfuslu ve en dağlık kesimidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Akdeniz Bölgesi'nde karstik arazinin en yaygın olduğu bölüm ____ Bölümü'dür.",
+                  "options": [
+                    "Teke"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teke ve Taşeli platolarının bulunduğu alanlar karstik yapılarıyla bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karadeniz Bölgesi'nde en fazla yağış alan bölüm ____ Karadeniz'dir.",
+                  "options": [
+                    "Doğu"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Karadeniz Bölümü, hem relief yağışları hem de deniz etkisinden dolayı Türkiye'nin en çok yağış alan yeridir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İç Anadolu Bölgesi, en az yağış alan coğrafi bölgemizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç Anadolu Bölgesi az yağış alır ancak Türkiye'nin en az yağış alan yeri Tuz Gölü ve çevresi ile Güneydoğu Anadolu'nun bazı güney kesimleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Marmara Bölgesi, hem Asya hem de Avrupa kıtalarında toprak bulunduran tek coğrafi bölgemizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İstanbul ve Çanakkale boğazları sayesinde Marmara Bölgesi her iki kıtada da toprak varlığına sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akdeniz Bölgesi'nde yaz kuraklığı belirgin olarak yaşanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akdeniz ikliminin temel özelliklerinden biri yazların sıcak ve kurak, kışların ılık ve yağışlı geçmesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karadeniz ikliminin doğal bitki örtüsü maki iken, Akdeniz ikliminin bitki örtüsü gür ormanlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade tam tersidir. Akdeniz ikliminin bitki örtüsü maki, Karadeniz ikliminin bitki örtüsü ise ormandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Güneydoğu Anadolu Projesi (GAP) ile birlikte bölgede en fazla gelişme gösteren tarım ürünü pamuk olmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "GAP ile sulama imkanlarının artması bölgede pamuk ve mısır gibi ürünlerin üretimini katbekat artırmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Bölge Türleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Beşeri özelliklere göre oluşturulan bölgelere ne adlanır?",
+                  "answer": "Beşeri bölge"
+                },
+                {
+                  "question": "Akdeniz iklim bölgesi hangi tür bölge sınıflandırmasına girer?",
+                  "answer": "Fiziki bölge"
+                },
+                {
+                  "question": "Sanayi bölgeleri beşeri mi yoksa fiziki özelliklere göre mi oluşturulur?",
+                  "answer": "Beşeri özellikler"
+                },
+                {
+                  "question": "Sınırları kesin olan ve bir merkeze bağlı olarak gelişen bölgelere ne denir?",
+                  "answer": "İşlevsel bölge"
+                },
+                {
+                  "question": "Nüfus yoğunluğu az olan bölgeler hangi bölge türü içinde yer alır?",
+                  "answer": "Beşeri bölge"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi fiziki özelliklere göre oluşturulmuş bir bölge türüdür?",
+                  "options": [
+                    "Dağlık ve engebeli bölgeler",
+                    "Sanayi bölgeleri",
+                    "Sık nüfuslu bölgeler",
+                    "Ulaşım bölgeleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dağlık ve engebeli bölgeler yer şekillerine dayanır ve fiziki bölgeler sınıfına girer. Diğer seçenekler insan faaliyetleriyle ilgilidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölgelerden hangisinin sınırlarının diğerlerine göre daha kısa sürede değişmesi beklenir?",
+                  "options": [
+                    "Alp kıvrım sistemi dağlık bölgeleri",
+                    "Organize sanayi bölgeleri",
+                    "Akdeniz iklim bölgesi",
+                    "Sert karasal iklim bölgesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi bölgeleri beşeri ve ekonomik faaliyetlere bağlı olduğundan, fiziki bölgelere göre çok daha kısa sürede sınır değiştirebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İşlevsel (fonksiyonel) bölgelerin oluşturulmasında temel ölçüt aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Yeryüzü şekillerinin benzerliği",
+                    "Bitki örtüsünün dağılışı",
+                    "Hizmet ve yönetim alanlarının merkezi bağı",
+                    "İklim özelliklerinin aynılığı"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İşlevsel bölgeler, bir merkeze bağlı olarak çevresiyle kurduğu ekonomik, idari veya kültürel etkileşim ağına göre oluşturulur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi beşeri özelliklere göre oluşturulan bölgeler arasında gösterilemez?",
+                  "options": [
+                    "Tarım bölgeleri",
+                    "Yoğun göç alan bölgeler",
+                    "Orman bölgeleri",
+                    "Maden bölgeleri"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orman bölgeleri doğal bitki örtüsünün dağılışına göre belirlendiği için fiziki coğrafya kapsamındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ülkelerden hangisi 'Gelişmiş Sanayi Bölgeleri' sınıflandırmasında yer almaz?",
+                  "options": [
+                    "Batı Avrupa",
+                    "Japonya'nın kıyı kesimleri",
+                    "Orta Afrika",
+                    "Kuzey Amerika'nın doğusu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Orta Afrika genel olarak sanayileşmenin az geliştiği bölgeler arasında yer alır. Diğer alanlar dünya sanayi çekirdekleridir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Beşeri ve ekonomik unsurlara göre oluşturulan bölgelerin sınırları, fiziki bölgelere göre daha ____ değişir.",
+                  "options": [
+                    "çabuk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnsan faaliyetleri kısa sürede değişebildiği için beşeri bölgelerin sınırları da fiziki bölgelere kıyasla daha hızlı değişir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bitki örtüsü, yer şekilleri ve iklim gibi unsurlara ____ bölge adı verilir.",
+                  "options": [
+                    "fiziki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal süreçler sonucu oluşan ve insan müdahalesi olmayan özelliklere göre belirlenen bölgeler fiziki bölgelerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yönetim, hizmet ve idari amaçlarla oluşturulan bölgeler ____ bölge türüne girer.",
+                  "options": [
+                    "işlevsel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devletin teşkilatlanması veya belediye hizmetleri gibi alanlar işlevsel (fonksiyonel) bölge sınıfına örnektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünya üzerindeki çöl bölgeleri, iklim özelliklerine göre oluşturulan bir ____ bölgedir.",
+                  "options": [
+                    "fiziki"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çöller yağış ve sıcaklık gibi iklim elemanlarına bağlı oluştuğundan fiziki bölgeler içinde incelenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kentin idari sınırları ile o kentin etki alanı her zaman ____ olmayabilir.",
+                  "options": [
+                    "aynı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İşlevsel bölgelerin sınırları genellikle idari sınırlarla birebir örtüşmez, etki alanı daha geniş veya farklı olabilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fiziki bölgelerin sınırlarının değişmesi uzun jeolojik veya iklimsel süreçler gerektirdiği için çok yavaştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İklim ve yer şekilleri gibi fiziki unsurlar kısa sürede değişmediği için bu bölgelerin sınırları da uzun sürede değişir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm ülkelerin işlevsel bölgelerinin sınırları birbirinin aynısıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İşlevsel bölgeler ülkelerin yönetim şekline, nüfusuna ve ekonomik gelişmişliğine göre farklılık gösterir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nüfusun dağılışına göre oluşturulan bölgeler beşeri bölgeler sınıfına girer.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nüfus ve yerleşme faaliyetleri beşeri coğrafyanın inceleme alanına girdiği için bu bölgeler beşeri bölgedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akdeniz iklimi ile Akdeniz tarım ürünleri bölgesi sınırları dünyada her zaman birebir örtüşür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İklim koşulları uygun olsa bile sulama, toprak yapısı ve ekonomik nedenlerle tarım ürünlerinin dağılışı iklim sınırıyla birebir örtüşmeyebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ülke, bölge ve il teşkilatlanmaları işlevsel yönetim bölgelerine örnek oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Valilikler, bakanlıkların bölge müdürlükleri gibi idari yapılar işlevsel yönetim bölgelerini oluşturur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Ülkeler Arası Etkileşim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Ham madde üreten bir ülkenin bunu işleyip ihraç etmesi hangi ekonomik süreci gösterir?",
+                  "answer": "Küresel ticaret ve endüstriyel üretim"
+                },
+                {
+                  "question": "Ülkeler arası etkileşimde en önemli ulaşım araçlarından biri olan ve petrol taşımacılığında kullanılan hatlara ne ad verilir?",
+                  "answer": "Boru hattı"
+                },
+                {
+                  "question": "Sanayi devriminden sonra ülkeler arası etkileşimi en çok hızlandıran faktör nedir?",
+                  "answer": "Ulaşım ve iletişim teknolojilerindeki gelişmeler"
+                },
+                {
+                  "question": "Gelişmiş ülkelerin az gelişmiş ülkelerden genellikle ne tür ürünler ithal ettiği söylenebilir?",
+                  "answer": "Ham madde ve tarım ürünleri"
+                },
+                {
+                  "question": "Kültürel etkileşimin en hızlı gerçekleştiği alanlardan biri olan küresel iletişim ağı nedir?",
+                  "answer": "İnternet"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Küreselleşme süreciyle birlikte ülkeler arası etkileşim artmıştır. Aşağıdakilerden hangisi bu etkileşimin ekonomik göstergelerinden biri değildir?",
+                  "options": [
+                    "Küresel ticaret hacminin büyümesi",
+                    "Yerel geleneksel kıyafetlerin tek tip hale gelmesi",
+                    "Uluslararası sermaye akışı",
+                    "Çok uluslu şirketlerin yaygınlaşması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yerel geleneksel kıyafetlerin tek tip hale gelmesi kültürel bir sonuçtur, doğrudan ekonomik bir gösterge değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ülkenin sahip olduğu enerji kaynaklarını başka ülkelere ulaştırması jeopolitik önemini artırır. Aşağıdaki ülkelerden hangisi doğalgaz ve petrol hatlarının kavşağında yer alarak bu duruma örnek oluşturur?",
+                  "options": [
+                    "İzlanda",
+                    "Yeni Zelanda",
+                    "Türkiye",
+                    "Arjantin"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye, Asya ve Avrupa arasında bir köprü konumunda olup pek çok uluslararası boru hattına ev sahipliği yapar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ülkeler arası etkileşimde bazı ülkeler tarım ve maden ihraç ederken, bazıları ileri teknoloji ürünleri ihraç eder. Bu durumun temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kıtalara eşit mesafede bulunmaları",
+                    "Tüm ülkelerin iklim koşullarının aynı olması",
+                    "Ülkelerin nüfus miktarının aynı olması",
+                    "Ekonomik ve teknolojik gelişmişlik düzeylerinin farklı olması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ekonomik ve teknolojik gelişmişlik düzeyi, ülkelerin ihraç ve ithal ettiği ürünlerin niteliğini doğrudan belirler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi ülkeler arası turizm faaliyetlerinin sağladığı küresel etkileşimlerden biri olamaz?",
+                  "options": [
+                    "Farklı toplumların birbirini tanıması",
+                    "Ülkeler arası sınırların tamamen ortadan kalkması",
+                    "Kültürel alışverişin artması",
+                    "Ülkeler arası ekonomik gelir sağlanması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Turizm faaliyetleri kültürel ve ekonomik alışverişi artırır ancak ülkeler arası sınırların kalkmasına neden olmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Sanayi ürünlerinin dünya genelinde hızla yayılmasında aşağıdakilerden hangisinin payı en azdır?",
+                  "options": [
+                    "Geleneksel el sanatları üretimi",
+                    "Gelişmiş taşımacılık sistemleri",
+                    "Uluslararası pazarlar",
+                    "Küresel reklam ve pazarlama ağları"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geleneksel el sanatları yerel üretimdir ve küresel sanayi ürünlerinin yayılmasında etkili bir faktör değildir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Ülkelerin sahip oldukları yer altı ve yer üstü kaynaklarını dış ülkelere satmasına ____ denir.",
+                  "options": [
+                    "ihracat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir ülkenin ürettiği ya da çıkardığı ürünleri başka ülkelere satması dış satım yani ihracat olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sermayenin, malların ve bilgilerin sınırlar ötesinde hareket etmesini sağlayan sürece ____ denir.",
+                  "options": [
+                    "küreselleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küreselleşme, dünya üzerindeki ülkeler arası ekonomik, kültürel ve siyasi etkileşimi artıran bir süreçtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Orta Doğu ve Hazar havzasındaki petrolü dünyaya ulaştıran en önemli enerji nakil araçlarından biri ____ hatlarıdır.",
+                  "options": [
+                    "boru"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Petrol ve doğalgaz gibi akaryakıtların güvenli ve ekonomik taşınması için boru hatları kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gelişmiş ülkelerin sanayilerinde kullanmak üzere dışarıdan ham madde satın alması ____ olarak adlandırılır.",
+                  "options": [
+                    "ithalat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dış alım anlamına gelen ithalat, bir ülkenin başka ülkelerden mal satın almasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Farklı ülkelerdeki insanların internet ve medya yoluyla ortak tüketim alışkanlıkları kazanması ____ etkileşimi örneğidir.",
+                  "options": [
+                    "kültürel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Medya ve internet aracılığıyla yayılan alışkanlıklar toplumsal ve kültürel etkileşimin bir sonucudur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Ülkeler arası etkileşimde coğrafi konum ve ulaşım ağlarının gelişmişliği büyük rol oynar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Stratejik konuma sahip ve ulaşım yolları üzerinde bulunan ülkeler diğer ülkelerle daha yoğun etkileşim halindedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm dünya ülkelerinin ekonomik gelişmişlik düzeyi aynı olduğu için ülkeler arası ticaret eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ülkelerin gelişmişlik düzeyleri birbirinden farklıdır; bu durum ticaretin niteliğini ve hacmini de farklılaştırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uluslararası örgütler, ülkeler arası siyasi, ekonomik ve kültürel etkileşimi artıran platformlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Birleşmiş Milletler veya Avrupa Birliği gibi örgütler ülkeler arası iş birliğini ve etkileşimi güçlendirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gelişmiş ülkeler genellikle işlenmiş sanayi ürünleri ihraç ederken, ham madde ithal ederler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayileşmiş ülkeler dışarıdan aldıkları ham maddeleri işleyerek katma değeri yüksek ürünler olarak tekrar satarlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ülkeler arası göçler sadece ekonomik nedenlerle yapılır ve kültürel etkileşime asla neden olmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Göçler sosyal, siyasi ve güvenlik gibi birçok nedenle gerçekleşebilir ve gittiği yerde yoğun kültürel etkileşim yaratır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3245,19 +4869,628 @@
           "id": "node1",
           "order": 1,
           "title": "Doğal Afetler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Japonya ve Endonezya gibi ülkelerde en sık görülen jeolojik afet hangisidir?",
+                  "answer": "Deprem"
+                },
+                {
+                  "question": "Atmosfer kökenli, sıcak hava ile yüksek nemin birleşmesiyle oluşan dönücü rüzgarların okyanus üzerindeki adı nedir?",
+                  "answer": "Tropikal siklon (tayfun/kasırga)"
+                },
+                {
+                  "question": "Türkiye'de en fazla can ve mal kaybına neden olan meteorolojik afet hangisidir?",
+                  "answer": "Kuraklık"
+                },
+                {
+                  "question": "Yeryüzündeki su miktarının ani ve aşırı artarak toprakla örtülü hale gelmesine ne denir?",
+                  "answer": "Sel ve taşkın"
+                },
+                {
+                  "question": "Yer kabuğundaki kırıklar (fay hatları) boyunca ani enerji boşalımıyla meydana gelen titreşimlere ne denir?",
+                  "answer": "Deprem"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki doğal afetlerden hangisinin oluşumunda doğrudan iklim ve hava koşullarının etkisi en azdır?",
+                  "options": [
+                    "Çığ",
+                    "Kuraklık",
+                    "Heyelan",
+                    "Tsunami"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tsunami deprem, volkanizma veya okyanus tabanındaki heyelanlar gibi tektonik olaylar sonucu oluşur; doğrudan hava koşullarıyla ilgili değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de heyelan olaylarının en fazla Karadeniz Bölgesi'nde görülmesinin temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Geniş yapraklı ormanların varlığı",
+                    "Nüfusun kıyı kesimde toplanması",
+                    "Yaz kuraklığının belirgin olması",
+                    "Eğimli yamaçlar ve aşırı yağış"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Heyelan, eğimli arazilerin yağışlarla suya doygun hale gelerek kütle halinde aşağı kaymasıyla oluşur. Karadeniz'de eğim ve yağış şartları bu olaya en uygundur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki bölgelerin hangisinde volkanik deprem ve afetlerin görülme olasılığı diğerlerine göre çok daha düşüktür?",
+                  "options": [
+                    "İzlanda",
+                    "Japonya",
+                    "İskandinav Yarımadası",
+                    "Endonezya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İskandinav Yarımadası eski karasal kalkanlar (masifler) üzerinde yer aldığından levha sınırlarından uzaktır ve volkanik hareketlilik ile şiddetli depremler açısından oldukça güvenlidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Meteorolojik kökenli bir afet olan kuraklık için aşağıdakilerden hangisi söylenemez?",
+                  "options": [
+                    "Yavaş gelişen ve etkisini uzun sürede gösteren bir afettir",
+                    "Sadece az gelişmiş ülkelerde ekonomik krize yol açar",
+                    "Su kaynaklarının azalmasına yol açar",
+                    "Tarım ürünlerinde rekolte düşüşüne neden olur"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuraklık sadece az gelişmiş değil, gelişmiş ülkeleri de tarım ve su yönetimi açısından ciddi şekilde etkileyen evresel bir afettir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Orman yangınlarının yaygınlaşmasında doğal faktörlerin yanı sıra beşeri faktörler de etkilidir. Aşağıdakilerden hangisi beşeri bir faktör olarak gösterilemez?",
+                  "options": [
+                    "Anız yakma faaliyetleri",
+                    "Yüksek sıcaklık ve düşük nem",
+                    "Piknik ateşlerinin söndürülmemesi",
+                    "Orman alanlarına çöp atılması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yüksek sıcaklık ve düşük nem, iklimsel ve doğal bir faktördür; insan eylemiyle doğrudan oluşmaz.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kısmen veya tamamen insanların kontrolü dışında gerçekleşen, can ve mal kaybına yol açan olaylara ____ denir.",
+                  "options": [
+                    "Doğal afet"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal afet tanımı, kökeni doğa olaylarına dayanan ve toplumsal yaşamı olumsuz etkileyen olayları kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'de en çok Kuzey Anadolu Fay Hattı (KAF) ve Batı Anadolu Fay Hattı (BAF) üzerinde ____ afeti görülür.",
+                  "options": [
+                    "Deprem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye genç oluşumlu bir ülkedir ve aktif fay hatları üzerinde yer aldığı için deprem riski çok yüksektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Genellikle dağlık ve engebeli bölgelerde, kar örtüsünün yamaç aşağı hızla kaymasıyla oluşan afete ____ denir.",
+                  "options": [
+                    "Çığ"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çığ, kar kütlelerinin dengesini kaybederek aşağı doğru hareket etmesiyle oluşan meteorolojik ve jeomorfolojik bir afettir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Okyanus tabanındaki depremlerin denizde oluşturduğu dev dalgalara ____ denir.",
+                  "options": [
+                    "Tsunami"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tsunami, Japonca liman dalgası anlamına gelir ve genellikle deniz altı depremleriyle tetiklenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Meteorolojik afetler arasında yer alan ve uzun süre yağış düşmemesiyle oluşan felakete ____ denir.",
+                  "options": [
+                    "Kuraklık"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuraklık su dengesini bozarak ekosistemi ve tarımı olumsuz etkileyen uzun süreli bir meteorolojik afettir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Depremlerin nerede ve ne zaman olacağı günümüz teknolojisiyle kesin olarak önceden tahmin edilebilmektedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Depremlerin yeri ve büyüklüğü sismik verilerle tahmin edilse de, zamanı günümüz teknolojisiyle kesin olarak önceden bilinemez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Erozyon, iç kuvvetler tarafından oluşturulan hızlı ve ani bir doğal afettir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Erozyon (toprak aşınması) dış kuvvetler (su ve rüzgar) etkisiyle gerçekleşen ve genellikle uzun sürede yavaşça etki eden bir süreçtir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küresel iklim değişikliği, kuraklık ve aşırı hava olaylarının görülme sıklığını artırmaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferdeki sera gazlarının artması iklim dengesini bozarak meteorolojik afetlerin sıklığını ve şiddetini artırmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aktif volkanların ve deprem kuşaklarının dağılımı dünyadaki levha sınırları ile büyük ölçüde paralellik gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünyadaki levha sınırları (tektonik hatlar) volkanizma ve deprem gibi jeolojik afetlerin en yoğun görüldüğü sahalardır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Heyelan olaylarını önlemek veya azaltmak için yamaçlardaki doğal bitki örtüsünün tahrip edilmesi teşvik edilmelidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bitki örtüsü kökleriyle toprağı tutarak heyelanı önlemede en önemli doğal unsurdur; bu nedenle bitki örtüsünün tahrip edilmesi heyelanı artırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Çevre Sorunları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Atmosferde sera gazı miktarının artması sonucu Dünya'nın ortalama sıcaklığının yükselmesine ne ad verilir?",
+                  "answer": "Küresel ısınma"
+                },
+                {
+                  "question": "Fosil yakıtların yanması sonucu açığa çıkan gazların neden olduğu asit yağmurlarının en çok zarar verdiği doğal ortam unsuru hangisidir?",
+                  "answer": "Ormanlar ve su ekosistemleri"
+                },
+                {
+                  "question": "Sanayi tesisleri ve evsel atıkların arıtılmadan akarsu ve göllere bırakılması hangi çevre sorununa yol açar?",
+                  "answer": "Su kirliliği"
+                },
+                {
+                  "question": "Gelişmiş ülkelerin hurda elektronik cihazlarını gelişmemis ülkelere göndermesi sonucu ortaya çıkan çevre sorununa ne denir?",
+                  "answer": "Elektronik atık kirliliği"
+                },
+                {
+                  "question": "Toprak örtüsünün su veya rüzgar etkisiyle aşınarak verimsizleşmesi sürecine ne denir?",
+                  "answer": "Erozyon"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi doğrudan küresel iklim değişikliğinin sonuçları arasında gösterilemez?",
+                  "options": [
+                    "Deniz seviyesinin yükselmesi",
+                    "Kuraklık ve çölleşme eğiliminin artması",
+                    "Deprem ve volkanik patlamaların artması",
+                    "Kutuplardaki buzulların erimesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Deprem ve volkanik patlamalar iç kuvvetler (yerin yapısı) ile ilgilidir, küresel iklim değişikliği gibi dış kaynaklı süreçlerle doğrudan bir ilişkisi yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki enerji kaynaklarından hangisinin kullanımı, hava kirliliği ve küresel ısınmayı önlemede en az olumlu etkiye sahiptir?",
+                  "options": [
+                    "Taşkömürü",
+                    "Jeotermal enerji",
+                    "Rüzgar enerjisi",
+                    "Güneş enerjisi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taşkömürü bir fosil yakıttır ve yanması sonucu atmosfere yüksek miktarda karbondioksit salarak hava kirliliğine ve küresel ısınmaya neden olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi su kirliliğini önlemek veya azaltmak için alınabilecek etkili tedbirlerden biri değildir?",
+                  "options": [
+                    "Evsel atık suların arıtma tesislerinden geçirilmesi",
+                    "Akarsu havzalarında ağaçlandırma çalışmalarının yapılması",
+                    "Tarımda kullanılan kimyasal gübre ve ilaçların dengeli kullanılması",
+                    "Sanayi atıklarının arıtılmadan akarsulara verilmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Sanayi atıklarının arıtılmadan doğaya bırakılması su kirliliğini azaltmak aksine artırır ve ekosisteme büyük zarar verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki faaliyetlerden hangisi toprak erozyonunu hızlandıran beşeri faktörlerden biridir?",
+                  "options": [
+                    "Tohum ekiminin eğime dik yapılması",
+                    "Eğimli yamaçların ağaçlandırılması",
+                    "Meraların aşırı ve yanlış otlatılması",
+                    "Tarım arazilerinin nadasa bırakılması yerine nöbetleşe ekim yapılması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Meraların aşırı ve erken otlatılması bitki örtüsünü zayıflatarak toprağın rüzgar ve suya karşı direncini azaltır ve erozyonu hızlandırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki gazlardan hangisinin atmosfere salınımı ozon tabakasının incelmesine doğrudan neden olmuştur?",
+                  "options": [
+                    "Su buharı",
+                    "Karbondioksit",
+                    "Kloroflorokarbonlar (KFC)",
+                    "Metan"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kloroflorokarbonlar (KFC) gibi kimyasal gazlar stratosferdeki ozon molekülleri ile tepkimeye girerek ozon tabakasının incelmesine yol açar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Fosil yakıtların ve sanayi dumanlarının salınımıyla oluşan, pH derecesi düşük yağışlara ____ yağmurları denir.",
+                  "options": [
+                    "asit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferdeki kükürt dioksit ve azot oksit gazlarının su buharı ile birleşmesi sonucu asit yağmurları meydana gelir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Toprakların su ve rüzgar etkisiyle süpürülerek verimsizleşmesi olayına ____ denir.",
+                  "options": [
+                    "erozyon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erozyon, bitki örtüsünün tahrip edildiği kurak ve yarı kurak bölgelerde toprağın dış kuvvetlerca aşındırılmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferde ısıyı tutarak yeryüzünün doğal sıcaklık dengesini koruyan gazların oranının aşırı artması ____ etkisine yol açar.",
+                  "options": [
+                    "sera"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sera etkisi, atmosfere salınan gazların güneş ışınlarıyla yeryüzünden yansıyan ısıyı tutması ve dünyayı ısıtması olayıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sanayi tesislerinin kurulmasında ve şehirlerin planlanmasında doğal çevrenin korunması için ____ etki değerlendirmesi yapılır.",
+                  "options": [
+                    "çevresel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çevresel Etki Değerlendirmesi (ÇED) raporu, planlanan projelerin çevreye verebileceği olumlu ve olumsuz etkilerin incelenmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Plastik ve cam gibi atıkların hammaddeye dönüştürülerek tekrar üretim sürecine kazandırılmasına ____ denir.",
+                  "options": [
+                    "geri dönüşüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geri dönüşüm, atıkların çeşitli işlemlerden geçirilerek yeniden kullanılabilir hammaddeye dönüştürülmesidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Nükleer enerji santralleri doğrudan karbon salınımı yapmadığı için küresel ısınmayı artırıcı etki göstermez.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Nükleer enerji üretim sürecinde atmosfere sera gazı salınımı yapmadığından küresel ısınma açısından fosil yakıtlara göre daha temiz bir kaynaktır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ormanların yok edilmesi, atmosferdeki karbondioksit miktarını azaltarak küresel ısınmayı yavaşlatır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ormanlar karbondioksiti yutarak depolar. Ormanların yok edilmesi atmosferdeki karbondioksit miktarını artırır ve küresel ısınmayı hızlandırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bilinçsiz ve aşırı sulama, kurak bölgelerde toprakta çoraklaşmaya ve tuzlanmaya neden olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yanlış sulama yöntemleri yer altı su seviyesini yükseltir ve sudaki minerallerin toprak yüzeyinde birikerek tuzlanma yapmasına yol açar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gelişmiş ülkelerde kişi başına düşen atık miktarı genellikle az gelişmiş ülkelere göre daha düşüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Gelişmiş ülkelerde tüketim ve sanayi üretimi daha yüksek olduğu için kişi başına düşen atık miktarı az gelişmiş ülkelere göre çok daha fazladır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Atık pillerin doğrudan toprak veya çöpe atılması, içerisindeki ağır metaller nedeniyle toprak ve su kirliliğine yol açar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piller cıva, kadmiyum ve kurşun gibi tehlikeli ağır metaller içerir; bunlar doğaya karışarak ciddi çevre ve sağlık sorunları yaratır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Sürdürülebilirlik",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sürdürülebilirlik kavramı ilk kez hangi raporda kapsamlı olarak yer almıştır?",
+                  "answer": "Bruchland Raporu (Ortak Geleceğimiz)"
+                },
+                {
+                  "question": "Sürdürülebilir kalkınmanın temel temel boyutu kaç tanedir ve bunlar nelerdir?",
+                  "answer": "Üç boyuttur: Ekonomik, sosyal ve çevresel sürdürülebilirlik."
+                },
+                {
+                  "question": "Yenilenebilir enerji kaynaklarının kullanımı neden sürdürülebilirlik açısından önemlidir?",
+                  "answer": "Çünkü bu kaynaklar tükenmez ve fosil yakıtlara göre çevreye çok daha az zarar verir."
+                },
+                {
+                  "question": "Geri dönüşüm süreci doğal kaynakların korunmasına nasıl katkı sağlar?",
+                  "answer": "Ham madde ihtiyacını azaltarak doğal ekosistemler üzerindeki baskıyı hafifletir."
+                },
+                {
+                  "question": "Ekolojik ayak izi neyi ölçmek için kullanılır?",
+                  "answer": "İnsan faaliyetlerinin doğa üzerindeki tüketim ve atık oluşturma kapasitesini ölçer."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi sürdürülebilir kalkınmanın temel amaçlarından biri olamaz?",
+                  "options": [
+                    "Doğal kaynakların gelecek nesillerin hakları gözetilerek kullanılması",
+                    "Ekonomik büyümenin sadece bugünkü neslin refahı için maksimuma çıkarılması",
+                    "Çevre kirliliğinin önlenmesi ve ekolojik dengenin korunması",
+                    "Yenilenebilir enerji kaynaklarının payının artırılması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sürdürülebilir kalkınma sadece bugünü değil, gelecek nesillerin de ihtiyaçlarını gözetir. Bu nedenle ekonomik büyümenin sadece bugünkü nesil için maksimuma çıkarılması anlayışı sürdürülebilirlikle çelişir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uygulamalardan hangisi su kaynaklarının sürdürülebilirliği açısından yanlış bir davranıştır?",
+                  "options": [
+                    "Tarımda modern damla sulama tekniklerinin tercih edilmesi",
+                    "Sanayi tesislerinin soğutma sularını arıtmadan akarsulara deşarj etmesi",
+                    "Yağmur sularının toplanarak peyzaj sulamasında değerlendirilmesi",
+                    "Evsel atık suların arıtılarak yeniden kullanılabilir hale getirilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sanayi sularının arıtılmadan doğaya bırakılması su kirliliğine yol açar ve su kaynaklarının sürdürülebilirliğini tehlikeye atar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki enerji kaynaklarından hangisinin kullanımı sürdürülebilir çevre politikaları ile en az uyumludur?",
+                  "options": [
+                    "Rüzgar enerjisi",
+                    "Taş kömürü",
+                    "Jeotermal enerji",
+                    "Güneş enerjisi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Taş kömürü fosil yakıt sınıfındadır, tükenebilir ve yanması sonucu atmosfere yüksek miktarda sera gazı salarak küresel ısınmayı tetikler.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi biyoçeşitliliğin korunmasının sürdürülebilirliğe katkılarından biri değildir?",
+                  "options": [
+                    "Genetik kaynakların tıbbi ve tarımsal araştırmalara veri sağlaması",
+                    "Doğal döngülerin kesintisiz devam etmesine yardımcı olması",
+                    "Ekosistemlerin dengede kalmasını sağlaması",
+                    "Yeni tarım zararlılarının ortaya çıkışını hızlandırması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Biyoçeşitliliğin korunması zararlıların artışını hızlandırmaz, aksine ekosistemdeki doğal denge sayesinde zararlılarla mücadeleyi kolaylaştırır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Gelecek nesillerin ihtiyaçlarını tehlikeye atmadan, bugünkü neslin ihtiyaçlarını karşılamaya ne ad verilir?",
+                  "options": [
+                    "Küreselleşme",
+                    "Sanayileşme",
+                    "Sürdürülebilir kalkınma",
+                    "Urbanizasyon"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu tanım, Brundtland Raporu'nda da yer alan ve günümüzde kabul edilen sürdürülebilir kalkınma tanımıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Doğal kaynakların hızla tükenmesini önlemek ve gelecek nesillere yaşanabilir bir dünya bırakmak amacıyla yapılan tüketim ve üretim planlamasına ____ denir.",
+                  "options": [
+                    "sürdürülebilirlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanımda bahsedilen temel kavram sürdürülebilirliktir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fosil yakıtların aşırı kullanımı sonucu atmosfere salınan gazların neden olduğu küresel sıcaklık artışına ____ denir.",
+                  "options": [
+                    "küresel ısınma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atmosferdeki sera gazı artışının temel sonucu küresel ısınmadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kullanılmış kağıt, cam, plastik ve metal gibi malzemelerin çeşitli işlemlerden geçirilerek yeniden hammadde haline getirilmesine ____ adı verilir.",
+                  "options": [
+                    "geri dönüşüm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Atıkların tekrar hammaddeye dönüştürülmesi süreci geri dönüşüm olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yenilenebilir enerji kaynakları arasında yer alan ve gücünü rüzgarın hareketinden alan enerji türüne ____ enerjisi denir.",
+                  "options": [
+                    "rüzgar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Rüzgar gücünden elektrik üretimi rüzgar enerjisi olarak bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir bireyin veya toplumun tükettiği kaynakları üretmek ve ürettiği atıkları bertaraf etmek için ihtiyaç duyduğu verimli toprak ve su alanına ____ ayak izi denir.",
+                  "options": [
+                    "ekolojik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal kaynak talebini ve atık kapasitesini ölçen gösterge ekolojik ayak izidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Sürdürülebilir kalkınma sadece ekonomik büyüme hedeflerine odaklanır, çevre ve sosyal yapıyı dikkate almaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır çünkü sürdürülebilir kalkınma ekonomik, sosyal ve çevresel boyutların tamamını bir arada ele alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yenilenebilir enerji kaynaklarının kullanımı, fosil yakıtlara kıyasla çevre kirliliğini azaltır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, güneş ve rüzgar gibi yenilenebilir kaynaklar karbon salınımını en aza indirerek çevreyi korur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bilinçli su tüketimi ve tarımda modern sulama teknikleri su kaynaklarının sürdürülebilirliğini destekler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, damla sulama gibi yöntemler su tasarrufu sağlayarak kuraklık ve su kıtlığı riskini azaltır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orman alanlarının tarım arazisine veya yerleşime açılması biyoçeşitliliği ve ekolojik dengenin sürdürülebilirliğini olumlu etkiler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır, ormansızlaşma biyoçeşitliliği azaltır ve ekolojik dengeye zarar verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geri dönüşüm faaliyetleri sayesinde doğal ham madde tüketimi azaltılabilir ve enerji tasarrufu sağlanabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur, atıkların yeniden işlenmesi sıfır atık hedefine ve doğal kaynakların korunmasına doğrudan katkı sunar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -228,7 +228,201 @@
           "id": "node3",
           "order": 3,
           "title": "Üçgende Açılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir üçgenin iç açılarının ölçüleri toplamı kaç derecedir?",
+                  "answer": "180"
+                },
+                {
+                  "question": "Bir dış açının ölçüsü, kendisine komşu olmayan iki iç açının ölçüleri toplamına nedir?",
+                  "answer": "Eşittir"
+                },
+                {
+                  "question": "Üç kenar uzunluğu da birbirine eşit olan üçgene ne ad verilir?",
+                  "answer": "Eşkenar üçgen"
+                },
+                {
+                  "question": "İkizkenar üçgende taban açıları birbirine nasıldır?",
+                  "answer": "Eşittir"
+                },
+                {
+                  "question": "Bir üçgende en büyük açının karşısında hangi kenar bulunur?",
+                  "answer": "En uzun kenar"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir üçgenin iç açılarından ikisinin ölçüsü 50 derece ve 70 derecedir. Buna göre, üçüncü iç açının ölçüsü kaç derecedir?",
+                  "options": [
+                    "60",
+                    "70",
+                    "80",
+                    "50"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçgenin iç açılarının toplamı 180 derecedir. Verilen iki açı toplanır: 50 + 70 = 120. Toplamdan çıkarılarak üçüncü açı bulunur: 180 - 120 = 60.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir üçgende bir dış açının ölçüsü 110 derecedir. Bu dış açıya komşu olmayan iç açılardan biri 40 derece olduğuna göre, diğer komşu olmayan iç açının ölçüsü kaç derecedir?",
+                  "options": [
+                    "60",
+                    "70",
+                    "80",
+                    "90"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üçgende bir dış açının ölçüsü, kendisine komşu olmayan iki iç açının toplamına eşittir. 110 = 40 + x denkleminden x = 70 derece bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İkizkenar bir üçgenin tepe açısı 50 derece olduğuna göre, taban açılarından birinin ölçüsü kaç derecedir?",
+                  "options": [
+                    "60",
+                    "65",
+                    "55",
+                    "70"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkizkenar üçgenin taban açıları eşittir. Üçgenin iç açıları toplamı 180 derecedir. 180 - 50 = 130 derece taban açılarının toplamıdır. 130 / 2 = 65 derece bir taban açısını verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eşkenar bir üçgenin bir dış açısının ölçüsü kaç derecedir?",
+                  "options": [
+                    "90",
+                    "180",
+                    "120",
+                    "60"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşkenar üçgenin tüm iç açılari 60 ar derecedir. Bir iç açı ile bir dış açının toplamı 180 derece olduğundan, dış açı 180 - 60 = 120 derece olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ölçüleri sırasıyla 3x, 4x ve 5x olan bir üçgenin iç açılarından en küçük olanı kaç derecedir?",
+                  "options": [
+                    "45",
+                    "60",
+                    "30",
+                    "75"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İç açılar toplamı 3x + 4x + 5x = 12x = 180 ise x = 15 derecedir. En küçük açı 3x olduğundan 3 * 15 = 45 derece bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir üçgende iç açıların ölçüleri toplamı her zaman ____ derecedir.",
+                  "options": [
+                    "180"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geometri kurallarına göre bütün düzlem üçgenlerinin iç açılarının ölçüleri toplamı sabittir ve 180 derecedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üçgenin herhangi bir köşesindeki iç açı ile dış açının toplamı ____ derecedir.",
+                  "options": [
+                    "180"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir köşe üzerindeki iç açı ve dış açı bütünler iki açıdır, bu yüzden toplamları daima 180 derecedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşkenar üçgenin bütün iç açılarının ölçüsü ____ derecedir.",
+                  "options": [
+                    "60"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar üçgenin üç kenarı ve üç iç açısı da birbirine eşittir, 180 / 3 = 60 kuralı geçerlidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkizkenar üçgende tepe açısına ait yükseklik aynı zamanda açıortay ve ____ olur.",
+                  "options": [
+                    "kenarortay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar üçgende tepe noktasından tabana indirilen dikme; yükseklik, açıortay ve kenarortay özelliklerinin hepsini aynı anda sağlar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir üçgende en fazla bir tane geniş açı bulunabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçgenin iç açılar toplamı 180 derece olduğu için, 90 dereceden büyük iki açının toplamı 180'i geçer ve bu durum üçgen kuralına aykırıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün çeşitkenar üçgenlerin aynı zamanda birer dik açısı vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çeşitkenar üçgenlerin kenar uzunlukları farklıdır ancak bu durum onların mutlaka dik açılı olmasını gerektirmez, dar veya geniş açılı da olabilirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir dış açının ölçüsü, kendisine komşu olan iç açının ölçüsünden her zaman büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir dış açı, komşu olmayan iki iç açının toplamına eşit olduğundan, bu iç açılardan her birinden kesinlikle daha büyüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar üçgenin iç açılarının ölçüleri toplamı 360 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tüm üçgenlerin olduğu gibi eşkenar üçgenin de iç açılarının ölçüleri toplamı 360 değil 180 derecedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkizkenar üçgenin tepe açısının açıortayı aynı zamanda tabana ait kenarortaydır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar üçgenin simetri ekseni tepe açısının açıortayıdır ve bu doğru tabanı iki eşit parçaya böler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1069,19 +1263,601 @@
           "id": "node2",
           "order": 2,
           "title": "Paralelkenar ve Eşkenar Dörtgen",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Paralelkenarın karşılıklı açıları nasıldır?",
+                  "answer": "Karşılıklı açılar birbirine eşittir."
+                },
+                {
+                  "question": "Paralelkenarın ardışık açılarının toplamı kaç derecedir?",
+                  "answer": "Ardışık açıların toplamı 180 derecedir."
+                },
+                {
+                  "question": "Paralelkenarın köşegenleri birbirini nasıl keser?",
+                  "answer": "Köşegenler birbirini ortalar."
+                },
+                {
+                  "question": "Eşkenar dörtgenin köşegenlerinin kesişim açısı kaç derecedir?",
+                  "answer": "Köşegenler birbirini dik (90 derece) keser."
+                },
+                {
+                  "question": "Eşkenar dörtgenin tüm kenar uzunlukları için ne söylenebilir?",
+                  "answer": "Tüm kenar uzunlukları birbirine eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir paralelkenarda karşılıklı iki açının ölçüsü sırasıyla (3x - 10) derece ve (2x + 20) derecedir. Buna göre x kaç derecedir?",
+                  "options": [
+                    "20",
+                    "10",
+                    "40",
+                    "30"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Paralelkenarda karşılıklı açılar eşittir. Bu durumda 3x - 10 = 2x + 20 denklemi kurulur. Buradan x = 30 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çevre uzunluğu 48 cm olan bir eşkenar dörtgenin bir kenar uzunluğu kaç santimetredir?",
+                  "options": [
+                    "8",
+                    "12",
+                    "16",
+                    "10"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Eşkenar dörtgenin dört kenarı da eşittir. Çevre 48 cm ise bir kenar 48 / 4 = 12 cm olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Köşegen uzunlukları 6 cm ve 8 cm olan bir eşkenar dörtgenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "96",
+                    "48",
+                    "12",
+                    "24"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Eşkenar dörtgenin alanı köşegenlerin çarpımının yarısıdır. Alan = (6 * 8) / 2 = 24 santimetrekaredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir iç açısı 70 derece olan paralelkenarın, bu açının ardışığı olan komşu iç açısı kaç derecedir?",
+                  "options": [
+                    "70",
+                    "90",
+                    "110",
+                    "140"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paralelkenarda ardışık iki açının toplamı 180 derecedir. 180 - 70 = 110 derece bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 5 cm ve 9 cm olan bir paralelkenarın çevre uzunluğu kaç santimetredir?",
+                  "options": [
+                    "45",
+                    "18",
+                    "14",
+                    "28"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Paralelkenarın çevre uzunluğu tüm kenarlarının toplamıdır. Çevre = 2 * (5 + 9) = 28 santimetredir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Paralelkenarın köşegenleri birbirini ____.",
+                  "options": [
+                    "ortalar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paralelkenar geometrik tanımı gereği köşegenlerinin kesişim noktası her iki köşegenin de orta noktasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşkenar dörtgenin köşegenleri birbirini ____ keser.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar dörtgenin en önemli özelliklerinden biri köşegenlerinin birbirini dik yani 90 derece ile kesmesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eşkenar dörtgende köşegenler aynı zamanda açı ____ görevi görür.",
+                  "options": [
+                    "ortay"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar dörtgenin köşegeni çıktığı köşedeki açıyı iki eş parçaya böldüğü için açıortaydır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her paralelkenar bir eşkenar dörtgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paralelkenarın tüm kenarları eşit olmak zorunda değildir, bu yüzden her paralelkenar eşkenar dörtgen değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar dörtgenin tüm kenar uzunlukları birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar dörtgenin temel tanımı dört kenarının da uzunluğunun birbirine eşit olmasıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paralelkenarın köşegenleri birbirini dik keser.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paralelkenarda köşegenler sadece birbirini ortalar, dik kesişme zorunluluğu eşkenar dörtgen veya kareye aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar dörtgen aynı zamanda bir paralelkenardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar dörtgen, paralelkenarın tüm özelliklerini (karşılıklı kenarların paralel olması vb.) sağladığı için özel bir paralelkenar türüdür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Paralelkenarın ardışık iki açısının toplamı 180 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paralelkenarda karşılıklı doğrular birbirine paralel olduğu için aradaki iç açılar karşı durumlu açı kuralından dolayı 180 dereceyi tamamlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Dikdörtgen ve Kare",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dikdörtgenin köşegenlerinin uzunlukları arasındaki ilişki nedir?",
+                  "answer": "Köşegen uzunlukları birbirine eşittir."
+                },
+                {
+                  "question": "Karenin köşegenleri birbirini hangi açıyla keser?",
+                  "answer": "90 derece (dik) kesişir."
+                },
+                {
+                  "question": "Bir kenar uzunluğu a olan karenin alanı nasıl bulunur?",
+                  "answer": "a kare (a^2)"
+                },
+                {
+                  "question": "Dikdörtgenin iç açılarının ölçüleri kaçar derecedir?",
+                  "answer": "Her biri 90 derecedir."
+                },
+                {
+                  "question": "Karenin köşegenleri aynı zamanda ne görevi görür?",
+                  "answer": "Açıortay görevi görür."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Kenar uzunlukları 6 cm ve 8 cm olan bir dikdörtgenin çevre uzunluğu kaç santimetredir?",
+                  "options": [
+                    "24",
+                    "48",
+                    "28",
+                    "14"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Dikdörtgenin çevresi, kısa kenar ile uzun kenar toplamının 2 katıdır. (6 + 8) * 2 = 14 * 2 = 28 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Köşegen uzunluğu 10 cm olan karenin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "100",
+                    "50",
+                    "75",
+                    "25"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karenin alanı köşegen uzunluğunun karesinin yarısına eşittir. Alan = (10 * 10) / 2 = 100 / 2 = 50 cm^2'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir kenarı 5 cm olan karenin çevresi ile bir kenarı 4 cm, diğer kenarı 6 cm olan dikdörtgenin çevresi arasındaki fark kaçtır?",
+                  "options": [
+                    "0",
+                    "10",
+                    "2",
+                    "4"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karenin çevresi 4 * 5 = 20 cm'dir. Dikdörtgenin çevresi (4 + 6) * 2 = 20 cm'dir. Çevreler farkı 20 - 20 = 0 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kısa kenarı 3 cm, alanı 24 cm^2 olan bir dikdörtgenin çevresi kaç santimetredir?",
+                  "options": [
+                    "54",
+                    "22",
+                    "26",
+                    "16"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Alan = kısa kenar * uzun kenar formülünden 24 = 3 * uzun kenar ise uzun kenar 8 cm'dir. Çevre = (3 + 8) * 2 = 22 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çevresi 36 cm olan bir karenin bir kenar uzunluğu kaç santimetredir?",
+                  "options": [
+                    "6",
+                    "9",
+                    "12",
+                    "18"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karenin çevresi 4 eşit kenarın toplamıdır. Bir kenar = 36 / 4 = 9 cm bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Dikdörtgenin köşegenleri birbirini ortalar ve uzunlukları ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikdörtgende iki köşegenin uzunluğu birbirine eşittir ve bu köşegenler birbirini ortalar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tüm kenar uzunlukları eşit ve tüm iç açıları 90 derece olan dörtgene ____ denir.",
+                  "options": [
+                    "kare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karenin tanımı gereği tüm kenarları eşit ve iç açıları 90 derecedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karşılıklı kenarları paralel ve iç açılarının her biri 90 derece olan dörtgene ____ denir.",
+                  "options": [
+                    "dikdörtgen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikdörtgen, karşılıklı kenar uzunlukları eşit ve açıları 90 derece olan paralelkenar özel halidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir kenar uzunluğu a olan karenin alanı ____ formülü ile hesaplanır.",
+                  "options": [
+                    "a kare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karenin alanı iki kenarının çarpımı olan a * a yani a kare ile bulunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her kare aynı zamanda bir dikdörtgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kare, iç açıları 90 derece olan ve karşılıklı kenarları eşit olan özel bir dikdörtgendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dikdörtgenin köşegenleri birbirini dik açıyla keser.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dikdörtgenin köşegenleri birbirini dik kesmez; köşegenlerin dik kesiştiği dörtgen eşkenar dörtgen veya karedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karenin köşegen uzunlukları birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kare bir dikdörtgen olduğundan köşegen uzunlukları eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dikdörtgenin alanı, iki komşu kenarının uzunlukları toplamına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dikdörtgenin alanı iki komşu kenarının uzunlukları çarpımı ile bulunur, toplamı ile değil.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karenin çevresi, bir kenar uzunluğunun 4 katına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm kenarları eşit olan karenin çevresi 4 * a formülüyle bulunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Yamuk ve Deltoid",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Yamukta alt ve üst tabanlar birbirine nasıldır?",
+                  "answer": "Paraleldir."
+                },
+                {
+                  "question": "Deltoidin köşegenleri birbirini nasıl keser?",
+                  "answer": "Dik keser."
+                },
+                {
+                  "question": "İkizkenar yamuğun taban açıları nasıldır?",
+                  "answer": "Birbirine eşittir."
+                },
+                {
+                  "question": "Yamukta yan kenarların orta noktalarını birleştiren doğru parçasına ne denir?",
+                  "answer": "Orta taban."
+                },
+                {
+                  "question": "Deltoidin hangi köşegeni açıortaydır?",
+                  "answer": "Simetri ekseni olan köşegen."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir yamukta alt taban uzunluğu 10 cm, üst taban uzunluğu 6 cm ise orta taban uzunluğu kaç cm'dir?",
+                  "options": [
+                    "10",
+                    "6",
+                    "8",
+                    "16"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yamukta orta taban, alt ve üst taban uzunlukları toplamının yarısına eşittir. (10 + 6) / 2 = 8 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İkizkenar yamuğun taban açıları toplamı 100 derece ise bir taban açısı kaç derecedir?",
+                  "options": [
+                    "130",
+                    "25",
+                    "50",
+                    "100"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İkizkenar yamukta alt taban açıları birbirine eşittir. İki açının toplamı 100 derece ise bir tanesi 100 / 2 = 50 derecedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar uzunlukları 5 cm ve 7 cm olan bir deltoidin çevre uzunluğu kaç cm'dir?",
+                  "options": [
+                    "24",
+                    "35",
+                    "20",
+                    "12"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deltoid, eşit uzunluktaki ikişer kenardan oluşur. Çevre = 2 * (5 + 7) = 24 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir dik yamuğun taban açıları sırasıyla 90 ve x derecedir. X açısının bütünler açısı 120 derece ise x kaç derecedir?",
+                  "options": [
+                    "90",
+                    "30",
+                    "60",
+                    "120"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bütünler açıların toplamı 180 derecedir. 180 - 120 = 60 derece x açısını verir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Köşegen uzunlukları 6 cm ve 8 cm olan bir deltoidin alanı kaç santimetrekaredir?",
+                  "options": [
+                    "24",
+                    "48",
+                    "14",
+                    "12"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deltoidin alanı köşegenlerin çarpımının yarısıdır. (6 * 8) / 2 = 24 cmkaredir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Karşılıklı kenar çiftlerinden yalnızca biri paralel olan dörtgene ____ denir.",
+                  "options": [
+                    "yamuk"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yalnızca iki kenarı paralel olan dörtgenlerin genel adı yamuktur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkizkenar yamukta köşegen uzunlukları birbirine ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkizkenar yamuğun en önemli özelliklerinden biri köşegen uzunluklarının birbirine eşit olmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deltoid, tabanları çakışık iki adet ____ üçgenin birleşiminden oluşur.",
+                  "options": [
+                    "ikizkenar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deltoid geometrik olarak taban tabana yapışmış iki ikizkenar üçgendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yamukta alt ve üst tabana paralel olan ve yan kenarları ortalayan doğruya ____ taban denir.",
+                  "options": [
+                    "orta"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yamuğun yan kenarlarını ortalayan uzunluğa orta taban adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deltoidin köşegenleri birbirini ____ açıyla keser.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Deltoid köşegenleri her zaman 90 derece ile yani dik kesişir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yamuğun iç açıları toplamı 360 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm dışbükey dörtgenlerde olduğu gibi yamukta da iç açılar toplamı 360 derecedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün paralelkenarlar aynı zamanda birer deltoiddir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paralelkenarın tüm kenarları eşit olmasa bile komşu kenarları eşit olma zorunluluğu yoktur; bu yüzden her paralelkenar deltoid değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İkizkenar yamuğun köşegenleri birbirine diktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İkizkenar yamukta köşegenler dik kesişmek zorunda değildir, bu özellik deltoid ve eşkenar dörtgene aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Deltoidin alanı, köşegen uzunlukları çarpımının yarısına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Köşegenleri dik kesişen dörtgenlerde olduğu gibi deltoidde de alan köşegenler çarpımının yarısıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik yamukta taban açılarından biri 90 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yan kenarlarından biri tabana dik olan yamuklar dik yamuk olarak adlandırılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1094,13 +1870,407 @@
           "id": "node1",
           "order": 1,
           "title": "Çemberde Açılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Çemberde merkezi açı ölçüsü neye eşittir?",
+                  "answer": "Gördüğü yayın ölçüsüne eşittir."
+                },
+                {
+                  "question": "Çemberde çevre açı ölçüsü gördüğü yayın ölçüsünün ne kadarıdır?",
+                  "answer": "Yarısına eşittir."
+                },
+                {
+                  "question": "Aynı yayı gören çevre açılar birbirine nasıldır?",
+                  "answer": "Eşittir."
+                },
+                {
+                  "question": "Çapı gören çevre açının ölçüsü kaç derecedir?",
+                  "answer": "90 derecedir."
+                },
+                {
+                  "question": "Kirişler dörtgeninin karşılıklı açılarının toplamı kaç derecedir?",
+                  "answer": "180 derecedir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "O merkezli bir çemberde AOB merkezi açısının ölçüsü 70 derece olduğuna göre, bu açının gördüğü AB yayının ölçüsü kaç derecedir?",
+                  "options": [
+                    "70",
+                    "280",
+                    "140",
+                    "35"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkezi açının ölçüsü, gördüğü yayın ölçüsüne eşittir. AOB merkezi açısı 70 derece ise gördüğü AB yayının ölçüsü de 70 derecedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir çemberde ACB çevre açısı 40 derece ise bu açının gördüğü AB yayının ölçüsü kaç derecedir?",
+                  "options": [
+                    "40",
+                    "160",
+                    "80",
+                    "20"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çevre açının ölçüsü gördüğü yayın ölçüsünün yarısıdır. ACB = 40 derece ise AB yayı 40 x 2 = 80 derecedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çapı AB olan bir çember üzerinde alınan bir C noktası için ABC açısı 35 derece ise CAB açısı kaç derecedir?",
+                  "options": [
+                    "55",
+                    "145",
+                    "90",
+                    "35"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "AB çap olduğundan ACB çevre açısı 90 derecedir. ABC üçgeninin iç açılar toplamı 180 derecedir. CAB açısı = 180 - (90 + 35) = 55 derecedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir çemberde iç açının gördüğü yayların ölçüleri 80 derece ve 40 derece ise bu iç açının ölçüsü kaç derecedir?",
+                  "options": [
+                    "80",
+                    "120",
+                    "40",
+                    "60"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Çember içindeki kesişen iki kirişin oluşturduğu iç açının ölçüsü, gördüğü yayların ölçüleri toplamının yarısına eşittir. İç açı = (80 + 40) / 2 = 60 derecedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir çemberde dış açının gördüğü büyük yay 130 derece ve küçük yay 50 derece ise bu dış açının ölçüsü kaç derecedir?",
+                  "options": [
+                    "90",
+                    "50",
+                    "40",
+                    "65"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Çember dışındaki bir noktadan çizilen kesenlerin oluşturduğu dış açının ölçüsü, gördüğü büyük yay ile küçük yay farkının yarısına eşittir. Dış açı = (130 - 50) / 2 = 40 derecedir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Köşesi çember üzerinde olan ve kolları çemberi kesen açıya ____ açı denir.",
+                  "options": [
+                    "çevre"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Köşesi çember üzerinde bulunan açılara çevre açı adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Merkezi çemberin üzerinde olmayan, çemberin içinde iki kirişin kesişmesiyle oluşan açıya ____ açı denir.",
+                  "options": [
+                    "iç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çemberin iç bölgesinde kirişlerin kesişmesiyle oluşan açılar iç açı olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Köşesi çemberin dışında olan ve kolları çemberi kesen açılara ____ açılar denir.",
+                  "options": [
+                    "dış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çemberin dış bölgesinde kesenlerin oluşturduğu açılar dış açı olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Köşesi çember üzerinde olan, bir kolu kiriş diğer kolu ise teğet olan açıya ____ açı denir.",
+                  "options": [
+                    "teğet-kiriş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir teğet ile bir kirişin çember üzerinde oluşturduğu açıya teğet-kiriş açı denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Köşesi çemberin merkezi olan açıya ____ açı denir.",
+                  "options": [
+                    "merkezi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Köşesi çemberin merkezinde bulunan açılara merkezi açı denir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Çemberde eşit uzunluktaki kirişlerin çemberde ayırdığı yaylar birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir çemberde eşit uzunluktaki kirişler, çember üzerinde eşit ölçülü yaylar ayırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir çemberde çevre açının ölçüsü, gördüğü yayın ölçüsünün iki katına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çevre açının ölçüsü gördüğü yayın ölçüsünün yarısına eşittir, iki katına değil.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kirişler dörtgeninin karşılıklı açılarının toplamı her zaman 180 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kirişler dörtgeninin karşılıklı iki açısı bütünler olup toplamları 180 derecedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çember dışındaki bir noktadan çembere çizilen teğet parçalarının uzunlukları birbirinden farklıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çember dışındaki bir noktadan çembere çizilen teğet parçalarının uzunlukları birbirine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı yayı gören çevre açı ile teğet-kiriş açının ölçüleri birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aynı yayı gören çevre açı ve teğet-kiriş açının ölçüleri yayın yarısına eşit olduğundan birbirine eşittir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Çemberde Uzunluk",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Merkezden çemberin kirişine indirilen dikme kirişi ne yapar?",
+                  "answer": "Kirişi iki eşit parçaya böler (ortalar)."
+                },
+                {
+                  "question": "Bir çemberde merkezden eşit uzaklıkta bulunan iki kirişin uzunlukları arasındaki ilişki nedir?",
+                  "answer": "Bu kirişlerin uzunlukları birbirine eşittir."
+                },
+                {
+                  "question": "Çember dışındaki bir noktadan çembere çizilen teğet parçalarının uzunlukları nasıldır?",
+                  "answer": "Teğet parçalarının uzunlukları birbirine eşittir."
+                },
+                {
+                  "question": "Aynı çemberde yay uzunlukları oranı ile bu yayları gören merkez açılar oranı arasındaki ilişki nedir?",
+                  "answer": "Oranlar birbirine eşittir."
+                },
+                {
+                  "question": "Çapı gören çevre açının ölçüsü kaç derecedir?",
+                  "answer": "90 derecedir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı 10 cm olan bir çemberde, merkeze olan uzaklığı 6 cm olan bir kirişin uzunluğu kaç santimetredir?",
+                  "options": [
+                    "18",
+                    "20",
+                    "12",
+                    "16"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Merkezden kirişe indirilen dikme kirişi ortalar. Yarıçap (10 cm) hipotenüs, merkeze uzaklık (6 cm) bir dik kenar olan dik üçgen oluşur. Diğer dik kenar 8 cm olur ve kirişin tamamı 16 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "O merkezli çemberde [AB] kirişinin uzunluğu 24 cm ve çemberin yarıçapı 13 cm'dir. Merkezin bu kirişe olan uzaklığı kaç santimetredir?",
+                  "options": [
+                    "12",
+                    "7",
+                    "5",
+                    "8"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Merkezden inen dikme kirişi iki eşit parçaya böler, yani yarısı 12 cm olur. Yarıçap 13 cm hipotenüstür. Pisagor bağıntısı ile uzaklık kök içinde (13 un karesi - 12 nin karesi) yani 5 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 5 cm olan çemberin dışındaki bir P noktasından çembere çizilen teğet parçasının uzunluğu 12 cm'dir. P noktasının çemberin merkezine olan uzaklığı kaç santimetredir?",
+                  "options": [
+                    "20",
+                    "15",
+                    "17",
+                    "13"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Teğet yarıçapa değme noktasında diktir. 5 ve 12 dik kenarları olan dik üçgenin hipotenüsü P noktasının merkeze uzaklığıdır. Pisagor teoremine göre bu uzaklık 13 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir çemberde uzunlukları eşit olan iki kiriş merkezden 4 cm uzaklıktadır. Kirişlerden birinin uzunluğu 30 cm ise çemberin yarıçapı kaç santimetredir?",
+                  "options": [
+                    "17",
+                    "15",
+                    "19",
+                    "25"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kirişin yarısı 15 cm'dir. Merkezden uzaklık 4 cm olup dik kenarları oluşturan değerlerdir. Hipotenüs olan yarıçap, kök içinde (15 in karesi + 4 ün karesi) işleminden 17 cm bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir çemberde merkeze en yakın olan kiriş, merkezden en uzak olan kirişten ____.",
+                  "options": [
+                    "daha uzundur"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çemberde merkeze yaklaştıkça kirişlerin uzunlukları artar, bu nedenle merkeze en yakın kiriş en uzun kiriştir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çemberde birbirine paralel iki kiriş arasında kalan yayların uzunlukları ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paralel doğrular çember üzerinde eşit yaylar ayırır, bu nedenle arada kalan yay ölçüleri ve uzunlukları eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir dış noktadan çembere çizilen teğet parçalarının uzunlukları birbirine ____.",
+                  "options": [
+                    "eşittir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Teğetlerin değme noktalarına olan uzaklıkları teğet uzunlukları kuralı gereği daima birbirine eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Merkezden çemberin kirişine çizilen doğru parçası kirişe ____ olmalıdır.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkezden kirişe indirilen dikme aynı zamanda kirişi ve yayı ortalar, temel bir uzunluk teoremidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çemberde en uzun kiriş ____ olarak adlandırılır.",
+                  "options": [
+                    "çap"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkezden geçen en büyük kiriş çaptır ve çemberi iki eşit parçaya böler.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir çemberde merkezden eşit uzaklıkta bulunan kirişlerin uzunlukları birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Merkeze olan uzaklıkları eşit olan kirişler geometrik olarak eşit uzunluğa sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çemberde en uzun kiriş daima teğet doğrusudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çemberin en uzun kirişi çaptır, teğet ise çemberi sadece bir noktada kesen bir doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Merkezden kirişe indirilen dikme, kirişi ortalar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu, çemberde uzunluk hesaplamalarının temelini oluşturan temel bir teorem ve kuraldır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çemberin dışındaki bir noktadan çembere sadece bir tane teğet çizilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çemberin dışındaki bir noktadan çembere her zaman iki farklı teğet parçası çizilebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aynı çemberde eş yayları gören kirişlerin uzunlukları da eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eş yayların merkez açısı da eşit olduğundan, bu yayları gören kirişler aynı uzunluktadır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
@@ -1119,13 +2289,361 @@
           "id": "node1",
           "order": 1,
           "title": "Noktanın Analitiği",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Analitik düzlemde orijinin koordinatları nedir?",
+                  "answer": "(0, 0)"
+                },
+                {
+                  "question": "Koordinat sisteminde I. bölgede bir noktanın apsis ve ordinatının işaretleri nasıldır?",
+                  "answer": "Apsis pozitif, ordinat pozitiftir."
+                },
+                {
+                  "question": "P(x, y) noktasının x eksenine göre simetriği olan noktanın koordinatları nedir?",
+                  "answer": "(x, -y)"
+                },
+                {
+                  "question": "A(x1, y1) ve B(x2, y2) noktaları arasındaki uzaklık formülü nedir?",
+                  "answer": "Karekök içinde ((x2 - x1) kare + (y2 - y1) kare)"
+                },
+                {
+                  "question": "Bir noktanın y eksenine olan uzaklığı apsisinin mutlak değerine mi eşittir?",
+                  "answer": "Evet, eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "A(2, 3) ve B(6, 6) noktaları arasındaki uzaklık kaç birimdir?",
+                  "options": [
+                    "3",
+                    "6",
+                    "4",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Uzaklık formülü ile kök içinde (6 - 2)^2 + (6 - 3)^2 hesabı yapılır. Bu da kök içinde 4^2 + 3^2 yani kök 25'ten 5 birim bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A(-2, 5) noktasının orijine göre simetriği olan noktanın koordinatları toplamı kaçtır?",
+                  "options": [
+                    "-3",
+                    "-1",
+                    "1",
+                    "3"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre simetride her iki bileşenin işaretleri değişir. A(-2, 5) noktasının orijine göre simetriği B(2, -5) olur. Bu koordinatların toplamı 2 + (-5) = -3 eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Analitik düzlemde A(3, -4) noktası hangi bölgededir?",
+                  "options": [
+                    "Dördüncü bölge",
+                    "İkinci bölge",
+                    "Birinci bölge",
+                    "Üçüncü bölge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Apsis (x) pozitif, ordinat (y) negatif olduğundan nokta dördüncü bölgededir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A(1, 4) ve B(5, 8) uç noktaları verilen [AB] doğru parçasının orta noktasının ordinatı kaçtır?",
+                  "options": [
+                    "8",
+                    "4",
+                    "3",
+                    "6"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Orta noktanın ordinatı, y değerlerinin aritmetik ortalamasıdır. (4 + 8) / 2 = 12 / 2 = 6 olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "A(a - 3, 2) noktası y ekseni üzerinde olduğuna göre, a kaçtır?",
+                  "options": [
+                    "3",
+                    "2",
+                    "5",
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y ekseni üzerinde bulunan noktaların apsisi (x) sıfırdır. Bu yüzden a - 3 = 0 denkleminden a = 3 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir P(x, y) noktasının orijine olan uzaklığının karesi x kare artı ____ eşittir.",
+                  "options": [
+                    "y kare"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Pisagor bağıntısı gereği orijine uzaklığın karesi apsis ve ordinatın kareleri toplamıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A(x1, y1) ve B(x2, y2) noktalarını birleştiren doğru parçasının orta noktasının apsisi x1 artı x2 toplamının ____ bölümüdür.",
+                  "options": [
+                    "ikiye"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta nokta formülüne göre apsisler toplanıp ikiyə bölünür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Koordinat sisteminde y = x doğrusu birinci ve ____ açıortay doğrusudur.",
+                  "options": [
+                    "üçüncü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y = x doğrusu birinci ve üçüncü bölgelerin açıortayıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "A(-3, 0) noktası x ekseni üzerindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ordinatı sıfır olan noktalar x ekseni üzerinde yer alır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "B(2, -4) noktası ikinci bölgededir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Apsisi pozitif, ordinatı negatif olan noktalar dördüncü bölgededir, ikinci bölgede değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "C(5, 7) noktasının y eksenine olan uzaklığı 5 birimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir noktanın y eksenine olan uzaklığı apsisinin mutlak değerine eşittir, bu da mutlak değer içinde 5'ten 5'tir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "D(-1, -6) noktasının orijine göre simetriği D'(1, 6) noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre simetri alınırken hem x hem de y koordinatlarının işaretleri ters çevrilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "E(3, 4) noktasının orijine olan uzaklığı 7 birimdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Orijine uzaklık kök içinde 3^2 + 4^2 = kök 25 = 5 birimdir, 7 birim değildir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Doğrunun Analitik İncelenmesi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Analitik düzlemde iki nokta arasındaki uzaklık formülü nedir?",
+                  "answer": "Kök içinde (x2 - x1)in karesi artı (y2 - y1)in karesi."
+                },
+                {
+                  "question": "Eğimleri m1 ve m2 olan iki doğru birbirine dik ise aralarındaki ilişki nedir?",
+                  "answer": "m1 çarpı m2 eşittir eksi bir."
+                },
+                {
+                  "question": "Eğimi m olan ve (x1, y1) noktasından geçen doğrunun denklemi nasıl yazılır?",
+                  "answer": "y - y1 = m * (x - x1)"
+                },
+                {
+                  "question": "Analitik düzlemde eksenleri A(a, 0) ve B(0, b) noktalarında kesen doğrunun denklemi nedir?",
+                  "answer": "(x / a) + (y / b) = 1"
+                },
+                {
+                  "question": "Noktanın doğruya uzaklığı formülünde pay kısmında ne bulunur?",
+                  "answer": "Noktanın koordinatlarının doğru denkleminde mutlak değer içinde yerine yazılmış hali."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "A(1, 2) ve B(4, 6) noktaları arasındaki uzaklık kaç birimdir?",
+                  "options": [
+                    "6",
+                    "4",
+                    "5",
+                    "3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Uzaklık formülü uygulanırsa kök içinde (4 - 1)in karesi artı (6 - 2)nin karesi hesaplanır. Buradan kök içinde 9 artı 16 yani kök 25 gelir ve sonuç 5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Eğimi 2 olan ve orijinden (0, 0) geçen doğrunun denklemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "y = 2x",
+                    "y = x + 2",
+                    "y = 2x + 1",
+                    "x = 2y"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijinden geçen doğruların sabit terimi sıfırdır ve y = mx şeklinde yazılır. Eğimi 2 olduğu için denklem y = 2x olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "3x - 4y + 5 = 0 doğrusunun eğimi kaçtır?",
+                  "options": [
+                    "3/4",
+                    "3/5",
+                    "-3/4",
+                    "4/3"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğru denkleminde y yalnız bırakıldığında y = (3/4)x + (5/4) elde edilir. x'in katsayısı olan 3/4 doğrunun eğimidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2x + y - 4 = 0 ve 2x + y + 6 = 0 doğruları arasındaki uzaklık kaç birimdir?",
+                  "options": [
+                    "5",
+                    "2 kök 5",
+                    "10",
+                    "2"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paralel iki doğru arasındaki uzaklık formülü c farkının mutlak değeri bölü kök içinde a kare artı b kare şeklindedir. |-4 - 6| / kök içinde (2 kare + 1 kare) = 10 / kök 5 = 2 kök 5 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Analitik düzlemde eğimleri eşit olan iki doğru birbirine ____ olur.",
+                  "options": [
+                    "paralel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Analitik geometride aynı eğime sahip iki doğru hiçbir zaman kesişmez, bu nedenle bu doğrular birbirine paraleldir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A(x1, y1) ve B(x2, y2) doğru parçasını tam ortadan bölen noktanın apsisi x1 ile x2 sayılarının ____ aritmetik ortalamasıdır.",
+                  "options": [
+                    "aritmetik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta nokta hesaplanırken apsisler toplanıp ikiye bölünür, bu işlem iki sayının aritmetik ortalamasını verir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğimi tanımsız olan doğrular ____ eksenine paraleldir.",
+                  "options": [
+                    "y"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikey doğruların eğim açısı 90 derece olup tanjant 90 tanımsızdır ve bu doğrular y eksenine paraleldir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Orijinden geçen bir doğrunun denkleminde sabit terim her zaman sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijin (0, 0) noktasıdır ve bu nokta doğrunun denklemini sağlamak zorundadır, bu yüzden y = mx formatında sabit terim bulunmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik kesişen iki doğrudan birinin eğimi 3 ise diğerinin eğimi -3 tür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dik kesişen doğruların eğimleri çarpımı -1 olmalıdır. Eğimi 3 olan bir doğrunun dik kesişeni için diğer eğim -1/3 olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yandaki eksenleri kesen (x/a) + (y/b) = 1 denkleminde a ve b sıfırdan farklı olmalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eksenleri kesen doğru denkleminde paydalar sıfır olamaz çünkü eksenler sıfır dışındaki noktalarda kesilmektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A(1, 2) noktasının y = x doğrusuna göre simetriği B(2, 1) noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir noktanın y = x doğrusuna göre simetriği alınırken apsis ve ordinat yer değiştirir, dolayısıyla (1, 2) noktası (2, 1) olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1138,19 +2656,546 @@
           "id": "node1",
           "order": 1,
           "title": "Prizmalar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Dik prizmalarda yanal ayrıtlar taban düzlemine nasıldır?",
+                  "answer": "Dikitr"
+                },
+                {
+                  "question": "Tabanı üçgen olan bir dik prizmanın toplam kaç ayrıtı vardır?",
+                  "answer": "9"
+                },
+                {
+                  "question": "Taban çevresi Ç ve yanal yüksekliğih olan bir dik prizmanın yanal alanı nasıl bulunur?",
+                  "answer": "Ç çarpı h"
+                },
+                {
+                  "question": "Dik prizmanın hacmi nasıl hesaplanır?",
+                  "answer": "Taban alanı çarpı yükseklik"
+                },
+                {
+                  "question": "Bütün yüzeyleri eş kareler olan dik prizmanın özel adı nedir?",
+                  "answer": "Küp"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Taban alanı 12 cm kare ve yüksekliği 5 cm olan bir dik prizmanın hacmi kaç cm küptür?",
+                  "options": [
+                    "60",
+                    "70",
+                    "40",
+                    "50"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmanın hacmi taban alanı ile yüksekliğin çarpımına eşittir. Hacim eşittir 12 çarpı 5 o da eşittir 60 cm küptür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Ayrıt uzunlukları 3 cm, 4 cm ve 5 cm olan dik dikdörtgenler prizmasının yüzey alanı kaç cm karedir?",
+                  "options": [
+                    "60",
+                    "94",
+                    "47",
+                    "120"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dik dikdörtgenler prizmasının yüzey alanı 2 çarpı (a çarpı b artı a çarpı c artı b çarpı c) formülü ile bulunur. Alan eşittir 2 çarpı (12 artı 15 artı 20) o da eşittir 2 çarpı 47 eşittir 94 cm karedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir küpün cisim köşegeninin uzunluğu 6 kök 3 cm olduğuna göre, bu küpün bir ayrıtı kaç cm dir?",
+                  "options": [
+                    "6",
+                    "3",
+                    "12",
+                    "9"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir kenarı a olan küpün cisim köşegeni a kök 3 formülü ile bulunur. a kök 3 eşittir 6 kök 3 ise a eşittir 6 cm dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban ayrıtları 3 cm ve 4 cm, yüksekliği 12 cm olan dik dikdörtgenler prizmasının cisim köşegeni kaç cm dir?",
+                  "options": [
+                    "13",
+                    "17",
+                    "19",
+                    "15"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dikdörtgenler prizmasının cisim köşegeni karekök içinde (a kare artı b kare artı c kare) ile bulunur. Sonuç kök içinde (9 artı 16 artı 144) eşittir kök 169 eşittir 13 cm dir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tabanları birbirine eş ve paralel iki çokgen, yanal yüzleri ise paralelkenar olan geometrik cisimlere ____ denir.",
+                  "options": [
+                    "prizma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği tabanları paralel çokgenler olan ve yanal yüzleri düzlem parçasından oluşan cisimler prizma adını alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tüm ayrıt uzunlukları birbirine eşit olan dik dikdörtgenler prizmasına ____ denir.",
+                  "options": [
+                    "küp"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bütün ayrıtları eşit uzunlukta ve tüm yüzeyleri kare olan özel dik prizma küp olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dik prizmaların yanal yüzleri daima ____ şeklindedir.",
+                  "options": [
+                    "dikdörtgen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmaların taban düzlemine dik olan yanal ayrıtları nedeniyle yanal yüzleri birer dikdörtgendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tabanı üçgen olan dik prizmalara ____ prizma denir.",
+                  "options": [
+                    "üçgen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Prizmalar isimlerini tabanlarını oluşturan çokgenin kenar sayısından veya şeklinden alır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dik prizmaların yanal yüzeyleri her zaman dikdörtgen şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmaların yanal ayrıtları tabana dik olduğu için yanal yüzler daima dikdörtgendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bütün prizmaların tabanları sadece kare olmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Prizmaların tabanları üçgen, dikdörtgen, beşgen veya herhangi bir konveks çokgen olabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Küp, tüm yüzeyleri kare olan düzgün bir altıgendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Küpün yüzeyleri karelerden oluşur ancak küp bir altıgen değil, bir dik prizmadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik prizmada yükseklik ile yanal ayrıt uzunluğu birbirine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dik prizmaların tabana dik olan yanal ayrıtları aynı zamanda cismin yüksekliğini verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir dik prizmanın hacmini bulmak için taban alanı yükseklik ile çarpılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tüm dik prizmaların hacim bağıntısı Taban Alanı çarpı Yükseklik şeklindedir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Piramitler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Piramidin tabanı çokgen, yan yüzleri ise ortak bir tepede birleşen hangi geometrik şekildedir?",
+                  "answer": "Üçgen"
+                },
+                {
+                  "question": "Tabanı kare olan bir piramidin tabanı dahil toplam kaç yüzü vardır?",
+                  "answer": "5 yüz"
+                },
+                {
+                  "question": "Bir piramidin taban alanı T, yüksekliği h ise hacmi hangi formülle hesaplanır?",
+                  "answer": "V = (T . h) / 3"
+                },
+                {
+                  "question": "Düzgün piramidin yan yüz yüksekliklerinin birleştiği tepe noktası, tabanın merkezinin tam üzerindedir. Yan yüzler hangi üçgenlerdir?",
+                  "answer": "İkizkenar üçgen"
+                },
+                {
+                  "question": "n kenarlı bir piramidin toplam kaç köşesi vardır?",
+                  "answer": "n + 1"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Taban kenarı 6 cm ve yan yüz yüksekliği 5 cm olan düzgün dörtgen piramidin bir yan yüzünün alanı kaç santimetrekaredir?",
+                  "options": [
+                    "60",
+                    "30",
+                    "120",
+                    "15"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bir yan yüz, tabanı 6 cm ve yüksekliği 5 cm olan bir ikizkenar üçgendir. Alanı (6 . 5) / 2 = 15 santimetrekaredir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bir piramidin temel elemanlarından biri değildir?",
+                  "options": [
+                    "Yan ayrıt",
+                    "Taban",
+                    "Ana doğru",
+                    "Tepe noktası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ana doğru kavramı dik koninin temel elemanıdır, piramitlerde yan ayrıt ve yan yüz yüksekliği bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yüksekliği 4 cm ve taban alanı 27 cm kare olan düzgün piramidin hacmi kaç santimetreküptür?",
+                  "options": [
+                    "324",
+                    "48",
+                    "108",
+                    "36"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Hacim formülü V = (Taban Alanı . Yükseklik) / 3 şeklindedir. (27 . 4) / 3 = 9 . 4 = 36 santimetreküptür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tüm yan yüzleri eş ikizkenar üçgenlerden oluşan ve tabanı düzgün çokgen olan piramitlere ____ piramit denir.",
+                  "options": [
+                    "düzgün"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tabanı düzgün çokgen olan ve tepe noktası taban merkezinin izdüşümüne denk gelen piramitler düzgün piramit olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "n kenarlı bir piramidin tabanı dahil toplam yüz sayısı ____ kadardır.",
+                  "options": [
+                    "n + 1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piramitlerin bir tane tabanı ve her taban kenarına karşılık gelen bir yan yüzü bulunur. Bu yüzden yüz sayısı n + 1 dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Piramidin taban düzlemi dışındaki tüm yan yüzlerinin birleştiği ortak noktaya ____ noktası denir.",
+                  "options": [
+                    "tepe"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yan yüzlerin kesiştiği ve piramidin en üst noktasını oluşturan yere tepe noktası adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir piramidi tabana paralel bir düzlemle kestiğimizde oluşan ara kesit tabana benzer ve bu cisme kesik ____ denir.",
+                  "options": [
+                    "piramit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piramidin tabanına paralel bir kesit alındığında üst kısım atılır ve geriye kesik piramit kalır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir piramidin hacmi, taban alanı ile yüksekliğin çarpımının üçte birine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Piramit, koni ve sivri uçlu cisimlerin hacmi prizmaların üçte biri kadardır, ifade doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Düzgün dörtgen piramidin yan yüzleri eşkenar üçgen olmak zorundadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yan yüzler ikizkenar üçgendir ancak bu üçgenlerin eşkenar olması zorunlu değildir, taban kenarı ile yan ayrıt uzunluğuna bağlıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Altıgen tabanlı bir piramidin toplam köşe sayısı 7'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Altıgen tabanda 6 köşe ve üstte 1 tepe noktası olmak üzere toplam 6 + 1 = 7 köşe bulunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Piramitlerin yan yüzleri her zaman dikdörtgen şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Piramitlerin yan yüzleri dikdörtgen değil, üçgen şeklindedir. Dikdörtgen yan yüzler prizmalara aittir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Silindir, Koni ve Küre",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Taban yarıçapı r ve yüksekliği h olan dik silindirin yanal alanı nasıl hesaplanır?",
+                  "answer": "2 * pi * r * h"
+                },
+                {
+                  "question": "Taban yarıçapı r ve ana doğrusu l olan dik dairesel koninin yanal alanı formülü nedir?",
+                  "answer": "pi * r * l"
+                },
+                {
+                  "question": "Yarıçapı r olan bir kürenin hacmi hangi formülle bulunur?",
+                  "answer": "(4/3) * pi * r^3"
+                },
+                {
+                  "question": "Dik dairesel bir silindirin taban alanı ile yüksekliğinin çarpımı bize neyi verir?",
+                  "answer": "Hacim"
+                },
+                {
+                  "question": "Bir dik dairesel konide taban yarıçapı, yükseklik ve ana doğru hangi bağıntı ile birbirine bağlanır?",
+                  "answer": "Pisagor bağıntısı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı 3 cm ve yüksekliği 4 cm olan dik dairesel silindirin hacmi kaç pi santimetreküptür?",
+                  "options": [
+                    "24",
+                    "36",
+                    "48",
+                    "18"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Silindirin hacmi V = pi * r^2 * h formülüyle bulunur. r = 3 ve h = 4 değerleri yerine yazıldığında V = pi * (3^2) * 4 = 36 pi bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban yarıçapı 5 cm ve ana doğrusu 13 cm olan dik dairesel koninin yüksekliği kaç santimetredir?",
+                  "options": [
+                    "14",
+                    "15",
+                    "10",
+                    "12"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Konide r^2 + h^2 = l^2 bağıntısı vardır. 5^2 + h^2 = 13^2 denkleminden 25 + h^2 = 169 ve h^2 = 144, yani h = 12 cm bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı 6 cm olan kürenin yüzey alanı kaç pi santimetrekaredir?",
+                  "options": [
+                    "144",
+                    "72",
+                    "216",
+                    "108"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kürenin yüzey alanı A = 4 * pi * r^2 formülüyle hesaplanır. r = 6 için A = 4 * pi * (6^2) = 144 pi cm^2 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Taban çevresi 10 pi cm ve yüksekliği 8 cm olan dik silindirin yanal alanı kaç pi santimetrekaredir?",
+                  "options": [
+                    "40",
+                    "100",
+                    "60",
+                    "80"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Silindirin yanal alanı taban çevresi ile yüksekliğin çarpımıdır. Yanal alan = (2 * pi * r) * h = 10 pi * 8 = 80 pi cm^2 olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Açınımı 120 derecelik daire dilimi olan koninin ana doğrusu 9 cm ise, taban yarıçapı kaç santimetredir?",
+                  "options": [
+                    "2",
+                    "4",
+                    "3",
+                    "6"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Koninin taban yarıçapının ana doğruya oranı alfa / 360 oranına eşittir. r / l = 120 / 360 ise r / 9 = 1/3 ve r = 3 cm bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tabanları birbirine eş ve paralel iki daire olan, yan yüzü eğri yüzeyden oluşan katı cismin adı ____ silindirdir.",
+                  "options": [
+                    "dik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taban düzlemine dik olan silindirlere dik silindir denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Koninin tepesinden taban çemberi üzerindeki bir noktaya inen doğru parçasının adı ____ doğrusudur.",
+                  "options": [
+                    "ana"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koninin yan yüzeyini oluşturan doğrulara ana doğru denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küre yüzeyinin herhangi bir düzlemle kesilmesi ara kesit olarak bir ____ oluşturur.",
+                  "options": [
+                    "daire"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küre bir düzlemle kesildiğinde kesit bölgesi daireseldir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Yarıçapı r olan bir kürenin hacmi (4/3) * pi * r^3 formülü ile hesaplanır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu ifade kürenin hacim formülünü doğru vermektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik dairesel koninin hacmi, aynı taban yarıçapına ve yüksekliğe sahip dik silindirin hacminin yarısıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Koninin hacmi silindirin hacminin üçte biridir, yarısı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Silindirin yanal alanı, taban çevresi ile yüksekliğin çarpımına eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yanal alan formülü 2 * pi * r * h olup taban çevresi (2 * pi * r) ile yüksekliğin (h) çarpımıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kürenin yüzey alanı 4 * pi * r^3 formülü ile bulunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kürenin yüzey alanı küp ile değil r'nin karesi ile orantılıdır, yani 4 * pi * r^2 olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik dairesel bir koni açıldığında yan yüzeyi bir daire dilimi olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Koninin yanal yüzey açınımı daire dilimidir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -1908,19 +1908,628 @@
           "id": "node1",
           "order": 1,
           "title": "Paragraf Anlama",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary purpose of a topic sentence in a paragraph?",
+                  "answer": "It states the main idea of the paragraph."
+                },
+                {
+                  "question": "How can you identify the tone of a reading passage?",
+                  "answer": "By looking at the author's choice of adjectives, adverbs, and emotional vocabulary."
+                },
+                {
+                  "question": "What does a 'transitional word' like 'however' usually indicate?",
+                  "answer": "A contrast or shift in the argument."
+                },
+                {
+                  "question": "What is an inference in reading comprehension?",
+                  "answer": "A conclusion reached on the basis of evidence and reasoning rather than explicit statements."
+                },
+                {
+                  "question": "Why is skimming a useful reading technique?",
+                  "answer": "It allows the reader to get a quick general overview of the text's main ideas."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Read the sentence: 'Despite the harsh economic conditions, the small startup managed to flourish and double its revenue.' Which of the following best describes the author's attitude towards the startup?",
+                  "options": [
+                    "Critical",
+                    "Indifferent",
+                    "Pessimistic",
+                    "Admirative"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yazar, zor ekonomik şartlara rağmen şirketin büyümesini 'managed to flourish' ifadesiyle övdüğü için tavrı takdir edici (admirative) niteliktedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "According to standard reading strategies, what should a student do first when tackling a long YDT reading passage?",
+                  "options": [
+                    "Translate the entire text sentence by sentence",
+                    "Look at the questions first to know what to look for",
+                    "Read every single word carefully twice",
+                    "Ignore the first and last paragraphs"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paragraf sorularında önce sorulara ve soru köklerine göz atmak, metni okurken hangi bilgileri aramanız gerektiği konusunda stratejik avantaj sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Read the sentence: 'Urbanization has many benefits, but it also leads to severe traffic congestion and green space reduction.' What is the primary function of this sentence in a paragraph?",
+                  "options": [
+                    "To introduce a thesis with opposing aspects",
+                    "To provide a concluding summary",
+                    "To give a specific historical example",
+                    "To refute a scientific claim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümle hem avantajlardan bahsetmekte hem de 'but' bağlacıyla olumsuz yanlara geçiş yaparak iki yönlü bir ana fikir sunmaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which of the following phrases is most likely to signal a cause-and-effect relationship in a paragraph?",
+                  "options": [
+                    "In contrast",
+                    "On the other hand",
+                    "For instance",
+                    "As a result"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'As a result' (sonuç olarak) kalıbı, bir olayın nedenini ve ardından gelen sonucu bağlamak için kullanılan temel bir sebep-sonuç sinyalidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "In a reading passage, if an author uses the phrase 'It is widely believed that...', this usually implies that:",
+                  "options": [
+                    "The statement represents a general public opinion which the author may later support or challenge",
+                    "The author personally guarantees this fact",
+                    "There is no other scientific evidence available",
+                    "The text is definitely a fiction story"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Genellikle inanılmaktadır ki' kalıbı, yazarın kendi görüşünden ziyade genel bir kanıyı yansıtır ve genellikle ilerleyen cümlelerde bu kanı desteklenir veya çürütülür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "In reading comprehension, looking quickly through a text to get the general idea without reading every word is known as ____.",
+                  "options": [
+                    "skimming"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metnin tamamını kelime kelime okumadan genel ana fikrini hızlıca kavramaya 'skimming' (göz atma) denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A word or phrase that connects ideas and shows the relationship between sentences, such as 'furthermore' or 'therefore', is called a ____ marker.",
+                  "options": [
+                    "transition"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümleler ve fikirler arasında akış sağlayan 'furthermore' veya 'therefore' gibi kelimelere geçiş işareti (transition) adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When a question asks you to reach a conclusion based on clues in the text rather than direct statements, you need to make an ____.",
+                  "options": [
+                    "inference"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metinde doğrudan verilmeyen ancak ipuçlarından çıkarım yapma sürecine 'inference' (çıkarım) denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The underlying attitude of the writer toward a particular subject in a passage is referred to as the author's ____.",
+                  "options": [
+                    "tone"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazarın ele aldığı konuya karşı takındığı tutum ve duygu tonu 'tone' (üslup/ton) olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Reading a text quickly to find a specific piece of information, such as a date or a name, is called ____.",
+                  "options": [
+                    "scanning"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Belirli bir kelime, tarih veya ismi bulmak için metni tarama tekniğine 'scanning' denir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Skimming involves reading every single word and punctuation mark in a passage very slowly.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; 'skimming' detaylı okuma değil, metne hızlıca göz atarak genel fikri anlama tekniğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "An inference question requires you to deduce information that is implied rather than explicitly stated in the text.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; çıkarım soruları metinde açıkça yazılmayan ancak ipuçlarından varılan sonuçları bulmayı amaçlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Transition words like 'however' and 'on the other hand' are typically used to show agreement and similarity.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; bu kelimeler benzerlik değil, zıtlık ve karşıtlık (contrast) bildirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The topic sentence of a paragraph usually gives the main idea or the core argument of that paragraph.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; ana fikir cümleleri (topic sentence) genellikle paragrafın başında yer alır ve o paragrafın ana konusunu özetler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Scanning is the best technique to use when you want to understand the deep philosophical meaning of a complex literary passage.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; 'scanning' sadece özel bir veriyi (tarih, isim vb.) hızlıca bulmak içindir; derin anlamlar için dikkatli ve detaylı okuma gerekir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Ana Düşünce ve Ayrıntılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the main idea of a reading passage?",
+                  "answer": "The primary point or central message that the author wants to convey."
+                },
+                {
+                  "question": "How do supporting details function in a paragraph?",
+                  "answer": "They provide evidence, examples, or explanations to back up the main idea."
+                },
+                {
+                  "question": "Where is the main idea most frequently stated in standard English paragraphs?",
+                  "answer": "In the topic sentence, usually located at the beginning or the end of the paragraph."
+                },
+                {
+                  "question": "What is a common trap in main idea questions?",
+                  "answer": "Choosing an option that is a true detail from the passage but too narrow to be the main idea."
+                },
+                {
+                  "question": "What technique helps locate specific details quickly in a YDT reading text?",
+                  "answer": "Scanning for keywords such as names, dates, numbers, or specific terms."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Read the following sentence: 'Despite the harsh winter conditions, local farmers managed to harvest a record-breaking crop of wheat.' What is the primary focus of this sentence?",
+                  "options": [
+                    "The decline of wheat production in recent years",
+                    "A successful agricultural outcome under adverse weather conditions",
+                    "The financial benefits of modern farming equipment",
+                    "The difficulty of predicting weather patterns in winter"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Cümle, olumsuz kış şartlarına rağmen çiftçilerin rekor rekolte elde ettiğini vurgulamaktadır; bu da B seçeneğindeki 'olumsuz hava koşullarına rağmen başarılı tarımsal sonuç' ile birebir örtüşür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which of the following best describes the function of supporting details in a well-structured academic text?",
+                  "options": [
+                    "They validate and clarify the central thesis of the text.",
+                    "They introduce entirely new and unrelated arguments to confuse the reader.",
+                    "They summarize the biographical information of the author.",
+                    "They replace the need for a conclusion paragraph."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akademik metinlerde destekleyici ayrıntılar, ana tezi doğrulamak ve netleştirmek için kanıt veya örnek sunma işlevi görür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "When a YDT question asks 'What can be inferred from the passage about X?', what should the test-taker look for?",
+                  "options": [
+                    "A logical conclusion drawn from the stated facts in the text",
+                    "The personal opinion of the test-taker",
+                    "Information that is never mentioned anywhere in the passage",
+                    "A direct quotation that repeats the exact words of the text"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "YDT çıkarım (inference) sorularında, doğrudan yazılmamış ancak metindeki verilere dayanarak mantıksal olarak ulaşılabilecek sonuçlar aranır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Read the statement: 'Urbanization has led to a significant increase in energy consumption, prompting cities to invest in smart grid technologies.' What is the main cause-and-effect relationship?",
+                  "options": [
+                    "Smart grids caused an increase in urban populations.",
+                    "Cities stopped investing in technology due to low energy demands.",
+                    "Urbanization caused higher energy use, leading to smart grid investments.",
+                    "Energy consumption decreased because of smart grid investments."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Cümlede kentleşmenin enerji tüketimini artırdığı (neden) ve bunun sonucunda şehirlerin akıllı şebekelere yatırım yaptığı (sonuç) açıkça belirtilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "What is the best strategy when encountering an unfamiliar word in a detail question on the YDT exam?",
+                  "options": [
+                    "Use contextual clues surrounding the word to deduce its meaning",
+                    "Assume the word means the exact opposite of its root",
+                    "Translate every single word in the text word-for-word",
+                    "Ignore the entire paragraph and guess randomly"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "YDT'de bilinmeyen kelimelerle karşılaşıldığında, cümlenin veya paragrafın genel bağlamından (contextual clues) yararlanarak anlam çıkarımı yapmak en etkili stratejidir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "The central message or overarching point of a paragraph is known as the main ____.",
+                  "options": [
+                    "idea"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın temel mesajı veya ana noktası 'main idea' (ana düşünce) olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sentences that provide specific facts and examples to back up the central point are called supporting ____.",
+                  "options": [
+                    "details"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ana noktayı desteklemek için sunulan özel olgu ve örnekler 'supporting details' (destekleyici ayrıntılar) olarak bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "To find a specific year or name in a reading text without reading every word, a student should use the technique of ____.",
+                  "options": [
+                    "scanning"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metinde özel bir terim, tarih veya ismi hızlıca bulma tekniğine 'scanning' (tarama) denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A question that asks what the author implies rather than what is explicitly stated is testing reading ____.",
+                  "options": [
+                    "comprehension"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazarın doğrudan söylemediği ancak ima ettiği durumları anlamak okuduğunu anlama (comprehension) becerisinin bir parçasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The sentence that usually states the main idea at the beginning of a paragraph is called the ____ sentence.",
+                  "options": [
+                    "topic"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın başında ana düşünceyi veren cümle genellikle 'topic sentence' (konu cümlesi) adını alır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "The main idea of a text is always explicitly written in the final sentence of the concluding paragraph.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ana düşünce her zaman sonuç paragrafının son cümlesinde yer almaz; giriş cümlesinde, paragrafın ortasında bulunabilir veya metnin tamamından çıkarılması gerekebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Supporting details provide evidence, statistics, or examples that reinforce the main idea.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Destekleyici ayrıntılar, ana düşünceyi güçlendirmek için kanıt, istatistik veya örnek sunar; bu ifade doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Scanning involves reading every single word of a passage slowly and thoroughly to understand deep philosophical meanings.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Scanning, metni kelime kelime yavaş okumak değil, belirli bir anahtar kelimeyi hızla bulmak için göz gezdirme tekniğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "An incorrect option in a multiple-choice reading question is often a detail that is true in the text but does not answer the specific question asked.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çoktan seçmeli sorularda sıklıkla kullanılan çeldiriciler, metinde gerçekten geçen doğru bilgilerdir ancak sorulan ana düşünceyi veya özel soruyu karşılamazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Context clues can help a reader determine the meaning of an unfamiliar word without needing to use a dictionary.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bağlam ipuçları (context clues), bilinmeyen kelimelerin anlamını sözlüğe ihtiyaç duymadan tahmin etmeyi sağlar; ifade doğrudur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Çıkarım Soruları",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is an inference question in YDT Reading?",
+                  "answer": "A question that requires finding unstated meanings implied by the author."
+                },
+                {
+                  "question": "How should you approach strong words like 'always' or 'never' in options?",
+                  "answer": "They are usually incorrect unless strongly supported by the passage."
+                },
+                {
+                  "question": "What does the phrase 'It can be inferred from the passage that...' test?",
+                  "answer": "Your ability to read between the lines and draw logical conclusions."
+                },
+                {
+                  "question": "Should you use outside knowledge to answer inference questions?",
+                  "answer": "No, answers must be based strictly on the evidence in the text."
+                },
+                {
+                  "question": "What is the difference between detail and inference questions?",
+                  "answer": "Detail questions ask for explicitly stated facts, while inference asks for implied conclusions."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "According to the passage, which of the following can be inferred about renewable energy sources?",
+                  "options": [
+                    "They are currently more cost-effective than traditional energy sources globally.",
+                    "Their widespread adoption depends heavily on technological advancements in storage.",
+                    "They will completely replace fossil fuels within a decade.",
+                    "Governments subsidize them solely to reduce international trade deficits."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Metinde yenilenebilir enerjinin depolama teknolojilerindeki gelişmelere bağlı olduğu vurgulanmaktadır, bu nedenle en mantıklı çıkarım budur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "What can be inferred about the author's attitude toward urban green spaces?",
+                  "options": [
+                    "Strictly economic",
+                    "Indifferent and dismissive",
+                    "Pessimistic about their future",
+                    "Critically supportive"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Yazarın yeşil alanların hem fiziksel hem de psikolojik faydalarından bahsetmesi onun bu konuyu desteklediğini ancak eksiklikleri eleştirdiğini gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "It can be concluded from the text that the industrial revolution ____.",
+                  "options": [
+                    "radically transformed both social structures and labor dynamics",
+                    "was driven entirely by a sudden shortage of wood",
+                    "occurred simultaneously across all European nations",
+                    "prevented any further technological innovations in agriculture"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sanayi devriminin toplumsal yapıları ve iş gücünü kökten değiştirdiği metindeki çıkarımlarla doğrudan uyumludur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which of the following can be deduced regarding the protagonist's final decision?",
+                  "options": [
+                    "It was made without any prior hesitation.",
+                    "It was forced upon him by his business partners.",
+                    "It contradicted everything he had believed in his youth.",
+                    "It was motivated by a desire for personal redemption."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Karakterin pişmanlıkları ve son hamlesi kişisel bir kefaret arayışına işaret etmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "What is implied about the effectiveness of the new educational policy?",
+                  "options": [
+                    "It requires further empirical testing over a longer period.",
+                    "It focuses exclusively on mathematics.",
+                    "It was universally rejected by teachers.",
+                    "It has solved all dropout issues nationwide."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yeni politikanın uzun vadeli etkilerinin henüz kesinleşmediği ve daha fazla gözleme ihtiyaç duyduğu ifade edilmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "An inference is a conclusion reached on the basis of evidence and ____.",
+                  "options": [
+                    "reasoning"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çıkarım yapmak, mevcut kanıtlar ve akıl yürütme (reasoning) yoluyla sonuca varmaktır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When a text implies something, it suggests it ____ rather than explicitly stating it.",
+                  "options": [
+                    "indirectly"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İmâ etmek veya dolaylı yoldan belirtmek kavramı 'indirectly' kelimesiyle ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "In YDT inference questions, choosing an option that is completely outside the scope of the text is a common ____.",
+                  "options": [
+                    "trap"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Metin dışı veya aşırı genelleme içeren şıklar genellikle birer tuzak (trap) niteliğindedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "To successfully answer an inference question, a reader must look beyond the literal meaning to grasp the underlying ____.",
+                  "options": [
+                    "meaning"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kelime anlamının ötesine geçerek metnin alt metnindeki anlamı (meaning) kavramak gerekir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Authors often use ____ language to convey subtle hints without stating facts outright.",
+                  "options": [
+                    "figurative"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yazarlar doğrudan bilgi vermek yerine mecazi veya imalı (figurative) bir dil kullanabilirler.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Inference questions require you to select an answer that is directly quoted word-for-word from the passage.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; çıkarım soruları kelimesi kelimesine alıntıları değil, metinden mantıksal sonuçlar çıkarmayı gerektirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "If a statement is true in the real world, it must be the correct answer to an inference question, even if the passage does not support it.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlış bir ifadedir; YDT okuma sorularında tüm cevaplar yalnızca verilen metne dayandırılmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Read-between-the-lines questions test your ability to understand unstated implications.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; 'satır aralarını okumak' terimi tam olarak metinde açıkça yazılmayan çıkarımları bulmayı ifade eder.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Options that use extreme words like 'never' or 'always' are generally safe to select in inference questions.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; aşırı niteleyiciler genellikle metnin esnekliğiyle çelişir ve çeldiricidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "An inference must be logically consistent with the author's main argument.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; varılan her çıkarım yazarın ana fikriyle uyumlu olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1933,25 +2542,837 @@
           "id": "node1",
           "order": 1,
           "title": "Cümle Tamamlama",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary function of a conjunction in a sentence completion question?",
+                  "answer": "To establish logical relationships such as contrast, cause-effect, or concession between clauses."
+                },
+                {
+                  "question": "How do you approach a sentence completion item starting with 'Although'?",
+                  "answer": "Look for a contrast or unexpected outcome in the other clause."
+                },
+                {
+                  "question": "What type of clue does 'Consequently' provide in a sentence completion?",
+                  "answer": "A cause-and-effect clue where the second clause shows the result of the first."
+                },
+                {
+                  "question": "Why is tense consistency important in sentence completion questions?",
+                  "answer": "Because time markers and verbs in the given clause must logically match the completion part."
+                },
+                {
+                  "question": "What does a transition word like 'Moreover' indicate?",
+                  "answer": "An addition of supporting or similar information."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "____, scientists have developed new vaccines to protect populations against emerging viruses.",
+                  "options": [
+                    "Even if pharmaceutical companies fail to produce enough doses",
+                    "Unless governments invest more heavily in public health",
+                    "Although infectious diseases spread rapidly across the globe",
+                    "Because healthcare systems were completely unprepared for the pandemic"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Cümlenin devamında bilim insanlarının yeni aşılar geliştirdiği ifade edilmektedir. Bu durum, sağlık sistemlerinin hazırlıksız yakalanmasının bir sonucu veya sebebidir. 'Because' bağlacı bu neden-sonuç ilişkisini mantıklı bir şekilde kurar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "While traditional farming methods rely heavily on seasonal rainfall, ____.",
+                  "options": [
+                    "modern agriculture requires sophisticated irrigation systems to maintain crop yields",
+                    "rural communities abandoned their ancestral lands decades ago",
+                    "farmers experienced unprecedented droughts throughout the entire decade",
+                    "crops withered under the scorching heat of the summer sun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'While' bağlacı iki durum arasında zıtlık kurar. İlk kısımda geleneksel tarımın yağmura bağımlı olduğu söylenirken, zıtlık olarak modern tarımın sulama sistemlerine ihtiyaç duyduğu ifade edilmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "The excavation site yielded numerous pottery fragments; ____, archaeologists were able to date the ancient settlement accurately.",
+                  "options": [
+                    "instead, the artifacts were transferred to a secure museum vault",
+                    "consequently, they gained valuable insights into the daily lives of the inhabitants",
+                    "however, they could not determine the exact origin of the tribe",
+                    "otherwise, the government would have halted the funding for the project"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Noktalı virgül sonrasında gelen 'consequently' (bu nedenle, sonuç olarak) zarfı, çanak çömlek parçalarının bulunması ile arkeologların yerleşimi tarihlendirmesi veya bilgi edinmesi arasında bir neden-sonuç bağı kurar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "____, renewable energy sources will soon replace fossil fuels entirely.",
+                  "options": [
+                    "Provided that technological advancements continue at this rapid pace",
+                    "As long as oil prices remain unstable on the global market",
+                    "Even though solar power proves to be cost-effective in sunny regions",
+                    "Unless governments implement stricter carbon emission taxes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Provided that' (şartıyla, madem ki) bağlacı olumlu bir koşul sunar. Teknolojik gelişmelerin aynı hızda devam etmesi şartıyla yenilenebilir enerjinin fosil yakıtların yerini alacağı öngörüsü mantıklıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Not only do electric vehicles reduce urban air pollution, ____.",
+                  "options": [
+                    "yet many drivers prefer gasoline-powered engines for long trips",
+                    "so the government subsidizes their purchase for local citizens",
+                    "but they also offer lower maintenance costs compared to traditional cars",
+                    "nor do they require charging stations in remote rural areas"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Not only... but also...' kalıbı paralel ve ek bilgi veren cümleleri birbirine bağlar. İlk kısım çevre kirliliğini azaltmasından bahsederken, ikinci kısım bakım masraflarının düşük olmasını ekleyerek yapıyı doğru tamamlar.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "In sentence completion questions, if the main clause is in the past tense, the dependent clause often requires a past tense form to maintain ____.",
+                  "options": [
+                    "harmony"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İngilizcede zaman uyumu (tense harmony), cümle tamamlama sorularında doğru şıkkı bulmak için temel kurallardan biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Transition words like 'however' and 'nevertheless' indicate a shift in tone or a logical ____.",
+                  "options": [
+                    "contrast"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu tür bağlaçlar iki fikir arasındaki zıtlığı veya tezatlığı vurgulamak için kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The conjunction 'unless' is functionally equivalent in meaning to 'if ____'.",
+                  "options": [
+                    "not"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Unless' kelimesi 'if... not' anlamı verir ve genellikle olumsuz bir koşul bildirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When a sentence begins with a negative adverbial like 'Hardly' or 'Scarcely', the main clause requires subject-verb ____.",
+                  "options": [
+                    "inversion"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Olumsuz zarflarla başlayan cümlelerde devrik yapı (inversion) kuralı uygulanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "To show a cause-and-effect relationship, phrases such as 'due to', 'because of', and 'owing ____' are frequently used.",
+                  "options": [
+                    "to"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Owing to' kalıbı 'due to' ile eş anlamlıdır ve sebep bildirir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In YDT sentence completion questions, understanding the punctuation marks like semicolons and colons can provide vital clues about the logical relationship between clauses.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Noktalama işaretleri (noktalı virgül, iki nokta üst üste) cümleler arası geçişleri ve anlam bütünlüğünü anlamada büyük ipuçları sunar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The conjunction 'whereas' is typically used to express a cause-and-effect relationship rather than a contrast.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "'Whereas' sebep-sonuç ilişkisi değil, zıtlık (contrast) bildiren bir bağlaçtır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A sentence starting with 'Despite' or 'In spite of' must be followed by a noun phrase or a gerund, not a full subject-verb clause.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Despite' ve 'in spite of' edatları kendilerinden sonra isim öbeği (noun phrase) veya -ing alırlar, tam cümle almazlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "You should always select the longest option in sentence completion questions because test makers tend to hide the correct answer in lengthy choices.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doğru cevap her zaman en uzun şık değildir; en uzun şık sıklıkla çeldirici olarak tasarlanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The phrase 'as a result' introduces an effect or consequence stemming from the situation described in the preceding clause.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'As a result' kalıbı doğrudan bir sonuç (consequence) bildirdiği için neden-sonuç sorularında sonucu açıklayan ifadelerle uyumludur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Diyalog Tamamlama",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary focus of dialogue completion questions in YDT English?",
+                  "answer": "To test the student's understanding of context, flow, and logical coherence in a conversation."
+                },
+                {
+                  "question": "Why is it important to read both the line before and the line after the blank?",
+                  "answer": "Because the missing line must act as a logical bridge between the speaker's preceding statement and the following response."
+                },
+                {
+                  "question": "What kind of clues should you look for regarding pronoun reference?",
+                  "answer": "Pronouns like 'it', 'they', or 'he' in the response that must refer to a specific noun in the missing line."
+                },
+                {
+                  "question": "How do time expressions help in choosing the correct dialogue completion option?",
+                  "answer": "They ensure the tense and chronological sequence match between the turns of the speakers."
+                },
+                {
+                  "question": "What should you do if an option changes the topic abruptly without a logical transition?",
+                  "answer": "Eliminate it, as conversations maintain a natural thematic continuity unless a speaker explicitly changes the subject."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Customer: I bought this toaster yesterday, but it doesn't heat up at all. Clerk: ____ Customer: Yes, here it is, and I would like a full refund, please.",
+                  "options": [
+                    "I am sorry to hear that. Do you have the receipt?",
+                    "You should try using a different electrical outlet.",
+                    "We usually close the store at eight in the evening.",
+                    "How many slices of bread do you normally toast?"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Müşterinin faturayı sunmasından ve iade istemesinden önceki cümlede kasiyerin faturayı sorması ve durumu kabullenmesi gerekir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Mark: Are you going to join the seminar on renewable energy tomorrow? Sarah: ____ Mark: That's a shame. I thought you were really interested in the topic.",
+                  "options": [
+                    "Yes, I have already registered for the morning session.",
+                    "I would love to, but I have a dentist appointment at that time.",
+                    "Actually, the speaker is a well-known professor from Oxford.",
+                    "No, the seminar was postponed to next week."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mark'ın 'That's a shame' (Ne yazık) tepkisi, Sarah'nın olumsuz bir mazeret bildirmesini gerektirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Doctor: Your blood test results look great, but you still need to drink more water. Patient: ____ Doctor: At least eight glasses a day, which is about two liters.",
+                  "options": [
+                    "Why didn't you tell me this during my last visit?",
+                    "How many glasses should I be aiming for daily?",
+                    "Can I substitute water with sugary sodas?",
+                    "Is there any medicine I should take for this?"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Doktorun 'Günde en az sekiz bardak' şeklindeki yanıtı, hastanın miktar sormuş olmasını gerektirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Driver: Excuse me, could you tell me how to get to the central library? Pedestrian: ____ Driver: Perfect, I can easily walk there from here.",
+                  "options": [
+                    "The library is closed for renovations until Monday.",
+                    "You should take the subway for about five stops.",
+                    "Just go straight down this street and turn left at the corner.",
+                    "I am looking for the city museum myself."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sürücünün yürüyebileceğini söylemesi, yayanın tarif verirken yakın bir mesafe belirtmiş olduğunu gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Manager: We need to finish the quarterly report by Friday, but the team is overwhelmed. Assistant: ____ Manager: That's a great idea; let's divide the sections among them.",
+                  "options": [
+                    "Why don't we ask the junior interns to help with the data entry?",
+                    "I have already submitted my personal report to the board.",
+                    "The meeting will take place in the main conference room.",
+                    "We should cancel all projects scheduled for next month."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yöneticinin 'Harika fikir, bölümleri onlara dağıtalım' yanıtı, asistanın iş yükünü hafifletecek bir öneride bulunduğunu gösterir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Teacher: Why were you absent from the history exam yesterday? Student: I was feeling very ill and had to go to the hospital. Teacher: I see. Can you bring a medical report tomorrow? Student: ____",
+                  "options": [
+                    "Yes"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Öğretmenin rapor isteğine öğrencinin olumlu ve kısa bir onay vermesi beklenir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Friend A: Would you prefer to go to the cinema or stay home and watch a movie? Friend B: I am too tired to go out tonight. ____",
+                  "options": [
+                    "Staying"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci konuşmacı dışarı çıkamayacak kadar yorgun olduğunu söylediği için evde kalmayı tercih ettiğini belirtmelidir ('Staying in sounds better').",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Passenger: Excuse me, does this bus go to the city center? Driver: No, it goes to the northern district. ____",
+                  "options": [
+                    "You"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Şoförün 'You need to take the next bus' (Bir sonraki otobüse binmelisin) gibi bir yönlendirme yapması mantıklıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Colleague A: Have you finished reviewing the new marketing strategy? Colleague B: Not yet. ____",
+                  "options": [
+                    "I"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İkinci konuşmacı henüz bitirmediğini belirttikten sonra bir mazeret veya devam eden bir durum açıklayacaktır ('I need more time').",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Chef: How is the new soup recipe coming along? Assistant: It is almost ready, chef. ____",
+                  "options": [
+                    "Just"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çorbanın neredeyse hazır olduğunu söyleyen asistanın 'Just waiting for it to boil' (Sadece kaynamasını bekliyorum) gibi bir ekleme yapması uygundur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In dialogue completion questions, the logical flow between speakers is the most important element to analyze.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Diyalog tamamlama sorularında konuşmacılar arasındaki mantıksal akış ve tutarlılık doğru seçeneği bulmada temel kriterdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "You should only read the sentence immediately following the blank and ignore the rest of the dialogue.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; doğru bağlamı yakalamak için hem önceki hem de sonraki cümlelerin tamamı dikkatle okunmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Grammatical agreement in tenses and pronouns is a reliable method to eliminate incorrect options.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaman uyumu ve zamir referansları, yanlış çeldiricileri elemek için en güvenilir gramer ipuçlarındandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A dialogue completion option can completely change the topic of conversation without any transitional cue.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlış bir ifadedir; diyaloglar genellikle belirli bir bağlam ve konu bütünlüğü içinde ilerler, ani konu değişimleri ipucu gerektirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Time expressions and place markers in the given lines can help determine the missing response.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zaman zarfları ve yer belirteçleri, doğru zamanı ve uygun yanıtı seçmek için kritik ipuçları sağlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Paragraf Tamamlama",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary function of a paragraph completion question in YDT?",
+                  "answer": "To test the candidate's ability to maintain paragraph coherence, logical flow, and topical continuity."
+                },
+                {
+                  "question": "Why are transition words crucial in paragraph completion?",
+                  "answer": "They indicate logical relationships such as contrast, cause-effect, or chronological sequence between sentences."
+                },
+                {
+                  "question": "What does a distractor usually do in paragraph completion questions?",
+                  "answer": "It may contain similar keywords but shifts the focus, breaks the logic, or introduces an irrelevant idea."
+                },
+                {
+                  "question": "Where should you look for clues when the missing sentence is at the beginning of a paragraph?",
+                  "answer": "You should focus heavily on the second sentence, as the topic sentence must logically introduce it."
+                },
+                {
+                  "question": "How do pronoun references help in solving paragraph completion questions?",
+                  "answer": "Words like 'he', 'it', or 'they' must refer back to a specific noun introduced in the preceding sentence."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Urbanization brings numerous economic benefits, yet it often creates severe environmental challenges. ____. Consequently, modern city planners are increasingly focusing on sustainable development strategies to balance growth and ecology.",
+                  "options": [
+                    "Air pollution and traffic congestion become critical issues as populations rapidly expand",
+                    "Historical monuments attract millions of international tourists annually",
+                    "For instance, rural areas lack the infrastructure found in bustling metropolitan centers",
+                    "Governments spend billions of dollars on agricultural subsidies every year"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın ilk cümlesinde kentleşmenin çevresel zorluklar yarattığından bahsedilmektedir. Boşluktan sonraki 'Consequently' (Sonuç olarak) ifadesi ve sürdürülebilir kalkınma vurgusu, boşlukta bu çevresel sorunlara (hava kirliliği, trafik) örnek verilmesini gerektirir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Learning a second language enhances cognitive flexibility and improves memory. ____. Therefore, educational systems worldwide are encouraging early bilingual education.",
+                  "options": [
+                    "People often find grammar rules difficult to memorize at an advanced age",
+                    "These mental benefits help individuals adapt to complex problem-solving tasks more easily",
+                    "Translating literary texts requires a deep understanding of cultural nuances",
+                    "Many students prefer studying abroad to experience a completely different lifestyle"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Paragraf ikinci dil öğrenmenin zihinsel esnekliği artırdığını söyler. 'Therefore' (Bu nedenle) bağlacından önceki boşluğa, bu zihinsel faydaların günlük hayattaki yansımasını belirten bir cümle gelmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Regular physical activity is widely known to reduce the risk of chronic illnesses. ____. Moreover, it releases endorphins that significantly boost one's mood.",
+                  "options": [
+                    "Professional athletes spend hours training for international competitions",
+                    "It strengthens the cardiovascular system and helps maintain a healthy weight",
+                    "Genetic factors play a major role in determining individual height",
+                    "Fast food consumption has risen dramatically over the past few decades"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fiziksel aktivitenin kronik hastalıkları önlediği belirtildikten sonra 'Moreover' (Dahası) bağlacı ile benzer nitelikte başka bir fiziksel fayda (kardiyovasküler sistemin güçlenmesi) sıralanmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Digital photography has completely transformed how people capture and share memories. ____. As a result, traditional film cameras have become niche items for enthusiasts.",
+                  "options": [
+                    "Wildlife documentaries require specialized telephoto lenses to record distant animals",
+                    "Unlike in the past, high-resolution images can now be stored on tiny memory cards",
+                    "Ancient cave paintings provide valuable insights into early human civilization",
+                    "Painters often use oil colors to create realistic landscapes on canvas"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dijital fotoğrafçılığın dönüşümünden bahsedilmektedir. Boşluktan sonraki sonuç cümlesi, eski film kameralarının yerini dijital kolaylıkların (hafıza kartları vb.) aldığını desteklemek zorundadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Renewable energy sources such as solar and wind power are essential for combating climate change. ____. However, transitioning completely away from fossil fuels requires substantial financial investment.",
+                  "options": [
+                    "Coal mines provide employment opportunities for thousands of local workers",
+                    "Automobile manufacturers are developing electric vehicles to reduce fuel consumption",
+                    "Unlike fossil fuels, they produce little to no greenhouse gas emissions",
+                    "Global temperatures have steadily increased since the Industrial Revolution"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Yenilenebilir enerjinin iklim değişikliği ile mücadeledeki öneminden bahsedilmiş, sonraki cümlede ise fosil yakıtlardan geçişin zorluklarına değinilmiştir. Boşlukta yenilenebilir enerjinin doğa dostu yönü vurgulanmalıdır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "In paragraph completion, identifying pronoun references helps maintain the ____ of the text.",
+                  "options": [
+                    "coherence"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragraf tamamlama sorularında zamir göndermelerini takip etmek metnin tutarlılığını (coherence) korumaya yardımcı olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A transition word indicating contrast, such as ____, can signal a shift in the paragraph's argument.",
+                  "options": [
+                    "however"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zıtlık bildiren geçiş kelimelerine 'however' (ancak) örnek olarak gösterilebilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The first sentence of a paragraph is typically called the ____ sentence.",
+                  "options": [
+                    "topic"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir paragrafın ilk cümlesi genellikle ana fikri veren konu cümlesi (topic sentence) olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "To ensure logical flow, the missing sentence must match the ____ of the surrounding text.",
+                  "options": [
+                    "context"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantıksal akışı sağlamak için eksik cümlenin çevreleyen metnin bağlamına (context) uyması gerekir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Words that falsely appear correct by repeating vocabulary without fitting the logic are known as ____.",
+                  "options": [
+                    "distractors"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sadece kelime tekrarı yapıp mantığa uymayan yanlış seçenekler çeldirici (distractor) olarak adlandırılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In paragraph completion, ignoring transition markers like 'therefore' or 'meanwhile' is an effective strategy.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; 'therefore' veya 'meanwhile' gibi geçiş belirteçleri cümleler arası mantık bağını kurmada en temel ipuçlarındandır, asla göz ardı edilmemelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The correct option in a paragraph completion question must smoothly connect both the preceding and the following sentences.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; doğru seçenek hem kendinden önceki hem de kendinden sonraki cümleyle anlam ve yapı bakımından uyumlu olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A distractor option in YDT paragraph completion often breaks the chronological or thematic flow of the text.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; çeldirici seçenekler genellikle metnin kronolojik veya tematik akışını bozan ifadeler içerir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "You should only read the sentence immediately before the blank and ignore the rest of the paragraph.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; sadece bir önceki cümleye bakmak yetersizdir; paragrafın genel akışı, zamirler ve sonraki cümle de dikkate alınmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Topic consistency is a key element evaluated in YDT paragraph completion questions.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; YDT paragraf tamamlama sorularında konu bütünlüğü ve tutarlılığı temel olarak test edilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",
           "order": 4,
           "title": "Anlam Bütünlüğünü Bozan Cümle",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary goal in 'Irrelevant Sentence' (Anlam Bütünlüğünü Bozan Cümle) questions?",
+                  "answer": "To find the sentence that disrupts the flow of thought and logical progression in a paragraph."
+                },
+                {
+                  "question": "Should the irrelevant sentence contradict the main idea or just be off-topic?",
+                  "answer": "It can either contradict the main idea, shift the focus to a different topic, or disrupt the chronological/logical flow."
+                },
+                {
+                  "question": "What is a common trap in irrelevant sentence questions?",
+                  "answer": "Using similar vocabulary in the distractor sentence to make it look related to the topic."
+                },
+                {
+                  "question": "How should you start solving an irrelevant sentence question?",
+                  "answer": "By reading the first two sentences to determine the main topic and the author's tone."
+                },
+                {
+                  "question": "If sentence II talks about the benefits of sleep, and sentence III talks about insomnia treatments, which one might be irrelevant depending on the topic?",
+                  "answer": "The one that shifts the core focus away from the main argument established in sentences I and II."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "(I) Renewable energy sources are becoming increasingly vital for the future of our planet. (II) Solar and wind power generate electricity without releasing harmful greenhouse gases. (III) Fossil fuels have powered industrial economies for more than two centuries. (IV) Governments are heavily subsidizing green tech to accelerate this transition. (V) Consequently, carbon emissions are projected to decline significantly in the coming decades.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paragrafın genelinde yenilenebilir enerji kaynaklarının önemi ve çevreye katkısı anlatılmaktadır. III numaralı cümle ise fosil yakıtların tarihsel kullanımından bahsettiği için akışı bozmaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Regular physical activity improves cardiovascular health and boosts mood. (II) Exercise releases endorphins, which are natural stress relievers. (III) A balanced diet rich in proteins is equally important for muscle recovery. (IV) People who work out frequently report higher levels of daily energy. (V) Thus, incorporating movement into daily routines is essential for overall well-being.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paragraf düzenli fiziksel aktivitenin ve egzersizin faydaları üzerine kurulmuştur. III numaralı cümle ise doğrudan egzersiz yerine dengeli beslenmeden bahsettiği için konu bütünlüğünü bozar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Artificial intelligence has revolutionized the way modern businesses operate. (II) Algorithms can analyze vast amounts of customer data in seconds. (III) Traditional marketing agencies used to rely heavily on printed billboards. (IV) Companies now use automated chatbots to provide 24/7 customer support. (V) This technological shift ultimately increases operational efficiency.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paragraf yapay zekanın iş dünyasındaki rolünden ve otomasyondan bahsetmektedir. III numaralı cümle ise geçmişteki geleneksel pazarlama yöntemlerine odaklandığı için akışı bozar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Reading fiction enhances empathy and broadens our worldview. (II) Readers can experience different lives and cultures through characters. (III) Non-fiction books are crucial for acquiring factual historical data. (IV) This imaginative engagement stimulates brain function and reduces stress. (V) Therefore, making reading a daily habit yields profound mental benefits.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paragraf kurgu (fiction) kitaplarının zihinsel ve duygusal faydalarını ele almaktadır. III numaralı cümle ise kurgu dışı (non-fiction) eserlerden bahsettiği için anlam bütünlüğünü zedelemektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(I) Urban green spaces play a crucial role in reducing city temperatures. (II) Trees absorb carbon dioxide and release fresh oxygen into the air. (III) Urban sprawl leads to heavy traffic congestion during rush hours. (IV) Parks provide citizens with peaceful areas for relaxation and recreation. (V) Therefore, city planners should prioritize creating more natural habitats.",
+                  "options": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Paragraf kentsel yeşil alanların faydaları üzerinedir. III numaralı cümle ise trafik sıkışıklığından bahsettiği için paragrafın ana düşüncesinden sapmaktadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "In 'Irrelevant Sentence' questions, if a sentence discusses a completely different sub-topic, it breaks the ____.",
+                  "options": [
+                    "flow"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paragrafın akışını bozan cümleler 'flow' yani akış bütünlüğünü bozar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The sentence that disrupts the logical progression of a paragraph is called the ____ sentence.",
+                  "options": [
+                    "irrelevant"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Konu dışı veya akışı bozan cümleler 'irrelevant' (alakasız) olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When analyzing an irrelevant sentence, the first step is to identify the main ____ of the paragraph.",
+                  "options": [
+                    "topic"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soruyu çözerken ilk adım paragrafın ana konusunu (topic) belirlemektir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A distractor sentence might use similar ____ to trick the test-taker into thinking it belongs to the paragraph.",
+                  "options": [
+                    "vocabulary"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çeldirici cümleler benzer kelimeler (vocabulary) kullanarak adayın kafasını karıştırmaya çalışabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "To ensure a sentence is truly irrelevant, it must not match the general ____ or focus of the surrounding sentences.",
+                  "options": [
+                    "tone"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akışı bozan cümleler genellikle çevreleyen cümlelerin tonuna veya odak noktasına uyum sağlamaz.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "An irrelevant sentence always contradicts the very first sentence of the paragraph.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlış. Akışı bozan cümle her zaman ilk cümleyle çelişmez; bazen konunun dışına çıkarak farklı bir alt konuya geçer veya mantıksal sıralamayı bozar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Looking at transition words can help determine if a sentence connects logically with the previous one.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğru. 'However', 'therefore', 'moreover' gibi geçiş kelimeleri cümleler arasındaki mantıksal bağı kurmada kritik rol oynar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "If two sentences in a paragraph talk about two completely unrelated subjects, one of them must disrupt the flow.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğru. Paragrafın bütünlüğü tek bir ana fikir etrafında şekillenir; farklı bir konuya geçiş akışı bozar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Irrelevant sentence questions in YDT require you to write a new sentence to replace the removed one.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlış. YDT'deki bu soru tipinde amaç sadece akışı bozan numaralandırılmış cümleyi bulmaktır, yeni bir cümle yazılması istenmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The correct answer in these questions is always either sentence I or sentence V.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlış. Akışı bozan cümle paragrafın ortasındaki II, III veya IV numaralı cümleler de olabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1964,13 +3385,419 @@
           "id": "node1",
           "order": 1,
           "title": "İngilizce-Türkçe Çeviri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary rule for translating a long noun phrase from English to Turkish?",
+                  "answer": "Translate the modifiers and adjectives first, and put the main noun at the very end."
+                },
+                {
+                  "question": "How should a relative clause (who/which/that) usually be translated into Turkish?",
+                  "answer": "As a participle phrase ending in '-en/-an' or '-dik/-ecek' preceding the noun."
+                },
+                {
+                  "question": "When translating modal verbs of possibility (must, might, could) in the past, what structure is used in Turkish?",
+                  "answer": "Derivatives using '-miş olmalı', '-miş olabilir', or similar past modal suffixes."
+                },
+                {
+                  "question": "How is the English passive voice typically adapted into Turkish translation?",
+                  "answer": "Using passive suffixes such as '-ıl', '-il', '-ül', '-ul' attached to the verb root."
+                },
+                {
+                  "question": "What is the Turkish equivalent for translating time adverbials placed at the beginning of an English sentence?",
+                  "answer": "They are generally kept at the beginning of the Turkish sentence to maintain the same emphasis."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Choose the best Turkish translation for the sentence: 'Recent studies suggest that regular exercise significantly reduces the risk of heart disease.'",
+                  "options": [
+                    "Son çalışmalar, düzenli egzersiz yapmanın kalp hastalığı riskini önemli ölçüde azalttığını öne sürüyor.",
+                    "Düzenli egzersiz, kalp hastalığı riskini azalttığı için son çalışmalar bunu önermektedir.",
+                    "Son çalışmaların önerdiğine göre düzenli egzersiz kalp hastalıklarının riskini tamamen ortadan kaldırır.",
+                    "Kalp hastalığı riskini azaltmak isteyenler için düzenli egzersiz son çalışmalarca önerilmektedir."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Recent studies' ifadesi 'son çalışmalar', 'suggest that' kalıbı 'öne sürüyor/ileri sürüyor' ve 'significantly reduces' ifadesi 'önemli ölçüde azalttığını' şeklinde doğru bir şekilde çevrilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the best English translation for the sentence: 'Teknolojinin hızlı gelişimi, iletişim kurma biçimimizi tamamen değiştirdi.'",
+                  "options": [
+                    "The rapid development of technology completely changed the way we communicate.",
+                    "Rapidly developing technology has completely changed the way we communicate with each other.",
+                    "Communication methods are completely changed due to the rapid development of technology.",
+                    "Technology is developing rapidly and it is changing our communication style completely."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Teknolojinin hızlı gelişimi' öznesi 'The rapid development of technology' şeklinde, 'tamamen değiştirdi' yüklemi ise 'completely changed' olarak tam ve doğru karşılık bulmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the best Turkish translation for the sentence: 'Had it not been for the heavy traffic, we would have arrived at the meeting on time.'",
+                  "options": [
+                    "Yoğun trafik nedeniyle toplantıya zamanında varamadık.",
+                    "Toplantıya zamanında varmamız yoğun trafik yüzünden engellendi.",
+                    "Eğer yoğun trafik olmasaydı toplantıya zamanında varabilirdik.",
+                    "Yoğun trafik olmasaydı toplantıya zamanında varmış olurduk."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Had it not been for' yapısı devrik bir Tip 3 şart cümlesidir ve 'olmasaydı' anlamına gelir. 'Would have arrived' ise 'varmış olurduk' şeklinde çevrilmelidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the best English translation for the sentence: 'Uzmanlar, iklim değişikliğinin önümüzdeki yıllarda tarımsal üretimi olumsuz etkileyeceği konusunda uyarıyor.'",
+                  "options": [
+                    "Experts suggest that climate change negatively affects agricultural production every year.",
+                    "Climate change is warned by experts to affect agricultural production negatively in future years.",
+                    "Experts are warning that agricultural production has been negatively affected by climate change.",
+                    "Experts warn that climate change will negatively affect agricultural production in the coming years."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Uzmanlar uyarıyor' kısmı 'Experts warn', 'iklim değişikliğinin etkileyeceği' yan cümlesi 'that climate change will negatively affect' ve 'önümüzdeki yıllarda' kısmı 'in the coming years' olarak eksiksiz aktarılmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the best Turkish translation for the sentence: 'While some people prefer living in bustling metropolitan cities, others enjoy the tranquility of rural areas.'",
+                  "options": [
+                    "Bazı insanlar hareketli büyük şehirlerde yaşamayı tercih ederken, diğerleri kırsal bölgelerin sakinliğinden hoşlanır.",
+                    "Bazı insanlar hareketli metropolleri severken, diğerleri kırsal alanlara taşınmayı tercih eder.",
+                    "Hareketli büyük şehirlerde yaşamak bazı insanlara göre değilken, kırsal alanlar daha sakindir.",
+                    "Kırsal alanların sakinliği bazılarına cazip gelse de, birçok kişi büyük şehirlerde yaşamaktadır."
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'While' bağlacı zıtlık bildirerek '-ken' anlamı katmıştır. 'Bustling metropolitan cities' 'hareketli büyük şehirler', 'tranquility of rural areas' ise 'kırsal bölgelerin sakinliği' anlamına gelir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "In English-Turkish translation, the subject of the English sentence generally becomes the ____ at the beginning of the Turkish sentence.",
+                  "options": [
+                    "subject"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İngilizce cümle yapısındaki özne (subject), Türkçe cümle yapısında da genellikle cümlenin başında özne olarak yer alır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The English structure 'used to do' is translated into Turkish most accurately as ____.",
+                  "options": [
+                    "ardardı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişteki alışkanlıkları belirten 'used to' kalıbı Türkçeye genellikle '-erdİ / -ardI' ekiyle çevrilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "When translating a passive sentence like 'It is known that...', the Turkish equivalent often starts with ____.",
+                  "options": [
+                    "bilinmektedir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Edilgen (passive) yapılar Türkçede edilgen fiillerle veya '-mektedir/-maktadır' kalıplarıyla karşılanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "In noun clauses introduced by 'that', the Turkish translation typically employs the suffix ____ to turn the verb into a nominal form (-dik/-eceği).",
+                  "options": [
+                    "-diği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İsim cümlelerinde 'that' bağlacı Türkçede sıfat-fiil ekleri olan '-diğini / -acağını' yapılarının oluşmasını sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "The time expression 'by the time' is generally translated into Turkish as ____.",
+                  "options": [
+                    "-e kadar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'By the time' bağlacı kendisinden sonraki eylemin gerçekleştiği ana kadar diğer eylemin tamamlanmış olacağını belirtir ve '-e kadar' anlamı verir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In Turkish translation, adjectives always follow the noun they modify, mirroring the English word order.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; İngilizcede sıfatlar ismin önünde yer alırken, Türkçede ismin önünde yer alarak niteleme yaparlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The English structure 'as ... as' is translated into Turkish using comparison structures expressing equality, such as 'kadar'.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; 'as ... as' eşitlik kıyaslaması bildirir ve Türkçede '-e kadar' veya '... kadar' yapısıyla çevrilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Modal verbs indicating past impossibility, such as 'cannot have done', are translated into Turkish as '-ebilirdi'.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; 'cannot have done' geçmişte gerçekleşmesinin imkansız olduğunu belirtir ve '-miş olamaz' şeklinde çevrilir; '-ebilirdi' ise olasılık veya yetenek bildirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "When translating a conditional sentence (Type 2), the verbs in both clauses typically take past tense forms in Turkish to denote hypothetical situations.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur; Tip 2 şart cümleleri hayali durumları ifade ettiği için Türkçede '-seydi / -saydı' ekleriyle geçmiş zaman tabanlı yansıtılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Participial phrases (e.g., 'Having finished his homework') are always translated into Turkish as independent sentences with a conjunction.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; bu tür kısaltmalar Türkçede genellikle ulaç (zarf-fiil) ekleri (-ip, -erek) kullanılarak yan cümleçler şeklinde çevrilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Türkçe-İngilizce Çeviri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "What is the primary rule when translating a complex Turkish sentence containing a relative clause into English?",
+                  "answer": "Identify the main verb of the main clause first, as English structure relies heavily on subject-verb-object order."
+                },
+                {
+                  "question": "How should Turkish time adverbials at the beginning of a sentence typically be positioned in English translation?",
+                  "answer": "They can be placed either at the very beginning with a comma or at the end of the sentence."
+                },
+                {
+                  "question": "Translate the subject modifier 'hızla gelişen teknoloji' into English.",
+                  "answer": "rapidly developing technology"
+                },
+                {
+                  "question": "Which English tense is generally used to translate the Turkish aorist tense (Geniş Zaman) when stating general truths?",
+                  "answer": "Simple Present Tense"
+                },
+                {
+                  "question": "When a Turkish sentence ends with a noun clause functioning as an object, where does it go in the English translation?",
+                  "answer": "After the main verb, following standard SVO word order."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Translate the following sentence into English: 'Bilim insanları, iklim değişikliğinin etkilerini azaltmak için yeni yöntemler arıyorlar.'",
+                  "options": [
+                    "Scientists have searched new methods for reducing the effects of climate change.",
+                    "Scientists were searching new methods to reducing the impacts of climate change.",
+                    "Scientists searched for new methods in order to reducing climate change effects.",
+                    "Scientists are searching for new methods to reduce the effects of climate change."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkçe cümledeki 'arıyorlar' yüklemi şimdiki zamanı (are searching) verir. 'Azaltmak için' ifadesi amaç bildirdiğinden 'to reduce' infinitive yapısı ile doğru çevrilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Choose the best English translation: 'Son yıllarda yapay zeka teknolojilerinde büyük bir artış gözlemlenmiştir.'",
+                  "options": [
+                    "A great increase is observed in artificial intelligence technologies in recent years.",
+                    "Artificial intelligence technologies observed a great increase in recent years.",
+                    "A great increase has been observed in artificial intelligence technologies in recent years.",
+                    "They observed a great increase in artificial intelligence technologies for recent years."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "'Son yıllarda' ifadesi Present Perfect Tense gerektirir ('has been observed'). Ayrıca pasif çatı ('gözlemlenmiştir') doğru şekilde uygulanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Which of the following is the correct translation of: 'Eğer erken yatsaydın, sabah bu kadar yorgun uyanmazdın.'?",
+                  "options": [
+                    "If you have gone to bed early, you won't wake up so tired this morning.",
+                    "If you went to bed early, you wouldn't wake up so tired in the morning.",
+                    "If you were going to bed early, you couldn't wake up so tired in the morning.",
+                    "If you had gone to bed early, you wouldn't have woken up so tired in the morning."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bu cümle Type 3 Conditional (geçmişteki pişmanlık/varsayım) yapısındadır. 'If + past perfect' ve ana cümlede 'would have + V3' kullanılmalıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Translate accurately: 'Hükümet, halkın sağlığını korumak amacıyla yeni tedbirler alacağını duyurdu.'",
+                  "options": [
+                    "Announcing new measures, the government protected public health.",
+                    "The government announced that it would take new measures to protect public health.",
+                    "The government has announced taking new measures protecting public health.",
+                    "The government announced that it will take new measures to protect public health."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Geçmiş zamanda aktarılan bir duyuru ('duyurdu') olduğu için 'announced that it would take' şeklinde uyum (past tense harmony) sağlanmıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Select the correct translation: 'Çocukların hayal gücünü geliştiren kitaplar, onların yaratıcılığını artırır.'",
+                  "options": [
+                    "Books developed children's imagination to increase their creativity.",
+                    "Books developing children's imagination increase their creativity.",
+                    "Books which developing children's imagination are increasing their creativity.",
+                    "Books that develop children's imagination increase their creativity."
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "'Geliştiren' sıfat-fiil grubu bir relative clause ('that develop') ile karşılanmıştır. 'Artırır' yüklemi ise geniş zaman (increase) gerektirir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Translate the subject of this sentence: '____ (Küresel ısınma), gezegenimizin geleceğini tehdit eden en büyük tehlikelerden biridir.'",
+                  "options": [
+                    "Global warming"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Küresel ısınma' kavramının İngilizce karşılığı 'Global warming'dir ve cümlenin öznesi konumundadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Complete the translation with the correct modal verb: 'Bu projeyi zamanında bitirmek ____ (zorundasın).'",
+                  "options": [
+                    "must"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zorunluluk bildiren '-mek zorundasın' ifadesi İngilizcede güçlü bir zorunluluk için 'must' ile çevrilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fill in the blank with the correct preposition: 'Gençler, sosyal medyada vakit geçirmeyi ____ (tercih ediyorlar) geleneksel kitaplar okumaya.'",
+                  "options": [
+                    "prefer"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Tercih etmek' fiili 'prefer'dir ve 'prefer A to B' kalıbıyla kullanılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Translate the time marker: '____ (Son zamanlarda), eğitim sisteminde önemli değişiklikler yapıldı.'",
+                  "options": [
+                    "Recently"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "'Son zamanlarda' zaman zarfı Present Perfect Tense ile sıklıkla kullanılan 'Recently' kelimesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Complete the relative clause: 'Sanat, insanları birbirine bağlayan ____ (bir köprüdür).'",
+                  "options": [
+                    "a bridge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Cümlenin yüklem tamamlayıcısı olan 'bir köprüdür' ifadesi 'a bridge' olarak çevrilir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "In Turkish-English translation, the main verb of the Turkish sentence is typically placed at the end, while in English, it usually follows the subject directly.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkçe sondan eklemeli ve yükremi sonda olan bir dildir; İngilizce ise SVO (Özne-Yüklem-Nesne) dizilimine sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The Turkish passive suffix '-ıl / -in' in 'Kitap okundu' must always be translated into English using the Present Continuous Passive tense.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; 'Kitap okundu' geçmiş zamanda gerçekleşen bir eylemdir ve 'The book was read' şeklinde Past Simple Passive ile çevrilmelidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "When translating modal verbs of deduction like 'kesinlikle olmalı' into the past, 'must have V3' structure is used.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geçmişteki durumlara yönelik mantıksal çıkarımlarda 'must have + V3' kalıbı doğru çeviri seçeneğidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Turkish participial clauses (sıfat-fiiller -en/-an) can only be translated into English using full noun clauses with conjunctions.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır; sıfat-fiiller İngilizcede sıklıkla relative clauses ( ilgi yan cümleleri) veya participle phrases (partisipial yapılar) ile çevrilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "The Turkish suffix '-erek / -arak' indicating manner or means is commonly translated into English using present participles (-ing forms).",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Zarf-fiil ekleri olan '-erek/-arak' İngilizcede '-ing' takılı fiilimsi yapılarıyla (gerund/participle) başarılı bir şekilde aktarılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

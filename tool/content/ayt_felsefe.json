@@ -2131,13 +2131,419 @@
           "id": "node1",
           "order": 1,
           "title": "Fenomenoloji ve Varoluşçuluk",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Fenomenoloji akımının kurucusu kimdir?",
+                  "answer": "Edmund Husserl"
+                },
+                {
+                  "question": "Fenomenolojide özün bilgisine ulaşmak için her türlü ön yargıdan ve dış dünyadaki nesnelerin varlığından şüphe ederek onları paranteze alma işlemine ne ad verilir?",
+                  "answer": "Epoche (Fenomonolojik Paranteze Alma)"
+                },
+                {
+                  "question": "Varoluşçulukta 'varoluş özden önce gelir' tezini savunan ünlü Fransız filozof kimdir?",
+                  "answer": "Jean-Paul Sartre"
+                },
+                {
+                  "question": "Karl Jaspers'in felsefesinde insanın ölüm, acı, suçluluk gibi kaçınılmaz durumlarla karşılaşarak sarsıldığı ve gerçeği kavradığı anlara ne denir?",
+                  "answer": "Sınır Durumlar"
+                },
+                {
+                  "question": "Søren Kierkegaard'a göre bireyin kaygıdan kurtularak kendi öz benliğine ulaşmasını sağlayan en önemli aşama nedir?",
+                  "answer": "İman (Sıçrama)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Edmund Husserl'in kurucusu olduğu, nesnelerin zihindeki görünümlerine odaklanarak özün bilgisine ulaşmayı amaçlayan felsefi akım aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Pragmatizm",
+                    "Analitik Felsefe",
+                    "Fenomenoloji",
+                    "Pozitivizm"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Fenomenoloji, olayların ve nesnelerin görünümleri (fenomenler) arkasındaki özü bulmayı hedefler ve kurucusu Edmund Husserl'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "'Varoluş özden önce gelir' diyerek insanın önce var olduğunu, daha sonra kendi özünü kendi eylemleriyle yine kendisinin oluşturduğunu savunan varoluşçu filozof kimdir?",
+                  "options": [
+                    "Arthur Schopenhauer",
+                    "Friedrich Nietzsche",
+                    "Auguste Comte",
+                    "Jean-Paul Sartre"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Jean-Paul Sartre, insanın dünyaya önceden belirlenmiş bir özle gelmediğini, seçimleriyle kendi özünü yarattığını savunmuştur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi varoluşçuluk akımının temel kavramlarından biri değildir?",
+                  "options": [
+                    "Mutlak İdealizm",
+                    "Yabancılaşma",
+                    "Sorumluluk",
+                    "Kaygı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak idealizm Hegel'in felsefi sistemidir; yabancılaşma, kaygı ve sorumluluk ise varoluşçuluğun temel kavramları arasındadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Fenomenolojide Husserl'in kullandığı, daha önceden edinilmiş tüm bilgilerin, inançların ve ön yargıların askıya alınması yöntemi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Sezgicilik",
+                    "Felsefi Kuşku",
+                    "Diyalektik",
+                    "Epoche"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Epoche, fenomenolojik yöntemde dış dünyanın varlığına ilişkin hükümleri askıya alma ve paranteze alma anlamına gelir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Danimarkalı din filozofu ve teolog olup varoluşçuluk akımının öncüsü kabul edilen, insanın yaşadığı bunalım ve umutsuzluk temalarını işleyen filozof kimdir?",
+                  "options": [
+                    "Søren Kierkegaard",
+                    "Martin Heidegger",
+                    "Karl Jaspers",
+                    "Albert Camus"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Søren Kierkegaard, Hristiyan varoluşçuluğunun kurucusu kabul edilir ve bireysel içselliği, kaygıyı ön plana çıkarır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "20. yüzyılda etkili olan ve özün bilgisine ulaşmak için fenomenlerin incelenmesi gerektiğini savunan akıma ____ denir.",
+                  "options": [
+                    "fenomenoloji"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fenomenoloji, nesnelerin bilinçteki fenomenlerini inceleyerek öz bilgisine ulaşmayı amaçlayan 20. yüzyıl akımıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Jean-Paul Sartre'a göre insan, kendi seçimlerinin sonuçlarından tamamen sorumlu olduğu için derin bir ____ hisseder.",
+                  "options": [
+                    "kaygı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sartre, özgürlüğün getirdiği sorumluluğun insanda kaçınılmaz bir varoluşsal kaygı yarattığını belirtir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fenomenolojide var olanların varlığını paranteze alarak askıya alma işlemine Yunanca kökenli ____ kavramı denir.",
+                  "options": [
+                    "epoche"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Epoche, bilginin özüne ulaşmak için geçici olarak dış dünyanın gerçekliğini yargılamaktan kaçınma yöntemidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Jaspers'e göre ölüm, acı ve hastalık gibi insanın kaçamayacağı durumlar ____ durumlar olarak adlandırılır.",
+                  "options": [
+                    "sınır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sınır durumlar, insanın sıradan yaşamdan koparak kendi varoluşsal gerçekliğiyle yüzleştiği kritik eşiklerdir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Albert Camus'nün anlamsızlık karşısında insanın absürt durumla yaşama direncini incelediği ünlü mitolojik kahraman ____ mitidir.",
+                  "options": [
+                    "Sisyphos"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Camus, Sisyphos Miti üzerinden hayatın anlamsızlığına karşı insanın bilinçli başkaldırısını ve absürtlüğü ele alır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Fenomenoloji akımı, duyusal verilerin tek bilgi kaynağı olduğunu savunan pozitivizmin bir alt dalıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Fenomenoloji pozitivizmden farklı olarak deney ve gözleme değil, bilincin yönelimselliğine ve özün sezgisel kavranmasına odaklanır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Varoluşçulukta insan, doğuştan hazır bir özle dünyaya gelir ve bu özü hayatı boyunca yaşatmaya çalışır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Varoluşçuluk 'varoluş özden önce gelir' der; yani insan önce var olur, özünü kendi seçimleriyle sonradan oluşturur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Edmund Husserl'e göre bilinç her zaman bir şeye yöneliktir ve bu durum yönelimsellik kavramıyla ifade edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yönelimsellik, Husserl'in fenomenolojisinde bilincin her zaman bir nesneye yönelik olduğunu belirten temel bir özelliktir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Albert Camus'ye göre evrenin ve hayatın rasyonel bir anlamı vardır ve insan bunu kolayca keşfedebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Camus'ye göre evren anlamsızdır ve bu durum 'absürt' (uyumsuz) kavramı ile açıklanır; hayatın hazır bir anlamı yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karl Jaspers, insanın varoluşunu tam anlamıyla gerçekleştirebilmesi için sınır durumlar karşısında bilinçli bir duruş sergilemesi gerektiğini savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Jaspers, sınır durumların insanı uyandırdığını ve kendi gerçek varoluşuna ulaştırdığını savunur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Analitik Felsefe ve Bilim Felsefesi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Analitik felsefenin temel yönelimi nedir?",
+                  "answer": "Dilin mantıksal analizi yoluyla felsefi problemleri çözmek."
+                },
+                {
+                  "question": "Mantıkçı pozitivizmin (Viyana Çevresi) bilgi anlayışının temel ölçütü nedir?",
+                  "answer": "Doğrulanabilirlik ilkesi."
+                },
+                {
+                  "question": "Karl Popper bilimsel teoriler için hangi ölçütü öne sürmüştür?",
+                  "answer": "Yanlışlanabilirlik ilkesi."
+                },
+                {
+                  "question": "Thomas Kuhn bilim felsefesine hangi anahtar kavramı kazandırmıştır?",
+                  "answer": "Paradigma değişimi."
+                },
+                {
+                  "question": "Erken dönem Wittgenstein'ın dil ve dünya ilişkisini incelediği eserinin adı nedir?",
+                  "answer": "Tractatus Logico-Philosophicus."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi 20. yüzyıl analitik felsefesinin özelliklerinden biri değildir?",
+                  "options": [
+                    "Dilin yapısını mantıksal açıdan incelemek",
+                    "Metafizik problemleri anlamlı kabul ederek çözmeye çalışmak",
+                    "Felsefenin amacının dil çözümlemesi olduğunu savunmak",
+                    "Bilimsel bilgiyi ve mantığı öncelikli kılmak"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Analitik felsefe, metafizik önermelerin ne doğrulanabilir ne de yanlışlanabilir olduğunu belirterek onları anlamsız kabul eder ve metafizik problemleri reddeder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Viyana Çevresi düşünürlerine göre bir önermenin anlamlı olmasının tek koşulu nedir?",
+                  "options": [
+                    "Geleneksel felsefe ekolleriyle uyuşması",
+                    "Gözlem ve deneyle doğrulanabilir olması",
+                    "Tarihsel bir temele dayanması",
+                    "Ahlaki olarak kabul edilebilir olması"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mantıkçı pozitivistler doğrulanabilirlik ilkesini benimser; bir önermenin anlamlı olması için ampirik olarak doğrulanabilmesi gerekir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karl Popper'a göre bir teorinin bilimsel sayılabilmesi için ne gereklidir?",
+                  "options": [
+                    "Kesin olarak kanıtlanmış olması",
+                    "Hiçbir zaman değiştirilemez olması",
+                    "İlke olarak yanlışlanabilir olması",
+                    "Tüm bilim insanları tarafından onaylanması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Popper, doğrulamanın imkansızlığını savunmuş ve bir kuramın bilimsel olabilmesi için yanlışlanmaya açık olması gerektiğini öne sürmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Thomas Kuhn'un bilim anlayışında 'normal bilim' döneminden 'bilimsel devrim' dönemine geçişi sağlayan süreç aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Paradigma değişimi",
+                    "Mutlak gerçeğe ulaşılması",
+                    "Metafizik inançların artması",
+                    "Deneysel gözlemlerin tamamen bırakılması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuhn'a göre mevcut paradigma sorulara yanıt veremediğinde kriz çıkar ve yeni bir paradigma kabul edilerek bilimsel devrim gerçekleşir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Erken dönem Wittgenstein'a göre felsefenin asıl görevi nedir?",
+                  "options": [
+                    "Dilin sınırlarını çizerek düşünceyi mantıksal olarak aydınlatmak",
+                    "Evrenin ilk nedenini bulmak",
+                    "Ahlak kuralları koymak",
+                    "Toplumsal düzeni eleştirmek"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Wittgenstein Tractatus'ta felsefenin bir öğreti değil bir etkinlik olduğunu ve dilin sınırları içinde kalınması gerektiğini savunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Viyana Çevresi'nin savunduğu, deney ve gözleme dayalı doğrulama ilkesini savunan akım ____ olarak adlandırılır.",
+                  "options": [
+                    "Mantıkçı pozitivizm"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mantıkçı pozitivizm veya neopozitivizm, metafiziği reddedip bilgiyi mantık ve deneyle sınırlayan felsefi akımdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karl Popper bilimsel yöntemde doğrulama yerine ____ ilkesini savunmuştur.",
+                  "options": [
+                    "yanlışlanabilirlik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Popper, tümevarımın sorunlarından dolayı doğrulamayı reddetmiş ve yanlışlanabilirliği bilim ölçütü yapmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Thomas Kuhn'un bilim felsefesinde bilim insanları topluluğunun paylaştığı ortak değerler ve teorik çerçeve bütünlüğüne ____ denir.",
+                  "options": [
+                    "paradigma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Paradigma, bir dönemde bilim insanlarının benimsediği ortak bakış açısı, yöntem ve kuramsal çerçevedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Analitik felsefenin öncülerinden olan ve 'Dilimin sınırları, dünyamın sınırlarıdır' sözünü söyleyen filozof ____ düşünürdür.",
+                  "options": [
+                    "Wittgenstein"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ludwig Wittgenstein analitik felsefenin ve dil felsefesinin en önemli figürlerinden biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bilimi bir birikim süreci olarak değil, devrimsel sıçramalarla ilerleyen bir süreç olarak gören bilim filozofu ____ adıdır.",
+                  "options": [
+                    "Thomas Kuhn"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuhn, 'Bilimsel Devrimlerin Yapısı' adlı eserinde bilimin kesintili ve devrimsel ilerlediğini savunmuştur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Analitik felsefe, felsefi problemlerin kaynağının dildeki kavram karmaşasından kaynaklandığını savunur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Analitik filozoflar, geleneksel felsefi sorunların çoğunun dilin yanlış kullanımından doğduğunu ve dil analiziyle çözüleceğini savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mantıkçı pozitivistler metafizik önermelerin doğrulanabilir oldukları için anlamlı olduklarını kabul ederler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mantıkçı pozitivistler metafizik önermelerin ne ampirik ne de mantıksal olarak doğrulanamayacağını, bu yüzden anlamsız olduklarını savunurlar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karl Popper'a göre bir kuram ne kadar çok doğrulanırsa kesin olarak mutlak doğru haline gelir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Popper hiçbir tümevarımın teorileri kesin olarak doğrulamayacağını, kuramların yalnızca yanlışlanana kadar geçerli olduğunu savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Thomas Kuhn'a göre bilim, eski teorilerin üzerine yenilerinin eklenmesiyle düz ve kesintisiz bir çizgide ilerler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kuhn bilimin birikimli değil, normal bilim, kriz ve devrim aşamalarıyla kesintili ilerlediğini savunur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Geç dönem Wittgenstein, dilin kullanım alanına göre anlam kazandığı 'dil oyunları' teorisini öne sürmüştür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Wittgenstein geç döneminde dilin sabit bir mantıksal resmi olmadığını, farklı bağlamlarda farklı oyun kurallarına sahip olduğunu belirtmiştir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

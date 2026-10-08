@@ -2117,13 +2117,419 @@
           "id": "node5",
           "order": 5,
           "title": "Ticaret ve Ulaşım",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'nin dış ticaretinde en çok ihraç ettiği ürün grupları arasında ilk sırada ne yer alır?",
+                  "answer": "Motorlu kara taşıtları ve yan sanayi"
+                },
+                {
+                  "question": "Uluslararası ticarette yük taşımacılığında en yüksek paya sahip olan ulaşım sistemi hangisidir?",
+                  "answer": "Deniz yolu taşımacılığı"
+                },
+                {
+                  "question": "Kıtalar arası ve uzun mesafeli yolcu taşımacılığında en hızlı ulaşım sistemi hangisidir?",
+                  "answer": "Hava yolu taşımacılığı"
+                },
+                {
+                  "question": "Türkiye'nin doğu-batı eksenli transit ticaretini güçlendiren tarihi ticaret yolunun modern adı nedir?",
+                  "answer": "Orta Koridor"
+                },
+                {
+                  "question": "Serbest ticaret bölgelerinin temel amacı nedir?",
+                  "answer": "İhracatı artırmak ve yabancı sermaye girişini teşvik etmek"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin ihracat ve ithalat dengesi göz önüne alındığında, genel olarak dış ticaret açığı vermesinde aşağıdakilerden hangisi temel etkendir?",
+                  "options": [
+                    "Tarım ürünleri ihracatının tamamen yasak olması",
+                    "İç pazarın tüketim kapasitesinin çok düşük olması",
+                    "Demir yolu ağının tüm ülkeyi sarması",
+                    "Enerji hammaddelerinde dışa bağımlı olunması"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye, petrol ve doğal gaz gibi enerji kaynakları açısından dışa bağımlı bir ülkedir; bu durum yüksek enerji ithalatına yol açarak dış ticaret açığının temel sebebini oluşturur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ulaşım sistemlerinden hangisinin maliyeti uzun mesafelerde en düşük olup ağır ve hacimli yüklerin taşınmasında en avantajlıdır?",
+                  "options": [
+                    "Hava yolu",
+                    "Boru hattı",
+                    "Karayolu",
+                    "Deniz yolu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Deniz yolu taşımacılığı, yüksek taşıma kapasitesi sayesinde birim başına düşen yakıt ve maliyet miktarının en az olduğu, özellikle ağır yükler için ideal sistemdir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de coğrafi konumun etkisiyle gelişen ticaret ve ulaşım faaliyetleri düşünülürse, aşağıdakilerden hangisi bir transit ticaret örneğidir?",
+                  "options": [
+                    "Antalya'da üretilen domateslerin İstanbul'a satılması",
+                    "İzmir limanına gelen yabancı malların gümrükten geçmeden başka bir ülkeye satılması",
+                    "Ankara'da üretilen mobilyaların iç piyasada pazarlanması",
+                    "Adana'da toplanan pamuğun tekstil fabrikalarına gönderilmesi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Transit ticaret, bir ülkeden alınan malın başka bir ülkeye ülkenin gümrük rejimine tabi tutulmadan veya işleme tabi tutulup satılmasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ülkelerden hangisi Türkiye'nin dış ticaretinde hem ithalatta hem de ihracatta en yüksek paya sahip ortaklar arasında düzenli olarak üst sıralarda yer alır?",
+                  "options": [
+                    "Japonya",
+                    "Brezilya",
+                    "Avustralya",
+                    "Almanya"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Almanya, tarihi bağlar ve güçlü ekonomik ilişkiler nedeniyle uzun yıllardır Türkiye'nin en büyük dış ticaret ortağı konumundadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki enerji kaynaklarından hangisinin taşınmasında boru hatları sistemi diğerlerine göre ekonomik ve güvenli olması nedeniyle öncelikli olarak tercih edilir?",
+                  "options": [
+                    "Biyokütle",
+                    "Kömür",
+                    "Güneş enerjisi",
+                    "Doğal gaz"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Doğal gaz ve petrol gibi akışkan maddeler, karayolu veya demiryoluna kıyasla boru hatlarıyla çok daha güvenli ve ekonomik bir şekilde taşınır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir ülkenin mal satışı karşılığında elde ettiği gelir ile mal alımı için ödediği gider arasındaki farka dış ticaret ____ denir.",
+                  "options": [
+                    "dengesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İhracat ve ithalat arasındaki niceliksel fark dış ticaret dengesini (fazla veya açığı) oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ülkeler arası ham petrol ve doğal gaz sevkiyatında en yaygın kullanılan karasal taşıma sistemi ____ hattıdır.",
+                  "options": [
+                    "boru"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boru hatları, akaryakıt ve gaz taşımacılığında kesintisiz ve yüksek kapasiteli taşıma sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yurt dışından getirilen malların gümrük vergisi ödenmeksizin depolandığı, üretildiği ve tekrar ihraç edildiği sahalara serbest ____ adı verilir.",
+                  "options": [
+                    "bölge"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Serbest bölgeler, yatırımcılar için vergi muafiyeti ve kolaylıklar sunan özel ticaret alanlarıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'nin Asya ile Avrupa arasındaki köprü konumunu güçlendiren uluslararası demir yolu projelerinden biri ____ Demiryolu hattıdır.",
+                  "options": [
+                    "Bakü-Tiflis-Kars"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "BTK demir yolu hattı, Çin'den Avrupa'ya kesintisiz demir yolu ulaşımını sağlayan stratejik bir projedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Malların bir ülkeden başka bir ülkeye taşınması sürecinde kullanılan liman, havaalanı ve tren istasyonları gibi tesisler ulaşım ____ olarak adlandırılır.",
+                  "options": [
+                    "ağı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulaşım ağı ve terminalleri, ticaretin ve hareketliliğin merkezini oluşturur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Deniz yolu taşımacılığı, hava yolu taşımacılığına göre çok daha hızlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Hava yolu, tüm ulaşım sistemleri içinde en hızlı olanıdır; deniz yolu ise en yavaşlar arasındadır ancak taşıma kapasitesi çok yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'nin ithalatında hammadde ve ara mallarının payı, tüketim mallarına göre oldukça fazladır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye sanayisi dışarıdan aldığı ara malı ve enerji hammaddesini işleyip ihraç ettiğinden, ithalatta ara malı payı en yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Demir yolu ulaşımı dağlık ve engebeli alanlarda yapım maliyetleri düşük olduğu için her yerde kolayca yaygınlaşmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dağlık ve engebeli arazilerde tünel ve viyadük gereksinimi çok fazla olduğundan demir yolu yapım maliyetleri oldukça yüksektir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uluslararası ticaretin gelişmesinde küreselleşme olgusu ve internet teknolojilerinin payı büyüktür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "E-ticaret ve küreselleşme sayesinde sınırlar ötesi ticaret hızlanmış, tüketiciler farklı ülkelerdeki ürünlere kolayca erişebilir hale gelmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Coğrafi keşifler tarihi süreçte geleneksel ticaret yollarının önemini artırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Coğrafi keşifler sonucunda İpek ve Baharat yolları gibi geleneksel karasal ticaret yolları önemini kaybetmiş, okyanus aşırı deniz yolları önem kazanmıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node6",
           "order": 6,
           "title": "Turizm",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de termal turizm potansiyeli en yüksek olan jeolojik yapı hangisidir?",
+                  "answer": "Fay hatları"
+                },
+                {
+                  "question": "UNESCO Dünya Miras Listesi'nde yer alan ve travertenleriyle ünlü turizm merkezi neresidir?",
+                  "answer": "Pamukkale"
+                },
+                {
+                  "question": "Yaz turizminin en çok geliştiği kıyı bölgemiz hangisidir?",
+                  "answer": "Akdeniz Bölgesi"
+                },
+                {
+                  "question": "Kış turizmi kapsamında önemli bir dağ merkezi olan Uludağ hangi ilimizdedir?",
+                  "answer": "Bursa"
+                },
+                {
+                  "question": "Kültür turizmi açısından önem taşıyan Efes Antik Kenti hangi ilimizdedir?",
+                  "answer": "İzmir"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki turizm çeşitlerinden hangisi Türkiye'de özellikle Karadeniz Bölgesi'nde son yıllarda daha fazla öne çıkmaktadır?",
+                  "options": [
+                    "Deniz turizmi",
+                    "Yayla turizmi",
+                    "Kongre turizmi",
+                    "Kış turizmi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karadeniz Bölgesi, engebeli arazi yapısı, yeşil örtüsü ve serin iklimi sayesinde yayla turizmi açısından büyük bir potansiyele sahiptir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin turizm gelirlerini artırmak amacıyla son yıllarda ön plana çıkardığı, hastane ve sağlık hizmetlerine dayalı turizm çeşidi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Akarsu turizmi",
+                    "Kış turizmi",
+                    "Sağlık turizmi",
+                    "İnanç turizmi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sağlık turizmi, modern tıbbi olanaklar ve uzman doktorlar sayesinde Türkiye'de hızla gelişen ve yüksek gelir bırakan bir turizm türüdür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisi inanç turizmi açısından önemli simge yapılardan biri olan Sumela Manastırı'na ev sahipliği yapar?",
+                  "options": [
+                    "Antalya",
+                    "Nevşehir",
+                    "Trabzon",
+                    "Konya"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sumela Manastırı, Trabzon ilinin Maçka ilçesinde Karadağ eteklerinde yer alır ve önemli bir inanç turizmi merkezidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Peri bacaları ve yer altı şehirleriyle ünlü Kapadokya yöresi aşağıdaki illerden hangisinde daha geniş yer kaplar?",
+                  "options": [
+                    "Muğla",
+                    "İzmir",
+                    "Nevşehir",
+                    "Edirne"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kapadokya tarihi ve doğal kaya oluşumlarıyla başta Nevşehir olmak üzere çevre illere yayılır, ancak merkez Nevşehir'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Deniz turizminin sezon süresinin Akdeniz kıyılarında Karadeniz kıyılarından daha uzun olmasının temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Enlem etkisiyle sıcaklıkların daha yüksek olması",
+                    "Bitki örtüsünün maki olması",
+                    "Yağış miktarının az olması",
+                    "Dağların kıyıya dik uzanması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Akdeniz'in güneyde yer alması yani enlem etkisi, güneşlenme süresini ve deniz suyu sıcaklığını artırarak turizm sezonunu uzatır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Deniz, kum ve güneş üçlüsüne dayanan turizm faaliyetine ____ turizmi denir.",
+                  "options": [
+                    "yaz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yaz turizmi, kıyı bölgelerindeki iklim ve plaj imkanlarına dayanan en yaygın turizm kollarından biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kış mevsiminde kar yağışının ve kalitesinin uygun olduğu dağlarda yapılan turizm türüne ____ turizmi denir.",
+                  "options": [
+                    "kış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kış turizmi kayak, snowboard gibi sporlarla birlikte dağ otellerinde konaklamayı kapsar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tarihi kalıntılar, antik kentler ve müzeleri görmek amacıyla yapılan gezilere ____ turizmi adı verilir.",
+                  "options": [
+                    "kültür"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültür turizmi geçmiş medeniyetlere ait eserlerin ve tarihi dokunun incelenmesini amaçlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Şifalı yer altı suları ve kaplıcalardan yararlanarak yapılan turizm türüne ____ turizmi denir.",
+                  "options": [
+                    "termal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Termal turizm, jeotermal kaynakların sağlık ve dinlenme amacıyla kullanıldığı turizm faaliyetidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Farklı inançlara ait ibadethaneleri ve kutsal mekânları ziyaret etme faaliyetine ____ turizmi denir.",
+                  "options": [
+                    "inanç"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İnanç turizmi hac ve benzeri dini ziyaretleri kapsayan turizm çeşididir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de turizm gelirleri, hizmet sektörünün ve dış ticaret dengesinin en önemli kalemlerinden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Turizm faaliyetleri ülkeye döviz girdisi sağlayarak dış ticaret açığının kapatılmasında kritik bir rol oynamaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Akdeniz Bölgesi, kış turizmi potansiyeli bakımından Türkiye'nin en gelişmiş bölgesidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kış turizmi en çok Doğu Anadolu ve İç Anadolu ile Marmara'daki Uludağ gibi merkezlerde gelişmiştir, Akdeniz daha çok yaz turizmiyle öne çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kültür turizmi çeşitliliği açısından Türkiye, sahip olduğu tarihi birikimle dünya genelinde önemli bir avantaja sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Anadolu toprakları pek çok farklı medeniyete ev sahipliği yaptığı için zengin bir kültürel mirasa sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kongre ve fuar turizmi genellikle yaz aylarında kıyı otellerinde yoğunlaşır ve diğer turizm türlerinden bağımsızdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kongre ve fuar turizmi genellikle büyük şehirlerde (özellikle İstanbul ve Ankara gibi) yılın her döneminde yapılabilmektedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekoturizm, doğaya zarar vermeden doğal ve kültürel kaynakların korunarak sürdürülebilirliğinin sağlanmasını hedefler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekoturizm doğa sevgisini artırırken çevreye duyarlı bir seyahat ve koruma bilinci aşılar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2136,13 +2542,419 @@
           "id": "node1",
           "order": 1,
           "title": "Doğal Afetler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Japonya gibi deprem riskinin yüksek olduğu ülkelerde hangi jeolojik kökenli afetler sık görülür?",
+                  "answer": "Deprem ve tsunami"
+                },
+                {
+                  "question": "Yeryüzünde volkanik patlamaların ve depremlerin en yoğun yaşandığı kuşak hangisidir?",
+                  "answer": "Pasifik Ateş Çemberi"
+                },
+                {
+                  "question": "Ani ve şiddetli yağışlar sonucunda yamaçlardaki toprak ve kaya kütlelerinin aşağı doğru hızla kayması olayına ne ad verilir?",
+                  "answer": "Heyelan"
+                },
+                {
+                  "question": "Kurak ve yarı kurak bölgelerde bitki örtüsünün tahrip edilmesiyle toprağın verimsizleşmesine ne denir?",
+                  "answer": "Çölleşme"
+                },
+                {
+                  "question": "Atmosferdeki sera gazlarının miktarının artmasıyla dünyanın ortalama sıcaklığının yükselmesi süreci nedir?",
+                  "answer": "Küresel ısınma"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki doğal afetlerden hangisinin oluşumunda iklim ve meteorolojik şartların etkisi diğerlerine göre daha azdır?",
+                  "options": [
+                    "Sel ve taşkın",
+                    "Kuraklık",
+                    "Tsunami",
+                    "Kasırga"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Tsunami okyanus tabanında meydana gelen deprem, volkanizma veya heyelan gibi tektonik ve jeolojik olaylar sonucu oluşur; doğrudan meteorolojik bir kökeni yoktur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'de heyelan olaylarının en fazla Karadeniz Bölgesi'nde görülmesinde aşağıdakilerden hangisi temel etkendir?",
+                  "options": [
+                    "Yağış miktarının fazla ve killi toprak yapısının yaygın olması",
+                    "Yaz kuraklığının şiddetli olması",
+                    "Bitki örtüsünün bozkır olması",
+                    "Nüfusun kırsal alanda dağınık yerleşmesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi'nde yıl boyunca görülen bol yağış toprağı suya doyurur ve killi yapının kayganlaşmasıyla heyelan riski artar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ülkelerin hangisinde büyük bir deprem kuşağı üzerinde yer almasına rağmen volkanik afetlerin görülme olasılığı en düşüktür?",
+                  "options": [
+                    "Japonya",
+                    "Mısır",
+                    "İzlanda",
+                    "Endonezya"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mısır levha sınırlarında yer almadığı ve aktif volkanik kuşaklara uzak olduğu için volkanik afet riski çok düşüktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Atmosfer kökenli doğal afetler arasında yer alan kasırgalar (tropikal siklonlar) daha çok hangi iklim kuşağında etkilidir?",
+                  "options": [
+                    "Orta kuşak",
+                    "Tropikal kuşak",
+                    "Sibirya ve tundralar",
+                    "Kutup kuşağı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kasırgalar sıcak deniz yüzeyi sıcaklığının 27 dereceyi aştığı tropikal kuşakta okyanuslar üzerinde oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi orman yangınlarının doğrudan beşeri (insan kaynaklı) nedenlerinden biri değildir?",
+                  "options": [
+                    "Yıldırım düşmesi",
+                    "Piknik ateşlerinin söndürülmeden bırakılması",
+                    "Tarla açmak amacıyla ormanların yakılması",
+                    "Anız yakılması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yıldırım düşmesi doğal bir süreçtir, insan kaynaklı beşeri bir neden değildir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yeryüzündeki depremlerin büyük bir kısmı levha sınırlarında yer alan ____ kuşaklarında meydana gelir.",
+                  "options": [
+                    "deprem"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dünyadaki sismik hareketlilik genellikle levha sınırlarında yoğunlaşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Eğimli yamaçlardaki toprak örtüsünün suya doymuş halde yerçekiminin etkisiyle aşağı doğru kütle halinde kaymasına ____ denir.",
+                  "options": [
+                    "heyelan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Heyelan, kütle hareketlerinin en yaygın ve yıkıcı türlerinden biridir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Okyanus tabanındaki tektonik hareketler sonucu oluşan dev dalgalara ____ adı verilir.",
+                  "options": [
+                    "tsunami"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tsunami dalgaları kıyılara ulaştığında büyük yıkımlara yol açabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bitki örtüsünün yok edilmesi ve yanlış arazi kullanımı sonucunda toprağın verimini kaybetmesine ____ denir.",
+                  "options": [
+                    "çölleşme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çölleşme süreci özellikle kurak ve yarı kurak iklim bölgelerinde etkilidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferdeki sera etkisinin normalin üzerine çıkmasıyla dünyada yaşanan ısınmaya ____ ısınma denir.",
+                  "options": [
+                    "küresel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küresel ısınma iklim değişikliklerinin temel tetikleyicisidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de deprem riski en az olan alanlar genellikle birinci derece deprem kuşakları üzerinde yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Birinci derece deprem kuşakları deprem riskinin en yüksek olduğu alanlardır, en az olduğu alanlar değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kasırgalar ve tayfunlar gibi meteorolojik afetler en çok tropikal okyanuslar üzerinde gelişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu afetler deniz suyu sıcaklığının yüksek olduğu tropikal kuşakta enerji bulur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Erozyon, esas olarak rüzgar ve su etkisiyle toprağın üst kısmının aşınarak taşınması olayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Erozyon toprağın verimli üst katmanının dış kuvvetlerca süpürülmesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Volkanik patlamalar yalnızca okyanus ortası sırtlarında görülür, karalarda asla volkanizma olmaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Karalarda da aktif volkanlar (örneğin And Dağları veya Endonezya adaları) bulunmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orman yangınlarının yayılmasında kuraklık ve şiddetli rüzgarlar önemli bir rol oynamaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuraklık odunsu dokuyu kurutur, rüzgar ise yangının yönünü ve hızını artırır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Çevre Sorunları ve Politikalar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Sanayi devriminden bu yana atmosferde biriken sera gazlarının etkisiyle küresel sıcaklığın artmasına ne ad verilir?",
+                  "answer": "Küresel ısınma"
+                },
+                {
+                  "question": "Fosil yakıtların yanması ve ormansızlaşma sonucu açığa çıkan gazların neden olduğu atmosferik kirliliğin yağışlarla birlikte asidik karakter kazanarak yeryüzüne düşmesine ne denir?",
+                  "answer": "Asit yağmurları"
+                },
+                {
+                  "question": "Gelişmiş ülkelerin atıklarını gelişmekte olan veya az gelişmiş ülkelere göndermesiyle ortaya çıkan çevre sorununa ne denir?",
+                  "answer": "Çevre sömürgeciliği"
+                },
+                {
+                  "question": "Toprak ve su kaynaklarının yanlış kullanımı sonucu verimli arazilerin çöl benzeri kurak alanlara dönüşmesine ne ad verilir?",
+                  "answer": "Çölleşme"
+                },
+                {
+                  "question": "Atmosferdeki ozon tabakasının incelmesine neden olan, soğutucu ve spreylerde kullanılan kimyasal gazların genel adı nedir?",
+                  "answer": "Kloroflorokarbon (KFC)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki çevre sorunlarından hangisi doğrudan ozon tabakasının incelmesiyle ilişkilidir?",
+                  "options": [
+                    "Cilt kanseri vakalarının artması",
+                    "Asit yağmurlarının ormanları kurutması",
+                    "Deniz seviyesinin yükselmesi",
+                    "Ötrofikasyon nedeniyle su içi oksijenin azalması"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ozon tabakası zararlı ultraviyole (UV) ışınlarını süzer. Bu tabakanın incelmesi yeryüzüne ulaşan UV ışınlarını artırarak insanlarda cilt kanseri riskini yükseltir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Uluslararası alanda sera gazı salınımlarını azaltmak amacıyla imzalanan ve küresel iklim politikalarının temelini oluşturan protokol aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Kyoto Protokolü",
+                    "Ramsar Sözleşmesi",
+                    "Cites Sözleşmesi",
+                    "Montreal Protokolü"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kyoto Protokolü, sanayileşmiş ülkelerin sera gazı emisyonlarını azaltmayı hedefleyen en önemli uluslararası iklim anlaşmalarından biridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi su kirliliğine ve özellikle ötrofikasyona yol açan başlıca beşeri etkenler arasında yer alır?",
+                  "options": [
+                    "Tarımda aşırı gübre kullanımı",
+                    "Jeotermal enerji üretimi",
+                    "Ağaçlandırma çalışmaları",
+                    "Rüzgar enerjisi santralleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tarımda bilinçsiz ve aşırı gübre kullanımı, yağışlarla birlikte sulara karışarak azot ve fosfor miktarını artırır. Bu durum sucul ekosistemlerde ötrofikasyona neden olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ülkenin veya bireyin tükettiği kaynakları üretmek ve ürettiği atıkları bertaraf etmek için ihtiyaç duyduğu verimli toprak ve su alanı ölçüsüne ne ad verilir?",
+                  "options": [
+                    "Karbon ticareti",
+                    "Sürdürülebilir kalkınma",
+                    "Ekolojik ayak izi",
+                    "Biyolojik çeşitlilik"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ekolojik ayak izi, insan faaliyetlerinin doğa üzerinde bıraktığı baskıyı hesaplamak için kullanılan temel bir çevre göstergesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uluslararası çevre anlaşmalarından hangisi sulak alanların korunması amacıyla imzalanmıştır?",
+                  "options": [
+                    "Paris İklim Anlaşması",
+                    "Kyoto Protokolü",
+                    "Basel Sözleşmesi",
+                    "Ramsar Sözleşmesi"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Ramsar Sözleşmesi, özellikle su kuşlarının yaşama ortamı olan sulak alanların korunması ve akılcı kullanımını amaçlayan uluslararası bir antlaşmadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Gelecek nesillerin ihtiyaçlarının karşılanma hakkından ödün vermeksizin, günümüz nesillerinin ihtiyaçlarını karşılayan ekonomik ve sosyal modele ____ denir.",
+                  "options": [
+                    "Sürdürülebilir kalkınma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürdürülebilir kalkınma, doğal kaynakların tüketimi ile korunması arasında denge kurulmasını savunan çevre politikası yaklaşımıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Fosil yakıtların yakılması sonucu açığa çıkan kükürt dioksit ve azot oksit gazlarının neden olduğu yağış türüne ____ yağmurları denir.",
+                  "options": [
+                    "Asit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit yağmurları, hava kirliliğine neden olan gazların su buharı ile birleşerek asidik özellik kazanmasıyla oluşur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Deniz ve okyanuslarda petrol sızıntıları veya evsel atıklar nedeniyle su kalitesinin bozulması ve ekosistemin zarar görmesine ____ kirliliği denir.",
+                  "options": [
+                    "Su"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Su kirliliği, hem tatlı su kaynaklarını hem de deniz ekosistemlerini tehdit eden önemli bir küresel çevre sorunudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Atmosferdeki gazların güneş ışınlarını tutarak yeryüzünün ortalama sıcaklığını artırması olayına ____ etkisi adı verilir.",
+                  "options": [
+                    "Sera"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sera etkisi, yaşamın sürdürülebilmesi için gerekli olmakla birlikte, insan faaliyetleriyle artması küresel ısınmaya yol açmaktadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Küresel iklim değişikliği ile mücadelede orman alanları, karbonu emdikleri için ____ yutağı olarak kabul edilir.",
+                  "options": [
+                    "Karbon"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ormanlar fotosentez yoluyla karbondioksiti absorbe ettiği için karbon yutağı işlevi görerek iklim krizini hafifletir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kyoto Protokolü, ozon tabakasını incelten maddelerin üretimini ve kullanımını denetim altına almak için imzalanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır. Ozon tabakasını korumayı amaçlayan anlaşma Montreal Protokolü'dür; Kyoto Protokolü ise sera gazı emisyonlarının azaltılmasını hedefler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Hızlı nüfus artışı ve sanayileşme, doğal kaynaklar üzerindeki baskıyı artırarak çevre sorunlarının temel nedenleri arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur. Nüfusun artması ve sanayi üretimi hammadde ve enerji talebini artırarak kirlilik ve kaynak tükenmesine yol açar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Çölleşme sorunu yalnızca tropikal iklim kuşağındaki nemli orman bölgelerinde görülen bir çevre felaketidir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır. Çölleşme genellikle kurak, yarı kurak ve kuru alt nemli iklim bölgelerinde toprak verimliliğinin düşmesiyle ortaya çıkar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Yenilenebilir enerji kaynaklarının kullanımı, fosil yakıtlara olan bağımlılığı azaltarak çevre kirliliğini önlemede önemli bir rol oynar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğrudur. Güneş, rüzgar ve jeotermal gibi yenilenebilir enerji kaynakları karbon salınımı yapmadığı için çevre dostudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ekolojik ayak izi bir ülkenin sadece bıraktığı çöp miktarını ölçer, su tüketimi bu hesabın dışındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yanlıştır. Ekolojik ayak izi sadece atıkları değil, aynı zamanda tüketilen gıda, enerji, su ve kullanılan orman ile tarım arazilerinin toplam alanını kapsar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2155,19 +2967,628 @@
           "id": "node1",
           "order": 1,
           "title": "Jeopolitik ve Küresel Ortam",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Jeopolitik nedir?",
+                  "answer": "Coğrafi faktörlerin bir ülkenin dış politikasına ve stratejisine etkisini inceleyen bilim dalıdır."
+                },
+                {
+                  "question": "Mackinder'in ünlü jeopolitik teorisi hangisidir?",
+                  "answer": "Kalpgâh (Heartland) Teorisi."
+                },
+                {
+                  "question": "Kritik su yollarından biri olan ve Kızıldeniz'i Akdeniz'e bağlayan kanal hangisidir?",
+                  "answer": "Süveyş Kanalı."
+                },
+                {
+                  "question": "Küresel ölçekte askeri ve ekonomik gücü elinde bulunduran merkezlere ne ad verilir?",
+                  "answer": "Güç merkezleri."
+                },
+                {
+                  "question": "Hazar havzasındaki petrol ve doğalgazın dünyaya taşınmasında kritik öneme sahip boğaz hangisidir?",
+                  "answer": "Türk Boğazları (İstanbul ve Çanakkale)."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir ülkenin kalıcı (değişmeyen) jeopolitik unsurları arasında yer alır?",
+                  "options": [
+                    "Nüfus miktarı",
+                    "Stratejik konum",
+                    "Askeri güç",
+                    "Ekonomik kalkınmışlık düzeyi"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ülkenin coğrafi konumu, jeolojisi ve iklimi gibi unsurlar zamanla değişmeyen kalıcı unsurlardır. Nüfus ve askeri güç gibi unsurlar ise zamanla değişebilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya Ada Karası (Heartland) teorisini ortaya atan ve 'Doğu Avrupa'yı yöneten Dünya'ya hakim olur' tezini savunan jeopolitikçi kimdir?",
+                  "options": [
+                    "Alfred Mahan",
+                    "Friedrich Ratzel",
+                    "Halford Mackinder",
+                    "Nicholas Spykman"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Kalpgah teorisi Halford Mackinder tarafından ortaya atılmış ve Avrasya'nın iç kısımlarının stratejik önemine dikkat çekilmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki su yollarından hangisi Basra Körfezi'ni açık denizlere bağlaması nedeniyle küresel ticaret ve jeopolitik açısından hayati önem taşır?",
+                  "options": [
+                    "Hürmüz Boğazı",
+                    "Malakka Boğazı",
+                    "Panama Kanalı",
+                    "Cebelitarık Boğazı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hürmüz Boğazı, Basra Körfezi'ndeki petrol sevkiyatının dünya pazarlarına ulaştırıldığı en kritik geçiş noktasıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi küresel ticaret ve enerji nakil hatlarının güvenliği açısından kritik bir boğaz veya kanal değildir?",
+                  "options": [
+                    "Babülmendep Boğazı",
+                    "Macellan Boğazı",
+                    "Malakka Boğazı",
+                    "Süveyş Kanalı"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Macellan Boğazı Güney Amerika'nın güneyinde yer alır ancak günümüzde küresel ana deniz ticaret yollarının ana güzergahı üzerinde bulunmadığı için diğerleri kadar yoğun kullanılmaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kenar Kuşak (Rimland) teorisini geliştirerek 'Avrasya'nın kıyı kuşağını kontrol eden dünyaya hakim olur' diyen jeopolitikçi kimdir?",
+                  "options": [
+                    "Karl Haushofer",
+                    "Nicholas Spykman",
+                    "Halford Mackinder",
+                    "Friedrich Ratzel"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nicholas Spykman, Mackinder'in Kalpgah teorisine karşı olarak Kenar Kuşak teorisini geliştirmiştir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Avrasya'nın iç kısımlarını kapsayan ve Halford Mackinder tarafından ortaya atılan teoriye ____ Teorisi denir.",
+                  "options": [
+                    "Kalpgâh"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kalpgâh (Heartland) Teorisi, Dünya Ada Karası'nın merkezini kapsayan ve buraya hakim olanın dünyaya hakim olacağını savunan görüştür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kuzey Amerika ile Güney Amerika'yı birbirinden ayıran ve Atlas Okyanusu ile Büyük Okyanus'u birbirine bağlayan kanal ____ Kanalıdır.",
+                  "options": [
+                    "Panama"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Panama Kanalı, Amerika kıtasındaki iki büyük okyanusu birbirine bağlayan yapay bir su yoludur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Asya ile Amerika kıtaları arasında yer alan ve Bering Denizi'ni Okyanus'a bağlayan su yolunun adı ____ Boğazıdır.",
+                  "options": [
+                    "Bering"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bering Boğazı, Asya ile Kuzey Amerika'yı birbirinden ayıran ve Pasifik ile Arktik okyanuslarını birleştiren boğazdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Jeopolitik konumun değişmeyen unsurlarından biri ülkenin ____ özellikleridir.",
+                  "options": [
+                    "coğrafi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir ülkenin matematik konumu, yer şekilleri ve denizlerle olan komşuluğu gibi coğrafi özellikleri uzun vadede değişmez.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Hint Okyanusu'nu Basra Körfezi'ne bağlayan ve petrol taşımacılığında kilit rol oynayan boğaz ____ Boğazıdır.",
+                  "options": [
+                    "Hürmüz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hürmüz Boğazı, Orta Doğu petrolünün dünya denizlerine çıkış kapısıdır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Jeopolitik konum zaman içerisinde teknolojik, ekonomik ve siyasi gelişmelere bağlı olarak önem kazanabilir veya kaybedebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Jeopolitik konumun bazı unsurları kalıcı olsa da, o bölgede bulunan kaynakların tükenmesi veya yeni ulaşım hatlarının açılması stratejik önemi değiştirebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Süveyş Kanalı'nın açılması Afrika kıtasını dolaşan Ümit Burnu güzergahının önemini artırmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Süveyş Kanalı'nın açılması, Akdeniz ile Kızıldeniz'i birbirine bağlayarak uzak mesafeleri kısalttığı için Ümit Burnu güzergahının önemini azaltmıştır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye, Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı noktada yer alması nedeniyle jeopolitik açıdan stratejik bir konumdadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye'nin üç kıtanın kesişim noktasında bulunması ve boğazlara sahip olması jeopolitik önemini artırmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Nüfus miktarı ve teknolojik gelişmişlik düzeyi bir ülkenin değişmeyen (fiziki) jeopolitik unsurları arasındadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Nüfus ve teknoloji zamanla değişebilen beşeri unsurlardır; fiziki unsurlar ise iklim, yer şekilleri ve konum gibi kalıcı özelliklerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Malakka Boğazı, Hint Okyanusu ile Büyük Okyanus'u birbirine bağlayan ve Uzak Doğu ticaretinde büyük paya sahip bir su yoludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Malakka Boğazı, Güneydoğu Asya'da yer alır ve küresel deniz ticaretinin en yoğun olduğu geçiş noktalarından biridir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Uluslararası Örgütler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Küresel ölçekli ilk siyasi ve askeri örgüt hangisidir?",
+                  "answer": "Birleşmiş Milletler"
+                },
+                {
+                  "question": "Kurucuları arasında Türkiye'nin bulunmadığı, Avrupa'da ekonomik bütünleşmeyi amaçlayan örgüt hangisidir?",
+                  "answer": "Avrupa Birliği"
+                },
+                {
+                  "question": "Petrol ihraç eden ülkelerin politikalarını koordine etmek amacıyla kurulan örgüt hangisidir?",
+                  "answer": "OPEC"
+                },
+                {
+                  "question": "Kuzey Atlantik Antlaşması ile kurulan ve askeri nitelik taşıyan örgüt hangisidir?",
+                  "answer": "NATO"
+                },
+                {
+                  "question": "Türk dili konuşan ülkeler arasında iş birliğini geliştirmek amacıyla kurulan örgüt hangisidir?",
+                  "answer": "Türk Devletleri Teşkilatı"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki uluslararası örgütlerden hangisi bölgesel bir askeri örgütlenme niteliği taşır?",
+                  "options": [
+                    "OPEC",
+                    "NATO",
+                    "UNESCO",
+                    "OECD"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "NATO, Kuzey Amerika ve Avrupa ülkelerinin katılımıyla kurulan askeri bir ittifaktır. OPEC ekonomik, OECD kalkınma, UNESCO ise kültürel alanda faaliyet gösterir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye, İkinci Dünya Savaşı sonrasında Batı Bloku ile yakınlaşarak aşağıdaki uluslararası örgütlerin hangisine kurucu üye olarak katılmıştır?",
+                  "options": [
+                    "Avrupa Birliği",
+                    "OECD",
+                    "NATO",
+                    "Birleşmiş Milletler"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türkiye, 1945 yılında BM'nin kurucu üyeleri arasında yer almıştır. NATO'ya 1952 yılında üye olmuştur, Avrupa Birliği'ne ise tam üye değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki örgütlerden hangisi doğrudan petrol üretimi ve fiyat politikalarıyla ilgilidir?",
+                  "options": [
+                    "IMF",
+                    "G-20",
+                    "OPEC",
+                    "D-8"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "OPEC, petrol ihraç eden ülkelerin petrol üretim miktarını ve fiyatlarını belirlemek amacıyla kurulmuş ekonomik bir örgüttür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Küresel barışı korumak, uluslararası güvenliği sağlamak ve devletler arası iş birliğini geliştirmek amacıyla 1945 yılında kurulan küresel örgüt hangisidir?",
+                  "options": [
+                    "Avrupa Konseyi",
+                    "Birleşmiş Milletler",
+                    "NATO",
+                    "Karadeniz Ekonomik İş Birliği"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Birleşmiş Milletler (BM), II. Dünya Savaşı sonrasında küresel barış ve güvenliği tesis etmek amacıyla kurulan evrensel nitelikli bir örgüttür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uluslararası örgütlerden hangisinin merkezi Avrupa'da yer almaz?",
+                  "options": [
+                    "Avrupa Birliği (Brüksel)",
+                    "NATO (Brüksel)",
+                    "UNESCO (Paris)",
+                    "OPEC (Viyana)"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "OPEC'in merkezi Avusturya'nın Viyana kentindedir ancak kurucu ülkelerin bir kısmı Asya, Afrika ve Güney Amerika'dadır; ancak burada merkezler Avrupa'dadır. Soru şıklarındaki merkezler doğru verilmiştir, OPEC'in kurucu üyeleri Orta Doğu ve Güney Amerika ağırlıklıdır ancak genel merkez Viyana'dadır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin de kurucu üyeleri arasında yer aldığı, ekonomik kalkınma ve iş birliğini amaçlayan Avrupa merkezli örgüt ____ olarak adlandırılır.",
+                  "options": [
+                    "OECD"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "OECD, Ekonomik Kalkınma ve İş Birliği Örgütü olup Türkiye bu örgütün kurucu üyeleri arasındadır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Gelişmekte olan sekiz İslam ülkesini bir araya getiren ekonomik ve teknolojik iş birliği örgütü ____ adıyla bilinir.",
+                  "options": [
+                    "D-8"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "D-8, aralarında Türkiye'nin de bulunduğu sekiz gelişen ülkenin ekonomik iş birliğini artırmak için kurduğu bir örgüttür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dünya genelinde eğitim, bilim ve kültür alanlarında uluslararası iş birliğini savunan BM ihtisas kuruluşu ____ olarak bilinir.",
+                  "options": [
+                    "UNESCO"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "UNESCO, Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütüdür ve kültürel mirası koruma çalışmalarıyla tanınır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kuzey Atlantik Antlaşması Örgütü'nün kısaltılmış uluslararası adı ____ harfleriyle ifade edilir.",
+                  "options": [
+                    "NATO"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuzey Atlantik Antlaşması Örgütü İngilizce adının baş harfleri olan NATO olarak bilinir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Uluslararası Para Fonu'nun yaygın olarak kullanılan kısa adı ____ şeklindedir.",
+                  "options": [
+                    "IMF"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uluslararası Para Fonu, küresel finansal istikrarı sağlamakla görevli IMF olarak kısaltılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Birleşmiş Milletler, dünya barışını korumak amacıyla İkinci Dünya Savaşı sonrasında kurulmuştur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "BM, 1945 yılında savaşların önlenmesi ve uluslararası barışın sağlanması amacıyla kurulmuş küresel bir örgüttür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Avrupa Birliği, askeri ve savunma alanında ortak hareket etmek üzere kurulmuş ilk ve tek küresel örguttür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Avrupa Birliği öncelikli olarak ekonomik ve siyasi bir bütünleşme örgütüdür, askeri bir pakt değildir; askeri savunma misyonu NATO'ya aittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "OPEC üyelerinin çoğunluğunu petrol rezervleri fazla olan Orta Doğu ve Güney Amerika ülkeleri oluşturur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "OPEC üyeleri arasında Suudi Arabistan, İran, Irak gibi Orta Doğu ülkeleri ile Venezuela gibi Güney Amerika ülkeleri önemli yer tutar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye, Kuzey Atlantik Antlaşması Örgütüne (NATO) kuruluş yılı olan 1949'da ilk katılan ülkelerdendir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye NATO'ya 1949'da değil, 1952 yılında üye olmuştur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Uluslararası örgütler küresel ve bölgesel olmak üzere faaliyet alanlarına göre sınıflandırılabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örgütler etki alanlarına göre tüm dünyayı kapsayan küresel (örneğin BM) veya belirli bir coğrafi alanı kapsayan bölgesel (örneğin AB) olarak ikiye ayrılır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Kültür Bölgeleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Kültür nedir?",
+                  "answer": "Bir toplumun tarihsel süreçte ürettiği ve sonraki kuşaklara aktardığı maddi ve manevi değerlerin tümüdür."
+                },
+                {
+                  "question": "Kültür merkezi nedir?",
+                  "answer": "Kültürün doğduğu, yayıldığı ve ilk özelliklerini en saf şekilde barındırdığı alanlardır."
+                },
+                {
+                  "question": "Dünyanın en eski kültür merkezlerinden biri olan Mezopotamya hangi nehirler arasında yer alır?",
+                  "answer": "Fırat ve Dicle nehirleri arasında yer alır."
+                },
+                {
+                  "question": "Türk kültürünün ilk doğduğu ve yayıldığı ana kültür bölgesi neresidir?",
+                  "answer": "Orta Asya kültür bölgesidir."
+                },
+                {
+                  "question": "Kültürün yayılmasında en önemli coğrafi etkenlerden biri nedir?",
+                  "answer": "İnsanların göçleri ve ticaret yollarıdır."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi dünyanın ilk kültür merkezlerinin kurulduğu ortak coğrafi özelliklerden biri değildir?",
+                  "options": [
+                    "Su kaynaklarına yakınlık",
+                    "Ilıman iklim koşullarına sahip olma",
+                    "Tarım yapmaya elverişli verimli topraklar",
+                    "Yüksek ve engebeli dağlık alanlarda yer alma"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "İlk kültür merkezleri genellikle su kaynaklarına yakın, ılıman iklimli ve tarıma elverişli alçak havzalarda kurulmuştur. Yüksek ve engebeli dağlık alanlar ulaşımı zorlaştırdığı için tercih edilmemiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki eşleştirmelerden hangisi kültür bölgesi ve temel unsuru bakımından yanlıştır?",
+                  "options": [
+                    "Latin Amerika kültür bölgesi - İngiliz dili ve Protestanlık",
+                    "İslam kültür bölgesi - Cami ve dini mimari",
+                    "Uzak Doğu kültür bölgesi - Pirinç tarımı ve Budizm",
+                    "Avrupa kültür bölgesi - Hristiyanlık ve Latin alfabesi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Latin Amerika kültür bölgesinde İspanyolca ve Portekizce dilleri ile Katolik mezhebi yaygındır. İngilizce ve Protestanlık Anglo-Amerikan kültür bölgesinin özellikleridir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türk kültür bölgesinin yayılış alanı göz önüne alındığında, aşağıdakilerden hangisi bu kültürün özelliklerinden biri olamaz?",
+                  "options": [
+                    "Göçebe yaşam tarzının izlerini barındırması",
+                    "Atın evcilleştirilmesinde öncü olması",
+                    "Merkeziyetçi mutlak monarşi yönetimlerinin tek kökeni olması",
+                    "Hayvancılık faaliyetlerinin ekonomik ve sosyal hayatta önemli yer tutması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türk kültürü göçebe ve bozkır medeniyetine dayanır. Tarih boyunca farklı yönetim şekilleri benimsemiştir; mutlak monarşi sadece Türklere ait bir yönetim biçimi değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Kültürün maddi unsurları arasında aşağıdakilerden hangisi yer almaz?",
+                  "options": [
+                    "Dini inançlar",
+                    "Kullanılan araç ve gereçler",
+                    "Mimari yapılar",
+                    "Giyim tarzı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dini inançlar, gelenekler ve değerler kültürün manevi unsurlarını oluşturur. Mimari, giyim ve araç-gereç ise maddi unsurlardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dünya üzerindeki kültür bölgelerinin sınırlarının kesin hatlarla birbirine ayrılmamasının temel sebebi nedir?",
+                  "options": [
+                    "Bütün ülkelerin sınırlarının resmi olarak kaldırılmış olması",
+                    "Dünya haritasının hatalı çizilmesi",
+                    "Tüm dünyada tek bir ortak dilin konuşulması",
+                    "Kültürlerin sürekli etkileşim halinde olması ve göçler"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kültürler dinamiktir; göçler, ticaret ve iletişim sayesinde birbirini etkiler. Bu yüzden kültür bölgeleri keskin çizgilerle değil, geçiş kuşaklarıyla birbirinden ayrılır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Kültürün doğduğu ve yayıldığı ilk alana kültür ________ denir.",
+                  "options": [
+                    "merkezi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kültürlerin doğup dünyaya yayıldığı coğrafi kaynak alanlarına kültür merkezi adı verilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Amerika kıtasının keşfinden sonra bu bölgeye inanç ve dil özelliklerini taşıyan Avrupa ülkesi ________ olmuştur.",
+                  "options": [
+                    "İspanya"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İspanya ve Portekiz, coğrafi keşifler sonrasında Latin Amerika kültür bölgesinin oluşmasında en büyük rolü oynamıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kültürün nesilden nesile aktarılmasında en temel araç ________tir.",
+                  "options": [
+                    "dil"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dil, bir toplumun duygu, düşünce ve kültürünü geçmişten geleceğe taşıyan en önemli taşıyıcı unsurdur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İklim şartlarının ve bitki örtüsünün sert olduğu kurak bölgelerde ________ kültürü gelişmiştir.",
+                  "options": [
+                    "bozkır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bozkır (step) ikliminin hâkim olduğu coğrafyalarda hayvancılığa dayalı bozkır kültürü ortaya çıkmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Farklı kültürlerin birbirine temas etmesi sonucu ortaya çıkan yeni kültür sentezine kültürel ________ denir.",
+                  "options": [
+                    "etkileşim"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Küreselleşme ve göçler sayesinde farklı kültürler birbirleriyle etkileşim içine girerek değişime uğrar.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Kültür bölgelerinin sınırları, iklim veya bitki örtüsü sınırları gibi keskin ve net çizgilerle ayrılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kültür unsurları sürekli hareket halinde olduğu için kültür bölgeleri arasında geçiş kuşakları bulunur; bu nedenle sınırlar keskin değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mezopotamya, Mısır, Hint ve Çin kültürleri dünyanın ilk medeniyet ve kültür merkezleri arasında yer alır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu medeniyetler su kenarlarında kurulmuş olup insanlık tarihinin bilinen en eski kültür merkezleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Anglo-Amerikan kültür bölgesi ABD ve Kanada'yı kapsar ve temelinde İngiliz kültürü yatar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuzey Amerika'da yer alan bu bölge, İngiliz göçmenlerin etkisiyle şekillenmiş ve İngilizce resmi dil olarak benimsenmiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Maddi kültür unsurları, toplumların soyut inançlarını ve kurallarını ifade eder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Soyut inançlar ve kurallar manevi kültür unsurlarıdır. Maddi unsurlar ise somut eserlerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sanayi Devrimi ile birlikte kültürlerin yayılma hızı ve coğrafi etki alanı artmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ulaşım ve iletişim teknolojilerindeki gelişmeler kültürlerin küresel çapta hızla yayılmasını sağlamıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2180,13 +3601,419 @@
           "id": "node1",
           "order": 1,
           "title": "Türkiye'nin Bölgeleri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'de yüzölçümü bakımından en büyük bölge hangisidir?",
+                  "answer": "İç Anadolu Bölgesi"
+                },
+                {
+                  "question": "Dağların kıyıya dik uzandığı ve en uzun kıyı çizgisine sahip olan bölgemiz hangisidir?",
+                  "answer": "Ege Bölgesi"
+                },
+                {
+                  "question": "Karadeniz Bölgesi'nin en fazla göç veren ve en az nüfuslu bölümü hangisidir?",
+                  "answer": "Doğu Karadeniz Bölümü"
+                },
+                {
+                  "question": "Güneydoğu Anadolu Projesi (GAP) ile hangi bölgede sulanan tarım alanları hızla artmıştır?",
+                  "answer": "Güneydoğu Anadolu Bölgesi"
+                },
+                {
+                  "question": "Akdeniz Bölgesi'nde karstik arazinin en yaygın olduğu bölüm hangisidir?",
+                  "answer": "Teke-Göller Yöresi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki illerden hangisi, coğrafi konum özellikleri dikkate alındığında İç Anadolu Bölgesi sınırları içerisinde yer almaz?",
+                  "options": [
+                    "Karaman",
+                    "Sivas",
+                    "Eskişehir",
+                    "Afyonkarahisar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Afyonkarahisar ili, Ege Bölgesi'nin iç kesiminde yer alır. Eskişehir, Karaman ve Sivas illeri ise İç Anadolu Bölgesi sınırları içerisindedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Karadeniz Bölgesi'nde kıyı ile iç kesimler arasındaki ulaşımın en zor olduğu ve dağların kıyıya en paralel uzandığı bölüm aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Batı Karadeniz Bölümü",
+                    "Yıldız Dağları Bölümü",
+                    "Doğu Karadeniz Bölümü",
+                    "Orta Karadeniz Bölümü"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Doğu Karadeniz Bölümü'nde dağlar kıyıya çok yüksek ve dik bir şekilde paralel uzandığı için geçit vermez ve ulaşım zordur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki ovalardan hangisi Marmara Bölgesi'nde yer alan tektonik kökenli ovalardan biri değildir?",
+                  "options": [
+                    "Bursa Ovası",
+                    "Adapazarı Ovası",
+                    "Bafra Ovası",
+                    "Ergene Ovası"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bafra Ovası Karadeniz Bölgesi'nde yer alan bir delta ovasıdır. Diğer şanslardakiler Marmara Bölgesi'ndeki tektonik kökenli ovalardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Doğu Anadolu Bölgesi'nin yüzölçümü ve ortalama yükseltisi diğer bölgelere göre oldukça fazladır. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Karstik şekillerin yaygın olması",
+                    "Bitki örtüsünün bozkır olması",
+                    "Genç kıvrım dağlarının geniş yer kaplaması ve epirojenik yükselme",
+                    "Aktif volkanizmanın günümüzde de devam etmesi"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Doğu Anadolu Bölgesi, Alp-Himalaya kıvrım kuşağında yer aldığından genç ve yüksek dağlarla kaplıdır, ayrıca genel bir toptan yükselmiştir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki illerden hangisi Akdeniz Bölgesi'nin Adana Bölümü sınırları içerisinde yer almaktadır?",
+                  "options": [
+                    "Isparta",
+                    "Burdur",
+                    "Antalya",
+                    "Mersin"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Mersin ve Adana illeri, Akdeniz Bölgesi'nin Adana Bölümü'nde yer alır. Antalya, Burdur ve Isparta ise Teke-Göller Yöresi'ndedir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye'de en fazla sayıda coğrafi bölgeye ve ile sınırı olan ilimiz ____ ilidir.",
+                  "options": [
+                    "Ankara"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ankara, hem İç Anadolu Bölgesi'nde yer alır hem de çok sayıda komşu ile ve bölgeye (Batı Karadeniz gibi) yakın konumuyla dikkat çeker.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ege Bölgesi'nde dağların denize dik uzanması sonucunda kıyıda çıkıntılı ve girintili yapı oluşmuş, bu da çok sayıda körfez, koy ve ____ oluşmasını sağlamıştır.",
+                  "options": [
+                    "yarımada"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dağların kıyıya dik uzandığı Ege'de boyuna kıyı tipi yerine enine kıyı tipi görülür, bu da çok sayıda yarımada ve körfez meydana getirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Karadeniz Bölgesi'nde toptan yükselme (epirojenez) ve akarsu aşındırması sonucunda yüksekte kalan düzlüklere ____ adı verilir.",
+                  "options": [
+                    "yayla"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Karadeniz başta olmak üzere Karadeniz'in yüksek düzlükleri yaylacılık faaliyetlerinin yoğun olarak yapıldığı alanlardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Güneydoğu Anadolu Bölgesi'nin engebeli olmayan, düzlüklerden oluşan ve tarım potansiyeli yüksek olan bölümü ____ Bölümü'dür.",
+                  "options": [
+                    "Orta Fırat"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Fırat Bölümü, Gaziantep ve Şanlıurfa çevresini kapsayan, Güneydoğu Anadolu'nun daha düz ve gelişmiş bölümüdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Marmara Bölgesi'nde yer alan ve ortalama yükseltisi en az olan, en düzlük bölüm ____ Bölümü'dür.",
+                  "options": [
+                    "Ergene"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ergene Bölümü, dağlık alanların az olduğu, tarım ve düzlüklerin geniş yer kapladığı Trakya kesimidir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "İç Anadolu Bölgesi, Türkiye'de en az yağış alan bölgedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç Anadolu Bölgesi en az yağış alan bölge değildir; Türkiye'nin en az yağış alan yeri Tuz Gölü ve çevresi ile Güneydoğu Anadolu'nun güney kesimleridir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Doğu Anadolu Bölgesi, ortalama yükseltinin en fazla olduğu coğrafi bölgemizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğu Anadolu Bölgesi ortalama 2000 metreyi aşan yükseltisi ile Türkiye'nin en yüksek bölgesidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Karadeniz ikliminin karakteristik bitki örtüsü her mevsim yağış alan gür ormanlardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Bölgesi her mevsim yağış alabildiği için nemcil (higrofit) orman örtüsüne sahiptir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ege Bölgesi'nde dağların kıyıya dik uzanması, iç kesimlerle ulaşımın zor ve maliyetli olmasına neden olur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dağların kıyıya dik uzandığı Ege Bölgesi'nde iç kesimlere ulaşım oldukça kolaydır ve maliyeti düşüktür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Marmara Bölgesi, hem Asya hem de Avrupa kıtalarında toprak bulunduran tek bölgemizdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Marmara Bölgesi sınırları içerisinde hem Trakya (Avrupa) hem de Anadolu (Asya) toprakları yer alır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Ülkeler Arası Etkileşim",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Türkiye'nin Orta Asya Türk cumhuriyetleri ile ilişkilerinde köprü görevi gören uluslararası örgüt hangisidir?",
+                  "answer": "TÜRKSOY"
+                },
+                {
+                  "question": "Türkiye'nin kurucu üyeleri arasında yer aldığı ve Avrupa'da ekonomik iş birliğini amaçlayan ilk kuruluşlardan biri hangisidir?",
+                  "answer": "OECD"
+                },
+                {
+                  "question": "Türkiye'nin üyesi olduğu, gelişmekte olan sekiz ülkeyi bir araya getiren ekonomik grup hangisidir?",
+                  "answer": "D-8"
+                },
+                {
+                  "question": "Türkiye ile Avrupa Birliği arasında ticaretin kolaylaştırılması amacıyla yürürlüğe giren anlaşma nedir?",
+                  "answer": "Gümrük Birliği Anlaşması"
+                },
+                {
+                  "question": "Türkiye'nin komşularıyla iş birliğini geliştirmek için kurduğu yüksek düzeyli stratejik iş birliği mekanizmalarının temel amacı nedir?",
+                  "answer": "Bölgesel barış ve ekonomik entegrasyon"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Türkiye'nin jeopolitik konumu göz önüne alındığında, aşağıdakilerden hangisi Türkiye'nin Asya ile Avrupa arasında bir enerji koridoru olmasında doğrudan rol oynamaz?",
+                  "options": [
+                    "Orta Doğu petrol rezervleri ile Avrupa pazarları arasında köprü konumunda olması",
+                    "Hazar havzası petrol ve gaz kaynaklarına yakın olması",
+                    "Afrika kıtasındaki en büyük ticaret ortağı konumunda bulunması",
+                    "Boğazlar gibi kritik deniz geçitlerine sahip olması"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye'nin enerji koridoru olması Asya, Orta Doğu ve Hazar havzasıyla olan coğrafi bağlantılarıyla ilgilidir. Afrika kıtasındaki ticaret payı enerji koridoru rolünü doğrudan açıklamaz.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin kurucusu olduğu ve Karadeniz havzasında bölgesel barış ve ekonomik iş birliğini hedefleyen uluslararası teşkilat aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Karadeniz Ekonomik İş Birliği Teşkilatı (KEİ)",
+                    "Ekonomik İşbirliği Teşkilatı (EİT)",
+                    "Bağımsız Devletler Topluluğu",
+                    "Kuzey Atlantik Antlaşması Örgütü (NATO)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Karadeniz Ekonomik İş Birliği Teşkilatı (KEİ), Türkiye'nin öncülüğünde 1992 yılında kurulmuş bölgesel bir organizasyondur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki uluslararası örgütlerden hangisinde Türkiye kurucu üye veya ilk üyeler arasında yer almaz?",
+                  "options": [
+                    "Birleşmiş Milletler (BM)",
+                    "Ekonomik Kalkınma ve İşbirliği Örgütü (OECD)",
+                    "Avrupa Birliği (AB)",
+                    "İslam İşbirliği Teşkilatı (İİT)"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Türkiye Birleşmiş Milletler, OECD ve İslam İşbirliği Teşkilatı'nın kurucu veya erken dönem üyelerindendir ancak Avrupa Birliği'nin kurucu üyesi değildir, tam üyeliği bulunmamaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin dış ticaretinde en büyük paya sahip olan ekonomik ve siyasi bölge aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Avrupa Birliği ülkeleri",
+                    "Güney Amerika ülkeleri",
+                    "Uzak Doğu Asya ülkeleri",
+                    "Orta Amerika ülkeleri"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye ihracat ve ithalatında en yüksek hacmi geleneksel olarak Avrupa Birliği ülkeleriyle gerçekleştirmektedir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Türkiye'nin Orta Asya ile bağlarını güçlendiren, ortak kültür ve dil unsurlarını ön plana çıkaran teşkilat hangisidir?",
+                  "options": [
+                    "G20",
+                    "NAFTA",
+                    "Avrupa Konseyi",
+                    "Türk Devletleri Teşkilatı"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Türk Devletleri Teşkilatı, Türk dili konuşan ülkeler arasında iş birliğini derinleştirmeyi amaçlayan uluslararası bir teşkilattır.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Türkiye, Kafkasya ve Orta Asya ülkeleriyle ulaştırma alanındaki iş birliğini geliştirmek için ____ projesinde aktif rol oynamaktadır.",
+                  "options": [
+                    "Orta Koridor"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orta Koridor, Hazar Geçişli Doğu-Batı Orta Koridor Uluslararası Taşımacılık Rotası olarak bilinir ve Türkiye'yi Asya'ya bağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye, Avrupa ile olan ekonomik entegrasyonunu artırmak amacıyla 1996 yılında ____ Anlaşması'nı yürürlüğe koymuştur.",
+                  "options": [
+                    "Gümrük Birliği"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "1996 yılında yürürlüğe giren Gümrük Birliği Anlaşması ile Türkiye ve AB arasında sanayi ürünlerinde ticaret kısıtlamaları büyük ölçüde kaldırılmıştır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye, İran ve Pakistan'ın kurucu üyesi olduğu, ekonomik bağları güçlendirmeyi amaçlayan bölgesel örgüt ____ olarak adlandırılır.",
+                  "options": [
+                    "Ekonomik İşbirliği Teşkilatı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ekonomik İşbirliği Teşkilatı (EİT), Türkiye, İran ve Pakistan tarafından bölgesel kalkınma amacıyla kurulmuştur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'nin dış politikasında komşularla ilişkileri geliştirmeyi ve sorunları sıfırlamayı hedefleyen yaklaşım literatürde ____ politikası olarak anılmıştır.",
+                  "options": [
+                    "komşularla sıfır sorun"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu kavram, Türkiye'nin komşu devletlerle diplomatik ve ekonomik ilişkilerini en üst düzeye çıkarma çabalarını ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Türkiye'nin güney sınırındaki komşularıyla olan tarihi ve kültürel bağları, ____ diplomasisinin etkinliğini artırmaktadır.",
+                  "options": [
+                    "kültürel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ortak tarih, din ve kültürel değerler Türkiye'nin bölgedeki yumuşak güç unsurlarını ve kültürel diplomasisini güçlendirir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Türkiye, Asya ile Avrupa arasında yer alan konumu sayesinde önemli bir jeopolitik ve jeostratejik avantaja sahiptir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Türkiye iki kıta arasında doğal bir köprü konumundadır ve bu durum jeopolitik önemini artırır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye, Avrupa Birliği'nin kurucu üyeleri arasında yer almaktadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye AB'nin kurucu üyesi değildir, aday ülke statüsündedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bakü-Tiflis-Ceyhan Petrol Boru Hattı, Türkiye'nin uluslararası enerji koridoru olmasını destekleyen projelerden biridir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bu hat sayesinde Hazar bölgesindeki petrol güvenli bir şekilde Akdeniz'e ve dünya piyasalarına taşınmaktadır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türkiye'nin dış ticaretinde Asya kıtasının payı son yıllarda azalmış, Afrika'nın payı tamamen sıfırlanmıştır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Türkiye'nin Afrika ile ticari ilişkileri son yıllarda artış göstermiştir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Türk Devletleri Teşkilatı, üye ülkeler arasındaki ekonomik, kültürel ve siyasi iş birliğini artırmayı amaçlar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örgüt, Türk dili konuşan ülkeler arasında çok yönlü entegrasyonu sağlamayı hedefler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
