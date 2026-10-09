@@ -4014,7 +4014,180 @@
           "id": "node5",
           "order": 5,
           "title": "Genleşme",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Katı maddelerde genleşme katsayısı hangi niceliğe bağlıdır?",
+                  "answer": "Maddenin cinsine bağlı ayırt edici bir özelliktir."
+                },
+                {
+                  "question": "Boyca genleşme miktarı nelere bağlıdır?",
+                  "answer": "İlk boya, sıcaklık değişimine ve maddenin cinsine bağlıdır."
+                },
+                {
+                  "question": "Genleşen bir katı cismin sıcaklığı artarsa özkütlesi nasıl değişir?",
+                  "answer": "Hacmi arttığı için özkütlesi azalır."
+                },
+                {
+                  "question": "Sıcaklığı artırılan içi dolu düzgün bir levhanın üzerindeki delik nasıl genleşir?",
+                  "answer": "Delik, levhanın kendisi gibi büyür; sanki maddeden yapılmış gibi dışa doğru genişler."
+                },
+                {
+                  "question": "Su +4 dereceden 0 dereceye soğutulduğunda hacmi nasıl değişir?",
+                  "answer": "Su bu sıcaklık aralığında donma eğilimiyle genleşir, yani hacmi artar."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Boyları sırasıyla L ve 2L olan aynı taştan yapılmış iki metal çubuğun sıcaklıkları eşit miktarda artırıldığında boyca uzama miktarları sırasıyla Delta L1 ve Delta L2 olmaktadır. Buna göre Delta L1 / Delta L2 oranı kaçtır?",
+                  "options": [
+                    "1",
+                    "2",
+                    "0.5",
+                    "0.25"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Boyca uzama formülü Delta L = L0 * genleşme katsayısı * Delta T kadardır. Aynı maddeden yapıldıkları için genleşme katsayıları ve sıcaklık değişimleri aynıdır. İlk boyu L olanın uzaması Delta L1 = L * c * T iken ilk boyu 2L olanınki Delta L2 = 2L * c * T olur. Oranlandığında sonuç 1/2 yani 0.5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Yarıçapı r olan içi dolu küresel bir demir bilye ısıtıldığında hacmi V, özkütlesi d olmaktadır. Bilye sadece ısıtıldığına göre V ve d niceliklerinin ilk duruma göre değişimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "V artar, d azalır",
+                    "V artar, d artar",
+                    "V değişmez, d azalır",
+                    "V azalır, d artar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Isıtılan cisimler genleşir ve hacimleri artar. Özkütle d = m / V bağıntısı ile bulunur. Kütle sabit kalırken hacim arttığı için özkütle değeri azalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Tren rayları döşenirken raylar arasında belirli aralıkta boşluklar bırakılır. Bu uygulamanın temel sebebi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "Rayların maliyetini azaltmak",
+                    "Trenlerin raylar üzerinde daha hızlı hareket etmesini sağlamak",
+                    "Rayların paslanmasını engellemek",
+                    "Yaz aylarında sıcaklık etkisiyle rayların genleşip bükülmesini önlemek"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tren rayları metalden yapılmıştır. Yaz aylarında havanın sıcaklığıyla raylar genleşir. Aralarda boşluk bırakılmazsa raylar birbirini iter ve bükülerek kazalara yol açabilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "K, L, M metal çubuklarının boyları sırasıyla 2L, L, L; genleşme katsayıları ise 2c, c, 2c kadardır. Bu çubukların sıcaklıkları eşit miktarda artırıldığında boylarındaki uzama miktarları sırasıyla Delta L_K, Delta L_L, Delta L_M olmaktadır. Buna göre bu uzama miktarları arasındaki ilişki nedir?",
+                  "options": [
+                    "Delta L_K = Delta L_M > Delta L_L",
+                    "Delta L_L > Delta L_K > Delta L_M",
+                    "Delta L_K > Delta L_M > Delta L_L",
+                    "Delta L_M > Delta L_K > Delta L_L"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Uzama formülü Delta L = L0 * c * Delta T dir. K için: 2L * 2c * Delta T = 4 birim. L için: L * c * Delta T = 1 birim. M için: L * 2c * Delta T = 2 birim. Bu durumda Delta L_K büyüktür Delta L_M büyüktür Delta L_L ilişkisi elde edilir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Katı maddelerde sıcaklık artışına bağlı olarak meydana gelen boyca uzama miktarı, ilk boy ile doğru ve maddenin ____ cinsi ile ilişkilidir.",
+                  "options": [
+                    "cinsine"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Boyca uzama formülüne göre uzama miktarı ilk boy, sıcaklık değişimi ve maddenin cinsi olan genleşme katsayısına bağlıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sıcaklığı artırılan homojen ve katı bir levhanın alanı, ilk alanına göre ____.",
+                  "options": [
+                    "artar"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Katı maddeler sıcaklıkları arttığında tüm boyutlarında yani boyca, yüzeyce ve hacimce büyürler.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki farklı metalin perçinlenmesiyle oluşan ve sıcaklık değişimiyle bükülen sistemlere ____ şerit adı verilir.",
+                  "options": [
+                    "bimetal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Farklı genleşme katsayısına sahip iki metal şeridin perçinlenmesiyle bimetal şeritler elde edilir ve termostatlarda kullanılır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Katı maddelerin genleşme katsayısı maddenin miktarına bağlı olarak değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Genleşme katsayısı ayırt edici bir özelliktir ve maddenin miktarına ya da boyutuna bağlı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sıcaklığı artırılan bir metal çubuğun kütlesi artarken hacmi de artar.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Isıtılan metal çubuğun hacmi artar ancak madde miktarı değişmediği için kütlesi sabit kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bimetal şeritler, genleşme katsayıları farklı iki metalin birleştirilmesiyle yapılır ve termostatlarda kullanılır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bimetal şeritler sıcaklık değişiminde farklı miktarlarda genleşerek bükülür ve devreleri açıp kapayan termostat yapımında kullanılır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Gazların genleşme katsayıları birbirinden farklı olduğu için gazlar için genleşme ayırt edici bir özelliktir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tüm gazlar için genleşme katsayıları aynıdır, bu nedenle gazlarda genleşme ayırt edici özellik değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ortasında dairesel boşluk bulunan metal levha ısıtıldığında, ortadaki deliğin yarıçapı büyür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genleşme olayında cisimlerin üzerindeki boşluklar da cismin genleşme katsayısına ve sıcaklık değişimine uygun olarak büyür.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
