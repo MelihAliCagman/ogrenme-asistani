@@ -5537,7 +5537,210 @@
           "id": "node3",
           "order": 3,
           "title": "Hayatımızda Asitler ve Bazlar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Asitlerin sulu çözeltileri elektrik akımını iletir mi?",
+                  "answer": "Evet, asitlerin sulu çözeltileri içerdikleri serbest iyonlar sayesinde elektrik akımını iletir."
+                },
+                {
+                  "question": "Bazların tatları genellikle nasıldır?",
+                  "answer": "Bazların tatları acıdır."
+                },
+                {
+                  "question": "Mavi turnusol kağıdını kırmızıya çeviren madde asit mi yoksa baz mıdır?",
+                  "answer": "Asittir."
+                },
+                {
+                  "question": "pH ölçeğinde nötr maddelerin pH değeri kaçtır?",
+                  "answer": "Nötr maddelerin 25 derecedeki pH değeri 7'dir."
+                },
+                {
+                  "question": "Temizlik malzemesi olarak kullanılan sabun ve çamaşır suyu asit mi yoksa baz karakterlidir?",
+                  "answer": "Baz karakterlidir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki maddelerden hangisinin sulu çözeltisi mavi turnusol kağıdını kırmızıya çevirir?",
+                  "options": [
+                    "Sabunlu su",
+                    "Amonyak çözeltisi",
+                    "Limon suyu",
+                    "Diş macunu"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Limon suyu yapısında sitrik asit barındırdığı için asidik özellik gösterir ve mavi turnusol kağıdını kırmızıya çevirir. Diğer seçenekler baziktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Günlük hayatta karşılaştığımız maddelerden hangisinin pH değeri 7'den büyüktür?",
+                  "options": [
+                    "Çeşme suyu",
+                    "Elma suyu",
+                    "Sirke",
+                    "Çamaşır suyu"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Çamaşır suyu kuvvetli bazik özellik gösterdiği için pH değeri 7'den büyüktür. Elma suyu, çeşme suyu (hafif asidik veya nötr) ve sirke asidiktir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Asitler ve bazlar ile ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+                  "options": [
+                    "Bazların sulu çözeltileri ele kayganlık hissi verir.",
+                    "Asitlerin tatları acıdır, bazların tatları ise ekşidir.",
+                    "Asitler mermer yüzeylerde aşınmaya neden olabilir.",
+                    "Asit ve baz çözeltileri elektrik akımını iletir."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Asitlerin tatları ekşi, bazların tatları ise acıdır. Bu nedenle C seçeneğindeki ifade yanlıştır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki metallerden hangisi saf bir asit çözeltisi ile tepkimeye girerek hidrojen gazı açığa çıkarır?",
+                  "options": [
+                    "Platin",
+                    "Çinko",
+                    "Altın",
+                    "Gümüş"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Çinko aktif bir metaldir ve asitlerle tepkimeye girerek hidrojen gazı açığa çıkarır. Altın ve platin soy metal, gümüş ise yarı soy metaldir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki maddelerden hangisi asit yağmurlarının oluşumuna doğrudan katkı sağlayan gazlar arasında yer almaz?",
+                  "options": [
+                    "Kükürt trioksit (SO3)",
+                    "Azot dioksit (NO2)",
+                    "Oksijen (O2)",
+                    "Kükürt dioksit (SO2)"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Oksijen gazı havada doğal olarak bulunur ve tek başına asit yağmuru oluşturmaz. SO2, NO2 ve SO3 gibi gazlar su buharı ile birleşerek asit yağmurlarını oluşturur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "pH değerleri 0 ile 7 arasında olan maddeler ____ özellik gösterir.",
+                  "options": [
+                    "asidik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "pH ölçeğinde 0 ile 7 arası asidik, 7 nötr, 7 ile 14 arası ise bazik bölgeyi ifade eder.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Kırmızı turnusol kağıdını maviye çeviren maddeler ____ özelliktedir.",
+                  "options": [
+                    "bazik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bazlar kırmızı turnusol kağıdının rengini maviye dönüştürür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Asitlerin ve bazların sulu çözeltileri iyon içerdiği için elektrik akımını ____.",
+                  "options": [
+                    "iletir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit ve bazlar suda çözündüklerinde iyonlarına ayrışarak elektrik akımının iletilmesini sağlar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Metallerle tepkimeye girerek aşınmaya neden olan ve yapısında H+ iyonu bulunduran maddelere ____ denir.",
+                  "options": [
+                    "asit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asitler sulu çözeltilerine hidrojen iyonu (H+) verir ve metallerle tepkimeye girebilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Mide yanmasını önlemek için kullanılan antiasit ilaçlar ____ karakterlidir.",
+                  "options": [
+                    "bazik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Antiasitler, mide asidini nötrleştirmek için zayıf bazik özellik gösteren maddelerdir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Saf suyun pH değeri 25 derecede 7'dir ve nötr özellik gösterir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Saf su 25 derece sıcaklıkta nötrdür ve pH değeri tam olarak 7'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Sirke ve portakal suyu bazik maddelere örnek olarak gösterilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sirke ve portakal suyu asidik maddelerdir, bazik değillerdir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kuvvetli bazlar cilt üzerinde tahriş edici ve yakıcı etkiye sahip olabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kuvvetli bazlar da en az asitler kadar cilde ve dokulara zarar verebilir, tahriş edicidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Asitler ve bazlar birbirleriyle tepkimeye girerek tuz ve su oluşturabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Asit-baz tepkimeleri sonucunda genellikle tuz ve su oluşur, bu olaya nötralleşme denir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Metallerle çalışırken asit içeren maddelerin cam kaplar yerine plastik kaplarda saklanması zorunludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Asitler cam kaplarda saklanabilir; ancak camı aşındıran tek madde hidroflorik asit (HF) olup bu asit plastik kaplarda saklanır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node4",

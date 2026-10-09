@@ -738,7 +738,200 @@
           "id": "node5",
           "order": 5,
           "title": "Rasyonel Sayılar",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir rasyonel sayıda payda hangi sayı olamaz?",
+                  "answer": "Sıfır"
+                },
+                {
+                  "question": "Hangi tür ondalık sayılar rasyonel sayı olarak ifade edilebilir?",
+                  "answer": "Devirli ve sonlu ondalık sayılar"
+                },
+                {
+                  "question": "Payı paydasından küçük olan kesirlere ne ad verilir?",
+                  "answer": "Basit kesir"
+                },
+                {
+                  "question": "İki rasyonel sayının toplamının rasyonel sayı olmasını garanti eden özellik nedir?",
+                  "answer": "Kapalılık özelliği"
+                },
+                {
+                  "question": "Bir rasyonel sayının toplama işlemine göre tersi nasıl bulunur?",
+                  "answer": "İşareti değiştirilerek"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "3 / 4 kesrinin 1 / 2 ile toplamı kaçtır?",
+                  "options": [
+                    "1 / 4",
+                    "2 / 3",
+                    "3 / 8",
+                    "5 / 4"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Paydalar eşitlenir. 1 / 2 kesri 2 ile genişletilirse 2 / 4 olur. 3 / 4 ile 2 / 4 toplanırsa sonuç 5 / 4 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdakilerden hangisi bir basit kesirdir?",
+                  "options": [
+                    "3 / 5",
+                    "9 / 2",
+                    "5 / 4",
+                    "7 / 7"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Payı paydasından küçük olan kesirlere basit kesir denir. 3 / 5 kesrinde pay paydadan küçüktür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "0,4 ondalık gösteriminin rasyonel sayı olarak en sade hali aşağıdakilerden hangisidir?",
+                  "options": [
+                    "2 / 5",
+                    "2 / 3",
+                    "1 / 5",
+                    "4 / 5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "0,4 sayısı 4 / 10 şeklinde yazılır. Bu kesir 2 ile sadeleştirildiğinde 2 / 5 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2 tam 1 / 3 bileşik kesir olarak yazıldığında payı kaç olur?",
+                  "options": [
+                    "5",
+                    "7",
+                    "8",
+                    "6"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tam kısım payda ile çarpılır ve pay ile toplanır. (2 çarpı 3) + 1 = 7 olur. Payda değişmez, kesir 7 / 3'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "(-3 / 5) sayısının çarpmaya göre tersi kaçtır?",
+                  "options": [
+                    "-3 / 5",
+                    "-5 / 3",
+                    "5 / 3",
+                    "3 / 5"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir sayının çarpmaya göre tersi bulunurken pay ve payda yer değiştirir, işaret aynen kalır. Dolayısıyla -3 / 5 sayısının tersi -5 / 3'tür.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Payı paydasına eşit veya payı paydasından büyük olan kesirlere ____ kesir denir.",
+                  "options": [
+                    "bileşik"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Payı paydasına büyük veya eşit olan kesirler bileşik kesir olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir rasyonel sayının paydasının ____ olamayacağı unutulmamalıdır.",
+                  "options": [
+                    "sıfır"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matematikte paydanın sıfır olması ifadeyi tanımsız yapar.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Her tam sayı aynı zamanda paydası ____ olan bir rasyonel sayıdır.",
+                  "options": [
+                    "bir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Örneğin 5 tam sayısı 5 / 1 şeklinde yazılabilir, bu da onun rasyonel olduğunu gösterir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ondalık sayılarda devreden kısmın üzeri ____ işareti ile gösterilir.",
+                  "options": [
+                    "çizgi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Devirli ondalık sayılarda tekrar eden rakamların üzerine yatay bir çizgi çekilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İki rasyonel sayının çarpma işlemine göre etkisiz elemanı ____ sayıdır.",
+                  "options": [
+                    "bir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hangi rasyonel sayı ile 1 çarpılırsa çarpılsın sonuç sayının kendisi olur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her rasyonel sayı aynı zamanda bir irrasyonel sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Rasyonel ve irrasyonel sayılar ayrık kümelerdir, bir sayı aynı anda ikisi olamaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "0 sayısı bir rasyonel sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "0 sayısı 0 / 1 şeklinde yazılabildiği için rasyonel sayı tanımına uyar.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Negatif bir rasyonel sayının karesi daima pozitiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Negatif bir sayının çift kuvvetleri (karesi gibi) her zaman pozitif sonuç verir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "1 / 3 kesri sonlu bir ondalık gösterimle ifade edilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "1 / 3 kesri devirli ondalık sayıdır, sonlu ondalık olarak yazılamaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node6",

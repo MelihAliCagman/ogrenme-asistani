@@ -826,7 +826,210 @@
           "id": "node3",
           "order": 3,
           "title": "Eşitsizlikler ve Mutlak Değer",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "x^2 - 4 < 0 eşitsizliğinin çözüm kümesi nedir?",
+                  "answer": "(-2, 2)"
+                },
+                {
+                  "question": "|x| < 3 eşitsizliğinin çözüm aralığı nedir?",
+                  "answer": "(-3, 3)"
+                },
+                {
+                  "question": "İşaret tablosu yapılırken kökler tabloya nasıl yerleştirilir?",
+                  "answer": "Küçükten büyüğe sıralanarak yerleştirilir"
+                },
+                {
+                  "question": "|x - 2| = 5 denkleminin kökler toplamı kaçtır?",
+                  "answer": "4"
+                },
+                {
+                  "question": "P(x) = 0 denkleminin kökleri, aynı zamanda P(x) polinomunun grafiğinin hangi ekseni kestiği noktaların apsisleridir?",
+                  "answer": "x ekseni"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "(x - 3)(x + 2) <= 0 eşitsizliğini sağlayan x tam sayı değerlerinin toplamı kaçtır?",
+                  "options": [
+                    "3",
+                    "12",
+                    "9",
+                    "6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kökler x = 3 ve x = -2'dir. İşaret tablosu incelendiğinde çözüm aralığı [-2, 3] bulunur. Bu aralıktaki tam sayılar -2, -1, 0, 1, 2, 3 olup toplamları 3 eder.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "|2x - 4| = 6 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+                  "options": [
+                    "-3",
+                    "-5",
+                    "10",
+                    "5"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Mutlak değer dışarı 6 veya -6 olarak çıkar. 2x - 4 = 6 ise x = 5; 2x - 4 = -6 ise x = -1 olur. Kökler çarpımı 5 * (-1) = -5 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x^2 - 5x + 6 > 0 eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(-dir, 2) U (3, +dir)",
+                    "(-dir, -3) U (2, +dir)",
+                    "(2, 3)",
+                    "[-2, -3]"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İfade (x - 2)(x - 3) > 0 şeklinde çarpanlara ayrılır. Kökler 2 ve 3'tür. Başkatsayı pozitif olduğundan işaret +, -, + şeklindedir. Pozitif olan bölgeler (-sonsuz, 2) ve (3, +sonsuz) aralığıdır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "|x + 1| <= 4 eşitsizliğini sağlayan kaç tane x tam sayı değeri vardır?",
+                  "options": [
+                    "8",
+                    "10",
+                    "9",
+                    "7"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Eşitsizlik -4 <= x + 1 <= 4 şeklinde yazılır. Her taraftan 1 çıkarılırsa -5 <= x <= 3 elde edilir. Bu aralıkta -5, -4, -3, -2, -1, 0, 1, 2, 3 olmak üzere toplam 9 tane tam sayı vardır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x / (x - 2) >= 0 eşitsizliğinin çözüm kümesinde aşağıdakilerden hangisi bulunmaz?",
+                  "options": [
+                    "-1",
+                    "4",
+                    "3",
+                    "0"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Payın kökü x = 0 (dahil), paydanın kökü x = 2 (dahil değil) dir. Eşitsizlikte x = 0 yerine yazıldığında ifade 0/(-2) = 0 olur ve 0 >= 0 koşulunu sağlar, yani 0 çözüm kümesindedir. Ancak seçeneklerdeki durumlar ve payda tanımsızlığı incelendiğinde x = 2 tanımsız yapar. Doğru analizle 0 dahildir, seçeneklerde soru kurgusuna göre payda 2 olduğundan 2 tanımsızdır. Soru köküne uygun olarak 0 payı sıfırlar ve dahildir, -1, 3, 4 normal bölgelerdedir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Mutlak değerin sonucu asla ____ olamaz.",
+                  "options": [
+                    "negatif"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değer bir uzunluk belirttiği için her zaman 0'a eşit ya da büyük olmalıdır, asla negatif bir değer alamaz.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İkinci dereceden bir eşitsizlik tablosu yapılırken en sağdaki aralığın işareti, x^2 teriminin ____ işaretidir.",
+                  "options": [
+                    "katsayısının"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tabloda en sağdaki işaret, başkatsayının işareti ile aynı başlar ve kök geçildikçe işaret değiştirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "|x| = a denkleminde a sayısı negatif ise çözüm kümesi ____ kümedir.",
+                  "options": [
+                    "boş"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değer negatif bir sayıya eşit olamayacağı için a < 0 iken denklem çözümsüzdür.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir eşitsizlikte her iki taraf aynı negatif sayı ile çarpılırsa eşitsizlik yön ____.",
+                  "options": [
+                    "değiştirir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Negatif sayılarla eşitsizlik çarpıldığında ya da bölündüğünde eşitsizlik yön değiştirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Çift katlı köklerde işaret ____.",
+                  "options": [
+                    "değişmez"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çift katlı köklerde (üslü ifadelerin çift kuvvetleri gibi) işaret artıdan artıya veya eksiden eksiye şeklinde aynı kalır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "|x - y| ifadesi her zaman |y - x| ifadesine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değer içerisindeki sayıların işaretleri değişse bile mutlak değerleri aynı kalır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x^2 < 0 eşitsizliğinin gerçek sayılardaki çözüm kümesi tüm reel sayılardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bir gerçek sayının karesi negatif olamaz, bu nedenle eşitsizliğin çözüm kümesi boş kümedir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "|x| > a eşitsizliğinde a > 0 iken çözüm x > a veya x < -a şeklindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Mutlak değerin büyük olduğu durumlarda eşitsizlik iki farklı aralığa ayrılarak çözülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Köklü ifadelerin çözümünde iç içe mutlak değerlerin sonucu her zaman pozitif bir tam sayıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sonuç 0 olabilir veya cebirsel bir ifade barındırabilir, her zaman pozitif tam sayı olmak zorunda değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x.y > 0 ve x < 0 ise y sayısı mutlaka negatiftir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki sayının çarpımı pozitif ise aynı işaretlidirler. x negatif olduğundan y de negatif olmalıdır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1369,7 +1572,7 @@
                     "Yanlış"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Birim çember üzerinde 0 derecelik açının kosinüsü (x koordinati) 1'dir.",
+                  "explanation": "Birim çember üzerinde 0 derecelik açının kosinüsü (x koordinatı) 1'dir.",
                   "type": "trueFalse"
                 },
                 {
@@ -2013,19 +2216,595 @@
           "id": "node1",
           "order": 1,
           "title": "Üstel Fonksiyon",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "f(x) = a^x şeklinde tanımlanan ve a > 0, a != 1, x eleman R olan fonksiyonlara ne ad verilir?",
+                  "answer": "Üstel fonksiyon"
+                },
+                {
+                  "question": "f(x) = 3^x üstel fonksiyonu için f(2) değeri kaçtır?",
+                  "answer": "9"
+                },
+                {
+                  "question": "Üstel fonksiyonlarda taban olan a sayısı hangi aralıkta olmalıdır?",
+                  "answer": "(0, 1) birleşim (1, sonsuz)"
+                },
+                {
+                  "question": "f(x) = (0.5)^x fonksiyonu artan mıdır yoksa azalan mıdır?",
+                  "answer": "Azalandır"
+                },
+                {
+                  "question": "f(x) = 5^x fonksiyonunun tanım kümesi nedir?",
+                  "answer": "Reel sayılar kümesi"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdakilerden hangisi bir üstel fonksiyondur?",
+                  "options": [
+                    "f(x) = x^x",
+                    "f(x) = 2^x",
+                    "f(x) = x^2",
+                    "f(x) = (-2)^x"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üstel fonksiyonlar f(x) = a^x biçimindedir, burada taban sabit bir pozitif reel sayı (1 haricinde) ve üs değişkendir. Bu tanıma uyan tek seçenek f(x) = 2^x fonksiyonudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = (a - 2)^x fonksiyonu bir üstel fonksiyon olduğuna göre, a'nın alabileceği en geniş değer aralığı aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(2, sonsuz)",
+                    "(1, sonsuz)",
+                    "(2, 3) birleşim (3, sonsuz)",
+                    "(0, sonsuz)"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Üstel fonksiyon tanımı gereği taban a - 2 > 0 ve a - 2 != 1 olmalıdır. Buradan a > 2 ve a != 3 bulunur. Bunu sağlayan aralık (2, 3) birleşim (3, sonsuz) kümesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = 4^x fonksiyonu için f(3/2) ifadesinin değeri kaçtır?",
+                  "options": [
+                    "6",
+                    "16",
+                    "8",
+                    "4"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "f(3/2) = 4^(3/2) = (sqrt(4))^3 = 2^3 = 8 olarak hesaplanır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = (1/3)^x fonksiyonu için aşağıdakilerden hangisi yanlıştır?",
+                  "options": [
+                    "Değer kümesi pozitif reel sayılardır.",
+                    "Fonksiyon artandır.",
+                    "f(-1) = 3'tür.",
+                    "Tanım kümesi reel sayılardır."
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Taban 0 ile 1 arasında (1/3) olduğu için bu fonksiyon artan değil, azalan bir üstel fonksiyondur. Diğer tüm önermeler doğrudur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2^(x+1) + 2^x = 24 olduğuna göre, x kaçtır?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Denklem 2^x * 2 + 2^x = 24 şeklinde düzenlenirse 3 * 2^x = 24 olur. Buradan 2^x = 8 ve x = 3 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "f(x) = a^x fonksiyonunda taban 1'den büyük olduğunda fonksiyon ____ olur.",
+                  "options": [
+                    "artan"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üstel fonksiyonlarda taban 1'den büyükse x arttıkça y değerleri de artar, bu nedenle fonksiyon artandır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = a^x şeklinde tanımlanan bir üstel fonksiyonun değer kümesi ____ sayılardır.",
+                  "options": [
+                    "pozitif reel"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üstel fonksiyonların sonucu her zaman sıfırdan büyüktür, bu yüzden değer kümesi (0, sonsuz) yani pozitif reel sayılardır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = 5^x fonksiyonunun grafiği y eksenini ____ noktasında keser.",
+                  "options": [
+                    "(0, 1)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Herhangi bir f(x) = a^x fonksiyonunda x yerine 0 yazıldığında f(0) = 5^0 = 1 olur, yani grafik y eksenini (0, 1) noktasında keser.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = a^x fonksiyonunun tersi olan fonksiyona ____ fonksiyon denir.",
+                  "options": [
+                    "logaritma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üstel fonksiyonların birebir ve örten olması nedeniyle tersi vardır ve bu ters fonksiyon logaritma fonksiyonu olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "3^x = 27 denklemini sağlayan x değeri ____'dir.",
+                  "options": [
+                    "3"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "27 sayısı 3'ün küpüne eşit olduğundan, tabanlar aynı iken üsler de eşit olmalıdır, buradan x = 3 bulunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "f(x) = (-3)^x ifadesi bir üstel fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Üstel fonksiyon tanımı gereği taban her zaman pozitif bir reel sayı olmalıdır. Negatif tabanlı ifadeler reel sayılarda her x için tanımlı olamayacağından üstel fonksiyon belirtmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = (0.2)^x fonksiyonu azalan bir fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taban 0 ile 1 arasında yer aldığı (0.2 = 1/5) için x değeri arttıkça fonksiyonun aldığı değerler azalır, dolayısıyla fonksiyon azalandır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm üstel fonksiyonların grafikleri x eksenini en az bir noktada keser.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "f(x) = a^x fonksiyonunun değer kümesi pozitif reel sayılardır ve y = 0 doğrusu yatay asimptottur. Grafik x eksenini asla kesmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = 7^x fonksiyonu birebir bir fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üstel fonksiyonlar tanım kümelerindeki her farklı elemanı değer kümesinde farklı bir elemana eşitledikleri için birebirdirler.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "f(x) = 1^x fonksiyonu özel bir üstel fonksiyondur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tabanın 1 olduğu durumlar üstel fonksiyon tanımına aykırıdır çünkü f(x) = 1 sabit fonksiyonuna dönüşür ve üstel fonksiyon şartlarını sağlamaz.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",
           "order": 2,
           "title": "Logaritma Fonksiyonu",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Logaritma fonksiyonunun tanım kümesindeki taban (a) hangi koşulları sağlamalıdır?",
+                  "answer": "Taban pozitif bir reel sayı olmalı ve 1'e eşit olmamalıdır (a > 0 ve a != 1)."
+                },
+                {
+                  "question": "f(x) = log_a(x) fonksiyonunun tersi hangi fonksiyondur?",
+                  "answer": "Üstel fonksiyon olan g(x) = a^x fonksiyonudur."
+                },
+                {
+                  "question": "log_a(1) ifadesinin değeri her zaman kaçtır?",
+                  "answer": "0 değerine eşittir."
+                },
+                {
+                  "question": "Tabanı yazılmayan logaritma fonksiyonu (log x) hangi tabanda yazılmış kabul edilir?",
+                  "answer": "10 tabanında (adi logaritma) yazılmış kabul edilir."
+                },
+                {
+                  "question": "Doğal logaritmanın tabanı olan e sayısı yaklaşık olarak hangi değere eşittir?",
+                  "answer": "Yaklaşık olarak 2.718 değerine eşittir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = log_(x-2)(9 - x) fonksiyonunun en geniş tanım kümesinde kaç farklı x tam sayısı vardır?",
+                  "options": [
+                    "6",
+                    "7",
+                    "4",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Tanım kümesi için x-2 > 0, x-2 != 1 ve 9-x > 0 olmalıdır. Buradan x > 2, x != 3 ve x < 9 elde edilir. x aralığı (2, 9) olup 3 hariçtir. Bu aralıktaki tam sayılar {3, 4, 5, 6, 7, 8}'dir. 3 çıkarıldığında geriye 4, 5, 6, 7, 8 olmak üzere 5 tane tam sayı kalır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "log_3(x + 1) = 2 denklemini sağlayan x değeri kaçtır?",
+                  "options": [
+                    "7",
+                    "9",
+                    "10",
+                    "8"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Logaritma tanımından x + 1 = 3^2 yazılır. x + 1 = 9 denkleminden x = 8 bulunur. Sağlama yapıldığında 8 + 1 = 9 > 0 olduğu için tanım kümesine uygundur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "log(5) + log(2) işleminin sonucu kaçtır?",
+                  "options": [
+                    "1",
+                    "10",
+                    "2",
+                    "0"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Logaritma tabanları aynı ve 10'dur. Toplama kuralına göre log(5 * 2) = log(10) olur. log_10(10) ise 1'e eşittir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "f(x) = ln(3x - 6) fonksiyonunun en geniş tanım kümesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(2, sonsuz)",
+                    "[2, sonsuz)",
+                    "(-sonsuz, 2)",
+                    "(0, sonsuz)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Doğal logaritmanın içi pozitif olmalıdır, yani 3x - 6 > 0 eşitsizliği çözülmelidir. 3x > 6 ve x > 2 bulunur. Bu da (2, sonsuz) açık aralığına karşılık gelir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "log_a(x^n) ifadesi n sayısı başa çarpım olarak atıldığında ____ şeklinde yazılır.",
+                  "options": [
+                    "n.log_a(x)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Logaritmanın kuvvet özelliği gereği üstteki n katsayı olarak logaritmanın önüne çarpım şeklinde gelebilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Tabanı e olan logaritma fonksiyonuna ____ logaritma denir.",
+                  "options": [
+                    "doğal"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Matematikte e tabanına göre tanımlanan logaritmalara doğal logaritma denir ve ln sembolü ile gösterilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "log_a(x) + log_a(y) toplamı taban değiştirilmeden ____ şeklinde birleştirilebilir.",
+                  "options": [
+                    "log_a(x.y)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Logaritma özelliklerine göre aynı tabanlı logaritma toplamları, içlerin çarpımı şeklinde tek bir logaritma altında yazılabilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "log_a(a) ifadesinin sonucu her zaman ____ eşittir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Taban ile içi aynı olan logaritmik ifadelerin değeri her zaman 1'dir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "log_2(-8) ifadesi reel sayılarda tanımlıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Logaritma fonksiyonunun içindeki sayı (argüman) daima sıfırdan büyük olmalıdır. -8 sayısı negatif olduğu için bu ifade reel sayılarda tanımlı değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log_5(1) = 0 ifadesi doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hangi tabanda olursa olsun 1'in logaritması sıfıra eşittir, çünkü 5^0 = 1'dir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log(x / y) ifadesi log(x) - log(y) ifadesine eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bölüm kuralı gereği, bir logaritmanın içindeki bölüm, aynı tabanlı iki logaritmanın farkı olarak yazılabilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log_2(3 + 4) = log_2(3) + log_2(4) eşitliği her zaman doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Logaritma içinde toplama işlemi ayrı ayrı logaritma toplamına eşit değildir. log_2(3+4) = log_2(7) olur ki bu da sağ taraftaki ifadeye eşit değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "a > 1 olmak üzere f(x) = log_a(x) fonksiyonu artandır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Logaritmik fonksiyonlarda taban 1'den büyükse fonksiyon artandır; 0 ile 1 arasındaysa azalandır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
           "order": 3,
           "title": "Logaritmik Denklem ve Eşitsizlikler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "log2(x) = 3 denkleminin çözüm kümesi nedir?",
+                  "answer": "Ç = {8}"
+                },
+                {
+                  "question": "log(x-1) + log(x+1) ifadesinin tek logaritma olarak yazılışı nedir?",
+                  "answer": "log(x^2 - 1)"
+                },
+                {
+                  "question": "ln(e^5) ifadesinin değeri kaçtır?",
+                  "answer": "5"
+                },
+                {
+                  "question": "log3(x) < 2 eşitsizliğinin tanım kümesi göz önüne alındığında çözüm aralığı nedir?",
+                  "answer": "(0, 9)"
+                },
+                {
+                  "question": "log_a(1) ifadesinin sonucu nedir?",
+                  "answer": "0"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "log2(x - 1) = 3 denklemini sağlayan x değeri kaçtır?",
+                  "options": [
+                    "7",
+                    "9",
+                    "8",
+                    "10"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Denklemin her iki tarafının 2. kuvveti alınırsa x - 1 = 2^3 = 8 elde edilir. Buradan x = 9 bulunur ve logaritmanın tanım kümesini sağlar.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "log3(x) + log3(x - 2) = 1 denkleminin çözüm kümesi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "{-1}",
+                    "{1, 3}",
+                    "{3}",
+                    "{-1, 3}"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Logaritma özelliklerinden log3(x(x - 2)) = 1 yazılır. Buradan x(x - 2) = 3^1 = 3 olur. x^2 - 2x - 3 = 0 denkleminin kökleri x = 3 ve x = -1'dir. x = -1 tanım kümesini (x > 0 ve x > 2) sağlamadığı için çözüm kümesi yalnız {3}'tür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "log(x^2 - 9) = log(4x + 12) denklemini sağlayan gerçek sayıların toplamı kaçtır?",
+                  "options": [
+                    "1",
+                    "4",
+                    "7",
+                    "-3"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tabanlar aynı olduğundan x^2 - 9 = 4x + 12 denklemi kurulur. x^2 - 4x - 21 = 0 denkleminden kökler x = 7 ve x = -3 bulunur. x = -3 için logaritmanın içi negatif olduğundan tanımsızdır, sadece x = 7 alınır ancak soru toplamı sorduğu için köklerin kontrolü yapıldığında x=7 tek köktür ama soru kökü toplamı istediği için sadece geçerli kök alınır; eğer soru kökler toplamı derse x=7'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "2^(log2(x)) = 5 denkleminin kökü kaçtır?",
+                  "options": [
+                    "2",
+                    "10",
+                    "25",
+                    "5"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "a^(log_a(x)) = x kuralına göre 2^(log2(x)) ifadesi doğrudan x'e eşittir. Buradan x = 5 bulunur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "log5(x) = 2 denklemini sağlayan x değeri ____ dir.",
+                  "options": [
+                    "25"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "log5(x) = 2 ise x = 5^2 yani 25 olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "log(x) + log(2) = log(10) denklemini sağlayan x değeri ____ dir.",
+                  "options": [
+                    "5"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "log(2x) = log(10) ise 2x = 10 ve x = 5 bulunur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "log2(x - 1) < 3 eşitsizliğinin en küçük tam sayı çözümü ____ dir.",
+                  "options": [
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x - 1 > 0 ve x - 1 < 8 eşitsizliklerinden 1 < x < 9 elde edilir. Bu aralıktaki en küçük tam sayı 2'dir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "ln(x) = 0 denkleminin çözüm kümesindeki eleman ____ dir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "ln(x) = loge(x) = 0 ise x = e^0 = 1 olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "log3(x + 1) = 2 denkleminde x yerine gelmesi gereken sayı ____ tir.",
+                  "options": [
+                    "8"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x + 1 = 3^2 = 9 ise x = 8 bulunur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "log2(x) = -3 denkleminin çözüm kümesi boş kümedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "x = 2^(-3) = 1/8 pozitif bir gerçek sayıdır ve denklemi sağlar, bu yüzden çözüm kümesi boş değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log(x) < 1 eşitsizliğinin çözüm aralığı (0, 10) aralığıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "log(x) < 1 eşitsizliğinde x > 0 tanım kümesi ile x < 10 eşitsizliği birleştirilirse (0, 10) aralığı elde edilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log3(x^2) = 2log3(x) ifadesi tüm gerçek x sayıları için her zaman doğrudur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu eşitlik sadece x > 0 için doğrudur. x negatif olamaz çünkü logaritmanın tanımı gereği iç kısımlar pozitif olmalıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "log4(x - 2) = log4(3x - 10) denkleminin kökü x = 4 tür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x - 2 = 3x - 10 denkleminden 2x = 8 ve x = 4 bulunur. Bulunan bu değer logaritma tabanlarını tanımsız yapmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "ln(x + 1) = 1 denkleminin çözüm kümesi {e - 1} dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x + 1 = e^1 olduğundan x = e - 1 bulunur. Bu değer tanım kümesini sağlar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2044,7 +2823,201 @@
           "id": "node2",
           "order": 2,
           "title": "Aritmetik Dizi",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Aritmetik dizi nedir?",
+                  "answer": "Ardışık terimleri arasındaki farkın sabit olduğu dizidir."
+                },
+                {
+                  "question": "Aritmetik dizinin ortak farkı nasıl gösterilir?",
+                  "answer": "r harfi ile gösterilir."
+                },
+                {
+                  "question": "Bir aritmetik dizinin genel terim formülü nedir?",
+                  "answer": "an = a1 + (n - 1) * r"
+                },
+                {
+                  "question": "Bir aritmetik dizide herhangi bir terim kendisinden eşit uzaklıktaki terimlerin aritmetik ortalaması mıdır?",
+                  "answer": "Evet, aritmetik ortalamasıdır."
+                },
+                {
+                  "question": "İlk n terim toplamı formülü nedir?",
+                  "answer": "Sn = (n / 2) * (a1 + an)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "İlk terimi 3 ve ortak farkı 4 olan bir aritmetik dizinin genel terimi aşağıdakilerden hangisidir?",
+                  "options": [
+                    "4n - 1",
+                    "3n - 1",
+                    "3n + 4",
+                    "4n + 1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel terim formülü an = a1 + (n - 1) * r dir. Değerler yerine yazıldığında an = 3 + (n - 1) * 4 = 3 + 4n - 4 = 4n - 1 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir aritmetik dizide a3 = 7 ve a7 = 19 olduğuna göre, ortak fark r kaçtır?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "a7 = a3 + (7 - 3) * r bağıntısından 19 = 7 + 4r yazılır. 12 = 4r ve r = 3 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "İlk terimi 2 ve ortak farkı 5 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+                  "options": [
+                    "285",
+                    "245",
+                    "265",
+                    "225"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Önce a10 = a1 + 9r = 2 + 9 * 5 = 47 bulunur. Toplam S10 = (10 / 2) * (2 + 47) = 5 * 49 = 245 olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "x, 10, y sayıları sırasıyla bir aritmetik dizi oluşturduğuna göre, x + y toplamı kaçtır?",
+                  "options": [
+                    "10",
+                    "20",
+                    "15",
+                    "25"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aritmetik dizide ortanca terim, uçtaki terimlerin aritmetik ortalamasıdır. Buna göre (x + y) / 2 = 10 olduğundan x + y = 20 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Genel terimi an = 5n + 2 olan bir aritmetik dizinin ortak farkı kaçtır?",
+                  "options": [
+                    "5",
+                    "3",
+                    "7",
+                    "2"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aritmetik dizilerde n in katsayısı ortak farkı verir. an = 5n + 2 ifadesinde n in katsayısı 5 olduğundan ortak fark 5 tir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir aritmetik dizide ardışık iki terim arasındaki fark sabit bir sayıya eşittir ve bu sayıya ____ denir.",
+                  "options": [
+                    "ortak fark"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aritmetik dizilerde ardışık terimler arasındaki sabit farka ortak fark denir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "İlk terimi a1 olan bir aritmetik dizinin genel terim formülündeki (n - 1) ifadesi ile ____ çarpılır.",
+                  "options": [
+                    "ortak fark"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Genel terim an = a1 + (n - 1) * r şeklinde yazıldığı için (n - 1) ifadesi ortak fark olan r ile çarpılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Sonlu bir aritmetik dizide baştan ve sondan eşit uzaklıktaki terimlerin toplamı, baştan birinci ve ____ terimin toplamına eşittir.",
+                  "options": [
+                    "sondan birinci"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aritmetik dizilerde eşit uzaklıktaki terimlerin toplamı baştan ve sondan uç terimlerin toplamına eşittir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Terimleri birbirinden farklı olmayan, yani bütün terimleri aynı olan aritmetik dizilere ____ aritmetik dizi denir.",
+                  "options": [
+                    "sabit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ortak farkı sıfır olan aritmetik dizilerin tüm terimleri birbirine eşit olur ve bunlara sabit dizi denir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir aritmetik dizinin ortak farkı negatif olamaz.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Aritmetik dizilerin ortak farkı pozitif, negatif veya sıfır olabilir; azalan aritmetik dizilerde ortak fark negatiftir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm terimleri birbirine eşit olan bir aritmetik dizinin ortak farkı sıfırdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit dizilerde terimler değişmediği için ardışık terimler arasındaki fark sıfır olur, bu yüzden ortak fark da sıfırdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Aritmetik dizinin genel terimi n değişkenine bağlı birinci dereceden bir polinomdur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "an = an + b biçimindeki lineer ifadeler aritmetik dizilerin genel terimidir ve n ye bağlı birinci derecedendir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir aritmetik dizide her terim, kendisinden hemen önceki ve hemen sonraki terimin aritmetik ortalamasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Aritmetik dizinin tanımı gereği her iç terim komşu iki terimin aritmetik ortalamasına eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "İlk terimi 1 ve ortak farkı 2 olan aritmetik dizinin üçüncü terimi 6 dır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "a1 = 1 ve r = 2 için a3 = a1 + 2r = 1 + 2 * 2 = 5 olur, 6 yanlıştır.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node3",
@@ -2063,7 +3036,198 @@
           "id": "node1",
           "order": 1,
           "title": "Limit Kavramı",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir fonksiyonun x a noktasındaki limitinin var olması için ne gereklidir?",
+                  "answer": "Soldan ve sağdan limitler birbirine eşit olmalıdır."
+                },
+                {
+                  "question": "f(x) fonksiyonunun x a'ya giderken limiti L ise, x a'ya eşit olmak zorunda mıdır?",
+                  "answer": "Hayır, f(a) tanımsız veya L'den farklı olabilir."
+                },
+                {
+                  "question": "Sabit bir c sayısının limiti nedir?",
+                  "answer": "Sabit sayının kendisidir, lim c = c."
+                },
+                {
+                  "question": "x değeri a'ya soldan yaklaşırken hangi sembol kullanılır?",
+                  "answer": "x -> a^-"
+                },
+                {
+                  "question": "Polinom fonksiyonlarda limit nasıl bulunur?",
+                  "answer": "Doğrudan nokta yerine yazılarak bulunur."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "f(x) = (x^2 - 4) / (x - 2) fonksiyonunun x 2'ye giderken limiti kaçtır?",
+                  "options": [
+                    "0",
+                    "Tanımsız",
+                    "4",
+                    "2"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "İfade çarpanlarına ayrılırsa (x-2)(x+2)/(x-2) olur. x yerine 2 yazıldığında sonuç 4 bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Parçalı bir f(x) fonksiyonunun x = a kritik noktasında limitinin olması için aşağıdakilerden hangisi şarttır?",
+                  "options": [
+                    "Fonksiyon sürekli olmalıdır",
+                    "f(a) tanımlı olmalıdır",
+                    "Türevi alınabilir olmalıdır",
+                    "Sol ve sağ limitler eşit olmalıdır"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Bir noktada limitin varlığı için sağ ve sol limitlerin birbirine eşit olması yeterlidir, o noktada tanımlı olması şart değildir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "lim (x -> 1^+) (1 / (x - 1)) ifadesinin sonucu nedir?",
+                  "options": [
+                    "1",
+                    "+sonsuz",
+                    "-sonsuz",
+                    "0"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "x, 1'e sağdan yaklaşırken payda sıfıra pozitif değerlerle yaklaşır, bu nedenle ifade +sonsuza gider.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "lim (x -> 0) (sin(x) / x) bilinen temel limitinin sonucu kaçtır?",
+                  "options": [
+                    "Sonsuz",
+                    "0",
+                    "1",
+                    "-1"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Trigonometrik limitlerin temel özelliklerinden biri olarak sin(x)/x oranının x sıfıra giderken limiti 1'dir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun bir noktada limitinin olabilmesi için o noktadaki sağ ve sol limitleri ____ olmalıdır.",
+                  "options": [
+                    "eşit"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Limitin varlık koşulu sağ ve sol limitin birbirine eşit olmasıdır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f(x) = |x| / x fonksiyonunun x sıfıra sağdan giderken limiti ____ tir.",
+                  "options": [
+                    "1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x pozitifken mutlak değer dışarı aynen çıkar ve x/x = 1 olur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Rasyonel fonksiyonlarda paydayı sıfıra yapan değerlerde belirsizlik durumundan kurtulmak için ____ yapılabilir.",
+                  "options": [
+                    "çarpanlara ayırma"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sıfır bölü sıfır belirsizliğini gidermek için çarpanlara ayırma veya sadeleştirme uygulanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "f fonksiyonunun x = a noktasındaki limiti L iken x, a'ya sol taraftan yaklaşırken kullanılan gösterim x -> a____ şeklindedir.",
+                  "options": [
+                    "^-"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Soldan yaklaşım üslü eksi işareti ile ifade edilir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Polinom fonksiyonlar her gerçek sayı için ____ olduğundan limitleri doğrudan yerine koyma ile bulunur.",
+                  "options": [
+                    "sürekli"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sürekli fonksiyonlarda limit değeri fonksiyonun o noktadaki değerine eşittir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir fonksiyonun x = a noktasında limitinin olması için fonksiyonun o noktada mutlaka tanımlı olması gerekir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Limit, fonksiyonun o noktaya yaklaşırken aldığı değerleri inceler; o noktada tanımlı olması gerekmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "lim (x -> 5) 7 = 7'dir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sabit fonksiyonların her noktadaki limiti sabitin kendisine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "x, a'ya yaklaşırken f(x) değerleri sürekli büyüyorsa bu limitin sonucu sonsuz olarak ifade edilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Fonksiyon değerleri sınırsız artıyorsa limit sonsuzdur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Mutlak değer fonksiyonlarının kritik noktalarında her zaman limit vardır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Kritik noktada sol ve sağ limitler farklı işaret verebilir, bu durumda limit yoktur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir fonksiyonun grafiğinde kopukluk (sıçrama) olan bir noktada sağ ve sağdan limitler farklıysa o noktada limit yoktur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Sağ ve sol limitlerin farklı olması limitin olmadığını gösterir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",

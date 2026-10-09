@@ -7885,7 +7885,7 @@
                   "question": "\"Yazıcı\" sözcüğü ile ilgili aşağıdaki yargılardan hangisi doğrudur?",
                   "options": [
                     "Sadece çekim eki almıştır.",
-                    "Basit yapilidir.",
+                    "Basit yapılıdır.",
                     "Türemiş yapılıdır ve fiilden isim yapım eki almıştır.",
                     "Birleşik yapılıdır."
                   ],
@@ -9487,7 +9487,210 @@
           "id": "node3",
           "order": 3,
           "title": "Anlamına Göre Cümleler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Olumlu cümle nedir?",
+                  "answer": "Yüklemde bildirilen işin, oluşun veya hareketin gerçekleştiğini ya da gerçekleşebileceğini bildiren cümlelerdir."
+                },
+                {
+                  "question": "Olumsuz cümle nedir?",
+                  "answer": "Yüklemde bildirilen yargının gerçekleşmediğini, gerçekleşemeyeceğini bildiren cümlelerdir."
+                },
+                {
+                  "question": "Anlamca olumlu, biçimce olumsuz cümlelere ne örnek verilebilir?",
+                  "answer": "Ne seni ne onu unuttum cümlesi biçimce olumsuz görünse de anlamca olumludur."
+                },
+                {
+                  "question": "Soru cümlesi sadece soru vasıtasıyla mı kurulur?",
+                  "answer": "Hayır, bazen cevap beklemeyen, duygu veya bilgi pekiştiren sözde soru cümleleri de kurulur."
+                },
+                {
+                  "question": "Ünlem cümlesi hangi anlamları içerebilir?",
+                  "answer": "Şaşma, korku, sevinç, acıma gibi ani duygusal patlamaları ve coşkuları bildiren cümlelerdir."
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi anlamca olumludur?",
+                  "options": [
+                    "Bu zor soruyu çözebilmiş değil.",
+                    "Sokağa çıkmamak için bahane arıyordu.",
+                    "Dün akşamki tiyatro oyununu beğenmedim değil.",
+                    "Bahçede ne ot var ne çimen."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Beğenmedim değil cümlesi iki olumsuzluk eki alarak anlamca beğeniyorum yani olumlu bir duruma dönüşmüştür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisi biçimce olumlu, anlamca olumsuzdur?",
+                  "options": [
+                    "Kapıyı açan kimse yoktu.",
+                    "Böyle bir hatayı nasıl yapar?",
+                    "Bu saatten sonra buraya geleceğini sanmam.",
+                    "Seni bu konuda uyardım."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Sanmam fiili olumsuzluk eki (ma/me) almıştır ve biçimce olumsuzdur ancak anlam olarak beklentinin olmadığını belirtir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi sözde soru cümlesidir?",
+                  "options": [
+                    "Sınav sonuçları açıklandı mı?",
+                    "Bugün manavdan ne aldın?",
+                    "Bu güzel manzarayı kim unutabilir?",
+                    "Akşamki toplantıya kaç kişi katıldı?"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bu güzel manzarayı kim unutabilir cümlesi bir cevap istemez, kimse unutamaz anlamı taşıyan sözde soru cümlesidir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerin hangisinde emir anlamı vardır?",
+                  "options": [
+                    "Bunu daha önce bana neden söylemedin?",
+                    "Hava kararmadan eve dönmeliyiz.",
+                    "Yarın erkenden burada olacaksın.",
+                    "Keşke biz de sizinle gelebilsek."
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Gelecek zaman kipiyle kurulmasına rağmen cümle karşı tarafa kesin bir buyruk, yani emir anlamı katmaktadır.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Aşağıdaki cümlelerden hangisi ünlem anlamı barındırmaz?",
+                  "options": [
+                    "Hava bugün oldukça rüzgarlı.",
+                    "Aferin, sınavda birinci olmuşsun!",
+                    "Vah zavallı kedi, çok üşümüş!",
+                    "Eyvah, anahtarı evde unuttum!"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Hava bugün oldukça rüzgarlı cümlesi bilgi veren düz bir cümle olup herhangi bir duygu veya ünlem barındırmaz.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Yükleminde bildirilen yargının gerçekleşmediğini bildiren cümlelere ____ cümle denir.",
+                  "options": [
+                    "olumsuz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yargının gerçekleşmediğini belirten cümlelerin temel adı olumsuz cümle olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Biçimce olumsuz olan bir cümlenin anlamca olumlu olması durumuna ____ denir.",
+                  "options": [
+                    "pekiştirme"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki olumsuzluk ekinin birleşmesiyle anlamın olumluya dönmesi durumudur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Cevap alma amacı güdülmeyen soru cümlelerine ____ soru cümlesi denir.",
+                  "options": [
+                    "sözde"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gerçek bir soru sormaktan ziyade duygu veya yargı bildiren cümleler sözde soru cümlesidir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dilek, istek veya tasarı bildiren cümleler ____ bildiren cümleler grubuna girer.",
+                  "options": [
+                    "tasarı"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Gerçekleşmesi istenen durumlar tasarı veya istek anlamı taşır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Yüklemi olumlu olduğu halde anlam olarak olumsuz olan cümleler ____ anlamlı cümlelerdir.",
+                  "options": [
+                    "olumsuz"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Biçim olumlu olsa da anlamın olumsuz olduğu durumlar bu kapsamdadır.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Tüm soru cümleleri mutlaka bir cevap bekler.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Sözde soru cümleleri cevap beklemek amacıyla kurulmaz, aksine duygu pekiştirir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Biçimce olumlu olan bir cümle her zaman anlamca da olumludur.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Biçimce olumlu olan bir cümle anlamca olumsuz olabilir, örneğin ne aradı ne sordu cümlesi.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Ünlem cümleleri sadece seslenme amacı güder.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ünlem cümleleri şaşırma, acıma, korku gibi birçok farklı duyguyu ifade edebilir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Emir cümleleri sadece emir kipiyle değil, gelecek zaman kipiyle de kurulabilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Yarın burada olacaksın cümlesi gelecek zaman kipiyle kurulsa da emir anlamı taşır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Olumlu cümleler sadece iyi ve güzel durumları bildiren cümlelerdir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Olumlu cümle, durumun iyi ya da kötü olmasına değil, gerçekleşip gerçekleşmediğine bakar.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },

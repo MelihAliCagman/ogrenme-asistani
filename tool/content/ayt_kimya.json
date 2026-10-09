@@ -1919,7 +1919,7 @@
                     "kritik"
                   ],
                   "correctIndex": 0,
-                  "explanation": "Kritik sıcaklık, maddelerin akışkan hallerini belirleyen ve gaz ile buhar kavramlarını ayıran temel sınırdır.",
+                  "explanation": "Kritik sıcaklık, maddelerin akışkan hâllerini belirleyen ve gaz ile buhar kavramlarını ayıran temel sınırdır.",
                   "type": "fillBlank"
                 },
                 {
@@ -3184,7 +3184,7 @@
                   "type": "trueFalse"
                 },
                 {
-                  "question": "Suyun gaz halinden sıvı haline geçişi ekzotermik bir olaydır.",
+                  "question": "Suyun gaz hâlinden sıvı hâline geçişi ekzotermik bir olaydır.",
                   "options": [
                     "Doğru",
                     "Yanlış"
@@ -3215,7 +3215,7 @@
                   "answer": "Sıfır."
                 },
                 {
-                  "question": "Hangi elementin doğadaki en kararlı halinin oluşum entalpisi sıfır değildir? (Örnek: Oksijen için O2 gazı)",
+                  "question": "Hangi elementin doğadaki en kararlı hâlinin oluşum entalpisi sıfır değildir? (Örnek: Oksijen için O2 gazı)",
                   "answer": "O3 (Ozon) gazının oluşum entalpisi sıfırdan farklıdır çünkü elementin en kararlı hali değildir."
                 },
                 {
@@ -3996,7 +3996,7 @@
               "title": "Test 1",
               "questions": [
                 {
-                  "question": "Aşağıdakilerden hangisi kimyasal denge halinin özelliklerinden biri değildir?",
+                  "question": "Aşağıdakilerden hangisi kimyasal denge hâlinin özelliklerinden biri değildir?",
                   "options": [
                     "Sistem kapalıdır.",
                     "İleri ve geri tepkime hızları eşittir.",

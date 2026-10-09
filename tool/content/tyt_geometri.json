@@ -1053,7 +1053,180 @@
           "id": "node4",
           "order": 4,
           "title": "Üçgende Açıortay ve Kenarortay",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir üçgende üç iç açıortay nerede kesişir?",
+                  "answer": "İç teğet çemberin merkezinde"
+                },
+                {
+                  "question": "Üçgende kenarortayların kesişim noktasına ne ad verilir?",
+                  "answer": "Ağırlık merkezi"
+                },
+                {
+                  "question": "Ağırlık merkezi kenarortayı hangi oranlarda böler?",
+                  "answer": "Köşeye 2 kat, kenara 1 kat (2k ya k)"
+                },
+                {
+                  "question": "İkizkenar üçgende tepe açısına ait açıortay aynı zamanda nedir?",
+                  "answer": "Kenarortay ve yükseklik"
+                },
+                {
+                  "question": "Bir üçgende kenarortay uzunluklarının kesiştiği nokta ile ilgili temel kural nedir?",
+                  "answer": "Üç kenarortay bir noktada kesişir ve bu nokta ağırlık merkezidir"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "G noktası ABC üçgeninin ağırlık merkezidir. AG kenarortay üzerinde ve AG = 10 cm olduğuna göre bu kenarortayın tamamı kaç santimetredir?",
+                  "options": [
+                    "20",
+                    "18",
+                    "15",
+                    "12"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Ağırlık merkezi kenarortayı köşeden kenara 2'ye 1 oranında böler. AG = 2k = 10 ise k = 5 olur. Kenarortayın tamamı 3k = 3 * 5 = 15 cm'dir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir ABC üçgeninde iç açıortayların kesişim noktası I noktasıdır. A açısı 70 derece olduğuna göre BIC açısının ölçüsü kaç derecedir?",
+                  "options": [
+                    "145",
+                    "125",
+                    "115",
+                    "135"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç açıortayların kesişim noktasında oluşan açının formülü m(BIC) = 90 + m(A)/2 şeklindedir. m(BIC) = 90 + 70/2 = 90 + 35 = 125 derece bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Çeşitkenar bir ABC üçgeninde aşağıdakilerden hangisi daima ağırlık merkezinden geçer?",
+                  "options": [
+                    "İç açıortaylar",
+                    "Kenar orta dikmeler",
+                    "Yükseklikler",
+                    "Kenarortaylar"
+                  ],
+                  "correctIndex": 3,
+                  "explanation": "Kenarortayların kesişim noktası üçgenin ağırlık merkezidir. İç açıortaylar iç teğet çemberin merkezinde, yükseklikler diklik merkezinde, kenar orta dikmeler ise çevrel çemberin merkezinde kesişir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "ABC üçgeninde [AD] kenarortaydır. G ağırlık merkezidir. AD kenarortayının uzunluğu 18 cm olduğuna göre GD uzunluğu kaç santimetredir?",
+                  "options": [
+                    "8",
+                    "6",
+                    "9",
+                    "12"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Ağırlık merkezi kenarortayı köşeye 2 birim, kenara 1 birim olarak böler. Kenarortayın tamamı 3 birimdir (3k = 18 ise k = 6). GD kenara yakın kısım olduğu için 1 birim yani 6 cm'dir.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Üçgenin iç açıortayları bir noktada kesişir ve bu nokta iç teğet çemberin ____ olur.",
+                  "options": [
+                    "merkezi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İç açıortayların kesişim noktası, üçgenin iç bölgesine çizilebilecek en büyük daire olan iç teğet çemberin merkezini oluşturur.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Ağırlık merkezi kenarortayı köşeden kenara doğru ____ oranında böler.",
+                  "options": [
+                    "2 ye 1"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Ağırlık merkezinin temel özelliği, köşeye olan uzaklığın kenara olan uzaklığın iki katı olmasıdır (2k / k oranı).",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir üçgende dış açıortayların kesiştiği nokta dış teğet çemberlerden birinin ____tir.",
+                  "options": [
+                    "merkezi"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "İki dış açıortay ile bir iç açıortayın kesiştiği noktalar, üçgenin dış teğet çemberlerinin merkezlerini oluşturur.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Her üçgenin ağırlık merkezi daima üçgenin iç bölgesindedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Üçgenin türü (dar, dik veya geniş açılı) ne olursa olsun kenarortaylar üçgenin içinde kesişir ve ağırlık merkezi daima iç bölgededir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Dik üçgende kenarortaylar dış bölgede kesişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Tüm üçgenlerde olduğu gibi dik üçgende de kenarortaylar üçgenin iç bölgesinde kesişir. Yanlış bir bilgidir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir üçgende açıortay üzerindeki herhangi bir noktadan açının kollarına çizilen dikmelerin uzunlukları eşittir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Açıortayın temel teoremine göre, açı üzerindeki bir noktadan kollara indirilen dikme uzunlukları birbirine eşittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Eşkenar üçgende yükseklik aynı zamanda açıortay ve kenarortaydır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Eşkenar üçgen tüm kenar ve açılarda simetrik olduğu için yardımcı elemanlar birbirinin aynısıdır.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Kenarortay uzunluğu her zaman o kenara ait yükseklikten daha kısadır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Bu ifade her zaman doğru değildir; üçgenin açarlığına ve çeşidine göre kenarortay yükseklikten uzun ya da kısa olabilir.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node5",
@@ -1257,7 +1430,198 @@
           "id": "node1",
           "order": 1,
           "title": "Çokgenler",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Bir dış bükey n-genin iç açılarının toplamı nasıl hesaplanır?",
+                  "answer": "(n - 2) * 180 derece"
+                },
+                {
+                  "question": "Herhangi dış bükey bir çokgenin dış açılarının ölçüleri toplamı kaç derecedir?",
+                  "answer": "360 derece"
+                },
+                {
+                  "question": "n kenarlı bir çokgende bir köşeden kaç tane köşegen çizilebilir?",
+                  "answer": "n - 3"
+                },
+                {
+                  "question": "n kenarlı bir çokgenin tüm köşelerinden toplam kaç tane köşegen çizilebilir?",
+                  "answer": "n * (n - 3) / 2"
+                },
+                {
+                  "question": "Düzgün beşgenin bir dış açısı kaç derecedir?",
+                  "answer": "72 derece"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Bir dış açısının ölçüsü 40 derece olan düzgün bir çokgenin kenar sayısı kaçtır?",
+                  "options": [
+                    "10",
+                    "7",
+                    "8",
+                    "9"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düzgün çokgenlerde dış açılar toplamı 360 derecedir. Kenar sayısı 360 / 40 = 9 olarak bulunur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir köşesinden en çok 5 köşegen çizilebilen dış bükey çokgenin kenar sayısı kaçtır?",
+                  "options": [
+                    "8",
+                    "7",
+                    "9",
+                    "6"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Bir köşeden çizilebilen köşegen sayısı n - 3 formülüyle bulunur. n - 3 = 5 denkleminden n = 8 elde edilir.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Dış bükey bir altıgenin bir köşesinden çizilen köşegenler, bu altıgeni kaç adet üçgene ayırır?",
+                  "options": [
+                    "3",
+                    "6",
+                    "4",
+                    "5"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "n kenarlı bir çokgen bir köşesinden çizilen köşegenler sayesinde n - 2 tane üçgene ayrılır. Altıgen için 6 - 2 = 4 üçgen oluşur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "Bir dış açısı 60 derece olan düzgün çokgenin çevre uzunluğu 30 cm ise bir kenar uzunluğu kaç cm'dir?",
+                  "options": [
+                    "3",
+                    "5",
+                    "6",
+                    "10"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dış açısı 60 derece olan çokgen 360 / 60 = 6 kenarlıdır. Çevre 30 cm ise bir kenar 30 / 6 = 5 cm olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Tüm kenar uzunlukları ve iç açılarının ölçüleri birbirine eşit olan çokgenlere ____ çokgen denir.",
+                  "options": [
+                    "düzgün"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Tanım gereği bütün kenarları ve açıları eşit olan çokgenler düzgün çokgen olarak adlandırılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Dış bükey bir çokgenin dış açılarının ölçüleri toplamı her zaman ____ derecedir.",
+                  "options": [
+                    "360"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Kenar sayısı ne olursa olsun tüm dış bükey çokgenlerin dış açılar toplamı sabittir ve 360 derecedir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "On kenarlı bir çokgenin iç açılarının ölçüleri toplamı ____ derecedir.",
+                  "options": [
+                    "1440"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "(10 - 2) * 180 = 8 * 180 = 1440 formülü ile hesaplanır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Komşu olmayan iki köşeyi birleştiren doğru parçasına ____ denir.",
+                  "options": [
+                    "köşegen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Çokgenlerde ardışık olmayan iki köşeyi birleştiren doğru parçası köşegendir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Üç kenarlı en küçük çokgene ____ denir.",
+                  "options": [
+                    "üçgen"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Geometride en az üç kenarla kapalı alan oluşturulabilir ve bu şekil üçgendir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Dış bükey bir sekizgenin bir köşesinden 5 tane köşegen çizilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "n kenarlı bir çokgende bir köşeden n - 3 köşegen çizilir. Sekizgen için 8 - 3 = 5 doğrudur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Düzgün yedigenin iç açılarından birinin ölçüsü tam sayı olarak ifade edilebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Düzgün yedigenin iç açılar toplamı 900 derecedir. 900 sayısı 7'ye tam bölünmediği için bir iç açı tam sayı olmaz.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir çokgenin kenar sayısı arttıkça bir dış açısının ölçüsü küçülür.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Dış açı 360 / n formülüyle bulunur. n arttıkça sonuç küçülür.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Tüm iç açılarının ölçüleri 180 dereceden büyük olan çokgenlere dış bükey çokgen denir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "İç açılarından en az biri 180 dereceden büyük olan çokgenler iç bükey (konkav) çokgendir, dış bükey değildir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Düzgün altıgenin bir iç açısı 120 derecedir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Düzgün altıgenin dış açısı 360 / 6 = 60 derecedir. İç açı ise 180 - 60 = 120 derece olur.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "node2",

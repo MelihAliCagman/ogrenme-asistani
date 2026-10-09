@@ -1755,7 +1755,189 @@
           "id": "node2",
           "order": 2,
           "title": "Dönme ve Simetri",
-          "estimatedMinutes": 15
+          "estimatedMinutes": 15,
+          "flashcards": [
+            {
+              "title": "Kart Seti 1",
+              "cards": [
+                {
+                  "question": "Analitik düzlemde bir noktanın orijin etrafında saat yönünün tersine 90 derece döndürülmesiyle hangi dönüşüm elde edilir?",
+                  "answer": "P(x, y) noktası P'(-y, x) noktasına dönüşür."
+                },
+                {
+                  "question": "Bir A(x, y) noktasının x eksenine göre simetriği hangi noktadır?",
+                  "answer": "A'(x, -y)"
+                },
+                {
+                  "question": "Analitik düzlemde bir P(x, y) noktasının orijin etrafında 180 derece döndürülmesiyle elde edilen nokta nedir?",
+                  "answer": "P'(-x, -y)"
+                },
+                {
+                  "question": "Bir noktanın y = x doğrusuna göre simetriği alınırken koordinatlara ne yapılır?",
+                  "answer": "x ve y koordinatlarının yerleri değiştirilir, yani (y, x) olur."
+                },
+                {
+                  "question": "Orijin etrafında saat yönünün tersine 270 derece döndürülen P(x, y) noktasının yeni koordinatları nedir?",
+                  "answer": "P'(y, -x)"
+                }
+              ]
+            }
+          ],
+          "multipleChoice": [
+            {
+              "title": "Test 1",
+              "questions": [
+                {
+                  "question": "Analitik düzlemde A(2, 3) noktasının orijin etrafında pozitif yönde (saat yönünün tersine) 90 derece döndürülmesiyle elde edilen noktanın koordinatları toplamı kaçtır?",
+                  "options": [
+                    "-1",
+                    "5",
+                    "1",
+                    "3"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "A(x, y) noktası 90 derece döndürüldüğünde (-y, x) olur. A(2, 3) noktası (-3, 2) noktasına dönüşür. Bu koordinatların toplamı -3 + 2 = -1'dir. Şıkları kontrol ettiğimizde doğru cevap 1 değil -1 olmalıdır, ancak seçenekler arasında -1 vardır (C şıkkı).",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "B(-4, 5) noktasının y eksenine göre simetriği olan nokta aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(4, -5)",
+                    "(5, -4)",
+                    "(4, 5)",
+                    "(-4, -5)"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bir noktanın y eksenine göre simetriği alınırken x koordinatının işaret değiştirir, y koordinatı aynen kalır. B(-4, 5) noktasının y eksenine göre simetriği (4, 5) olur.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "C(3, -2) noktasının orijin etrafında 180 derece döndürülmesiyle elde edilen nokta aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(3, 2)",
+                    "(-3, 2)",
+                    "(2, -3)",
+                    "(-3, -2)"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Orijin etrafında 180 derece döndürme işleminde noktanın her iki koordinatı da işaret değiştirir. C(3, -2) noktası (-3, 2) noktasına dönüşür.",
+                  "type": "multipleChoice"
+                },
+                {
+                  "question": "D(1, 4) noktasının y = x doğrusuna göre simetriği olan nokta aşağıdakilerden hangisidir?",
+                  "options": [
+                    "(-4, -1)",
+                    "(-1, -4)",
+                    "(4, 1)",
+                    "(1, -4)"
+                  ],
+                  "correctIndex": 2,
+                  "explanation": "Bir noktanın y = x doğrusuna göre simetriği alınırken x ve y koordinatlarının yerleri değiştirilir. D(1, 4) noktasının y = x doğrusuna göre simetriği (4, 1) olur.",
+                  "type": "multipleChoice"
+                }
+              ]
+            }
+          ],
+          "fillBlank": [
+            {
+              "title": "Boşluk Doldurma 1",
+              "questions": [
+                {
+                  "question": "Analitik düzlemde bir noktanın x eksenine göre simetriği alınırken ____ koordinatı işaret değiştirir.",
+                  "options": [
+                    "y"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x eksenine göre simetri alırken apsis (x) sabit kalır, ordinat (y) işaret değiştirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir noktanın orijin etrafında 360 derece döndürülmesiyle elde edilen nokta, noktanın ____ kendisidir.",
+                  "options": [
+                    "kendisidir"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "360 derecelik tam bir tur, şekli veya noktayı başlangıçtaki konumuna getirir.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "A(x, y) noktasının y = -x doğrusuna göre simetriği olan nokta ____ şeklindedir.",
+                  "options": [
+                    "(-y, -x)"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "y = -x doğrusuna göre simetri alırken hem yer değiştirme hem de işaret değiştirme yapılır.",
+                  "type": "fillBlank"
+                },
+                {
+                  "question": "Bir noktanın orijine göre simetriği, o noktanın orijin etrafında ____ derece döndürülmesiyle aynı sonuç verir.",
+                  "options": [
+                    "180"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre simetri almak, noktayı 180 derece döndürmekle tamamen aynı analitik sonucu verir.",
+                  "type": "fillBlank"
+                }
+              ]
+            }
+          ],
+          "trueFalse": [
+            {
+              "title": "Doğru/Yanlış 1",
+              "questions": [
+                {
+                  "question": "Bir noktanın orijine göre simetriği alınırken hem x hem de y koordinatı işaret değiştirir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "Orijine göre simetri (0,0) noktasına göre yapıldığı için P(x, y) noktası P'(-x, -y) olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Analitik düzlemde bir şeklin yansıması alındığında boyutu ve alanı değişir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Yansıma ve dönme birer izometri (uzunluk koruyan dönüşüm) olduğundan şeklin alanı, çevresi ve kenar uzunlukları değişmez.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Bir K(5, -3) noktasının x eksenine göre simetriği K'(5, 3) noktasıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 0,
+                  "explanation": "x eksenine göre simetri alınırken y koordinatı işaret değiştirir, x aynen kalır. -3 sayısı 3 olur.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "Orijin etrafında yapılan dönme hareketlerinde noktanın orijine olan uzaklığı değişebilir.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "Dönme hareketi çember üzerinden yapıldığı için noktanın merkeze (orijine) olan uzaklığı daima sabittir.",
+                  "type": "trueFalse"
+                },
+                {
+                  "question": "A(2, 4) noktasının y = x doğrusuna göre simetriği ile 90 derece döndürülmesi sonucu elde edilen nokta aynıdır.",
+                  "options": [
+                    "Doğru",
+                    "Yanlış"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": "y = x doğrusuna göre simetri (4, 2) yapar; 90 derece döndürme ise (-4, 2) yapar, bu yüzden aynı değildirler.",
+                  "type": "trueFalse"
+                }
+              ]
+            }
+          ]
         }
       ]
     },

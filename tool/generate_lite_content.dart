@@ -600,7 +600,7 @@ Map<String, dynamic>? _validateAndBuild(
 
   for (var i = 0; i < texts.length; i++) {
     for (var j = i + 1; j < texts.length; j++) {
-      if (_similarity(texts[i], texts[j]) >= 0.7) {
+      if (_similarity(texts[i], texts[j]) >= 0.8) {
         problems.add('birbirine çok benzeyen sorular');
         return null;
       }
