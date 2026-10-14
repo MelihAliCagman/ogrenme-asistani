@@ -61,3 +61,5 @@ tool/logs/
 
 docs/staj_defteri*.md
 docs/mulakat_hazirlik.md
+CLAUDE.md
+.claude/
